@@ -190,7 +190,7 @@ Click the `Send` tab on the left. For amount, select, `.002` AVAX. Enter the add
 
 ![](../.gitbook/assets/1%20%281%29.png)
 
-.We can check an address’s balance of a given asset by calling `avm.getBalance`, another method of the X-Chain’s API. Let’s check that the transfer went through:
+We can check an address’s balance of a given asset by calling `avm.getBalance`, another method of the X-Chain’s API. Let’s check that the transfer went through:
 
 ```text
 curl -X POST --data '{
