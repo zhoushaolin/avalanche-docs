@@ -12,7 +12,7 @@ You've completed [Getting Started](../../getting-started.md) and are familiar wi
 
 ## Create the Asset
 
-Our asset will exist on the [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), so to create our asset we’ll call `avm.createFixedCapAsset`, a method of the [X-Chain’s API](../../apis/exchange-chain-x-chain-api.md).
+Our asset will exist on the [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), so to create our asset we’ll call [`avm.createFixedCapAsset`](../../apis/exchange-chain-x-chain-api.md#avm-createfixedcapasset), a method of the [X-Chain’s API](../../apis/exchange-chain-x-chain-api.md).
 
 The signature for this method is:
 

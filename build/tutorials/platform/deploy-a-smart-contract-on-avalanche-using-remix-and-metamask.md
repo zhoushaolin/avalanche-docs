@@ -77,5 +77,5 @@ Now, we can expand it by selecting it from the “Deployed Contracts” tab and 
 
 The contract ABI and Bytecode are available on the compiler tab.
 
-If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
+If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community on [Discord](https://chat.avalabs.org/)!
 

@@ -114,7 +114,7 @@ curl -X POST --data '{
 
 ### Getting the chain ID
 
-Not well documented in JSON-RPC references. See instead [EIP694](https://github.com/ethereum/EIPs/issues/694)
+Not well documented in JSON-RPC references. See instead [EIP694](https://github.com/ethereum/EIPs/issues/694).
 
 #### **Example Call**
 
