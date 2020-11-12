@@ -6,7 +6,9 @@ The [Primary Network](http://support.avalabs.org/en/articles/4135650-what-is-the
 
 The P-Chain manages metadata on Avalanche. This includes tracking which nodes are in which subnets, which blockchains exist, and which subnets are validating which blockchains. To add a validator, we’ll issue [transactions](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) to the P-Chain.
 
+{% hint style="danger" %}
 Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, browse the [Developer FAQ's](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
+{% endhint %}
 
 ## Requirements
 
@@ -18,9 +20,11 @@ In order to ensure your node is well-connected, make sure that your node can rec
 
 First, we show you how to add your node as a validator by using [Avalanche Wallet](https://wallet.avax.network).
 
-Get your node’s ID by calling [`info.getNodeID`](../../apis/info-api.md#info-getnodeid):
+Get your node’s ID by calling [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid): 
 
-```text
+![](../../../.gitbook/assets/1-1.png)
+
+```cpp
 curl -X POST --data '{
     "jsonrpc":"2.0",
     "id"     :1,
@@ -30,7 +34,7 @@ curl -X POST --data '{
 
 The response has your node’s ID:
 
-```text
+```cpp
 {
     "jsonrpc": "2.0",
     "result": {
@@ -40,31 +44,31 @@ The response has your node’s ID:
 }
 ```
 
-Open [the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`. 
+Open [the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
 
-![Fill in staking parameters](https://docs.avax.network/images/tutorials/adding-validators/2.png)
+![](../../../.gitbook/assets/2.png)
 
 Fill out the staking parameters. They are explained in more detail below. When you’ve filled in all the staking parameters and double-checked them, click `Confirm`. Make sure the staking period is at least 2 weeks, the delegation fee rate is at least 2%, and you’re staking at least 2,000 AVAX.
 
 {% page-ref page="../../../learn/platform-overview/staking.md" %}
 
-![Confirm transaction](https://docs.avax.network/images/tutorials/adding-validators/3.png)
+![](../../../.gitbook/assets/3.png)
 
 You should see this success message, and your balance should be updated.
 
-![Success message](https://docs.avax.network/images/tutorials/adding-validators/4.png)
+![](../../../.gitbook/assets/4.png)
 
 Calling [`platform.getPendingValidators`](../../apis/platform-chain-p-chain-api.md#platform-getpendingvalidators) verifies that our transaction was accepted.
 
-![Call getPendingValidators](https://docs.avax.network/images/tutorials/adding-validators/5.png)
+![](../../../.gitbook/assets/5.png)
 
 Go back to the `Earn` tab, and click `Estimated Rewards`.
 
-![Click estimated reward](https://docs.avax.network/images/tutorials/adding-validators/6.png)
+![](../../../.gitbook/assets/6.png)
 
 Once your validator’s start time has passed, you will see the rewards it may earn, as well as its start time, end time, and the percentage of its validation period that has passed.
 
-![See validator](https://docs.avax.network/images/tutorials/adding-validators/7.png)
+![](../../../.gitbook/assets/7.png)
 
 That’s it!
 
@@ -74,7 +78,7 @@ We can also add a node to the validator set by making API calls to our node. To 
 
 This method’s signature is:
 
-```text
+```cpp
 platform.addValidator(
     {
         nodeID: string,
@@ -96,7 +100,7 @@ Let’s go through and examine these arguments.
 
 This is the node ID of the validator being added. To get your node’s ID, call [`info.getNodeID`](../../apis/info-api.md#info-getnodeid):
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "info.getNodeID",
@@ -107,7 +111,7 @@ curl -X POST --data '{
 
 The response has your node’s ID:
 
-```text
+```cpp
 {
     "jsonrpc": "2.0",
     "result": {
@@ -145,7 +149,7 @@ These parameters are the username and password of the user that pays the transac
 
 Now let’s issue the transaction. We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\) In this example we stake 2,000 AVAX \(2 x 1012 nAVAX\).
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.addValidator",
@@ -166,7 +170,7 @@ curl -X POST --data '{
 
 The response has the transaction ID, as well as the address the change went to.
 
-```text
+```cpp
 {
     "jsonrpc": "2.0",
     "result": {
@@ -179,7 +183,7 @@ The response has the transaction ID, as well as the address the change went to.
 
 We can check the transaction’s status by calling [`platform.getTxStatus`](../../apis/platform-chain-p-chain-api.md#platform-gettxstatus):
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.getTxStatus",
@@ -192,7 +196,7 @@ curl -X POST --data '{
 
 The status should be `Committed`, meaning the transaction was successful. We can call [`platform.getPendingValidators`](../../apis/platform-chain-p-chain-api.md#platform-getpendingvalidators) and see that the node is now in the pending validator set for the Primary Network:
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.getPendingValidators",
@@ -203,7 +207,7 @@ curl -X POST --data '{
 
 The response should include the node we just added:
 
-```text
+```cpp
 {
     "jsonrpc": "2.0",
     "result": {
@@ -232,7 +236,7 @@ Suppose that the Subnet has ID `nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWv
 
 To add the validator, we’ll call API method [`platform.addSubnetValidator`](../../apis/platform-chain-p-chain-api.md#platform-addsubnetvalidator). Its signature is:
 
-```text
+```cpp
 platform.addSubnetValidator(
     {
         nodeID: string,
@@ -275,7 +279,7 @@ These parameters are the username and password of the user that pays the transac
 
 We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.addSubnetValidator",
@@ -295,7 +299,7 @@ curl -X POST --data '{
 
 The response has the transaction ID, as well as the address the change went to.
 
-```text
+```cpp
 {
     "jsonrpc": "2.0",
     "result": {
@@ -308,7 +312,7 @@ The response has the transaction ID, as well as the address the change went to.
 
 We can check the transaction’s status by calling [`platform.getTxStatus`](../../apis/platform-chain-p-chain-api.md#platform-gettxstatus):
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.getTxStatus",
@@ -321,7 +325,7 @@ curl -X POST --data '{
 
 The status should be `Committed`, meaning the transaction was successful. We can call [`platform.getPendingValidators`](../../apis/platform-chain-p-chain-api.md#platform-getpendingvalidators) and see that the node is now in the pending validator set for the Primary Network. This time, we specify the subnet ID:
 
-```text
+```cpp
 curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.getPendingValidators",
@@ -332,7 +336,7 @@ curl -X POST --data '{
 
 The response should include the node we just added:
 
-```text
+```cpp
 {
     "jsonrpc": "2.0",
     "result": {

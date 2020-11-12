@@ -9,6 +9,7 @@
   * [Transaction Fees](learn/platform-overview/transaction-fees.md)
 * [Blockchain Basics](https://support.avalabs.org/en/collections/2353492-blockchain-basics)
 * [FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq)
+* [Forum](https://forum.avax.network)
 * [Community](learn/community.md)
 
 ## Build
@@ -37,6 +38,7 @@
   * [Platform Chain \(P-Chain\) API](build/apis/platform-chain-p-chain-api.md)
   * [Contract Chain \(C-Chain\) API](build/apis/contract-chain-c-chain-api.md)
   * [Exchange Chain \(X-Chain\) API](build/apis/exchange-chain-x-chain-api.md)
+  * [Deprecated API Calls](build/apis/deprecated-api-calls.md)
   * [Admin API](build/apis/admin-api.md)
   * [Auth API](build/apis/auth-api.md)
   * [Health API](build/apis/health-api.md)
