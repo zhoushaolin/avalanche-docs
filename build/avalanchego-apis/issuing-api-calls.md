@@ -23,7 +23,7 @@ Several built-in APIs use the [JSON RPC 2.0](https://www.jsonrpc.org/specificati
 
 ### Making a JSON RPC Request
 
-Suppose we want to call the `getTxStatus` method of the [X-Chain API](exchange-chain-x-chain-api.md). The X-Chain API documentation tells us that the endpoint for this API is `/ext/bc/X`.
+Suppose we want to call the `getTxStatus` method of the [X-Chain API](). The X-Chain API documentation tells us that the endpoint for this API is `/ext/bc/X`.
 
 That means that the endpoint we send our API call to is:
 

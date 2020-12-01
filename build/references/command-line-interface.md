@@ -31,11 +31,11 @@ If set to `false`, this node will not expose the Admin API. Defaults to `false`.
 
 `--api-auth-required` \(boolean\):
 
-If set to `true`, API calls require an authorization token. Defaults to `false`. See [here](../avalanchego-apis/auth-api) for more information.
+If set to `true`, API calls require an authorization token. Defaults to `false`. See [here](https://github.com/ava-labs/avalanche-docs/tree/bf68d22ddeb61d14663de69d8ec6b33d5f3d692b/build/avalanchego-apis/auth-api/README.md) for more information.
 
 `--api-auth-password` \(string\):
 
-The password needed to create/revoke authorization tokens. If `--api-auth-required=true`, must be specified; otherwise ignored. See [here](../avalanchego-apis/auth-api) for more information.
+The password needed to create/revoke authorization tokens. If `--api-auth-required=true`, must be specified; otherwise ignored. See [here](https://github.com/ava-labs/avalanche-docs/tree/bf68d22ddeb61d14663de69d8ec6b33d5f3d692b/build/avalanchego-apis/auth-api/README.md) for more information.
 
 `--api-health-enabled` \(boolean\):
 
