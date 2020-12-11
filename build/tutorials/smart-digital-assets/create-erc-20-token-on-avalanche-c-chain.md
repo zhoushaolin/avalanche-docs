@@ -22,7 +22,7 @@ Now, we need to set these boxes with correct values.
 
 * **Network Name**: Avalanche C-Chain
 * **New RPC URL**:
-* http://localhost:9650/ext/bc/C/rpc for **Local Testnet**
+* [http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc) for **Local Testnet**
 * [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc) for **Fuji Testnet**
 * [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) for **Mainnet**
 * **ChainID**:
