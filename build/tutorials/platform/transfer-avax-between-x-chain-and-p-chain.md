@@ -331,8 +331,6 @@ Note: there is no transaction fee for import transactions to the C Chain.
 
 Once your AVAX has been transferred to the C-Chain, you can immediately begin running smart contracts.
 
-{% page-ref page="../smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
-
 ## Export AVAX from the C-Chain to the X-Chain
 
 Now, you can move AVAX back from the C-Chain to the X-Chain
