@@ -27,11 +27,11 @@ It is also _highly_ recommended that we set up Multi-Factor Authentication on ou
 
 Once completed, we can begin creating our EC2 instance. EC2 is a service provided by AWS to enable AWS users to launch virtual machine instances in the cloud. These virtual machines are small computing environments running an Operating System of your choice. To enter the EC2 panel after logging into AWS, click the EC2 link on the management console.
 
-![](../../../.gitbook/assets/image%20%2816%29.png)
+![](../../../.gitbook/assets/AWS-Management-Console.png)
 
 ## Create AWS Key Pairs <a id="d2a5"></a>
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/Network-and-Security.png)
 
 To log in to our node’s instance on AWS, we must download key pairs from AWS which will grant us access to our host. Key pair files are used by programs like OpenSSH or PuTTy to access our hosts. We’re going to first generate this key pair so that we can assign it to our AWS instance later in the tutorial. We begin by selecting the Key Pairs link on the sidebar of the EC2 console.
 
