@@ -6,9 +6,9 @@ description: >-
 
 # Deprecated API Calls
 
-### P-Chain API
+## P-Chain API
 
-#### `getCurrentValidators`
+### `getCurrentValidators`
 
 In v1.0.0, the signature is:
 
