@@ -4,8 +4,7 @@ The quickest way to learn about Avalanche is to run a node and interact with the
 
 {% embed url="https://youtu.be/c\_SjtCiOFdg" %}
 
-In this tutorial \(est. time: 10 minutes\), we will:
-
+In this tutorial \(est. time: 10 minutes\), we will:我们将：
 * Install and run an Avalanche node
 * Connect to Avalanche
 * Send AVAX
@@ -368,3 +367,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 
 {% page-ref page="references/" %}
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk5MjYzOTEzNl19
+-->
