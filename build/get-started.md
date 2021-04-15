@@ -6,7 +6,8 @@
 
 在本教程中 \(预计时间: 10 分钟\), 我们将:
 * 安装并运行一个Avalanche节点
-* 连接到Get Started: Run an Avalanche Node
+* 连接到
+* Get Started: Run an Avalanche Node
 
 The quickest way to learn about Avalanche is to run a node and interact with the network.
 
@@ -377,6 +378,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyOD
-QxMzI2NV19
+eyJoaXN0b3J5IjpbLTQ5NzQ2MzkwMywtMzM5OTczNjU1LDExNz
+cxMDI4NjQsOTI4NDEzMjY1XX0=
 -->
