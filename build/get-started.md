@@ -93,13 +93,13 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 ./build/avalanchego
 ```
 
-If you are using the pre-built binaries on MacOS:
+如果您在Mac操作系统上使用预构建的二进制程序：
 
 ```cpp
 ./avalanchego-<VERSION>/build/avalanchego
 ```
 
-If you are using the pre-built binaries on Linux:
+如果您在Linux系统上使用预构建的二进制程序：
 
 ```cpp
 ./avalanchego-<VERSION>-linux/avalanchego
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjY4MjU4MywtMTc0ODgzNzUyNCwtOT
-cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
-MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
-wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
-NTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNj
-VdfQ==
+eyJoaXN0b3J5IjpbLTQxOTM3MTIyLC0xNzQ4ODM3NTI0LC05Nz
+E3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMy
+MzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC
+03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1
+MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQxMzI2NV
+19
 -->
