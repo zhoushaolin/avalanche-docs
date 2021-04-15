@@ -205,9 +205,9 @@ _**注意事项：转移资金指南如下**_
 
 把Avalanche钱包中的资金转到节点上。
 
-访问 [Avalanche 钱包](https://wallet.avax.network). 点击 `Access Wallet`, then `Mnemonic Key Phrase`. Enter your mnemonic phrase.
+访问 [Avalanche 钱包](https://wallet.avax.network). 点击 `Access Wallet`, 然后点击 `Mnemonic Key Phrase`. 输入您的助记词。
 
-Click the `Send` tab on the left. For amount, select, `.002` AVAX. Enter the address of your node, then click `Confirm`.
+点击左侧的 `Send`jian. For amount, select, `.002` AVAX. Enter the address of your node, then click `Confirm`.
 
 ![web wallet send tab](../.gitbook/assets/web-wallet-send-tab%20%284%29%20%284%29%20%285%29%20%285%29%20%286%29%20%287%29%20%284%29%20%281%29%20%289%29.png)
 
@@ -358,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM2MTM2NzcsLTEzNDk4NTY5NzcsMT
-g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
-MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
-ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
-OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5Nz
-M2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbMTA1NjMzNTA4MiwtMTM0OTg1Njk3NywxOD
+QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
+MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
+wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
+ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3Mz
+Y1NSwxMTc3MTAyODY0LDkyODQxMzI2NV19
 -->
