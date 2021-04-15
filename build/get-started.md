@@ -273,7 +273,7 @@ curl -X POST --data '{
 
 当您发送此请求时，该节点会通过您的用户名和密码核实您的身份。然后，该节点会检查您的用户账号控制下的所有[private keys](http://support.avalabs.org/en/articles/4587058-what-are-public-and-private-keys) ，直至找到足够的AVAX来满足此请求。
 
-响应包含交易ID。每次调用“发送”都会有所不同。
+响应包含交易ID。每次调用`send`都会有所不同。
 The response contains the transaction’s ID. It will be different for every invocation of `send`.
 
 ```cpp
@@ -287,9 +287,10 @@ The response contains the transaction’s ID. It will be different for every inv
 }
 ```
 
-#### Checking the Transaction Status
+#### 检查交易状态
 
-This transaction will only take a second or two to finalize. We can check its status with [`avm.getTxStatus`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
+该交易仅需一两秒即可完成。我们可以使用[`avm.getTxStatus`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来:
+This transaction will only take a second or two to finalize. We can check its status with
 
 ```cpp
 curl -X POST --data '{
@@ -357,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxODA4NDI2LC0xMzQ5ODU2OTc3LDE4ND
-E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
-MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
-0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
-NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNj
-U1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbLTg1NzY0NDA2NywtMTM0OTg1Njk3NywxOD
+QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
+MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
+wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
+ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3Mz
+Y1NSwxMTc3MTAyODY0LDkyODQxMzI2NV19
 -->
