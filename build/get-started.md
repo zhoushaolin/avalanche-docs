@@ -136,7 +136,7 @@ curl -X POST --data '{
 [faucet.](https://faucet.avax-test.network/)在测试网上获得资金。
 
 ### 创建 Keystore 用户
-Avalanche节点提供了一个内置**Keystore**。**Keystore**对用户进行管理，而且很像一个 [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。**由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建**Keystore**用户。**如果要创建用户，请调用[`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
+Avalanche节点提供了一个内置**Keystore**。**Keystore**对用户进行管理，而且很像一个 [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。**由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建Keystore用户**。如果要创建用户，请调用[`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
 
 ```cpp
 curl -X POST --data '{
@@ -150,7 +150,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-The response should be:
+回应应当是:
 
 ```cpp
 {
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNTU3NTUsMTg0MTg4OTU5NSwtMTc0OD
-gzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2
-MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMT
-Y2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3
-NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NC
-w5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbNDM1NTU0NDI3LDE4NDE4ODk1OTUsLTE3ND
+g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
+NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
+E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
+NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
+QsOTI4NDEzMjY1XX0=
 -->
