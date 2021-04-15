@@ -73,9 +73,9 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 如果是Mac操作系统:  
 下载: `avalanchego-macos-<VERSION>.zip`  
 解压: `unzip avalanchego-macos-<VERSION>.zip`  
-生成的文件夹, `avalanchego-<VERSION>`, contains the binaries.
+生成的文件夹, `avalanchego-<VERSION>`, 包含就二进制程序。
 
-For Linux on PCs or cloud providers:  
+如果是个人电脑或云供应商的Linux系统：:  
 Download: `avalanchego-linux-amd64-<VERSION>.tar.gz`  
 Unzip: `tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
 The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
@@ -363,7 +363,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjgzNDU1OCwtMTc0ODgzNzUyNCwtOT
+eyJoaXN0b3J5IjpbMTQ0NTc1MzgxMCwtMTc0ODgzNzUyNCwtOT
 cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
 MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
 wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
