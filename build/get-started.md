@@ -121,8 +121,10 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 如果反馈“真”，则链完成引导。如果您向一个未完成引导的链进行API调用，则该链会反馈“因为链未完成引导，所以API调用遭拒”。如果您的节点并未完成引导, 请遵循
-[this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping)的引导,  如果您还有问题，请通过[Discord]联系我们。
+[this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping)的引导,  如果您还有问题，请通过[Discord](https://chat.avalabs.org/)联系我们。
 
+当前您的节点正在运行且已连接。如果您想在主网上将您的节点用作验证程序，请查看 [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) 以了解如何使用web钱包将节点添加为验证程序。
+[教程] (tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet)，以了解如何使用web钱包将节点添加为验证程序。
 Your node is running and connected now. If you want to use your node as a validator on the main net, check out [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
 
 You can use `Ctrl + C` to kill the node.
@@ -362,10 +364,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIxMjM4ODksMTg0MTg4OTU5NSwtMT
-c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
-OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
-AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
-MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMj
-g2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbNTg1NjA1MTE5LDE4NDE4ODk1OTUsLTE3ND
+g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
+NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
+E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
+NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
+QsOTI4NDEzMjY1XX0=
 -->
