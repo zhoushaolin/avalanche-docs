@@ -120,8 +120,8 @@ curl -X POST --data '{
     }
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
-如果反馈“真”，则链完成引导。如果您向一个未完成引导的链进行API调用，则该链会反馈“因为链未完成引导，所以API调用遭拒”。如果您的节点并未完成引导
-[this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping), if you are still experiencing issues please contact us on [Discord.](https://chat.avalabs.org/)
+如果反馈“真”，则链完成引导。如果您向一个未完成引导的链进行API调用，则该链会反馈“因为链未完成引导，所以API调用遭拒”。如果您的节点并未完成引导, 请遵循
+[this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping)的引导,  如果您还有问题，请通过[Discord]联系我们。
 
 Your node is running and connected now. If you want to use your node as a validator on the main net, check out [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
 
@@ -362,10 +362,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxODg1OTY4LDE4NDE4ODk1OTUsLTE3ND
-g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
-NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
-E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
-NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
-QsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbLTIwNzIxMjM4ODksMTg0MTg4OTU5NSwtMT
+c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
+OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
+AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
+MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMj
+g2NCw5Mjg0MTMyNjVdfQ==
 -->
