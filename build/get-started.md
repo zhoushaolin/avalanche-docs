@@ -196,12 +196,11 @@ curl -X POST --data '{
     }
 }
 ```
-目前您的用户可以控制X链上的地址`X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` 。为了区分不同链上的地址，Avalanche约定是用于包含其所在链的ID或别名的一个地址。因此，地址的开头是“X-”，说明其存在于X链上。
-Your user now controls the address on the X-Chain. To tell apart addresses on different chains, the Avalanche convention is for an address to include the ID or alias of the chain it exists on. Hence, this address begins `X-`, denoting that it exists on the X-Chain.
+目前您的用户可以控制X链上的地址`X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` 。为了区分不同链上的地址，Avalanche约定是用于包含其所在链的ID或别名的一个地址。因此，如果地址的开头是“X-”，说明其存在于X链上。
 
-### Send Funds From Avalanche Wallet to Your Node
+### 从Avalanche钱包向节点发送资金
 
-{% hint style="warning" %}
+
 _**Note: the instructions below move real funds.**_
 {% endhint %}
 
@@ -360,10 +359,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk4NTY5NzcsMTg0MTg4OTU5NSwtMT
-c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
-OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
-AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
-MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMj
-g2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzk2NDQ4ODMsLTEzNDk4NTY5NzcsMT
+g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
+MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
+ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
+OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5Nz
+M2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
 -->
