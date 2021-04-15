@@ -267,7 +267,7 @@ curl -X POST --data '{
 
 `amount` 规定了需要发送的nAVAX数量。
 
-如果您想要指定一个特定地址，您可以在`changeAddr`中进行修改。您可空白此字段；如果您空白了，则如有任何更改，均会显示在您的用户账号控制下的其中一个地址。If you want to specify a particular address where change should go, you can specify it in `changeAddr`. You can leave this field empty; if you do, any change will go to one of the addresses your user controls.
+如果您想要指定一个特定地址，您可以在`changeAddr`中进行修改。您也可以将其留空, 这样的话，如有任何更改，均会显示在您的用户账号控制下的其中一个地址。If you want to specify a particular address where change should go, you can specify it in `changeAddr`. You can leave this field empty; if you do, any change will go to one of the addresses your user controls.
 
 In order to prevent spam, Avalanche requires the payment of a transaction fee. The transaction fee will be automatically deducted from an address controlled by your user when you issue a transaction. Keep that in mind when you’re checking balances below.
 
@@ -358,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODgwNTEwMCwtMTM0OTg1Njk3NywxOD
-QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
-MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
-wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
-ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3Mz
-Y1NSwxMTc3MTAyODY0LDkyODQxMzI2NV19
+eyJoaXN0b3J5IjpbMzM3Mjg1ODk2LC0xMzQ5ODU2OTc3LDE4ND
+E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
+MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
+0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
+NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNj
+U1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
 -->
