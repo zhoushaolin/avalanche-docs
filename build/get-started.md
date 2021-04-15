@@ -26,9 +26,9 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 * 硬件: CPU &gt; 2 GHz, 运行内存 &gt; 4 GB, 储存容量 &gt; 10 GB free space
 * 操作系统: Ubuntu 18.04/20.04 或 MacOS &gt;= Catalina
 
-## Run an Avalanche Node and Send Funds
+## 运行Avalanche节点和发送资金
 
-Let’s install AvalancheGo, the Go implementation of an Avalanche node, and connect to the Avalanche Public Testnet.
+安装 AvalancheGo, the Go implementation of an Avalanche node, and connect to the Avalanche Public Testnet.
 
 ### Download AvalancheGo
 
@@ -365,7 +365,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTExODM1NCwxMTM5Mjc5NjYwLDE4MD
+eyJoaXN0b3J5IjpbLTQyODc0Mzg2NSwxMTM5Mjc5NjYwLDE4MD
 I2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1
 MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC
 03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQx
