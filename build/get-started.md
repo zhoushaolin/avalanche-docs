@@ -20,7 +20,8 @@
 {% endhint %}
 
 本教程主要面向开发人员和对Avalanche平台如何运行感兴趣的人士。如果您只是对设置质押节点感兴趣，您可以查询[通过安装程序设置Avalanche节点]教程(tutorials/nodes-and-staking/set-up-node-with-installer.md)。安装程序自动化安装过程并将其设置为一项系统服务，该安装方式推荐用于无人值守操作。您也可以先根据本教程进行尝试，然后永久使用安装程序来设置节点。
-This tutorial is primarily geared toward developers and people interested in how the Avalanche Platform works. If you're just interested in setting up a node for staking, you may want to follow the [Set Up Avalanche Node With Installer](tutorials/nodes-and-staking/set-up-node-with-installer.md) tutorial instead. Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
+安装程序会自动执行安装过程，并将其设置为系统服务，建议无人参与操作。 您也可以先按照本教程进行操作，然后再使用安装程序作为永久解决方案来设置节点，以进行尝试。
+ Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
 
 
 
@@ -370,6 +371,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMz
-M5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC03MD
+A1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQxMzI2
+NV19
 -->
