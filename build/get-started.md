@@ -129,6 +129,7 @@ curl -X POST --data '{
 
 如果您想要实验并使用您的节点，请继续阅读。
 
+为了能够从其他计算机对您的节点进行API调用，在启动节点时，请包含参数
 To be able to make API calls to your node from other machines, when starting up the node include argument `--http-host=` \(e.g. `./build/avalanchego --http-host=`\)
 
 To connect to the Fuji Testnet instead of the main net, use argument `--network-id=fuji`. You can get funds on the Testnet from the [faucet.](https://faucet.avax-test.network/)
@@ -362,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MTMzMTU4LDE4NDE4ODk1OTUsLTE3ND
-g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
-NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
-E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
-NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
-QsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbMTY4MDUyNzAxNywxODQxODg5NTk1LC0xNz
+Q4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5
+NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MC
+wxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQx
+Mjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyOD
+Y0LDkyODQxMzI2NV19
 -->
