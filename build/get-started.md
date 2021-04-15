@@ -211,7 +211,7 @@ _**注意事项：转移资金指南如下**_
 
 ![web wallet send tab](../.gitbook/assets/web-wallet-send-tab%20%284%29%20%284%29%20%285%29%20%285%29%20%286%29%20%287%29%20%284%29%20%281%29%20%289%29.png)
 
-通过调用`avm.getBalance`查询余额”（X链API的另一种方法），检查一下转账是否成功：We can check an address’s balance of a given asset by calling, another method of the X-Chain’s API. Let’s check that the transfer went through:
+通过调用`avm.getBalance`查询余额”（X链API的另一种方法），检查一下转账是否成功：
 
 ```cpp
 curl -X POST --data '{
@@ -225,7 +225,8 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-Note that AVAX has the special ID `AVAX`. Usually an asset ID is an alphanumeric string.
+请注意，AVAX有一个特殊ID`AVAX`。通常来说，一个资产ID是一个字母数字串。
+Note that AVAX has the special ID Usually an asset ID is an alphanumeric string.
 
 The response should indicate that we have `2,000,000 nAVAX` or `0.002 AVAX`.
 
@@ -358,7 +359,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTcyOTkxMiwtMTM0OTg1Njk3NywxOD
+eyJoaXN0b3J5IjpbMTQ1NDQ2Nzc4OCwtMTM0OTg1Njk3NywxOD
 QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
 MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
 wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
