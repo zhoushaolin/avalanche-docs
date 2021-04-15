@@ -1,4 +1,4 @@
-# Get Started: Run an Avalanche Node
+#准备开始：运行Avalanche节点
 
 The quickest way to learn about Avalanche is to run a node and interact with the network.
 
@@ -368,5 +368,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbMTQ0MDM1NjM5LDkyODQxMzI2NV19
 -->
