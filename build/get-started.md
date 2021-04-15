@@ -68,12 +68,12 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 
 如果您想要下载一个预构建的二进制程序，而不是自己构建，请访问[releases page](https://github.com/ava-labs/avalanchego/releases), 并选择您需要的版本\(可能是最新版本.\)
 
-“资产”项下，请选择适当的文件。
+在“资产”目录下，请选择适当的文件。
 
-For MacOS:  
-Download: `avalanchego-macos-<VERSION>.zip`  
-Unzip: `unzip avalanchego-macos-<VERSION>.zip`  
-The resulting folder, `avalanchego-<VERSION>`, contains the binaries.
+如果是Mac操作系统:  
+下载: `avalanchego-macos-<VERSION>.zip`  
+解压: `unzip avalanchego-macos-<VERSION>.zip`  
+生成的文件夹, `avalanchego-<VERSION>`, contains the binaries.
 
 For Linux on PCs or cloud providers:  
 Download: `avalanchego-linux-amd64-<VERSION>.tar.gz`  
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYyMjcyNzgsLTE3NDg4Mzc1MjQsLT
-k3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0
-MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwND
-gsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcw
-MDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMj
-Y1XX0=
+eyJoaXN0b3J5IjpbMTI2MjgzNDU1OCwtMTc0ODgzNzUyNCwtOT
+cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
+MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
+wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
+NTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNj
+VdfQ==
 -->
