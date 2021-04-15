@@ -203,10 +203,9 @@ curl -X POST --data '{
 
 _**注意事项：转移资金指南如下**_
 
+把Avalanche钱包中的资金转到节点上。
 
-来把Avalanche钱包中的资金转到节点上。
-
-Go to [Avalanche Wallet](https://wallet.avax.network). Click `Access Wallet`, then `Mnemonic Key Phrase`. Enter your mnemonic phrase.
+访问 [Avalanche 钱包](https://wallet.avax.network). 点击 `Access Wallet`, then `Mnemonic Key Phrase`. Enter your mnemonic phrase.
 
 Click the `Send` tab on the left. For amount, select, `.002` AVAX. Enter the address of your node, then click `Confirm`.
 
@@ -359,7 +358,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzgzNTIwMzUsLTEzNDk4NTY5NzcsMT
+eyJoaXN0b3J5IjpbLTE2NDM2MTM2NzcsLTEzNDk4NTY5NzcsMT
 g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
 MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
 ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
