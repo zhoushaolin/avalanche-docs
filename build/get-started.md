@@ -159,8 +159,7 @@ curl -X POST --data '{
      "id":1
 }
 ```
-目前，该节点上您有一个用户账号。节点层面上存在Keystore数据。您在一个节点密钥库里创建的用户在其他节点上不存在，但是您可以将用户导入/导出到密钥库。如需了解如何使用，请查阅 [密钥库API] (avalanchego-apis/keystore-api.md)。
-Now, you have a user on this node. Keystore data exists at the node level. Users you create on one node’s Keystore do not exist on other nodes but you can import/export users to/from the Keystore. See the [Keystore API](avalanchego-apis/keystore-api.md) to see how.
+目前，该节点上您有一个用户账号。节点层面上存在Keystore数据。您在一个节点密钥库里创建的用户在其他节点上不存在，但是您可以将用户导入/导出到密钥库。如何操作，请查阅[Keystore API](avalanchego-apis/keystore-api.md) 。
 
 {% hint style="danger" %}
 **You should only keep a small amount of your funds on your node.** Most of your funds should be secured by a mnemonic that is not saved to any computer.
@@ -363,10 +362,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ4MjE4MzYsMTg0MTg4OTU5NSwtMT
-c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
-OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
-AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
-MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMj
-g2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbNDAwNzYwMDcwLDE4NDE4ODk1OTUsLTE3ND
+g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
+NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
+E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
+NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
+QsOTI4NDEzMjY1XX0=
 -->
