@@ -80,14 +80,14 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 解压: `tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
 生成的文件夹`avalanchego-<VERSION>-linux`包含二进制程序。
 
-For Linux on RaspberryPi4 or similar Arm64-based computers:  
-Download: `avalanchego-linux-arm64-<VERSION>.tar.gz`  
-Unzip: `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
-The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
+如果是树莓派4或类似Arm64系统电脑的Linux系统： 
+下载: `avalanchego-linux-arm64-<VERSION>.tar.gz`  
+解压: `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
+生成的文件夹`avalanchego-<VERSION>-linux`包含二进制程序。
 
-### Start a Node, and Connect to Avalanche
+### 启动一个节点，并连接到Avalanche
 
-If you built from source:
+如果您根据源代码进行构建:
 
 ```cpp
 ./build/avalanchego
@@ -363,7 +363,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjU5Mjk3MiwtMTc0ODgzNzUyNCwtOT
+eyJoaXN0b3J5IjpbLTIyNjY4MjU4MywtMTc0ODgzNzUyNCwtOT
 cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
 MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
 wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
