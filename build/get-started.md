@@ -30,8 +30,9 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 
 安装 AvalancheGo（即Avalanche节点的GO安装启用）, 并连接到Avalanche公测网。
 
-### Download AvalancheGo
+### 下载 AvalancheGo
 
+该节点是一个二进制程序。您可以在下载源代码后构建二进制程序，也可以下载预构建的二进制程序。二者选其一即可。
 The node is a binary program. You can either download the source code and then build the binary program, or you can download the pre-built binary. You don’t need to do both.
 
 Downloading [pre-built binary](get-started.md#binary) is easier and recommended if you're just looking to run your own node and stake on it.
@@ -365,7 +366,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDA2MDcwNiwxMTM5Mjc5NjYwLDE4MD
+eyJoaXN0b3J5IjpbLTE1ODYxMDE4MywxMTM5Mjc5NjYwLDE4MD
 I2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1
 MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC
 03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQx
