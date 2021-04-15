@@ -11,7 +11,7 @@
 * 将节点添加到验证程序集合
 
 {% hint style="warning" %}
-如果您的问题在FAQ中未能解决, 请在[Avalanche Discord]([https://chat.avax.network](https://chat.avax.network))！我们会帮助您解决任何困难。(https://chat.avax.network)! We will work to get you through any obstacles.
+如果您的问题在FAQ中未能解决, 请在[Avalanche Discord]([https://chat.avax.network]中寻求帮助！我们会帮助您解决任何困难。
 {% endhint %}
 
 {% hint style="info" %}
@@ -368,6 +368,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjMxOTExNCwtMzM5OTczNjU1LDExNz
-cxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbNjQwNjMxMTQ5LC0zMzk5NzM2NTUsMTE3Nz
+EwMjg2NCw5Mjg0MTMyNjVdfQ==
 -->
