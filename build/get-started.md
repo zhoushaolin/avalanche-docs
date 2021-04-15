@@ -7,8 +7,8 @@
 在本教程中 \(预计时间: 10 分钟\), 我们将:
 * 安装并运行一个Avalanche节点
 * 连接到Avalanche
-* Send AVAX
-* Add your node to the validator set
+* 发送AVAX
+* 将节点添加到验证程序集合
 
 {% hint style="warning" %}
 If your issue isn’t addressed in the FAQ, come ask for help in the [Avalanche Discord](https://chat.avax.network)! We will work to get you through any obstacles.
@@ -368,5 +368,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTEwNjcxNSw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
 -->
