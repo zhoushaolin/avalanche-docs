@@ -12,7 +12,7 @@
 
 {% hint style="warning" %}
 如果您的问题在FAQ中未能解决, 请在[Avalanche Discord](https://chat.avax.network/)!
-[https://chat.avax.network]中寻求帮助！我们会帮助您解决任何困难。
+中寻求帮助！我们会帮助您解决任何困难。
 {% endhint %}
 
 {% hint style="info" %}
@@ -373,7 +373,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTExOTUwOSwtNzg2MDY0NDcwLDU5OT
+eyJoaXN0b3J5IjpbMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OT
 g1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2
 NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
 -->
