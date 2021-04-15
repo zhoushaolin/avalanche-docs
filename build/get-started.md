@@ -211,7 +211,7 @@ _**注意事项：转移资金指南如下**_
 
 ![web wallet send tab](../.gitbook/assets/web-wallet-send-tab%20%284%29%20%284%29%20%285%29%20%285%29%20%286%29%20%287%29%20%284%29%20%281%29%20%289%29.png)
 
-通过调用“avm.查询余额”（另一种X链API方法），我们可以检查地址的给定资产余额。检查一下转账是否成功：We can check an address’s balance of a given asset by calling `avm.getBalance`, another method of the X-Chain’s API. Let’s check that the transfer went through:
+通过调用`avm.getBalance`查询余额”（X链API的另一种方法），检查一下转账是否成功：We can check an address’s balance of a given asset by calling, another method of the X-Chain’s API. Let’s check that the transfer went through:
 
 ```cpp
 curl -X POST --data '{
@@ -358,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NTQxODkwLC0xMzQ5ODU2OTc3LDE4ND
-E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
-MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
-0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
-NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNj
-U1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbMTE5OTcyOTkxMiwtMTM0OTg1Njk3NywxOD
+QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
+MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
+wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
+ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3Mz
+Y1NSwxMTc3MTAyODY0LDkyODQxMzI2NV19
 -->
