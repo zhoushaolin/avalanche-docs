@@ -28,8 +28,7 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 
 ## 运行Avalanche节点和发送资金
 
-安装 AvalancheGo（即Avalanche节点的GO安装启用）
- the Go implementation of an Avalanche node, and connect to the Avalanche Public Testnet.
+安装 AvalancheGo（即Avalanche节点的GO安装启用）, 并连接到Avalanche公测网。
 
 ### Download AvalancheGo
 
@@ -366,9 +365,9 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMDQxNTMwLDExMzkyNzk2NjAsMTgwMj
-Y0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUw
-NDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLT
-cwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEz
-MjY1XX0=
+eyJoaXN0b3J5IjpbLTk3NDA2MDcwNiwxMTM5Mjc5NjYwLDE4MD
+I2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1
+MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC
+03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQx
+MzI2NV19
 -->
