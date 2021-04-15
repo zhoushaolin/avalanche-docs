@@ -16,7 +16,7 @@
 
 {% hint style="info" %}
 如果您对使用第三方帮你托管节点或运行验证器感兴趣, 您可以查看以下网站。
-[check out the options] https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services(https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services).
+[https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services] 
 {% endhint %}
 
 This tutorial is primarily geared toward developers and people interested in how the Avalanche Platform works. If you're just interested in setting up a node for staking, you may want to follow the [Set Up Avalanche Node With Installer](tutorials/nodes-and-staking/set-up-node-with-installer.md) tutorial instead. Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
@@ -369,6 +369,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNz
-cxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbLTEwMTMxMzM1NTcsLTcwMDUwMzY3NSwtMz
+M5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
 -->
