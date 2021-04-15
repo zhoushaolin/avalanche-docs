@@ -289,8 +289,7 @@ The response contains the transaction’s ID. It will be different for every inv
 
 #### 检查交易状态
 
-该交易仅需一两秒即可完成。我们可以使用[`avm.getTxStatus`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来:
-This transaction will only take a second or two to finalize. We can check its status with
+该交易仅需一两秒即可完成。我们可以使用[`avm.getTxStatus`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来检查交易状态:
 
 ```cpp
 curl -X POST --data '{
@@ -303,7 +302,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should indicate that the transaction was accepted:
+响应应表明该交易已接受：
 
 ```cpp
 {
@@ -314,8 +313,8 @@ The response should indicate that the transaction was accepted:
     }
 }
 ```
-
-You might also see that `status` is `Processing` if the network has not yet finalized the transaction.
+如果网络尚未完成交易，您可能会看到`status`是`Processing`。
+You might also see that is  if the network has not yet finalized the transaction.
 
 Once you see that the transaction is `Accepted`, check the balance of the `to` address to see that it has the AVAX we sent:
 
@@ -358,7 +357,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzY0NDA2NywtMTM0OTg1Njk3NywxOD
+eyJoaXN0b3J5IjpbMTYzMjc0NzAzMywtMTM0OTg1Njk3NywxOD
 QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
 MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
 wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
