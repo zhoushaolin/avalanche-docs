@@ -226,9 +226,8 @@ curl -X POST --data '{
 ```
 
 请注意，AVAX有一个特殊ID`AVAX`。通常来说，一个资产ID是一个字母数字串。
-Note that AVAX has the special ID Usually an asset ID is an alphanumeric string.
 
-The response should indicate that we have `2,000,000 nAVAX` or `0.002 AVAX`.
+响应应表明我们拥有`2,000,000 nAVAX` 或者`0.002 AVAX`.
 
 ```cpp
 {
@@ -246,9 +245,9 @@ The response should indicate that we have `2,000,000 nAVAX` or `0.002 AVAX`.
 }
 ```
 
-### Send AVAX
+### 发送AVAX
 
-Now, let’s send some AVAX by making an API call to our node:
+现在，让我们向我们的节点进行一次API调用，然后发送一些AVAX吧。Now, let’s send some AVAX by making an API call to our node:
 
 ```cpp
 curl -X POST --data '{
@@ -359,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDQ2Nzc4OCwtMTM0OTg1Njk3NywxOD
-QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
-MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
-wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
-ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3Mz
-Y1NSwxMTc3MTAyODY0LDkyODQxMzI2NV19
+eyJoaXN0b3J5IjpbNjc4NDgyNzM3LC0xMzQ5ODU2OTc3LDE4ND
+E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
+MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
+0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
+NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNj
+U1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
 -->
