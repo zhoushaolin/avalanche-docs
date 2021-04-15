@@ -165,6 +165,8 @@ curl -X POST --data '{
 
 ### 创建地址
 
+Avalanche是一个异构区块链平台，其中包括 [X-链](../learn/platform-overview/#exchange-chain-x-chain)其作用是创建和交易数字资产的去中心化平台。
+[X链]是其中一种(../learn/platform-overview/#exchange-chain-x-chain)，目前，我们要创建地址来保存节点上的AVAX。
 Avalanche is a platform of heterogeneous blockchains, one of which is the [X-Chain](../learn/platform-overview/#exchange-chain-x-chain), which acts as a decentralized platform for creating and trading digital assets. We are now going to create an address to hold AVAX on our node.
 
 To create a new address on the X-Chain, call [`avm.createAddress`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-createaddress), a method of the [X-Chain’s API](avalanchego-apis/exchange-chain-x-chain-api.md):
@@ -360,7 +362,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk0NzM0ODEsMTg0MTg4OTU5NSwtMT
+eyJoaXN0b3J5IjpbLTE3NTc0NzY2OTMsMTg0MTg4OTU5NSwtMT
 c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
 OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
 AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
