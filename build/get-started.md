@@ -104,8 +104,7 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 ```cpp
 ./avalanchego-<VERSION>-linux/avalanchego
 ```
-
-When the node starts, it has to bootstrap \(catch up with the rest of the network\). You will see logs about bootstrapping. When a given chain is done bootstrapping, it will print a log like this:
+节点启动时，它必须进行引导\(与网络的其他部分保持同步\)。您会看到有关引导的日志。当一个给定链完成了引导，则会打印出如下一份日志：
 
 `INFO [06-07|19:54:06] <X Chain> /snow/engine/avalanche/transitive.go#80: bootstrapping finished with 1 vertices in the accepted frontier`
 
@@ -363,10 +362,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTM3MTIyLC0xNzQ4ODM3NTI0LC05Nz
-E3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMy
-MzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC
-03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1
-MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQxMzI2NV
-19
+eyJoaXN0b3J5IjpbODc1ODIxMTAsLTE3NDg4Mzc1MjQsLTk3MT
+c3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0MzIz
+NSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLT
+c4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUw
+MzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX
+0=
 -->
