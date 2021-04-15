@@ -34,7 +34,7 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 
 该节点是一个二进制程序。您可以在下载源代码后构建二进制程序，也可以下载预构建的二进制程序。二者选其一即可。‘、
 
-Downloading [pre-built binary](get-started.md#binary) is easier and recommended if you're just looking to run your own node and stake on it.
+如果您只是想要运行您自己的节点并对其进行质押，则更推荐下载[pre-built binary](get-started.md#binary) 
 
 Building the node from source is recommended if you're a developer looking to experiment and build on Avalanche.
 
@@ -365,9 +365,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMT
-U4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIz
-MTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MC
-w1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5
-OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbMjg0NDQyMDk4LC0xNzQ4ODM3NTI0LC05Nz
+E3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMy
+MzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC
+03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1
+MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQxMzI2NV
+19
 -->
