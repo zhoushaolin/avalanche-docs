@@ -6,9 +6,18 @@
 
 在本教程中 \(预计时间: 10 分钟\), 我们将:
 * 安装并运行一个Avalanche节点
-* 连接到Avalanche
-* 发送AVAX
-* 将节点添加到验证程序集合
+* 连接到Get Started: Run an Avalanche Node
+
+The quickest way to learn about Avalanche is to run a node and interact with the network.
+
+{% embed url="https://youtu.be/c\_SjtCiOFdg" %}
+
+In this tutorial \(est. time: 10 minutes\), we will:
+
+* Install and run an Avalanche node
+* Connect to Avalanche
+* 发送Send AVAX
+* 将节点添加到验证程序集合Add your node to the validator set
 
 {% hint style="warning" %}
 If your issue isn’t addressed in the FAQ, come ask for help in the [Avalanche Discord](https://chat.avax.network)! We will work to get you through any obstacles.
@@ -368,5 +377,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyOD
+QxMzI2NV19
 -->
