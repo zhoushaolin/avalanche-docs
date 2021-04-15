@@ -56,13 +56,13 @@ go get -v -d github.com/ava-labs/avalanchego/...
 ```cpp
 cd $GOPATH/src/github.com/ava-labs/avalanchego
 ```
-Build AvalancheGo:
+构建 AvalancheGo:
 
 ```cpp
 ./scripts/build.sh
 ```
 
-The binary, named `avalanchego`, is in `avalanchego/build`.
+二进制程序`avalanchego`, is in `avalanchego/build`.
 
 #### **Binary**
 
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTQwMjM3NCwtMTc0ODgzNzUyNCwtOT
-cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
-MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
-wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
-NTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNj
-VdfQ==
+eyJoaXN0b3J5IjpbOTE2NTgxMzYsLTE3NDg4Mzc1MjQsLTk3MT
+c3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0MzIz
+NSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLT
+c4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUw
+MzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX
+0=
 -->
