@@ -68,7 +68,7 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 
 如果您想要下载一个预构建的二进制程序，而不是自己构建，请访问[releases page](https://github.com/ava-labs/avalanchego/releases), 并选择您需要的版本\(可能是最新版本.\)
 
-Under `Assets`, select the appropriate file.
+“资产”项下，请选择适当的文件。
 
 For MacOS:  
 Download: `avalanchego-macos-<VERSION>.zip`  
@@ -363,7 +363,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI3OTk1NjAsLTE3NDg4Mzc1MjQsLT
+eyJoaXN0b3J5IjpbLTE1MzYyMjcyNzgsLTE3NDg4Mzc1MjQsLT
 k3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0
 MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwND
 gsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcw
