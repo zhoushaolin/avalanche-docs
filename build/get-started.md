@@ -23,7 +23,7 @@
 
 Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求不高。
 最低要求如下:
-* Hardware: CPU &gt; 2 GHz, RAM &gt; 4 GB, Storage &gt; 10 GB free space
+* 硬件: CPU &gt; 2 GHz, 内存 &gt; 4 GB, Storage &gt; 10 GB free space
 * OS: Ubuntu 18.04/20.04 or MacOS &gt;= Catalina
 
 ## Run an Avalanche Node and Send Funds
@@ -365,7 +365,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzY0Mzc1NiwtMTUwNTU5MTk2MCwxNj
+eyJoaXN0b3J5IjpbLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNj
 YzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1
 NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LD
 kyODQxMzI2NV19
