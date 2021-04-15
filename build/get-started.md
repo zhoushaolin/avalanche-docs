@@ -331,7 +331,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should be:
+响应应当是：
 
 ```cpp
 {
@@ -342,7 +342,7 @@ The response should be:
     }
 }
 ```
-
+同样地，我们可以检查`X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75`, 以查看我们发送的AVAX和交易费用是否已从其余额中扣除。
 In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` to see that AVAX we sent was deducted from its balance, as well as the transaction fee.
 
 {% page-ref page="tutorials/nodes-and-staking/add-a-validator.md" %}
@@ -358,7 +358,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI5ODEyNzYsLTEzNDk4NTY5NzcsMT
+eyJoaXN0b3J5IjpbLTE2NjcyOTg3NDUsLTEzNDk4NTY5NzcsMT
 g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
 MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
 ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
