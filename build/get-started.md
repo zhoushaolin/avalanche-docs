@@ -11,12 +11,8 @@
 *  发送Send AVAX
 * 将节点添加到验证程序集合
 
-{% hint style="warning" %}
-如果您的问题在FAQ中未能解决, 请在[Avalanche Discord](https://chat.avax.network/)!
-中寻求帮助！我们会帮助您解决任何困难。
-{% endhint %}
+如果您的问题在FAQ中未能解决, 请在[Avalanche Discord](https://chat.avax.network/)中寻求帮助！我们会帮助您解决一切难题。
 
-{% hint style="info" %}
 如果您对使用第三方帮你托管节点或运行验证器感兴趣, 您可以查看以下网站。
 [https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services] 
 {% endhint %}
@@ -374,8 +370,8 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNz
-g2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAz
-Njc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ
-==
+eyJoaXN0b3J5IjpbMjEzOTA5NTcyNCwtMTUwNTU5MTk2MCwxNj
+YzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1
+NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LD
+kyODQxMzI2NV19
 -->
