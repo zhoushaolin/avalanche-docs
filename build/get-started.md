@@ -66,7 +66,7 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 
 #### **二进制**
 
-If you want to download a pre-built binary instead of building it yourself, go to our [releases page](https://github.com/ava-labs/avalanchego/releases), and select the release you want \(probably the latest one.\)
+如果您想要下载一个预构建的二进制程序，而不是自己构建，请访问[releases page](https://github.com/ava-labs/avalanchego/releases), 并选择您需要的版本\(可能是最新版本.\)
 
 Under `Assets`, select the appropriate file.
 
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODAxODg3NiwtMTc0ODgzNzUyNCwtOT
-cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
-MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
-wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
-NTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNj
-VdfQ==
+eyJoaXN0b3J5IjpbLTEzMDI3OTk1NjAsLTE3NDg4Mzc1MjQsLT
+k3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0
+MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwND
+gsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcw
+MDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMj
+Y1XX0=
 -->
