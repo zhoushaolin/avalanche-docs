@@ -168,7 +168,7 @@ curl -X POST --data '{
 Avalanche是一个异构区块链平台，其中包括 [X-链](../learn/platform-overview/#exchange-chain-x-chain), 是一个创建和交易数字资产的去中心化平台。
 现在，我们要在节点上创建一个地址来质押AVAX。
 
-在X链上创建一个新地址，请调用[`avm.createAddress`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-createaddress), 这是 [X-Chain’s API](avalanchego-apis/exchange-chain-x-chain-api.md):
+在X链上创建一个新地址，请调用[`avm.createAddress`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-createaddress), 即是 [X-Chain’s API](avalanchego-apis/exchange-chain-x-chain-api.md)的一个路径:
 
 ```cpp
 curl -X POST --data '{
@@ -181,7 +181,7 @@ curl -X POST --data '{
     }
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
-
+如果您的节点未完成引导，则此次调用会返回“503”状态，并附信息“由于链未完成引导，因此API调用遭拒”
 If your node isn’t finished bootstrapping, this call will return status `503` with message `API call rejected because chain is not done bootstrapping`.
 
 Note that we make this request to `127.0.0.1:9650/ext/bc/X`. The `bc/X` portion signifies that the request is being sent to the blockchain whose ID \(or alias\) is `X` \(i.e., the X-Chain\).
@@ -361,10 +361,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjY0NDQ4OCwxODQxODg5NTk1LC0xNz
-Q4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5
-NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MC
-wxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQx
-Mjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyOD
-Y0LDkyODQxMzI2NV19
+eyJoaXN0b3J5IjpbLTEyOTExMTIzOTMsMTg0MTg4OTU5NSwtMT
+c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
+OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
+AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
+MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMj
+g2NCw5Mjg0MTMyNjVdfQ==
 -->
