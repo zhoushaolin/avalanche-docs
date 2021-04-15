@@ -42,7 +42,7 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循指示, [点击此处](https://golang.org/doc/install)。
 
 
-运行Go . 版本至少是1.15.5 或者更高** Run `echo $GOPATH`. **It should not be empty.**
+运行Go, 版本至少是1.15.5 或者更高, 运行`echo $GOPATH`, 不应空白。
 
 Download the AvalancheGo repository:
 
@@ -365,7 +365,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTEwMDA0MjcsLTE3NDg4Mzc1MjQsLT
+eyJoaXN0b3J5IjpbLTIwOTQ1OTk5NzksLTE3NDg4Mzc1MjQsLT
 k3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0
 MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwND
 gsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcw
