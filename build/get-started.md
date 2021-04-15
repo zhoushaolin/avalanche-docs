@@ -123,13 +123,11 @@ curl -X POST --data '{
 如果反馈“真”，则链完成引导。如果您向一个未完成引导的链进行API调用，则该链会反馈“因为链未完成引导，所以API调用遭拒”。如果您的节点并未完成引导, 请遵循
 [this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping)的引导,  如果您还有问题，请通过[Discord](https://chat.avalabs.org/)联系我们。
 
-当前您的节点正在运行且已连接。如果您想在主网上将您的节点用作验证程序，请查看 [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) 以了解如何使用web钱包将节点添加为验证程序。
-[教程] (tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet)，以了解如何使用web钱包将节点添加为验证程序。
-Your node is running and connected now. If you want to use your node as a validator on the main net, check out [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
+当前您的节点正在运行且已连接。如果您想在主网上将您的节点用作验证程序，请查看 [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) 以了解如何使用网页钱包将节点添加为验证程序。
 
-You can use `Ctrl + C` to kill the node.
+您可以按下“Ctrl + C”来终止该节点。
 
-If you want to experiment and play with your node, read on.
+如果您想要实验并使用您的节点，请继续阅读。
 
 To be able to make API calls to your node from other machines, when starting up the node include argument `--http-host=` \(e.g. `./build/avalanchego --http-host=`\)
 
@@ -364,7 +362,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1NjA1MTE5LDE4NDE4ODk1OTUsLTE3ND
+eyJoaXN0b3J5IjpbNDQ5MTMzMTU4LDE4NDE4ODk1OTUsLTE3ND
 g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
 NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
 E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
