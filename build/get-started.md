@@ -44,13 +44,12 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 
 运行Go, 版本至少是1.15.5 或者更高, 运行`echo $GOPATH`, 不应空白。
 
-Download the AvalancheGo repository:
+下载AvalancheGo存储库:
 
 ```cpp
 go get -v -d github.com/ava-labs/avalanchego/...
 ```
-
-Note to advanced users: AvalancheGo uses Go modules, so you can clone the [AvalancheGo repository](https://github.com/ava-labs/avalanchego) to locations other than your GOPATH.
+用户注意事项: AvalancheGo使用Go模块, so you can clone the [AvalancheGo repository](https://github.com/ava-labs/avalanchego) to locations other than your GOPATH.
 
 Change to the `avalanchego` directory:
 
@@ -365,10 +364,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ1OTk5NzksLTE3NDg4Mzc1MjQsLT
-k3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2NjAsMTgwMjY0
-MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLDE2NjM1MzUwND
-gsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2MTYsLTcw
-MDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOTI4NDEzMj
-Y1XX0=
+eyJoaXN0b3J5IjpbMTMxOTg0ODMzMCwtMTc0ODgzNzUyNCwtOT
+cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
+MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
+wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
+NTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNj
+VdfQ==
 -->
