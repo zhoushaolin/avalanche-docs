@@ -17,7 +17,7 @@
 [https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services] 
 
 本教程主要面向开发人员, 以及对如何运行Avalanche平台感兴趣的人士。如果您只是对设置质押节点感兴趣，您可以查询[Set Up Avalanche Node With Installer](https://github.com/ava-labs/avalanche-docs/blob/master/build/tutorials/nodes-and-staking/set-up-node-with-installer.md)这个教程。
-安装程序会自动执行整个安装过程，并将其设置为系统服务，建议无人参与操作。 您也可以先按照本教程进行操作，然后再使用安装程序作为永久解决方案来设置节点，以进行尝试。
+安装程序会自动执行整个安装过程，并将其设置为一个系统服务，无需人为操作。 您也可以先按照本教程进行操作，然后再使用安装程序作为永久解决方案来设置节点，以进行尝试。
 This tutorial is primarily geared toward developers and people interested in how the Avalanche Platform works. If you're just interested in setting up a node for staking, you may want to follow the  [Set Up Avalanche Node With Installer](https://github.com/ava-labs/avalanche-docs/blob/master/build/tutorials/nodes-and-staking/set-up-node-with-installer.md)  tutorial instead. Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
  Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
 
@@ -369,7 +369,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzI1NzY2NSwtMTUwNTU5MTk2MCwxNj
+eyJoaXN0b3J5IjpbLTc3NDkxODk0NywtMTUwNTU5MTk2MCwxNj
 YzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1
 NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LD
 kyODQxMzI2NV19
