@@ -39,8 +39,8 @@ Avalanche雪崩协议是非常轻量级的协议，因此对计算机的要求�
 如果您是一名想在Avalanche上进行实验和构建的开发人员，则推荐根据源代码构建节点。
 
 #### **源代码**
-如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循[here]指示
-Follow the instructions [here](https://golang.org/doc/install).
+如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循指示[点击](https://golang.org/doc/install)。
+
 
 Run `go version`. **It should be 1.15.5 or above.** Run `echo $GOPATH`. **It should not be empty.**
 
@@ -365,10 +365,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODQyNzIyLC0xNzQ4ODM3NTI0LC05Nz
-E3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMy
-MzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC
-03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1
-MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LDkyODQxMzI2NV
-19
+eyJoaXN0b3J5IjpbLTYwMzQ2NzE1OSwtMTc0ODgzNzUyNCwtOT
+cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
+MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
+wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
+NTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNj
+VdfQ==
 -->
