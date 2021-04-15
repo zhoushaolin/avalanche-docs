@@ -269,7 +269,7 @@ curl -X POST --data '{
 
 如果您想要指定一个特定地址，您可以在`changeAddr`中进行修改。您也可以将其留空, 这样的话，如有任何更改，均会显示在您的用户账号所控制的地址。
 
-为了拦截垃圾邮件，Avalanche要求支付交易费用。如果您发起一项交易，则交易费用会从您的用户账号控制下的一个地址自动扣除。请您在检查下列余额时记住这一点。In order to prevent spam, Avalanche requires the payment of a transaction fee. The transaction fee will be automatically deducted from an address controlled by your user when you issue a transaction. Keep that in mind when you’re checking balances below.
+为了拦截垃圾邮件，Avalanche要求支付交易费用。如果您发起一项交易，则交易费用会从您的用户账号控制下的地址自动扣除。检查余额时请记住这一点。In order to prevent spam, Avalanche requires the payment of a transaction fee. The transaction fee will be automatically deducted from an address controlled by your user when you issue a transaction. Keep that in mind when you’re checking balances below.
 
 {% page-ref page="../learn/platform-overview/transaction-fees.md" %}
 
@@ -358,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE2NTY4NzAsLTEzNDk4NTY5NzcsMT
-g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
-MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
-ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
-OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5Nz
-M2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbODEwODY4MTQ0LC0xMzQ5ODU2OTc3LDE4ND
+E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
+MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
+0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
+NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNj
+U1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
 -->
