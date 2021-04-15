@@ -269,9 +269,9 @@ curl -X POST --data '{
 
 如果您想要指定一个特定地址，您可以在`changeAddr`中进行修改。您也可以将其留空, 这样的话，如有任何更改，均会显示在您的用户账号所控制的地址。
 
-为了拦截垃圾邮件，Avalanche要求支付交易费用。如果您发起一项交易，则交易费用会从您的用户账号控制下的地址自动扣除。检查余额时请记住这一点。In order to prevent spam, Avalanche requires the payment of a transaction fee. The transaction fee will be automatically deducted from an address controlled by your user when you issue a transaction. Keep that in mind when you’re checking balances below.
+为了拦截垃圾邮件，Avalanche要求支付交易费用。如果您发起一项交易，则交易费用会从您的用户账号控制下的地址自动扣除。检查余额时请记住这一点。
 
-{% page-ref page="../learn/platform-overview/transaction-fees.md" %}
+当您发送此请求时，该节点会通过您的用户名和密码核实您的身份。然后，该节点会检查您的用户账号控制下的所有[私钥] ([http://support.avalabs.org/en/articles/4587058-what-are-public-and-private-keys](http://support.avalabs.org/en/articles/4587058-what-are-public-and-private-keys))，直至该节点找到足够的AVAX来满足此请求。
 
 When you send this request, the node will authenticate you using your username and password. Then, it will look through all the [private keys](http://support.avalabs.org/en/articles/4587058-what-are-public-and-private-keys) controlled by your user until it finds enough AVAX to satisfy the request.
 
@@ -358,7 +358,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwODY4MTQ0LC0xMzQ5ODU2OTc3LDE4ND
+eyJoaXN0b3J5IjpbOTM2Mzg2NDIwLC0xMzQ5ODU2OTc3LDE4ND
 E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
 MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
 0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
