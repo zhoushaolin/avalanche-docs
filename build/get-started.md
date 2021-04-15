@@ -135,8 +135,8 @@ curl -X POST --data '{
 如果要连接到富士测试网，而不是主网，请使用参数`--network-id=fuji`, 您可以通过
 [faucet.](https://faucet.avax-test.network/)在测试网上获得资金。
 
-### Create a Keystore User
-Avalanche节点提供了一个内置**密钥库**。密钥库对用户进行管理，而且很像一个 [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。**由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建密钥库用户。**如果要创建用户，请调用[`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
+### 创建 Keystore 用户
+Avalanche节点提供了一个内置**Keystore**。**Keystore**对用户进行管理，而且很像一个 [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。**由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建**Keystore**用户。**如果要创建用户，请调用[`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
 
 ```cpp
 curl -X POST --data '{
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjE1MzQ4MSwxODQxODg5NTk1LC0xNz
-Q4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5
-NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MC
-wxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQx
-Mjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyOD
-Y0LDkyODQxMzI2NV19
+eyJoaXN0b3J5IjpbNTczNTU3NTUsMTg0MTg4OTU5NSwtMTc0OD
+gzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2
+MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMT
+Y2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3
+NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NC
+w5Mjg0MTMyNjVdfQ==
 -->
