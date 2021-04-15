@@ -342,8 +342,7 @@ curl -X POST --data '{
     }
 }
 ```
-同样地，我们可以检查`X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75`, 以查看我们发送的AVAX和交易费用是否已从其余额中扣除。
-In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` to see that AVAX we sent was deducted from its balance, as well as the transaction fee.
+同样地，我们可以检查`X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75`, 以查看我们发送的AVAX和交易费用是否已从余额中扣除。
 
 {% page-ref page="tutorials/nodes-and-staking/add-a-validator.md" %}
 
@@ -358,10 +357,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjcyOTg3NDUsLTEzNDk4NTY5NzcsMT
-g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
-MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
-ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
-OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5Nz
-M2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbMTU4Mzg0MjA4NywtMTM0OTg1Njk3NywxOD
+QxODg5NTk1LC0xNzQ4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYx
+MDE4MywxMTM5Mjc5NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OS
+wtMTUwNTU5MTk2MCwxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5
+ODU5OTkzLC0xMjQxMjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3Mz
+Y1NSwxMTc3MTAyODY0LDkyODQxMzI2NV19
 -->
