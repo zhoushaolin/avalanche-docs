@@ -108,8 +108,7 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 
 `INFO [06-07|19:54:06] <X Chain> /snow/engine/avalanche/transitive.go#80: bootstrapping finished with 1 vertices in the accepted frontier`
 
-检查一个给定链是否完成了引导，可通过复制粘贴以下命令签入另一个终端窗口调用
-To check if a given chain is done bootstrapping, in another terminal window call [`info.isBootstrapped`](avalanchego-apis/info-api.md#info-isbootstrapped) by copying and pasting the following command:
+检查一个给定链是否完成了引导，可通过复制粘贴以下命令在另一个终端窗口 [`info.isBootstrapped`](avalanchego-apis/info-api.md#info-isbootstrapped) 调用
 
 ```cpp
 curl -X POST --data '{
@@ -363,10 +362,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzUwOTY1MzksMTg0MTg4OTU5NSwtMT
-c0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3
-OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNjksLTE1MDU1OTE5Nj
-AsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0
-MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2NTUsMTE3NzEwMj
-g2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbNTA2ODcyNDk1LDE4NDE4ODk1OTUsLTE3ND
+g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
+NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
+E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
+NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
+QsOTI4NDEzMjY1XX0=
 -->
