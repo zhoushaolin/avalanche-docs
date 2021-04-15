@@ -136,7 +136,7 @@ curl -X POST --data '{
 [faucet.](https://faucet.avax-test.network/)在测试网上获得资金。
 
 ### Create a Keystore User
-Avalanche节点提供了一个内置**密钥库**。密钥库对用户进行管理，而且很像一个 [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。**由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建密钥库用户。**如果要创建用户，请调用A user is a password-protected identity that a client can use when interacting with blockchains. **You should only create a keystore user on a node that you operate, as the node operator has access to your plaintext password.** To create a user, call [`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
+Avalanche节点提供了一个内置**密钥库**。密钥库对用户进行管理，而且很像一个 [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。**由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建密钥库用户。**如果要创建用户，请调用[`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
 
 ```cpp
 curl -X POST --data '{
@@ -363,10 +363,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjE4NDc3LDE4NDE4ODk1OTUsLTE3ND
-g4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEwMTgzLDExMzkyNzk2
-NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC0xNTA1NTkxOTYwLD
-E2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEy
-NzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4Nj
-QsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbLTMyNjE1MzQ4MSwxODQxODg5NTk1LC0xNz
+Q4ODM3NTI0LC05NzE3NzEyNzUsLTE1ODYxMDE4MywxMTM5Mjc5
+NjYwLDE4MDI2NDMyMzUsLTYzMTMyMzE2OSwtMTUwNTU5MTk2MC
+wxNjYzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQx
+Mjc1NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyOD
+Y0LDkyODQxMzI2NV19
 -->
