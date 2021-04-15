@@ -247,7 +247,7 @@ curl -X POST --data '{
 
 ### 发送AVAX
 
-现在，让我们向我们的节点进行一次API调用，然后发送一些AVAX吧。Now, let’s send some AVAX by making an API call to our node:
+现在，我们向节点进行一次API调用，然后发送AVAX。
 
 ```cpp
 curl -X POST --data '{
@@ -265,9 +265,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-`amount` specifies the number of nAVAX to send.
+`amount` 规定了需要发送的nAVAX数量。
 
-If you want to specify a particular address where change should go, you can specify it in `changeAddr`. You can leave this field empty; if you do, any change will go to one of the addresses your user controls.
+如果您想要指定一个特定地址，您可以在“更改地址”中进行指定。您可空白此字段；如果您空白了，则如有任何更改，均会显示在您的用户账号控制下的其中一个地址。If you want to specify a particular address where change should go, you can specify it in `changeAddr`. You can leave this field empty; if you do, any change will go to one of the addresses your user controls.
 
 In order to prevent spam, Avalanche requires the payment of a transaction fee. The transaction fee will be automatically deducted from an address controlled by your user when you issue a transaction. Keep that in mind when you’re checking balances below.
 
@@ -358,10 +358,10 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NDgyNzM3LC0xMzQ5ODU2OTc3LDE4ND
-E4ODk1OTUsLTE3NDg4Mzc1MjQsLTk3MTc3MTI3NSwtMTU4NjEw
-MTgzLDExMzkyNzk2NjAsMTgwMjY0MzIzNSwtNjMxMzIzMTY5LC
-0xNTA1NTkxOTYwLDE2NjM1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4
-NTk5OTMsLTEyNDEyNzU2MTYsLTcwMDUwMzY3NSwtMzM5OTczNj
-U1LDExNzcxMDI4NjQsOTI4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbLTExMTAxMDY3MDUsLTEzNDk4NTY5NzcsMT
+g0MTg4OTU5NSwtMTc0ODgzNzUyNCwtOTcxNzcxMjc1LC0xNTg2
+MTAxODMsMTEzOTI3OTY2MCwxODAyNjQzMjM1LC02MzEzMjMxNj
+ksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5
+OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5Nz
+M2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
 -->
