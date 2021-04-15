@@ -51,12 +51,11 @@ go get -v -d github.com/ava-labs/avalanchego/...
 ```
 用户注意事项: AvalancheGo使用Go模块, 因此您可以将[AvalancheGo repository](https://github.com/ava-labs/avalanchego) 复制到GOPATH以外的其他位置。
 
-切换到 `avalanchego` directory:
+切换到 `avalanchego` 目录:
 
 ```cpp
 cd $GOPATH/src/github.com/ava-labs/avalanchego
 ```
-
 Build AvalancheGo:
 
 ```cpp
@@ -364,7 +363,7 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjg1MTM3OCwtMTc0ODgzNzUyNCwtOT
+eyJoaXN0b3J5IjpbLTM5MTQwMjM3NCwtMTc0ODgzNzUyNCwtOT
 cxNzcxMjc1LC0xNTg2MTAxODMsMTEzOTI3OTY2MCwxODAyNjQz
 MjM1LC02MzEzMjMxNjksLTE1MDU1OTE5NjAsMTY2MzUzNTA0OC
 wtNzg2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAw
