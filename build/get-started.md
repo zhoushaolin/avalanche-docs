@@ -18,12 +18,10 @@
 
 本教程主要面向开发人员, 以及对如何运行Avalanche平台感兴趣的人士。如果您只是对设置质押节点感兴趣，您可以查询[Set Up Avalanche Node With Installer](https://github.com/ava-labs/avalanche-docs/blob/master/build/tutorials/nodes-and-staking/set-up-node-with-installer.md)这个教程。
 安装程序会自动执行整个安装过程，并将其设置为一个系统服务，无需人为操作。 您也可以尝试先按照本教程进行操作，然后再使用安装程序作为永久解决方案来设置节点。
-This tutorial is primarily geared toward developers and people interested in how the Avalanche Platform works. If you're just interested in setting up a node for staking, you may want to follow the  [Set Up Av
 
+## 要求
 
-
-## Requirements
-
+Avalanche是一项非常轻量级的协议，因此对计算机的最低要求不高。
 Avalanche is an incredibly lightweight protocol, so the minimum computer requirements are quite modest.
 
 * Hardware: CPU &gt; 2 GHz, RAM &gt; 4 GB, Storage &gt; 10 GB free space
@@ -368,8 +366,8 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3OTQwMTQ1LC0xNTA1NTkxOTYwLDE2Nj
-M1MzUwNDgsLTc4NjA2NDQ3MCw1OTk4NTk5OTMsLTEyNDEyNzU2
-MTYsLTcwMDUwMzY3NSwtMzM5OTczNjU1LDExNzcxMDI4NjQsOT
-I4NDEzMjY1XX0=
+eyJoaXN0b3J5IjpbLTg2MTkzMDYyNCwtMTUwNTU5MTk2MCwxNj
+YzNTM1MDQ4LC03ODYwNjQ0NzAsNTk5ODU5OTkzLC0xMjQxMjc1
+NjE2LC03MDA1MDM2NzUsLTMzOTk3MzY1NSwxMTc3MTAyODY0LD
+kyODQxMzI2NV19
 -->
