@@ -1,7 +1,7 @@
 # 准备开始：运行Avalanche节点
 
 想要了解Avalanche，最快的方式是运行一个节点并进行网络互动。
-
+如何yun x
 {% embed url="https://youtu.be/c\_SjtCiOFdg" %}
 
 在本教程中 \(预计时间: 10 分钟\), 我们将:
@@ -373,7 +373,8 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzUzNTA0OCwtNzg2MDY0NDcwLDU5OT
-g1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAzNjc1LC0zMzk5NzM2
-NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ==
+eyJoaXN0b3J5IjpbLTE5MTk3NjgzMTEsMTY2MzUzNTA0OCwtNz
+g2MDY0NDcwLDU5OTg1OTk5MywtMTI0MTI3NTYxNiwtNzAwNTAz
+Njc1LC0zMzk5NzM2NTUsMTE3NzEwMjg2NCw5Mjg0MTMyNjVdfQ
+==
 -->
