@@ -15,6 +15,7 @@
 {% endhint %}
 
 {% hint style="info" %}
+如果你想要使用第三方机构帮你
 If you're interested in using a third-party service to host your node or run a validator, [check out the options](https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services).
 {% endhint %}
 
@@ -368,6 +369,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNjMxMTQ5LC0zMzk5NzM2NTUsMTE3Nz
+eyJoaXN0b3J5IjpbLTM0OTE0NTI4LC0zMzk5NzM2NTUsMTE3Nz
 EwMjg2NCw5Mjg0MTMyNjVdfQ==
 -->
