@@ -4,9 +4,9 @@
 
 {% embed url="https://youtu.be/c\_SjtCiOFdg" %}
 
-在本教程中 \(est. time: 10 minutes\), we will:
-* Install and run an Avalanche node
-* Connect to Avalanche
+在本教程中 \(预计时间: 10 分钟\), 我们将:
+* 安装并运行一个Avalanche节点
+* 连接到Avalanche
 * Send AVAX
 * Add your node to the validator set
 
@@ -368,5 +368,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMDgxMTgzLDkyODQxMzI2NV19
+eyJoaXN0b3J5IjpbLTkxOTEwNjcxNSw5Mjg0MTMyNjVdfQ==
 -->
