@@ -23,15 +23,15 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 #### **富士测试网设置：**
 
-* **网络名**: Avalanche FUJI C-Chain
-* **New RPC URL**: [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
-* **ChainID**: `0xa869`
-* **Symbol**: `AVAX`
-* **Explorer**: [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
+* **网络名**: Avalanche FUJI C-Chain (Avalanche富士C链)
+* **新 RPC URL**: [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
+* **链ID**: `0xa869`
+* **符号**: `AVAX`
+* **浏览器**: [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
 
-#### **Local Testnet \(AVASH\) Settings:**
+#### **本地测试网\(AVASH\) 设置:**
 
-* **Network Name**: Avalanche Local
+* **wang luo ming**: Avalanche Local
 * **New RPC URL**:[ ](http://localhost:9650/ext/bc/C/rpc)[http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc)
 * **ChainID**: `0xa868`
 * **Symbol**: `AVAX`
@@ -94,5 +94,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTA5NDEwMSwtMTgzMDEzMDIzN119
+eyJoaXN0b3J5IjpbLTUyNTg0MTM2NCwtMTgzMDEzMDIzN119
 -->
