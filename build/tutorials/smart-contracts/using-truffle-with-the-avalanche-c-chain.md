@@ -60,7 +60,7 @@ truffle init
 
 ## 更新 truffle-config.js
 
-One of the files created when you ran `truffle init` is `truffle-config.js`. Add the following to `truffle-config.js`.
+当运行One of the files created when you ran `truffle init` is `truffle-config.js`. Add the following to `truffle-config.js`.
 
 ```javascript
 const Web3 = require('web3');
@@ -400,5 +400,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk2OTgyMDMsLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbMTgyNDAyMjk5MiwtMTYwOTY5ODIwMywtOT
+U1MDUzNjM4XX0=
 -->
