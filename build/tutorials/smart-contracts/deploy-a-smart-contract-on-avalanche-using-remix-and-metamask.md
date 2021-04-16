@@ -45,7 +45,7 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ### **使用测试网接口**
 
-如需在测试网上充值，您还可以使用测试网接口。打开 [https://faucet.avax-test.network/](https://faucet.avax-test.network/) 粘贴C-AVAX addre. All you need to do is add a “C-” prefix and the faucet will switch from AVAX to C-AVAX.
+如需在测试网上充值，您还可以使用测试网接口。打开 [https://faucet.avax-test.network/](https://faucet.avax-test.network/) 粘贴C-AVAX地址。您只需添加一个“C-” 前缀 and the faucet will switch from AVAX to C-AVAX.
 
 ### Funding on local testnet
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ4MjE3NiwxNDE4MDgzMiwtMTgzMD
-EzMDIzN119
+eyJoaXN0b3J5IjpbNDc0ODI2MTcwLDE0MTgwODMyLC0xODMwMT
+MwMjM3XX0=
 -->
