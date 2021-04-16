@@ -67,7 +67,7 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ![Deploy and run transactions](../../../.gitbook/assets/deploy-and-run-transactions.png)
 
-一旦我们加入返回编译器，并编译所选合约-> 导航至部署选项web3-&gt; Go back to the compiler, and compile the selected contract -&gt; Navigate to Deploy Tab
+一旦我们加入了web3-&gt; 返回编译器，并编译所选合约 -&gt; 导航至Deploy Tab
 
 ![Solidity compiler](../../../.gitbook/assets/solidity-compiler.png)
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjcwNTg5OSwxMDI1NjY5MzksLTIxMD
+eyJoaXN0b3J5IjpbMTk4ODgwNzczNiwxMDI1NjY5MzksLTIxMD
 M4MzIxODMsMTQxODA4MzIsLTE4MzAxMzAyMzddfQ==
 -->
