@@ -221,13 +221,13 @@ truffle exec make_accounts.js --network development
 
 ## 运行迁移程序
 
-当前，一切均已就位，只待运行迁移程序并部署Storage合约：Now everything is in place to run migrations and deploy the `Storage` contract:
+当前，一切均已就位，只待运行迁移程序并部署 `Storage`合约：
 
 ```text
 truffle(development)> migrate --network development
 ```
 
-You should see:
+您应该看到：
 
 ```text
 Compiling your contracts...
@@ -300,7 +300,7 @@ Error:  *** Deployment Failed ***
       + Using an adequately funded account
 ```
 
-If you didn't unlock the account, you'll see this error:
+如果您未解锁账户，您会看到此错误：
 
 ```text
 Error:  *** Deployment Failed ***
@@ -308,7 +308,7 @@ Error:  *** Deployment Failed ***
 "Migrations" -- Returned error: authentication needed: password or unlock.
 ```
 
-## Interacting with your contract
+## 与合约进行互动
 
 Now the `Storage` contract has been deployed. Let's write a number to the blockchain and then read it back. Open the truffle console again:
 
@@ -399,8 +399,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcwMDkyNzQsLTE2ODQ0OTAzNTEsMT
-M1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1MzcsLTE2Mzc2
-MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMTYwOTY5ODIwMy
-wtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbMjEyMDMwOTA2MCwtMTY4NDQ5MDM1MSwxMz
+U1MzkzMDM0LDEzNDk0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYy
+MjIzOCw3NzMzMDU4MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC
+05NTUwNTM2MzhdfQ==
 -->
