@@ -8,9 +8,9 @@
 
 您已经完成了Avalanche节点运行[Run an Avalanche Node](https://stackedit.io/get-started.md)，并熟悉Avalanche的架构[Avalanche’s architecture](https://stackedit.io/learn/platform-overview/)。您也会操作跨链交易，通过[Transfer AVAX Between X-Chain and C-Chain](https://stackedit.io/platform/transfer-avax-between-x-chain-and-c-chain.md)这个教程, 转账到C链地址。
 
-## Dependencies
+## 附属项
 
-* [Avash](https://github.com/ava-labs/avash) is a tool for running a local Avalanche network. It's similar to Truffle's [Ganache](https://www.trufflesuite.com/ganache).
+* [Avash](https://github.com/ava-labs/avash) 是一个 Avalanche network. It's similar to Truffle's [Ganache](https://www.trufflesuite.com/ganache).
 * [NodeJS](https://nodejs.org/en) v8.9.4 or later.
 * Truffle, which you can install with `npm install -g truffle`
 
@@ -402,5 +402,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbLTIwODIzMzc4ODAsLTk1NTA1MzYzOF19
 -->
