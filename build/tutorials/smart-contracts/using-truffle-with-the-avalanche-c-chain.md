@@ -84,7 +84,7 @@ module.exports = {
 
 ## 添加 Storage.sol
 
-在`contracts`目录中，添加名为Storage.sol的新文件夹，并添加下列代码：
+在`contracts`目录中，添加名为Storage.sol的新文件，并添加下列代码：
 ```text
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.8.0;
@@ -209,7 +209,8 @@ true
 ```text
 wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/make_accounts.js;
 ```
-**注意**: 如果您在设置`truffle-config.js 
+**注意**: 如果是按照教程设置的`truffle-config.js 
+
 If you followed the steps at the beginning of this tutorial when setting up your `truffle-config.js`, then you will need to modify the `make_accounts.js` script to use port 9650 instead of port 9545 (the default used by truffle). 
 
 You can run the script with:
@@ -400,8 +401,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NDkwOTM5LC0xNjg0NDkwMzUxLDEzNT
-UzOTMwMzQsMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIy
-MjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLT
-k1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbLTE2OTM5MDI4ODMsLTE2ODQ0OTAzNTEsMT
+M1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1MzcsLTE2Mzc2
+MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMTYwOTY5ODIwMy
+wtOTU1MDUzNjM4XX0=
 -->
