@@ -49,9 +49,9 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ### 在本地测试网上充值
 
-在本地网络上，通过配置您自己的接口，您可以很方便地给您的地址充值。On a local network, you can easily fund your addresses by deploying your own faucet. [Tutorial](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
+在本地网络上，通过配置您自己的接口，您可以很方便地给您的地址充值。[教程](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
 
-## Step 3: Connect MetaMask and deploy a smart contract using Remix
+## Step 3: 连接MetaMask 并通过Remix部署zhi neng
 
 Open [Remix](https://remix.ethereum.org/) -&gt; Select Solidity
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM4MzIxODMsMTQxODA4MzIsLTE4Mz
-AxMzAyMzddfQ==
+eyJoaXN0b3J5IjpbMTEyOTk2MjczOCwtMjEwMzgzMjE4MywxND
+E4MDgzMiwtMTgzMDEzMDIzN119
 -->
