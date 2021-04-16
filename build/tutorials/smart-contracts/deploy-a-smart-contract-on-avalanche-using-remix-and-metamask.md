@@ -75,11 +75,10 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ![Deploy erc20](../../../.gitbook/assets/deploy-erc20.png)
 
-确认元掩码弹窗上的交易。在弹出的MetaMask上确认交易。Confirm the transaction on the MetaMask pop up.
-
+确认MetaMask弹窗上的交易。
 ![Confirm ERC20](../../../.gitbook/assets/confirm-erc20.png)
 
-Our contract is successfully deployed!
+我们的合约就部署成功了！
 
 ![Published metadata](../../../.gitbook/assets/published-metadata.png)
 
@@ -94,6 +93,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTM5NTgyMywxMDI1NjY5MzksLTIxMD
-M4MzIxODMsMTQxODA4MzIsLTE4MzAxMzAyMzddfQ==
+eyJoaXN0b3J5IjpbLTIwMjMyNzgyNjAsMTAyNTY2OTM5LC0yMT
+AzODMyMTgzLDE0MTgwODMyLC0xODMwMTMwMjM3XX0=
 -->
