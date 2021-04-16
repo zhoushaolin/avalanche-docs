@@ -397,10 +397,9 @@ truffle(development)> i.toNumber()
 ## 总结
 
 现在您已经拥有启动本地Avalanche网络、创建truffle项目、创建、编译、部署和与实体合约互动所需的工具了。
-Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjk5ODYxMiwzODMyNjc3OTUsLTE2OD
+eyJoaXN0b3J5IjpbMTk2ODQ4ODEyNiwzODMyNjc3OTUsLTE2OD
 Q0OTAzNTEsMTM1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1
 MzcsLTE2Mzc2MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMT
 YwOTY5ODIwMywtOTU1MDUzNjM4XX0=
