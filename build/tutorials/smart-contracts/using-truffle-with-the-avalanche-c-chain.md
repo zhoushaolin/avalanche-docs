@@ -156,7 +156,7 @@ Compiling your contracts...
 
 ### 创建账户
 
-Truffle有一个非常有用的控制台 [console](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#console) which we can use to interact with the blockchain and our contract. Open the console:
+Truffle有一个非常有用的控制台 [console](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#console) 我们可以用它来与区块链和合约进行互动, 打开控制台:
 
 ```text
 truffle console --network development
@@ -399,7 +399,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MTg4ODAyLDEzNTUzOTMwMzQsMTM0OT
-QzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIyMjM4LDc3MzMwNTgy
-OCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbMTMyODg4NjQ5MCwxMzU1MzkzMDM0LDEzND
+k0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYyMjIzOCw3NzMzMDU4
+MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC05NTUwNTM2MzhdfQ
+==
 -->
