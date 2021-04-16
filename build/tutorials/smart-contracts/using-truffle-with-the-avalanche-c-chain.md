@@ -1,8 +1,8 @@
-# Using Truffle with the Avalanche C-Chain
+# 将 Truffle 应用于Avalanche C链
 
-## Introduction
+## 简介
 
-[Truffle Suite](https://www.trufflesuite.com) is a toolkit for launching decentralized applications \(dapps\) on the EVM. With Truffle you can write and compile smart contracts, build artifacts, run migrations and interact with deployed contracts. This tutorial illustrates how Truffle can be used with Avalanche's C-Chain, which is an instance of the EVM.
+Truffle套装是用于在EVM上启动去中心化应用程序（dapps）的工具包。通过Truffle，您可以编写和编译智能合约、构建工件、运行程序迁移并与部署合约互动。[Truffle Suite](https://www.trufflesuite.com) is a toolkit for launching decentralized applications \(dapps\) on the EVM. With Truffle you can write and compile smart contracts, build artifacts, run migrations and interact with deployed contracts. This tutorial illustrates how Truffle can be used with Avalanche's C-Chain, which is an instance of the EVM.
 
 ## Requirements
 
@@ -401,3 +401,6 @@ You should see the number you stored.
 
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM5OTcyMDUxOF19
+-->
