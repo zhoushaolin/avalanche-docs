@@ -15,15 +15,15 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 #### **Avalanche主网设置:**
 
-* **网络名称**: Avalanche Mainnet C-Chain (Avalanche主网C链)
-* **New RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
-* **ChainID**: `0xa86a`
-* **Symbol**: `AVAX`
-* **Explorer**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
+* **网络名**: Avalanche Mainnet C-Chain (Avalanche主网C链)
+* **新 RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
+* **链ID**: `0xa86a`
+* **符号**: `AVAX`
+* **浏览器**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
 
-#### **FUJI Testnet Settings:**
+#### **富士测试网设置：**
 
-* **Network Name**: Avalanche FUJI C-Chain
+* **网络名**: Avalanche FUJI C-Chain
 * **New RPC URL**: [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
 * **ChainID**: `0xa869`
 * **Symbol**: `AVAX`
@@ -94,5 +94,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2NjgyNTgsLTE4MzAxMzAyMzddfQ==
+eyJoaXN0b3J5IjpbLTQxMTA5NDEwMSwtMTgzMDEzMDIzN119
 -->
