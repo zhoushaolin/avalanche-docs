@@ -1,4 +1,4 @@
-# 使用Remix and MetaMask在Avalanche 上部署智能合约
+# 使用Remix 和MetaMask在Avalanche 上部署智能合约
 
 ## Introduction
 
@@ -95,5 +95,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjgyMzI4MF19
+eyJoaXN0b3J5IjpbLTE4MzAxMzAyMzddfQ==
 -->
