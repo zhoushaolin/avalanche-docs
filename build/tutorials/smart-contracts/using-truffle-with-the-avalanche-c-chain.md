@@ -152,8 +152,7 @@ Compiling your contracts...
 ## 在C链上创建、充值和解锁账户
 
 当给C链部署智能合约时，作为程序迁移过程中使用的from地址，truffle将默认为C链客户端提供的第一个可用帐户。
-将智能合约部署到C-Chain时，truffle将默认使用C链客户端提供的第一个可用帐户，作为迁移期间使用的“发件人”地址。
-When deploying smart contracts to the C-Chain, truffle will default to the first available account provided by your C-Chain client as the `from` address used during migrations.
+将智能合约部署到C-Chain时，truffle将默认使用C链客户端提供的第一个可用帐户，作为迁移期间使用的“`from`”地址。
 
 ### Create an account
 
@@ -400,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0NTI0NTczLC0xNjg3MTkyNTM3LC0xNj
+eyJoaXN0b3J5IjpbMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNj
 M3NjIyMjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgy
 MDMsLTk1NTA1MzYzOF19
 -->
