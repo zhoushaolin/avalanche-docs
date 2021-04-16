@@ -28,8 +28,7 @@ go build
 # start a five node staking network
 runscript scripts/five_node_staking.lua
 ```
-您的计算机上运行着五节点Avalanche网络。当您想要退出Avash时，请运行`exit`，但现在请勿运行，也请勿关闭此终端选项。
-When you want to exit Avash, run, but don't do that now, and don't close this terminal tab.
+您的计算机上运行着五节点Avalanche网络。当您想要退出Avash时，请运行`exit`，但现在请勿运行，也请勿关闭此终端。
 
 ## Create truffle directory and install dependencies
 
@@ -401,5 +400,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI4NDkzNTEsLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbLTE1MDI3OTM3MCwtOTU1MDUzNjM4XX0=
 -->
