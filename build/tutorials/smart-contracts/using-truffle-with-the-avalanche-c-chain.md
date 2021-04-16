@@ -149,7 +149,7 @@ Compiling your contracts...
    - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
 ```
 
-## Create, fund and unlock an account on the C-Chain
+## 在C链上创建、充值和jie dCreate, fund and unlock an account on the C-Chain
 
 When deploying smart contracts to the C-Chain, truffle will default to the first available account provided by your C-Chain client as the `from` address used during migrations.
 
@@ -398,6 +398,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMzA1ODI4LDIwNTYxNTIzMSwtMTYwOT
-Y5ODIwMywtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbMTYxMTM4NTI4NCw3NzMzMDU4MjgsMjA1Nj
+E1MjMxLC0xNjA5Njk4MjAzLC05NTUwNTM2MzhdfQ==
 -->
