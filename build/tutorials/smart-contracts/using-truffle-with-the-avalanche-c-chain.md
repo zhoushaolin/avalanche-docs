@@ -58,9 +58,9 @@ npm install web3 -s
 truffle init
 ```
 
-## 更新 truffle-config.js
+## 更新 truffle-config.js文件
 
-当运行 `truffle init` 会创建文件`truffle-config.js`。将下列内容添加到`truffle-config.js`.
+当运行 `truffle init` 会创建`truffle-config.js`文件。将下列内容添加到`truffle-config.js`.
 
 ```javascript
 const Web3 = require('web3');
@@ -400,8 +400,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgxMDMzODAsLTE2ODQ0OTAzNTEsMT
-M1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1MzcsLTE2Mzc2
-MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMTYwOTY5ODIwMy
-wtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbNDg5NDkwOTM5LC0xNjg0NDkwMzUxLDEzNT
+UzOTMwMzQsMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIy
+MjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLT
+k1NTA1MzYzOF19
 -->
