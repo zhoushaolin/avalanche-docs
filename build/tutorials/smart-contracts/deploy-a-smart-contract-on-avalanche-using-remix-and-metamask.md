@@ -86,13 +86,13 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ![Interact with contract](../../../.gitbook/assets/interact-with-contract.png)
 
-编译器选项上的合同ABI和字节码均可用。The contract ABI and Bytecode are available on the compiler tab.
-
+编译器选项上的合同ABI和Bytecode字节码均可用。
 ![ABI bytecode](../../../.gitbook/assets/abi-bytecode.png)
 
-If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
+如果您在使用教程中有任何困难或是想和我们讨论Avalanche，您可以通过[Discord](https://chat.avalabs.org/)加入我们的社区！
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ2ODkyOTgsMTAyNTY2OTM5LC0yMT
+eyJoaXN0b3J5IjpbLTE4OTc4NTM4MDIsMTAyNTY2OTM5LC0yMT
 AzODMyMTgzLDE0MTgwODMyLC0xODMwMTMwMjM3XX0=
 -->
