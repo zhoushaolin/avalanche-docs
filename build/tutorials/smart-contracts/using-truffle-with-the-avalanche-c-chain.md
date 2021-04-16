@@ -16,10 +16,9 @@
 
 ## 启用本地Avalanche网络
 
-通过[Avash](https://github.com/ava-labs/avash), 您可以使用多达15个AvalancheGo节点来加速专用测试网络部署。通过Lua脚本，Avash支持常规任务的自动化。因此，能够针对各种部署进行快速测试。首次使用Avash时，需要安装并构建。This enables rapid testing against a wide variety of configurations. The first time you use avash you'll need to [install and build it](https://github.com/ava-labs/avash#quick-setup).
+通过[Avash](https://github.com/ava-labs/avash), 您可以使用多达15个AvalancheGo节点来加速专用测试网络部署。通过Lua脚本，Avash支持常规任务的自动化。因此，能够针对各种部署进行快速测试。首次使用Avash时，需要安装并构建[install and build it](https://github.com/ava-labs/avash#quick-setup)。
 
-Start a local five node Avalanche network:
-
+启动本地五节点Avalanche网络：
 ```text
 cd /path/to/avash
 # build Avash if you haven't done so
@@ -29,7 +28,7 @@ go build
 # start a five node staking network
 runscript scripts/five_node_staking.lua
 ```
-
+您的计算机上运行着五节点Avalanche网络。当您想要退出Avash时，请运行exit，但现在请勿运行，也请勿关闭此终端选项。
 A five node Avalanche network is running on your machine. When you want to exit Avash, run `exit`, but don't do that now, and don't close this terminal tab.
 
 ## Create truffle directory and install dependencies
@@ -402,5 +401,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk3MzM5MjEsLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbMTUwNzMwMjg2NSwtOTU1MDUzNjM4XX0=
 -->
