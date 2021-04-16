@@ -84,8 +84,7 @@ module.exports = {
 
 ## 添加 Storage.sol
 
-在`contracts`目录中，添加名为Storage.sol的新文件夹，并添加下列代码：In the `contracts` directory add a new file called `Storage.sol` and add the following block of code:
-
+在`contracts`目录中，添加名为Storage.sol的新文件夹，并添加下列代码：
 ```text
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.8.0;
@@ -116,7 +115,7 @@ contract Storage {
 }
 ```
 
-`Storage` is a solidity smart contract which lets us write a number to the blockchain via a `store` function and then read the number back from the blockchain via a `retrieve` function.
+`Storage`Storage是一个实体智能合约，因此，我们可以通过`store` 功能向区块链编写数字，然后将通过`retrieve`（检索）功能将数字读取回区块链。is a solidity smart contract which lets us write a number to the blockchain via a `store` function and then read the number back from the blockchain via a `retrieve` function.
 
 ## Add new migration
 
@@ -399,6 +398,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Nzk5NDEsLTE2MDk2OTgyMDMsLTk1NT
-A1MzYzOF19
+eyJoaXN0b3J5IjpbOTM1ODA0MjU2LC0xNjA5Njk4MjAzLC05NT
+UwNTM2MzhdfQ==
 -->
