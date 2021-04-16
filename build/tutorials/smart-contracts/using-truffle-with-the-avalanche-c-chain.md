@@ -154,9 +154,9 @@ Compiling your contracts...
 当给C链部署智能合约时，作为程序迁移过程中使用的from地址，truffle将默认为C链客户端提供的第一个可用帐户。
 将智能合约部署到C-Chain时，truffle将默认使用C链客户端提供的第一个可用帐户，作为迁移期间使用的“`from`”地址。
 
-### Create an account
+### 创建账户
 
-Truffle有一个 [console](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#console) which we can use to interact with the blockchain and our contract. Open the console:
+Truffle有一个非常有用的控制台 [console](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#console) which we can use to interact with the blockchain and our contract. Open the console:
 
 ```text
 truffle console --network development
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2OD
-cxOTI1MzcsLTE2Mzc2MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIz
-MSwtMTYwOTY5ODIwMywtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbODk0MTg4ODAyLDEzNTUzOTMwMzQsMTM0OT
+QzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIyMjM4LDc3MzMwNTgy
+OCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLTk1NTA1MzYzOF19
 -->
