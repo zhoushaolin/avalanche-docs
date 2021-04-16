@@ -115,7 +115,7 @@ contract Storage {
 }
 ```
 
-`Storage`Storage是一个实体智能合约，因此，我们可以通过`store` 功能向区块链编写数字，然后将通过`retrieve`（检索）功能将数字读取回区块链。is a solidity smart contract which lets us write a number to the blockchain via a `store` function and then read the number back from the blockchain via a `retrieve` function.
+`Storage`是一个实体智能合约，因此，我们可以通过`store` 功能向区块链编写数字，然后将通过`retrieve`功能将数字读取回区块链。`Storage is a solidity smart contract which lets us write a number to the blockchain via a `store` function and then read the number back from the blockchain via a `retrieve` function.
 
 ## Add new migration
 
@@ -398,6 +398,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1ODA0MjU2LC0xNjA5Njk4MjAzLC05NT
-UwNTM2MzhdfQ==
+eyJoaXN0b3J5IjpbLTEzMzU0MDIwNjEsLTE2MDk2OTgyMDMsLT
+k1NTA1MzYzOF19
 -->
