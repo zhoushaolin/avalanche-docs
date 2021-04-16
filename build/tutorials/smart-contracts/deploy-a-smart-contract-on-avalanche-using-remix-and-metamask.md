@@ -82,7 +82,7 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ![Published metadata](../../../.gitbook/assets/published-metadata.png)
 
-Now, we can expand it by selecting it from the “Deployed Contracts” tab and test it out.
+现在，我们可以在“Deployed Contracts”选项中选择并进行测试，我们能够对其进行拓展。Now, we can expand it by selecting it from the “Deployed Contracts” tab and test it out.
 
 ![Interact with contract](../../../.gitbook/assets/interact-with-contract.png)
 
@@ -93,6 +93,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMyNzgyNjAsMTAyNTY2OTM5LC0yMT
-AzODMyMTgzLDE0MTgwODMyLC0xODMwMTMwMjM3XX0=
+eyJoaXN0b3J5IjpbODI4MTMyNjkwLDEwMjU2NjkzOSwtMjEwMz
+gzMjE4MywxNDE4MDgzMiwtMTgzMDEzMDIzN119
 -->
