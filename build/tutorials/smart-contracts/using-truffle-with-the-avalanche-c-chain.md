@@ -211,13 +211,13 @@ wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scr
 ```
 **注意**: 如果是按照教程设置的`truffle-config.js`文件, 那么, 你就需要使用端口9650来修改脚本`make_accounts.js`, 而不是端口9545(truffle使用的默认端口)
 
-用以下代码:
+可以用以下代码运行该脚本:
 
 ```text
 truffle exec make_accounts.js --network development
 ```
 
-Script will create an account and fund its C-Chain address. You can customize the number of accounts and the amount of AVAX deposited by editing the `maxAccounts` and `amount` variables in the script.
+脚本会创建一个账户，并为其C链地址充值。通过编辑脚本`maxAccounts` 中的maxAccounts（最大账户数量）和amount（金额）变量，您可以自定义账户的数量和AVAX储蓄金额。Script will create an account and fund its C-Chain address. You can customize the number of accounts and the amount of AVAX deposited by editing the `maxAccounts` and `amount` variables in the script.
 
 ## Run Migrations
 
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMzI4MDMxLC0xNjg0NDkwMzUxLDEzNT
+eyJoaXN0b3J5IjpbNDk1Mjg0MjM4LC0xNjg0NDkwMzUxLDEzNT
 UzOTMwMzQsMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIy
 MjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLT
 k1NTA1MzYzOF19
