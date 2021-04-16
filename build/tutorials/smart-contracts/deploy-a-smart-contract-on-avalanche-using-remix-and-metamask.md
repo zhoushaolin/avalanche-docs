@@ -51,13 +51,13 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 在本地网络上，通过配置您自己的接口，您可以很方便地给您的地址充值。[教程](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
 
-## Step 3: 连接MetaMask 并通过Remix部署zhi neng
+## Step 3: 连接MetaMask 并通过Remix部署智能合约
 
-Open [Remix](https://remix.ethereum.org/) -&gt; Select Solidity
+打开 [Remix](https://remix.ethereum.org/) -&gt; 选择Solidity
 
 ![remix file explorer](../../../.gitbook/assets/remix-file-explorer.png)
 
-Load or create the smart contracts that we want to compile and deploy using Remix file explorer.
+通过混合文件资源浏览器，加载或创建我们想要编译并部署的智能合约。Load or create the smart contracts that we want to compile and deploy using Remix file explorer.
 
 For this example, we will deploy an ERC20 contract from [OpenZeppelin](https://openzeppelin.com/contracts).
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTk2MjczOCwtMjEwMzgzMjE4MywxND
-E4MDgzMiwtMTgzMDEzMDIzN119
+eyJoaXN0b3J5IjpbOTk4NDQ0OTc2LC0yMTAzODMyMTgzLDE0MT
+gwODMyLC0xODMwMTMwMjM3XX0=
 -->
