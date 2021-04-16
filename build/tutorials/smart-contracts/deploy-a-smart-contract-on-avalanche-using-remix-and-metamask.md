@@ -31,15 +31,15 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 #### **本地测试网\(AVASH\) 设置:**
 
-* **wang luo ming**: Avalanche Local
-* **New RPC URL**:[ ](http://localhost:9650/ext/bc/C/rpc)[http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc)
-* **ChainID**: `0xa868`
-* **Symbol**: `AVAX`
-* **Explorer**: N/A
+* **网络名**: Avalanche Local
+* **新 RPC URL**:[ ](http://localhost:9650/ext/bc/C/rpc)[http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc)
+* **链ID**: `0xa868`
+* **符号**: `AVAX`
+* **浏览器**: N/A
 
-## Step 2: Funding your C-Chain address
+## ## 第2步：给C链地址充值
 
-### **Using Avalanche Wallet**
+### **使用 Avalanche 钱包**
 
 On the main net, you can use the [Avalanche Wallet](https://wallet.avax.network/) to transfer funds from the X-Chain to your C-Chain address. The process is simple, as explained in this [tutorial](../platform/transfer-avax-between-x-chain-and-c-chain.md). Wallet can be used on test and local networks, too.
 
@@ -94,5 +94,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTg0MTM2NCwtMTgzMDEzMDIzN119
+eyJoaXN0b3J5IjpbMjQwMjYxMjQ3LC0xODMwMTMwMjM3XX0=
 -->
