@@ -52,6 +52,7 @@ mkdir truffle; cd truffle
 npm install web3 -s
 ```
 
+我们会使用web3 来设置一个HTTP Provider，借此，网络3可与EVM通信。最后，创建一个boilerplace truffle项目。
 We'll use web3 to set an HTTP Provider which is how web3 will speak to the EVM. Lastly, create a boilerplace truffle project:
 
 ```text
@@ -400,5 +401,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMyOTMyNCwtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbLTU1MzgwMDgwOCwtOTU1MDUzNjM4XX0=
 -->
