@@ -6,7 +6,8 @@
 
 ## 要求
 
-您已经完成了Avalanche节点运行[Run an Avalanche Node](https://stackedit.io/get-started.md)，并熟悉Avalanche的架构[Avalanche’s architecture](https://stackedit.io/learn/platform-overview/)。您也会操作跨链交易，通过X链和C链之间AVAX转账的教程，您已经进行了跨链交换，从而将您的资金转到您的C链地址。You've also performed a cross-chain swap via the [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) tutorial to get funds to your C-Chain address.
+您已经完成了Avalanche节点运行[Run an Avalanche Node](https://stackedit.io/get-started.md)，并熟悉Avalanche的架构[Avalanche’s architecture](https://stackedit.io/learn/platform-overview/)。您也会操作跨链交易，通过[Transfer AVAX Between X-Chain and C-Chain](https://stackedit.io/platform/transfer-avax-between-x-chain-and-c-chain.md)这个教程, 将资金转到C链地址 
+X链和C链之间AVAX转账的教程，您已经进行了跨链交换，从而将您的资金转到您的C链地址。You've also performed a cross-chain swap via the [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) tutorial to get funds to your C-Chain address.
 
 ## Dependencies
 
@@ -402,5 +403,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODE3MDU2OF19
+eyJoaXN0b3J5IjpbMTQwNTY5NTIzNl19
 -->
