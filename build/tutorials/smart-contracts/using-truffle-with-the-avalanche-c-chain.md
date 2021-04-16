@@ -200,11 +200,11 @@ true
 
 ### 账户充值
 
-按照 [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) 教程的步骤, 给新创建的账户充值, 您需要给账户发送至少135422040nAVAX来支付合同部署费用。tutorial to fund the newly created account. You'll need to send at least `135422040` nAVAX to the account to cover the cost of contract deployments.
+按照 [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) 教程的步骤, 给新创建的账户充值, 您至少需要发送135422040nAVAX来支付合同部署费用。
 
-### Scripting account creation and funding
+### 脚本账户创建和充值
 
-Community member [Cinque McFarlane-Blake](https://github.com/cinquemb) has made a convenient script that automates this process. You can find it [here](https://github.com/ava-labs/avalanche-docs/tree/1b06df86bb23632b5fa7bf5bd5b10e8378061929/scripts/make_accounts.js). Download it using this command:
+社区成员[Cinque McFarlane-Blake](https://github.com/cinquemb) has made a convenient script that automates this process. You can find it [here](https://github.com/ava-labs/avalanche-docs/tree/1b06df86bb23632b5fa7bf5bd5b10e8378061929/scripts/make_accounts.js). Download it using this command:
 
 ```text
 wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/make_accounts.js;
@@ -399,8 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYzOTg0ODAsMTM1NTM5MzAzNCwxMz
-Q5NDM5NDIsLTE2ODcxOTI1MzcsLTE2Mzc2MjIyMzgsNzczMzA1
-ODI4LDIwNTYxNTIzMSwtMTYwOTY5ODIwMywtOTU1MDUzNjM4XX
-0=
+eyJoaXN0b3J5IjpbMTIzMTM2OTY0LDEzNTUzOTMwMzQsMTM0OT
+QzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIyMjM4LDc3MzMwNTgy
+OCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLTk1NTA1MzYzOF19
 -->
