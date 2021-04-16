@@ -32,8 +32,9 @@ runscript scripts/five_node_staking.lua
 
 ## 创建truffle目录并安装附属项
 
-打开一个新的终端选项，然后我们能够创建truffle目录并安装一些详细附属项。Open a new terminal tab to so we can create a `truffle` directory and install some further dependencies.
+打开一个新的终端选项，然后我们就能创建truffle目录, 并安装详细附属项。
 
+首先，导航至您打算创建truffle工作目录的目录：
 First, navigate to the directory within which you intend to create your `truffle` working directory:
 
 ```text
@@ -400,5 +401,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDA3NjM2NCwtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbLTE1Mzc2NDA1MzAsLTk1NTA1MzYzOF19
 -->
