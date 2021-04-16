@@ -16,7 +16,7 @@
 
 ## 启用本地Avalanche网络
 
-通过[Avash](https://github.com/ava-labs/avash), 您能够使用至多15个现有AvalancheGo节点来启动专用测试网络部署allows you to spin up private test network deployments with up to 15 AvalancheGo nodes out-of-the-box. Avash supports automation of regular tasks via lua scripts. This enables rapid testing against a wide variety of configurations. The first time you use avash you'll need to [install and build it](https://github.com/ava-labs/avash#quick-setup).
+通过[Avash](https://github.com/ava-labs/avash), 您能够使用至多15个现有AvalancheGo节点来启动专用测试网络部署允许您直接使用多达15个AvalancheGo节点来加速专用测试网络部署。allows you to spin up private test network deployments with up to 15 AvalancheGo nodes out-of-the-box. Avash supports automation of regular tasks via lua scripts. This enables rapid testing against a wide variety of configurations. The first time you use avash you'll need to [install and build it](https://github.com/ava-labs/avash#quick-setup).
 
 Start a local five node Avalanche network:
 
@@ -402,5 +402,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU0NDUzMTcsLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbMTc1ODI3MDg2OCwtOTU1MDUzNjM4XX0=
 -->
