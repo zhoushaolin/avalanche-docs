@@ -57,9 +57,9 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ![remix file explorer](../../../.gitbook/assets/remix-file-explorer.png)
 
-通过Remix文件资源浏览器，加载或创建我们想要编译并部署的智能合约。Load or create the smart contracts that we want to compile and deploy using Remix file explorer.
+通过Remix文件资源浏览器，加载或创建我们想要编译并部署的智能合约。
 
-For this example, we will deploy an ERC20 contract from [OpenZeppelin](https://openzeppelin.com/contracts).
+本例中, 我们将部署一个ERC20  from [OpenZeppelin](https://openzeppelin.com/contracts).
 
 ![ERC20 Contract](../../../.gitbook/assets/erc20-contract.png)
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk0Nzg5MTAsLTIxMDM4MzIxODMsMT
+eyJoaXN0b3J5IjpbLTE1NDY2MDE3NjksLTIxMDM4MzIxODMsMT
 QxODA4MzIsLTE4MzAxMzAyMzddfQ==
 -->
