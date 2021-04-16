@@ -310,21 +310,21 @@ Error:  *** Deployment Failed ***
 
 ## 与合约进行互动
 
-当前，Storage合约已部署完毕。向区块链写入数字，然后将其读取回来。再次打开truffle控制台：Now the `Storage` contract has been deployed. Let's write a number to the blockchain and then read it back. Open the truffle console again:
+当前，Storage合约已部署完毕。向区块链写入数字，然后将其读取回来。再次打开truffle控制台：
 
-Get an instance of the deployed `Storage` contract:
+获取已部署`Storage` 合约的实例：
 
 ```javascript
 truffle(development)> let instance = await Storage.deployed()
 ```
 
-This returns:
+返回至：
 
 ```text
 undefined
 ```
 
-### Writing a number to the blockchain
+### 向区块链写入数字
 
 Now that you have an instance of the `Storage` contract, call it's `store` method and pass in a number to write to the blockchain.
 
@@ -399,8 +399,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMjY3Nzk1LC0xNjg0NDkwMzUxLDEzNT
-UzOTMwMzQsMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIy
-MjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLT
-k1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbMTM1OTI3NDM4NCwzODMyNjc3OTUsLTE2OD
+Q0OTAzNTEsMTM1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1
+MzcsLTE2Mzc2MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMT
+YwOTY5ODIwMywtOTU1MDUzNjM4XX0=
 -->
