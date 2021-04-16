@@ -28,11 +28,11 @@ go build
 # start a five node staking network
 runscript scripts/five_node_staking.lua
 ```
-您的计算机上运行着五节点Avalanche网络。当您想要退出Avash时，请运行`exit`，但现在请勿运行，也请勿关闭此终端。
+您的计算机上运行着五节点Avalanche网络。当您想要退出Avash时，请运行`exit`，但现在请勿运行，也请勿关闭此终端选项。
 
-## Create truffle directory and install dependencies
+## 创建truffle目录并安装附属项
 
-Open a new terminal tab to so we can create a `truffle` directory and install some further dependencies.
+打开一个新的终端选项，然后我们能够创建truffle目录并安装一些详细附属项。Open a new terminal tab to so we can create a `truffle` directory and install some further dependencies.
 
 First, navigate to the directory within which you intend to create your `truffle` working directory:
 
@@ -400,5 +400,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3OTM3MCwtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbMjAzNDA3NjM2NCwtOTU1MDUzNjM4XX0=
 -->
