@@ -326,19 +326,19 @@ undefined
 
 ### 向区块链写入数字
 
-Now that you have an instance of the `Storage` contract, call it's `store` method and pass in a number to write to the blockchain.
+既然您已获得`Storage` 合约的实例，调用其`store`方法并向区块链写入数字。
 
 ```javascript
 truffle(development)> instance.store(1234)
 ```
 
-If you see this error:
+如果您看到此错误：
 
 ```text
 Error: Returned error: authentication needed: password or unlock
 ```
 
-Then run this again:
+请再次运行它：
 
 ```text
 truffle(development)> await web3.eth.personal.unlockAccount(account[0])
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTI3NDM4NCwzODMyNjc3OTUsLTE2OD
+eyJoaXN0b3J5IjpbMTEyOTg2MzQ0NCwzODMyNjc3OTUsLTE2OD
 Q0OTAzNTEsMTM1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1
 MzcsLTE2Mzc2MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMT
 YwOTY5ODIwMywtOTU1MDUzNjM4XX0=
