@@ -59,7 +59,7 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 通过Remix文件资源浏览器，加载或创建我们想要编译并部署的智能合约。
 
-本例中, 我们将部署一个ERC20  from [OpenZeppelin](https://openzeppelin.com/contracts).
+本例中, 我们将从[OpenZeppelin](https://openzeppelin.com/contracts)部署一个ERC20 合约
 
 ![ERC20 Contract](../../../.gitbook/assets/erc20-contract.png)
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY2MDE3NjksLTIxMDM4MzIxODMsMT
+eyJoaXN0b3J5IjpbLTEyOTg0MTY2MzEsLTIxMDM4MzIxODMsMT
 QxODA4MzIsLTE4MzAxMzAyMzddfQ==
 -->
