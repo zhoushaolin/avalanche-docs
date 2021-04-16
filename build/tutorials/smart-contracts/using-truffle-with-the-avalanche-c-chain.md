@@ -162,25 +162,25 @@ Truffle有一个非常有用的控制台 [console](https://www.trufflesuite.com/
 truffle console --network development
 ```
 
-Then, in the console, create the account:
+然后，在该控制台中创建账户：
 
 ```text
 truffle(development)> let account = await web3.eth.personal.newAccount()
 ```
 
-This returns:
+返回到：
 
 ```text
 undefined
 ```
 
-Print the account:
+打印账户：
 
 ```text
 truffle(development)> account
 ```
 
-This prints the account:
+打印账户：
 
 ```text
 '0x090172CD36e9f4906Af17B2C36D662E69f162282'
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODg4NjQ5MCwxMzU1MzkzMDM0LDEzND
+eyJoaXN0b3J5IjpbMTkyOTM4NDMxNywxMzU1MzkzMDM0LDEzND
 k0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYyMjIzOCw3NzMzMDU4
 MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC05NTUwNTM2MzhdfQ
 ==
