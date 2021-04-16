@@ -281,13 +281,13 @@ Summary
 > Final cost:          0.13542204 ETH
 ```
 
-If you didn't create an account on the C-Chain you'll see this error:
+如果您未在C链上创建账户，您会看到此错误：
 
 ```text
 Error: Expected parameter 'from' not passed to function.
 ```
 
-If you didn't fund the account, you'll see this error:
+如果您未给账户充值，您会看到此错误：
 
 ```text
 Error:  *** Deployment Failed ***
@@ -310,7 +310,7 @@ Error:  *** Deployment Failed ***
 
 ## 与合约进行互动
 
-Now the `Storage` contract has been deployed. Let's write a number to the blockchain and then read it back. Open the truffle console again:
+当前，Storage合约已部署完毕。向区块链写入数字，然后将其读取回来。再次打开truffle控制台：Now the `Storage` contract has been deployed. Let's write a number to the blockchain and then read it back. Open the truffle console again:
 
 Get an instance of the deployed `Storage` contract:
 
@@ -399,8 +399,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDMwOTA2MCwtMTY4NDQ5MDM1MSwxMz
-U1MzkzMDM0LDEzNDk0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYy
-MjIzOCw3NzMzMDU4MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC
-05NTUwNTM2MzhdfQ==
+eyJoaXN0b3J5IjpbMzgzMjY3Nzk1LC0xNjg0NDkwMzUxLDEzNT
+UzOTMwMzQsMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIy
+MjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLT
+k1NTA1MzYzOF19
 -->
