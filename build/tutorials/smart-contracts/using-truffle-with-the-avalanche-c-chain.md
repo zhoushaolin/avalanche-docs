@@ -35,19 +35,18 @@ runscript scripts/five_node_staking.lua
 打开一个新的终端选项，然后我们就能创建truffle目录, 并安装详细附属项。
 
 首先，导航至您打算创建truffle工作目录的目录：
-First, navigate to the directory within which you intend to create your `truffle` working directory:
 
 ```text
 cd /path/to/directory
 ```
 
-Create and enter a new directory named `truffle`:
+创建并输入新目录，命名为`truffle`:
 
 ```text
 mkdir truffle; cd truffle
 ```
 
-Use `npm` to install [web3](https://web3js.readthedocs.io), which is a library through which we can talk to the EVM:
+使用`npm` 来安装 [web3](https://web3js.readthedocs.io), 这是一个我们可用于与EVM对话的库:
 
 ```text
 npm install web3 -s
@@ -401,5 +400,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc2NDA1MzAsLTk1NTA1MzYzOF19
+eyJoaXN0b3J5IjpbLTEwMjMyOTMyNCwtOTU1MDUzNjM4XX0=
 -->
