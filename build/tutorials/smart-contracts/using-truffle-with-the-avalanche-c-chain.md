@@ -80,7 +80,7 @@ module.exports = {
   }
 };
 ```
-请注意，如果您想要将API调用导向到另一个AvalancheGo节点，您可以更改协议、IP和端口。还要注意，我们正在为Avalanche C链设置燃料价格和燃料的适当值。
+请注意，如果要将API调用导向到另一个AvalancheGo节点，您可以更改协议、IP和端口。还要注意，我们正在为Avalanche C链设置`gasPrice`和`gas`的适当值。
 Note that you can change the `protocol`, `ip` and `port` if you want to direct API calls to a different AvalancheGo node. Also note that we're setting the `gasPrice` and `gas` to the appropriate values for the Avalanche C-Chain.
 
 ## Add Storage.sol
@@ -400,6 +400,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NTM0OTQyLC0xNjA5Njk4MjAzLC05NT
+eyJoaXN0b3J5IjpbOTc4ODIyNzE5LC0xNjA5Njk4MjAzLC05NT
 UwNTM2MzhdfQ==
 -->
