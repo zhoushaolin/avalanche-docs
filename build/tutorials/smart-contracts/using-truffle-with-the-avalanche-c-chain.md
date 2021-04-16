@@ -2,11 +2,11 @@
 
 ## 简介
 
-[Truffle Suite](https://www.trufflesuite.com/)套装是用于在EVM上启动去中心化应用程序（dapps）的工具包。通过Truffle，您可以编写和编译智能合约、构建工件、运行程序迁移并与部署合约互动。This tutorial illustrates how Truffle can be used with Avalanche's C-Chain, which is an instance of the EVM.
+[Truffle Suite](https://www.trufflesuite.com/)套装是用于在EVM上启动去中心化应用程序（dapps）的工具包。通过Truffle，您可以编写和编译智能合约、构建工件、运行程序迁移并与部署合约互动。本教程演示了如何将Truffle应用于Avalanche的C链，这是EVM的一个实例。
 
-## Requirements
+## 要求
 
-You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/). You've also performed a cross-chain swap via the [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) tutorial to get funds to your C-Chain address.
+您已经完成了运行Avalanche，并熟悉了Avalanche架构。通过X链和C链之间AVAX转账的教程，您已经进行了跨链交换，从而将您的资金转到您的C链地址。You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/). You've also performed a cross-chain swap via the [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) tutorial to get funds to your C-Chain address.
 
 ## Dependencies
 
@@ -402,5 +402,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzU3MzU2M119
+eyJoaXN0b3J5IjpbLTEyMzMyMDA0MjNdfQ==
 -->
