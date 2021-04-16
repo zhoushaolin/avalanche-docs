@@ -344,7 +344,7 @@ Error: Returned error: authentication needed: password or unlock
 truffle(development)> await web3.eth.personal.unlockAccount(account[0])
 ```
 
-You should see something like:
+您应该看到如下内容：
 
 ```javascript
 {
@@ -368,9 +368,9 @@ You should see something like:
 }
 ```
 
-### Reading a number from the blockhain
+### 从区块链读取数字
 
-To read the number from the blockchain, call the `retrieve` method of the `Storage` contract instance.
+如需从区块链读取数字，请调用`Storage` 合约实例的`retrieve`方法。
 
 ```javascript
 truffle(development)> let i = await instance.retrieve()
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTg2MzQ0NCwzODMyNjc3OTUsLTE2OD
+eyJoaXN0b3J5IjpbMTc2Njg1NDUyNywzODMyNjc3OTUsLTE2OD
 Q0OTAzNTEsMTM1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1
 MzcsLTE2Mzc2MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMT
 YwOTY5ODIwMywtOTU1MDUzNjM4XX0=
