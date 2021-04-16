@@ -15,7 +15,7 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 #### **Avalanche主网设置:**
 
-* **Network Name**: Avalanche Mainnet C-Chain
+* **网络名称**: Avalanche Mainnet C-Chain (Avalanche主网C链)
 * **New RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
 * **ChainID**: `0xa86a`
 * **Symbol**: `AVAX`
@@ -94,5 +94,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTk1MTc4MiwtMTgzMDEzMDIzN119
+eyJoaXN0b3J5IjpbNjI2NjgyNTgsLTE4MzAxMzAyMzddfQ==
 -->
