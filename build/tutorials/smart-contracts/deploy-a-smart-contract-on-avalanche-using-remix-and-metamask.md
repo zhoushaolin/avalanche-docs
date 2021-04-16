@@ -41,7 +41,7 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ### **使用 Avalanche 钱包**
 
-On the main net, you can use the [Avalanche Wallet](https://wallet.avax.network/) to transfer funds from the X-Chain to your C-Chain address. The process is simple, as explained in this [tutorial](../platform/transfer-avax-between-x-chain-and-c-chain.md). Wallet can be used on test and local networks, too.
+在主网上，您可以使用 [Avalanche Wallet](https://wallet.avax.network/) 将X链上的资金转到C链地址. 。方法很简单，教程中已有说明。[tutorial](../platform/transfer-avax-between-x-chain-and-c-chain.md)。测试网络和本地网络上均可使用该钱包。
 
 ### **Using Test Network Faucet**
 
@@ -94,5 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMjYxMjQ3LC0xODMwMTMwMjM3XX0=
+eyJoaXN0b3J5IjpbLTE5NzI1MzMzNjIsLTE4MzAxMzAyMzddfQ
+==
 -->
