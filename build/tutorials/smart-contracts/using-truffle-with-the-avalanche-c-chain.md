@@ -11,8 +11,8 @@
 ## 附属项
 
 * [Avash](https://github.com/ava-labs/avash) 是一个运行Avalanche网络的工具. 与 Truffle的 [Ganache](https://www.trufflesuite.com/ganache)相似。
-* [NodeJS](https://nodejs.org/en) v8.9.4 or later.
-* Truffle, which you can install with `npm install -g truffle`
+* [NodeJS](https://nodejs.org/en) v8.9.4或更高版本.
+* Truffle, 可以通过 `npm install -g truffle`进行安装
 
 ## Start up a local Avalanche network
 
@@ -402,5 +402,5 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2ODMwMjY0LC05NTUwNTM2MzhdfQ==
+eyJoaXN0b3J5IjpbMTkxMDgwNDk1OCwtOTU1MDUzNjM4XX0=
 -->
