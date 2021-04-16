@@ -131,7 +131,7 @@ module.exports = function (deployer) {
 
 ## 用Truffle编译合约
 
-但凡你需要对`Storage.sol`作出更改, 你都xu yao you need to run `truffle compile`.
+但凡你需要对`Storage.sol`作出更改, 你都需要运行`truffle compile`来进行编译.
 
 ```text
 truffle compile
@@ -398,6 +398,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA5MTA1MjUsMjA1NjE1MjMxLC0xNj
-A5Njk4MjAzLC05NTUwNTM2MzhdfQ==
+eyJoaXN0b3J5IjpbNzczMzA1ODI4LDIwNTYxNTIzMSwtMTYwOT
+Y5ODIwMywtOTU1MDUzNjM4XX0=
 -->
