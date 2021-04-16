@@ -198,9 +198,9 @@ truffle(development)> await web3.eth.personal.unlockAccount(account)
 true
 ```
 
-### Fund your account
+### 账户充值
 
-Follow the steps in the [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) tutorial to fund the newly created account. You'll need to send at least `135422040` nAVAX to the account to cover the cost of contract deployments.
+按照 [Transfer AVAX Between X-Chain and C-Chain](../platform/transfer-avax-between-x-chain-and-c-chain.md) 教程的步骤, 给新创建的账户充值, 您需要给账户发送至少135422040nAVAX来支付合同部署费用。tutorial to fund the newly created account. You'll need to send at least `135422040` nAVAX to the account to cover the cost of contract deployments.
 
 ### Scripting account creation and funding
 
@@ -399,8 +399,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjE3MjQ5NCwxMzU1MzkzMDM0LDEzND
-k0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYyMjIzOCw3NzMzMDU4
-MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC05NTUwNTM2MzhdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MzYzOTg0ODAsMTM1NTM5MzAzNCwxMz
+Q5NDM5NDIsLTE2ODcxOTI1MzcsLTE2Mzc2MjIyMzgsNzczMzA1
+ODI4LDIwNTYxNTIzMSwtMTYwOTY5ODIwMywtOTU1MDUzNjM4XX
+0=
 -->
