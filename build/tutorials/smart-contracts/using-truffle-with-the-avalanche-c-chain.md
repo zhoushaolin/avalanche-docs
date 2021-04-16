@@ -209,12 +209,9 @@ true
 ```text
 wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/make_accounts.js;
 ```
-**注意**: 如果是按照教程设置的`truffle-config.js`文件, 那么, 你就需要使用端口9650来修改脚本`make_accounts.js`
-`truffle-config.js 
+**注意**: 如果是按照教程设置的`truffle-config.js`文件, 那么, 你就需要使用端口9650来修改脚本`make_accounts.js`, 而不是端口9545(truffle使用的默认端口)
 
-If you followed the steps at the beginning of this tutorial when setting up your `truffle-config.js`, then you will need to modify the `make_accounts.js` script to use port 9650 instead of port 9545 (the default used by truffle). 
-
-You can run the script with:
+用以下代码:
 
 ```text
 truffle exec make_accounts.js --network development
@@ -402,8 +399,8 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzQyMDQzNiwtMTY4NDQ5MDM1MSwxMz
-U1MzkzMDM0LDEzNDk0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYy
-MjIzOCw3NzMzMDU4MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC
-05NTUwNTM2MzhdfQ==
+eyJoaXN0b3J5IjpbNjMzMzI4MDMxLC0xNjg0NDkwMzUxLDEzNT
+UzOTMwMzQsMTM0OTQzOTQyLC0xNjg3MTkyNTM3LC0xNjM3NjIy
+MjM4LDc3MzMwNTgyOCwyMDU2MTUyMzEsLTE2MDk2OTgyMDMsLT
+k1NTA1MzYzOF19
 -->
