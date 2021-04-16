@@ -71,11 +71,11 @@ Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链�
 
 ![Solidity compiler](../../../.gitbook/assets/solidity-compiler.png)
 
-现在，智能合约已编译，MetaMask已加入，我们准备好部署ERC20。点击“部署”。Now, the smart contract is compiled, MetaMask is injected, and we are ready to deploy our ERC20. Click “Deploy.”
+现在，智能合约已编译，MetaMask已加入，接着我们可以部署ERC20。点击“Deploy”。
 
 ![Deploy erc20](../../../.gitbook/assets/deploy-erc20.png)
 
-Confirm the transaction on the MetaMask pop up.
+确认元掩码弹窗上的交易。在弹出的MetaMask上确认交易。Confirm the transaction on the MetaMask pop up.
 
 ![Confirm ERC20](../../../.gitbook/assets/confirm-erc20.png)
 
@@ -94,6 +94,6 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Nzc1MDYyMiwxMDI1NjY5MzksLTIxMD
+eyJoaXN0b3J5IjpbMTE3NTM5NTgyMywxMDI1NjY5MzksLTIxMD
 M4MzIxODMsMTQxODA4MzIsLTE4MzAxMzAyMzddfQ==
 -->
