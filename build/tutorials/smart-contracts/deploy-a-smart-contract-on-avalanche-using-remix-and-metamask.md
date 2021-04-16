@@ -1,10 +1,10 @@
 # 使用Remix 和MetaMask在Avalanche 上部署智能合约
 
-## Introduction
+## 简介
 
 ![Primary Network](../../../.gitbook/assets/image%20%2821%29.png)
-
-Avalanche's Primary Network is a subnet that has three chains: P-Chain, X-Chain, and C-Chain. The C-Chain is an instance of the Ethereum Virtual Machine powered by Avalanche’s Snowman consensus protocol. The [C-Chain RPC](../../avalanchego-apis/contract-chain-c-chain-api.md) can do anything a typical Ethereum client can by using the Ethereum-standard RPC calls. The immediate benefits of using the C-Chain rather than Ethereum are all of the benefits of using Avalanche. These properties that could considerably improve the performance of DApps and the user experience.
+Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链是Avalanche雪人共识协议驱动以太坊虚拟机的一个实例。通过使用以太坊标准RPC调用，C链RPC能实现典型以太坊客户端能实现的一切。使用C链而非以太坊的直接好处即使用Avalanche的所有好处。此类特性能够大幅提高DApps的性能和用户体验。
+The C-Chain is an instance of the Ethereum Virtual Machine powered by Avalanche’s Snowman consensus protocol. The [C-Chain RPC](../../avalanchego-apis/contract-chain-c-chain-api.md) can do anything a typical Ethereum client can by using the Ethereum-standard RPC calls. The immediate benefits of using the C-Chain rather than Ethereum are all of the benefits of using Avalanche. These properties that could considerably improve the performance of DApps and the user experience.
 
 Today, we will deploy and test a smart contract on Avalanche using Remix and MetaMask.
 
@@ -95,5 +95,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzAxMzAyMzddfQ==
+eyJoaXN0b3J5IjpbMjc1Njc1ODQwLC0xODMwMTMwMjM3XX0=
 -->
