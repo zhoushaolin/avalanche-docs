@@ -4,11 +4,10 @@
 
 ![Primary Network](../../../.gitbook/assets/image%20%2821%29.png)
 Avalanche的主网是一个包含三条链的子网：P链、X链和C链。C链是Avalanche雪人共识协议驱动以太坊虚拟机的一个实例。通过使用以太坊标准RPC调用，[C-Chain RPC](../../avalanchego-apis/contract-chain-c-chain-api.md) 能做到以太坊客户端能实现的一切。使用C链而非以太坊, 可以体验到Avalanche的所有好处。Avalanche的特性能够大幅提高DApps的性能和用户体验。
-The immediate benefits of using the C-Chain rather than Ethereum are all of the benefits of using Avalanche. These properties that could considerably improve the performance of DApps and the user experience.
 
-Today, we will deploy and test a smart contract on Avalanche using Remix and MetaMask.
+今天，我们来使用Remix 和MetaMask在Avalanche上部署并测试智能合约。
 
-## Step 1: Setting up MetaMask
+## 第1步：设置元掩码**MetaMask
 
 Log in to MetaMask -&gt; Click the Network drop-down -&gt; Select Custom RPC
 
@@ -95,5 +94,5 @@ The contract ABI and Bytecode are available on the compiler tab.
 If you had any difficulties following this tutorial or simply want to discuss Avalanche with us, you can join our community at [Discord](https://chat.avalabs.org/)!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzczNjMyMSwtMTgzMDEzMDIzN119
+eyJoaXN0b3J5IjpbMTA1ODg1OTcwNCwtMTgzMDEzMDIzN119
 -->
