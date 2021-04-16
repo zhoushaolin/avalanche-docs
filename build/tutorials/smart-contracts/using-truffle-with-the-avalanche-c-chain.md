@@ -204,7 +204,7 @@ true
 
 ### 脚本账户创建和充值
 
-社区成员[Cinque McFarlane-Blake](https://github.com/cinquemb) 已经制作了一个可以自动化此过程的便利脚本。您可以在这里找到它。使用此命令来下载它：has made a convenient script that automates this process. You can find it [here](https://github.com/ava-labs/avalanche-docs/tree/1b06df86bb23632b5fa7bf5bd5b10e8378061929/scripts/make_accounts.js). Download it using this command:
+社区成员[Cinque McFarlane-Blake](https://github.com/cinquemb) 已经制作了一个可以自动化此过程的便利脚本。您可以在[here](https://github.com/ava-labs/avalanche-docs/tree/1b06df86bb23632b5fa7bf5bd5b10e8378061929/scripts/make_accounts.js)这里找到它。使用此命令来下载它：
 
 ```text
 wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/make_accounts.js;
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc3NDEzMjksMTM1NTM5MzAzNCwxMz
+eyJoaXN0b3J5IjpbLTE2ODQ0OTAzNTEsMTM1NTM5MzAzNCwxMz
 Q5NDM5NDIsLTE2ODcxOTI1MzcsLTE2Mzc2MjIyMzgsNzczMzA1
 ODI4LDIwNTYxNTIzMSwtMTYwOTY5ODIwMywtOTU1MDUzNjM4XX
 0=
