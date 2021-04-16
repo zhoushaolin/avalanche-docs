@@ -119,7 +119,7 @@ contract Storage {
 
 ## 添加新迁移程序
 
-在`migrations` 目录里创建名为`2_deploy_contracts.js`的文件夹, 然后添加以下代码, 这将把部署到区块链and add the following block of code. This handles deploying the `Storage` smart contract to the blockchain.
+在`migrations` 目录里创建名为`2_deploy_contracts.js`的文件夹, 然后添加以下代码, 这将把`Storage` 智能合约部署到区块链。
 
 ```javascript
 const Storage = artifacts.require("Storage");
@@ -129,9 +129,9 @@ module.exports = function (deployer) {
 };
 ```
 
-## Compile Contracts with Truffle
+## 用Truffle编译合约
 
-Any time you make a change to `Storage.sol` you need to run `truffle compile`.
+Any time you ma`Storage.sol` you need to run `truffle compile`.
 
 ```text
 truffle compile
@@ -398,6 +398,6 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNzIwNzI3LDIwNTYxNTIzMSwtMTYwOT
-Y5ODIwMywtOTU1MDUzNjM4XX0=
+eyJoaXN0b3J5IjpbLTc5NjM2NzY3MCwyMDU2MTUyMzEsLTE2MD
+k2OTgyMDMsLTk1NTA1MzYzOF19
 -->
