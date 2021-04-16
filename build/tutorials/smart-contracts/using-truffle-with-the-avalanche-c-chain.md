@@ -376,12 +376,13 @@ truffle(development)> await web3.eth.personal.unlockAccount(account[0])
 truffle(development)> let i = await instance.retrieve()
 ```
 
-This should return:
+应返回至：
 
 ```javascript
 undefined
 ```
 
+retrieve（检索）的调用结果是BN（大数字）。调用其.toNumber方法，以查看其值：您应看到您存储的数字。
 The result of the call to `retrieve` is a `BN` \(big number\). Call its `.toNumber` method to see the value:
 
 ```javascript
@@ -399,7 +400,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Njg1NDUyNywzODMyNjc3OTUsLTE2OD
+eyJoaXN0b3J5IjpbMTQ0OTE5NTQ5OCwzODMyNjc3OTUsLTE2OD
 Q0OTAzNTEsMTM1NTM5MzAzNCwxMzQ5NDM5NDIsLTE2ODcxOTI1
 MzcsLTE2Mzc2MjIyMzgsNzczMzA1ODI4LDIwNTYxNTIzMSwtMT
 YwOTY5ODIwMywtOTU1MDUzNjM4XX0=
