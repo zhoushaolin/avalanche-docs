@@ -180,19 +180,19 @@ undefined
 truffle(development)> account
 ```
 
-打印账户：
+这将打印账户：
 
 ```text
 '0x090172CD36e9f4906Af17B2C36D662E69f162282'
 ```
 
-### Unlock your account:
+### 解锁账户:
 
 ```text
 truffle(development)> await web3.eth.personal.unlockAccount(account)
 ```
 
-This returns:
+返回到：
 
 ```text
 true
@@ -399,7 +399,7 @@ You should see the number you stored.
 Now you have the tools you need to launch a local Avalanche network, create a truffle project, as well as create, compile, deploy and interact with Solidity contracts.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTM4NDMxNywxMzU1MzkzMDM0LDEzND
+eyJoaXN0b3J5IjpbMTc5MjE3MjQ5NCwxMzU1MzkzMDM0LDEzND
 k0Mzk0MiwtMTY4NzE5MjUzNywtMTYzNzYyMjIzOCw3NzMzMDU4
 MjgsMjA1NjE1MjMxLC0xNjA5Njk4MjAzLC05NTUwNTM2MzhdfQ
 ==
