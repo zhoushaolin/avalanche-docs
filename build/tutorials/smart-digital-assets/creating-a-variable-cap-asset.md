@@ -11,9 +11,9 @@
 
 * **灵活性:** 能够编码这样的逻辑很好，“Alice可以单方面铸造更多单位的资产，或者Dinesh, Ellin和Jamie其中两个人可以一起铸造更多单位的资产。”
 
-假设我们想要发行代表公司股份的一项资产。开始时不存在股份，但随后可能创建更多股份。那么就来创建这么一项资产吧。Suppose that we want to issue an asset that represents shares of a corporation. No shares exist to start with, but more shares may be created later. Let’s create such an asset.
+假设我们想要发行代表公司股份的一项资产。开始时不存在股份，但随后可能创建更多股份。那就来创建这么一项资产吧。
 
-## Requirements
+## 要求
 
 You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/).
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDgwOTQ4MTEsMTc4OTU3MDY0NywtMT
+eyJoaXN0b3J5IjpbLTE5MDUxMDM1MTksMTc4OTU3MDY0NywtMT
 kyNDI3MDE0MV19
 -->
