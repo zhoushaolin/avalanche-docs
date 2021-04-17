@@ -58,7 +58,7 @@ avm.createVariableCapAsset({
 * `assetID` (资产ID)是新资产的ID。
 * `changeAddr` (更改地址)是结果中发送任何更改要求的地址。
 
-随后本例中，我们将铸造更多股份，因此请确保 用您用户控制的地址替换第二铸造机集合中的至少2个地址。Later in this example, we’ll mint more shares, so be sure to replace at least 2 addresses in the second minter set with addresses your user controls.
+随后本例中，我们将铸造更多股份，因此请确保第二铸造机集合中填入至少2个地址。
 
 ```cpp
 curl -X POST --data '{
@@ -92,7 +92,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should look like this:
+响应应如下所示：
 
 ```cpp
 {
@@ -105,7 +105,7 @@ The response should look like this:
 }
 ```
 
-## Mint the Asset
+## 铸造zi chan
 
 Right now 0 shares exist. Let’s mint 10M shares.
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTIwNDI1OCwtMTczOTY0OTAwNywxNz
+eyJoaXN0b3J5IjpbMTA3MTQxMzM0MSwtMTczOTY0OTAwNywxNz
 g5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
