@@ -9,10 +9,9 @@
 
 * **安全性:** 如果仅有一个地址能够铸造更多资产且该地址的私人密钥遗失，则无法再铸造更多单位资产。类似地，如果只有一个地址可以铸造更多的资产，没有什么可以阻止该地址的持有者单方面铸造尽可能多的资产。
 
-* **灵活性:** 能够编码这样的逻辑很好，“Alice可以单方面制造更多单位的资产，或者Dinesh, Ellin和Jamie可以一起制造更多单位的资产。”
-* it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
+* **灵活性:** 能够编码这样的逻辑很好，“Alice可以单方面铸造更多单位的资产，或者Dinesh, Ellin和Jamie其中两个人可以一起铸造更多单位的资产。”
 
-Suppose that we want to issue an asset that represents shares of a corporation. No shares exist to start with, but more shares may be created later. Let’s create such an asset.
+假设我们想要发行代表公司股份的一项资产。开始时不存在股份，但随后可能创建更多股份。那么就来创建这么一项资产吧。Suppose that we want to issue an asset that represents shares of a corporation. No shares exist to start with, but more shares may be created later. Let’s create such an asset.
 
 ## Requirements
 
@@ -257,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NTYyODYzLDE3ODk1NzA2NDcsLTE5Mj
-QyNzAxNDFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDgwOTQ4MTEsMTc4OTU3MDY0NywtMT
+kyNDI3MDE0MV19
 -->
