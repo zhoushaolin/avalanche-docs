@@ -3,8 +3,8 @@
 ## 简介
 
 本教程说明了如何将Avalanche用于创建并交易一项固定资本可替代资产。资产初始化时创建特定数量的资产，然后不再创建。
-This tutorial illustrates how Avalanche can be used to create and trade a fixed-cap, fungible asset. A specific quantity of the asset is created at the asset’s initialization, and then, no more is ever created.
 
+假设存在一项1千万股的收入分享协议（ISA），且不再创建更多股份。那就创建一项资产，其中一单位的资产代表ISA的一股。
 Suppose there is an Income Sharing Agreement \(ISA\) with 10M shares, and no more shares are ever created. Let’s create an asset where one unit of the asset represents one share of the ISA.
 
 ## Requirements
@@ -222,5 +222,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
+eyJoaXN0b3J5IjpbLTQyMDEzODM2LC0xMzY2NjA5NDk5LC01Nj
+YwMjgwMzVdfQ==
 -->
