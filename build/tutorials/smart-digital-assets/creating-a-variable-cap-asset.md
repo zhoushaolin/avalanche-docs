@@ -47,7 +47,7 @@ avm.createVariableCapAsset({
 
 * `name` (名称) 是资产的可读名称。不一定是唯一的。字符数0到128之间.
 * `symbol`(符号) 是资产的缩写符号, 0至4个字符。不一定是唯一的。可省略。
-* `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
+* `denomination` (面值) 确定了用户界面如何显示该资产的余额。如果面值为0，则100个单位的该资产即显示为100; 如果面值为1，则100个单位的该资产即显示为10.0;如果面值为2，则100个单位的该资产即显示为0.1，以此类推。
 * `minterSets` is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting transaction.
 * Performing a transaction on the X-Chain requires a transaction fee paid in AVAX. `username` and `password` denote the user paying the fee.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODc4NDI2OCwxNzg5NTcwNjQ3LC0xOT
+eyJoaXN0b3J5IjpbLTIzNzc0ODU5OSwxNzg5NTcwNjQ3LC0xOT
 I0MjcwMTQxXX0=
 -->
