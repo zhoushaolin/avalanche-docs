@@ -111,10 +111,10 @@ curl -X POST --data '{
 
 ### 创建未签署交易
 
-We’ll use [`avm.mint`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-mint) to mint the shares.
+我们将使用[`avm.mint`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-mint) 来铸造股份。
 
-* `amount` is the number of shares that will be created.
-* `assetID` is the ID of the asset we’re creating more of.
+* `amount` (数额)是即将创建的股份的数量。
+* `assetID`(资产ID)是我们继续创建的资产的ID
 * `to` is the address that will receive the newly minted shares. Replace `to` with an address your user controls so that later you’ll be able to send some of the newly minted shares.
 * `username` must be a user that holds keys giving it permission to mint more of this asset. That is, it controls at least _threshold_ keys for one of the minter sets we specified above.
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODQyMjk4NSwtMTczOTY0OTAwNywxNz
-g5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
+eyJoaXN0b3J5IjpbLTExNDY3MDExMTIsLTE3Mzk2NDkwMDcsMT
+c4OTU3MDY0NywtMTkyNDI3MDE0MV19
 -->
