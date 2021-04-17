@@ -161,9 +161,9 @@ curl -X POST --data '{
 }
 ```
 
-`txID`是我们发送至网络的send（发送）交易的ID。`txID` is the ID of the `send` transaction we sent to the network.
+`txID`是我们发送至网络的`send`（发送）交易的ID。
 
-After a second or two, the transaction should be finalized. We can check the status of the transaction with [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
+第二轮或两轮后，交易应最终确定。我们可以使用avm.getTxStatus来查看交易状态。After a second or two, the transaction should be finalized. We can check the status of the transaction with [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
 
 ```cpp
 curl -X POST --data '{
@@ -225,7 +225,7 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMjg3MTc3LDE4OTA4MzY1NzAsLTE4Nj
+eyJoaXN0b3J5IjpbMjQ2NzQ3NjM0LDE4OTA4MzY1NzAsLTE4Nj
 Y1NjkyMDYsMTk3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4
 MDM1XX0=
 -->
