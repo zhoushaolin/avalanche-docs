@@ -41,7 +41,7 @@ avm.createFixedCapAsset({
 * `name`(名称) 是资产的可读名称。不一定是唯一的。                                                
 * `symbol`(符号) 是资产的缩写符号, 0至4个字符。不一定是唯一的。可能省略。
 * `denomination`(面值) 确定了用户界面如何显示该资产的余额。如果面值为0，则100个单位的该资产即显示为100; 如果面值为1，则100个单位的该资产即显示为10.0;如果面值为2，则100个单位的该资产即显示为0.1，以此类推。
-* 在X链上进行一项交易需要用AVAX支付交易费用。`username`(用户名)和`password`(密码)。
+* 在X链上进行一项交易需要用AVAX支付交易费用。`username`(用户名)和`password`(密码)表示支付费用的用户。
 * `initialHolders`(初始持有人)中的每个元素都指定了这个`address`(地址)持有的初始`amount`(数量)单位。 地址在初始时持有的金额单位。
 * `from`(发送地址)是您想用于此操作的地址。如果省略，请根据需要使用您的任何地址。
 * `changeAddr`(更改地址)是发送任何更改要求的地方。如果省略，更改将发送至用户控制下的地址。
@@ -223,7 +223,7 @@ curl -X POST --data '{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTY1NjM4MSwxODAwOTA3NzAsMTI4OD
+eyJoaXN0b3J5IjpbMTkyMzE2ODMwMiwxODAwOTA3NzAsMTI4OD
 MxMTU4MCwtMTIyODA2NjM4NCwxODkwODM2NTcwLC0xODY2NTY5
 MjA2LDE5NzE1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV
 19
