@@ -79,7 +79,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response contains the asset’s ID, which is also the ID of this transaction:
+这个响应包含资产ID, 同样也是下面交易的ID:
 
 ```cpp
 {
@@ -224,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTI2NjY1OSwtMTg2NjU2OTIwNiwxOT
-cxNTkzNzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
+eyJoaXN0b3J5IjpbMTg0ODYyMzQ3LC0xODY2NTY5MjA2LDE5Nz
+E1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
 -->
