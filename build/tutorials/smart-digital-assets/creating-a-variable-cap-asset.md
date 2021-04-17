@@ -105,11 +105,11 @@ curl -X POST --data '{
 }
 ```
 
-## 铸造zi chan
+## 铸造资产
 
-Right now 0 shares exist. Let’s mint 10M shares.
+当前共计0股股份。让我们铸造1000万股股份。
 
-### Create the Unsigned Transaction
+### 创建未签署交易
 
 We’ll use [`avm.mint`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-mint) to mint the shares.
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTQxMzM0MSwtMTczOTY0OTAwNywxNz
+eyJoaXN0b3J5IjpbLTIyODQyMjk4NSwtMTczOTY0OTAwNywxNz
 g5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
