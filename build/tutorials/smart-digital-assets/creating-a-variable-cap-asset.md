@@ -202,7 +202,7 @@ curl -X POST --data '{
 
 ### 发送资产
 
-Let’s send 100 shares to another address by using [`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-send). To do so:
+Let’s send 100 shares to another address by using 通过使用[`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-send), 向另一个地址发送100股股份, 要实现这一点To do so:
 
 ```cpp
 curl -X POST --data '{
@@ -255,6 +255,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDk4NzMzOSwtMTE0NjcwMTExMiwtMT
-czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
+eyJoaXN0b3J5IjpbOTc4Njg5Mzc1LC0xMTQ2NzAxMTEyLC0xNz
+M5NjQ5MDA3LDE3ODk1NzA2NDcsLTE5MjQyNzAxNDFdfQ==
 -->
