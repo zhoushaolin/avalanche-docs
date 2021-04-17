@@ -116,7 +116,7 @@ curl -X POST --data '{
 * `amount` (数额)是即将创建的股份的数量。
 * `assetID` (资产ID)是我们创建更多资产的ID
 * `to` (到达地址 )是将接收新铸造股份的地址。用您的用户控制的一个地址填入，接下来可以发送新铸造的股份。
-* `username` (用户名)必须是持有密钥的用户，该密钥允许其创建更多该资产。换言之，它至少控制上文指定的一个铸币机集合的阈值密钥。must be a user that holds keys giving it permission to mint more of this asset. That is, it controls at least _threshold_ keys for one of the minter sets we specified above.
+* `username` (用户名)必须是持有密钥的用户，该密钥允许其创建更多该资产。换言之，它至少控制上文指定的一个铸币机集合的阈值密钥。
 
 ```cpp
 curl -X POST --data '{
@@ -133,7 +133,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response contains the transaction’s ID:
+响应中包含了交易ID：
 
 ```cpp
 {
@@ -146,7 +146,7 @@ The response contains the transaction’s ID:
 }
 ```
 
-We can check the status of the transaction we’ve just sent to the network using [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
+We can check the status of the transaction we’ve just sent to the network using [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus), 我们能够查看我们刚刚发送至网络的交易的状态：:
 
 ```cpp
 curl -X POST --data '{
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Njg3MjI4NiwtMTE0NjcwMTExMiwtMT
+eyJoaXN0b3J5IjpbMTYyMzgxNjA1NCwtMTE0NjcwMTExMiwtMT
 czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
