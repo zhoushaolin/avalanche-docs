@@ -129,7 +129,7 @@ curl -X POST --data '{
 现在, 调用[`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-send), 发送100股股份。
 
 如需发送股份，我们需要验证发送股份的用户。
-因此，我们需要填写用户名和密码。
+因此，我们需要填写`username`(用户名)和`password`(密码)。
 To send the shares, we need to prove that we control the user the shares are being sent from. Therefore, this time we’ll need to fill in `username` and `password`.
 
 ```cpp
@@ -226,6 +226,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTQ3MjIwMywtMTg2NjU2OTIwNiwxOT
+eyJoaXN0b3J5IjpbMTg5MDgzNjU3MCwtMTg2NjU2OTIwNiwxOT
 cxNTkzNzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
 -->
