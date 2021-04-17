@@ -21,7 +21,7 @@
 
 资产都存放在X链上, 因此, 要创建资产, 我们要调用[X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md)的方法[`avm.createVariableCapAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createvariablecapasset)。
 
-The signature for this method is:
+该方法的签名为：
 
 ```cpp
 avm.createVariableCapAsset({
@@ -43,7 +43,7 @@ avm.createVariableCapAsset({
 }
 ```
 
-### Parameters
+### 参数
 
 * `name` is a human-readable name for our asset. Not necessarily unique. Between 0 and 128 characters.
 * `symbol` is a shorthand symbol for this asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODA5MjA3MCwxNzg5NTcwNjQ3LC0xOT
-I0MjcwMTQxXX0=
+eyJoaXN0b3J5IjpbLTEzMDU1MzU1MTMsMTc4OTU3MDY0NywtMT
+kyNDI3MDE0MV19
 -->
