@@ -8,8 +8,10 @@
 您可能好奇为什么我们要明确哪些地址集能够铸造更多单位的资产，而非单个地址。原因如下：
 
 * **安全性:** 如果仅有一个地址能够铸造更多资产且该地址的私人密钥遗失，则无法再铸造更多单位资产。类似地，如果只有一个地址可以铸造更多的资产，没有什么可以阻止该地址的持有者单方面铸造尽可能多的资产。
-* if only one address can mint more of the asset, and the private key for that address is lost, no more units can ever be minted. Similarly, if only one address can mint more of the asset, nothing stops the holder of that address from unilaterally minting as much as they want.
-* **Flexibility:** it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
+
+* **灵活性:** 逻辑可编码为“Alice能够单方面铸造更多单位的资产，或者能与Dinesh、Ellin和Jamie一起铸造更多。
+* 能够编码这样的逻辑很好，“Alice可以单方面制造更多单位的资产，或者Dinesh, Ellin和Jamie可以一起制造更多单位的资产。”
+* it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
 
 Suppose that we want to issue an asset that represents shares of a corporation. No shares exist to start with, but more shares may be created later. Let’s create such an asset.
 
@@ -256,6 +258,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzA2NzMzMiwxNzg5NTcwNjQ3LC0xOT
+eyJoaXN0b3J5IjpbMjA3MTIyNjEwMywxNzg5NTcwNjQ3LC0xOT
 I0MjcwMTQxXX0=
 -->
