@@ -43,7 +43,7 @@ avm.createFixedCapAsset({
 * `denomination`(面值) 确定了用户界面如何显示该资产的余额。如果面值为0，则100个单位的该资产即显示为100; 如果面值为1，则100个单位的该资产即显示为10.0;如果面值为2，则100个单位的该资产即显示为0.1，以此类推。
 * 在X链上进行一项交易需要用AVAX支付交易费用。用户需要登陆`username`(用户名和)`password`(密码)。
 * `initialHolders`(初始持有人)中的每个元素都指定了这个`address`(地址)持有的初始`amount`(数量)单位。 地址在初始时持有的金额单位。
-* `from`(出处)是您想用于此操作的地址。如果省略，请根据需要使用您的任何地址。
+* `from`(发送地址)是您想用于此操作的地址。如果省略，请根据需要使用您的任何地址。
 * `changeAddr`(更改地址)是发送任何更改要求的地方。如果省略，更改将发送至用户控制下的地址。
 
 ### 响应
@@ -93,7 +93,7 @@ curl -X POST --data '{
 
 ### 查看余额
 
-共计10,000,000个单位的资产\(股份\) 存在于由`initialHolders`(初始持有人)所指定的地址中。
+共计1000w个单位的资产\(股份\) 存在于由`initialHolders`(初始持有人)所指定的地址中。
 
 要验证这一点, 我们需要调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
@@ -109,7 +109,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-响应确认，我们的资产创建成功，预期地址共持有10000000股股份:
+响应确认，我们的资产创建成功，预期地址共持有1000万股股份:
 
 ```cpp
 {
@@ -223,7 +223,7 @@ curl -X POST --data '{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTI5MTUxOSwxMjg4MzExNTgwLC0xMj
-I4MDY2Mzg0LDE4OTA4MzY1NzAsLTE4NjY1NjkyMDYsMTk3MTU5
-MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4MDM1XX0=
+eyJoaXN0b3J5IjpbMTQ4NDUwMTA1LDEyODgzMTE1ODAsLTEyMj
+gwNjYzODQsMTg5MDgzNjU3MCwtMTg2NjU2OTIwNiwxOTcxNTkz
+NzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
 -->
