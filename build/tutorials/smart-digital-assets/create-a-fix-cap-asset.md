@@ -4,7 +4,7 @@
 
 本教程说明了如何将Avalanche用于创建并交易一项固定资本可替代资产。资产初始化时创建特定数量的资产，然后不再创建。
 
-假设存在一项1千万股的收入分享协议（ISA），且不再创建更多股份。那就创建一项资产，其中一个单位的资产代表ISA的一股。
+假设存在一项1000万股的收入分享协议（ISA），且不再创建更多股份。那就创建一项资产，其中一个单位的资产代表ISA的一股。
 
 ## 要求
 
@@ -93,7 +93,7 @@ curl -X POST --data '{
 
 ### 查看余额
 
-共计1000w个单位的资产\(股份\) 存在于由`initialHolders`(初始持有人)所指定的地址中。
+共计1000万个单位的资产\(股份\) 存在于由`initialHolders`(初始持有人)所指定的地址中。
 
 要验证这一点, 我们需要调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
@@ -223,7 +223,7 @@ curl -X POST --data '{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDUwMTA1LDEyODgzMTE1ODAsLTEyMj
-gwNjYzODQsMTg5MDgzNjU3MCwtMTg2NjU2OTIwNiwxOTcxNTkz
-NzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
+eyJoaXN0b3J5IjpbLTE2NjAxNzU5NzgsMTI4ODMxMTU4MCwtMT
+IyODA2NjM4NCwxODkwODM2NTcwLC0xODY2NTY5MjA2LDE5NzE1
+OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
 -->
