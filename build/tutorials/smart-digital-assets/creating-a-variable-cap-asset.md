@@ -5,9 +5,10 @@
 本教程说明了如何创建一项可变资本可替代资产。资产初始化时，不存在资产，但可能铸造更多的资产单位。创建资产时，我们明确了哪些地址集合可能铸造更多单位。
 本教程演示了如何创建可变上限的可替代资产。资产初始化资产为零，但可以铸造更多的资产。在创建资产时，我们会指定可以创建更多单位资产的地址集。
 
-您可能好奇为什么我们要明确哪些地址集合能够铸造更多单位的资产，而非单个地址。原因如下：You may be wondering why we specify _sets_ of addresses that can mint more units of the asset rather than a single address. Here's why:
+您可能好奇为什么我们要明确哪些地址集能够铸造更多单位的资产，而非单个地址。原因如下：
 
-* **Security:** if only one address can mint more of the asset, and the private key for that address is lost, no more units can ever be minted. Similarly, if only one address can mint more of the asset, nothing stops the holder of that address from unilaterally minting as much as they want.
+* **安全性:** 如果仅有一个地址能够铸造更多资产且该地址的私人密钥遗失，则无法再铸造更多单位资产。与之类似，如果仅有一个地址能够铸造更多资产，则该地址持有人想要铸造多少单位资产，即可单方面铸造多少。
+* if only one address can mint more of the asset, and the private key for that address is lost, no more units can ever be minted. Similarly, if only one address can mint more of the asset, nothing stops the holder of that address from unilaterally minting as much as they want.
 * **Flexibility:** it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
 
 Suppose that we want to issue an asset that represents shares of a corporation. No shares exist to start with, but more shares may be created later. Let’s create such an asset.
@@ -255,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNjE5MTc2LDE3ODk1NzA2NDcsLTE5Mj
-QyNzAxNDFdfQ==
+eyJoaXN0b3J5IjpbMTE3OTE3NzI3OCwxNzg5NTcwNjQ3LC0xOT
+I0MjcwMTQxXX0=
 -->
