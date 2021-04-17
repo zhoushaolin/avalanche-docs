@@ -158,7 +158,7 @@ curl -X POST --data '{
 }
 ```
 
-`txID`是我们发送至网络的`send`（发送）交易的ID。
+`txID`是我们发送至网络`send`（发送）交易的ID。
 
 一到两秒后，交易就完成了。我们可以使用[`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来查看交易状态:
 
@@ -213,7 +213,7 @@ curl -X POST --data '{
 }
 ```
 
-## 打包
+## 总结
 
 本教程中, 我们:
 
@@ -223,7 +223,7 @@ curl -X POST --data '{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAxNzU5NzgsMTI4ODMxMTU4MCwtMT
-IyODA2NjM4NCwxODkwODM2NTcwLC0xODY2NTY5MjA2LDE5NzE1
-OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
+eyJoaXN0b3J5IjpbMTgwMDkwNzcwLDEyODgzMTE1ODAsLTEyMj
+gwNjYzODQsMTg5MDgzNjU3MCwtMTg2NjU2OTIwNiwxOTcxNTkz
+NzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
 -->
