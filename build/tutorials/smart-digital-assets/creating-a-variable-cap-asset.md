@@ -245,16 +245,16 @@ curl -X POST --data '{
 }
 ```
 
-## 打包
+## 总结
 
 本教程中，我们：
 
-* Used `createVariableCapAsset` to create a variable-cap asset that represents shares.
-* Used `mint` to mint more units of an asset.
-* Used `getBalance` to check address balances.
-* Used `send` to transfer shares.
+* 使用了`createVariableCapAsset` 以创建代表股份的一项可变资本资产。
+* 使用了 `mint` 以铸造更多单位的资产。
+* 使用了 `getBalance` 以查看地址余额。
+* 使用了 `send` 以转让股份。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjU2MDI1MiwtMTE0NjcwMTExMiwtMT
-czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
+eyJoaXN0b3J5IjpbLTIxMTg0MTM5MDksLTExNDY3MDExMTIsLT
+E3Mzk2NDkwMDcsMTc4OTU3MDY0NywtMTkyNDI3MDE0MV19
 -->
