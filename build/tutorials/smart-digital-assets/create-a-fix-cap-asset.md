@@ -96,7 +96,8 @@ curl -X POST --data '{
 
 ### 查看余额
 
-共计10,000,000个单位的资产\(股份\) are controlled by the address we specified in `initialHolders`.
+共计10,000,000个单位的资产\(股份\) 存在于由`initialHolders`所制定的地址中。
+are controlled by the address we specified in `initialHolders`.
 
 To verify this, we call [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
@@ -224,6 +225,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI2MzkzNiwtMTg2NjU2OTIwNiwxOT
+eyJoaXN0b3J5IjpbLTc1MjQ1NjI2MywtMTg2NjU2OTIwNiwxOT
 cxNTkzNzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
 -->
