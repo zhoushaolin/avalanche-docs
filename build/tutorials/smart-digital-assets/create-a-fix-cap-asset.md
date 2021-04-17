@@ -14,9 +14,10 @@
 
 X链上存在资产，因此要创建资产，我们要调用X链API方法avm.createFixedCapAsset。
 
-我们的资产将存放于X链上 [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), 因此要创建资产, 我们要调用`avm.createFixedCapAsset`, 它是X链的一种方法 [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md).
+我们的资产将存放于X链上 [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), 因此要创建资产, 我们要调用`avm.createFixedCapAsset`, 它是X链的一种方法 [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md)。
+
 该方法的签名为：
-The signature for this method is:
+
 
 ```cpp
 avm.createFixedCapAsset({
@@ -38,7 +39,7 @@ avm.createFixedCapAsset({
 }
 ```
 
-### Parameters
+### 参数
 
 * `name` is a human-readable name for the asset. Not necessarily unique.
 * `symbol` is a shorthand symbol for the asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
@@ -223,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTMyNzY0OSwtMTM2NjYwOTQ5OSwtNT
-Y2MDI4MDM1XX0=
+eyJoaXN0b3J5IjpbMjIxMDU1ODM0LC0xMzY2NjA5NDk5LC01Nj
+YwMjgwMzVdfQ==
 -->
