@@ -3,7 +3,7 @@
 ## 简介
 
 本教程说明了如何创建一项可变资本可替代资产。资产初始化时，不存在资产，但可能铸造更多的资产单位。创建资产时，我们明确了哪些地址集合可能铸造更多单位。
-本教程演示了如何创建可变上限的可替换资产。资产初始化时不存在资产的单位，但可以铸造更多的资产单位。在创建资产时，我们指定可以创建更多单位的地址集。This tutorial illustrates how to create a variable-cap, fungible asset. No units of the asset exist when the asset is initialized, but more units of the asset may be minted. On asset creation, we specify which sets of addresses may mint more units.
+本教程演示了如何创建可变上限的可替代资产。资产初始化时资产的单位，但可以铸造更多的资产单位。在创建资产时，我们指定可以创建更多单位的地址集。No units of the asset exist when the asset is initialized, but more units of the asset may be minted. On asset creation, we specify which sets of addresses may mint more units.
 
 You may be wondering why we specify _sets_ of addresses that can mint more units of the asset rather than a single address. Here's why:
 
@@ -255,6 +255,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjQ1ODkzNCwxNzg5NTcwNjQ3LC0xOT
-I0MjcwMTQxXX0=
+eyJoaXN0b3J5IjpbLTIxMTE5OTcxMDEsMTc4OTU3MDY0NywtMT
+kyNDI3MDE0MV19
 -->
