@@ -245,9 +245,9 @@ curl -X POST --data '{
 }
 ```
 
-## Wrapping up
+## 打包
 
-In this tutorial, we:
+本教程中，我们：
 
 * Used `createVariableCapAsset` to create a variable-cap asset that represents shares.
 * Used `mint` to mint more units of an asset.
@@ -255,6 +255,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNDk4MDIwLC0xMTQ2NzAxMTEyLC0xNz
-M5NjQ5MDA3LDE3ODk1NzA2NDcsLTE5MjQyNzAxNDFdfQ==
+eyJoaXN0b3J5IjpbMTA1NjU2MDI1MiwtMTE0NjcwMTExMiwtMT
+czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
