@@ -8,7 +8,7 @@
 
 ## 要求
 
-You've c[Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/).
+你已经完成了Avalanche节点运行[Run an Avalanche Node](../../get-started.md) 并熟悉Avalanche的架构[Avalanche's architecture](../../../learn/platform-overview/)。
 
 ## Create the Asset
 
@@ -221,6 +221,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTExMjY2MywtMTM2NjYwOTQ5OSwtNT
-Y2MDI4MDM1XX0=
+eyJoaXN0b3J5IjpbLTE1ODU4MjM5MzksLTEzNjY2MDk0OTksLT
+U2NjAyODAzNV19
 -->
