@@ -202,7 +202,7 @@ curl -X POST --data '{
 
 ### 发送资产
 
-Let’s send 100 shares to another address by using 通过使用[`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-send), 向另一个地址发送100股股份, 要实现这一点To do so:
+通过使用[`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-send), 向另一个地址发送100股股份, 要实现这一点:
 
 ```cpp
 curl -X POST --data '{
@@ -219,7 +219,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-Let’s check the balances of the `to` address:
+查看`to`地址的余额:
 
 ```cpp
 curl -X POST --data '{
@@ -233,7 +233,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should be:
+响应应该如下所示：
 
 ```cpp
 {
@@ -255,6 +255,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4Njg5Mzc1LC0xMTQ2NzAxMTEyLC0xNz
+eyJoaXN0b3J5IjpbNDAwNDk4MDIwLC0xMTQ2NzAxMTEyLC0xNz
 M5NjQ5MDA3LDE3ODk1NzA2NDcsLTE5MjQyNzAxNDFdfQ==
 -->
