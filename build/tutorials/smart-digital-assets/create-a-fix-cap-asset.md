@@ -221,11 +221,11 @@ curl -X POST --data '{
 本教程中, 我们:
 
 * 调用了`createFixedCapAsset` 来创建固定上限的资产
-* `getBalance` to check address balances
-* Called `send` to transfer a quantity of our asset
+* 调用了`getBalance` 以查看地址余额
+* 调用了`send` yito transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTg2NzE5LC0xMjI4MDY2Mzg0LDE4OT
-A4MzY1NzAsLTE4NjY1NjkyMDYsMTk3MTU5MzczOCwtMTM2NjYw
-OTQ5OSwtNTY2MDI4MDM1XX0=
+eyJoaXN0b3J5IjpbLTEzMzk2ODYzMzcsLTEyMjgwNjYzODQsMT
+g5MDgzNjU3MCwtMTg2NjU2OTIwNiwxOTcxNTkzNzM4LC0xMzY2
+NjA5NDk5LC01NjYwMjgwMzVdfQ==
 -->
