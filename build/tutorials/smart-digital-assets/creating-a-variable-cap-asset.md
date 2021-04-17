@@ -189,8 +189,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response confirms that our asset creation was successful and that the expected address holds all 10,000,000 shares:
-
+响应确认，我们的资产创建成功，预期地址共持有1000万股股份:
 ```cpp
 {
     "jsonrpc":"2.0",
@@ -201,7 +200,7 @@ The response confirms that our asset creation was successful and that the expect
 }
 ```
 
-### Send the Asset
+### 发送资产
 
 Let’s send 100 shares to another address by using [`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-send). To do so:
 
@@ -256,6 +255,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTkyMjU0MCwtMTE0NjcwMTExMiwtMT
+eyJoaXN0b3J5IjpbLTI2NDk4NzMzOSwtMTE0NjcwMTExMiwtMT
 czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
