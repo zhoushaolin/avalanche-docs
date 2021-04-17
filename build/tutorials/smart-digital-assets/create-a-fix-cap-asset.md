@@ -41,7 +41,7 @@ avm.createFixedCapAsset({
 
 ### 参数
 
-* `name` is a human-readable name for the asset. Not necessarily unique.
+* `name` 是资产的可读名称。不一定是唯一的。is a human-readable name for the asset. Not necessarily unique.
 * `symbol` is a shorthand symbol for the asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
 * `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
 * Performing a transaction on the X-Chain requires a transaction fee paid in AVAX. `username` and `password` denote the user paying the fee.
@@ -224,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxMDU1ODM0LC0xMzY2NjA5NDk5LC01Nj
-YwMjgwMzVdfQ==
+eyJoaXN0b3J5IjpbMTk3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNT
+Y2MDI4MDM1XX0=
 -->
