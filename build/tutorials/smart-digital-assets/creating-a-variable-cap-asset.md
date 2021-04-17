@@ -146,7 +146,7 @@ curl -X POST --data '{
 }
 ```
 
-We can check the status of the transaction we’ve just sent to the network using [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus), 我们能够查看刚刚发送的网络交易的状态：:
+通过[`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus), 我们能够查看刚刚发送的网络交易状态：:
 
 ```cpp
 curl -X POST --data '{
@@ -159,7 +159,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-This should give:
+它应如下所示：
 
 ```cpp
 {
@@ -171,9 +171,9 @@ This should give:
 }
 ```
 
-## Trade the Asset
+## 交易资产
 
-### Check a Balance
+### 查看余额
 
 All 10M shares are controlled by the `to` address we specified in `mint`. To verify this, we’ll use [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjkzNzgwMiwtMTE0NjcwMTExMiwtMT
-czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
+eyJoaXN0b3J5IjpbNzIyMjc0ODk2LC0xMTQ2NzAxMTEyLC0xNz
+M5NjQ5MDA3LDE3ODk1NzA2NDcsLTE5MjQyNzAxNDFdfQ==
 -->
