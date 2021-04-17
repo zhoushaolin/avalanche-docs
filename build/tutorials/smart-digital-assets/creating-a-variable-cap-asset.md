@@ -115,7 +115,7 @@ curl -X POST --data '{
 
 * `amount` (数额)是即将创建的股份的数量。
 * `assetID` (资产ID)是我们创建更多资产的ID
-* `to` (到达地址 )是将接收新铸造股份的地址。用您的用户控制的一个地址来替换到达地址，因此您将可以发送部分新铸造的股份。is the address that will receive the newly minted shares. Replace `to` with an address your user controls so that later you’ll be able to send some of the newly minted shares.
+* `to` (到达地址 )是将接收新铸造股份的地址。用您的用户控制的一个地址填入，接下来可以发送新铸造的股份。is the address that will receive the newly minted shares. Replace `to` with an address your user controls so that later you’ll be able to send some of the newly minted shares.
 * `username` must be a user that holds keys giving it permission to mint more of this asset. That is, it controls at least _threshold_ keys for one of the minter sets we specified above.
 
 ```cpp
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDUxNDEyNywtMTE0NjcwMTExMiwtMT
+eyJoaXN0b3J5IjpbLTc2OTQwMjU1MiwtMTE0NjcwMTExMiwtMT
 czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
