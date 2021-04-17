@@ -45,7 +45,7 @@ avm.createVariableCapAsset({
 
 ### 参数
 
-* `name` is a human-readable name for our asset. Not necessarily unique. Between 0 and 128 characters.
+* `name` (名称) 是资产的可读名称。不一定是唯一的。0 and 128 characters.
 * `symbol` is a shorthand symbol for this asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
 * `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
 * `minterSets` is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting transaction.
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDU1MzU1MTMsMTc4OTU3MDY0NywtMT
+eyJoaXN0b3J5IjpbLTIwNjA0MzIzMTAsMTc4OTU3MDY0NywtMT
 kyNDI3MDE0MV19
 -->
