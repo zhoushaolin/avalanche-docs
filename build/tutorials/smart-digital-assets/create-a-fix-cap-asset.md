@@ -165,7 +165,6 @@ curl -X POST --data '{
 
 一到两秒后，交易就完成了。我们可以使用[`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来查看交易状态:
 
-
 ```cpp
 curl -X POST --data '{
     "jsonrpc":"2.0",
@@ -177,7 +176,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should look like this:
+响应应该如下所示：
 
 ```cpp
 {
@@ -189,7 +188,7 @@ The response should look like this:
 }
 ```
 
-You might also see that `status` is `Pending` if the network has not yet finalized it yet.
+如果交易未完成，您会看到status is pending(状态待定)的字样。
 
 Now let’s check the balance of the `to` address:
 
@@ -226,7 +225,7 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU5NzI0MDEsMTg5MDgzNjU3MCwtMT
-g2NjU2OTIwNiwxOTcxNTkzNzM4LC0xMzY2NjA5NDk5LC01NjYw
-MjgwMzVdfQ==
+eyJoaXN0b3J5IjpbMTMzOTc5MTg0NSwxODkwODM2NTcwLC0xOD
+Y2NTY5MjA2LDE5NzE1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAy
+ODAzNV19
 -->
