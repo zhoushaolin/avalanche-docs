@@ -10,10 +10,12 @@
 
 你已经完成了Avalanche节点运行[Run an Avalanche Node](../../get-started.md) 并熟悉Avalanche的架构[Avalanche's architecture](../../../learn/platform-overview/)。
 
-## Create the Asset
+## 创建资产
 
-Our asset will exist on the [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), so to create our asset we’ll call `avm.createFixedCapAsset`, a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md).
+X链上存在资产，因此要创建资产，我们要调用X链API方法avm.createFixedCapAsset。
 
+我们的资产将存放于X链上 [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), so to create our asset we’ll call `avm.createFixedCapAsset`, a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md).
+该方法的签名为：
 The signature for this method is:
 
 ```cpp
@@ -221,6 +223,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU4MjM5MzksLTEzNjY2MDk0OTksLT
-U2NjAyODAzNV19
+eyJoaXN0b3J5IjpbLTMzNDM3MDcyNiwtMTM2NjYwOTQ5OSwtNT
+Y2MDI4MDM1XX0=
 -->
