@@ -98,7 +98,7 @@ curl -X POST --data '{
 
 共计10,000,000个单位的资产\(股份\) 存在于由`initialHolders`(初始持有人)所指定的地址中。
 
-要验证这一点, wo menTo verify this, we call [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
+要验证这一点, 我们需要调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
 ```cpp
 curl -X POST --data '{
@@ -112,7 +112,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-响应确认，我们的资产创建已成功，预期地址共持有10000000股股份。The response confirms that our asset creation was successful and that the expected address holds all 10,000,000 shares:
+响应确认，我们的资产创建成功，预期地址共持有10000000股股份:
 
 ```cpp
 {
@@ -224,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjk4NTA0LC0xODY2NTY5MjA2LDE5Nz
+eyJoaXN0b3J5IjpbMTI0OTMwOTE0LC0xODY2NTY5MjA2LDE5Nz
 E1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
 -->
