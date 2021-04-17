@@ -218,14 +218,14 @@ curl -X POST --data '{
 
 ## 打包
 
-本教程中,w:
+本教程中, 我们:
 
-* Called `createFixedCapAsset` to create a fixed cap asset
+* 调用了`createFixedCapAsset` 来创建固定上限的资产
 * Called `getBalance` to check address balances
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NDY1NDM1LDE4OTA4MzY1NzAsLTE4Nj
-Y1NjkyMDYsMTk3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4
-MDM1XX0=
+eyJoaXN0b3J5IjpbLTEyMjgwNjYzODQsMTg5MDgzNjU3MCwtMT
+g2NjU2OTIwNiwxOTcxNTkzNzM4LC0xMzY2NjA5NDk5LC01NjYw
+MjgwMzVdfQ==
 -->
