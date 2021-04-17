@@ -1,4 +1,4 @@
-# Create a Variable-Cap Asset
+# 创建Create a Variable-Cap Asset
 
 ## Introduction
 
@@ -253,3 +253,6 @@ In this tutorial, we:
 * Used `getBalance` to check address balances.
 * Used `send` to transfer shares.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MjQyNzAxNDFdfQ==
+-->
