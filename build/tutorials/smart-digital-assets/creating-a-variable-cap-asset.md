@@ -15,11 +15,11 @@
 
 ## 要求
 
-You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/).
+您已经完成了运行Avalanche节点[Run an Avalanche Node](../../get-started.md) 并且熟悉Avalanche的架构 [Avalanche's architecture](../../../learn/platform-overview/).
 
-## Create the Asset
+## 创建资产
 
-Our asset will exist on the X-Chain, so to create our asset we’ll call [`avm.createVariableCapAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createvariablecapasset), which is a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md).
+wo m, so to create our asset we’ll call [`avm.createVariableCapAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createvariablecapasset), which is a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md).
 
 The signature for this method is:
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUxMDM1MTksMTc4OTU3MDY0NywtMT
-kyNDI3MDE0MV19
+eyJoaXN0b3J5IjpbLTM2OTYxODI5NiwxNzg5NTcwNjQ3LC0xOT
+I0MjcwMTQxXX0=
 -->
