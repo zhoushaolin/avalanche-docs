@@ -175,7 +175,7 @@ curl -X POST --data '{
 
 ### 查看余额
 
-All 10M shares are controlled by the `to` address we specified in `mint`. To verify this, we’ll use [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
+共计1000万股股份youAll 10M shares are controlled by the `to` address we specified in `mint`. To verify this, we’ll use [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
 ```cpp
 curl -X POST --data '{
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyMjc0ODk2LC0xMTQ2NzAxMTEyLC0xNz
-M5NjQ5MDA3LDE3ODk1NzA2NDcsLTE5MjQyNzAxNDFdfQ==
+eyJoaXN0b3J5IjpbLTcxNzkzNjMyNiwtMTE0NjcwMTExMiwtMT
+czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
