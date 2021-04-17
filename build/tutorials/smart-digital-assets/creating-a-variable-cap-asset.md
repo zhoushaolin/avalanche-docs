@@ -49,8 +49,8 @@ avm.createVariableCapAsset({
 * `symbol`(符号) 是资产的缩写符号, 0至4个字符。不一定是唯一的。可省略。
 * `denomination` (面值) 确定了用户界面如何显示该资产的余额。如果面值为0，则100个单位的该资产即显示为100; 如果面值为1，则100个单位的该资产即显示为10.0;如果面值为2，则100个单位的该资产即显示为0.1，以此类推。
 * `minterSets` ' minintersets '是一个列表，其中每个元素指定`minters`中的地址的`threshold`可以通过签署一个铸造交易来一起铸造更多的资产。
-* 在X链上进行一项交易需要用AVAX支付交易费用。username（用户名）和password（密码）表示支付费用的用户Performing a transaction on the X-Chain requires a transaction fee paid in AVAX. `username` and `password` denote the user paying the fee.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* 在X链上进行一项交易需要用AVAX支付交易费用。`username`(用户名)和`password`(密码)表示支付费用的用户。
+* `from` (发出地址)是您用于此操作的地址。如果省略，请根据需要使用您的任何地址。are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 
 ### Response
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTgzODc5MywxNzg5NTcwNjQ3LC0xOT
+eyJoaXN0b3J5IjpbMTQzNzY4MzM4OSwxNzg5NTcwNjQ3LC0xOT
 I0MjcwMTQxXX0=
 -->
