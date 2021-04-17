@@ -56,7 +56,7 @@ avm.createVariableCapAsset({
 ### 响应
 
 * `assetID` (资产ID)是新资产的ID。
-* `changeAddr` (更改地址)是发送任何更改的到达地址in the result is the address where any change was sent.
+* `changeAddr` (更改地址)是结果中发送任何更改要求的地址
 
 Later in this example, we’ll mint more shares, so be sure to replace at least 2 addresses in the second minter set with addresses your user controls.
 
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk2NDkwMDcsMTc4OTU3MDY0NywtMT
-kyNDI3MDE0MV19
+eyJoaXN0b3J5IjpbMTQzNjE4NTQ4OCwtMTczOTY0OTAwNywxNz
+g5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
