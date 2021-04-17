@@ -44,9 +44,8 @@ avm.createFixedCapAsset({
 * `name`(名称) 是资产的可读名称。不一定是唯一的。                                                
 * `symbol`(符号) 是资产的缩写符号, 0至4个字符。不一定是唯一的。可能省略。
 * `denomination`(面值) 确定了用户界面如何显示该资产的余额。如果面值为0，则100个单位的该资产即显示为100; 如果面值为1，则100个单位的该资产即显示为10.0;如果面值为2，则100个单位的该资产即显示为0.1，以此类推。
-* 在X链上进行一项交易需要用AVAX支付交易费用。用户需要登陆`username`（用户名）和`password`（密码）表示支付费用的用户。
-* Performing a transaction on the X-Chain requires a transaction fee paid in AVAX. `username` and `password` denote the user paying the fee.
-* Each element in `initialHolders` specifies that `address` holds `amount` units of the asset at genesis.
+* 在X链上进行一项交易需要用AVAX支付交易费用。用户需要登陆`username`(用户名和)`password`(密码)。
+* `initialHolders`初始持有人）中的每个元素确定了地址在初始时持有的金额单位。Each element in `initialHolders` specifies that `address` holds `amount` units of the asset at genesis.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 
@@ -225,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4OTk4NzU3LC0xODY2NTY5MjA2LDE5Nz
-E1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
+eyJoaXN0b3J5IjpbLTE2NjgyMjY2NzUsLTE4NjY1NjkyMDYsMT
+k3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4MDM1XX0=
 -->
