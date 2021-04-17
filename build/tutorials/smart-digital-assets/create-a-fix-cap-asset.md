@@ -130,7 +130,6 @@ curl -X POST --data '{
 
 如需发送股份，我们需要验证发送股份的用户。
 因此，我们需要填写`username`(用户名)和`password`(密码)。
-To send the shares, we need to prove that we control the user the shares are being sent from. Therefore, this time we’ll need to fill in `username` and `password`.
 
 ```cpp
 curl -X POST --data '{
@@ -147,9 +146,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-### Check the transaction status
+### 查看交易状态
 
-The response from the above call should look like this:
+上述调用的响应应如下所示：
 
 ```cpp
 {
@@ -162,7 +161,7 @@ The response from the above call should look like this:
 }
 ```
 
-`txID` is the ID of the `send` transaction we sent to the network.
+`txID`是我们发送至网络的send（发送）交易的ID。`txID` is the ID of the `send` transaction we sent to the network.
 
 After a second or two, the transaction should be finalized. We can check the status of the transaction with [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
 
@@ -226,6 +225,7 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDgzNjU3MCwtMTg2NjU2OTIwNiwxOT
-cxNTkzNzM4LC0xMzY2NjA5NDk5LC01NjYwMjgwMzVdfQ==
+eyJoaXN0b3J5IjpbNzAxMjg3MTc3LDE4OTA4MzY1NzAsLTE4Nj
+Y1NjkyMDYsMTk3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4
+MDM1XX0=
 -->
