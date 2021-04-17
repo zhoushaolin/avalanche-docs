@@ -47,9 +47,9 @@ avm.createFixedCapAsset({
 * 在X链上进行一项交易需要用AVAX支付交易费用。用户需要登陆`username`(用户名和)`password`(密码)。
 * `initialHolders`(初始持有人)中的每个元素都指定了这个`address`(地址)持有的初始`amount`(数量)单位。 地址在初始时持有的金额单位。
 * `from`(出处)是您想用于此操作的地址。如果省略，请根据需要使用您的任何地址。
-* `changeAddr`(更改地址)是发送任何更改的到达地址。如果省略，更改将发送至用户控制下的任一地址。 is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `changeAddr`(更改地址)是发送任何更改要求的地方。如果省略，更改将发送至用户控制下的地址。
 
-### Response
+### 
 
 * `assetID` is the ID of the new asset.
 * `changeAddr` in the result is the address where any change was sent.
@@ -224,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUxODc2NjksLTE4NjY1NjkyMDYsMT
-k3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4MDM1XX0=
+eyJoaXN0b3J5IjpbMzg3MDE1MDUxLC0xODY2NTY5MjA2LDE5Nz
+E1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAyODAzNV19
 -->
