@@ -175,7 +175,7 @@ curl -X POST --data '{
 
 ### 查看余额
 
-共计1000万股股份由我们在`mint`中指定的地址`to`控制。 ru xuTo verify this, we’ll use [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
+共计1000万股股份由我们在`mint`中指定的地址`to`控制。 需要验证, 我们可以使用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance):
 
 ```cpp
 curl -X POST --data '{
@@ -256,6 +256,6 @@ In this tutorial, we:
 * Used `send` to transfer shares.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1NTQ4OTQsLTExNDY3MDExMTIsLT
-E3Mzk2NDkwMDcsMTc4OTU3MDY0NywtMTkyNDI3MDE0MV19
+eyJoaXN0b3J5IjpbLTU2MTkyMjU0MCwtMTE0NjcwMTExMiwtMT
+czOTY0OTAwNywxNzg5NTcwNjQ3LC0xOTI0MjcwMTQxXX0=
 -->
