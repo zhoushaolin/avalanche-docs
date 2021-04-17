@@ -54,7 +54,7 @@ avm.createFixedCapAsset({
 * `assetID`(资产ID)是新资产的ID。
 * `changeAddr`(更改地址)是发送任何更改要求的地址。 
 
-现在，开始创建资产。您需要将`address` (地址)替换为您控制的地址，然后您才能控制所有新创建的资产，并能够随后在本教程中发送。Now, on to creating the asset. You’ll want to replace `address` with an address you control so that you will control all of the newly minted assets and be able to send it later in this tutorial.
+现在，开始创建资产。您需要将您控制的地址填入`address` (地址)，然后您才能控制所有新创建的资产，并能够在本教程中jin x发送。Now, on to creating the asset. You’ll want to replace `address` with an address you control so that you will control all of the newly minted assets and be able to send it later in this tutorial.
 
 ```cpp
 curl -X POST --data '{
@@ -224,6 +224,6 @@ In this tutorial, we:
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MTU0MDYsLTE4NjY1NjkyMDYsMTk3MT
-U5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4MDM1XX0=
+eyJoaXN0b3J5IjpbLTEyOTg5NDIxOTEsLTE4NjY1NjkyMDYsMT
+k3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4MDM1XX0=
 -->
