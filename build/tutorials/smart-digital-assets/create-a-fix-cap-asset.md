@@ -190,7 +190,7 @@ curl -X POST --data '{
 
 如果交易未完成，您会看到status is pending(状态待定)的字样。
 
-Now let’s check the balance of the `to` address:
+现在让我们查看一下`to`(到达)地址的余额：
 
 ```cpp
 curl -X POST --data '{
@@ -204,7 +204,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should be:
+响应应当为:
 
 ```cpp
 {
@@ -216,16 +216,16 @@ The response should be:
 }
 ```
 
-## Wrapping up
+## 打包
 
-In this tutorial, we:
+本教程中,w:
 
 * Called `createFixedCapAsset` to create a fixed cap asset
 * Called `getBalance` to check address balances
 * Called `send` to transfer a quantity of our asset
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTc5MTg0NSwxODkwODM2NTcwLC0xOD
-Y2NTY5MjA2LDE5NzE1OTM3MzgsLTEzNjY2MDk0OTksLTU2NjAy
-ODAzNV19
+eyJoaXN0b3J5IjpbMzU2NDY1NDM1LDE4OTA4MzY1NzAsLTE4Nj
+Y1NjkyMDYsMTk3MTU5MzczOCwtMTM2NjYwOTQ5OSwtNTY2MDI4
+MDM1XX0=
 -->
