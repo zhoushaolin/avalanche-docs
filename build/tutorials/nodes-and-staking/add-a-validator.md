@@ -6,11 +6,10 @@
 
 P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起交易[transactions](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)。
 
-请注意，一旦您发起交易来将一个节点作为验证程序加入时，参数是无法更改的。**您无法提前移除质押或更改质押金额、节点ID或收益地址**。 请确保您在以下API调用中使用了正确的值, 如果您不确定, 请浏览
-Please make sure you’re using the correct values in the API calls below. If you’re not sure, browse the [Developer FAQ's](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
-{% endhint %}
+请注意，一旦您发起交易来将一个节点作为验证程序加入时，参数是无法更改的。**您无法提前移除质押或更改质押金额、节点ID或收益地址**。 请确保您在以下API调用中使用了正确的值, 如果您不确定, 请浏览[Developer FAQ's](http://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord](https://chat.avalabs.org/)
+上来寻求帮助。
 
-## Requirements
+## 要求
 
 You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/). In this tutorial, we use [Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
 
@@ -366,5 +365,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjc0ODcxNyw2MzY1MzU0NTBdfQ==
+eyJoaXN0b3J5IjpbMTYxNjQxODA4Miw2MzY1MzU0NTBdfQ==
 -->
