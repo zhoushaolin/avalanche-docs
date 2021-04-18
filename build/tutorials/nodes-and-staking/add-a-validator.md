@@ -43,7 +43,7 @@ The response has your node’s ID:
 }
 ```
 
-Ope[the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
+打开钱包[the wallet](https://wallet.avax.network/), 并进入赚钱`Earn`选项, 选择`Add Validator`.
 
 ![Web wallet earn tab](../../../.gitbook/assets/web-wallet-earn-tab.png)
 
@@ -365,6 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OT
-M5OTY3NTQsNjM2NTM1NDUwXX0=
+eyJoaXN0b3J5IjpbLTEzOTg5ODI5NzYsLTI2MDkzNzE1MCwtMT
+c1MjAzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUwXX0=
 -->
