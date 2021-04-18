@@ -57,14 +57,15 @@ The response has your node’s ID:
 
 ![Your validation transaction is sent](../../../.gitbook/assets/your-validation-transaction-is-sent.png)
 
-Calling [`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators) verifies that our transaction was accepted.
+调用[`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators) 核实我们的交易已接受。
 
 ![getPendingValidators postman](../../../.gitbook/assets/getPendingValidators-postman.png)
 
-Go back to the `Earn` tab, and click `Estimated Rewards`.
+返回赚钱`Earn`选项, 并点击预计收益`Estimated Rewards`.
 
 ![Earn, validate, delegate](../../../.gitbook/assets/earn-validate-delegate.png)
 
+一旦您的验证程序开始时间过了，您就会看到它可能赚取的收益、开始时间、结束时间机器验证期已经过去的百分比。
 Once your validator’s start time has passed, you will see the rewards it may earn, as well as its start time, end time, and the percentage of its validation period that has passed.
 
 ![Estimated rewards](../../../.gitbook/assets/estimated-rewards.png)
@@ -365,6 +366,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3ODU1NTIsLTI2MDkzNzE1MCwtMTc1Mj
-AzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUwXX0=
+eyJoaXN0b3J5IjpbMTUzNDQxMjc2NiwtMjYwOTM3MTUwLC0xNz
+UyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
