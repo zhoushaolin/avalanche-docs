@@ -143,6 +143,7 @@ curl -X POST --data '{
 
 用户名`username` and 密码`password`
 
+这些参数是支付交易费用、提供质押AVAX和回收质押AVAX的用户的用户名与密码。
 These parameters are the username and password of the user that pays the transaction fee, provides the staked AVAX, and to whom the staked AVAX will be returned.
 
 Now let’s issue the transaction. We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\) In this example we stake 2,000 AVAX \(2 x 1012 nAVAX\).
@@ -364,7 +365,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mzc1ODg1MSw5MTgxNjA1MjQsMjA5Mj
+eyJoaXN0b3J5IjpbMTI3NTQ1ODA3MSw5MTgxNjA1MjQsMjA5Mj
 A4OTIwOCwtMzMwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NTIwMzYz
 NTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
 -->
