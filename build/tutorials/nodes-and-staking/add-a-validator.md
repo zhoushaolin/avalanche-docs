@@ -94,9 +94,9 @@ platform.addValidator(
 
 让我们看看这些要点。
 
-`nodeID`
+节点ID`nodeID`
 
-This is the node ID of the validator being added. To get your node’s ID, call [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
+T这是添加的验证程序的节点ID ,  如需获取您的节点ID, 请调用[`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
 
 ```cpp
 curl -X POST --data '{
@@ -364,7 +364,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODI1MTU0NSwyMDkyMDg5MjA4LC0zMz
-A1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3
-NTQsNjM2NTM1NDUwXX0=
+eyJoaXN0b3J5IjpbNTIyMzY1Nzc0LDIwOTIwODkyMDgsLTMzMD
+U0MzU5MywtMjYwOTM3MTUwLC0xNzUyMDM2MzUzLDc5Mzk5Njc1
+NCw2MzY1MzU0NTBdfQ==
 -->
