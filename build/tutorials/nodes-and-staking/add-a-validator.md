@@ -192,7 +192,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-状态应是已提交`Committed`, meaning the transaction was successful. We can call [`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators) and see that the node is now in the pending validator set for the Primary Network:
+状态应是已提交`Committed`, 即交易成功, 我们可以调用[`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators), 并查看该节点目前正处于主网的挂起验证程序集合中and see that the node is now in the pending validator set for the Primary Network:
 
 ```cpp
 curl -X POST --data '{
@@ -364,7 +364,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5OTYwNzExLDEyNzU0NTgwNzEsOTE4MT
+eyJoaXN0b3J5IjpbMTU1MDAwMzc0LDEyNzU0NTgwNzEsOTE4MT
 YwNTI0LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3MTUw
 LC0xNzUyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
