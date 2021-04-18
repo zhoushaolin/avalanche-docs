@@ -203,7 +203,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response should include the node we just added:
+响应包括我们刚刚添加的节点：
 
 ```cpp
 {
@@ -364,7 +364,8 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0OTQ5MDEzLDEyNzU0NTgwNzEsOTE4MT
-YwNTI0LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3MTUw
-LC0xNzUyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
+eyJoaXN0b3J5IjpbLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NT
+Q1ODA3MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkz
+LC0yNjA5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNj
+UzNTQ1MF19
 -->
