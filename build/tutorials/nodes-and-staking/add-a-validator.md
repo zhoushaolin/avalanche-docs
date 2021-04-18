@@ -65,7 +65,7 @@ The response has your node’s ID:
 
 ![Earn, validate, delegate](../../../.gitbook/assets/earn-validate-delegate.png)
 
-一旦您的验证程序开始时间过了，您就会看到它可能赚取的收益、开始时间、结束时间机器验证期已经过去的百分比。
+一旦验证程序开始时间yi dao，您就会看到它可能赚取的收益、开始时间、结束时间机器验证期已经过去的百分比。
 Once your validator’s start time has passed, you will see the rewards it may earn, as well as its start time, end time, and the percentage of its validation period that has passed.
 
 ![Estimated rewards](../../../.gitbook/assets/estimated-rewards.png)
@@ -366,6 +366,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDQxMjc2NiwtMjYwOTM3MTUwLC0xNz
+eyJoaXN0b3J5IjpbMTM3OTY4MDY5NSwtMjYwOTM3MTUwLC0xNz
 UyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
