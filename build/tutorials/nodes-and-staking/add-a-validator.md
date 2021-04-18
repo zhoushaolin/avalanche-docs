@@ -11,8 +11,9 @@ P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子�
 
 ## 要求
 
-您已完成运行一个Avalanche节点 [Run an Avalanche Node](../../get-started.md), 并且熟悉Avalanche 的架构[Avalanche's architecture](../../../learn/platform-overview/)。zai ben jia[Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
+您已完成运行一个Avalanche节点 [Run an Avalanche Node](../../get-started.md), 并且熟悉Avalanche 的架构[Avalanche's architecture](../../../learn/platform-overview/)。在本教程中, 我们将使用[Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection)来帮助我们进行API调用。
 
+为了确保您连好了您的节点，请确保您的节点能够在锁定端口上收到并发送TCP流量\(`9651` by default\)，并且您使用命令行参数启动了节点“--public-ip=[您的节点的公共IP]”。如果未做到这一点，则您的质押收益可能会受到影响。
 In order to ensure your node is well-connected, make sure that your node can receive and send TCP traffic on the staking port \(`9651` by default\) and that you started your node with command line argument `--public-ip=[YOUR NODE'S PUBLIC IP HERE]`. Failing to do either of these may jeopardize your staking reward.
 
 ## Add a validator with Avalanche Wallet
@@ -365,6 +366,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxODQwNDg2LDc5Mzk5Njc1NCw2MzY1Mz
-U0NTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTE1ODk1NjYsNzkzOTk2NzU0LDYzNj
+UzNTQ1MF19
 -->
