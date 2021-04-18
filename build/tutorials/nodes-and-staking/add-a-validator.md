@@ -17,7 +17,7 @@ P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子�
 
 ## Avalanche钱包添加验证程序
 
-First, we show you how to add your node as a validator by using [Avalanche Wallet](https://wallet.avax.network).
+首先, 我们将向您展示如何使用 First, we show you how to add your node as a validator by using [Avalanche Wallet](https://wallet.avax.network).
 
 Get your node’s ID by calling [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
 
@@ -365,6 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNj
-UzNTQ1MF19
+eyJoaXN0b3J5IjpbMjExMzYxNDM3MCwtMTc1MjAzNjM1Myw3OT
+M5OTY3NTQsNjM2NTM1NDUwXX0=
 -->
