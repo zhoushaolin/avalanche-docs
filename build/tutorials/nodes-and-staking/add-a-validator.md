@@ -135,12 +135,13 @@ curl -X POST --data '{
 
 更改地址`changeAddr`
 
-任何关于此交易的更改都会发送到此地址。您可以将此区域留白；如果您留空了，更改会发送到您的用户名下的一个地址。
-Any change resulting from this transaction will be sent to this address. You can leave this field empty; if you do, change will be sent to one of the addresses your user controls.
+任何关于此交易的更改都会发送到此地址。您可以将此区域留白；这样的话，更改会发送到您的用户名下的一个地址。
 
-`delegationFeeRate`
+委托费率`delegationFeeRate`
 
-Avalanche allows for delegation of stake. This parameter is the percent fee this validator charges when others delegate stake to them. For example, if `delegationFeeRate` is `1.2345` and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
+通过Avalanche，可以进行质押委托。该参数是其他人将委托给验证程序时，验证程序收取的百分比费用。例如，如果“委托费率”为“1.2345”，并且有人向验证程序提出委托时，则委托期结束时，1.2345%的收益会分配给验证程序，其余部分则会分配给委托方。
+Avalanche 
+allows for delegation of stake. This parameter is the percent fee this validator charges when others delegate stake to them. For example, if `delegationFeeRate` is `1.2345` and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
 
 `username` and `password`
 
@@ -365,7 +366,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTAyNjk3MCw5MTgxNjA1MjQsMjA5Mj
+eyJoaXN0b3J5IjpbLTczOTg2ODYzNiw5MTgxNjA1MjQsMjA5Mj
 A4OTIwOCwtMzMwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NTIwMzYz
 NTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
 -->
