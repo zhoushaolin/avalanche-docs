@@ -145,7 +145,7 @@ curl -X POST --data '{
 
 这些参数是支付交易费用、提供质押AVAX和回收质押AVAX的用户的用户名与密码。
 
-Now let’s issue the transaction. We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\) In this example we stake 2,000 AVAX \(2 x 1012 nAVAX\).
+现在让我们发起交易吧。We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\) In this example we stake 2,000 AVAX \(2 x 1012 nAVAX\).
 
 ```cpp
 curl -X POST --data '{
@@ -364,7 +364,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI3NzgxNTAsMTI3NTQ1ODA3MSw5MT
-gxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNjA5Mzcx
-NTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
+eyJoaXN0b3J5IjpbMTU5Njk0NzE1MywxMjc1NDU4MDcxLDkxOD
+E2MDUyNCwyMDkyMDg5MjA4LC0zMzA1NDM1OTMsLTI2MDkzNzE1
+MCwtMTc1MjAzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUwXX0=
 -->
