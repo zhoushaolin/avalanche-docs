@@ -74,7 +74,7 @@ The response has your node’s ID:
 
 通过向节点进行API调用，可以向验证程序集合添加一个节点。要将节点添加到主网，我们将调用 [`platform.addValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addvalidator).
 
-This method’s signature is:
+此方法的明显特征是：
 
 ```cpp
 platform.addValidator(
@@ -92,7 +92,7 @@ platform.addValidator(
 ) -> {txID: string}
 ```
 
-Let’s go through and examine these arguments.
+让我们看看这些要点。
 
 `nodeID`
 
@@ -364,7 +364,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNj
-A5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1
-MF19
+eyJoaXN0b3J5IjpbLTgxODI1MTU0NSwyMDkyMDg5MjA4LC0zMz
+A1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3
+NTQsNjM2NTM1NDUwXX0=
 -->
