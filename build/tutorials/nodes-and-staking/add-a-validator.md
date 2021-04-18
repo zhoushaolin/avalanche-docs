@@ -47,7 +47,7 @@ The response has your node’s ID:
 
 ![Web wallet earn tab](../../../.gitbook/assets/web-wallet-earn-tab.png)
 
-填写质押参数。下面将进行更详细的讲解。当您填写完所有质押参数并复查后，请点击“确认”。请确认质押期至少是2周，委托费率至少是2%，并且您至少质押了2000AVAX。
+填写质押参数。下面将进行更详细的讲解。当您填写完所有质押参数并复查后，请点击确认`Confirm`。请确认质押期至少2周，委托费率至少是2%，并且您至少质押了2000AVAX。
 Fill out the staking parameters. They are explained in more detail below. When you’ve filled in all the staking parameters and double-checked them, click `Confirm`. Make sure the staking period is at least 2 weeks, the delegation fee rate is at least 2%, and you’re staking at least 2,000 AVAX.
 
 {% page-ref page="../../../learn/platform-overview/staking.md" %}
@@ -366,6 +366,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg4MzY4NTIsLTI2MDkzNzE1MCwtMT
-c1MjAzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUwXX0=
+eyJoaXN0b3J5IjpbMTY4MTU3NjQyMCwtMjYwOTM3MTUwLC0xNz
+UyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
