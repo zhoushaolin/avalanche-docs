@@ -11,7 +11,7 @@ P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子�
 
 ## 要求
 
-您已完成运行一个Avalanche节点 [Run an Avalanche Node](../../get-started.md) and are familia[Avalanche's architecture](../../../learn/platform-overview/). In this tutorial, we use [Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
+您已完成运行一个Avalanche节点 [Run an Avalanche Node](../../get-started.md), 并且熟悉Avalanche 的架构[Avalanche's architecture](../../../learn/platform-overview/)。zai ben jia[Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
 
 In order to ensure your node is well-connected, make sure that your node can receive and send TCP traffic on the staking port \(`9651` by default\) and that you started your node with command line argument `--public-ip=[YOUR NODE'S PUBLIC IP HERE]`. Failing to do either of these may jeopardize your staking reward.
 
@@ -365,6 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE1MDA5NjAsNzkzOTk2NzU0LDYzNj
-UzNTQ1MF19
+eyJoaXN0b3J5IjpbNDAxODQwNDg2LDc5Mzk5Njc1NCw2MzY1Mz
+U0NTBdfQ==
 -->
