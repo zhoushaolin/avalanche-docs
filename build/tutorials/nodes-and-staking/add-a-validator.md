@@ -19,7 +19,7 @@ P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子�
 
 首先, 我们将向您展示如何使用[Avalanche Wallet](https://wallet.avax.network), 将节点作为验证程序添加进来。 
 
-Get your node’s ID by calling 通过[`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
+通过调用[`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid), 获取您的节点ID:
 
 ![getNodeID postman](../../../.gitbook/assets/getNodeID-postman.png)
 
@@ -43,7 +43,7 @@ The response has your node’s ID:
 }
 ```
 
-Open [the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
+Ope[the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
 
 ![Web wallet earn tab](../../../.gitbook/assets/web-wallet-earn-tab.png)
 
@@ -365,6 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjAwOTEzLC0xNzUyMDM2MzUzLDc5Mz
-k5Njc1NCw2MzY1MzU0NTBdfQ==
+eyJoaXN0b3J5IjpbLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OT
+M5OTY3NTQsNjM2NTM1NDUwXX0=
 -->
