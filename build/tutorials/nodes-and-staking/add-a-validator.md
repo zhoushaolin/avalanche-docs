@@ -4,11 +4,9 @@
 
 主网络[Primary Network](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/add-a-validator#introduction) 是Avalanche平台固有的, 它可以验证平台上的内置区块链[built-in blockchains](https://avalanche.gitbook.io/avalanche/learn/platform-overview)。在本教程中, 我们将向主网添加一个节点, 并在Avalanche平台上添加一个子网[subnet](https://avalanche.gitbook.io/avalanche/learn/platform-overview#subnets)。
 
-P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起 
-The P-Chain manages metadata on Avalanche. This includes tracking which nodes are in which subnets, which blockchains exist, and which subnets are validating which blockchains. To add a validator, we’ll issue [transactions](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) to the P-Chain.
+P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起交易[transactions](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)。
 
-{% hint style="danger" %}
-Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, browse the [Developer FAQ's](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
+请注意，一旦您发起交易来将一个节点作为验证程序加入时，参数是无法更改的。**您无法提前移除质押或更改质押金额、节点ID或收益地址。Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, browse the [Developer FAQ's](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 {% endhint %}
 
 ## Requirements
@@ -367,5 +365,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk3NzM2NDMsNjM2NTM1NDUwXX0=
+eyJoaXN0b3J5IjpbLTE3MjA1OTc4MCw2MzY1MzU0NTBdfQ==
 -->
