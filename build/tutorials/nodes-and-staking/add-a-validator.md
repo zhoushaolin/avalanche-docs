@@ -131,11 +131,11 @@ curl -X POST --data '{
 
 当验证程序停止验证主网时，如果它们验证主网时响应充分且正确，则它们会获得收益。上述代币会发送到收益地址`rewardAddress`。原始质押会发送回用户名`username`控制的一个地址。
 
-无论如何，验证程序的质押永远不会大幅削减；完成验证后，它们会一直收回其质押。
-A validator’s stake is never slashed, regardless of their behavior; they will always receive their stake back when they’re done validating.
+无论如何，验证程序的质押永远不会大幅削减；完成验证后，质押金额将被发送回去。
 
-`changeAddr`
+更改地址`changeAddr`
 
+任何关于此交易的更改都会发送到此地址。您可以将此区域留白；如果您留空了，更改会发送到您的用户名下的一个地址。
 Any change resulting from this transaction will be sent to this address. You can leave this field empty; if you do, change will be sent to one of the addresses your user controls.
 
 `delegationFeeRate`
@@ -365,7 +365,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgxNDI4NDYsOTE4MTYwNTI0LDIwOT
-IwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3MTUwLC0xNzUyMDM2
-MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
+eyJoaXN0b3J5IjpbLTM0NTAyNjk3MCw5MTgxNjA1MjQsMjA5Mj
+A4OTIwOCwtMzMwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NTIwMzYz
+NTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
 -->
