@@ -70,9 +70,9 @@ The response has your node’s ID:
 ![Estimated rewards](../../../.gitbook/assets/estimated-rewards.png)
 
 
-## Add a validator with API calls
+## 调用API 添加验证程序
 
-We can also add a node to the validator set by making API calls to our node. To add a node the Primary Network, we’ll call [`platform.addValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addvalidator).
+通过向我们的节点进行API调用，您可以向验证程序集合添加一个节点。要将节点添加到主网，我们将调用We can also add a node to the validator set by making API calls to our node. To add a node the Primary Network, we’ll call [`platform.addValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addvalidator).
 
 This method’s signature is:
 
@@ -364,6 +364,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MTUwNjYsLTI2MDkzNzE1MCwtMTc1Mj
-AzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUwXX0=
+eyJoaXN0b3J5IjpbLTMzMDU0MzU5MywtMjYwOTM3MTUwLC0xNz
+UyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
