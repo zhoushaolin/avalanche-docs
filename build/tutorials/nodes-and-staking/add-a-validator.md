@@ -4,7 +4,7 @@
 
 主网络[Primary Network](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/add-a-validator#introduction) 是Avalanche平台固有的, 它可以验证平台上的内置区块链[built-in blockchains](https://avalanche.gitbook.io/avalanche/learn/platform-overview)。在本教程中, 我们将向主网添加一个节点, 并在Avalanche平台上添加一个子网[subnet](https://avalanche.gitbook.io/avalanche/learn/platform-overview#subnets)。
 
-P链管理着Avalanche上的元数据, ke yi踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起 
+P链管理着Avalanche上的元数据, 可以追踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起 
 The P-Chain manages metadata on Avalanche. This includes tracking which nodes are in which subnets, which blockchains exist, and which subnets are validating which blockchains. To add a validator, we’ll issue [transactions](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) to the P-Chain.
 
 {% hint style="danger" %}
@@ -367,5 +367,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4OTIwOTM0LDYzNjUzNTQ1MF19
+eyJoaXN0b3J5IjpbLTE2Mjk3NzM2NDMsNjM2NTM1NDUwXX0=
 -->
