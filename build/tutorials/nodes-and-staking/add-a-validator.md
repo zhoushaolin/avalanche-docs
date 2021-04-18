@@ -127,9 +127,9 @@ curl -X POST --data '{
 
 为了验证主网，您必须质押AVAX。该参数确定了质押的AVAX金额。
 
-shou yi di zhi`rewardAddress`
+收益地址`rewardAddress`
 
-When a validator stops validating the Primary Network, they will receive a reward if they are sufficiently responsive and correct while they validated the Primary Network. These tokens are sent to `rewardAddress`. The original stake will be sent back to an address controlled by `username`.
+当验证程序停止验证主网时，如果它们验证主网时响应足够且正确，则它们会获得收益。上述代币会发送到“收益地址”。原始质押会发送回“用户名”控制的一个地址。When a validator stops validating the Primary Network, they will receive a reward if they are sufficiently responsive and correct while they validated the Primary Network. These tokens are sent to `rewardAddress`. The original stake will be sent back to an address controlled by `username`.
 
 A validator’s stake is never slashed, regardless of their behavior; they will always receive their stake back when they’re done validating.
 
@@ -364,7 +364,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzA0MzU2MCw5MTgxNjA1MjQsMjA5Mj
-A4OTIwOCwtMzMwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NTIwMzYz
-NTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
+eyJoaXN0b3J5IjpbLTE5OTc0NDEyNTEsOTE4MTYwNTI0LDIwOT
+IwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3MTUwLC0xNzUyMDM2
+MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
