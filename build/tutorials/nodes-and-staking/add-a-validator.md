@@ -351,12 +351,11 @@ curl -X POST --data '{
 }
 ```
 
-当时间达到“1584042912”时，该节点将开始验证主网。当时间达到“1584121156”，该节点将停止验证主网。
+当时间达到`1584042912`时，该节点将开始验证子网。当时间达到`1584121156`，该节点将停止验证该子网。
 
-When the time reaches `1584042912`, this node will start validating this Subnet. When it reaches `1584121156`, this node will stop validating this Subnet.
+### 将子网纳入白名单
 
-### Whitelisting the Subnet
-
+目前该节点已经添加为子网的验证程序，让我们把它添加到子网白名单中。白名单防止节点无意中验证子网。
 Now that the node has been added as a validator of the subnet, let’s add it to the whitelist of subnets. The whitelist prevents the node from validating a subnet unintentionally.
 
 To whitelist the subnet, restart the node and add the parameter `--whitelisted-subnets` with a comma separated list of subnets to whitelist.
@@ -366,7 +365,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkwNDI2ODAsMTUzMzkwNTM5MSwxMD
+eyJoaXN0b3J5IjpbLTE3MjkxNDE4OTksMTUzMzkwNTM5MSwxMD
 Q4NDcyMDA0LDE0NTY0NzkxODksLTE0MzAwNDczMTMsNDA1MTM0
 MzA1LC05NjExNDE5MzIsMjE0OTQ5MDEzLDEyNzU0NTgwNzEsOT
 E4MTYwNTI0LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3
