@@ -259,11 +259,11 @@ platform.addSubnetValidator(
 
 这是我们即将添加验证程序的子网的ID。
 
-`startTime` 与 `endTime`
+开始时间`startTime` 与 结束时间`endTime`
 
-Similar to above, these are the Unix times that the validator will start and stop validating the subnet. `startTime` must be at or after the time that the validator starts validating the Primary Network, and `endTime` must be at or before the time that the validator stops validating the Primary Network.
+与上文类似，这是验证程序将开始和停止验证子网的Unix次数。开始时间`startTime`必须在验证程序开始验证主网的同时或之后，而结束时间`endTime`必须在验证程序停止验证主网的同时或之前。
 
-`weight`
+权重`weight`
 
 This is the validator’s sampling weight for consensus. If the validator’s weight is 1 and the cumulative weight of all validators in the subnet is 100, then this validator will be included in about 1 in every 100 samples during consensus.
 
@@ -364,9 +364,9 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcxNDU5MDgsMTQ1NjQ3OTE4OSwtMT
-QzMDA0NzMxMyw0MDUxMzQzMDUsLTk2MTE0MTkzMiwyMTQ5NDkw
-MTMsMTI3NTQ1ODA3MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMz
-MwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2
-NzU0LDYzNjUzNTQ1MF19
+eyJoaXN0b3J5IjpbLTkyNzc3ODQ4OCwxNDU2NDc5MTg5LC0xND
+MwMDQ3MzEzLDQwNTEzNDMwNSwtOTYxMTQxOTMyLDIxNDk0OTAx
+MywxMjc1NDU4MDcxLDkxODE2MDUyNCwyMDkyMDg5MjA4LC0zMz
+A1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3
+NTQsNjM2NTM1NDUwXX0=
 -->
