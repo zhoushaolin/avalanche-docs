@@ -222,7 +222,7 @@ curl -X POST --data '{
 }
 ```
 
-When the time reaches `1584021450`, this node will start validating the Primary Network. When it reaches `1584121156`, this node will stop validating the Primary Network. The staked AVAX will be returned to an address controlled by `username`, and the rewards, if any, will be given to `rewardAddress`.
+当时间达到`1584021450`时，该节点将开始验证主网。当时间达到`1584121156`，该节点将停止验证主网。质押的AVAX会退还至用户名`username`控制的地址，如有，则收益会发送到“收益地址”。When the time reaches `1584021450`, this node will start validating the Primary Network. When it reaches `1584121156`, this node will stop validating the Primary Network. The staked AVAX will be returned to an address controlled by `username`, and the rewards, if any, will be given to `rewardAddress`.
 
 ## Adding a Subnet Validator
 
@@ -364,8 +364,8 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NT
-Q1ODA3MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkz
-LC0yNjA5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNj
-UzNTQ1MF19
+eyJoaXN0b3J5IjpbLTcwMDI0MzkzNCwtOTYxMTQxOTMyLDIxND
+k0OTAxMywxMjc1NDU4MDcxLDkxODE2MDUyNCwyMDkyMDg5MjA4
+LC0zMzA1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OT
+M5OTY3NTQsNjM2NTM1NDUwXX0=
 -->
