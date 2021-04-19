@@ -355,20 +355,18 @@ curl -X POST --data '{
 
 ### 将子网纳入白名单
 
-目前该节点已经添加为子网的验证程序，让我们把它添加到子网白名单中。白名单防止节点无意中验证子网。
-Now that the node has been added as a validator of the subnet, let’s add it to the whitelist of subnets. The whitelist prevents the node from validating a subnet unintentionally.
+目前该节点已经添加为子网的验证器，让我们把它添加到子网白名单中。白名单防止节点无意中验证子网。
 
-To whitelist the subnet, restart the node and add the parameter `--whitelisted-subnets` with a comma separated list of subnets to whitelist.
+将子网纳入白名单，需重启节点并添加参数“——将子网纳入白名单”，并将用逗号分隔的子网清单纳入白名单。To whitelist the subnet, restart the node and add the parameter `--whitelisted-subnets` with a comma separated list of subnets to whitelist.
 
 The full command is:
 
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkxNDE4OTksMTUzMzkwNTM5MSwxMD
-Q4NDcyMDA0LDE0NTY0NzkxODksLTE0MzAwNDczMTMsNDA1MTM0
-MzA1LC05NjExNDE5MzIsMjE0OTQ5MDEzLDEyNzU0NTgwNzEsOT
-E4MTYwNTI0LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3
-MTUwLC0xNzUyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ
-==
+eyJoaXN0b3J5IjpbMTA5NTY2MzU0NywxNTMzOTA1MzkxLDEwND
+g0NzIwMDQsMTQ1NjQ3OTE4OSwtMTQzMDA0NzMxMyw0MDUxMzQz
+MDUsLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3MSw5MT
+gxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNjA5Mzcx
+NTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
 -->
