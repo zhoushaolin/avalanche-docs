@@ -230,7 +230,7 @@ curl -X POST --data '{
 
 现在让我们把同一个节点添加到子网中。如果您已经完成了子网创建教程[tutorial on creating a Subnet](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/create-a-subnet)，那么下文就会更清楚。现在，您只能通过API调用将验证程序添加到子网中，通过Avalanche钱包是行不通的。
 
-假如子网的ID是 `nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`, 阈值是 2,则yong hu y and that `username` holds at least 2 control keys.
+假如子网的ID是 `nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`, 阈值是 2, 则用户名`username`至少持有2个密钥。
 
 To add the validator, we’ll call API method [`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator). Its signature is:
 
@@ -364,8 +364,8 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjU0NDI1OCw0MDUxMzQzMDUsLTk2MT
-E0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3MSw5MTgxNjA1MjQs
-MjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NT
-IwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
+eyJoaXN0b3J5IjpbLTE0MzAwNDczMTMsNDA1MTM0MzA1LC05Nj
+ExNDE5MzIsMjE0OTQ5MDEzLDEyNzU0NTgwNzEsOTE4MTYwNTI0
+LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3MTUwLC0xNz
+UyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
 -->
