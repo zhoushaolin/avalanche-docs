@@ -275,7 +275,7 @@ platform.addSubnetValidator(
 
 这些参数是支付交易费用的用户的用户名与密码。该用户持有足量子网的控制密钥，进而将验证程序添加到此子网中。
 
-我们使用shell命令“date”来计算Unix次数，接下来，10分钟和30天会分别被用作“开始时间”和“结束时间”的值。\(注意：如果您使用的是M，请用“$(gdate”来替换“$(date”。如果您并未安装“gdate”，请执行“混合安装coreutils”。\)
+我们使用shell命令“date”来计算Unix次数，接下来，10分钟和30天会分别被用作“开始时间”和“结束时间”的值。\(注意：如果您使用的是苹果电脑，请用`$(gdate`来替换`$(date` 。如果您并未安装`gdate`，请执行brew install coreutils`。\)
 We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
 
 ```cpp
@@ -365,7 +365,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzMzQyODUzLDE1MzM5MDUzOTEsMTA0OD
+eyJoaXN0b3J5IjpbNjExOTUwMDY3LDE1MzM5MDUzOTEsMTA0OD
 Q3MjAwNCwxNDU2NDc5MTg5LC0xNDMwMDQ3MzEzLDQwNTEzNDMw
 NSwtOTYxMTQxOTMyLDIxNDk0OTAxMywxMjc1NDU4MDcxLDkxOD
 E2MDUyNCwyMDkyMDg5MjA4LC0zMzA1NDM1OTMsLTI2MDkzNzE1
