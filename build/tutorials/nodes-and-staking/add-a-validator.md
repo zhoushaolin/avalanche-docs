@@ -232,7 +232,7 @@ curl -X POST --data '{
 
 假如子网的ID是 `nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`, 阈值是 2, 则用户名`username`至少持有2个密钥。
 
-如需添加验证程序, 我们将调用API的方法 [`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator). Its signature is:
+如需添加验证程序, 我们将调用API的方法 [`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator), 其特征是:
 
 ```cpp
 platform.addSubnetValidator(
@@ -249,14 +249,15 @@ platform.addSubnetValidator(
 ) -> {txID: string}
 ```
 
-Let’s examine the parameters:
+让我们来检查一下参数：
 
-`nodeID`
+节点ID`nodeID`
 
-This is the node ID of the validator being added to the subnet. **This validator must validate the Primary Network for the entire duration that it validates this Subnet.**
+这是添加到子网的验证程序的节点ID。**此验证程序必须在其验证此子网的全程中验证主网。**
 
-`subnetID`
+子网ID`subnetID`
 
+这是我们要将验证程序添加进去的子网的ID。
 This is the ID of the subnet we’re adding a validator to.
 
 `startTime` and `endTime`
@@ -364,9 +365,9 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDEzNTI1MiwtMTQzMDA0NzMxMyw0MD
-UxMzQzMDUsLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3
-MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNj
-A5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1
-MF19
+eyJoaXN0b3J5IjpbNjYzNzQ5NTEzLC0xNDMwMDQ3MzEzLDQwNT
+EzNDMwNSwtOTYxMTQxOTMyLDIxNDk0OTAxMywxMjc1NDU4MDcx
+LDkxODE2MDUyNCwyMDkyMDg5MjA4LC0zMzA1NDM1OTMsLTI2MD
+kzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUw
+XX0=
 -->
