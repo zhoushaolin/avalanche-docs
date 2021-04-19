@@ -266,10 +266,10 @@ platform.addSubnetValidator(
 权重`weight`
 
 这是为达成共识的验证程序的采样权重。如果验证程序的权重是1，且子网中所有验证程序的累计权重是100，则达成共识期间，每100个样本中就有1个包含该验证程序。
-This is the validator’s sampling weight for consensus. If the validator’s weight is 1 and the cumulative weight of all validators in the subnet is 100, then this validator will be included in about 1 in every 100 samples during consensus.
 
-`changeAddr`
+更改地址`changeAddr`
 
+关于此交易的任何更改都会发送到此地址。您可以留空此区域；如果您留空了，更改会发送到您的用户控制的一个地址。
 Any change resulting from this transaction will be sent to this address. You can leave this field empty; if you do, change will be sent to one of the addresses your user controls.
 
 `username` and `password`
@@ -365,9 +365,9 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDI1NTQxLDE0NTY0NzkxODksLTE0Mz
-AwNDczMTMsNDA1MTM0MzA1LC05NjExNDE5MzIsMjE0OTQ5MDEz
-LDEyNzU0NTgwNzEsOTE4MTYwNTI0LDIwOTIwODkyMDgsLTMzMD
-U0MzU5MywtMjYwOTM3MTUwLC0xNzUyMDM2MzUzLDc5Mzk5Njc1
-NCw2MzY1MzU0NTBdfQ==
+eyJoaXN0b3J5IjpbLTk3MTEzNjAyMywxNDU2NDc5MTg5LC0xND
+MwMDQ3MzEzLDQwNTEzNDMwNSwtOTYxMTQxOTMyLDIxNDk0OTAx
+MywxMjc1NDU4MDcxLDkxODE2MDUyNCwyMDkyMDg5MjA4LC0zMz
+A1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3
+NTQsNjM2NTM1NDUwXX0=
 -->
