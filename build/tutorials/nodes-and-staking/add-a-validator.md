@@ -259,7 +259,7 @@ platform.addSubnetValidator(
 
 这是我们即将添加验证程序的子网的ID。
 
-`startTime` and `endTime`
+`startTime` 与 `endTime`
 
 Similar to above, these are the Unix times that the validator will start and stop validating the subnet. `startTime` must be at or after the time that the validator starts validating the Primary Network, and `endTime` must be at or before the time that the validator stops validating the Primary Network.
 
@@ -364,9 +364,9 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjQ3OTE4OSwtMTQzMDA0NzMxMyw0MD
-UxMzQzMDUsLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3
-MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNj
-A5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1
-MF19
+eyJoaXN0b3J5IjpbLTE0MTcxNDU5MDgsMTQ1NjQ3OTE4OSwtMT
+QzMDA0NzMxMyw0MDUxMzQzMDUsLTk2MTE0MTkzMiwyMTQ5NDkw
+MTMsMTI3NTQ1ODA3MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMz
+MwNTQzNTkzLC0yNjA5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2
+NzU0LDYzNjUzNTQ1MF19
 -->
