@@ -1,9 +1,10 @@
 # 运行Avalanche节点监测
 
-感谢社区成员Jovica Popović编写了此教程。如有需要，您可以通过我们的[Discord]来联系他([https://chat.avax.network](https://chat.avax.network))。Thank you to community member Jovica Popović, who wrote this tutorial. You can reach him on our_ [_Discord_](https://chat.avax.network) _if needed._
+感谢社区成员Jovica Popović编写了此教程。如有需要，您可以通过我们的[_Discord_](https://chat.avax.network)来联系他。
 
-## Introduction
+## 简介
 
+本教程的前提是您在节点上运行了Ubuntu 18.04或20.04\( 本教程的Mac OS X版本即将发布\)。
 This tutorial assumes you have Ubuntu 18.04 or 20.04 running on your node \(a Mac OS X version of this tutorial will come later\).
 
 This tutorial will show how to set up infrastructure to monitor an instance of [AvalancheGo](https://github.com/ava-labs/avalanchego). We will use:
@@ -377,5 +378,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDU3OTMyOF19
+eyJoaXN0b3J5IjpbMTYxNTEyMDM3MywxMzIwNTc5MzI4XX0=
 -->
