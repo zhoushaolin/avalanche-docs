@@ -232,7 +232,7 @@ curl -X POST --data '{
 
 假如子网的ID是 `nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`, 阈值是 2, 则用户名`username`至少持有2个密钥。
 
-To add the validator, we’ll call API method [`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator). Its signature is:
+如需添加验证程序, 我们将调用API的方法 [`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator). Its signature is:
 
 ```cpp
 platform.addSubnetValidator(
@@ -364,8 +364,9 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAwNDczMTMsNDA1MTM0MzA1LC05Nj
-ExNDE5MzIsMjE0OTQ5MDEzLDEyNzU0NTgwNzEsOTE4MTYwNTI0
-LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3MTUwLC0xNz
-UyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ==
+eyJoaXN0b3J5IjpbMTQ2NDEzNTI1MiwtMTQzMDA0NzMxMyw0MD
+UxMzQzMDUsLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3
+MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNj
+A5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1
+MF19
 -->
