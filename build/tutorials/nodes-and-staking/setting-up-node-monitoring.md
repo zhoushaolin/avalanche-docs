@@ -1,4 +1,4 @@
-# Run an Avalanche Node Monitoring
+# 运行Avalanche节点监测
 
 感谢社区成员Jovica Popović编写了此教程。如有需要，您可以通过我们的[Discord]来联系他([https://chat.avax.network](https://chat.avax.network))。Thank you to community member Jovica Popović, who wrote this tutorial. You can reach him on our_ [_Discord_](https://chat.avax.network) _if needed._
 
@@ -377,5 +377,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwOTIyNjY1XX0=
+eyJoaXN0b3J5IjpbMTMyMDU3OTMyOF19
 -->
