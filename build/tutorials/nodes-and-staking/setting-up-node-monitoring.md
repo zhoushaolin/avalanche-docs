@@ -25,7 +25,7 @@
 
 ### Contributions出资
 
-Grafana指示板的基础取自[ColmenaLabs](https://blog.colmenalabs.org/index.html)的优秀人士，目前已不可用。如果您对如何改进本教程有任何想法和建议，请请在[Github]上说名、发布问题或发出请求([https://github.com/ava-labs](https://github.com/ava-labs))。
+Grafana指示板的基础取自[ColmenaLabs](https://blog.colmenalabs.org/index.html)的优秀人士，目前已不可用。如果您对改进本教程有任何想法和建议，请在[Github](https://github.com/ava-labs)上进行说明、发布问题或发出请求。
 The basis for the Grafana dashboard was taken from the good guys at [ColmenaLabs](https://blog.colmenalabs.org/index.html), which is apparently not available anymore. If you have ideas and suggestions on how to improve this tutorial, please say so, post an issue, or make a pull request on [Github](https://github.com/ava-labs).
 
 ## Set up Prometheus
@@ -376,6 +376,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyODEzMDM1LDg3MDYxODIzNywxMzIwNT
+eyJoaXN0b3J5IjpbOTAyMjAzODk3LDg3MDYxODIzNywxMzIwNT
 c5MzI4XX0=
 -->
