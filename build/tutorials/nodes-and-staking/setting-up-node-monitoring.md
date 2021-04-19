@@ -5,9 +5,8 @@
 ## 简介
 
 本教程的前提是您在节点上运行了Ubuntu 18.04或20.04\( 本教程的Mac OS X版本即将发布\)。
-This tutorial assumes you have Ubuntu 18.04 or 20.04 running on your node \(a Mac OS X version of this tutorial will come later\).
 
-This tutorial will show how to set up infrastructure to monitor an instance of [AvalancheGo](https://github.com/ava-labs/avalanchego). We will use:
+本教程会展示如何设置基础设施以监测[AvalancheGo](https://github.com/ava-labs/avalanchego)的实例。我们将使用：
 
 * [Prometheus](https://prometheus.io/) to gather and store data
 * [node\_exporter](https://github.com/prometheus/node_exporter) to get information about the machine,
@@ -378,5 +377,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTEyMDM3MywxMzIwNTc5MzI4XX0=
+eyJoaXN0b3J5IjpbODcwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
