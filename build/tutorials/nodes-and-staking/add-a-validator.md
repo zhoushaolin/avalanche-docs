@@ -274,8 +274,8 @@ platform.addSubnetValidator(
 用户名`username` 和 密码`password`
 
 这些参数是支付交易费用的用户的用户名与密码。该用户持有足量子网的控制密钥，进而将验证程序添加到此子网中。
-These parameters are the username and password of the user that pays the transaction fee. This user must hold a sufficient number of this Subnet’s control keys in order to add a validator to this Subnet.
 
+我们使用外壳命令“date”来计算Unix次数，将来，10分钟和30天会分别被用作“开始时间”和“结束时间”的值。\(注意事项：如果您使用的是Mac，请用“$(gdate”来替换“$(date”。如果您并未安装“gdate”，请执行“混合安装coreutils”。\)
 We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
 
 ```cpp
@@ -365,7 +365,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE4NDIxOCwxNDU2NDc5MTg5LC0xND
+eyJoaXN0b3J5IjpbMTA0ODQ3MjAwNCwxNDU2NDc5MTg5LC0xND
 MwMDQ3MzEzLDQwNTEzNDMwNSwtOTYxMTQxOTMyLDIxNDk0OTAx
 MywxMjc1NDU4MDcxLDkxODE2MDUyNCwyMDkyMDg5MjA4LC0zMz
 A1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3
