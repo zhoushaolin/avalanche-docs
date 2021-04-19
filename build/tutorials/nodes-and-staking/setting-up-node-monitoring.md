@@ -10,14 +10,14 @@
 
 * [Prometheus](https://prometheus.io/)收集和储存数据
 * [node\_exporter](https://github.com/prometheus/node_exporter) 获取计算机相关信息
-* AvalancheGo’s [metrics API](https://docs.avax.network/build/avalanchego-apis/metrics-api) to get information about the node
-* [Grafana](https://grafana.com/) to visualize data on a dashboard.
+* AvalancheGo’s [metrics API](https://docs.avax.network/build/avalanchego-apis/metrics-api) 获取节点相关信息
+* [Grafana](https://grafana.com/) 可视化仪表板上的数据。
 
-Prerequisites:
+先决条件：
 
-* A running AvalancheGo node
-* Shell access to the machine running the node
-* Administrator privileges on the machine
+* 一个运行中的AvalancheGo节点
+* 运行节点的计算机的外壳访问
+* 计算机的管理员特权
 
 ### **Caveat: Security**
 
@@ -377,6 +377,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzA2OTA4NDcsODcwNjE4MjM3LDEzMj
-A1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTU1MjYxNzUyNCw4NzA2MTgyMzcsMTMyMD
+U3OTMyOF19
 -->
