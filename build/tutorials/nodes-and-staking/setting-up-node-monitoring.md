@@ -23,12 +23,11 @@
 
 此处所述系统**不应**向公共互联网开放。如图所示，Prometheus和Grafana均严禁未经允许的访问。请确保这只能通过安全代理、本地网络或VPN访问。本教程不包括其设置，但操作时要谨慎。如果安全操作有问题，则可能使攻击者获得对您节点的控制权！您自行负责遵循适当的安全做法。
 
-### Contributions出资
+### 贡献
 
 Grafana指示板的基础取自[ColmenaLabs](https://blog.colmenalabs.org/index.html)的优秀人士，目前已不可用。如果您对改进本教程有任何想法和建议，请在[Github](https://github.com/ava-labs)上进行说明、发布问题或发出请求。
-The basis for the Grafana dashboard was taken from the good guys at [ColmenaLabs](https://blog.colmenalabs.org/index.html), which is apparently not available anymore. If you have ideas and suggestions on how to improve this tutorial, please say so, post an issue, or make a pull request on [Github](https://github.com/ava-labs).
 
-## Set up Prometheus
+## 设置Prometheus
 
 First, we need to add a system user account and create directories \(you will need superuser credentials\):
 
@@ -376,6 +375,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMjAzODk3LDg3MDYxODIzNywxMzIwNT
-c5MzI4XX0=
+eyJoaXN0b3J5IjpbLTE0NTE1MDk1NzcsODcwNjE4MjM3LDEzMj
+A1NzkzMjhdfQ==
 -->
