@@ -269,11 +269,11 @@ platform.addSubnetValidator(
 
 更改地址`changeAddr`
 
-关于此交易的任何更改都会发送到此地址。您可以留空此区域；如果您留空了，更改会发送到您的用户控制的一个地址。
-Any change resulting from this transaction will be sent to this address. You can leave this field empty; if you do, change will be sent to one of the addresses your user controls.
+关于此交易的任何更改都会发送到此地址。您可以留白此区域；这样的话，更改会发送到您的用户控制的一个地址。
 
-`username` and `password`
+用户名`username` 和 密码`password`
 
+这些参数是支付交易费用的用户的用户名与密码。该用户持有足量子网的控制密钥，进而将验证程序添加到此子网中。
 These parameters are the username and password of the user that pays the transaction fee. This user must hold a sufficient number of this Subnet’s control keys in order to add a validator to this Subnet.
 
 We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
@@ -365,7 +365,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTEzNjAyMywxNDU2NDc5MTg5LC0xND
+eyJoaXN0b3J5IjpbLTIwNjE4NDIxOCwxNDU2NDc5MTg5LC0xND
 MwMDQ3MzEzLDQwNTEzNDMwNSwtOTYxMTQxOTMyLDIxNDk0OTAx
 MywxMjc1NDU4MDcxLDkxODE2MDUyNCwyMDkyMDg5MjA4LC0zMz
 A1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3
