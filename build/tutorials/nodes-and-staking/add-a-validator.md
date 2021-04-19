@@ -257,8 +257,7 @@ platform.addSubnetValidator(
 
 子网ID`subnetID`
 
-这是我们要将验证程序添加进去的子网的ID。
-This is the ID of the subnet we’re adding a validator to.
+这是我们即将添加验证程序的子网的ID。
 
 `startTime` and `endTime`
 
@@ -365,9 +364,9 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzNzQ5NTEzLC0xNDMwMDQ3MzEzLDQwNT
-EzNDMwNSwtOTYxMTQxOTMyLDIxNDk0OTAxMywxMjc1NDU4MDcx
-LDkxODE2MDUyNCwyMDkyMDg5MjA4LC0zMzA1NDM1OTMsLTI2MD
-kzNzE1MCwtMTc1MjAzNjM1Myw3OTM5OTY3NTQsNjM2NTM1NDUw
-XX0=
+eyJoaXN0b3J5IjpbMTQ1NjQ3OTE4OSwtMTQzMDA0NzMxMyw0MD
+UxMzQzMDUsLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3
+MSw5MTgxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNj
+A5MzcxNTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1
+MF19
 -->
