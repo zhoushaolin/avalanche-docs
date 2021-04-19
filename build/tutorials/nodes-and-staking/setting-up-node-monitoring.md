@@ -23,8 +23,9 @@
 
 此处所述系统**不应**向公共互联网开放。如图所示，Prometheus和Grafana均严禁未经允许的访问。请确保这只能通过安全代理、本地网络或VPN访问。本教程不包括其设置，但操作时要谨慎。如果安全操作有问题，则可能使攻击者获得对您节点的控制权！您自行负责遵循适当的安全做法。
 
-### Contributions
+### Contributions出资
 
+Grafana仪表盘的基础取自[ColmenaLabs公司]的优秀人士([https://blog.colmenalabs.org/index.html](https://blog.colmenalabs.org/index.html))，目前已不提供。如果您对如何改进本教程有任何想法和建议，请请在[Github]上说名、发布问题或发出请求([https://github.com/ava-labs](https://github.com/ava-labs))。
 The basis for the Grafana dashboard was taken from the good guys at [ColmenaLabs](https://blog.colmenalabs.org/index.html), which is apparently not available anymore. If you have ideas and suggestions on how to improve this tutorial, please say so, post an issue, or make a pull request on [Github](https://github.com/ava-labs).
 
 ## Set up Prometheus
@@ -375,6 +376,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODA4MzE1Myw4NzA2MTgyMzcsMTMyMD
-U3OTMyOF19
+eyJoaXN0b3J5IjpbNjI1NTI2Mjk4LDg3MDYxODIzNywxMzIwNT
+c5MzI4XX0=
 -->
