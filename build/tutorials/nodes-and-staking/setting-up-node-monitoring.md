@@ -8,8 +8,8 @@
 
 本教程会展示如何设置基础设施以监测[AvalancheGo](https://github.com/ava-labs/avalanchego)的实例。我们将使用：
 
-* [Prometheus](https://prometheus.io/) to gather and store data
-* [node\_exporter](https://github.com/prometheus/node_exporter) to get information about the machine,
+* [Prometheus](https://prometheus.io/)收集和储存数据
+* [node\_exporter](https://github.com/prometheus/node_exporter) 获取计算机相关信息
 * AvalancheGo’s [metrics API](https://docs.avax.network/build/avalanchego-apis/metrics-api) to get information about the node
 * [Grafana](https://grafana.com/) to visualize data on a dashboard.
 
@@ -377,5 +377,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTEzNzA2OTA4NDcsODcwNjE4MjM3LDEzMj
+A1NzkzMjhdfQ==
 -->
