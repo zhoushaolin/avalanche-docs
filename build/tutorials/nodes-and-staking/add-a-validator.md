@@ -321,8 +321,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-状态应是已提交`Committed`, 意即交易成功, 我们可以调用[`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators), 来查看该节点目前正处于主网的在待定的验证程序集中。此次，我们zhi ding子网ID：
-and see that the node is now in the pending validator set for the Primary Network. This time, we specify the subnet ID:
+状态应是已提交`Committed`, 意即交易成功, 我们可以调用[`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators), 来查看该节点目前正处于主网的在待定的验证程序集中。此次，我们指定子网ID：
 
 ```cpp
 curl -X POST --data '{
@@ -333,7 +332,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response should include the node we just added:
+响应包括我们刚刚添加的节点：
 
 ```cpp
 {
@@ -352,6 +351,8 @@ The response should include the node we just added:
 }
 ```
 
+当时间达到“1584042912”时，该节点将开始验证主网。当时间达到“1584121156”，该节点将停止验证主网。
+
 When the time reaches `1584042912`, this node will start validating this Subnet. When it reaches `1584121156`, this node will stop validating this Subnet.
 
 ### Whitelisting the Subnet
@@ -365,9 +366,10 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTE1MTkzMiwxNTMzOTA1MzkxLDEwND
-g0NzIwMDQsMTQ1NjQ3OTE4OSwtMTQzMDA0NzMxMyw0MDUxMzQz
-MDUsLTk2MTE0MTkzMiwyMTQ5NDkwMTMsMTI3NTQ1ODA3MSw5MT
-gxNjA1MjQsMjA5MjA4OTIwOCwtMzMwNTQzNTkzLC0yNjA5Mzcx
-NTAsLTE3NTIwMzYzNTMsNzkzOTk2NzU0LDYzNjUzNTQ1MF19
+eyJoaXN0b3J5IjpbLTEwNTkwNDI2ODAsMTUzMzkwNTM5MSwxMD
+Q4NDcyMDA0LDE0NTY0NzkxODksLTE0MzAwNDczMTMsNDA1MTM0
+MzA1LC05NjExNDE5MzIsMjE0OTQ5MDEzLDEyNzU0NTgwNzEsOT
+E4MTYwNTI0LDIwOTIwODkyMDgsLTMzMDU0MzU5MywtMjYwOTM3
+MTUwLC0xNzUyMDM2MzUzLDc5Mzk5Njc1NCw2MzY1MzU0NTBdfQ
+==
 -->
