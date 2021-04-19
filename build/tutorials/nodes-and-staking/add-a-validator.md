@@ -228,7 +228,7 @@ curl -X POST --data '{
 
 ### 发起子网验证程序交易
 
-现在让我们把同一个节点添加到子网中。如果您已经完成了[创建子网教程] (https://avalanche.gitbook.io/avalanche/build/tutorials/platform/create-a-subnet)，那么下文会更有意义。现在，您只能通过API调用将验证程序添加到子网中，通过Avalanche钱包是行不通的。
+现在让我们把同一个节点添加到子网中。如果您已经完成了子网创建教程[tutorial on creating a Subnet](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/create-a-subnet)，那么。现在，您只能通过API调用将验证程序添加到子网中，通过Avalanche钱包是行不通的。
 
 Now let’s add the same node to a subnet. The following will make more sense if you’ve already done this [tutorial on creating a Subnet](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/create-a-subnet). Right now you can only add validators to subnets with API calls, not with Avalanche Wallet.
 
@@ -366,7 +366,7 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDU2MjA3NywtOTYxMTQxOTMyLDIxND
+eyJoaXN0b3J5IjpbMTY3MTAyNzM0NiwtOTYxMTQxOTMyLDIxND
 k0OTAxMywxMjc1NDU4MDcxLDkxODE2MDUyNCwyMDkyMDg5MjA4
 LC0zMzA1NDM1OTMsLTI2MDkzNzE1MCwtMTc1MjAzNjM1Myw3OT
 M5OTY3NTQsNjM2NTM1NDUwXX0=
