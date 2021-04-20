@@ -59,13 +59,13 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 点击`Create security group`。您应在安全组列表中看到新的安全组。
 
-## Launch an EC2 Instance <a id="0682"></a>
+## 启动 EC2 实例
 
-Now you're ready to launch an EC2 instance. Go to the EC2 Dashboard and select **Launch instance**.
+现在您准备启动EC2实例, 访问CE2指示板, 选择**Launch instance**。
 
 ![Select &quot;Launch Instance.&quot;](https://miro.medium.com/max/813/1*zsawPDMBFlonC_7kg060wQ.png)
 
-Select **Ubuntu 20.04 LTS \(HVM\), SSD Volume Type** for the operating system.
+**Ubuntu 20.04 LTS \(HVM\), SSD Volume Type** for the operating system.
 
 ![Select Ubuntu 20.04 LTS.](https://miro.medium.com/max/1591/1*u438irkY1UoRGHO6v76jRw.png)
 
@@ -277,6 +277,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0ODMzOTk4LC02MDA5MDE3MzIsLTY5OT
+eyJoaXN0b3J5IjpbNjQ5Mjc5MjgxLC02MDA5MDE3MzIsLTY5OT
 kwMDkwM119
 -->
