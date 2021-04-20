@@ -232,7 +232,7 @@ grafana应显示`active`。Grafana在`http://your-node-host-ip:3000/`上可用�
 curl -s https://api.github.com/repos/prometheus/node_exporter/releases/latest | grep browser_download_url | grep linux-amd64 |  cut -d '"' -f 4 | wget -qi -
 ```
 
-change `linux-amd64` if you have a different architecture \(RaspberryPi is `linux-arm64`, for example\). Untar and move the executable:
+如果您有不同的架构（例如，RaspberryPi是`linux-arm64`），请更改`linux-amd64` 。解压并移动可执行文件。
 
 ```cpp
 tar xvf node_exporter-1.1.2.linux-amd64.tar.gz
@@ -242,7 +242,7 @@ tar xvf node_exporter-1.1.2.linux-amd64.tar.gz
 sudo mv node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin
 ```
 
-Check that it is installed correctly with:
+检查Check that it is installed correctly with:
 
 ```cpp
 node_exporter --version
@@ -370,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTM5OTEsLTE0NTE1MDk1NzcsODcwNj
-E4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTM0MDcwNDEwNywtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
