@@ -364,13 +364,12 @@ sudo systemctl restart prometheus
 
 * 打开Grafana的网络界面
 * 点击左侧工具栏上的“`+` 
-* 选择`Import JSON`，然后上传JSON文件
-* Select `Import JSON` and then upload the JSON file or paste the contents into `Import via panel json` area
-* Select `Prometheus` as Data Source
+* 选择`Import JSON`，然后上传JSON文件, 或者在`Import via panel json`区域粘贴文件内容。
+* 选择`Prometheus`作为数据源
 
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTExNDYxMCwtMTQ1MTUwOTU3Nyw4Nz
-A2MTgyMzcsMTMyMDU3OTMyOF19
+eyJoaXN0b3J5IjpbLTExOTI2Mzg2NDMsLTE0NTE1MDk1NzcsOD
+cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
