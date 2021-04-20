@@ -165,9 +165,9 @@ Sep 13 15:00:04 ubuntu prometheus[1767]: level=info ts=2020-09-13T13:00:04.776Z 
 
 如果防火墙处于**.**状态，则您可能需要执行`sudo ufw allow 9090/tcp`
 
-## Install Grafana
+## 安装Grafana
 
-To set up Grafana project repositories with Ubuntu:
+使用Ubuntu来设置Grafana项目存储库：
 
 ```cpp
 wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
@@ -177,7 +177,7 @@ wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 ```
 
-To install Grafana:
+安装Grafana:
 
 ```cpp
 sudo apt-get update
@@ -187,7 +187,7 @@ sudo apt-get update
 sudo apt-get install grafana
 ```
 
-To configure it as a service:
+将其作为一项服务进行配置：
 
 ```cpp
 sudo systemctl daemon-reload
@@ -201,7 +201,7 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server.service
 ```
 
-To make sure it’s running properly:
+如需确认其运行正常：To make sure it’s running properly:
 
 ```text
 sudo systemctl status grafana-server
@@ -372,6 +372,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk4NjIxMDMsLTE0NTE1MDk1NzcsOD
-cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTU0MzA5OTExNywtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
