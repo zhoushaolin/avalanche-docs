@@ -31,8 +31,7 @@
 
 ![Select &quot;Create key pair.&quot;](https://miro.medium.com/max/847/1*UZ4L0DGUogCfBq-TZ5U3Kw.png)
 
-jiang nin命名`avalanche`。如果您的本地计算机有MacOS或Linux系统，请选择“pem”文件格式。如果是Windows系统，则使用“ppk”文件格式。或者，您可以为密钥对添加标记，以协助追踪。
-Name your key `avalanche`. If your local machine has MacOS or Linux, select the `pem` file format. If it's Windows, use the `ppk` file format. Optionally, you can add tags for the key pair to assist with tracking.
+将您的密钥命名为`avalanche`。如果您的本地计算机有MacOS或Linux系统，请选择`pem`文件格式。如果是Windows系统，则使用`ppk`文件格式。或者，您可以为密钥对添加标记，以便追踪。
 
 ![Create a key pair that will later be assigned to your EC2 instance.](https://miro.medium.com/max/827/1*Bo30BXjwPTGpgFtoU9VDBA.png)
 
@@ -278,5 +277,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ3ODExOTldfQ==
+eyJoaXN0b3J5IjpbLTg1MzQ4OTY5MF19
 -->
