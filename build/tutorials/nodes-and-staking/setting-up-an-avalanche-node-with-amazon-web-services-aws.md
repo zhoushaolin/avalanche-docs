@@ -7,9 +7,10 @@
 如需启动，您需要：
 
 * 一个AWS账户
-* 一个连接到 A terminal with which to SSH into your AWS machine
-* A place to securely store and back up files
+* 一个连接到SSH的电脑终端
+* 个安全存储并备份文件的地方
 
+本教程假设您的本地计算机具有Unix终端。如果您使用的是Windows，则必须修改这里使用的一些命令。
 This tutorial assumes your local machine has a Unix style terminal. If you're on Windows, you'll have to adapt some of the commands used here.
 
 ## Log Into AWS <a id="ff31"></a>
@@ -276,5 +277,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODQ3MDk3M119
+eyJoaXN0b3J5IjpbMTM2Mzk1ODY5MF19
 -->
