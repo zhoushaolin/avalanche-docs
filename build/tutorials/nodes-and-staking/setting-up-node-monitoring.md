@@ -218,12 +218,11 @@ grafana应显示`active`。Grafana在`http://your-node-host-ip:3000/`上可用�
 * 转到左侧菜单上的配置并选择数据源。
 * 点击添加数据源。
 * 选择Prometheus。
-* 在表格中输入姓名\(Prometheus会进行\)，将[http://localhost:9090](http://localhost:9090)作为URL。
-* In the form, enter the name \(Prometheus will do\), and `http://localhost:9090` as the URL.
-* Click `Save & Test`
-* Check for “Data source is working” green message.
+* 在表格中输入姓名\(Prometheus会进行\)，将`http://localhost:9090`作为URL。
+* 点击`Save & Test`
+* 查看 “数据源正在工作” 的绿色信息。
 
-## Set up node\_exporter
+## 设置节点\_输出点Set up node\_exporter
 
 In addition to metrics from AvalancheGo, let’s set up up monitoring of the machine itself, so we can check CPU, memory, network and disk usage and be aware of any anomalies. For that, we will use node\_exporter, a Prometheus plugin.
 
@@ -371,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzI1NDMwNSwtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbMTcwMTM5Mjc3MSwtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
