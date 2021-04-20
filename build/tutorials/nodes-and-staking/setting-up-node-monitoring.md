@@ -305,7 +305,7 @@ sudo systemctl start node_exporter
 sudo systemctl enable node_exporter
 ```
 
-我们需要再一次确认Again, we check that the service is running correctly:
+我们需要再一次确认服务正确运行:
 
 ```cpp
 sudo systemctl status node_exporter
@@ -370,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUwMzkzMzMsLTE0NTE1MDk1NzcsOD
-cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbOTY0MDQxMTcsLTE0NTE1MDk1NzcsODcwNj
+E4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
