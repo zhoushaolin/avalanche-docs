@@ -67,7 +67,7 @@ tar xvf prometheus-2.25.0.linux-amd64.tar.gz
 cd prometheus-2.25.0.linux-amd64
 ```
 
-Next, we need to move the binaries, set ownership, and move config files to appropriate locations:
+下一步，我们需要移动二进制文件，设置所有权，并将配置文件移动到适当位置：
 
 ```cpp
 sudo cp {prometheus,promtool} /usr/local/bin/
@@ -375,6 +375,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTUxMzQwOCwtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbLTM0NzY5MTMyMywtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
