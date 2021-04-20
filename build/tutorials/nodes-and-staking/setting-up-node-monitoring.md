@@ -29,7 +29,7 @@ Grafana指示板的基础取自[ColmenaLabs](https://blog.colmenalabs.org/index.
 
 ## 设置Prometheus
 
-First, we need to add a system user account and create directories \(you will need superuser credentials\):
+首先，我们需要添加一个系统用户账号并创建目录\(您会需要超级用户凭据\)：First, we need to add a system user account and create directories \(you will need superuser credentials\):
 
 ```cpp
 sudo useradd -M -r -s /bin/false prometheus
@@ -375,6 +375,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE1MDk1NzcsODcwNjE4MjM3LDEzMj
-A1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTE2NjYyMjA0MjgsLTE0NTE1MDk1NzcsOD
+cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
