@@ -367,9 +367,10 @@ sudo systemctl restart prometheus
 * 选择`Import JSON`，然后上传JSON文件, 或者在`Import via panel json`区域粘贴文件内容。
 * 选择`Prometheus`作为数据源
 
-That’s it! You may now marvel at all the things your node does. Woohoo!
+就是这样！现在您可能震惊于节点的万能。哇哦！
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI2Mzg2NDMsLTE0NTE1MDk1NzcsOD
-cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbODE3NzUyNjIsLTE0NTE1MDk1NzcsODcwNj
+E4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
