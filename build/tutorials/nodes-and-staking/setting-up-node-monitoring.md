@@ -356,9 +356,9 @@ sudo systemctl restart prometheus
 * avalanchego
 * avalanchego-machine
 
-请确保他们的状态`State` Make sure that all of them have `State` as `UP`.
+请确保他们的状态`State`都是`UP`。
 
-打开Grafana；您现在可以使用任意上述来源创建仪表盘。您还可以使用[预配置仪表盘] ([https://github.com/ava-labs/node-monitoring/tree/master/dashboards](https://github.com/ava-labs/node-monitoring/tree/master/dashboards))。
+打开Grafana；您现在可以使用任意上述来源创建指示板。您还可以使用[the preconfigured dashboards](https://github.com/ava-labs/avalanche-docs/tree/c65ea53488738b0b624a53382fe89ac5e02597ca/dashboards/README.md)。
 Open Grafana; you can now create a dashboard using any of those sources. You can also use [the preconfigured dashboards](https://github.com/ava-labs/avalanche-docs/tree/c65ea53488738b0b624a53382fe89ac5e02597ca/dashboards/README.md).
 
 To import the preconfigured dashboard:
@@ -371,6 +371,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzA5NDEwMywtMTQ1MTUwOTU3Nyw4Nz
-A2MTgyMzcsMTMyMDU3OTMyOF19
+eyJoaXN0b3J5IjpbLTEzNjQxNDc1NjcsLTE0NTE1MDk1NzcsOD
+cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
