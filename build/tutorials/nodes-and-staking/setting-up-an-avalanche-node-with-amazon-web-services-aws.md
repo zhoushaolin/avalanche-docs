@@ -195,7 +195,7 @@ sudo apt update; sudo apt upgrade -y; sudo reboot
 ssh ubuntu@PUBLICIP
 ```
 
-您再次登录到EC2实例。现在我们需要设置Avalanche节点。为此，请按照[使用安装程序设置Avalanche节点]（使用-安装程序-设-置-节点.md）教程，自动化安装过程。您会需要我们之前设置的“公共IP”。
+您再次登录到EC2实例。现在我们需要设置Avalanche节点。为此，请按照[Set Up Avalanche Node With Installer](set-up-node-with-installer.md)教程，全程自动安装。您会需要我们之前设置的“公共IP”。
 You're logged into the EC2 instance again. Now we’ll need to set up our Avalanche node. To do this, follow the [Set Up Avalanche Node With Installer](set-up-node-with-installer.md) tutorial which automates the installation process. You will need the `PUBLICIP` we set up earlier.
 
 Your AvalancheGo node should now be running and in the process of bootstrapping, which can take a few hours. To check if it's done, you can issue an API call using `curl`. If you're making the request from the EC2 instance, the request is:
@@ -280,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQ2OTQ0NzcsNzEwMjAzNDU1LC02MD
-A5MDE3MzIsLTY5OTkwMDkwM119
+eyJoaXN0b3J5IjpbMTI4MTM1MzM2Miw3MTAyMDM0NTUsLTYwMD
+kwMTczMiwtNjk5OTAwOTAzXX0=
 -->
