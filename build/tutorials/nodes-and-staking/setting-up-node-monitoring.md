@@ -49,8 +49,7 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get install -y software-properties-common wget
 ```
 
-下一步，从[下载页面]获取Prometheus最新版本的链接([https://prometheus.io/download/)\](https://prometheus.io/download/)\)(请确保您选择了合适的处理器架构\)，并使用wget下载并使用tar对存档进行解压缩：
-Next, get the link to the latest version of Prometheus from the [downloads page](https://prometheus.io/download/) \(make sure you select the appropriate processor architecture\), and use wget to download it and tar to unpack the archive:
+下一步，从[downloads page](https://prometheus.io/download/)获取Prometheus最新版本, (请确保您选择了合适的处理器架构\)，使用wget下载并使用tar对存档进行解压：
 
 ```cpp
 mkdir -p /tmp/prometheus && cd /tmp/prometheus
@@ -376,6 +375,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzYwMDE2OCwtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbLTM1NTUxMzQwOCwtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
