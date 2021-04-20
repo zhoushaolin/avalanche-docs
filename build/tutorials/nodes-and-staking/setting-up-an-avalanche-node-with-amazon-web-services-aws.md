@@ -88,11 +88,9 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 默认情况下，如果您运行EC2实例，则会按小时计费。共有两种方法可以帮您减少购买EC2的成本。
 
-第一种方法：将EC2作为**Spot 实例**启动。点实例并不保证总是启动，但其平均成本低于永久实例。点实例使用的是供需市场价格结构。随着实例需求的上升，点实例的价格也有所上升。如果您愿为点实例付钱，您可以设置一个最高价格。如果价格上涨，则您的EC2实例可能会停止，那么您就可以省下很大一笔钱。在选择这个选项之前，先做一些研究，以确定以最高价格计算的中断频率证明节省成本是合理的。如果您选择使用spot实例，请确保将中断行为设置为**Stop**，而不是**Terminate，**并检查**Persistent Request**选项。
+第一种方法：将EC2作为**Spot 实例**启动。spot实例并不保证总是启动，但其平均成本低于永久实例。spot实例使用的是供需市场价格结构。随着实例需求的上升，spot实例的价格也有所上升。如果您愿为spot实例付钱，您可以设置一个最高价格。如果价格上涨，则您的EC2实例可能会停止，那么您就可以省下很大一笔钱。在选择这个选项之前，先做一些研究，以确定以最高价格计算的中断频率证明节省成本是合理的。如果您选择使用spot实例，请确保将中断行为设置为**Stop**，而不是**Terminate，**并检查**Persistent Request**选项。
 
-如果您的最高价格的中断频率证明节省成本是合理的，那么在选择该选项前，请事先自行调研。如果您选择使用点实例，请确保将中断行为设置为**停止**，而不是**终止**，并选中**永久请求**选项。
-Do your own research before selecting this option to determine if the interruption frequency at your maximum price justifies the cost savings. If you choose to use a spot instance, be sure to set the interruption behavior to **Stop**, not **Terminate,** and check the **Persistent Request** option.
-
+另一种省钱的方法是使用*Reserved Instance**。就保留实例而言，您先支付一整年的EC2使用费，并按较低的每小时费率换取锁定。如果您想要长时间运行一个节点，并且不想冒服务中断的风险，那么这是一个很好的省钱选择。同样，选择该选项前，请事先自行调研。
 The other way you could save money is by using a **Reserved Instance**. With a reserved instance, you pay upfront for an entire year of EC2 usage, and receive a lower per-hour rate in exchange for locking in. If you intend to run a node for a long time and don't want to risk service interruptions, this is a good option to save money. Again, do your own research before selecting this option.
 
 ### Add Storage, Tags, Security Group <a id="dbf5"></a>
@@ -281,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMjIwNzcsLTYwMDkwMTczMiwtNjk5OT
-AwOTAzXX0=
+eyJoaXN0b3J5IjpbLTgxMDAxNDEyMSwtNjAwOTAxNzMyLC02OT
+k5MDA5MDNdfQ==
 -->
