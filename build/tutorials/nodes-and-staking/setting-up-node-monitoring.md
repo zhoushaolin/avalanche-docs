@@ -201,13 +201,13 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server.service
 ```
 
-如需确认其运行正常：To make sure it’s running properly:
+确认其运行正常：
 
 ```text
 sudo systemctl status grafana-server
 ```
 
-which should show grafana as `active`. Grafana should now be available at `http://your-node-host-ip:3000/`
+grafana应显示`active`。Grafana在`http://your-node-host-ip:3000/`上可用。
 
 {% hint style="warning" %}
 You may need to do `sudo ufw allow 3000/tcp` if the firewall is on**.**
@@ -372,6 +372,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzA5OTExNywtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbLTI5OTg1MTM0OCwtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
