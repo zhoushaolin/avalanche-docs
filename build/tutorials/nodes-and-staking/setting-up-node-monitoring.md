@@ -242,19 +242,19 @@ tar xvf node_exporter-1.1.2.linux-amd64.tar.gz
 sudo mv node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin
 ```
 
-检查Check that it is installed correctly with:
+确认已正确安装:
 
 ```cpp
 node_exporter --version
 ```
 
-Then we add node\_exporter as a service. Do:
+然后我们将节点\_输出点添加为一项服务。请执行：
 
 ```cpp
 sudo nano /etc/systemd/system/node_exporter.service
 ```
 
-\(or open that file in the text editor of your choice\) and populate it with:
+\(或在您选择的文本编辑器中打开该文件\)并将其填满：
 
 ```cpp
 [Unit]
@@ -370,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDcwNDEwNywtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbMTI5MjY3NTY5OSwtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
