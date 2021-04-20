@@ -197,8 +197,7 @@ ssh ubuntu@PUBLICIP
 
 您再次登录到EC2实例。现在我们需要设置Avalanche节点。为此，请按照[Set Up Avalanche Node With Installer](set-up-node-with-installer.md)教程，全程自动安装。您需要用到我们之前设置的`PUBLICIP`。
 
-您的AvalancheGo节点现在应正在运行, 并处于引导过程中，这可能需要几个小时。如需检查这一过程是否已完成，您可以使用`curl`来发行API调用。如果您是从EC2实例发出请求，则请求是：
-Your AvalancheGo node should now be running and in the process of bootstrapping, which can take a few hours. To check if it's done, you can issue an API call using `curl`. If you're making the request from the EC2 instance, the request is:
+您的AvalancheGo节点现在应正在运行, 并处于引导过程中，这可能需要几个小时。如需检查这一过程是否已完成，您可以使用`curl`来进行API调用。如果您是从EC2实例发出请求，则请求是：
 
 ```text
 curl -X POST --data '{
@@ -211,7 +210,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-Once the node is finished bootstrapping, the response will be:
+一旦节点完成引导，则回应将是：
 
 ```text
 {
@@ -223,9 +222,9 @@ Once the node is finished bootstrapping, the response will be:
 }
 ```
 
-You can continue on, even if AvalancheGo isn't done bootstrapping.
+即使AvalancheGo并未完成引导，您也可以继续。
 
-In order to make your node a validator, you'll need its node ID. To get it, run:
+为了使您的节点成为验证程序，您将需要其节点ID。如需获得它，请运行：
 
 ```text
 curl -X POST --data '{
@@ -235,7 +234,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-The response contains the node ID.
+hui ying中包含节点ID。
 
 ```text
 {"jsonrpc":"2.0","result":{"nodeID":"NodeID-DznHmm3o7RkmpLkWMn9NqafH66mqunXbM"},"id":1}
@@ -280,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczODkxOTU2LDcxMDIwMzQ1NSwtNjAwOT
+eyJoaXN0b3J5IjpbMzcyNjMwOTc0LDcxMDIwMzQ1NSwtNjAwOT
 AxNzMyLC02OTk5MDA5MDNdfQ==
 -->
