@@ -276,10 +276,10 @@ AvalancheGo是一个正在进行中的项目，有定期的版本升级。大多
 
 ## 总结
 
-就是这样！现在您已经在AWS EC2实例上运行AvalancheGo节点了。我们推荐为您的AvalancheGo节点设置节点监测[node monitoring ](setting-up-node-monitoring.md)。我们也推荐设置AWS账单提醒，当有账单到达时，您不会觉得意外。如果您对本教程有任何反馈或其他意见，请在[Discord]上向我们发送信息([https://chat.avalabs.org](https://chat.avalabs.org))。
-That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
+就是这样！现在您已经在AWS EC2实例上运行AvalancheGo节点了。我们推荐为您的AvalancheGo节点设置节点监测[node monitoring ](setting-up-node-monitoring.md)。我们也推荐设置AWS账单提醒，当有账单到达时，您不会觉得意外。如果您对本教程有任何反馈或其他意见，请在[Discord](https://chat.avalabs.org)上给我们发送信息。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTcyNDE4NSw3MTAyMDM0NTUsLTYwMD
-kwMTczMiwtNjk5OTAwOTAzXX0=
+eyJoaXN0b3J5IjpbLTE0MTA0ODY0NTUsNzEwMjAzNDU1LC02MD
+A5MDE3MzIsLTY5OTkwMDkwM119
 -->
