@@ -100,8 +100,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Select 100 GB for the disk size.](../../../.gitbook/assets/add-storage.png)
 
-点击屏幕右下角的 **Next: Add Tags**来给实例添加标签。通过标签，我们可以将元数据与我们的实例联系起来。添加一个密钥为`Name`和值为`My Avalanche Node`的标签。借此可以明确该实例在您的EC2实例列表中是什么。这将使您清楚地知道这个实例是EC2实例列表中的什么。
-Click **Next: Add Tags** in the bottom right corner of the screen to add tags to the instance. Tags enable us to associate metadata with our instance. Add a tag with key `Name` and value `My Avalanche Node`. This will make it clear what this instance is on your list of EC2 instances.
+点击屏幕右下角的 **Next: Add Tags**来给实例添加标签。通过标签，我们可以将元数据与我们的实例联系起来。添加一个密钥为`Name`和值为`My Avalanche Node`的标签。这将使您清楚地知道这个实例在EC2实例列表中的位置。
 
 ![Add a tag with key &quot;Name&quot; and value &quot;My Avalanche Node.&quot;](https://miro.medium.com/max/1295/1*Ov1MfCZuHRzWl7YATKYDwg.png)
 
@@ -279,6 +278,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODkwNDA5MiwtNjAwOTAxNzMyLC02OT
+eyJoaXN0b3J5IjpbLTMwMDY2NzA0OCwtNjAwOTAxNzMyLC02OT
 k5MDA5MDNdfQ==
 -->
