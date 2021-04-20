@@ -359,18 +359,18 @@ sudo systemctl restart prometheus
 请确保他们的状态`State`都是`UP`。
 
 打开Grafana；您现在可以使用任意上述来源创建指示板。您还可以使用[the preconfigured dashboards](https://github.com/ava-labs/avalanche-docs/tree/c65ea53488738b0b624a53382fe89ac5e02597ca/dashboards/README.md)。
-Open Grafana; you can now create a dashboard using any of those sources. You can also use [the preconfigured dashboards](https://github.com/ava-labs/avalanche-docs/tree/c65ea53488738b0b624a53382fe89ac5e02597ca/dashboards/README.md).
 
-To import the preconfigured dashboard:
+如需导入预配置指示板：
 
-* Open Grafana’s web interface
-* Click `+` on the left toolbar
+* 打开Grafana的网络界面
+* 点击左侧工具栏上的“`+` 
+* 选择`Import JSON`，然后上传JSON文件
 * Select `Import JSON` and then upload the JSON file or paste the contents into `Import via panel json` area
 * Select `Prometheus` as Data Source
 
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQxNDc1NjcsLTE0NTE1MDk1NzcsOD
-cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTcwOTExNDYxMCwtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
