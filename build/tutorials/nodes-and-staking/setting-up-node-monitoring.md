@@ -295,7 +295,7 @@ ExecStart=/usr/local/bin/node_exporter \
 WantedBy=multi-user.target
 ```
 
-This configures node\_exporter to collect various data we might find interesting. Start the service, and enable it on boot:
+这配置了节点\_输出点，以收集我们可能感兴趣的各种数据。开启服务，并在启动时启用它：
 
 ```cpp
 sudo systemctl start node_exporter
@@ -305,7 +305,7 @@ sudo systemctl start node_exporter
 sudo systemctl enable node_exporter
 ```
 
-Again, we check that the service is running correctly:
+我们需要再一次确认Again, we check that the service is running correctly:
 
 ```cpp
 sudo systemctl status node_exporter
@@ -370,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjY3NTY5OSwtMTQ1MTUwOTU3Nyw4Nz
-A2MTgyMzcsMTMyMDU3OTMyOF19
+eyJoaXN0b3J5IjpbLTEwMDUwMzkzMzMsLTE0NTE1MDk1NzcsOD
+cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
