@@ -132,15 +132,16 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Settings for the Elastic IP.](https://miro.medium.com/max/840/1*hL5TtBcD_kR71OGYLQnyBg.png)
 
-Select the Elastic IP you just created from the Elastic IP manager. From the **Actions** drop-down, choose **Associate Elastic IP address**.
+选择您刚从弹性IP管理器中创建的弹性IP。在**Actions**下拉列表中，选择**Associate Elastic IP address**。
+
 
 ![Under &quot;Actions&quot;, select &quot;Associate Elastic IP address.&quot;](https://miro.medium.com/max/490/1*Mj6N7CllYVJDl_-zcCl-gw.png)
 
-Select the instance you just created. This will associate the new Elastic IP with the instance and give it a public IP address that won't change.
+选择您刚刚创建的实例。从而关联新的弹性IP与实例，并赋予其一个固定的公共IP地址。
 
 ![Assign the Elastic IP to your EC2 instance.](https://miro.medium.com/max/834/1*NW-S4LzL3EC1q2_4AkIPUg.png)
 
-## Set Up AvalancheGo <a id="829e"></a>
+## 设置AvalancheGo 
 
 Go back to the EC2 Dashboard and select `Running Instances`.
 
@@ -278,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTc0NjYyMCw3MTAyMDM0NTUsLTYwMD
-kwMTczMiwtNjk5OTAwOTAzXX0=
+eyJoaXN0b3J5IjpbLTE5Mzc1NTczNDMsNzEwMjAzNDU1LC02MD
+A5MDE3MzIsLTY5OTkwMDkwM119
 -->
