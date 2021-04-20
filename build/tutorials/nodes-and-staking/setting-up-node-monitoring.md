@@ -93,7 +93,7 @@ sudo cp -r {consoles,console_libraries} /etc/prometheus/
 sudo cp prometheus.yml /etc/prometheus/
 ```
 
-`/etc/prometheus` is used for configuration, and `/var/lib/prometheus` for data.
+`/etc/prometheus` 是用于配置,  而`/var/lib/prometheus` 是用于数据。
 
 Let’s set up Prometheus to run as a system service. Do**:**
 
@@ -375,6 +375,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzY5MTMyMywtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbLTQ4NjAyNzMyNiwtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
