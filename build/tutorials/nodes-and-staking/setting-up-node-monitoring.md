@@ -350,15 +350,15 @@ sudo nano /etc/prometheus/prometheus.yml
 sudo systemctl restart prometheus
 ```
 
-在`http://your-node-host-ip:9090/targets`上检查Prometheus网络界面。您应该看到启用了三个目标：
-Check Prometheus web interface on `http://your-node-host-ip:9090/targets`. You should see three targets enabled:
+在`http://your-node-host-ip:9090/targets`上检查Prometheus网络界面。您会看到启用的三个目标：
 
 * Prometheus
 * avalanchego
 * avalanchego-machine
 
-Make sure that all of them have `State` as `UP`.
+请确保他们的状态`State` Make sure that all of them have `State` as `UP`.
 
+打开Grafana；您现在可以使用任意上述来源创建仪表盘。您还可以使用[预配置仪表盘] ([https://github.com/ava-labs/node-monitoring/tree/master/dashboards](https://github.com/ava-labs/node-monitoring/tree/master/dashboards))。
 Open Grafana; you can now create a dashboard using any of those sources. You can also use [the preconfigured dashboards](https://github.com/ava-labs/avalanche-docs/tree/c65ea53488738b0b624a53382fe89ac5e02597ca/dashboards/README.md).
 
 To import the preconfigured dashboard:
@@ -371,6 +371,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4OTY5NTUzLC0xNDUxNTA5NTc3LDg3MD
-YxODIzNywxMzIwNTc5MzI4XX0=
+eyJoaXN0b3J5IjpbMTEyNzA5NDEwMywtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
