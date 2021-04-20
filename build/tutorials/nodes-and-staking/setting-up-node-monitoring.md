@@ -123,7 +123,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-Save the file. Now, we can run Prometheus as a system service:
+保存文件。现在，我们可以将Prometheus作为系统服务运行：
 
 ```cpp
 sudo systemctl daemon-reload
@@ -137,13 +137,13 @@ sudo systemctl start prometheus
 sudo systemctl enable prometheus
 ```
 
-Prometheus should now be running. To make sure, we can check with:
+Prometheus当前应正在运行中。如需确认，我们可以进行检查：
 
 ```cpp
 sudo systemctl status prometheus
 ```
 
-which should produce something like:
+应生成如下结果：
 
 ```cpp
 ● prometheus.service - Prometheus
@@ -161,6 +161,7 @@ Sep 13 15:00:04 ubuntu prometheus[1767]: level=info ts=2020-09-13T13:00:04.776Z 
 ...
 ```
 
+您还可以检查Prometheus网络界面http://your-node-host-ip:9090/
 You can also check Prometheus web interface, available on `http://your-node-host-ip:9090/`
 
 {% hint style="warning" %}
@@ -374,6 +375,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTAxMjYxNSwtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbMTI3NDE2ODg0MCwtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
