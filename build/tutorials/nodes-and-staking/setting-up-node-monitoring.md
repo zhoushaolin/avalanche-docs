@@ -211,7 +211,7 @@ grafana应显示`active`。Grafana在`http://your-node-host-ip:3000/`上可用�
 
 如果防火墙处于**.**状态，则您可能需要执行`sudo ufw allow 3000/tcp`
 
-使用用户名/管理员用户名/密码登录，并设置一个新的安全密码。目前，我们需要将Grafana连接到我们的数据源Prometheus。
+使用用户名/管理员密码/guan li yuan登录，并设置一个新的安全密码。目前，我们需要将Grafana连接到我们的数据源Prometheus。
 Log in with username/password admin/admin and set up a new, secure password. Now we need to connect Grafana to our data source, Prometheus.
 
 On Grafana’s web interface:
@@ -371,6 +371,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ1NTkwODAsLTE0NTE1MDk1NzcsOD
-cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbLTIxMDk3MTAxNSwtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
