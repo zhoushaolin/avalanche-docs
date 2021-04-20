@@ -321,13 +321,13 @@ sudo systemctl status node_exporter
 
 现在我们需要定义一项合适的Prometheus任务。让我们编辑Prometheus配置：
 
-请:
+请执行:
 
 ```cpp
 sudo nano /etc/prometheus/prometheus.yml
 ```
 
-\(or open that file in the text editor of your choice\) and append to the end:
+\(或在您选择的文本编辑器中打开该文件\)并附加在结尾：
 
 ```cpp
   - job_name: 'avalanchego'
@@ -342,6 +342,7 @@ sudo nano /etc/prometheus/prometheus.yml
           alias: 'machine'
 ```
 
+**缩进很重要**。请确保`-job_name`与现有`-job_name`对齐，其他行也适当缩进。基于您的节点配置方式，请确保您使用了正确的主机IP，或“本地服务器”。
 **Indentation is important**. Make sure `-job_name` is aligned vertically with existing `-job_name` entry, and other lines are also indented properly. Make sure you use the correct host IP, or `localhost`, depending on how your node is configured.
 
 Save the config file and restart Prometheus:
@@ -370,6 +371,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjE4MTk1MywtMTQ1MTUwOTU3Nyw4Nz
+eyJoaXN0b3J5IjpbMTY3MTk4ODEyMywtMTQ1MTUwOTU3Nyw4Nz
 A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
