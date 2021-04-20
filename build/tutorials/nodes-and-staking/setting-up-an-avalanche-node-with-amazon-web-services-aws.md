@@ -242,7 +242,7 @@ curl -X POST --data '{
 
 上述例子中，节点ID是`NodeID-DznHmm3o7RkmpLkWMn9NqafH66mqunXbM`。复制您的节点ID，供以后使用。您的节点ID并不保密，因此您可以把它粘贴到文本编辑器中。
 
-AvalancheGo还有其他API，例如[Health API](../../avalanchego-apis/health-api.md), 可能用于与节点互动的[健康API] (../../avalanchego-apis/health-api.md)。默认情况下，部分API是禁用的。如需启用上述API，请修改“/etc/systemd/system/avalanchego.service”的ExecStart部分\(在安装过程中创建\)，以纳入启用上述终结点的标志。如无理由，请勿手动启用任何API。
+AvalancheGo还有其他API，例如可用于与节点互动的[Health API](../../avalanchego-apis/health-api.md), 默认情况下，部分API是禁用的。如需启用上述API，修改“/etc/systemd/system/avalanchego.service”的ExecStart部分\(在安装过程中创建\)，以纳入启用上述终结点的标志。如无理由，请勿手动启用任何API。
 AvalancheGo has other APIs, such as the [Health API](../../avalanchego-apis/health-api.md), that may be used to interact with the node. Some APIs are disabled by default. To enable such APIs, modify the ExecStart section of `/etc/systemd/system/avalanchego.service` \(created during the installation process\) to include flags that enable these endpoints. Don't manually enable any APIs unless you have a reason to.
 
 ![Some APIs are disabled by default.](https://miro.medium.com/max/881/1*Vm-Uh2yV0pDCVn8zqFw64A.png)
@@ -280,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE1NTk3MTEsNzEwMjAzNDU1LC02MD
+eyJoaXN0b3J5IjpbLTEzMzY3NzU4ODYsNzEwMjAzNDU1LC02MD
 A5MDE3MzIsLTY5OTkwMDkwM119
 -->
