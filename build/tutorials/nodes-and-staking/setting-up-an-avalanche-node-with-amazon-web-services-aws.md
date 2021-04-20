@@ -120,7 +120,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ### 分配一个弹性IP
 
-默认情况下，您的实例并不拥有固定IP。让我们通过AWS的弹性IP服务给您的实例一个固定IP。返回EC2仪表盘。**网络&安全**项下，选择**弹性IP**。
+默认情况下，您的实例并没有固定IP。让我们通过AWS的弹性IP服务给您一个固定IP。返回EC2指示板。在**Network & Security**项下，选择**Elastic IPs**。
 By default, your instance will not have a fixed IP. Let's give it a fixed IP through AWS's Elastic IP service. Go back to the EC2 dashboard. Under **Network & Security,** select **Elastic IPs**.
 
 ![Select &quot;Elastic IPs&quot; under &quot;Network &amp; Security.&quot;](https://miro.medium.com/max/192/1*BGm6pR_LV9QnZxoWJ7TgJw.png)
@@ -279,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzAxNTc3NSw3MTAyMDM0NTUsLTYwMD
-kwMTczMiwtNjk5OTAwOTAzXX0=
+eyJoaXN0b3J5IjpbLTE5NTcwODI5MjMsNzEwMjAzNDU1LC02MD
+A5MDE3MzIsLTY5OTkwMDkwM119
 -->
