@@ -94,8 +94,9 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ### 添加存储、标记、安全组
 
-点击屏幕右下角的**Next: Add Storage** 
+点击屏幕右下角的**Next: Add Storage**按钮。
 
+您需要给您的实例磁盘增加空间。本例中我们使用了100GB作为示范。Avalanche数据库会不断扩大，直至实现精简。因此更安全的做法是分配一个更大的硬盘。
 You need to add space to your instance's disk. We use 100 GB in this example. The Avalanche database will continually grow until pruning is implemented , so it’s safer to have a larger hard drive allocation for now.
 
 ![Select 100 GB for the disk size.](../../../.gitbook/assets/add-storage.png)
@@ -278,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEwMDM1OSwtNjAwOTAxNzMyLC02OT
-k5MDA5MDNdfQ==
+eyJoaXN0b3J5IjpbMzAxNzk0MTIxLC02MDA5MDE3MzIsLTY5OT
+kwMDkwM119
 -->
