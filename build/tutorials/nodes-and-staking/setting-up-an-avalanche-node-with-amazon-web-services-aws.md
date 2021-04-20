@@ -18,11 +18,11 @@
 
 强烈建议您在AWS根用户帐户上设置多重身份验证进行保护。亚马逊有相关文件介绍[here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html#enable-virt-mfa-for-root)
 
-您一旦设置了账户，就得创建一个新的EC2, EC2是AWS云端的虚拟机。访问[AWS管理
-Once your account is set up, you should create a new EC2 instance. An EC2 is a virtual machine instance in AWS's cloud. Go to the [AWS Management Console](https://console.aws.amazon.com/) and enter the EC2 dashboard.
+您一旦设置了账户，就得创建一个新的EC2, EC2是AWS云端的虚拟机。请访问AWS管理控制台[AWS Management Console](https://console.aws.amazon.com/) , 进入到EC2指示板。
 
 ![AWS Management Console.png](../../../.gitbook/assets/image%20%2835%29.png)
 
+如需登录EC2，您将需要在本地计算机上有一个密钥来授权对它的访问。首先，创建一个密钥，该密钥随后可与EC2匹配。在左侧栏，选择**网络&安全**下方的**关键配对**。
 To log into the EC2 instance, you will need a key on your local machine that grants access to the instance. First, create that key so that it can be assigned to the EC2 instance later on. On the bar on the left side, under **Network & Security**, select **Key Pairs.**
 
 ![Select &quot;Key Pairs&quot; under the &quot;Network &amp; Security&quot; drop-down.](../../../.gitbook/assets/image%20%2838%29.png)
@@ -277,5 +277,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDg3NTM4MF19
+eyJoaXN0b3J5IjpbLTY2NDU3MDk0OF19
 -->
