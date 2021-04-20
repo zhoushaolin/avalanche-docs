@@ -256,12 +256,13 @@ exit
 
 现在，您已经断开了EC2实例的连接；返回了您的本地计算机。
 
-如果要将质押密钥和证书复制到您的计算机上，请运行以下命令。与之前一样，替换“公共IP”。
-To copy the staking key and certificate to your machine, run the following command. As always, replace `PUBLICIP`.
+如果要将质押密钥和证书复制到您的计算机上，请运行以下命令。与之前一样，替换`PUBLICIP`。
 
 ```text
 scp -r ubuntu@PUBLICIP:/home/ubuntu/.avalanchego/staking ~/aws_avalanche_backup
 ```
+
+现在，您的质押密钥和证书位于`~/aws_avalanche_backup`目录中, **该目录的内容保密。**您应将此目录保存在未连接到互联网的存储器上\(例如外部硬盘\)
 
 Now your staking key and certificate are in directory `~/aws_avalanche_backup` . **The contents of this directory are secret.** You should hold this directory on storage not connected to the internet \(like an external hard drive.\)
 
@@ -280,6 +281,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM4NjE2MTcsNzEwMjAzNDU1LC02MD
-A5MDE3MzIsLTY5OTkwMDkwM119
+eyJoaXN0b3J5IjpbMTk2MTU4MDU3NCw3MTAyMDM0NTUsLTYwMD
+kwMTczMiwtNjk5OTAwOTAzXX0=
 -->
