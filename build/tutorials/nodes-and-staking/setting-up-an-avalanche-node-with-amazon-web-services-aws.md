@@ -157,6 +157,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 从您的本地计算机登录AWS实例。打开终端\(快捷键`CTRL + ALT + T`\)，并导航至包含您之前下载的`.pem`文件的目录。
 
+将`.pem`文件移动到`$HOME/.ssh` \(通常放置`.pem` 文件的地方\)，并：
 Move the `.pem` file to `$HOME/.ssh` \(where `.pem` files generally live\) with:
 
 ```bash
@@ -279,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjI3MTE2MSw3MTAyMDM0NTUsLTYwMD
-kwMTczMiwtNjk5OTAwOTAzXX0=
+eyJoaXN0b3J5IjpbLTE5MTc1OTEzMjQsNzEwMjAzNDU1LC02MD
+A5MDE3MzIsLTY5OTkwMDkwM119
 -->
