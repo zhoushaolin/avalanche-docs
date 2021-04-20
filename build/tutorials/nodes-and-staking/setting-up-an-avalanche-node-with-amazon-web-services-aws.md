@@ -2,6 +2,7 @@
 
 ## 简介
 
+本教程将指导您在[Amazon Web Services \(AWS\)](https://aws.amazon.com/)上设置一个Avalanche节点。AWS等与服务能够很好地确保您的节点高度安全、可用且可访问。
 This tutorial will guide you through setting up an Avalanche node on [Amazon Web Services \(AWS\)](https://aws.amazon.com/). Cloud services like AWS are a good way to ensure that your node is highly secure, available, and accessible.
 
 To get started, you'll need:
@@ -276,5 +277,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI0ODgyODVdfQ==
+eyJoaXN0b3J5IjpbMTU2ODAwMDE3NV19
 -->
