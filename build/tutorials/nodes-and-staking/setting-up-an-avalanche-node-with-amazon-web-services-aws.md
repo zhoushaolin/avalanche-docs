@@ -268,19 +268,17 @@ scp -r ubuntu@PUBLICIP:/home/ubuntu/.avalanchego/staking ~/aws_avalanche_backup
 
 AvalancheGo是一个正在进行中的项目，有定期的版本升级。大多数升级都只是推荐的，而不是必须的。如果升级不兼容，则会有提前通知。如果要把您的节点更新到最新版本，则需像之前一样SSH进入您的AWS实例并再次运行安装程序脚本。
 
- Most upgrades are recommended but not required. To update your node to the latest version, SSH into your AWS instance as before and run the installer script again.
-
 ```text
 ./avalanchego-installer.sh
 ```
 
-Your machine is now running the newest AvalancheGo version. To see the status of the AvalancheGo service, run `sudo systemctl status avalanchego.`
+您的计算机现在正在运行AvalancheGo的最新版本。如需查看AvalancheGo服务的状态，请运行 `sudo systemctl status avalanchego`。
 
-## Wrap Up
+## 总结
 
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIyNjUwMjcsNzEwMjAzNDU1LC02MD
-A5MDE3MzIsLTY5OTkwMDkwM119
+eyJoaXN0b3J5IjpbLTMwOTczNDE1NCw3MTAyMDM0NTUsLTYwMD
+kwMTczMiwtNjk5OTAwOTAzXX0=
 -->
