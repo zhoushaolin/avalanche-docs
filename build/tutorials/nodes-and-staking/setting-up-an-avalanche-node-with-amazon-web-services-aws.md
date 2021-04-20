@@ -264,11 +264,11 @@ scp -r ubuntu@PUBLICIP:/home/ubuntu/.avalanchego/staking ~/aws_avalanche_backup
 
 现在，您的质押密钥和证书位于`~/aws_avalanche_backup`目录中, **该目录的内容保密。**您应将此目录保存在未连接到互联网的存储器上\(例如外部硬盘\)
 
-Now your staking key and certificate are in directory `~/aws_avalanche_backup` . **The contents of this directory are secret.** You should hold this directory on storage not connected to the internet \(like an external hard drive.\)
+### 升级节点
 
-### Upgrading Your Node <a id="9ac7"></a>
+AvalancheGo是一个正在进行中的项目，有定期的版本升级。大多数升级都只是推荐的，而不是必须的。如果升级不兼容，则会有提前通知。如果要把您的节点更新到最新版本，则需像之前一样SSH进入您的AWS实例并再次运行安装程序脚本。
 
-AvalancheGo is an ongoing project and there are regular version upgrades. Most upgrades are recommended but not required. Advance notice will be given for upgrades that are not backwards compatible. To update your node to the latest version, SSH into your AWS instance as before and run the installer script again.
+ Most upgrades are recommended but not required. To update your node to the latest version, SSH into your AWS instance as before and run the installer script again.
 
 ```text
 ./avalanchego-installer.sh
@@ -281,6 +281,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTU4MDU3NCw3MTAyMDM0NTUsLTYwMD
-kwMTczMiwtNjk5OTAwOTAzXX0=
+eyJoaXN0b3J5IjpbLTIxMTIyNjUwMjcsNzEwMjAzNDU1LC02MD
+A5MDE3MzIsLTY5OTkwMDkwM119
 -->
