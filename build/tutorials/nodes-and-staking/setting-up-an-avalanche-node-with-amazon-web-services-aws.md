@@ -246,18 +246,17 @@ AvalancheGo还有其他API，例如可用于与节点互动的[Health API](../..
 
 ![Some APIs are disabled by default.](https://miro.medium.com/max/881/1*Vm-Uh2yV0pDCVn8zqFw64A.png)
 
-备份节点的质押密钥和证书，以防EC2实例损坏或不可用。节点ID衍生自其质押密钥和证书。如果您丢失了质押密钥或证书，那么您的节点将获得一个新的节点ID，但如果您的节点是验证程序，那么您可能没有资格获得质押奖励。**强烈建议您复制节点的质押密钥和证书**。第一次运行节点时，它将生成一个新的质押密钥/证书对，并存储于“/home/ubuntu/.avalanchego/lecket”目录下。
+备份节点的质押密钥和证书，以防EC2实例损坏或不可用。节点ID衍生自其质押密钥和证书。如果您丢失了质押密钥或证书，那么您的节点将获得一个新的节点ID，但如果您的节点是验证程序，那么您可能没有资格获得质押奖励。**强烈建议您复制节点的质押密钥和证书**。第一次运行节点时，它将生成一个新的质押密钥/证书对，并存储于`/home/ubuntu/.avalanchego/staking`目录中。
 
-If you lose your staking key or certificate then your node will get a new node ID, which could cause you to become ineligible for a staking reward if your node is a validator. **It is very strongly advised that you copy your node's staking key and certificate**. The first time you run a node, it will generate a new staking key/certificate pair and store them in directory `/home/ubuntu/.avalanchego/staking`.
-
-Exit out of the SSH instance by running:
+通过运行以下命令退出SSH实例：
 
 ```bash
 exit
 ```
 
-Now you're no longer connected to the EC2 instance; you're back on your local machine.
+现在，您已经断开了EC2实例的连接；返回了您的本地计算机。
 
+如果要将质押密钥和证书复制到您的计算机上，请运行以下命令。与之前一样，替换“公共IP”。
 To copy the staking key and certificate to your machine, run the following command. As always, replace `PUBLICIP`.
 
 ```text
@@ -281,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY4ODUzMDksNzEwMjAzNDU1LC02MD
+eyJoaXN0b3J5IjpbLTEyODM4NjE2MTcsNzEwMjAzNDU1LC02MD
 A5MDE3MzIsLTY5OTkwMDkwM119
 -->
