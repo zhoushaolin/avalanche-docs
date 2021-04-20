@@ -78,15 +78,15 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Select c5.large.](https://miro.medium.com/max/883/1*YSmQYAGvwJmKEFg0iA60aQ.png)
 
-点击右下角“下一步：配置实例详情”按键
-Click the **Next: Configure Instance Details** button in the bottom right-hand corner.
+点击右下角**Next: Configure Instance Details**。
 
 ![](https://miro.medium.com/max/575/1*LdOFvctYF3HkFxmyNGDGSg.png)
 
-The instance details can stay as their defaults.
+实例详情可保留为默认值。
 
-### Optional: Using Spot Instances or Reserved Instances <a id="c99a"></a>
+### Optional: Using Spot Instances or Reserved Instances或者：使用点实例或保留实例
 
+默认情况下，如果您运行EC2实例，则会按小时计费。共有两种方法可以帮您减少购买EC2的成本。
 By default, you will be charged hourly for running your EC2 instance. There are two ways you may be able to pay less for your EC2.
 
 The first is by launching your EC2 as a **Spot Instance**. Spot instances are instances that are not guaranteed to always be up, but which cost less on average than persistent instances. Spot instances use a supply-and-demand market price structure. As demand for instances goes up, the price for a spot instance goes up. You can set a maximum price you’re willing to pay for the spot instance. You may be able to save a significant amount of money, with the caveat that your EC2 instance may stop if the price increases. Do your own research before selecting this option to determine if the interruption frequency at your maximum price justifies the cost savings. If you choose to use a spot instance, be sure to set the interruption behavior to **Stop**, not **Terminate,** and check the **Persistent Request** option.
@@ -279,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIxOTc1MTEsLTYwMDkwMTczMiwtNj
+eyJoaXN0b3J5IjpbLTIwMDMzNTA3NTgsLTYwMDkwMTczMiwtNj
 k5OTAwOTAzXX0=
 -->
