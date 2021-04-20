@@ -342,15 +342,15 @@ sudo nano /etc/prometheus/prometheus.yml
           alias: 'machine'
 ```
 
-**缩进很重要**。请确保`-job_name`与现有`-job_name`对齐，其他行也适当缩进。基于您的节点配置方式，请确保您使用了正确的主机IP，或“本地服务器”。
-**Indentation is important**. Make sure `-job_name` is aligned vertically with existing `-job_name` entry, and other lines are also indented properly. Make sure you use the correct host IP, or `localhost`, depending on how your node is configured.
+**缩进很重要**。请确保`-job_name`与现有`-job_name`对齐，其他行也适当缩进。基于您的节点配置方式，请确保您使用了正确的主机IP，或本地服务器`localhost`。
 
-Save the config file and restart Prometheus:
+保存配置文件并重启Prometheus：
 
 ```cpp
 sudo systemctl restart prometheus
 ```
 
+在`http://your-node-host-ip:9090/targets`上检查Prometheus网络界面。您应该看到启用了三个目标：
 Check Prometheus web interface on `http://your-node-host-ip:9090/targets`. You should see three targets enabled:
 
 * Prometheus
@@ -371,6 +371,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTk4ODEyMywtMTQ1MTUwOTU3Nyw4Nz
-A2MTgyMzcsMTMyMDU3OTMyOF19
+eyJoaXN0b3J5IjpbNTU4OTY5NTUzLC0xNDUxNTA5NTc3LDg3MD
+YxODIzNywxMzIwNTc5MzI4XX0=
 -->
