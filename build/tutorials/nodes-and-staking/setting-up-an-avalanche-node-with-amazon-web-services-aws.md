@@ -69,8 +69,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Select Ubuntu 20.04 LTS.](https://miro.medium.com/max/1591/1*u438irkY1UoRGHO6v76jRw.png)
 
-下一步，选择您的实例类型。这定义了云实例的硬件规范。本教程中，我们设置了**c5.large**。因为Avalanche是一项轻量级共识协议，因此这已经足够用了。
-Next, choose your instance type. This defines the hardware specifications of the cloud instance. In this tutorial we set up a **c5.large**. This should be more than powerful enough since Avalanche is a lightweight consensus protocol. To create a c5.large instance, select the **Compute-optimized** option from the filter drop-down menu.
+下一步，选择您的实例类型。这定义了云实例的硬件规范。本教程中，我们设置了**c5.large**。因为Avalanche是一项轻量级共识协议，因此这已经足够用了。要创建a c5.large实例, 请在下拉菜单中选择**Compute-optimized**选项。
 
 ![Filter by compute optimized.](https://miro.medium.com/max/595/1*tLVhk8BUXVShgm8XHOzmCQ.png)
 
@@ -278,6 +277,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0OTI3MTYxLC02MDA5MDE3MzIsLTY5OT
-kwMDkwM119
+eyJoaXN0b3J5IjpbMTIzNTU2NDk0MywtNjAwOTAxNzMyLC02OT
+k5MDA5MDNdfQ==
 -->
