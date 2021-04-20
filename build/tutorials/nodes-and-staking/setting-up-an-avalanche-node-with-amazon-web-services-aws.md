@@ -25,14 +25,13 @@
 如需登录EC2，您将需要在本地计算机上有一个密钥来授权对它的访问。首先，创建一个密钥，该密钥随后可与EC2匹配。在左侧栏，选择**网络&安全**下方的**关键配对**。
 要登录到EC2实例，您需要本地计算机上的一个密钥来授予对实例的访问权。首先，创建一个密钥，然后将其分配给EC2实例。在左侧栏的**Network & Security**下，选择**Key Pairs**。
 
-To log into the EC2 instance, you will need a key on your local machine that grants access to the instance. First, create that key so that it can be assigned to the EC2 instance later on. On the bar on the left side, under **Network & Security**, select **Key Pairs.**
-
 ![Select &quot;Key Pairs&quot; under the &quot;Network &amp; Security&quot; drop-down.](../../../.gitbook/assets/image%20%2838%29.png)
 
-Select **Create key pair** to launch the key pair creation wizard.
+选择**Create key pair** ，以启动密钥对创建向导。
 
 ![Select &quot;Create key pair.&quot;](https://miro.medium.com/max/847/1*UZ4L0DGUogCfBq-TZ5U3Kw.png)
 
+jiang nin命名`avalanche`。如果您的本地计算机有MacOS或Linux系统，请选择“pem”文件格式。如果是Windows系统，则使用“ppk”文件格式。或者，您可以为密钥对添加标记，以协助追踪。
 Name your key `avalanche`. If your local machine has MacOS or Linux, select the `pem` file format. If it's Windows, use the `ppk` file format. Optionally, you can add tags for the key pair to assist with tracking.
 
 ![Create a key pair that will later be assigned to your EC2 instance.](https://miro.medium.com/max/827/1*Bo30BXjwPTGpgFtoU9VDBA.png)
@@ -279,5 +278,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MzYzNzRdfQ==
+eyJoaXN0b3J5IjpbLTE0NTQ3ODExOTldfQ==
 -->
