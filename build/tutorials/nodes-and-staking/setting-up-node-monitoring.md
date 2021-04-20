@@ -312,9 +312,8 @@ sudo systemctl status node_exporter
 ```
 
 如果您看到`Ignoring unknown escape sequences`之类的消息，请再三检查服务文件的内容是否被正确复制，是否存在额外的反斜杠或额外的换行符。如有必要，纠正并重新启动服务。
-If you see messages such as `Ignoring unknown escape sequences`, double check that the contents of the service file is correctly copied over and there are no extra backslashes or extra newlines. Correct if necessary and restart the service afterwards.
 
-Now, we’re ready to tie it all together.
+目前，我们可以把他们连接起来了。Now, we’re ready to tie it all together.
 
 ## Configure AvalancheGo and node\_exporter Prometheus jobs
 
@@ -371,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzY3MDU0LC0xNDUxNTA5NTc3LDg3MD
+eyJoaXN0b3J5IjpbMzA0Mzg1ODQzLC0xNDUxNTA5NTc3LDg3MD
 YxODIzNywxMzIwNTc5MzI4XX0=
 -->
