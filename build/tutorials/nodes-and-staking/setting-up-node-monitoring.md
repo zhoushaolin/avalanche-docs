@@ -313,10 +313,11 @@ sudo systemctl status node_exporter
 
 如果您看到`Ignoring unknown escape sequences`之类的消息，请再三检查服务文件的内容是否被正确复制，是否存在额外的反斜杠或额外的换行符。如有必要，纠正并重新启动服务。
 
-目前，我们可以把他们连接起来了。Now, we’re ready to tie it all together.
+目前，我们可以把他们连接起来了。
 
-## Configure AvalancheGo and node\_exporter Prometheus jobs
+## 配置AvalancheGo和节点\_输出点Prometheus
 
+请确保您的AvalancheGo节点正在与适当的[命令行参数]一同运行(../../references/command-line-interface.md)。指标API必须启用\（默认情况下\)。如果您使用CLI参数“-http host”从主机外部进行API调用，请记下API侦听的地址。
 Make sure that your AvalancheGo node is running with appropriate [command line arguments](../../references/command-line-interface.md). The metrics API must be enabled \(by default, it is\). If you use CLI argument `--http-host` to make API calls from outside of the host machine, make note of the address at which APIs listen.
 
 We now need to define an appropriate Prometheus job. Let’s edit Prometheus configuration:
@@ -370,6 +371,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0Mzg1ODQzLC0xNDUxNTA5NTc3LDg3MD
-YxODIzNywxMzIwNTc5MzI4XX0=
+eyJoaXN0b3J5IjpbLTUwNDU3ODI4OCwtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
