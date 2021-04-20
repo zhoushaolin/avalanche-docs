@@ -35,7 +35,7 @@
 
 ![Create a key pair that will later be assigned to your EC2 instance.](https://miro.medium.com/max/827/1*Bo30BXjwPTGpgFtoU9VDBA.png)
 
-点击`Create key pair`。您会看到一条成功信息，并且关键文件应下载到您的本地计算机上。如无此文件，您将无法访问您的EC2。**复制此文件，并将其置于一个单独存储介质上，例如外部硬盘。此文件应保密；请勿与他人分享。**
+点击`Create key pair`。 您应该看到一条成功消息，并且密钥文件已下载到本地计算机上。 没有该文件，您将无法访问EC2实例。 **复制此文件并将其放在单独的存储介质（例如外部硬盘驱动器）上。 将此文件保密； 不要与他人分享。**
 Click `Create key pair`. You should see a success message, and the key file should be downloaded to your local machine. Without this file, you will not be able to access your EC2 instance. **Make a copy of this file and put it on a separate storage medium such as an external hard drive. Keep this file secret; do not share it with others.**
 
 ![Success message after creating a key pair.](https://miro.medium.com/max/534/1*RGpHRWWFjNKMZb7cQTyeWQ.png)
@@ -278,5 +278,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NjgxOTU0XX0=
+eyJoaXN0b3J5IjpbLTU0NzIxMTg3Nl19
 -->
