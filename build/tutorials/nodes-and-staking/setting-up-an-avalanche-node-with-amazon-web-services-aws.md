@@ -14,7 +14,7 @@
 
 ## 登录AWS 
 
-注册AWS不在本文讨论范围内，亚马逊有注册说明[here](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account)
+注册AWS不在本文讨论范围内，亚马逊有相关说明[here](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account)
 
 强烈建议您在AWS根用户帐户上设置多重身份验证进行保护。亚马逊有相关文件介绍[here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html#enable-virt-mfa-for-root)
 
@@ -280,6 +280,6 @@ AvalancheGo是一个正在进行中的项目，有定期的版本升级。大多
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA0ODY0NTUsNzEwMjAzNDU1LC02MD
-A5MDE3MzIsLTY5OTkwMDkwM119
+eyJoaXN0b3J5IjpbMTY2MDI3ODg2NiwtMTQxMDQ4NjQ1NSw3MT
+AyMDM0NTUsLTYwMDkwMTczMiwtNjk5OTAwOTAzXX0=
 -->
