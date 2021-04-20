@@ -73,10 +73,12 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Filter by compute optimized.](https://miro.medium.com/max/595/1*tLVhk8BUXVShgm8XHOzmCQ.png)
 
-Select the checkbox next to the c5.large instance in the table.
+选择表格中所示的c5.large旁边的复选框。
+
 
 ![Select c5.large.](https://miro.medium.com/max/883/1*YSmQYAGvwJmKEFg0iA60aQ.png)
 
+点击右下角“下一步：配置实例详情”按键
 Click the **Next: Configure Instance Details** button in the bottom right-hand corner.
 
 ![](https://miro.medium.com/max/575/1*LdOFvctYF3HkFxmyNGDGSg.png)
@@ -277,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTU2NDk0MywtNjAwOTAxNzMyLC02OT
-k5MDA5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE2OTIxOTc1MTEsLTYwMDkwMTczMiwtNj
+k5OTAwOTAzXX0=
 -->
