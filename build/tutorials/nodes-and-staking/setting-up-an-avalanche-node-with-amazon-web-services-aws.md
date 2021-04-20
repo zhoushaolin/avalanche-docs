@@ -108,6 +108,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Choose the security group created earlier.](../../../.gitbook/assets/configure-security-group.png)
 
+最后，点击右下角的**Review and Launch**。查看页面上会显示您将要启动的实例的详情。查看后，如果一切运行良好，则点击屏幕右下角的蓝色**启动**按钮。
 Finally, click **Review and Launch** in the bottom right. A review page will show the details of the instance you're about to launch. Review those, and if all looks good, click the blue **Launch** button in the bottom right corner of the screen.
 
 You'll be asked to select a key pair for this instance. Select **Choose an existing key pair** and then select the `avalanche` key pair you made earlier in the tutorial. Check the box acknowledging that you have access to the `.pem` or `.ppk` file created earlier \(make sure you've backed it up!\) and then click **Launch Instances**.
@@ -278,6 +279,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMjAzNDU1LC02MDA5MDE3MzIsLTY5OT
-kwMDkwM119
+eyJoaXN0b3J5IjpbLTk1OTkxMDU4NSw3MTAyMDM0NTUsLTYwMD
+kwMTczMiwtNjk5OTAwOTAzXX0=
 -->
