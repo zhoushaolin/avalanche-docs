@@ -53,11 +53,11 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Your inbound and outbound rules should look like this.](../../../.gitbook/assets/inbound-rules.png)
 
-给新安全组添加一个标记，其密钥为`Name`，值为`Avalanche Security Group`。当我们在安全组列表中看到这个安全组时，我们就能知道它是什么。
+给新安全组添加一个标记，其密钥为`Name`，值为`Avalanche Security Group`。当我们在安全组列表中看到这个安全组时，我们就能一下看出。
 
 ![Tag the security group so you can identify it later.](https://miro.medium.com/max/961/1*QehD3uyplkb4RPxddP1qkg.png)
 
-Click `Create security group`. You should see the new security group in the list of security groups.
+点击`Create security group`。您应在安全组列表中看到新的安全组。
 
 ## Launch an EC2 Instance <a id="0682"></a>
 
@@ -277,6 +277,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2ODA1MjgxLC02MDA5MDE3MzIsLTY5OT
+eyJoaXN0b3J5IjpbMzY0ODMzOTk4LC02MDA5MDE3MzIsLTY5OT
 kwMDkwM119
 -->
