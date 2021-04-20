@@ -110,7 +110,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 最后，点击右下角的**Review and Launch**。查看页面上会显示您将要启动的实例的详情。查看后，如果一切运行良好，则点击屏幕右下角的蓝色 **Launch**按钮。
 
-您得为此实例选择一个密钥对。选择**Choose an existing key pair**，然后选择您之前在教程中创建的`avalanche` 密钥对。勾选方框确认你有权限访问。pem”或“。然后点击**Launch Instances**。
+您得为此实例选择一个密钥对。选择**Choose an existing key pair**，然后选择您之前在教程中创建的`avalanche` 密钥对。勾选方框确认你有权限访问之前创建的`.pem`或`.ppk`文件。然后点击**Launch Instances**。
 检查确认您有权访问先前创建的“.pem”或“.ppk”文件的复选框\（请确保您已备份！）然后单击**启动实例**。
 You'll be asked to select a key pair for this instance. Select **Choose an existing key pair** and then select the `avalanche` key pair you made earlier in the tutorial. Check the box acknowledging that you have access to the `.pem` or `.ppk` file created earlier \(make sure you've backed it up!\) and then click **Launch Instances**.
 
@@ -280,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODMwMjIxNSw3MTAyMDM0NTUsLTYwMD
+eyJoaXN0b3J5IjpbMTEzNzQwOTY3Myw3MTAyMDM0NTUsLTYwMD
 kwMTczMiwtNjk5OTAwOTAzXX0=
 -->
