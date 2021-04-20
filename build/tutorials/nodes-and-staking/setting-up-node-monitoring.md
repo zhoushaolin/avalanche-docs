@@ -222,11 +222,11 @@ grafana应显示`active`。Grafana在`http://your-node-host-ip:3000/`上可用�
 * 点击`Save & Test`
 * 查看 “数据源正在工作” 的绿色信息。
 
-## 设置节点\_输出点Set up node\_exporter
+## 设置节点\_输出点
 
-In addition to metrics from AvalancheGo, let’s set up up monitoring of the machine itself, so we can check CPU, memory, network and disk usage and be aware of any anomalies. For that, we will use node\_exporter, a Prometheus plugin.
+除了AvalancheGo的指标以外，让我们再设置计算机本身的监测，因此我们可以检查CPU、内存、网络和磁盘使用情况，并了解任何异常情况。为此，我们会使用节点\_输出点，即Prometheus插件。
 
-Get the latest version with:
+获取最新版本：
 
 ```text
 curl -s https://api.github.com/repos/prometheus/node_exporter/releases/latest | grep browser_download_url | grep linux-amd64 |  cut -d '"' -f 4 | wget -qi -
@@ -370,6 +370,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTM5Mjc3MSwtMTQ1MTUwOTU3Nyw4Nz
-A2MTgyMzcsMTMyMDU3OTMyOF19
+eyJoaXN0b3J5IjpbMTQ3MTM5OTEsLTE0NTE1MDk1NzcsODcwNj
+E4MjM3LDEzMjA1NzkzMjhdfQ==
 -->
