@@ -29,7 +29,7 @@ Grafana指示板的基础取自[ColmenaLabs](https://blog.colmenalabs.org/index.
 
 ## 设置Prometheus
 
-首先，我们需要添加一个系统用户账号并创建目录\(您会需要超级用户凭据\)：First, we need to add a system user account and create directories \(you will need superuser credentials\):
+首先，我们需要添加一个系统用户账号并创建目录\(您会需要超级用户凭据\)：
 
 ```cpp
 sudo useradd -M -r -s /bin/false prometheus
@@ -39,7 +39,7 @@ sudo useradd -M -r -s /bin/false prometheus
 sudo mkdir /etc/prometheus /var/lib/prometheus
 ```
 
-Get the necessary utilities, in case they are not already installed:
+获取必要的实用程序，以防它们还没有安装:
 
 ```cpp
 sudo apt-get install -y apt-transport-https
@@ -49,6 +49,7 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get install -y software-properties-common wget
 ```
 
+下一步，从[下载页面]获取Prometheus最新版本的链接([https://prometheus.io/download/)\](https://prometheus.io/download/)\)(请确保您选择了合适的处理器架构\)，并使用wget下载并使用tar对存档进行解压缩：
 Next, get the link to the latest version of Prometheus from the [downloads page](https://prometheus.io/download/) \(make sure you select the appropriate processor architecture\), and use wget to download it and tar to unpack the archive:
 
 ```cpp
@@ -375,6 +376,6 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYyMjA0MjgsLTE0NTE1MDk1NzcsOD
-cwNjE4MjM3LDEzMjA1NzkzMjhdfQ==
+eyJoaXN0b3J5IjpbMTI1NzYwMDE2OCwtMTQ1MTUwOTU3Nyw4Nz
+A2MTgyMzcsMTMyMDU3OTMyOF19
 -->
