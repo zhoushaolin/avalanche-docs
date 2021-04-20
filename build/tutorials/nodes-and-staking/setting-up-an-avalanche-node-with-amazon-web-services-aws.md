@@ -23,7 +23,7 @@
 ![AWS Management Console.png](../../../.gitbook/assets/image%20%2835%29.png)
 
 如需登录EC2，您将需要在本地计算机上有一个密钥来授权对它的访问。首先，创建一个密钥，该密钥随后可与EC2匹配。在左侧栏，选择**网络&安全**下方的**关键配对**。
-要登录到EC2实例，您需要本地计算机上的一个密钥来授予对实例的访问权。首先，创建该密钥，以便稍后将其分配给EC2实例。在左侧栏的“**Network & Security**”下，选择**密钥对
+要登录到EC2实例，您需要本地计算机上的一个密钥来授予对实例的访问权。首先，创建一个密钥，然后将其分配给EC2实例。在左侧栏的**Network & Security**下，选择**Key Pairs**。
 
 To log into the EC2 instance, you will need a key on your local machine that grants access to the instance. First, create that key so that it can be assigned to the EC2 instance later on. On the bar on the left side, under **Network & Security**, select **Key Pairs.**
 
@@ -279,5 +279,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDMwMDY1N119
+eyJoaXN0b3J5IjpbNTk4MzYzNzRdfQ==
 -->
