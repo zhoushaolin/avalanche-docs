@@ -170,20 +170,20 @@ ssh-add ~/.ssh/avalanche.pem; chmod 400 ~/.ssh/avalanche.pem
 ```
 
 SSH进入实例。\(请记得用之前复制的公共IP字段填入`PUBLICIP`\)
-SSH into the instance. \(Remember to replace `PUBLICIP` with the public IP field from earlier.\)
 
 ```text
 ssh ubuntu@PUBLICIP
 ```
 
-If the permissions are **not** set correctly, you will see the following error.
+如果权限设置**不**正确，则会出现以下错误。
 
 ![Make sure you set the permissions correctly.](https://miro.medium.com/max/1065/1*Lfp8o3DTsGfoy2HOOLw3pg.png)
 
-You are now logged into the EC2 instance.
+现在，您已登录到EC2实例。
 
 ![You&apos;re on the EC2 instance.](https://miro.medium.com/max/1030/1*XNdOvUznKbuuMF5pMf186w.png)
 
+如果尚未，请更新实例，以确保其拥有最新的操作系统和安全更新：
 If you have not already done so, update the instance to make sure it has the latest operating system and security updates:
 
 ```text
@@ -280,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU2NDc4NTcsNzEwMjAzNDU1LC02MD
-A5MDE3MzIsLTY5OTkwMDkwM119
+eyJoaXN0b3J5IjpbMjA4ODMwNzU2Myw3MTAyMDM0NTUsLTYwMD
+kwMTczMiwtNjk5OTAwOTAzXX0=
 -->
