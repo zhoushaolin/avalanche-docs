@@ -50,7 +50,6 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 ![Select &quot;Create security group.&quot;](https://miro.medium.com/max/772/1*B0JSYoMBplAtCz2Yb2e1sA.png)
 
 您需要指定允许的入站流量, 允许来自您IP地址的SSH流量，以便您可以登录到EC2实例。\(每次ISP更改IP地址时，您都需要修改此规则。如果ISP定期更改，则可以允许来自任何地方的SSH流量，以避免不得不频繁修改此规则。\) 允许端口9651上的TCP流量, 您的节点可以与网络上的其他节点通信。 允许您的IP在端口9650上进行TCP通信，以便您可以对节点进行API调用。 **仅允许来自您的IP的该端口上的流量非常重要**。如果您允许来自任何地方的传入流量，则可能被当作拒绝服务而攻击的载体。 最后，允许所有出站流量。
-Allow TCP traffic on port 9651 so your node can communicate with other nodes on the network. Allow TCP traffic on port 9650 from your IP so you can make API calls to your node. **It's important that you only allow traffic on this port from your IP.** If you allow incoming traffic from anywhere, this could be used as an denial of service attack vector. Finally, allow all outbound traffic.
 
 ![Your inbound and outbound rules should look like this.](../../../.gitbook/assets/inbound-rules.png)
 
@@ -278,5 +277,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDAzNzAxNCwtNjk5OTAwOTAzXX0=
+eyJoaXN0b3J5IjpbLTYwMDkwMTczMiwtNjk5OTAwOTAzXX0=
 -->
