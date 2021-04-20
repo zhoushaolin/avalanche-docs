@@ -169,7 +169,7 @@ mv avalanche.pem ~/.ssh
 ssh-add ~/.ssh/avalanche.pem; chmod 400 ~/.ssh/avalanche.pem
 ```
 
-SSH进入实例。\(请记得用之前的公共IP字段替代“公共IP”。\)
+SSH进入实例。\(请记得用之前复制的公共IP字段填入`PUBLICIP`\)
 SSH into the instance. \(Remember to replace `PUBLICIP` with the public IP field from earlier.\)
 
 ```text
@@ -280,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU4NTI4MjEsNzEwMjAzNDU1LC02MD
+eyJoaXN0b3J5IjpbLTEzNTU2NDc4NTcsNzEwMjAzNDU1LC02MD
 A5MDE3MzIsLTY5OTkwMDkwM119
 -->
