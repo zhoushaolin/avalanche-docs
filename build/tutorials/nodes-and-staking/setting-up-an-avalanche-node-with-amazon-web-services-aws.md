@@ -104,7 +104,7 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ![Add a tag with key &quot;Name&quot; and value &quot;My Avalanche Node.&quot;](https://miro.medium.com/max/1295/1*Ov1MfCZuHRzWl7YATKYDwg.png)
 
-Now assign the security group created earlier to the instance. Choose **Select an existing security group** and choose the security group created earlier.
+现在，把之前创建的安全组分配给该实例。选择**Select an existing security group** , 并选择之前创建的安全组。
 
 ![Choose the security group created earlier.](../../../.gitbook/assets/configure-security-group.png)
 
@@ -278,6 +278,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDY2NzA0OCwtNjAwOTAxNzMyLC02OT
-k5MDA5MDNdfQ==
+eyJoaXN0b3J5IjpbNzEwMjAzNDU1LC02MDA5MDE3MzIsLTY5OT
+kwMDkwM119
 -->
