@@ -143,14 +143,15 @@ AWS安全组定义了哪些网络流量可以访问和退出您的EC2。您可�
 
 ## 设置AvalancheGo 
 
-Go back to the EC2 Dashboard and select `Running Instances`.
+返回EC2指示板，并选择`Running Instances`。
 
 ![Go to your running instances.](https://miro.medium.com/max/672/1*CHJZQ7piTCl_nsuEAeWpDw.png)
 
-Select the newly created EC2 instance. This opens a details panel with information about the instance.
+选择新创建的EC2实例。打开详情面板，查看实例信息。
 
 ![Details about your new instance.](https://miro.medium.com/max/1125/1*3DNT5ecS-Dbf33I_gxKMlg.png)
 
+复制 `IPv4 Public IP` 字段，供以后使用。自此，我们称该值为“公共IP”。
 Copy the `IPv4 Public IP` field to use later. From now on we call this value `PUBLICIP`.
 
 **Remember: the terminal commands below assume you're running Linux. Commands may differ for MacOS or other operating systems. When copy-pasting a command from a code block, copy and paste the entirety of the text in the block.**
@@ -279,6 +280,6 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc1NTczNDMsNzEwMjAzNDU1LC02MD
+eyJoaXN0b3J5IjpbLTE2ODM3NDQwNzksNzEwMjAzNDU1LC02MD
 A5MDE3MzIsLTY5OTkwMDkwM119
 -->
