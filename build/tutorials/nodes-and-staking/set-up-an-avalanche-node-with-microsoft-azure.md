@@ -43,12 +43,13 @@
 
 ![Image for post](https://miro.medium.com/max/783/1*5KJOATvu3giAr6ygO3rF6Q.png)
 
-## Create a Virtual Machine <a id="41ac"></a>
+## 创建一个虚拟机
 
-Now that we have a subscription, we can create the Ubuntu Virtual Machine for our Avalanche Node. Select the Icon in the top left for the Menu and choose “+ Create a resource”.
+现在我们有了订阅，就可以为Avalanche节点创建Ubuntu虚拟机了。选择左上角的菜单图标，然后选择“+ Create a resource”。
 
 ![Image for post](https://miro.medium.com/max/565/1*3nSPwgEM3oIgrIlIo-TS1w.png)
 
+选择Ubuntu 18.04 LTS服务器\（通常在市场热门位置，或者搜索栏搜索\）。
 Select Ubuntu Server 18.04 LTS \(this will normally be under the popular section or alternatively search for it in the marketplace\)
 
 ![Image for post](https://miro.medium.com/max/605/1*Y0iZEZExC36c7FXqPlrPuw.png)
@@ -321,5 +322,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTU5NTcwOTEwNCwxMjM0NTEyOTEwLC04NT
+gwNzUwMjFdfQ==
 -->
