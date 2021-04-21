@@ -77,11 +77,9 @@
 
 ![Image for post](https://miro.medium.com/max/763/1*UQYmhtL8JMhrOkaWk8cloA.png)
 
-在本文撰写之时，北欧D2s\_v4的spot instance定价为每小时0.07975美元，每年大约698.61美元。采用现货定价，价格降至每小时0.01295美元，约合每年113.44美元，**节省83.76%！**
+在本文撰写之时，北欧D2s\_v4的spot instance定价为每小时0.07975美元，每年大约698.61美元。采用spot instance定价，价格降至每小时0.01295美元，约合每年113.44美元，**节省83.76%！**
 
-At the time of this article, spot pricing for D2s\_v4 in North Europe costs $0.07975 per hour, or around $698.61 a year. With spot pricing, the price falls to $0.01295 per hour, which works out at about $113.44 a year, **a saving of 83.76%!**
-
-There are some regions which are even cheaper, East US for example is $0.01060 per hour or around $92.86 a year!
+有些地区甚至更便宜，例如东美每小时0.01060美元，每年大约92.86美元！
 
 ![Image for post](https://miro.medium.com/max/677/1*Th5aDwLS6_IoM0LidRbH6g.png)
 
@@ -323,6 +321,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUyMzU5NDEsMTIzNDUxMjkxMCwtOD
+eyJoaXN0b3J5IjpbLTE1MjQ5MjQ1OTAsMTIzNDUxMjkxMCwtOD
 U4MDc1MDIxXX0=
 -->
