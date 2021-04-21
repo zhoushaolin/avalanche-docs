@@ -229,18 +229,17 @@ Done!
 
 ## 下一步呢？
 
-就是这样，您正在运行AvalancheGo节点了！恭喜！如果您做到了，请在我们的上告知我们！
-That's it, you're running an AvalancheGo node! Congratulations! Let us know you did it on our [Twitter](https://twitter.com/avalancheavax), [Telegram](https://t.me/avalancheavax) or [Reddit](https://t.me/avalancheavax)!
+就是这样，您正在运行AvalancheGo节点了！恭喜！如果您做到了，请在我们的[Twitter](https://twitter.com/avalancheavax), [Telegram](https://t.me/avalancheavax), [Reddit](https://t.me/avalancheavax)上告知我们！
 
-If you're on a residential network \(dynamic IP\), don't forget to set up port forwarding. If you're on a cloud service provider, you're good to go.
+如果您使用的是住宅网络\(动态IP\)，请记得设置端口转发。如果您使用的是云服务供应商，那么您可以直接开始了。
 
 Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.md), [stake your tokens](staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md), or level up your installation by setting up [node monitoring](setting-up-node-monitoring.md) to get a better insight into what your node is doing.
 
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDM3NDY4OSw5OTc2MjQwMzUsLTQxMj
-E3MDY5NywzODM0Mjk4NzEsLTE2Mjk0NzAxMDcsLTExMjY3NTcw
-NjksLTEzNzkyMTg5MDUsMTQ4NzYzMzc4NywxOTg0NTg0NTgwLD
-E0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
+eyJoaXN0b3J5IjpbNDI2OTUzNTQ2LDk5NzYyNDAzNSwtNDEyMT
+cwNjk3LDM4MzQyOTg3MSwtMTYyOTQ3MDEwNywtMTEyNjc1NzA2
+OSwtMTM3OTIxODkwNSwxNDg3NjMzNzg3LDE5ODQ1ODQ1ODAsMT
+Q3MDMxMzM2Myw1NDgzMDE5MV19
 -->
