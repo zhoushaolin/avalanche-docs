@@ -106,6 +106,7 @@
 
 ### 网络配置
 
+您需要使用静态IP，这样分配给节点的公共IP在节点停止时也不会改变。在“公共IP”下选择“新建”。
 You want to use a Static IP so that the public IP assigned to the node doesn’t change in the event it stops. Under Public IP select “Create new”
 
 ![Image for post](https://miro.medium.com/max/774/1*2wsz1_OG7DpLA7jmTJfm0A.png)
@@ -322,6 +323,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODAxMDksMTU5NjkwNDc3MiwxMjM0NT
-EyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbMzU5Mjk5MDMyLC0yMTgwMTA5LDE1OTY5MD
+Q3NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
