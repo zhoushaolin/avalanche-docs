@@ -39,8 +39,8 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 
 使用二进制文件非常简单方便，只要4个步骤您就可以设置好一个验证程序：
 
-* Download the latest release tar.gz \(zip for osx and windows\) found [here](https://github.com/ava-labs/avalanchego/releases)
-* Unpack into a folder of our choosing:
+* 在此[here](https://github.com/ava-labs/avalanchego/releases)下载最新版本 tar.gz \(zip for osx and windows\)
+* 解压成我们选择的文件夹：
 
 \* Linux: tar -xvf avalanchego-linux-&lt;VERSION&gt;.tar.gz
 
@@ -88,5 +88,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU3Nzg4MzRdfQ==
+eyJoaXN0b3J5IjpbMTkxMzMyNjk2NF19
 -->
