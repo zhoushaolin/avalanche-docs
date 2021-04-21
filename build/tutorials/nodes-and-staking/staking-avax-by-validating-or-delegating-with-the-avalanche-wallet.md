@@ -63,30 +63,30 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 
 ![Image for post](https://miro.medium.com/max/1600/0*cy61ZMDY5veMvCZj)
 
-仔细检查细节，并再次点击“Confirm”！Carefully check the details, and click “Confirm” again!
+仔细检查细节，并再次点击“Confirm”！
 
 ![Image for post](https://miro.medium.com/max/1600/0*f3GlN03He6TFkOV7)
 
-Congratulations. You are now validating the Avalanche Primary Network!
+恭喜。您现在正在验证Avalanche主网！
 
-### **Step 3B: Add a Delegator!** <a id="59bd"></a>
+### 第3步B：添加委托程序！
 
 ![Image for post](https://miro.medium.com/max/1600/0*f-wXi2SiSm4eBmHt)
 
-Select a validator you want to delegate your tokens with from the list of active network validators.
+从可用网络验证程序列表中选择您想要委托代币的验证程序。
 
 ![Image for post](https://miro.medium.com/max/1600/0*uNnT2PtjCslRKFbF)
 
-Specify your staking period and stake amount. Pay attention to the end time of the selected validator. Your delegation period cannot be set to end past the end date that the validator has set.
+指明您的质押期限和质押金额。注意所选验证程序的结束时间。您的委托期不得晚于验证程序设置的结束日期。
 
 ![Image for post](https://miro.medium.com/max/1600/0*M_6_7L9jtYuPTp-A)
 
-Confirm the details!
+确认详情！
 
 ![Image for post](https://miro.medium.com/max/1600/0*Silj8-uZTm5g9xSi)
 
-Congratulations. You are now delegating the Avalanche Primary Network!
+恭喜。现在您可以委派Avalanche主网了！Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTYwMDY3N119
+eyJoaXN0b3J5IjpbMTM1OTk2NDAxM119
 -->
