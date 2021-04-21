@@ -114,8 +114,7 @@
 
 ![Image for post](https://miro.medium.com/max/347/1*y-JbYlRNN3GNNXtZDP-UXQ.png)
 
-然后我们需要配置网络安全组来控制对Avalanche节点的入站访问。NIC网络安全组类型选择“高级”，然后选择“新建”。
-Then we need to configure the network security group to control access inbound to the Avalanche node. Select “Advanced” as the NIC network security group type and select “Create new”
+然后我们需要配置网络安全组来控制对Avalanche节点的入站访问。NIC网络安全组类型选择“Advanced”，然后选择“Create new”。
 
 ![Image for post](https://miro.medium.com/max/763/1*e5Y-mHGkn42A-mJx6o3J0g.png)
 
@@ -323,6 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OT
-A0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTIwNTc3ODAxMjAsMTI1NjAwMTQ4MiwtMj
+E4MDEwOSwxNTk2OTA0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAy
+MV19
 -->
