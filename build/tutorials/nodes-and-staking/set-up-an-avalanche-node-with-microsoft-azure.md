@@ -126,9 +126,9 @@
 
 注意：如果您的主IP发生变化，需要在部署后更改网络安全组规则，请搜索“avalanche-nsg”，然后可以使用新IP修改安全外壳协议和端口9650规则。**9651端口需要对所有人保持开放**尽管这是它与其他Avalanche节点通信的方式。
 
-NOTE: If you need to change the network security group rules after deployment if your home IP has changed, search for “avalanche-nsg” and you can modify the rule for SSH and Port 9650 with the new IP. **Port 9651 needs to remain open to everyone** though as that’s how it communicates with other Avalanche nodes.
-
 ![Image for post](https://miro.medium.com/max/481/1*fR6SrKhTSTQ4cS3PoFrQfQ.png)
+
+现在您已经拥有了公共IP，请在入站规则下选择左侧的默认“允许安全外壳协议规则”以对其进行修改。将来源从“任意”更改为“IP地址”，然后在源IP地址字段中输入您从谷歌搜索到的公共IP地址。将底部的优先级改为100，然后点保存。
 
 Now that you have your public IP select the default allow ssh rule on the left under inbound rules to modify it. Change Source from “Any” to “IP Addresses” and then enter in your Public IP address that you found from google in the Source IP address field. Change the Priority towards the bottom to 100 and then press Save.
 
@@ -324,7 +324,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMyMjc3MDEsLTE3MTQ3ODY3NTYsMT
-I1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0NzcyLDEyMzQ1MTI5
-MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTYyNTY2MTYyNCwtMTcxNDc4Njc1NiwxMj
+U2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3NzIsMTIzNDUxMjkx
+MCwtODU4MDc1MDIxXX0=
 -->
