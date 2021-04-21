@@ -317,13 +317,12 @@ curl -X POST --data '{
 scp -i C:\Avalanche\avalanche_key.pem -r ubuntu@EnterYourAzureIPHere:/home/ubuntu/.avalanchego/staking C:\Avalanche
 ```
 
-与之前一样，我们需要用检索到的合适值来替换“在此输入您的AzureIP”。它备份了我们的质押密钥并将证书质押到之前创建的C:\Avalanche文件夹中。
-As before, we’ll need to replace “EnterYourAzureIPHere” with the appropriate value that we retrieved. This backs up our staking key and staking certificate into the C:\Avalanche folder we created before.
+与之前一样，我们需要用检索到的合适值来替换“EnterYourAzureIPHere”。它备份了我们的质押密钥并将证书质押到之前创建的C:\Avalanche文件夹中。
 
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1OTY0NDE1LC01NDExMjUzOTksLTE3MT
+eyJoaXN0b3J5IjpbMzQ4MzA5MzE3LC01NDExMjUzOTksLTE3MT
 Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
 LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
