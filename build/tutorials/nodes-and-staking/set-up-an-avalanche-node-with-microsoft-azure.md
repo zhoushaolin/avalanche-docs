@@ -69,7 +69,7 @@
 
 ![Image for post](https://miro.medium.com/max/756/1*zWWiYhloPdnKEXGhZJA3dQ.png)
 
-选择“Select size”来更改虚拟机大小，然后选择D-Series v4选项下的D2s\_v4\(这个大小有2个内核，8GB内存，并启用Premium SSDs\)。您也可以使用F2s\_v2实例，它有2个内核、4 GB内存，并启用优质固态硬盘，但对于目前采用现货实例价格的大型虚拟机来说，现货价格实际上更便宜。您可以点击[此链接](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)查看不同地区的价格。
+选择“Select size”来更改虚拟机大小，然后选择D-Series v4选项下的D2s\_v4\(这个大小有2个内核，8GB内存，并启用Premium SSDs\)。您也可以使用F2s\_v2实例，它有2个内核、4 GB内存，并启用Premium SSDs，但对于目前采用spot instance价格的大型虚拟机来说，现货价格实际上更便宜。您可以点击[此链接](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)查看不同地区的价格。
 Choose “Select size” to change the Virtual Machine size, and from the menu select D2s\_v4 under the D-Series v4 selection \(This size has 2 Cores, 8 GB Memory and enables Premium SSDs\). You can use F2s\_v2 instances instead, with are 2 Cores, 4 GB Memory and enables Premium SSDs\) but the spot price actually works out cheaper for the larger VM currently with spot instance prices. You can use [this link](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/) to view the prices across the different regions.
 
 ![Image for post](https://miro.medium.com/max/957/1*JzebwGho6qDFbzlqCJSN9w.png)
@@ -322,6 +322,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc3NDI4MjUsMTIzNDUxMjkxMCwtOD
+eyJoaXN0b3J5IjpbLTEwNzU4NjExNTcsMTIzNDUxMjkxMCwtOD
 U4MDc1MDIxXX0=
 -->
