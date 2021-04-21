@@ -118,6 +118,7 @@
 
 ![Image for post](https://miro.medium.com/max/763/1*e5Y-mHGkn42A-mJx6o3J0g.png)
 
+为了安全起见，您需要限定哪些人可以远程连接到您的节点。为此，您首先需要知道您现有的公共IP是什么。可以在谷歌搜索“我的IP是什么”。
 For security purposes you want to restrict who is able to remotely connect to your node. To do this you will first want to find out what your existing public IP is. This can be done by going to google and searching for “what’s my ip”.
 
 ![Image for post](https://miro.medium.com/max/450/1*-aV-AdrABCUmludxXUPV6Q.png)
@@ -322,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc3ODAxMjAsMTI1NjAwMTQ4MiwtMj
+eyJoaXN0b3J5IjpbLTE3MTQ3ODY3NTYsMTI1NjAwMTQ4MiwtMj
 E4MDEwOSwxNTk2OTA0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAy
 MV19
 -->
