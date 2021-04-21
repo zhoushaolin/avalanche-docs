@@ -98,7 +98,7 @@
 
 ### 磁盘
 
-选择“下一步：磁盘”，然后为实例配置磁盘。磁盘有两种选择，一种是高级固态硬盘，性能更好，64GB磁盘，每月10美元左右，另一种是标准固态硬盘，性能较差，每月5美元左右。对于标准固态硬盘，每10000个事务（读/写和删除）还需支付0.002美元，而高级固态硬盘已经把一切费用都包括在内了。就我个人而言，我选择高级固态硬盘，一是为了更好的性能，二是因为磁盘可能会被频繁使用，所以从长远来看甚至可能会更便宜。
+选择下一步：“Disks”，然后为实例配置磁盘。磁盘有两种选择，一种是高级固态硬盘，性能更好，64GB磁盘，每月10美元左右，另一种是标准固态硬盘，性能较差，每月5美元左右。对于标准固态硬盘，每10000个事务（读/写和删除）还需支付0.002美元，而高级固态硬盘已经把一切费用都包括在内了。就我个人而言，我选择高级固态硬盘，一是为了更好的性能，二是因为磁盘可能会被频繁使用，所以从长远来看甚至可能会更便宜。
 Select Next: Disks to then configure the disks for the instance. There are 2 choices for disks, either Premium SSD which offer greater performance with a 64 GB disk costs around $10 a month, or there is the standard SSD which offers lower performance and is around $5 a month. You also have to pay $0.002 per 10,000 transaction units \(reads / writes and deletes\) with the Standard SSD, whereas with Premium SSDs everything is included. Personally, I chose the Premium SSD for greater performance, but also because the disks are likely to be heavily used and so may even work out cheaper in the long run.
 
 Select Next: Networking to move onto the network configuration
@@ -323,6 +323,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjkwNDc3MiwxMjM0NTEyOTEwLC04NT
-gwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbODEzMDcwNjA5LDE1OTY5MDQ3NzIsMTIzND
+UxMjkxMCwtODU4MDc1MDIxXX0=
 -->
