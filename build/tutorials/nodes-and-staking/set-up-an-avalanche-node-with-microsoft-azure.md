@@ -39,8 +39,7 @@
 
 ![Image for post](https://miro.medium.com/max/789/1*TO5Uh07OkH_QdwludEgapg.png)
 
-注册过程中，您需要输入给您开具账单的详细信息并确认身份，在添加技术支持“Add technical support ”选项，选择“No technical support ”（除非您想支付额外的支持费用），然后点“下一步”。
-Enter your billing details and confirm identity as part of the sign-up process, when you get to Add technical support select the without support option \(unless you want to pay extra for support\) and press Next.
+注册过程中，您需要输入给您开具账单的详细信息并确认身份，在添加技术支持“Add technical support ”一栏，选择“No technical support ”选项,（除非您想支付额外的支持费用），然后点“Next”。
 
 ![Image for post](https://miro.medium.com/max/783/1*5KJOATvu3giAr6ygO3rF6Q.png)
 
@@ -322,5 +321,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MzU4Mzk4LC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
