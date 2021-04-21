@@ -250,9 +250,11 @@ sudo reboot
 
 ![Image for post](https://miro.medium.com/max/793/1*_2UmPN6vabjGe6aihX9KqA.png)
 
-This will make our instance up to date with the latest security patches for our operating system. This will also reboot the node. We’ll give the node a minute or two to boot back up, then log in again, same as before.
+借此，我们可以为操作系统将实例与最新安全补丁同步。这还会重新启动节点。我们将给节点一到两分钟的时间重新启动，然后像之前一样再次登录。
 
-### Set up the Avalanche Node <a id="5688"></a>
+### 设置Avalanche节点
+
+现在，我们需要设置我们的Avalanche节点。为此，请按照[Set Up Avalanche Node With Installer](set-up-node-with-installer.md)教程，将安装过程自动化。您需要从我们之前设置的Azure端口复制的“IPv4公共IP”。
 
 Now we’ll need to set up our Avalanche node. To do this, follow the [Set Up Avalanche Node With Installer](set-up-node-with-installer.md) tutorial which automates the installation process. You will need the “IPv4 Public IP” copied from the Azure Portal we set up earlier.
 
@@ -322,7 +324,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDg5Mjk1NiwtNTQxMTI1Mzk5LC0xNz
+eyJoaXN0b3J5IjpbLTgwNjAzMzc5NCwtNTQxMTI1Mzk5LC0xNz
 E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
 MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
