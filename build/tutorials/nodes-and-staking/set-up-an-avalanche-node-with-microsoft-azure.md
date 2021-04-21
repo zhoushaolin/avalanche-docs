@@ -65,6 +65,8 @@
 
 您可以选择使用Spot instance(点实例)定价来节省大量的运行成本。Spot instance采用供求市场价格结构。随着实例需求的增加，Spot instance的价格也会随之上涨。如果产能不足，那么您的虚拟机将被关闭。这种情况发生的可能性非常低，特别是如果您选择了Capacity only(仅产能)选项。即使在极少数情况下，它确实被暂时关闭了，您只需要保证在线时间达到60%就可以获得质押报酬，并且在Avalanche中不会出现削减。
 
+在Azure Spot instance选项选择“是”，将“逐出类型”选择为“仅产能”，并**确保将逐出策略设置为“停止/解除分配”——这点非常重要，否则虚拟机将被删除**
+
 Select Yes for Azure Spot instance, select Eviction type to Capacity Only and **make sure to set the eviction policy to Stop / Deallocate — This is very important otherwise the VM will be deleted**
 
 ![Image for post](https://miro.medium.com/max/756/1*zWWiYhloPdnKEXGhZJA3dQ.png)
@@ -321,6 +323,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2OTM3NzAzLDEyMzQ1MTI5MTAsLTg1OD
-A3NTAyMV19
+eyJoaXN0b3J5IjpbMTUxMjkyODU5OSwxMjM0NTEyOTEwLC04NT
+gwNzUwMjFdfQ==
 -->
