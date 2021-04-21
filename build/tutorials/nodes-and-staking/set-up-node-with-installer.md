@@ -4,7 +4,11 @@
 
 ## 安装前
 
-This install script assumes:
+此安装脚本假定：
+
+*操作系统：Ubuntu 18.04或20.04 \(很抱歉，尚不支持MacOS和Windows系统\)
+* AvalancheGo未运行且尚未作为一项服务安装
+*运行脚本的用户拥有超级用户权限\（可以运行“sudo”\）
 
 * OS: Ubuntu 18.04 or 20.04 \(sorry, MacOS and Windows not yet supported\)
 * AvalancheGo is not running and not already installed as a service
@@ -238,5 +242,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDIzODM5Nl19
+eyJoaXN0b3J5IjpbLTE3MDkwNjM5OTFdfQ==
 -->
