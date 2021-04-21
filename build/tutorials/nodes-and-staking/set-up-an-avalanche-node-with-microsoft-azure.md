@@ -27,12 +27,11 @@
 
 ![Image for post](https://miro.medium.com/max/1135/1*tr3rEcrvI4rEpC7KPYqg6g.png)
 
-配置好2个因素后，您就可以访问[https://portal.azure.com](https://portal.azure.com/)并使用微软账号登录到Azure门户。登录后没有订阅，因此我们需要先创建一个。选择下面突出显示的“订阅”：
-Once two factor has been configured log into the Azure portal by going to [https://portal.azure.com](https://portal.azure.com/) and signing in with your Microsoft account. When you login you won’t have a subscription, so we need to create one first. Select “Subscriptions” as highlighted below:
+配置好2个因素后，您就可以访问[https://portal.azure.com](https://portal.azure.com/)并使用微软账号登录到Azure门户。登录后没有订阅，因此我们需要先创建一个。选择下面标出的“Subscriptions”：
 
 ![Image for post](https://miro.medium.com/max/648/1*5Jp8oXzczaEND-z9_QZaQA.png)
 
-Then select “+ Add” to add a new subscription
+然后选择“+Add”添加一个新的订阅。
 
 ![Image for post](https://miro.medium.com/max/374/1*Lw3HklSSC8NDN2ftQEVgYA.png)
 
@@ -322,5 +321,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTcyMDM4OSwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTE0MTUzMzY4MzgsLTg1ODA3NTAyMV19
 -->
