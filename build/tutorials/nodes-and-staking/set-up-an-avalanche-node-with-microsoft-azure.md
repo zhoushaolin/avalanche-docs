@@ -73,10 +73,11 @@
 
 ![Image for post](https://miro.medium.com/max/957/1*JzebwGho6qDFbzlqCJSN9w.png)
 
-选好虚拟机的大小后，选择“View pricing history and compare prices in nearby regions查看定价历史和比较附近地区的价格”查看现货价格在过去3个月中的变化，以及使用附近可能具有更多闲置产能的地区是否更便宜。
-Once you have selected the size of the Virtual Machine, select “View pricing history and compare prices in nearby regions” to see how the spot price has changed over the last 3 months, and whether it’s cheaper to use a nearby region which may have more spare capacity.
+选好虚拟机的大小后，选择“View pricing history and compare prices in nearby regions”(查看定价历史和比较附近地区的价格)查看现货价格在过去3个月中的变化，以及使用附近可能具有更多闲置产能的地区是否更便宜。
 
 ![Image for post](https://miro.medium.com/max/763/1*UQYmhtL8JMhrOkaWk8cloA.png)
+
+在本文撰写之时，北欧D2s\_v4的spot instance定价为每小时0.07975美元，每年大约698.61美元。采用现货定价，价格降至每小时0.01295美元，约合每年113.44美元，**节省83.76%！**
 
 At the time of this article, spot pricing for D2s\_v4 in North Europe costs $0.07975 per hour, or around $698.61 a year. With spot pricing, the price falls to $0.01295 per hour, which works out at about $113.44 a year, **a saving of 83.76%!**
 
@@ -322,6 +323,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUwNDMxMSwxMjM0NTEyOTEwLC04NT
-gwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMTUyMzU5NDEsMTIzNDUxMjkxMCwtOD
+U4MDc1MDIxXX0=
 -->
