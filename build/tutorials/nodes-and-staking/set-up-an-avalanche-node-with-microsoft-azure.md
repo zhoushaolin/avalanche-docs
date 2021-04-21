@@ -118,12 +118,13 @@
 
 ![Image for post](https://miro.medium.com/max/763/1*e5Y-mHGkn42A-mJx6o3J0g.png)
 
-为了安全起见，您需要限定哪些人可以远程连接到您的节点。为此，您首先需要知道您现有的公共IP是什么。可以在谷歌搜索“我的IP是什么”。
-For security purposes you want to restrict who is able to remotely connect to your node. To do this you will first want to find out what your existing public IP is. This can be done by going to google and searching for “what’s my ip”.
+为了安全起见，您需要限定哪些人可以远程连接到您的节点。为此，您首先需要知道您现有的公共IP是什么。可以在谷歌搜索“what’s my ip”。
 
 ![Image for post](https://miro.medium.com/max/450/1*-aV-AdrABCUmludxXUPV6Q.png)
 
-It’s likely that you have been assigned a dynamic public IP for your home, unless you have specifically requested it, and so your assigned public IP may change in the future. It’s still recommended to restrict access to your current IP though, and then in the event your home IP changes and you are no longer able to remotely connect to the VM, you can just update the network security rules with your new public IP so you are able to connect again.
+除非您特别要求，否则系统很可能已经为您的主页分配了动态公共IP，因此您分配到的公共IP将来可能会发生变化。不过还是建议限制对您当前IP的访问，如果主IP发生变化，无法远程连接到虚拟机，只需用新的公共IP更新网络安全规则，就可以重新连接。
+
+注意：如果您的主IP发生变化，需要在部署后更改网络安全组规则，请搜索“avalanche-nsg”，然后可以使用新IP修改安全外壳协议和端口9650规则。**9651端口需要对所有人保持开放**尽管这是它与其他Avalanche节点通信的方式。
 
 NOTE: If you need to change the network security group rules after deployment if your home IP has changed, search for “avalanche-nsg” and you can modify the rule for SSH and Port 9650 with the new IP. **Port 9651 needs to remain open to everyone** though as that’s how it communicates with other Avalanche nodes.
 
@@ -323,7 +324,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ3ODY3NTYsMTI1NjAwMTQ4MiwtMj
-E4MDEwOSwxNTk2OTA0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAy
-MV19
+eyJoaXN0b3J5IjpbLTE1MzMyMjc3MDEsLTE3MTQ3ODY3NTYsMT
+I1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0NzcyLDEyMzQ1MTI5
+MTAsLTg1ODA3NTAyMV19
 -->
