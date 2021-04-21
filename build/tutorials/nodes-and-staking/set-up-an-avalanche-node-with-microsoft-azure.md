@@ -207,16 +207,16 @@
 ![Image for post](https://miro.medium.com/max/903/1*5Fkh3FJQuNeWQyEd0irjtA.png)
 
 应该像下面这样，除了个人电脑名称/用户名不同。这只意味着，为了安全起见，密钥文件不能被其他账户修改或访问，所以他们不能访问您的Avalanche节点。
-It should look something like the below, except with a different PC name / user account. This just means the key file can’t be modified or accessed by any other accounts on this machine for security purposes so they can’t access your Avalanche Node.
 
 ![Image for post](https://miro.medium.com/max/736/1*F-YK0xdB92cIweCQFGGRvA.png)
 
-### Find your Avalanche Node Public IP <a id="4687"></a>
+### 找到您的Avalanche节点公共IP
 
-From the Azure Portal make a note of your static public IP address that has been assigned to your node.
+在Azure门户中，记录分配给节点的静态公共IP地址。
 
 ![Image for post](https://miro.medium.com/max/1082/1*5cf1dAAO0G7Dzu2s0Xxh-Q.png)
 
+要登录到Avalanche节点，需要在Windows 10设备上搜索“cmd”并选定“命令提示符”来打开命令提示符。
 To log onto the Avalanche node, open command prompt by searching for “cmd” and selecting “Command Prompt” on your Windows 10 machine.
 
 ![Image for post](https://miro.medium.com/max/384/1*NlYlg9of5O9fQtiroqMFZw.png)
@@ -323,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDkxMDc4OTgsLTU0MTEyNTM5OSwtMT
+eyJoaXN0b3J5IjpbLTEwNjQ0MDc1MzEsLTU0MTEyNTM5OSwtMT
 cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
 NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
