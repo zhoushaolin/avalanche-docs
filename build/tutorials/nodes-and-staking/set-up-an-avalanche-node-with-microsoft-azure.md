@@ -257,13 +257,12 @@ sudo reboot
 现在，我们需要设置我们的Avalanche节点。为此，请按照[Set Up Avalanche Node With Installer](set-up-node-with-installer.md)教程，安装过程自动进行。您需要从我们之前设置的Azure端口复制的“IPv4 Public IP”。
 
 一旦完成安装，我们的节点应处于引导中！我们可以运行以下命令来查看avalanchego节点的最新状态：
-Once the installation is complete, our node should now be bootstrapping! We can run the following command to take a peek at the latest status of the avalanchego node:
 
 ```text
 sudo systemctl status avalanchego
 ```
 
-To check the status of the bootstrap, we’ll need to make a request to the local RPC using “curl”. This request is as follows:
+如需检查引导状态，我们需要使用“curl”向本地RPC发出请求。该请求如下所示：
 
 ```text
 curl -X POST --data '{
@@ -276,7 +275,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-The node can take some time \(upward of an hour at this moment writing\) to bootstrap. Bootstrapping means that the node downloads and verifies the history of the chains. Give this some time. Once the node is finished bootstrapping, the response will be:
+节点需要耗费一些时间\(编写本文时为至多一小时\)来进行引导。引导意即该节点下载并验证了链的历史。给这一过程一些时间。一旦节点完成引导，响应将如下所示：
 
 ```text
 {
@@ -288,7 +287,7 @@ The node can take some time \(upward of an hour at this moment writing\) to boot
 }
 ```
 
-We can always use “sudo systemctl status avalanchego” to peek at the latest status of our service as before, as well.
+我们可以像之前一样一直使用“sudo systemctl status avalanchego”来查看服务的最新状态。
 
 ### Get your NodeID <a id="20a7"></a>
 
@@ -323,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTY1ODQ3OCwtNTQxMTI1Mzk5LC0xNz
-E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
-MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbMjc2OTUzMTE4LC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
