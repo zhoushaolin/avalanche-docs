@@ -53,17 +53,17 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 
 我们会让我们的节点与网络的其他部分一同引导并同步，并且我们随时准备开始。
 
-We will need our Node ID. Let’s find that using the [info API](../../avalanchego-apis/info-api.md)!
+我们会需要节点ID。通过[info API](../../avalanchego-apis/info-api.md)，我们可以找到它!
 
-If you need any help setting up your node, join us on [Discord](https://chat.avax.network/).
+如果您在设置您的节点时需要任何帮助， 请通过 [Discord](https://chat.avax.network/)加入我们。
 
 ![Image for post](https://miro.medium.com/max/1600/0*6hZSaT651Dd7R4bL)
 
-Fill the fields and confirm!
+填完字段并确认！
 
 ![Image for post](https://miro.medium.com/max/1600/0*cy61ZMDY5veMvCZj)
 
-Carefully check the details, and click “Confirm” again!
+仔细检查细节，并再次点击“Confirm”！Carefully check the details, and click “Confirm” again!
 
 ![Image for post](https://miro.medium.com/max/1600/0*f3GlN03He6TFkOV7)
 
@@ -88,5 +88,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDg2NDYxMF19
+eyJoaXN0b3J5IjpbLTY4MTYwMDY3N119
 -->
