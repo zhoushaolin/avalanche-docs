@@ -49,9 +49,9 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 \* Windows系统：  解压 avalanchego-win-&lt;VERSION&gt;.zip
 
 * 导航到二进制文件目录 cd avalanchego-&lt;VERSION&gt;
-* Run the binary with ./avalanchego on Linux and OSX and AvalancheGo on Windows
+* 在Linux和OSX系统中运行二进制文件与/avalanchego, 在Windows系统中运行AvalancheGo。
 
-We will let our node bootstrap and sync with the rest with the network, and we are ready to roll.
+我们会让我们的节点与网络的其他部分一同引导并同步，并且我们随时准备开始。
 
 We will need our Node ID. Let’s find that using the [info API](../../avalanchego-apis/info-api.md)!
 
@@ -88,5 +88,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MTE0MTA3XX0=
+eyJoaXN0b3J5IjpbLTY4NDg2NDYxMF19
 -->
