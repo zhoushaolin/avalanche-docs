@@ -235,10 +235,10 @@ Done!
 
 现在您可以与您的节点互动[interact with your node](../../avalanchego-apis/issuing-api-calls.md), 质押您的代币[stake your tokens](staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md), 或通过设置 节点监测[node monitoring](setting-up-node-monitoring.md) 来升级您的安装，从而更好地查看您的节点的当前进度。
 
-If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
+如有任何问题或需要帮助，请随时通过[Discord](https://chat.avalabs.org/)服务器联系我们
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwOTEzNTcxLDk5NzYyNDAzNSwtNDEyMT
+eyJoaXN0b3J5IjpbOTg3MDU1NTY3LDk5NzYyNDAzNSwtNDEyMT
 cwNjk3LDM4MzQyOTg3MSwtMTYyOTQ3MDEwNywtMTEyNjc1NzA2
 OSwtMTM3OTIxODkwNSwxNDg3NjMzNzg3LDE5ODQ1ODQ1ODAsMT
 Q3MDMxMzM2Myw1NDgzMDE5MV19
