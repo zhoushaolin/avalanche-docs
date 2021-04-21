@@ -193,7 +193,7 @@ sudo systemctl start avalanchego
 
 ## 节点升级
 
-AvalancheGo is an ongoing project and there are regular version upgrades. Most upgrades are recommended but not required. Advance notice will be given for upgrades that are not backwards compatible. When a new version of the node is released, you will notice log lines like:
+AvalancheGo仍是一个进行中的项目，因此会有定期版本升级。大多数升级只是推荐，并不必需。如果升级与后台不兼容，则会有提前通知。当发行节点新版本时，您会看到如下日志字段：
 
 ```text
 Jan 08 10:26:45 ip-172-31-16-229 avalanchego[6335]: INFO [01-08|10:26:45] avalanchego/network/peer.go#526: beacon 9CkG9MBNavnw7EVSRsuFr7ws9gascDQy3 attempting to connect with newer version avalanche/1.1.1. You may want to update your client
@@ -238,7 +238,7 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NzI1MjExLC00MTIxNzA2OTcsMzgzND
+eyJoaXN0b3J5IjpbOTk3NjI0MDM1LC00MTIxNzA2OTcsMzgzND
 I5ODcxLC0xNjI5NDcwMTA3LC0xMTI2NzU3MDY5LC0xMzc5MjE4
 OTA1LDE0ODc2MzM3ODcsMTk4NDU4NDU4MCwxNDcwMzEzMzYzLD
 U0ODMwMTkxXX0=
