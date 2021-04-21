@@ -152,7 +152,7 @@
 
 ![Image for post](https://miro.medium.com/max/751/1*HyQP7HJCiVQPPiWodRj6aQ.png)
 
-You should then receive a prompt asking you to generate a new key pair to connect your virtual machine. Select “Download private key and create resource” to download the private key to your PC.
+然后，您应该会收到一个提示，要求您生成一个新的密钥对来连接您的虚拟机。选择“Download private key and create resource”将私人密钥下载到你的个人电脑。
 
 ![Image for post](https://miro.medium.com/max/456/1*FCAVco29fcianH4TjxVGzQ.png)
 
@@ -322,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NjE0NjE1LC01NDExMjUzOTksLTE3MT
-Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
-LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTIzNDM3NzE2NywtNTQxMTI1Mzk5LC0xNz
+E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
+MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
