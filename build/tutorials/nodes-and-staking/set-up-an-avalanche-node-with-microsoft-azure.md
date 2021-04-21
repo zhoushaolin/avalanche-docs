@@ -106,15 +106,15 @@
 
 ### 网络配置
 
-您需要使用静态IP，这样分配给节点的公共IP在节点停止时也不会改变。在“公共IP”下选择“新建”。
-You want to use a Static IP so that the public IP assigned to the node doesn’t change in the event it stops. Under Public IP select “Create new”
+您需要使用静态IP，这样分配给节点的公共IP在节点停止时也不会改变。在“Public IP ”下选择“Create new”。
 
 ![Image for post](https://miro.medium.com/max/774/1*2wsz1_OG7DpLA7jmTJfm0A.png)
 
-Then select “Static” as the Assignment type
+然后选择 “Static” 作为分配类型。
 
 ![Image for post](https://miro.medium.com/max/347/1*y-JbYlRNN3GNNXtZDP-UXQ.png)
 
+然后我们需要配置网络安全组来控制对Avalanche节点的入站访问。NIC网络安全组类型选择“高级”，然后选择“新建”。
 Then we need to configure the network security group to control access inbound to the Avalanche node. Select “Advanced” as the NIC network security group type and select “Create new”
 
 ![Image for post](https://miro.medium.com/max/763/1*e5Y-mHGkn42A-mJx6o3J0g.png)
@@ -323,6 +323,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5Mjk5MDMyLC0yMTgwMTA5LDE1OTY5MD
-Q3NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OT
+A0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
