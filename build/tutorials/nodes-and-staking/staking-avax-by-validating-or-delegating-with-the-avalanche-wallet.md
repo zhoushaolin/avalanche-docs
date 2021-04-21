@@ -7,15 +7,15 @@ Avalanche钱包是一个网络应用程序，无中介软件或任何类型的�
 Avalanche钱包可以从[here](https://wallet.avax.network/)访问。
 Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wallet)找到。
 
-**Let’s get staking!**
+**来质押吧！**
 
-### **Step 1 — Open the Avalanche Wallet** <a id="552d"></a>
+### 第1步——打开Avalanche钱包
 
 ![Image for post](https://miro.medium.com/max/1552/0*tpBIOjLdppuNKMjA)
 
-You can access your wallet using your key phrase, keystore file, or Ledger Nano S \(coming soon!\)
+您可以使用您的关键字、密钥库文件或Ledger Nano S\(即将推出!\)来访问您的钱包。
 
-### **Step 2 — Navigate to “Earn” section** <a id="dc5a"></a>
+### 第2步——导航到“Earn”部分
 
 ![Image for post](https://miro.medium.com/max/1504/0*XTh3nZzBI1bkLbwO)
 
@@ -88,5 +88,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTM4Nzk2Ml19
+eyJoaXN0b3J5IjpbMjc0MDU5ODkyXX0=
 -->
