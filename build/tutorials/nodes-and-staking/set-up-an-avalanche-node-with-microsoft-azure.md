@@ -188,9 +188,9 @@
 
 ## 连接到Avalanche节点
 
-下面的说明介绍了如何将一台Windows 10设备连接到虚拟机。有关如何将一台ubuntu设备连接到虚拟机的说明，请参阅[AWS教程](setting-up-an-avalanche-node-with-amazon-web-services-aws.md)。
-The following instructions show how to connect to the Virtual Machine from a Windows 10 machine. For instructions on how to connect from a ubuntu machine see the [AWS tutorial](setting-up-an-avalanche-node-with-amazon-web-services-aws.md).
+下面的说明介绍了如何将一台Windows 10设备连接到虚拟机。有关如何将一台ubuntu设备连接到虚拟机的说明，请参阅[AWS tutorial](https://stackedit.io/setting-up-an-avalanche-node-with-amazon-web-services-aws.md)。
 
+在本地个人计算机C盘根目录中创建一个名为Avalanche的文件夹，然后将之前下载的 Avalanche\_key.pem文件移动到该文件夹中。然后右击该文件，选择属性。转到安全选项卡，在底部选择“高级”。
 On your local PC, create a folder on the root of the C: drive called Avalanche and then move the Avalanche\_key.pem file you downloaded before into the folder. Then right click the file and select Properties. Go to the security tab and select “Advanced” at the bottom
 
 ![Image for post](https://miro.medium.com/max/719/1*KlzhuVcn5Vt0imxDPblBtA.png)
@@ -323,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDEyMjM3LC01NDExMjUzOTksLTE3MT
+eyJoaXN0b3J5IjpbNTQ5NDI2MDkzLC01NDExMjUzOTksLTE3MT
 Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
 LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
