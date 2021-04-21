@@ -39,8 +39,9 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 如果您之前在此电脑上运行过AvalancheGo节点，则您会在`$HOME/.avalanchego` 目录下保存本地节点文档。此类文档不会受到干扰，此脚本设置的节点将以之前的同一身份和状态继续运行。换言之，为了您的节点安全，请备份`$HOME/.avalanchego/staking`目录下的`staker.crt` 和`staker.key`文件，并将其保存到其他安全地方。如有需要，您可以使用上述文档在另一台电脑上重新创建您的节点。
 
-### Networking considerations
+### 联网注意事项
 
+如需成功运行，AvalancheGo需要通过网络接口“9651”进行联网。在您进行安装之前，您需要确定您的节点将要运行的联网环境。
 To run successfully, AvalancheGo needs to accept connections from the Internet on the network port `9651`. Before you proceed with the installation, you need to determine the networking environment your node will run in.
 
 #### Running on a cloud provider
@@ -238,6 +239,6 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTQzNTQ1MSwxNDg3NjMzNzg3LDE5OD
+eyJoaXN0b3J5IjpbMTUzODYyNzMyMiwxNDg3NjMzNzg3LDE5OD
 Q1ODQ1ODAsMTQ3MDMxMzM2Myw1NDgzMDE5MV19
 -->
