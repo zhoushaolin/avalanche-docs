@@ -23,9 +23,8 @@
 #### 作为一项服务来运行节点
 
 如果您的节点已经作为一项服务在运行，那么您可能不需要此脚本。您已经可以开始了。
- your node is already running as a service, then you probably don't need this script. You're good to go.
 
-#### Node running in the background
+#### 后台运行的节点
 
 If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
 
@@ -239,5 +238,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyMDg3MTU2XX0=
+eyJoaXN0b3J5IjpbNTQ4MzAxOTFdfQ==
 -->
