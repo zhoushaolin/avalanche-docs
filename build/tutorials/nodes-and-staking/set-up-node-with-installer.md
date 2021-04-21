@@ -6,16 +6,13 @@
 
 此安装脚本假定：
 
-*操作系统：Ubuntu 18.04或20.04 \(很抱歉，尚不支持MacOS和Windows系统\)
+* 操作系统：Ubuntu 18.04或20.04 \(很抱歉，尚不支持MacOS和Windows系统\)
 * AvalancheGo未运行且尚未作为一项服务安装
-*运行脚本的用户拥有超级用户权限\（可以运行“sudo”\）
+* 运行脚本的用户拥有超级用户权限\(可以运行`sudo`\)
 
-* OS: Ubuntu 18.04 or 20.04 \(sorry, MacOS and Windows not yet supported\)
-* AvalancheGo is not running and not already installed as a service
-* User running the script has superuser privileges \(can run `sudo`\)
+### 环境考虑
 
-### Environment considerations
-
+如果您运行不同类型的Linux，脚本可能无法按预期工作。它假定“systemd”用于运行系统服务。其他类型的Linux可能会使用其他脚本，或者可能在脚本假定的不同位置有文件。
 If you run a different flavor of Linux, the script might not work as intended. It assumes `systemd` is used to run system services. Other Linux flavors might use something else, or might have files in different places than is assumed by the script.
 
 If you have a node already running on the computer, stop it before running the script.
@@ -242,5 +239,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkwNjM5OTFdfQ==
+eyJoaXN0b3J5IjpbNTEwODM1MDExXX0=
 -->
