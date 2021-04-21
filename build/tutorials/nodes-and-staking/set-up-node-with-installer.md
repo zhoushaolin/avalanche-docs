@@ -1,10 +1,8 @@
 # 通过安装脚本在Linux系统上运行Avalanche节点
 
-我们有一个shell \（bash\）脚本，用于在您的计算机上安装AvalancheGo。此脚本几分钟内即可设置完整的、正在运行的节点，且只需少量用户输入。
-我们有一个shell \(bash\)脚本, 可以在您的电脑上安装avalanche chego。这个脚本在几分钟内设置完整的、运行的node，只需要最少的用户输入。
-We have a shell \(bash\) script that installs AvalancheGo on your computer. This script sets up full, running node in a matter of minutes with minimal user input required.
+我们有一个shell \(bash\)脚本, 可以在您的电脑上安装AvalancheGo。这个脚本在几分钟内设置完整的、正在运行的节点，只需要最少的用户输入。
 
-## Before you start
+## 安装前
 
 This install script assumes:
 
@@ -240,5 +238,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4MDg5ODYyXX0=
+eyJoaXN0b3J5IjpbMTI2NDIzODM5Nl19
 -->
