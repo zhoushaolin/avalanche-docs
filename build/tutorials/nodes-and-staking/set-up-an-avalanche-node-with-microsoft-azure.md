@@ -166,16 +166,15 @@
 
 ![Image for post](https://miro.medium.com/max/880/1*2uJoRLC586qLEhr1RNNeTg.png)
 
-要更改磁盘大小，需要将虚拟机停止并解除配置。选择“Stop”并等待状态显示为解除配置。然后选定左侧的“磁盘”。
-To change the Disk size, the VM needs to be stopped and deallocated. Select “Stop” and wait for the status to show deallocated. Then select “Disks” on the left.
+要更改磁盘大小，需要将虚拟机停止并解除配置。选择“Stop”并等待状态显示为解除配置。然后选定左侧的“Disks”。
 
 ![Image for post](https://miro.medium.com/max/976/1*eUCBMgyQtEukvCyi3pm48g.png)
 
-Select the Disk name that’s current provisioned to modify it
+选定当前配置的磁盘名进行修改。
 
 ![Image for post](https://miro.medium.com/max/696/1*faady6O9ZyS2AvKotRFFWA.png)
 
-Select “Size + performance” on the left under settings and change the size to 64 GB and press “Resize”.
+选定左侧设置中的“Size + performance”，将大小更改为64GB，然后点“Resize”。Select “Size + performance” on the left under settings and change the size to 64 GB and press “Resize”.
 
 ![Image for post](https://miro.medium.com/max/850/1*zZhh27myfdBcEhf3QMhs3A.png)
 
@@ -323,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMzkwODEzLC01NDExMjUzOTksLTE3MT
-Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
-LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbMTM5NDA3NTc0NiwtNTQxMTI1Mzk5LC0xNz
+E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
+MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
