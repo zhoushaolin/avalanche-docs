@@ -148,6 +148,7 @@
 
 ![Image for post](https://miro.medium.com/max/828/1*01yGser7qYjiXDngemqClQ.png)
 
+首先，执行验证测试。如果您在此处收到错误，请确保您选择了Pay-As-You-Go(现收现付)订阅模式，没有使用免费试用订阅，因为现货实例不可用。确认一切正确无误，然后点“创建”。
 First it will perform a validation test. If you receive an error here, make sure you selected Pay-As-You-Go subscription model and you are not using the Free Trial subscription as Spot instances are not available. Verify everything looks correct and press “Create”
 
 ![Image for post](https://miro.medium.com/max/751/1*HyQP7HJCiVQPPiWodRj6aQ.png)
@@ -322,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzYyMzA5MiwtNTQxMTI1Mzk5LC0xNz
-E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
-MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbMjg2NDIyNjk3LC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
