@@ -224,19 +224,19 @@
 
 ssh -i C:\Avalanche\Avalanche\_key.pem ubuntu@EnterYourAzureIPHere
 
-for my example its:
+在本实例中就是：
 
 ssh -i C:\Avalanche\Avalanche\_key.pem ubuntu@13.74.10.81
 
-The first time you connect you will receive a prompt asking to continue, enter yes.
+第一次连接时，您会收到一个请求继续的提示，输入“yes”。
 
 ![Image for post](https://miro.medium.com/max/651/1*Hp1AF-03TbO-eRUvuKvZcA.png)
 
-You should now be connected to your Node.
+现在您应该已经连接到您的节点了。
 
 ![Image for post](https://miro.medium.com/max/967/1*Kc3rna-3SQV3tnMMLkMi6A.png)
 
-The following section is taken from Colin’s excellent tutorial for [configuring an Avalanche Node on Amazon’s AWS](setting-up-an-avalanche-node-with-amazon-web-services-aws.md).
+以下部分摘自Colin关于[在Amazon的AWS上配置Avalanche节点](setting-up-an-avalanche-node-with-amazon-web-services-aws.md)的优秀教程。
 
 ### Update Linux with security patches <a id="8a1c"></a>
 
@@ -322,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDkwNTM0LC01NDExMjUzOTksLTE3MT
+eyJoaXN0b3J5IjpbNjI5NTA2MzcxLC01NDExMjUzOTksLTE3MT
 Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
 LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
