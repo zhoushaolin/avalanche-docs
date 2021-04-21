@@ -216,12 +216,11 @@
 
 ![Image for post](https://miro.medium.com/max/1082/1*5cf1dAAO0G7Dzu2s0Xxh-Q.png)
 
-要登录到Avalanche节点，需要在Windows 10设备上搜索“cmd”并选定“命令提示符”来打开命令提示符。
-To log onto the Avalanche node, open command prompt by searching for “cmd” and selecting “Command Prompt” on your Windows 10 machine.
+要登录到Avalanche节点，需要在Windows 10设备上搜索“cmd”并选定“Command Prompt”来打开命令提示符。
 
 ![Image for post](https://miro.medium.com/max/384/1*NlYlg9of5O9fQtiroqMFZw.png)
 
-Then use the following command and replace the EnterYourAzureIPHere with the static IP address shown on the Azure portal.
+然后使用以下命令，将“EnterYourAzureIPHere”替换为Azure门户上显示的静态IP地址。
 
 ssh -i C:\Avalanche\Avalanche\_key.pem ubuntu@EnterYourAzureIPHere
 
@@ -323,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ0MDc1MzEsLTU0MTEyNTM5OSwtMT
-cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
-NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbMTM3NDkwNTM0LC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
