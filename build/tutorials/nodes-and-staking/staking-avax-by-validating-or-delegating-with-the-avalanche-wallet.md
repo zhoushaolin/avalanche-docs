@@ -35,9 +35,9 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 
 ### 第3步A：成为验证程序！
 
-如需添加验证程序，我们需要保持一个节点处于运行中。 我们可以使用发布的[binaries](https://github.com/ava-labs/avalanchego/releases/) or build them from the [AvalancheGo source code](https://github.com/ava-labs/avalanchego).
+如需添加验证程序，我们需要保持一个节点处于运行中。 我们可以使用发布的[binaries](https://github.com/ava-labs/avalanchego/releases/)文件或从[AvalancheGo source code](https://github.com/ava-labs/avalanchego)中构建
 
-Using the binaries is easy and convenient and sets you up to be a validator in 4 steps:
+使用二进制文件非常简单方便，只要4个步骤您就可以设置好一个验证程序：
 
 * Download the latest release tar.gz \(zip for osx and windows\) found [here](https://github.com/ava-labs/avalanchego/releases)
 * Unpack into a folder of our choosing:
@@ -88,5 +88,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc0MDY2NzRdfQ==
+eyJoaXN0b3J5IjpbLTEzOTU3Nzg4MzRdfQ==
 -->
