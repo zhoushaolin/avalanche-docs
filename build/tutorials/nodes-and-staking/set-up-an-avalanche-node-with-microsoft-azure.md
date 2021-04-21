@@ -289,9 +289,9 @@ curl -X POST --data '{
 
 我们可以像之前一样一直使用“sudo systemctl status avalanchego”来查看服务的最新状态。
 
-### Get your NodeID <a id="20a7"></a>
+### 获得您的节点ID
 
-We absolutely must get our NodeID if we plan to do any validating on this node. This is retrieved from the RPC as well. We call the following curl command to get our NodeID.
+如果我们打算在节点上进行任何验证，那么我们必须获得节点ID。这也可以从RPC处检索到。我们调用如下curl命令来获得我们的节点ID。
 
 ```text
 curl -X POST --data '{
@@ -301,12 +301,13 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-If all is well, the response should look something like:
+如果一切正常，响应应如下所示：
 
 ```text
 {"jsonrpc":"2.0","result":{"nodeID":"NodeID-Lve2PzuCvXZrqn8Stqwy9vWZux6VyGUCR"},"id":1}
 ```
 
+写着“NodeID-Lve2PzuCvXZrqn8Stqwy9vWZux6VyGUCR”的部分就是我们的节点ID，这一整段都是。复制并保存在笔记中。该值无需保密，但当我们将节点提交为验证程序时，就必须保密。
 That portion that says, “NodeID-Lve2PzuCvXZrqn8Stqwy9vWZux6VyGUCR” is our NodeID, the entire thing. Copy that and keep that in our notes. There’s nothing confidential or secure about this value, but it’s an absolute must for when we submit this node to be a validator.
 
 ### Backup your Staking Keys <a id="ef3e"></a>
@@ -322,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2OTUzMTE4LC01NDExMjUzOTksLTE3MT
-Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
-LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTEyNDUwODcxNTcsLTU0MTEyNTM5OSwtMT
+cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
+NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
