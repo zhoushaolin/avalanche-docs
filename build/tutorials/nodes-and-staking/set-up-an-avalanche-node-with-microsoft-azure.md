@@ -69,11 +69,11 @@
 
 ![Image for post](https://miro.medium.com/max/756/1*zWWiYhloPdnKEXGhZJA3dQ.png)
 
-选择“Select size”来更改虚拟机大小，然后选择D-Series v4选项下的D2s\_v4\(这个大小有2个内核，8GB内存，并启用Premium SSDs\)。您也可以使用F2s\_v2实例，它有2个内核、4 GB内存，并启用Premium SSDs，但对于目前采用spot instance价格的大型虚拟机来说，现货价格实际上更便宜。您可以点击[此链接](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)查看不同地区的价格。
-Choose “Select size” to change the Virtual Machine size, and from the menu select D2s\_v4 under the D-Series v4 selection \(This size has 2 Cores, 8 GB Memory and enables Premium SSDs\). You can use F2s\_v2 instances instead, with are 2 Cores, 4 GB Memory and enables Premium SSDs\) but the spot price actually works out cheaper for the larger VM currently with spot instance prices. You can use [this link](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/) to view the prices across the different regions.
+选择“Select size”来更改虚拟机大小，然后选择D-Series v4选项下的D2s\_v4\(这个大小有2个内核，8GB内存，并启用Premium SSDs\)。您也可以使用F2s\_v2实例，它有2个内核、4 GB内存，并启用Premium SSDs，但对于目前采用spot instance价格的更大型的VM来说，价格实际上更便宜。您可以点击[this link](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)查看不同地区的价格。
 
 ![Image for post](https://miro.medium.com/max/957/1*JzebwGho6qDFbzlqCJSN9w.png)
 
+选好虚拟机的大小后，选择“View pricing history and compare prices in nearby regions查看定价历史和比较附近地区的价格”查看现货价格在过去3个月中的变化，以及使用附近可能具有更多闲置产能的地区是否更便宜。
 Once you have selected the size of the Virtual Machine, select “View pricing history and compare prices in nearby regions” to see how the spot price has changed over the last 3 months, and whether it’s cheaper to use a nearby region which may have more spare capacity.
 
 ![Image for post](https://miro.medium.com/max/763/1*UQYmhtL8JMhrOkaWk8cloA.png)
@@ -322,6 +322,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU4NjExNTcsMTIzNDUxMjkxMCwtOD
-U4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTE3MjUwNDMxMSwxMjM0NTEyOTEwLC04NT
+gwNzUwMjFdfQ==
 -->
