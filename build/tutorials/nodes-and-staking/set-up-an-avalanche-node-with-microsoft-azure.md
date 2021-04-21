@@ -136,6 +136,8 @@
 
 ![Image for post](https://miro.medium.com/max/914/1*Zg9mHCkU7G5BoinN0EWZAg.png)
 
+选择“+ Add an inbound rule”为Avalanche协议添加最后一个规则，以便其他节点可以与您的节点通信。这条规则需要对所有人开放，所以请将“来源”设置为“任意”。将目标端口范围更改为“9651”并将协议更改为“传输控制协议”。将优先级改为120，并为其命名为“Avalanche\_Protocol”，然后点添加。
+
 Select “+ Add an inbound rule” to add a final rule for the Avalanche Protocol so that other nodes can communicate with your node. This rule needs to be open to everyone so keep “Source” set to “Any”. Change the Destination port range to “9651” and change the protocol to “TCP”. Enter a priority of 120 and a name of Avalanche\_Protocol and press Add.
 
 ![Image for post](https://miro.medium.com/max/662/1*tIMEp7O83NIUitWwlcHAxw.png)
@@ -322,7 +324,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTEyNTM5OSwtMTcxNDc4Njc1NiwxMj
-U2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3NzIsMTIzNDUxMjkx
-MCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTEzNDgyNjg5NjUsLTU0MTEyNTM5OSwtMT
+cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
+NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
