@@ -169,29 +169,29 @@ Jan 05 10:38:38 ip-172-31-30-64 avalanchego[2142]: INFO [01-05|10:38:38] avalanc
 
 为`NodeID-`预设要得到的值，例如`NodeID-6seStrauyCnVV7NEVwRbfaT9B6EnXEzfY`, 将它保存；质押或查找您的ID时需要用到。
 
-Your node should be in the process of bootstrapping now. You can monitor the progress by issuing the following command:
+您的节点现在应该正在引导过程中。您可以通过发出以下命令来监视进程：
 
 ```text
 sudo journalctl -u avalanchego -f
 ```
 
-Press `ctrl+C` when you wish to stop reading node output.
+当您想要停止读取节点输出时，请按`ctrl+C`。
 
-## Stopping the node
+## 停止节点
 
-To stop AvalancheGo, run:
+如需停止AvalancheGo，请运行：
 
 ```text
 sudo systemctl stop avalanchego
 ```
 
-To start it again, run:
+如需再次启动，请运行：
 
 ```text
 sudo systemctl start avalanchego
 ```
 
-## Node upgrade
+## 节点升级
 
 AvalancheGo is an ongoing project and there are regular version upgrades. Most upgrades are recommended but not required. Advance notice will be given for upgrades that are not backwards compatible. When a new version of the node is released, you will notice log lines like:
 
@@ -238,8 +238,8 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzcxNTk1MywtNDEyMTcwNjk3LDM4Mz
-QyOTg3MSwtMTYyOTQ3MDEwNywtMTEyNjc1NzA2OSwtMTM3OTIx
-ODkwNSwxNDg3NjMzNzg3LDE5ODQ1ODQ1ODAsMTQ3MDMxMzM2My
-w1NDgzMDE5MV19
+eyJoaXN0b3J5IjpbNzU4NzI1MjExLC00MTIxNzA2OTcsMzgzND
+I5ODcxLC0xNjI5NDcwMTA3LC0xMTI2NzU3MDY5LC0xMzc5MjE4
+OTA1LDE0ODc2MzM3ODcsMTk4NDU4NDU4MCwxNDcwMzEzMzYzLD
+U0ODMwMTkxXX0=
 -->
