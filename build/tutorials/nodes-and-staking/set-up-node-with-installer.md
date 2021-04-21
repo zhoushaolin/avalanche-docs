@@ -12,12 +12,11 @@
 
 ### 环境考虑
 
-如果您运行不同类型的Linux，脚本可能无法按预期工作。它假定“systemd”用于运行系统服务。其他类型的Linux可能会使用其他脚本，或者可能在脚本假定的不同位置有文件。
-If you run a different flavor of Linux, the script might not work as intended. It assumes `systemd` is used to run system services. Other Linux flavors might use something else, or might have files in different places than is assumed by the script.
+如果您运行不同类型的Linux，脚本可能无法按预期工作。它假定`systemd`用于运行系统服务。其他类型的Linux可能会使用其他脚本，或者可能在脚本假定的不同位置有文件。
 
-If you have a node already running on the computer, stop it before running the script.
+如果您已经在电脑上运行一个节点，那么请在运行此脚本前停止运行。
 
-#### Node running from terminal
+#### 终端上的节点运行Node running from terminal
 
 If your node is running in a terminal stop it by pressing `ctrl+C`.
 
@@ -239,5 +238,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwODM1MDExXX0=
+eyJoaXN0b3J5IjpbMTQxMzE4MDk1N119
 -->
