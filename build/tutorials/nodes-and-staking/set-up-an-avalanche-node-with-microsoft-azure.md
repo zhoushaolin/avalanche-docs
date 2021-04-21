@@ -36,10 +36,10 @@
 ![Image for post](https://miro.medium.com/max/374/1*Lw3HklSSC8NDN2ftQEVgYA.png)
 
 如果您想使用Spot Instance VM现货定价\(这个价格会便宜很多\)，您不能使用免费试用账户Free Trial account\(验证时会收到错误\)，所以**务必选择现收现付Pay-As-You-Go。**
-If you want to use Spot Instance VM Pricing \(which will be considerably cheaper\) you can’t use a Free Trial account \(and you will receive an error upon validation\), so **make sure to select Pay-As-You-Go.**
 
 ![Image for post](https://miro.medium.com/max/789/1*TO5Uh07OkH_QdwludEgapg.png)
 
+注册过程中，您需要输入给您开具账单的详细信息并确认身份，在“Add technical support ”选项，选择“不支持”（除非您想支付额外的支持费用），然后点“下一步”。
 Enter your billing details and confirm identity as part of the sign-up process, when you get to Add technical support select the without support option \(unless you want to pay extra for support\) and press Next.
 
 ![Image for post](https://miro.medium.com/max/783/1*5KJOATvu3giAr6ygO3rF6Q.png)
@@ -322,5 +322,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ5NzcxMzEsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbNDc1ODM2ODEyLC04NTgwNzUwMjFdfQ==
 -->
