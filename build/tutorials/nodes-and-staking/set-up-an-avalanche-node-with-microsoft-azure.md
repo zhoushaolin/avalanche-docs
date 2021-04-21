@@ -5,7 +5,7 @@
 # 用Microsoft Azure运行Avalanche节点
 
 运行验证程序和通过Avalanche进行权益质押可产生极具竞争力的报酬，报酬范围在9.69%至11.54%之间，取决于您权益质押的时间长短。费率最高为一年期费率，最低为14天费率。不存在削减，所以不必担心客户端硬件故障或漏洞导致您损失部分或全部质押权益。相反，在Avalanche中，您只需要保证在线时间达到60%就可以获得报酬。如果您没有达到这个要求，您不会被削减，但也无法得到报酬。**您也不需要将密钥放到节点上来启动验证。**即使有人侵入了你的云环境，获得了节点的访问权限，他们最多也只能关闭该节点。
-Running a validator and staking with Avalanche provides extremely competitive rewards of between 9.69% and 11.54% depending on the length you stake for. The maximum rate is earned by staking for a year, whilst the lowest rate for 14 days. There is also no slashing, so you don’t need to worry about a hardware failure or bug in the client which causes you to lose part or all of your stake. Instead with Avalanche you only need to currently maintain at least 60% uptime to receive rewards. If you fail to meet this requirement you don’t get slashed, but you don’t receive the rewards. **You also do not need to put your private keys onto a node to begin validating on that node.** Even if someone breaks into your cloud environment and gains access to the node, the worst they can do is turn off the node.
+ The maximum rate is earned by staking for a year, whilst the lowest rate for 14 days. There is also no slashing, so you don’t need to worry about a hardware failure or bug in the client which causes you to lose part or all of your stake. Instead with Avalanche you only need to currently maintain at least 60% uptime to receive rewards. If you fail to meet this requirement you don’t get slashed, but you don’t receive the rewards. **You also do not need to put your private keys onto a node to begin validating on that node.** Even if someone breaks into your cloud environment and gains access to the node, the worst they can do is turn off the node.
 
 Not only does running a validator node enable you to receive rewards in AVAX, but later you will also be able to validate other subnets in the ecosystem as well and receive rewards in the token native to their subnets.
 
@@ -323,5 +323,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTE3MDc4Mzg4NjcsLTg1ODA3NTAyMV19
 -->
