@@ -53,12 +53,13 @@
 
 ![Image for post](https://miro.medium.com/max/605/1*Y0iZEZExC36c7FXqPlrPuw.png)
 
-This will take you to the Create a virtual machine page as shown below:
+接下来将进入创建虚拟机Create a virtual machine页面，如下所示：
 
 ![Image for post](https://miro.medium.com/max/775/1*cv0z0mt6Uavx5MkiazpiUA.png)
 
-First, enter a virtual machine a name, this can be anything but in my example, I have called it Avalanche \(This will also automatically change the resource group name to match\)
+首先，为虚拟机输入一个名字，可以是任何名字，在本实例中，我将其称为Avalanche\(这个名字也将自动更改资源组名称进行匹配\)。
 
+然后从下拉列表中选择一个区域。从您喜欢的区域中选择一个推荐的服务器，因为这些推荐的往往比较大，功能比较齐全，价格也比较便宜。在本实例中，我选择了北欧。
 Then select a region from the drop-down list. Select one of the recommended ones in a region that you prefer as these tend to be the larger ones with most features enabled and cheaper prices. In this example I have selected North Europe.
 
 ![Image for post](https://miro.medium.com/max/769/1*XOpa22qSdNI-0PW5oIyUhQ.png)
@@ -321,6 +322,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDE3NDU0MSwxMjM0NTEyOTEwLC04NT
-gwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbODg4NjQ0NDA2LDEyMzQ1MTI5MTAsLTg1OD
+A3NTAyMV19
 -->
