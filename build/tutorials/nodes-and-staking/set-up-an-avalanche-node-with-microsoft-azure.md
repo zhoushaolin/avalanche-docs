@@ -174,20 +174,21 @@
 
 ![Image for post](https://miro.medium.com/max/696/1*faady6O9ZyS2AvKotRFFWA.png)
 
-选定左侧设置中的“Size + performance”，将大小更改为64GB，然后点“Resize”。Select “Size + performance” on the left under settings and change the size to 64 GB and press “Resize”.
+选定左侧设置中的“Size + performance”，将大小更改为64GB，然后点“Resize”。
 
 ![Image for post](https://miro.medium.com/max/850/1*zZhh27myfdBcEhf3QMhs3A.png)
 
-Doing this now will also extend the partition automatically within ubuntu. To go back to the virtual machine overview page, select Avalanche in the navigation setting.
+现在这样做也可以在ubuntu中自动扩展分区。在导航设置中选定Avalanche回到虚拟机概览页面。
 
 ![Image for post](https://miro.medium.com/max/946/1*RGlKMhmlZ1__6u3RjFSDMA.png)
 
-Then start the VM
+然后启动虚拟机。
 
 ![Image for post](https://miro.medium.com/max/929/1*vgVR-3sRejyBcXrMn65v5g.png)
 
-## Connect to the Avalanche Node <a id="8bb7"></a>
+## 连接到Avalanche节点
 
+下面的说明介绍了如何将一台Windows 10设备连接到虚拟机。有关如何将一台ubuntu设备连接到虚拟机的说明，请参阅[AWS教程](setting-up-an-avalanche-node-with-amazon-web-services-aws.md)。
 The following instructions show how to connect to the Virtual Machine from a Windows 10 machine. For instructions on how to connect from a ubuntu machine see the [AWS tutorial](setting-up-an-avalanche-node-with-amazon-web-services-aws.md).
 
 On your local PC, create a folder on the root of the C: drive called Avalanche and then move the Avalanche\_key.pem file you downloaded before into the folder. Then right click the file and select Properties. Go to the security tab and select “Advanced” at the bottom
@@ -322,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDA3NTc0NiwtNTQxMTI1Mzk5LC0xNz
-E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
-MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbMTczNDEyMjM3LC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
