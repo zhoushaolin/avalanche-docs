@@ -43,8 +43,9 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 要想成功运行，AvalancheGo需要通过网络接口`9651`进行联网。在您进行安装之前，您需要确定您的节点将要运行的联网环境。
 
-#### Running on a cloud provider
+#### 在云供应商上运行
 
+如果您的节点正在云供应商计算机实例上运行，则该节点会有一个固定IP。找出该固定IP，或如果您并未准备好，请设置。此脚本会尝试自行找出IP，但是这并非所有环境下都可行，因此您需要检查IP或自行输入。
 If your node is running on a cloud provider computer instance, it will have a static IP. Find out what that static IP is, or set it up if you didn't already. The script will try to find out the IP by itself, but that might not work in all environments, so you will need to check the IP or enter it yourself.
 
 #### Running on a home connection
@@ -238,6 +239,6 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NjQ2ODI1LDE0ODc2MzM3ODcsMTk4ND
-U4NDU4MCwxNDcwMzEzMzYzLDU0ODMwMTkxXX0=
+eyJoaXN0b3J5IjpbLTEwMDU0NDE4ODMsMTQ4NzYzMzc4NywxOT
+g0NTg0NTgwLDE0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
 -->
