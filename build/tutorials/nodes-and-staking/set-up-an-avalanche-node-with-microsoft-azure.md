@@ -17,11 +17,10 @@
 在本文中，我们将逐步讲解在Microsoft Azure上配置节点的过程。本教程假设您之前没有使用Microsoft Azure的经验，并且将尽可能简单的讲解每个步骤。
 
 在本文撰写之时，一个2核8GB内存的虚拟机的现货定价仅为每小时0.01060美元，相当于每年113.44美元，**比现收现付制价格节省了83.76%。**相比之下，一个2核4GB内存的AWS虚拟机的现货定价大约为每年462美元。
-At the time of this article, spot pricing for a virtual machine with 2 Cores and 8 GB memory costs as little as $0.01060 per hour which works out at about $113.44 a year, **a saving of 83.76%! compared to normal pay as you go prices.** In comparison a virtual machine in AWS with 2 Cores and 4 GB Memory with spot pricing is around $462 a year.
 
-## Initial Subscription Configuration <a id="6e8d"></a>
+## 初始订阅配置
 
-### Set up 2 Factor <a id="b9d0"></a>
+### 设定2个因素
 
 First you will need a Microsoft Account, if you don’t have one already you will see an option to create one at the following link. If you already have one, make sure to set up 2 Factor authentication to secure your node by going to the following link and then selecting “Two-step verification” and following the steps provided.
 
@@ -323,5 +322,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTgwOTUwNSwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbMTkzNDE5ODczMCwtODU4MDc1MDIxXX0=
 -->
