@@ -219,7 +219,6 @@ Stopping service...
 ```
 
 然后它会将您的节点升级至最新版本，升级完成后，开始节点备份并打印最新版本的信息。
-It will then upgrade your node to the latest version, and after it's done, start the node back up, and print out the information about the latest version:
 
 ```text
 Node upgraded, starting service...
@@ -228,8 +227,9 @@ avalanche/1.1.1 [network=mainnet, database=v1.0.0, commit=f76f1fd5f99736cf468413
 Done!
 ```
 
-## What next?
+## 下一步呢？
 
+就是这样，您正在运行AvalancheGo节点了！恭喜！如果您做到了，请在我们的上告知我们！
 That's it, you're running an AvalancheGo node! Congratulations! Let us know you did it on our [Twitter](https://twitter.com/avalancheavax), [Telegram](https://t.me/avalancheavax) or [Reddit](https://t.me/avalancheavax)!
 
 If you're on a residential network \(dynamic IP\), don't forget to set up port forwarding. If you're on a cloud service provider, you're good to go.
@@ -239,8 +239,8 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzOTI2MTc4LDk5NzYyNDAzNSwtNDEyMT
-cwNjk3LDM4MzQyOTg3MSwtMTYyOTQ3MDEwNywtMTEyNjc1NzA2
-OSwtMTM3OTIxODkwNSwxNDg3NjMzNzg3LDE5ODQ1ODQ1ODAsMT
-Q3MDMxMzM2Myw1NDgzMDE5MV19
+eyJoaXN0b3J5IjpbMTY4NDM3NDY4OSw5OTc2MjQwMzUsLTQxMj
+E3MDY5NywzODM0Mjk4NzEsLTE2Mjk0NzAxMDcsLTExMjY3NTcw
+NjksLTEzNzkyMTg5MDUsMTQ4NzYzMzc4NywxOTg0NTg0NTgwLD
+E0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
 -->
