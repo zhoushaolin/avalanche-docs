@@ -53,11 +53,11 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 由于型号和路由器配置过多，因此我们无法就具体应该做什么给出意见，但是可以找到线上指南\(如[this](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)或[this](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/)\)，您的服务供应商支持可能也有所帮助。
 
-## Running the script
+## 运行脚本
 
-So, now that you prepared your system and have the info ready, let's get to it.
+所以，既然您已经准备好了系统和所需信息，那就开始吧。
 
-To download and run the script, enter the following in the terminal:
+如需下载并运行脚本，请在终端输入下列信息：
 
 ```text
 wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/avalanchego-installer.sh;\
@@ -238,7 +238,7 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk0NzAxMDcsLTExMjY3NTcwNjksLT
-EzNzkyMTg5MDUsMTQ4NzYzMzc4NywxOTg0NTg0NTgwLDE0NzAz
-MTMzNjMsNTQ4MzAxOTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NzA0MDczMDgsLTE2Mjk0NzAxMDcsLT
+ExMjY3NTcwNjksLTEzNzkyMTg5MDUsMTQ4NzYzMzc4NywxOTg0
+NTg0NTgwLDE0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
 -->
