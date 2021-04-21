@@ -254,10 +254,9 @@ sudo reboot
 
 ### 设置Avalanche节点
 
-现在，我们需要设置我们的Avalanche节点。为此，请按照[Set Up Avalanche Node With Installer](set-up-node-with-installer.md)教程，将安装过程自动化。您需要从我们之前设置的Azure端口复制的“IPv4公共IP”。
+现在，我们需要设置我们的Avalanche节点。为此，请按照[Set Up Avalanche Node With Installer](set-up-node-with-installer.md)教程，安装过程自动进行。您需要从我们之前设置的Azure端口复制的“IPv4 Public IP”。
 
-Now we’ll need to set up our Avalanche node. To do this, follow the [Set Up Avalanche Node With Installer](set-up-node-with-installer.md) tutorial which automates the installation process. You will need the “IPv4 Public IP” copied from the Azure Portal we set up earlier.
-
+一旦完成安装，我们的节点应处于引导中！我们可以运行以下命令来查看avalanchego节点的最新状态：
 Once the installation is complete, our node should now be bootstrapping! We can run the following command to take a peek at the latest status of the avalanchego node:
 
 ```text
@@ -324,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjAzMzc5NCwtNTQxMTI1Mzk5LC0xNz
+eyJoaXN0b3J5IjpbMjE0NTY1ODQ3OCwtNTQxMTI1Mzk5LC0xNz
 E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
 MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
