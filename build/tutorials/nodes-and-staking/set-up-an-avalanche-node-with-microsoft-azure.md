@@ -12,10 +12,10 @@
 
 目前，成为验证方所需的最低质押金额是2000AVAX\(随着价格的上涨，这个数字会随着时间的推移而减少\)。或者，验证方也可以收取少许费用，让用户将他们的权益委托给他们，以帮助降低运行成本。您可以使用计算器[here](https://vscout.io/)查看与委托相比运行一个节点能获得多少报酬。
 
-建议每个人尽可能运行自己的验证程序，但对于那些不满足最低质押金额并希望委托的人，可以使用我现在运行的这一节点，参见[该网址](https://avascan.info/staking/validator/NodeID-MGrikMRTmooL1j7uawPHjaMS1cXkbewdb)。
-I encourage everyone to run their own validators where possible, but for those that don’t meet the minimum staking requirements and want to delegate I am currently running a node which you can find [here](https://avascan.info/staking/validator/NodeID-MGrikMRTmooL1j7uawPHjaMS1cXkbewdb).
+建议每个人尽可能运行自己的验证程序，但对于那些不满足最低质押金额并希望委托的人，可以使用我现在运行的这一节点，详见[here](https://avascan.info/staking/validator/NodeID-MGrikMRTmooL1j7uawPHjaMS1cXkbewdb)。
 
-In this article we will step through the process of configuring a node on Microsoft Azure. This tutorial assumes no prior experience with Microsoft Azure and will go through each step with as few assumptions possible.
+在本文中，我们将逐步讲解在Microsoft Azure上配置节点的过程。本教程假设您之前没有使用Microsoft Azure的经验，并且将以尽可能少的假设讲解每个步骤。
+
 
 At the time of this article, spot pricing for a virtual machine with 2 Cores and 8 GB memory costs as little as $0.01060 per hour which works out at about $113.44 a year, **a saving of 83.76%! compared to normal pay as you go prices.** In comparison a virtual machine in AWS with 2 Cores and 4 GB Memory with spot pricing is around $462 a year.
 
@@ -323,5 +323,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE5NDk3NjUsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbMjA1NDQ4MjM3MCwtODU4MDc1MDIxXX0=
 -->
