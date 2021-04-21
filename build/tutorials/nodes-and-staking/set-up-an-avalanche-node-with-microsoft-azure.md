@@ -156,16 +156,17 @@
 
 ![Image for post](https://miro.medium.com/max/456/1*FCAVco29fcianH4TjxVGzQ.png)
 
-Once your deployment has finished, select “Go to resource”
+完成部署后，选择 “Go to resource”
 
 ![Image for post](https://miro.medium.com/max/608/1*dXl1RkH6xZvHkdI1d-XsOQ.png)
 
-## Change the Provisioned Disk Size <a id="00dc"></a>
+## 修改配置磁盘的大小
 
-By default, the Ubuntu VM will be provisioned with a 30 GB Premium SSD, whilst this should be sufficient, I personally didn’t want the hassle of potentially needing to extend this later into the staking period. I have included the steps below if you want to increase it to 64 GB or if you ever need to increase it at a later date.
+默认情况下，Ubuntu虚拟机将配置一个30GB的高级固态硬盘，虽然这应该已经足够了，但我个人不希望出现质押期间还要为其扩容的麻烦。如果您想将其增加到64GB，或者以后需要增加，可以参照以下步骤。
 
 ![Image for post](https://miro.medium.com/max/880/1*2uJoRLC586qLEhr1RNNeTg.png)
 
+要更改磁盘大小，需要将虚拟机停止并解除配置。选择“Stop”并等待状态显示为解除配置。然后选定左侧的“磁盘”。
 To change the Disk size, the VM needs to be stopped and deallocated. Select “Stop” and wait for the status to show deallocated. Then select “Disks” on the left.
 
 ![Image for post](https://miro.medium.com/max/976/1*eUCBMgyQtEukvCyi3pm48g.png)
@@ -322,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDM3NzE2NywtNTQxMTI1Mzk5LC0xNz
-E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
-MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbNTEwMzkwODEzLC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
