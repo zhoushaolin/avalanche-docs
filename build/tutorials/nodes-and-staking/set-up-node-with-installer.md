@@ -16,13 +16,14 @@
 
 如果您已经在电脑上运行一个节点，那么请在运行此脚本前停止运行。
 
-#### 终端上的节点运行Node running from terminal
+#### 终端上的节点运行
 
-If your node is running in a terminal stop it by pressing `ctrl+C`.
+如果您的节点在终端上运行，请按下`ctrl+C`，停止运行。
 
-#### Node running as a service
+#### 作为一项服务来运行节点
 
-If your node is already running as a service, then you probably don't need this script. You're good to go.
+如果您的节点已经作为一项服务在运行，那么您可能不需要此脚本。您已经可以开始了。
+ your node is already running as a service, then you probably don't need this script. You're good to go.
 
 #### Node running in the background
 
@@ -238,5 +239,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzE4MDk1N119
+eyJoaXN0b3J5IjpbNjgyMDg3MTU2XX0=
 -->
