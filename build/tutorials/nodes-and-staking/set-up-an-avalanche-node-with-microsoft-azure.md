@@ -190,15 +190,15 @@
 
 下面的说明介绍了如何将一台Windows 10设备连接到虚拟机。有关如何将一台ubuntu设备连接到虚拟机的说明，请参阅[AWS tutorial](https://stackedit.io/setting-up-an-avalanche-node-with-amazon-web-services-aws.md)。
 
-在本地个人计算机C盘根目录中创建一个名为Avalanche的文件夹，然后将之前下载的 Avalanche\_key.pem文件移动到该文件夹中。然后右击该文件，选择属性。转到安全选项卡，在底部选择“高级”。
-On your local PC, create a folder on the root of the C: drive called Avalanche and then move the Avalanche\_key.pem file you downloaded before into the folder. Then right click the file and select Properties. Go to the security tab and select “Advanced” at the bottom
+在本地个人计算机C盘根目录中创建一个名为Avalanche的文件夹，然后将之前下载的 Avalanche\_key.pem文件移动到该文件夹中。然后右击该文件，选择属性。转到安全选项卡，在底部选择“Advanced”。
 
 ![Image for post](https://miro.medium.com/max/719/1*KlzhuVcn5Vt0imxDPblBtA.png)
 
-Select “Disable inheritance” and then “Remove all inherited permissions from this object” to remove all existing permissions on that file.
+选择“Disable inheritance”，然后点击“Remove all inherited permissions from this object”以删除该文件上的所有现有权限。
 
 ![Image for post](https://miro.medium.com/max/740/1*VxuomVeWbhYquRynA8hP4Q.png)
 
+然后选择“添加”添加一个新的权限，并在顶部选择“选定一个主体”。在弹出的对话框中输入您用于登录计算机的用户名。在本实例中，我以本地用户Seq的身份登录，您可能有用于登录的微软账号，因此，使用您登录个人电脑的账号，点“验证姓名”，账号下面应该加上下划线以进行验证，然后点OK。
 Then select “Add” to add a new permission and choose “Select a principal” at the top. From the pop-up box enter in your user account that you use to log into your machine. In this example I log on with a local user called Seq, you may have a Microsoft account that you use to log in, so use whatever account you login to your PC with and press “Check Names” and it should underline it to verify and press OK.
 
 ![Image for post](https://miro.medium.com/max/758/1*sMxk7zaRHVTqA0UyHTKwzQ.png)
@@ -323,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NDI2MDkzLC01NDExMjUzOTksLTE3MT
-Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
-LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTcyMDg1MDExNywtNTQxMTI1Mzk5LC0xNz
+E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
+MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
