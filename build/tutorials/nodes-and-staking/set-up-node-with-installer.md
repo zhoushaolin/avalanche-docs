@@ -49,8 +49,8 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 #### 在家庭连接上运行
 
-如果您正在一台住宅网络连接的计算机上运行节点，则您拥有一个动态IP；换言之，您的IP会定期变化。安装脚本会针对此情况合理配置节点。但是，如果是家庭连接，您需要设置从互联网到节点所安装计算机转发“9651”端口的入站端口。
-
+如果您正在一台住宅网络连接的计算机上运行节点，则您拥有一个动态IP；换言之，您的IP会定期变化。安装脚本会针对此情况合理配置节点。但是，如果是家庭连接，您需要设置从互联网到节点所安装计算机转发`9651` 端口的入站端口。
+但是，对于home连接，您需要设置端口“9651”的入站端口从internet转发到安装节点的计算机。
 If you're running a node on a computer that is on a residential internet connection, you have a dynamic IP; that is, your IP will change periodically. The install script will configure the node appropriately for that situation. But, for a home connection, you will need to set up inbound port forwarding of port `9651` from the internet to the computer the node is installed on.
 
 As there are too many models and router configurations, we cannot provide instructions on what exactly to do, but there are online guides to be found \(like [this](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/), or [this](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/) \), and your service provider support might help too.
@@ -240,6 +240,6 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTcwMDI1MiwxNDg3NjMzNzg3LDE5OD
-Q1ODQ1ODAsMTQ3MDMxMzM2Myw1NDgzMDE5MV19
+eyJoaXN0b3J5IjpbLTEzNzkyMTg5MDUsMTQ4NzYzMzc4NywxOT
+g0NTg0NTgwLDE0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
 -->
