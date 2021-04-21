@@ -49,8 +49,7 @@
 
 ![Image for post](https://miro.medium.com/max/565/1*3nSPwgEM3oIgrIlIo-TS1w.png)
 
-选择Ubuntu 18.04 LTS服务器\（通常在市场热门位置，或者搜索栏搜索\）。
-Select Ubuntu Server 18.04 LTS \(this will normally be under the popular section or alternatively search for it in the marketplace\)
+选择Ubuntu 18.04 LTS服务器\(通常在市场热门位置，或者搜索栏搜索\)。
 
 ![Image for post](https://miro.medium.com/max/605/1*Y0iZEZExC36c7FXqPlrPuw.png)
 
@@ -322,6 +321,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTcwOTEwNCwxMjM0NTEyOTEwLC04NT
+eyJoaXN0b3J5IjpbLTkzNDE3NDU0MSwxMjM0NTEyOTEwLC04NT
 gwNzUwMjFdfQ==
 -->
