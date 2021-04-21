@@ -308,22 +308,22 @@ curl -X POST --data '{
 ```
 
 写着“NodeID-Lve2PzuCvXZrqn8Stqwy9vWZux6VyGUCR”的部分就是我们的节点ID，这一整段都是。复制并保存在笔记中。该值无需保密，但当我们将节点提交为验证程序时，就必须保密。
-That portion that says, “NodeID-Lve2PzuCvXZrqn8Stqwy9vWZux6VyGUCR” is our NodeID, the entire thing. Copy that and keep that in our notes. There’s nothing confidential or secure about this value, but it’s an absolute must for when we submit this node to be a validator.
 
-### Backup your Staking Keys <a id="ef3e"></a>
+### 备份您的质押密钥
 
-The last thing that should be done is backing up our staking keys in the untimely event that our instance is corrupted or terminated. It’s just good practice for us to keep these keys. To back them up, we use the following command:
+最后，我们需要在实例中断或终止等不合时宜事件中备份我们的质押密钥。保管好密钥是一个好习惯。如需备份密钥，我们可使用如下命令：
 
 ```text
 scp -i C:\Avalanche\avalanche_key.pem -r ubuntu@EnterYourAzureIPHere:/home/ubuntu/.avalanchego/staking C:\Avalanche
 ```
 
+与之前一样，我们需要用检索到的合适值来替换“在此输入您的AzureIP”。它备份了我们的质押密钥并将证书质押到之前创建的C:\Avalanche文件夹中。
 As before, we’ll need to replace “EnterYourAzureIPHere” with the appropriate value that we retrieved. This backs up our staking key and staking certificate into the C:\Avalanche folder we created before.
 
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUwODcxNTcsLTU0MTEyNTM5OSwtMT
-cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
-NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbMjU1OTY0NDE1LC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
