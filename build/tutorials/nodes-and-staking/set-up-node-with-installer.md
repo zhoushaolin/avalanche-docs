@@ -199,15 +199,15 @@ AvalancheGo仍是一个进行中的项目，因此会有定期版本升级。大
 Jan 08 10:26:45 ip-172-31-16-229 avalanchego[6335]: INFO [01-08|10:26:45] avalanchego/network/peer.go#526: beacon 9CkG9MBNavnw7EVSRsuFr7ws9gascDQy3 attempting to connect with newer version avalanche/1.1.1. You may want to update your client
 ```
 
-It is recommended to always upgrade to the latest version, because new versions bring bug fixes, new features and upgrades.
+由于新版本修复了错误并带来了新功能和升级，因此推荐始终升级至最新版本。
 
-To upgrade your node, just run the installer script again:
+如需升级您的节点，只需再次运行安装脚本即可：
 
 ```text
 ./avalanchego-installer.sh
 ```
 
-It will detect that you already have AvalancheGo installed:
+它会检测您是否已经安装了AvalancheGo：
 
 ```text
 AvalancheGo installer
@@ -218,6 +218,7 @@ Found AvalancheGo systemd service already installed, switching to upgrade mode.
 Stopping service...
 ```
 
+然后它会将您的节点升级至最新版本，升级完成后，开始节点备份并打印最新版本的信息。
 It will then upgrade your node to the latest version, and after it's done, start the node back up, and print out the information about the latest version:
 
 ```text
@@ -238,8 +239,8 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NjI0MDM1LC00MTIxNzA2OTcsMzgzND
-I5ODcxLC0xNjI5NDcwMTA3LC0xMTI2NzU3MDY5LC0xMzc5MjE4
-OTA1LDE0ODc2MzM3ODcsMTk4NDU4NDU4MCwxNDcwMzEzMzYzLD
-U0ODMwMTkxXX0=
+eyJoaXN0b3J5IjpbNTUzOTI2MTc4LDk5NzYyNDAzNSwtNDEyMT
+cwNjk3LDM4MzQyOTg3MSwtMTYyOTQ3MDEwNywtMTEyNjc1NzA2
+OSwtMTM3OTIxODkwNSwxNDg3NjMzNzg3LDE5ODQ1ODQ1ODAsMT
+Q3MDMxMzM2Myw1NDgzMDE5MV19
 -->
