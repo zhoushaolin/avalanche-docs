@@ -63,7 +63,7 @@
 
 ![Image for post](https://miro.medium.com/max/769/1*XOpa22qSdNI-0PW5oIyUhQ.png)
 
-您可以选择使用Spot instances定价来节省大量的运行成本。现货实例采用供求市场价格结构。随着实例需求的增加，现货实例的价格也会随之上涨。如果产能不足，那么您的虚拟机将被关闭。这种情况发生的可能性非常低，特别是如果您选择了“仅产能”选项。即使在极少数情况下，它确实被暂时关闭了，您只需要保证在线时间达到60%就可以获得质押报酬，并且在Avalanche中不会出现削减。
+您可以选择使用Spot instance(点实例)定价来节省大量的运行成本。Spot instance采用供求市场价格结构。随着实例需求的增加，Spot instance的价格也会随之上涨。如果产能不足，那么您的虚拟机将被关闭。这种情况发生的可能性非常低，特别是如果您选择了Capacity only()选项。即使在极少数情况下，它确实被暂时关闭了，您只需要保证在线时间达到60%就可以获得质押报酬，并且在Avalanche中不会出现削减。
 You have the option of using spot pricing to save significant amounts on running costs. Spot instances use a supply-and-demand market price structure. As demand for instances goes up, the price for the spot instance goes up. If there is insufficient capacity, then your VM will be turned off. The chances of this happening are incredibly low though, especially if you select the Capacity only option. Even in the unlikely event it does get turned off temporarily you only need to maintain at least 60% up time to receive the staking rewards and there is no slashing implemented in Avalanche.
 
 Select Yes for Azure Spot instance, select Eviction type to Capacity Only and **make sure to set the eviction policy to Stop / Deallocate — This is very important otherwise the VM will be deleted**
@@ -322,6 +322,6 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxNjkyMTk1LDEyMzQ1MTI5MTAsLTg1OD
-A3NTAyMV19
+eyJoaXN0b3J5IjpbLTE4MjUxMTk3MDQsMTIzNDUxMjkxMCwtOD
+U4MDc1MDIxXX0=
 -->
