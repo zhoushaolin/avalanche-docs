@@ -95,15 +95,14 @@ Enter your connection type [1,2]:
 ```
 
 如果您是动态IP，请输入`1`，如果您是固定IP，请输入`2`。如果您是固定IP，则它会尝试自动检测IP并询问确认。
-enter `1` if you have dynamic IP, and `2` if you have a static IP. If you are on a static IP, it will try to auto-detect the IP and ask for confirmation.
 
 ```text
 Detected '3.15.152.14' as your public IP. Is this correct? [y,n]:
 ```
 
-Confirm with `y`, or `n` if the detected IP is wrong \(or empty\), and then enter the correct IP at the next prompt.
+按`y`确认，如果检测到的IP有误\(或为空\)，请按`n`，然后在下一个弹窗中输入正确IP。
 
-The script will then continue with system service creation and finish with starting the service.
+然后，脚本会继续创建系统服务，并在启动服务时结束。The script will then continue with system service creation and finish with starting the service.
 
 ```text
 Installing service with public IP: 3.15.152.14
@@ -239,7 +238,7 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMxMjg3ODMsLTE2Mjk0NzAxMDcsLT
-ExMjY3NTcwNjksLTEzNzkyMTg5MDUsMTQ4NzYzMzc4NywxOTg0
-NTg0NTgwLDE0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
+eyJoaXN0b3J5IjpbMTYyMjk5MzA1OSwtMTYyOTQ3MDEwNywtMT
+EyNjc1NzA2OSwtMTM3OTIxODkwNSwxNDg3NjMzNzg3LDE5ODQ1
+ODQ1ODAsMTQ3MDMxMzM2Myw1NDgzMDE5MV19
 -->
