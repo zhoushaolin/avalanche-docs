@@ -41,8 +41,7 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 ### 联网注意事项
 
-如需成功运行，AvalancheGo需要通过网络接口“9651”进行联网。在您进行安装之前，您需要确定您的节点将要运行的联网环境。
-To run successfully, AvalancheGo needs to accept connections from the Internet on the network port `9651`. Before you proceed with the installation, you need to determine the networking environment your node will run in.
+要想成功运行，AvalancheGo需要通过网络接口`9651`进行联网。在您进行安装之前，您需要确定您的节点将要运行的联网环境。
 
 #### Running on a cloud provider
 
@@ -239,6 +238,6 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODYyNzMyMiwxNDg3NjMzNzg3LDE5OD
-Q1ODQ1ODAsMTQ3MDMxMzM2Myw1NDgzMDE5MV19
+eyJoaXN0b3J5IjpbODk5NjQ2ODI1LDE0ODc2MzM3ODcsMTk4ND
+U4NDU4MCwxNDcwMzEzMzYzLDU0ODMwMTkxXX0=
 -->
