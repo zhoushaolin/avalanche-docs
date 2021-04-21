@@ -136,12 +136,11 @@
 
 ![Image for post](https://miro.medium.com/max/914/1*Zg9mHCkU7G5BoinN0EWZAg.png)
 
-选择“+ Add an inbound rule”为Avalanche协议添加最后一个规则，以便其他节点可以与您的节点通信。这条规则需要对所有人开放，所以请将“Source”设置为“Any”。将目标端口范围更改为“9651”并将协议更改为“TCP”。将优先级改为120，并为其命名为“Avalanche\_Protocol”，然后点添加。
-
-Select “+ Add an inbound rule” to add a final rule for the Avalanche Protocol so that other nodes can communicate with your node. This rule needs to be open to everyone so keep “Source” set to “Any”. Change the Destination port range to “9651” and change the protocol to “TCP”. Enter a priority of 120 and a name of Avalanche\_Protocol and press Add.
+选择“+ Add an inbound rule”为Avalanche协议添加最后一个规则，以便其他节点可以与您的节点通信。这条规则需要对所有人开放，所以请将“Source”设置为“Any”。将目标端口范围更改为“9651”并将协议更改为“TCP”。将priority改为120，并把协议命名为“Avalanche\_Protocol”，然后点击Add。
 
 ![Image for post](https://miro.medium.com/max/662/1*tIMEp7O83NIUitWwlcHAxw.png)
 
+网络安全组应该像下面这样\（除了你的公共IP地址不同\），然后按OK。
 The network security group should look like the below \(albeit your public IP address will be different\) and press OK.
 
 ![Image for post](https://miro.medium.com/max/363/1*7rAR3C_UrX94iXxL4sdV9g.png)
@@ -324,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzkwMTk5NywtNTQxMTI1Mzk5LC0xNz
-E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
-MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbNTA0NDM4OTEwLC01NDExMjUzOTksLTE3MT
+Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
+LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
