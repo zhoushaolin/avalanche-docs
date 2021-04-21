@@ -26,13 +26,14 @@
 
 #### 后台运行的节点
 
-If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
+如果您的节点正在后台运行\(例如，通过与`nohup`来运行\)，那么就通过运行`ps aux | grep avalanche`来查找运行节点的进程。其可能输出有：
 
 ```text
 ubuntu  6834  0.0  0.0   2828   676 pts/1    S+   19:54   0:00 grep avalanche
 ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/build/avalanchego
 ```
 
+查找不包含 `grep`的行。本例中，不包含“grep”的是第二行。其中展示了您的节点信息。请注意本例中的进程ID是“2630”。通过运行“kill -2 2630”，即可停止节点。
 Look for line that doesn't have `grep` on it. In this example, that is the second line. It shows information about your node. Note the process id, in this case, `2630`. Stop the node by running `kill -2 2630`.
 
 #### Node working files
@@ -238,5 +239,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MzAxOTFdfQ==
+eyJoaXN0b3J5IjpbLTY2NTQyMDU5OSw1NDgzMDE5MV19
 -->
