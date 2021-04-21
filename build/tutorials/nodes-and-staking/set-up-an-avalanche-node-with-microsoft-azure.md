@@ -132,9 +132,7 @@
 
 ![Image for post](https://miro.medium.com/max/1039/1*iLP9gUH4weTfsPcmeUbXLw.png)
 
-然后选择“+ Add an inbound rule”，为RPC访问添加另一个规则，仅限于您的IP。将Source更改为“IP Addresses”，并在Source IP 字段中输入从谷歌搜索到的公共IP。这次将“Destination port ranges”字段更改为9650，协议选择“TCP”。将优先级改为110，并为其命名为“Avalanche\_RPC”，然后点添加。
-
-Then select “+ Add an inbound rule” to add another rule for RPC access, this should also be restricted to only your IP. Change Source to “IP Addresses” and enter in your public IP returned from google into the Source IP field. This time change the “Destination port ranges” field to 9650 and select “TCP” as the protocol. Change the priority to 110 and give it a name of “Avalanche\_RPC” and press Add.
+然后选择“+ Add an inbound rule”，为RPC访问添加另一个规则，仅限于您的IP。将Source更改为“IP Addresses”，并在Source IP 字段中输入从谷歌搜索到的公共IP。这次将“Destination port ranges”字段更改为9650，协议选择“TCP”。将优先级priority改为110，并为其命名为“Avalanche\_RPC”，然后点击Add。
 
 ![Image for post](https://miro.medium.com/max/914/1*Zg9mHCkU7G5BoinN0EWZAg.png)
 
@@ -324,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTExNDAwMiwtMTcxNDc4Njc1NiwxMj
+eyJoaXN0b3J5IjpbLTU0MTEyNTM5OSwtMTcxNDc4Njc1NiwxMj
 U2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3NzIsMTIzNDUxMjkx
 MCwtODU4MDc1MDIxXX0=
 -->
