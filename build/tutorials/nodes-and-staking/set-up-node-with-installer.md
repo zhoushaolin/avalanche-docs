@@ -167,7 +167,7 @@ sudo journalctl -u avalanchego | grep "node's ID"
 Jan 05 10:38:38 ip-172-31-30-64 avalanchego[2142]: INFO [01-05|10:38:38] avalanchego/node/node.go#428: Set node's ID to 6seStrauyCnVV7NEVwRbfaT9B6EnXEzfY
 ```
 
-Prepend `NodeID-` to the value to get, for example, `NodeID-6seStrauyCnVV7NEVwRbfaT9B6EnXEzfY`. Store that; it will be needed for staking or looking up your node.
+为`NodeID-`预设要得到的值，例如`NodeID-6seStrauyCnVV7NEVwRbfaT9B6EnXEzfY`, 将它保存；质押或查找您的ID时需要用到。
 
 Your node should be in the process of bootstrapping now. You can monitor the progress by issuing the following command:
 
@@ -238,8 +238,8 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjE3MDY5NywzODM0Mjk4NzEsLTE2Mj
-k0NzAxMDcsLTExMjY3NTcwNjksLTEzNzkyMTg5MDUsMTQ4NzYz
-Mzc4NywxOTg0NTg0NTgwLDE0NzAzMTMzNjMsNTQ4MzAxOTFdfQ
-==
+eyJoaXN0b3J5IjpbLTI2NzcxNTk1MywtNDEyMTcwNjk3LDM4Mz
+QyOTg3MSwtMTYyOTQ3MDEwNywtMTEyNjc1NzA2OSwtMTM3OTIx
+ODkwNSwxNDg3NjMzNzg3LDE5ODQ1ODQ1ODAsMTQ3MDMxMzM2My
+w1NDgzMDE5MV19
 -->
