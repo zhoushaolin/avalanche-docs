@@ -238,9 +238,9 @@ ssh -i C:\Avalanche\Avalanche\_key.pem ubuntu@13.74.10.81
 
 以下部分摘自Colin关于[在Amazon的AWS上配置Avalanche节点](setting-up-an-avalanche-node-with-amazon-web-services-aws.md)的优秀教程。
 
-### Update Linux with security patches <a id="8a1c"></a>
+### 使用安全补丁更新Linux系统
 
-Now that we are on our node, it’s a good idea to update it to the latest packages. To do this, run the following commands, one-at-a-time, in order:
+我们正在处理节点，建议将其更新至最新安装包。如需更新，请按顺序逐个运行以下命令：
 
 ```text
 sudo apt update
@@ -322,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTA2MzcxLC01NDExMjUzOTksLTE3MT
-Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
-LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbMTIyNDg5Mjk1NiwtNTQxMTI1Mzk5LC0xNz
+E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
+MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
