@@ -19,18 +19,19 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 
 ![Image for post](https://miro.medium.com/max/1504/0*XTh3nZzBI1bkLbwO)
 
-**如需质押，您需要在** [**Platform Chain \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**上提供资金!如果您的资金处于** [**Exchange Chain \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**s, we will need to transfer them to the P-Chain by initiating a cross-chain transfer. If your tokens are locked they are already on the P-Chain, so you don’t need to perform the Cross Chain Transfer from X-Chain to P-Chain.**
+**如需质押，您需要在** [**Platform Chain \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**上提供资金!如果您的资金处于** [**Exchange Chain \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**上, 我们将需要通过启动跨链转账将其转到P链上。如果您的代币已锁定，则您的代币已处于P链上，所以您不需要将资金从X链跨链转账到P链上。**
 
 ![Image for post](https://miro.medium.com/max/1522/0*xKAf0nXSzqIdmBDg)
 
-Enter the amount you wish to transfer to your P-Chain and complete the transfer by clicking the “Transfer” button below.
+输入您希望转账到P链上的金额，并通过点击下方“Transfer”按钮来完成转账。
 
 ![Image for post](https://miro.medium.com/max/1488/0*aremeYNYtKP5nGPx)
 
-Voila!
+就是这！
 
 ![Image for post](https://miro.medium.com/max/1512/0*XP8f8CISy-LJ_Lc3)
 
+目前，我们已经将资金准备好质押在P链上。下一步，您可以给您的钱包添加一个验证程序或委托程序。
 Now, we have our funds ready for staking on the P-Chain. Next, you can add a validator or a delegator to your wallet.
 
 ### **Step 3A: Become a validator!** <a id="60f0"></a>
@@ -88,5 +89,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0MzgyXX0=
+eyJoaXN0b3J5IjpbMTc0OTA3ODA3Ml19
 -->
