@@ -23,12 +23,11 @@
 ### 设定2个因素
 
 首先，您需要一个微软账户，如果还没有，您可以在下面的链接中看到创建账户的选项。如果您有账号，请访问以下链接，然后选择“两步认证”并按照提示的步骤设定2个因素认证来保护你的节点。
-First you will need a Microsoft Account, if you don’t have one already you will see an option to create one at the following link. If you already have one, make sure to set up 2 Factor authentication to secure your node by going to the following link and then selecting “Two-step verification” and following the steps provided.
-
 [https://account.microsoft.com/security](https://account.microsoft.com/security)
 
 ![Image for post](https://miro.medium.com/max/1135/1*tr3rEcrvI4rEpC7KPYqg6g.png)
 
+配置好2个因素后，您就可以访问[https://portal.azure.com](https://portal.azure.com/)并使用微软账号登录到Azure门户。登录后没有订阅，因此我们需要先创建一个。选择下面突出显示的“订阅”：
 Once two factor has been configured log into the Azure portal by going to [https://portal.azure.com](https://portal.azure.com/) and signing in with your Microsoft account. When you login you won’t have a subscription, so we need to create one first. Select “Subscriptions” as highlighted below:
 
 ![Image for post](https://miro.medium.com/max/648/1*5Jp8oXzczaEND-z9_QZaQA.png)
@@ -323,5 +322,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjUzMjAyMCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbMTg0OTcyMDM4OSwtODU4MDc1MDIxXX0=
 -->
