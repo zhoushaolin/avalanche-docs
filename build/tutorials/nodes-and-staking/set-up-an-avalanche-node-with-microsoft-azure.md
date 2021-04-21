@@ -9,8 +9,8 @@
 运行验证程序节点不仅可以让您获得AVAX报酬，之后您还可以验证生态系统中的其他子网，并获得该子网的本地代币。
 
 运行验证程序只需要2个CPU内核、4GB内存和40GB固态硬盘，而且不会消耗大量能源。Avalanche颠覆性的共识机制[revolutionary consensus mechanism](https://medium.com/ava-hub/avalanche-consensus-the-biggest-breakthrough-since-nakamoto-66e9917fd656)能够同时扩展到数百万个参与共识的验证程序，达到空前的去中心化。
-You only need modest hardware requirements of 2 CPU cores, 4 GB Memory and 40 GB SSD to run a validator and it doesn’t use enormous amounts of energy. Avalanche’s [revolutionary consensus mechanism](https://medium.com/ava-hub/avalanche-consensus-the-biggest-breakthrough-since-nakamoto-66e9917fd656) is able to scale to millions of validators participating in consensus at once, offering unparalleled decentralisation.
 
+目前，成为验证方所需的最低质押金额是2000AVAX\(随着价格的上涨，这个数字会随着时间的推移而减少\)。或者，验证方也可以收取少许费用，让用户将他们的权益委托给他们，以帮助降低运行成本。您可以使用计算器[here](https://vscout.io/)查看与委托相比运行一个节点能获得多少报酬。
 Currently the minimum amount required to stake to become a validator is 2,000 AVAX \(which can be reduced over time as price increases\). Alternatively, validators can also charge a small fee to enable users to delegate their stake with them to help towards running costs. You can use a calculator [here](https://vscout.io/) to see how much rewards you would earn when running a node, compared to delegating.
 
 I encourage everyone to run their own validators where possible, but for those that don’t meet the minimum staking requirements and want to delegate I am currently running a node which you can find [here](https://avascan.info/staking/validator/NodeID-MGrikMRTmooL1j7uawPHjaMS1cXkbewdb).
@@ -323,5 +323,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTAwNzU3NCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTE1NTQ3OTM1MTksLTg1ODA3NTAyMV19
 -->
