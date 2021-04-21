@@ -128,9 +128,7 @@
 
 ![Image for post](https://miro.medium.com/max/481/1*fR6SrKhTSTQ4cS3PoFrQfQ.png)
 
-现在您已经拥有了公共IP，请在入站规则下选择“default allow ssh”以对其进行修改。将来源从“Any”更改为“IP Addresses”，然后在Source IP地址字段中输入您从谷歌搜索到的公共IP地址。将底部的优先级改为100，然后点保存。
-
-Now that you have your public IP select the default allow ssh rule on the left under inbound rules to modify it. Change Source from “Any” to “IP Addresses” and then enter in your Public IP address that you found from google in the Source IP address field. Change the Priority towards the bottom to 100 and then press Save.
+现在您已经拥有了公共IP，请在入站规则下选择“default allow ssh”以对其进行修改。将来源从“Any”更改为“IP Addresses”，然后在Source IP地址字段中输入您从谷歌搜索到的公共IP地址。将底部的Priority改为100，然后点击Save。
 
 ![Image for post](https://miro.medium.com/max/1039/1*iLP9gUH4weTfsPcmeUbXLw.png)
 
@@ -324,7 +322,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE0MjY3MSwtMTcxNDc4Njc1NiwxMj
+eyJoaXN0b3J5IjpbMTgzMTUyOTAyMywtMTcxNDc4Njc1NiwxMj
 U2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3NzIsMTIzNDUxMjkx
 MCwtODU4MDc1MDIxXX0=
 -->
