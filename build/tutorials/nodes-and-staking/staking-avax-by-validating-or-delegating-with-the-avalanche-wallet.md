@@ -85,8 +85,8 @@ Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wa
 
 ![Image for post](https://miro.medium.com/max/1600/0*Silj8-uZTm5g9xSi)
 
-恭喜。现在您可以委派Avalanche主网了！Congratulations. You are now delegating the Avalanche Primary Network!
+恭喜。现在您可以委托Avalanche主网了！
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTk2NDAxM119
+eyJoaXN0b3J5IjpbLTM4MjQwODU1Nl19
 -->
