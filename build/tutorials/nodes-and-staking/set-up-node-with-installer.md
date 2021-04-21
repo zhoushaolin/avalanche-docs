@@ -46,9 +46,10 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 #### 在云供应商上运行
 
 如果您的节点正在云供应商计算机实例上运行，则该节点会有一个固定IP。找出该固定IP，或如果您并未准备好，请设置。此脚本会尝试自行找出IP，但是这并非所有环境下都可行，因此您需要检查IP或自行输入。
-If your node is running on a cloud provider computer instance, it will have a static IP. Find out what that static IP is, or set it up if you didn't already. The script will try to find out the IP by itself, but that might not work in all environments, so you will need to check the IP or enter it yourself.
 
-#### Running on a home connection
+#### 在家庭连接上运行
+
+如果您正在一台住宅网络连接的计算机上运行节点，则您拥有一个动态IP；换言之，您的IP会定期变化。安装脚本会针对此情况合理配置节点。但是，如果是家庭连接，您需要设置从互联网到节点所安装计算机转发“9651”端口的入站端口。
 
 If you're running a node on a computer that is on a residential internet connection, you have a dynamic IP; that is, your IP will change periodically. The install script will configure the node appropriately for that situation. But, for a home connection, you will need to set up inbound port forwarding of port `9651` from the internet to the computer the node is installed on.
 
@@ -239,6 +240,6 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU0NDE4ODMsMTQ4NzYzMzc4NywxOT
-g0NTg0NTgwLDE0NzAzMTMzNjMsNTQ4MzAxOTFdfQ==
+eyJoaXN0b3J5IjpbMTI4OTcwMDI1MiwxNDg3NjMzNzg3LDE5OD
+Q1ODQ1ODAsMTQ3MDMxMzM2Myw1NDgzMDE5MV19
 -->
