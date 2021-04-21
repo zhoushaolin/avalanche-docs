@@ -6,8 +6,9 @@
 
 运行验证程序和通过Avalanche进行权益质押可产生极具竞争力的报酬，报酬范围在9.69%至11.54%之间，取决于您权益质押的时间长短。费率最高为一年期费率，最低为14天费率。不存在削减，所以不必担心客户端硬件故障或漏洞导致您损失部分或全部质押权益。相反，在Avalanche平台，您只需要保证在线时间达到60%就可以获得报酬。如果您没有达到这个要求，您不会被削减，但也无法得到报酬。**您也不需要将密钥放到节点上来启动验证**。即使有人侵入了你的云环境，获得了节点的访问权限，他们最多也只能关闭该节点。
 
-运行验证程序节点不仅可以让您获得AVAX报酬，之后您还可以验证生态系统中的其他子网，并获得子网的本地代币。Not only does running a validator node enable you to receive rewards in AVAX, but later you will also be able to validate other subnets in the ecosystem as well and receive rewards in the token native to their subnets.
+运行验证程序节点不仅可以让您获得AVAX报酬，之后您还可以验证生态系统中的其他子网，并获得该子网的本地代币。
 
+运行验证程序只需要2个CPU内核、4GB内存和40GB固态硬盘，而且不会消耗大量能源。Avalanche颠覆性的共识机制[revolutionary consensus mechanism](https://medium.com/ava-hub/avalanche-consensus-the-biggest-breakthrough-since-nakamoto-66e9917fd656)能够同时扩展到数百万个参与共识的验证程序，达到空前的去中心化。
 You only need modest hardware requirements of 2 CPU cores, 4 GB Memory and 40 GB SSD to run a validator and it doesn’t use enormous amounts of energy. Avalanche’s [revolutionary consensus mechanism](https://medium.com/ava-hub/avalanche-consensus-the-biggest-breakthrough-since-nakamoto-66e9917fd656) is able to scale to millions of validators participating in consensus at once, offering unparalleled decentralisation.
 
 Currently the minimum amount required to stake to become a validator is 2,000 AVAX \(which can be reduced over time as price increases\). Alternatively, validators can also charge a small fee to enable users to delegate their stake with them to help towards running costs. You can use a calculator [here](https://vscout.io/) to see how much rewards you would earn when running a node, compared to delegating.
@@ -322,5 +323,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzYyNzE0NSwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTk3MTAwNzU3NCwtODU4MDc1MDIxXX0=
 -->
