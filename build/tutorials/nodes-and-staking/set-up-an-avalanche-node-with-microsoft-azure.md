@@ -198,11 +198,11 @@
 
 ![Image for post](https://miro.medium.com/max/740/1*VxuomVeWbhYquRynA8hP4Q.png)
 
-然后选择“添加”添加一个新的权限，并在顶部选择“选定一个主体”。在弹出的对话框中输入您用于登录计算机的用户名。在本实例中，我以本地用户Seq的身份登录，您可能有用于登录的微软账号，因此，使用您登录个人电脑的账号，点“验证姓名”，账号下面应该加上下划线以进行验证，然后点OK。
-Then select “Add” to add a new permission and choose “Select a principal” at the top. From the pop-up box enter in your user account that you use to log into your machine. In this example I log on with a local user called Seq, you may have a Microsoft account that you use to log in, so use whatever account you login to your PC with and press “Check Names” and it should underline it to verify and press OK.
+然后选择“Add”添加一个新的权限，并在顶部选择“Select a principal”。在弹出的对话框中输入您用于登录计算机的用户名。在本实例中，我以本地用户Seq的身份登录，您可能有用于登录的微软账号，因此，使用您登录个人电脑的账号，点“Check Names”，账号下面应该加上下划线以进行验证，然后点击OK。
 
 ![Image for post](https://miro.medium.com/max/758/1*sMxk7zaRHVTqA0UyHTKwzQ.png)
 
+然后确保在权限部分仅选择“读取并执行”和“读取”，然后按OK。这只意味着，为了安全起见，密钥文件不能被其他账户修改或访问，所以他们不能访问您的Avalanche节点。
 Then from the permissions section make sure only “Read & Execute” and “Read” are selected and press OK.
 
 ![Image for post](https://miro.medium.com/max/903/1*5Fkh3FJQuNeWQyEd0irjtA.png)
@@ -323,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDg1MDExNywtNTQxMTI1Mzk5LC0xNz
-E0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDksMTU5NjkwNDc3
-MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzAwMzU4MDIsLTU0MTEyNTM5OSwtMT
+cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
+NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
