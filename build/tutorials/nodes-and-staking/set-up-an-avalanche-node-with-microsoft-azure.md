@@ -202,11 +202,11 @@
 
 ![Image for post](https://miro.medium.com/max/758/1*sMxk7zaRHVTqA0UyHTKwzQ.png)
 
-然后确保在权限部分仅选择“读取并执行”和“读取”，然后按OK。这只意味着，为了安全起见，密钥文件不能被其他账户修改或访问，所以他们不能访问您的Avalanche节点。
-Then from the permissions section make sure only “Read & Execute” and “Read” are selected and press OK.
+然后确保在权限部分仅选择“Read & Execute”和“Read”，然后点击OK。
 
 ![Image for post](https://miro.medium.com/max/903/1*5Fkh3FJQuNeWQyEd0irjtA.png)
 
+应该像下面这样，除了个人电脑名称/用户名不同。这只意味着，为了安全起见，密钥文件不能被其他账户修改或访问，所以他们不能访问您的Avalanche节点。
 It should look something like the below, except with a different PC name / user account. This just means the key file can’t be modified or accessed by any other accounts on this machine for security purposes so they can’t access your Avalanche Node.
 
 ![Image for post](https://miro.medium.com/max/736/1*F-YK0xdB92cIweCQFGGRvA.png)
@@ -323,7 +323,7 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAwMzU4MDIsLTU0MTEyNTM5OSwtMT
+eyJoaXN0b3J5IjpbLTE1NDkxMDc4OTgsLTU0MTEyNTM5OSwtMT
 cxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5LDE1OTY5MDQ3
 NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
