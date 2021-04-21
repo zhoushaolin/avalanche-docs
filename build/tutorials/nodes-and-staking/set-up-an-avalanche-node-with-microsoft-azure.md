@@ -35,7 +35,7 @@
 
 ![Image for post](https://miro.medium.com/max/374/1*Lw3HklSSC8NDN2ftQEVgYA.png)
 
-如果您想使用Spot Instance VM现货定价\(这个价格会便宜很多\)，您不能使用免费试用账户\（验证时会收到错误\），所以**务必选择现收现付制。**
+如果您想使用Spot Instance VM现货定价\(这个价格会便宜很多\)，您不能使用免费试用账户Free Trial account\(验证时会收到错误\)，所以**务必选择现收现付Pay-As-You-Go。**
 If you want to use Spot Instance VM Pricing \(which will be considerably cheaper\) you can’t use a Free Trial account \(and you will receive an error upon validation\), so **make sure to select Pay-As-You-Go.**
 
 ![Image for post](https://miro.medium.com/max/789/1*TO5Uh07OkH_QdwludEgapg.png)
@@ -322,5 +322,5 @@ As before, we’ll need to replace “EnterYourAzureIPHere” with the appropria
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjI5MTIyNiwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTE2MDQ5NzcxMzEsLTg1ODA3NTAyMV19
 -->
