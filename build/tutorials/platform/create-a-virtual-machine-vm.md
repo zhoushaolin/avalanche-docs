@@ -16,9 +16,7 @@ Avalanche的核心特征之一是创建新的自定义区块链，这些区块�
 
 为了就线性区块链\(相对于DAG区块链而言\)达成共识，Avalanche采用Snowman共识协议。为了与Snowman兼容，定义区块链的虚拟机必须实现`snowman.VM`接口，我们在[`github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go`](https://github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go)的声明中包含了这个接口。
 
-To reach consensus on linear blockchains \(as opposed to DAG blockchains\), Avalanche uses the Snowman consensus protocol. In order to be compatible with Snowman, the VM that defines the blockchain must implement the `snowman.VM` interface, which we include below from its declaration in[`github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go`](https://github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go).
-
-The interface is big, but don’t worry, we’ll explain each method and see an implementation example. It’s not necessary you understand every nuance.
+接口很多，但是不用担心，我们将对每种方法进行解释并观看一个实现示例。您没必要了解每一个细节。
 
 ```cpp
 // ChainVM defines the methods a Virtual Machine must implement to use the Snowman consensus engine.
@@ -101,7 +99,9 @@ type ChainVM interface {
 }
 ```
 
-## The snowman.Block Interface
+## Snowman.Block接口
+
+您可能已经注意到了`snowman.Block`接口中引用的“Snowman.Block”类型。它描述了一个区块要成为线性\（Snowman\）链中的一个区块而必须实现的方法。
 
 You may have noticed the `snowman.Block` type referenced in the `snowman.VM` interface. It describes the methods that a block must implement to be a block in a linear \(Snowman\) chain.
 
@@ -719,5 +719,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjI4NjkwMV19
+eyJoaXN0b3J5IjpbMTU0ODQ0NzI1N119
 -->
