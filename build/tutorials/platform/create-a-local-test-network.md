@@ -1,6 +1,8 @@
-# Create a Local Test Network
+# 创建本地测试网络
 
-## Introduction
+## 简介
+
+在入门教程[Get Started tutorial](https://avalanche.gitbook.io/avalanche/build/getting-started)中，我们将一个节点连接到了测试网络。您可能会发现创建一个本地测试网络非常有用。
 
 In the [Get Started tutorial](https://avalanche.gitbook.io/avalanche/build/getting-started), we connect a node to the test network. You might find it useful to create a local test network.
 
@@ -151,3 +153,6 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ5MTM1MDMzXX0=
+-->
