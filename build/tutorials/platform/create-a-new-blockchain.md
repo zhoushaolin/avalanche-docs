@@ -156,9 +156,7 @@ curl -X POST --data '{
 
 ## 创建区块链
 
-现在，让我们创建一个新的区块链。为此，调用[“platform.createBlockchain”](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain)。调用示例如下。必须更改用于验证区块链的子网的“子网ID”，并提供一个控制着足够子网控制密钥的“用户名”。提醒一下，您可以通过调用[“平台.获取子网”] (../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets)来确定子网的阈值和控制密钥。
-
-Now let’s create the new blockchain. To do so, we call [`platform.createBlockchain`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain). Your call should look like the one below. You have to change `subnetID` to the subnet that will validate your blockchain, and supply a `username` that controls a sufficient number of the subnet’s control keys. As a reminder, you can find out what a subnet’s threshold and control keys are by calling [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets).
+现在，让我们创建一个新的区块链。为此，调用[`platform.createBlockchain`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain)。调用示例如下。必须更改用于验证区块链的子网的`subnetID`，并提供一个控制着足够子网控制密钥的用户名`username`。提醒一下，您可以通过调用[`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets)来确定子网的阈值和控制密钥。
 
 ```cpp
 curl -X POST --data '{
@@ -284,5 +282,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzM3NDYzMiwxNTkwNDI4ODM2XX0=
+eyJoaXN0b3J5IjpbMjU5MzQyMTY4LDE1OTA0Mjg4MzZdfQ==
 -->
