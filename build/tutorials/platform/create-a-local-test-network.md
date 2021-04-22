@@ -68,11 +68,11 @@ go build
 runscript scripts/five_node_staking.lua
 ```
 
-When you want to tear down the network, run `exit` to exit Avash.
+当您想要关闭网络时，运行`exit`退出Avash。
 
-### Verifying Nodes are Connected <a id="verifying-nodes-are-connected"></a>
+### 检查节点是否连接
 
-We can look at one of the node’s peers to ensure that the nodes are connected. To do so, call [`info.peers`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-peers).
+可以通过检查与一个节点相连的其他节点来确保所有节点都已连接。为此，调用[`info.peers`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-peers)。
 
 ```cpp
 curl -X POST --data '{
@@ -82,7 +82,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-`peers` should have 4 entries:
+`peers` 应该有4个条目：
 
 ```cpp
 {
@@ -152,5 +152,5 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTk1OTY4Ml19
+eyJoaXN0b3J5IjpbMTcyOTQ1MzM2MF19
 -->
