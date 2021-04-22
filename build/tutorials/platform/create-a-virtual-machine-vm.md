@@ -219,13 +219,12 @@ type Block interface {
 现在，我们已经知道了虚拟机必须实现的接口和可用于构建虚拟机的库。
 
 下来我们来编写我们的虚拟机，该虚拟机实现`snowman.VM`，其区块实现`snowman.Block`。
-Let’s write our VM, which implements `snowman.VM` and whose blocks implement `snowman.Block`.
 
-### Block
+### 区块
 
-First, let’s look at our block implementation.
+首先，我们来看看我们的区块实现。
 
-The type declaration is:
+类型声明：
 
 ```cpp
 // Block is a block on the chain.
@@ -239,7 +238,7 @@ type Block struct {
 }
 ```
 
-The `serialize:"true"` tag indicates when a block is persisted in the database or sent to other nodes. The field with the tag is included in the serialized representation.
+当一个区块被持久化到数据库中或发送到其他节点时，显示`serialize:"true"`标记。带有标记的字段包含在串行化表示中。
 
 #### **Verify**
 
@@ -283,6 +282,7 @@ func (b *Block) Verify() error {
 }
 ```
 
+这就是我们区块实现所需的所有代码！我们的`Block` 必须实现的所有其他“Snowman. Block”方法，都是从“*core.Block”继承来的。
 That’s all the code for our block implementation! All of the other methods of `snowman.Block`, which our `Block` must implement, are inherited from `*core.Block`.
 
 ### Virtual Machine
@@ -718,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTA2MTI0OCw1NTQyOTQ5MjldfQ==
+eyJoaXN0b3J5IjpbMTAzMjc4MDA2OSw1NTQyOTQ5MjldfQ==
 -->
