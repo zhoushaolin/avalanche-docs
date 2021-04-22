@@ -1,6 +1,6 @@
-# Create a Subnet
+# 创建子网
 
-## Introduction
+## 简介
 
 A [subnet](../../../learn/platform-overview/#subnets) is a set of validators. A subnet validates a set of blockchains. Each blockchain is validated by exactly one subnet, which is specified on blockchain creation. Subnets are a powerful primitive that allows the creation of permissioned blockchains.
 
@@ -136,3 +136,6 @@ The response confirms that our subnet was created:
 
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjExNDA3ODUzNF19
+-->
