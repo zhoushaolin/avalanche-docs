@@ -1,13 +1,12 @@
 # 创建虚拟机 \(VM\)
 
-_下面的代码稍微有点过时。一些方法、接口和操作与本教程稍有不同。但由于当前代码非常相似，并且本教程在演示Avalanche的虚拟机模型如何工作方面依然有效，因此我们将不再赘述。_
-_The code below is slightly out of date. Some methods, interfaces, and implementations are slightly different than in this tutorial. We’re going to leave this up because the current code is very similar, and this tutorial is still useful in demonstrating how Avalanche’s VM model works._
+_下面的代码稍微有点过时。一些方法、接口和操作与本教程稍有不同。但由于当前代码非常相似，并且本教程在演示Avalanche VM模型如何工作方面依然有效，因此我们将不再赘述。_
 
-## Introduction
+## 简介
 
-One of the core features of Avalanche is the creation of new, custom blockchains, which are defined by [Virtual Machines \(VMs\)](../../../learn/platform-overview/#virtual-machines)
+Avalanche的核心特征之一是创建新的自定义区块链，这些区块链由[Virtual Machines \(VMs\)](../../../learn/platform-overview/#virtual-machines)定义。
 
-In this tutorial, we’ll create a very simple VM. The blockchain defined by the VM is a timestamp server. Each block in the blockchain contains the timestamp when it was created along with a 32-byte piece of data \(payload\). Each block’s timestamp is after its parent’s timestamp.
+在本教程中，我们将创建一个非常简单的虚拟机。虚拟机定义的区块链是一个时间戳服务器。区块链中的每个区块都包含创建时的时间戳和一个32字节的数据段\(关键信息\)。每个区块的时间戳都在其上一个区块的时间戳之后。
 
 Such a server is useful because it can be used to prove a piece of data existed at the time the block was created. Suppose you have a book manuscript, and you want to be able to prove in the future that the manuscript exists today. You add a block to the blockchain where the block’s payload is a hash of your manuscript. In the future, you can prove that the manuscript existed today by showing that the block has the hash of your manuscript in its payload \(this follows from the fact that finding the pre-image of a hash is impossible\).
 
@@ -718,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk4NzE0MjVdfQ==
+eyJoaXN0b3J5IjpbMjAwOTYzMzU1Ml19
 -->
