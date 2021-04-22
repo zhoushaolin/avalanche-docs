@@ -304,7 +304,7 @@ type VM struct {
 }
 ```
 
-#### **Initialize**
+#### **初始化**
 
 ```cpp
 // Initialize this vm
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAzMDc2MDgsNTU0Mjk0OTI5XX0=
+eyJoaXN0b3J5IjpbLTU0NzAyOTEwLDU1NDI5NDkyOV19
 -->
