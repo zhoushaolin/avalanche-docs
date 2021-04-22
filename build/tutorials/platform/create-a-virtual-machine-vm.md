@@ -514,11 +514,9 @@ type Service struct{ vm *VM }
 
 对于每个应用程序编程接口方法，都有：\*一个定义方法参数的结构体\*一个定义方法返回值的结构体\*一个实现应用程序编程接口方法并在上述2个结构体上进行了参数化的方法。
 
-For each API method, there is: \* A struct that defines the method’s arguments \* A struct that defines the method’s return values \* A method that implements the API method, and is parameterized on the above 2 structs
-
 #### **ProposeBlock**
 
-This API method allows clients to add a block to the blockchain.
+此应用程序编程接口方法允许客户端向区块链添加区块。
 
 ```cpp
 // ProposeBlockArgs are the arguments to ProposeValue
@@ -557,7 +555,7 @@ func (s *Service) ProposeBlock(_ *http.Request, args *ProposeBlockArgs, reply *P
 
 #### **GetBlock**
 
-This API method allows clients to get a block by its ID.
+此应用程序编程接口方法允许客户端通过ID获取区块。
 
 ```cpp
 // APIBlock is the API representation of a block
@@ -719,6 +717,6 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzk1ODkxNCwtNTQ3MDI5MTAsNTU0Mj
+eyJoaXN0b3J5IjpbMTI2MTYwNTIzOCwtNTQ3MDI5MTAsNTU0Mj
 k0OTI5XX0=
 -->
