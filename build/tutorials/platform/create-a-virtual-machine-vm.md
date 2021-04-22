@@ -501,7 +501,9 @@ func (vm *VM) CreateHandlers() map[string]*common.HTTPHandler {
 
 ### 服务
 
-AvalancheGo使用[Gorilla’s RPC library](https://www.gorillatoolkit.org/pkg/rpc) to implement APIs.
+AvalancheGo使用[Gorilla’s RPC library](https://www.gorillatoolkit.org/pkg/rpc) 来实现APIs。
+
+使用Gorilla，每个应用程序编程接口服务都会有一个结构体。在这个区块链中，只有一个应用程序编程接口服务。
 
 Using Gorilla, there is a struct for each API service. In the case of this blockchain, there’s only one API service.
 
@@ -717,6 +719,6 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA0MDA1NDYsLTU0NzAyOTEwLDU1ND
-I5NDkyOV19
+eyJoaXN0b3J5IjpbMTkxMzg5MzIzLC01NDcwMjkxMCw1NTQyOT
+Q5MjldfQ==
 -->
