@@ -169,19 +169,19 @@ git rev-parse HEAD
 Build Successful
 ```
 
-You can check what version you’re running by doing:
+您可以通过以下方式查看正在运行的版本：
 
 ```text
 ./build/avalanchego --version
 ```
 
-You can run your node with:
+您可以通过以下方式运行您的节点：
 
 ```text
 ./build/avalanchego
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc3OTkxMTksODkzMDQwNTc0LC01Mj
+eyJoaXN0b3J5IjpbLTEyNDcwODgzMzMsODkzMDQwNTc0LC01Mj
 M4NTYwODddfQ==
 -->
