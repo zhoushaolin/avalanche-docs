@@ -51,7 +51,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response contains the second control key, which is held by the user we just specified:
+响应包含由我们刚刚指定的用户持有的第二个控制密钥：
 
 ```cpp
 {
@@ -63,9 +63,9 @@ The response contains the second control key, which is held by the user we just 
 }
 ```
 
-### Create the Subnet <a id="create-the-subnet"></a>
+### 创建子网
 
-To create a subnet, we call [`platform.createSubnet`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createsubnet).
+要创建子网，我们需要调用[`platform.createSubnet`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createsubnet)。
 
 ```cpp
 curl -X POST --data '{
@@ -84,7 +84,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response gives us the transaction’s ID, which is also the ID of the newly created Subnet.
+响应给出了交易的ID，也就是新创建的子网的ID。
 
 ```cpp
 {
@@ -97,9 +97,9 @@ The response gives us the transaction’s ID, which is also the ID of the newly 
 }
 ```
 
-### Verifying Success <a id="verifying-success"></a>
+### 验证成功
 
-We can call [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets) to get all Subnets that exist:
+可以调用 [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets) to get all Subnets that exist:
 
 ```cpp
 curl -X POST --data '{
@@ -136,5 +136,5 @@ The response confirms that our subnet was created:
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzkxNDQwNCw4NzMyMzEzMTFdfQ==
+eyJoaXN0b3J5IjpbLTE4NzY4NjMxMTksODczMjMxMzExXX0=
 -->
