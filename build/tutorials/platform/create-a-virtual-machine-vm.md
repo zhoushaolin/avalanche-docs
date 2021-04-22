@@ -173,16 +173,15 @@ type Block interface {
 
 这个类型是一个结构体，包含所有`snowman.ChainVM`接口实现所共有的方法和字段。
 
-#### **Methods**
+#### 方法
 
-这个类型实现了以下方法，这些方法是“Snowman.ChainVM”接口的一部分：
-This type implements the following methods, which are part of the `snowman.ChainVM` interface:
+这个类型实现了以下方法，这些方法是 `snowman.ChainVM` 接口的一部分：
 
 * `SetPreference`
 * `Shutdown`
 * `LastAccepted`
 
-If your VM implementation embeds a `core.SnowmanVM`, you do not need to implement any of these methods because they are already implemented by `core.SnowmanVM`. You may, if you want, override these inherited methods.
+如果您的虚拟机实现嵌入了一个`core.SnowmanVM`，那么您就不再需要实现这些方法，因为它们已经通过`core.SnowmanVM`实现了。如果愿意，您可以重写这些继承的方法。
 
 #### **Fields**
 
@@ -718,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDgwOTQ0XX0=
+eyJoaXN0b3J5IjpbLTg0MjMwMTM2Nl19
 -->
