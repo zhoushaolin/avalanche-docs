@@ -23,9 +23,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 子网需要验证程序来验证区块链。
 
-确保用于验证区块链的子网中至少含有 `snow-sample-size`的验证程序。\（回顾，“snow-sample-size”是启动节点时的[命令行参数] (../../references/command-line-interface.md)之一。默认值为20。\）
-
-Make sure the subnet that will validate your blockchain has at least `snow-sample-size` validators in it. \(Recall that `snow-sample-size` is one of the [command-line arguments](../../references/command-line-interface.md) when starting a node. Its default value is 20.\)
+确保用于验证区块链的子网中至少含有 `snow-sample-size`的验证程序。\(`snow-sample-size`是启动节点时的命令行参数[command-line arguments](../../references/command-line-interface.md)之一。默认值为20。\)
 
 {% page-ref page="../nodes-and-staking/add-a-validator.md" %}
 
@@ -286,5 +284,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjI5NTY1LDE1OTA0Mjg4MzZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjA4Mzk3MzUsMTU5MDQyODgzNl19
 -->
