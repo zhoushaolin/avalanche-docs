@@ -9,9 +9,9 @@
 在本教程中，我们将创建一个具有2个控制密钥和阈值为2的新子网。
 
 ### 生成控制密钥
-首先，让我们生成2个控制密钥。为此，我们需要调用[“platform.createAddress”] (../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress)。这将为客户生成并存储一个新的私人密钥。First, let’s generate the 2 control keys. To do so we call [`platform.createAddress`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) This generates a new private key and stores it for a user.
+首先，让我们生成2个控制密钥。为此，我们需要调用[`platform.createAddress`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) 。这将为客户生成并存储一个新的私人密钥。
 
-To generate the first key:
+生成第一个密钥：
 
 ```cpp
 curl -X POST --data '{
@@ -25,7 +25,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-This gives the first control key \(again, it actually gives the _address_ of the first control key\). The key is held by the user we just specified.
+这样就生成了第一个控制密钥\(再次声明，它生成的实际上是第一个控制密钥的_地址_\)。密钥由我们刚刚指定的用户持有。
 
 ```cpp
 {
@@ -37,7 +37,7 @@ This gives the first control key \(again, it actually gives the _address_ of the
 }
 ```
 
-Generate the second key:
+生成第二个密钥：
 
 ```cpp
 curl -X POST --data '{
@@ -136,5 +136,5 @@ The response confirms that our subnet was created:
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDk3MTIyMCw4NzMyMzEzMTFdfQ==
+eyJoaXN0b3J5IjpbMTA1MzkxNDQwNCw4NzMyMzEzMTFdfQ==
 -->
