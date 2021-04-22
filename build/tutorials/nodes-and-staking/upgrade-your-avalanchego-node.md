@@ -1,9 +1,9 @@
 # AvalancheGo节点升级
 
-节点wei hu
+节点维护演示
 {% embed url="https://youtu.be/o4Fww-sHoaQ" %}
 
-## **Backup your node**
+## 节点备份
 
 Before upgrading your node, it is recommended you backup your staker files which are used to identify your node on the network. In the default installation, you can copy them by running following commands:
 
@@ -182,5 +182,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI0NTQ1N119
+eyJoaXN0b3J5IjpbMTk0NzI5Nzc5OV19
 -->
