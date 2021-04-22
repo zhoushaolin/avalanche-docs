@@ -2,7 +2,9 @@
 
 ## 简介
 
-A [subnet](../../../learn/platform-overview/#subnets) is a set of validators. A subnet validates a set of blockchains. Each blockchain is validated by exactly one subnet, which is specified on blockchain creation. Subnets are a powerful primitive that allows the creation of permissioned blockchains.
+子网[subnet](../../../learn/platform-overview/#subnets)是一组验证程序。一个子网验证一组区块链。每个区块链仅由一个子网进行验证，该子网在区块链创建时就已指定。子网是一种允许创建获许可区块链的强大原语。
+
+创建子网时，会指定阈值和一组密钥。\实际上，指定的是密钥的地址，而不是密钥本身。\）为了在子网中添加一个验证程序，需要这些密钥的 _ 阈值 _ 签名。我们将它们称为子网的**控制密钥**，将向子网添加验证程序的交易中**控制密钥**的签名称为**控制签名**。结果就是子网可以控制它的成员。
 
 When a subnet is created, a threshold and a set of keys are specified. \(Actually the addresses of the keys, not the keys themselves, are specified.\) In order to add a validator to that subnet, _threshold_ signatures from those keys are needed. We call these the subnet’s **control keys** and we call a control key’s signature on a transaction that adds a validator to a subnet a **control signature.** The upshot is that a subnet has control over its membership.
 
@@ -137,5 +139,5 @@ The response confirms that our subnet was created:
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDA3ODUzNF19
+eyJoaXN0b3J5IjpbMTgwNDk5NTk4NV19
 -->
