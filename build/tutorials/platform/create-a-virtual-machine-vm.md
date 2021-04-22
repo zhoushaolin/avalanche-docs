@@ -618,11 +618,11 @@ func (s *Service) GetBlock(_ *http.Request, args *GetBlockArgs, reply *GetBlockR
 
 #### **API**
 
-The resulting API has the following methods:
+由此产生的应用程序编程接口有以下方法：
 
 **timestamp.getBlock**
 
-Get a block by its ID. If no ID is provided, get the latest block.
+通过区块的ID获取区块。如果无法获取ID，则获取最新的区块。
 
 **Signature**
 
@@ -636,9 +636,9 @@ timestamp.getBlock({id: string}) ->
     }
 ```
 
-* `id` is the ID of the block being retrieved. If omitted from arguments, gets the latest block
-* `data` is the base 58 \(with checksum\) representation of the block’s 32 byte payload
-* `timestamp` is the Unix timestamp when this block was created
+* `id` 是要检索的区块的ID。如果在参数中被漏掉，则获取最新的区块。
+* `data`是区块32字节有效负载的Base58\（借助校验和\）表示形式。
+* `timestamp`是这个区块创建时的Unix时间戳。
 * `parentID` is the block’s parent
 
 **Example Call**
@@ -717,6 +717,6 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTYwNTIzOCwtNTQ3MDI5MTAsNTU0Mj
-k0OTI5XX0=
+eyJoaXN0b3J5IjpbNjQ0MjcxNjA3LC01NDcwMjkxMCw1NTQyOT
+Q5MjldfQ==
 -->
