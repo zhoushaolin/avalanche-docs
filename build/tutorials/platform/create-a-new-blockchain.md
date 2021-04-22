@@ -2,13 +2,11 @@
 
 ## 简介
 
-Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目前支持创建[Avalanche Virtual Machine \(AVM\)](../../avalanchego-apis/exchange-chain-x-chain-api.md)和Timestamp VM(时间戳虚拟机)的新实例。
+Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目前支持创建Avalanche虚拟机[Avalanche Virtual Machine \(AVM\)](../../avalanchego-apis/exchange-chain-x-chain-api.md)和Timestamp VM(时间戳虚拟机)的新实例。
 
-One of the core features of Avalanche is the ability to create new blockchains. Avalanche currently supports the creation of new instances of the [Avalanche Virtual Machine \(AVM\)](../../avalanchego-apis/exchange-chain-x-chain-api.md) and the Timestamp VM.
+在本教程中，我们将通过创建一个新的AVM实例来创建一个区块链。
 
-In this tutorial, we’ll create a blockchain by creating a new instance of the AVM.
-
-### Prerequisites
+### 先决条件
 
 You will need a running node, a user on the node, and some AVAX in the address controlled by the user. All of that is covered in the [Run an Avalanche Node](../../get-started.md) tutorial.
 
@@ -285,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MTA1OTVdfQ==
+eyJoaXN0b3J5IjpbMTU5MDQyODgzNl19
 -->
