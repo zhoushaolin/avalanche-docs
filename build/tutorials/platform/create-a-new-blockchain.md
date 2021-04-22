@@ -81,7 +81,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 }
 ```
 
-To create the byte representation of this genesis state, call [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis). Your call should look like the one below. Note that this call is made to the AVM’s static API endpoint, `/ext/vm/avm`.
+要创建初始状态的字节形式，请调用[`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis)。调用示例如下。注意，这个调用的对象是AVM的静态API端点`/ext/vm/avm`。
 
 ```cpp
 curl -X POST --data '{
@@ -282,5 +282,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwMTM4MzksMTU5MDQyODgzNl19
+eyJoaXN0b3J5IjpbMTc0MTg0MjEyNywxNTkwNDI4ODM2XX0=
 -->
