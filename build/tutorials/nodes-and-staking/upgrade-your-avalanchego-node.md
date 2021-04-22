@@ -131,40 +131,39 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 ## 通过源代码构建
 
-首先，克隆我们的Github库\（如果您以前已经完成此操作，您可以跳过此步骤\）：
-First clone our Github repo \(you can skip this step if you’ve done this before\):
+首先，克隆我们的Github库\(如果您以前已经完成此操作，您可以跳过此步骤\)：
 
 ```text
 git clone https://github.com/ava-labs/avalanchego.git
 ```
 
-Then move to the avalanchego directory:
+然后转到Avalanchego目录：
 
 ```text
 cd avalanchego
 ```
 
-Pull the latest code:
+调出最新代码：
 
 ```text
 git pull
 ```
 
-Check that your local code is up to date. Do:
+检查您的本地代码是否是最新的。执行：
 
 ```text
 git rev-parse HEAD
 ```
 
-and check that the first 7 characters printed match the Latest commit field on our [Github.](https://github.com/ava-labs/avalanchego)
+并检查打印出来的前7个字符是否与我们[Github](https://github.com/ava-labs/avalanchego)上的最新提交字段相匹配。
 
-Now build the binary:
+现在，构建二进制程序：
 
 ```text
 ./scripts/build.sh
 ```
 
-This should print:
+应打印：
 
 ```text
 Build Successful
@@ -183,6 +182,6 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Njg2NTcxMCw4OTMwNDA1NzQsLTUyMz
-g1NjA4N119
+eyJoaXN0b3J5IjpbLTE3MDc3OTkxMTksODkzMDQwNTc0LC01Mj
+M4NTYwODddfQ==
 -->
