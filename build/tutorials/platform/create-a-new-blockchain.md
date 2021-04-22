@@ -174,7 +174,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response contains the transaction ID:
+响应包含交易ID:
 
 ```cpp
 {
@@ -187,10 +187,11 @@ The response contains the transaction ID:
 }
 ```
 
-### Verify Success <a id="verify-success"></a>
+### 验证成功
 
-After a few seconds, the transaction to create our blockchain should have been accepted and the blockchain should exist \(assuming the request was well-formed, etc.\)
+几秒种后，创建区块链的交易就会被接受，区块链创建成功\(假设请求格式正确，等等\)。
 
+调用[`platform.getBlockchains`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getblockchains)进行查看。zh返回一张所有现有区块链的列表。
 To check, call [`platform.getBlockchains`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getblockchains). This returns a list of all blockchains that exist.
 
 ```cpp
@@ -282,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MzQyMTY4LDE1OTA0Mjg4MzZdfQ==
+eyJoaXN0b3J5IjpbLTIxMTczODYyMTIsMTU5MDQyODgzNl19
 -->
