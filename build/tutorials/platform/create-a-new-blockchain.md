@@ -258,9 +258,7 @@ curl -X POST --data '{
 * 区块链的API端点为`127.0.0.1:9650/ext/bc/zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK`.
 * 地址前缀是`zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK-` 而不是 `X-`.
 
-在初始数据中，我们指定地址`8UeduLccQuSmYiY3fGQEyotM9uXxoHoQQ`有100,000单位的资产，别名“asset1”。我们来验证一下：
-
-In the genesis data we specified that address `8UeduLccQuSmYiY3fGQEyotM9uXxoHoQQ` has 100,000 units of the asset with alias `asset1`. Let’s verify that:
+在初始数据中，我们指定地址`8UeduLccQuSmYiY3fGQEyotM9uXxoHoQQ`有100,000单位的资产，别名`asset1`。我们来验证一下：
 
 ```cpp
 curl -X POST --data '{
@@ -284,6 +282,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDQ3NjQ5OCwxMDg4MzkyODAyLDE1OT
-A0Mjg4MzZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODI5Njk4NDMsMTA4ODM5MjgwMiwxNT
+kwNDI4ODM2XX0=
 -->
