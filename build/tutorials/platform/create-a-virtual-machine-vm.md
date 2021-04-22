@@ -707,15 +707,16 @@ curl -X POST --data '{
 ```
 
 ### 总结
-That’s it! That’s the entire implementation of a VM which defines a blockchain-based timestamp server.
 
-In this tutorial, we learned:
+就这样！这就是虚拟机的整个实现，虚拟机是一个以区块链为基础的时间戳服务器。
 
-* The `snowman.ChainVM` interface, which all VMs that define a linear chain must implement
-* The `snowman.Block` interface, which all blocks that are part of a linear chain must implement
-* The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
+在本教程中，我们学习了：
+
+* `snowman.ChainVM`接口，所有定义线性链的虚拟机都必须实现这个接口
+* `snowman.Block`接口，所有线性链中的区块必须实现这个接口
+* `core.SnowmanVM` and `core.Block` library types, 它们提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzUzODc4NCwtNTQ3MDI5MTAsNTU0Mj
+eyJoaXN0b3J5IjpbLTEwOTk3NzY0OSwtNTQ3MDI5MTAsNTU0Mj
 k0OTI5XX0=
 -->
