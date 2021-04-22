@@ -1,6 +1,6 @@
 # 创建虚拟机 \(VM\)
 
-_下面的代码稍微有点过时。一些方法、接口和操作与本教程稍有不同。但由于当前代码非常相似，并且本教程在演示Avalanche VM模型如何工作方面依然有效，因此我们将不再赘述。_
+_下面的代码稍微有点过时。一些方法、接口和实现与本教程稍有不同。但由于当前代码非常相似，并且本教程在演示Avalanche VM模型如何工作方面依然有效，因此我们将不再赘述。_
 
 ## 简介
 
@@ -165,17 +165,17 @@ type Block interface {
 
 ## 库
 
-我们创建了一些虚拟机实现可以嵌入\(嵌入就像Go版本的继承\)的类型，以便处理样板代码。
 我们已经创建了一些类型，你的VM实现可以嵌入\(嵌入就像Go版本的继承\)，以处理样板代码。
 
-In our example, we use both of the library types below, and we encourage you to use them too.
+在我们的实例中，我们使用了下面两种库型，并且我们建议您也使用它们。
 
 ### core.SnowmanVM
 
-This type, a struct, contains methods and fields common to all implementations of the `snowman.ChainVM` interface.
+这个类型是一个结构体，包含所有`snowman.ChainVM`接口实现所共有的方法和字段。
 
 #### **Methods**
 
+这个类型实现了以下方法，这些方法是“Snowman.ChainVM”接口的一部分：
 This type implements the following methods, which are part of the `snowman.ChainVM` interface:
 
 * `SetPreference`
@@ -718,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMTgwMzA3XX0=
+eyJoaXN0b3J5IjpbLTk3MDgwOTQ0XX0=
 -->
