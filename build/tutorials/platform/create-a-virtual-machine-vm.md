@@ -451,8 +451,7 @@ func (vm *VM) NewBlock(parentID ids.ID, data [dataLen]byte, timestamp time.Time)
 
 #### **BuildBlock**
 
-当应用程序层指示共识层已准备好要构建新区块之后（即调用‘虚拟机.通知共识层（）’）之后，共识层就会调用这个方法。
-This method is called by the consensus layer after the application layer tells it that a new block is ready to be built \(i.e., when `vm.NotifyConsensus()` is called\).
+当应用程序层指示共识层已准备好要构建新区块之后（即调用`vm.NotifyConsensus()`），共识层就会调用这个方法。
 
 ```cpp
 // BuildBlock returns a block that this VM wants to add to consensus
@@ -500,9 +499,9 @@ func (vm *VM) CreateHandlers() map[string]*common.HTTPHandler {
 }
 ```
 
-### Service
+### 服务
 
-AvalancheGo uses [Gorilla’s RPC library](https://www.gorillatoolkit.org/pkg/rpc) to implement APIs.
+AvalancheGo使用[Gorilla’s RPC library](https://www.gorillatoolkit.org/pkg/rpc) to implement APIs.
 
 Using Gorilla, there is a struct for each API service. In the case of this blockchain, there’s only one API service.
 
@@ -718,6 +717,6 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODYwMjczOSwtNTQ3MDI5MTAsNTU0Mj
-k0OTI5XX0=
+eyJoaXN0b3J5IjpbLTE5MTA0MDA1NDYsLTU0NzAyOTEwLDU1ND
+I5NDkyOV19
 -->
