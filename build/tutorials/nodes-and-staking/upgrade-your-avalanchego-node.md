@@ -59,11 +59,11 @@ Done!
 
 ### 作为服务运行的节点
 
-If your node is running as a service, stop it by entering:
+如果您的节点是作为服务运行的，输入以下命令停止：
 
 `sudo systemctl stop avalanchego.service`
 
-\(your service may be named differently, `avalanche.service`, or similar\)
+\(您的服务可能有不同的命名，如`avalanche.service`或类似的\)
 
 ### Node running in background
 
@@ -182,5 +182,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzc5Mjc0NV19
+eyJoaXN0b3J5IjpbLTUyMzg1NjA4N119
 -->
