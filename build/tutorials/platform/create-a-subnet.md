@@ -99,7 +99,7 @@ curl -X POST --data '{
 
 ### 验证成功
 
-可以调用 [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets) to get all Subnets that exist:
+可以调用 [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets) 来获取所有存在的子网：
 
 ```cpp
 curl -X POST --data '{
@@ -110,7 +110,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response confirms that our subnet was created:
+响应会确认我们的子网已创建：
 
 ```cpp
 {
@@ -131,10 +131,10 @@ The response confirms that our subnet was created:
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-### Add Validators to the Subnet <a id="add-validators-to-the-subnet"></a>
+### 向子网添加验证程序
 
-This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
+本教程[tutorial](../nodes-and-staking/add-a-validator.md) 将向您展示如何向子网添加验证程序。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY4NjMxMTksODczMjMxMzExXX0=
+eyJoaXN0b3J5IjpbLTY2NjEzMDcwMyw4NzMyMzEzMTFdfQ==
 -->
