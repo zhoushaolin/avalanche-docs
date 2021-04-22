@@ -119,18 +119,19 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 ./avalanchego-<VERSION>-linux/avalanchego
 ```
 
-如果您想在后台运行节点，在指令开头加上“nohup”。Add `nohup` at the start of the command if you want to run the node in the background.
+如果您想在后台运行节点，在指令开头加上`nohup` 。
 
-### Running the node as a service
+### 将节点作为服务运行
 
-If you're running the node as a service, you need to replace the old binaries with the new ones.
+如果将节点作为服务运行，需要用新的二进制文件替换旧的二进制文件。
 
 `cp -r avalanchego-<VERSION>-linux/* <DIRECTORY_WITH_OLD_BINARIES>`
 
-and then restart the service with `sudo systemctl start avalanchego.service`.
+然后通过`sudo systemctl start avalanchego.service`重启服务。
 
-## **Build from source**
+## 通过源代码构建
 
+首先，克隆我们的Github库\（如果您以前已经完成此操作，您可以跳过此步骤\）：
 First clone our Github repo \(you can skip this step if you’ve done this before\):
 
 ```text
@@ -182,6 +183,6 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTgzMjU1MCw4OTMwNDA1NzQsLTUyMz
+eyJoaXN0b3J5IjpbMTQ0Njg2NTcxMCw4OTMwNDA1NzQsLTUyMz
 g1NjA4N119
 -->
