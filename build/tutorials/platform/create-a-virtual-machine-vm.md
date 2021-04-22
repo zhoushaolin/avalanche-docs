@@ -191,16 +191,16 @@ type Block interface {
 * `Ctx`: 区块链的运行时上下文
 * `preferred`: 构建新区块的偏好区块的ID
 * `lastAccepted`: 最近被接受的区块的ID
-* `toEngine`: the channel where messages are sent to the consensus protocol powering the blockchain
-* `State`: used to persist data such as blocks \(can be used to put/get any bytes\)
+* `toEngine`: 向驱动区块链共识协议发送信息的通道
+* `State`: 用于持久化数据，如区块\(可以用来放置/获取任何字节\)
 
 ### core.Block
 
-This type, a struct, contains methods and fields common to all implementations of the `snowman.Block` interface.
+这个类型是一个结构体，包含所有`snowman.Block`接口实现所共有的方法和字段。
 
-#### **Methods**
+#### 方法
 
-This type implements the following methods, which are part of the `snowman.Block` interface:
+这个类型实现了以下方法，这些方法是`snowman.Block`接口的一部分：
 
 * `ID`
 * `Parent`
@@ -208,6 +208,7 @@ This type implements the following methods, which are part of the `snowman.Block
 * `Reject`
 * `Status`
 
+您的虚拟机实现可能会重写“Accept”和“Reject”，这样，这些方法就会导致面向应用的状态更改。
 Your VM implementation will probably override `Accept` and `Reject` so that these methods cause application-specific state changes.
 
 #### **Fields**
@@ -717,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTQ5ODMzNV19
+eyJoaXN0b3J5IjpbLTY1NjM3NDg4N119
 -->
