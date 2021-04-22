@@ -714,9 +714,9 @@ curl -X POST --data '{
 
 * `snowman.ChainVM`接口，所有定义线性链的虚拟机都必须实现这个接口
 * `snowman.Block`接口，所有线性链中的区块必须实现这个接口
-* `core.SnowmanVM` and `core.Block` library types, 它们提升了虚拟机的定义速度
+* `core.SnowmanVM`和`core.Block` 库型, 提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk3NzY0OSwtNTQ3MDI5MTAsNTU0Mj
+eyJoaXN0b3J5IjpbMjA1MTc5MjA1MSwtNTQ3MDI5MTAsNTU0Mj
 k0OTI5XX0=
 -->
