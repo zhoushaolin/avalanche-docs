@@ -128,7 +128,9 @@ curl -X POST --data '{
 }
 ```
 
-### Getting AVAX <a id="getting-avax"></a>
+### 获得AVAX
+
+当运行一个“—网络地址=本地”的网络时，正如我们所做的那样，您可以导入一个预先投资的X链地址来获得AVAX。该地址的私人密钥为“PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN”。在节点上创建密钥库用户之后，您可以通过以下方式导入该密钥及其持有的资金：
 
 When running a network with `--network-id=local`, as we’ve done, there is a pre-funded X-Chain address that you can import in order to get AVAX. The private key for this address is `PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN`. After you create a keystore user on a node, you can import this key, and the funds it holds, with:
 
@@ -152,5 +154,5 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTQ1MzM2MF19
+eyJoaXN0b3J5IjpbNzI0MjkwOTNdfQ==
 -->
