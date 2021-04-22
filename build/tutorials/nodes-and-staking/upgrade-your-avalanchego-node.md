@@ -67,16 +67,16 @@ Done!
 
 ### 后台运行的节点
 
-如果您的节点是在后台运行（例如通过`nohup`运行）的 ，那么通过运行“ps aux | grep avalanche”来查找运行该节点的进程。将产生如下输出：
-If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
+如果您的节点是在后台运行（例如通过`nohup`运行）的 ，那么通过运行`ps aux | grep avalanche`来查找运行该节点的进程。将产生如下输出：
 
 ```text
 ubuntu  6834  0.0  0.0   2828   676 pts/1    S+   19:54   0:00 grep avalanche
 ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/build/avalanchego
 ```
 
-In this example, second line shows information about your node. Note the process id, in this case, `2630`. Stop the node by running `kill -2 2630`.
+在本实例中，第二行显示了节点的信息。注意进程id，在本实例中为`2630`。运行`kill -2 2630`停止节点。
 
+现在我们就可以下载节点的新版本了。您可以下载源代码，然后构建二进制程序，或者您也可以下载预先构建好的二进制程序。二者选其一即可。
 Now we are ready to download the new version of the node. You can either download the source code and then build the binary program, or you can download the pre-built binary. You don’t need to do both.
 
 Downloading pre-built binary is easier and recommended if you're just looking to run your own node and stake on it.
@@ -183,5 +183,6 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMDQwNTc0LC01MjM4NTYwODddfQ==
+eyJoaXN0b3J5IjpbMTk2NDU5NDEyLDg5MzA0MDU3NCwtNTIzOD
+U2MDg3XX0=
 -->
