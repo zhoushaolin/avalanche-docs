@@ -4,10 +4,9 @@
 
 在入门教程[Get Started tutorial](https://avalanche.gitbook.io/avalanche/build/getting-started)中，我们将一个节点连接到了测试网络。您可能会发现创建一个本地测试网络非常有用。
 
-In the [Get Started tutorial](https://avalanche.gitbook.io/avalanche/build/getting-started), we connect a node to the test network. You might find it useful to create a local test network.
+接下来我们将向您展示如何启动一个5节点的本地测试网络。我们将展示如何使用[Avash](https://avalanche.gitbook.io/avalanche/build/tools/avash) 启动网络以及手动启动网络。
 
-We’ll show you how to launch a 5 node local test network. For both, we’ll show how to launch the network using [Avash](https://avalanche.gitbook.io/avalanche/build/tools/avash) and manually.
-
+这5个节点将拥有五个HTTP端口（API 调用的发送地址）：`9650`, `9652`, `9654`, `9656` , and `9658`。
 The 5 nodes will have HTTP ports \(where API calls should be sent\) `9650`, `9652`, `9654`, `9656` , and `9658`.
 
 ## Create a Local Test Network
@@ -154,5 +153,5 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTM1MDMzXX0=
+eyJoaXN0b3J5IjpbLTUyMDQ1OTE1NF19
 -->
