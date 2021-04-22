@@ -8,6 +8,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 ### 先决条件
 
+你需要一个正在运行的节点、该节点上的用户，以及由该用户控制的地址中的一些AVAX。全部教程可参见[运行Avalanche节点] (../../getting-started.md)。
 You will need a running node, a user on the node, and some AVAX in the address controlled by the user. All of that is covered in the [Run an Avalanche Node](../../get-started.md) tutorial.
 
 Next, you need to have your node be a validator on the [Primary Network](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network). You can find out how to do that in the [Add a Validator](../nodes-and-staking/add-a-validator.md) tutorial. It is recommended you do that [with API calls](../nodes-and-staking/add-a-validator.md#add-a-validator-with-api-calls), since that is the way you will be interacting with your node in the rest of this tutorial.
@@ -283,5 +284,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDQyODgzNl19
+eyJoaXN0b3J5IjpbOTYwMDk2NTYwLDE1OTA0Mjg4MzZdfQ==
 -->
