@@ -7,11 +7,10 @@
 接下来我们将向您展示如何启动一个5节点的本地测试网络。我们将展示如何使用[Avash](https://avalanche.gitbook.io/avalanche/build/tools/avash) 启动网络以及手动启动网络。
 
 这5个节点将拥有五个HTTP端口（API 调用的发送地址）：`9650`, `9652`, `9654`, `9656` , and `9658`。
-The 5 nodes will have HTTP ports \(where API calls should be sent\) `9650`, `9652`, `9654`, `9656` , and `9658`.
 
-## Create a Local Test Network
+## 创建本地测试网络
 
-The below commands assume you have [AvalancheGo](https://avalanche.gitbook.io/avalanche/build/getting-started#download-avalanchego) installed at `$GOPATH/src/github.com/ava-labs/avalanchego`. Each of the five nodes created is a validator. The staking keys for these nodes are in `$GOPATH/src/github.com/ava-labs/avalanchego/staking/local/staker1.crt`, etc.
+下面的命令假设您已经在`$GOPATH/src/github.com/ava-labs/avalanchego`上安装了[AvalancheGo](https://avalanche.gitbook.io/avalanche/build/getting-started#download-avalanchego) 。创建的每一个节点都是一个验证程序。这些节点的质押密钥在`$GOPATH/src/github.com/ava-labs/avalanchego/staking/local/staker1.crt`等。
 
 ### Manually
 
@@ -153,5 +152,5 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDQ1OTE1NF19
+eyJoaXN0b3J5IjpbLTIwMTQxNzkwMjVdfQ==
 -->
