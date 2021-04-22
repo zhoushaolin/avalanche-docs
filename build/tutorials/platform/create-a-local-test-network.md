@@ -147,10 +147,11 @@ curl --location --request POST 'localhost:9650/ext/platform' \
 }'
 ```
 
-就这样！您的Avalanche本地版本已启动并运行。它的默认区块链: the [X-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#exchange-chain-x-chain), [C-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#contract-chain-c-chain), 和 [P-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#platform-chain-p-chain). 主网是唯一的子网。
+就这样！您的Avalanche本地版本已启动并运行。它的默认区块链: the [X-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#exchange-chain-x-chain), [C-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#contract-chain-c-chain), 和 [P-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#platform-chain-p-chain), 主网是唯一的子网。
 
-You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
+您可以在网络中添加更多节点。但需记住， `db-dir`、`http-port`、`staking-port`的赋值必须是唯一的。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzc1MjE1LC0yMjAyMjc3NTNdfQ==
+eyJoaXN0b3J5IjpbLTg0NzYxNTcxOSwtMjIwMjI3NzUzXX0=
 -->
