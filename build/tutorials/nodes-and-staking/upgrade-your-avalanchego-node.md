@@ -82,11 +82,11 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 如果您是一个希望在Avalanche上进行实验和构建的开发人员，则建议您用[from source](upgrade-your-avalanchego-node.md#build-from-source) 构建节点。
 
-## **Download Pre-built Binary**
+## 下载预构建二进制程序
 
-If you want to download a pre-built binary instead of building it yourself, go to our [releases page](https://github.com/ava-labs/avalanchego/releases), and select the release you want \(probably the latest one.\)
+如果你想下载一个预先构建好的二进制程序，而不是自己构建，请访问我们的发布页面[releases page](https://github.com/ava-labs/avalanchego/releases)，并选择你想要的版本（可能是最新版本）。
 
-Under `Assets`, select the appropriate file.
+在“资产”下，选择适当的文件。Under `Assets`, select the appropriate file.
 
 For MacOS:  
 Download: `avalanchego-macos-<VERSION>.zip`  
@@ -182,6 +182,6 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjU2NDM5NCw4OTMwNDA1NzQsLTUyMz
+eyJoaXN0b3J5IjpbMTkxODU3NTczMiw4OTMwNDA1NzQsLTUyMz
 g1NjA4N119
 -->
