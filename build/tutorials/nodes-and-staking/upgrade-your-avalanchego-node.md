@@ -47,17 +47,17 @@ Done!
 
 这样，您的节点就已升级至最新版本。
 
-If you installed your node manually, proceed with the rest of the tutorial.
+如果您的节点是手动安装的，请继续阅读本教程剩余部分。
 
-## **Stop the old node version**
+## 停止运行旧版节点
 
-After the backup is secured, you may start upgrading your node. Begin by stopping the currently running version.
+备份完成后，您就可以开始升级节点。首先停止运行当前版本。
 
-### Node running from terminal
+### 从终端运行的节点
 
-If your node is running in a terminal stop it by pressing `ctrl+c`.
+如果您的节点在终端中运行，按`ctrl+c`停止。
 
-### Node running as a service
+### 作为服务运行的节点
 
 If your node is running as a service, stop it by entering:
 
@@ -182,5 +182,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzE0MzI1MF19
+eyJoaXN0b3J5IjpbMjExMzc5Mjc0NV19
 -->
