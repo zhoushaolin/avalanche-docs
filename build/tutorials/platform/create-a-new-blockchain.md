@@ -16,12 +16,14 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 每个区块链都仅通过一个子网[subnet](../../../learn/platform-overview/#subnets)进行验证。创建区块链之前，您需要一个子网来对它进行验证。如果有足够的控制密钥，也可以使用既有的子网。
 
-chuang jian
+创建子网
 {% page-ref page="create-a-subnet.md" %}
 
-### Add Validators to the Subnet
+### 向子网添加验证程序
 
-The subnet needs validators in it to, well, validate blockchains.
+子网需要验证程序来验证区块链。
+
+确保用于验证区块链的子网中至少含有 `snow-sample-size`的验证程序。\（回顾，“snow-sample-size”是启动节点时的[命令行参数] (../../references/command-line-interface.md)之一。默认值为20。\）
 
 Make sure the subnet that will validate your blockchain has at least `snow-sample-size` validators in it. \(Recall that `snow-sample-size` is one of the [command-line arguments](../../references/command-line-interface.md) when starting a node. Its default value is 20.\)
 
@@ -284,5 +286,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDU1MDkwOCwxNTkwNDI4ODM2XX0=
+eyJoaXN0b3J5IjpbLTQyMjI5NTY1LDE1OTA0Mjg4MzZdfQ==
 -->
