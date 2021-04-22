@@ -1,5 +1,6 @@
-# Upgrade Your AvalancheGo Node
+# AvalancheGo节点升级
 
+节点wei hu
 {% embed url="https://youtu.be/o4Fww-sHoaQ" %}
 
 ## **Backup your node**
@@ -180,3 +181,6 @@ You can run your node with:
 ./build/avalanchego
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1NDI0NTQ1N119
+-->
