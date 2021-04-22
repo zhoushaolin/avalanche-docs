@@ -163,9 +163,10 @@ type Block interface {
 }
 ```
 
-## Libraries
+## 库
 
-We’ve created some types that your VM implementation can embed \(embedding is like Go’s version of inheritance\) in order to handle boilerplate code.
+我们创建了一些虚拟机实现可以嵌入\(嵌入就像Go版本的继承\)的类型，以便处理样板代码。
+我们已经创建了一些类型，你的VM实现可以嵌入\(嵌入就像Go版本的继承\)，以处理样板代码。
 
 In our example, we use both of the library types below, and we encourage you to use them too.
 
@@ -717,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEwNzE5OTZdfQ==
+eyJoaXN0b3J5IjpbODgxMTgwMzA3XX0=
 -->
