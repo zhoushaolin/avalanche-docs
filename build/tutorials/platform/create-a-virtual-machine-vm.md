@@ -208,10 +208,9 @@ type Block interface {
 * `Reject`
 * `Status`
 
-您的虚拟机实现可能会重写“Accept”和“Reject”，这样，这些方法就会导致面向应用的状态更改。
-Your VM implementation will probably override `Accept` and `Reject` so that these methods cause application-specific state changes.
+您的虚拟机实现可能会重写`Accept` 和`Reject`，这样，这些方法就会导致面向应用的状态更改。
 
-#### **Fields**
+#### 字段
 
 `core.Block` has a field VM, which is a reference to a `core.SnowmanVM`. This means that a `core.Block` has access to all of the fields and methods of that type.
 
@@ -718,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjM3NDg4N119
+eyJoaXN0b3J5IjpbNTU0Mjk0OTI5XX0=
 -->
