@@ -65,7 +65,7 @@ Done!
 
 \(您的服务可能有不同的命名，如`avalanche.service`或类似的\)
 
-### Node running in background
+### 后台运行的节点
 
 If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
 
@@ -182,5 +182,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzg1NjA4N119
+eyJoaXN0b3J5IjpbMTE0NDExNDMyOCwtNTIzODU2MDg3XX0=
 -->
