@@ -77,11 +77,10 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 在本实例中，第二行显示了节点的信息。注意进程id，在本实例中为`2630`。运行`kill -2 2630`停止节点。
 
 现在我们就可以下载节点的新版本了。您可以下载源代码，然后构建二进制程序，或者您也可以下载预先构建好的二进制程序。二者选其一即可。
-Now we are ready to download the new version of the node. You can either download the source code and then build the binary program, or you can download the pre-built binary. You don’t need to do both.
 
-Downloading pre-built binary is easier and recommended if you're just looking to run your own node and stake on it.
+下载预先构建好的二进制程序更简单，如果您只是希望运行自己的节点并进行质押，那么建议您下载预先构建好的二进制程序。
 
-Building the node [from source](upgrade-your-avalanchego-node.md#build-from-source) is recommended if you're a developer looking to experiment and build on Avalanche.
+如果您是一个希望在Avalanche上进行实验和构建的开发人员，则建议您用[from source](upgrade-your-avalanchego-node.md#build-from-source) 构建节点。
 
 ## **Download Pre-built Binary**
 
@@ -183,6 +182,6 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDU5NDEyLDg5MzA0MDU3NCwtNTIzOD
-U2MDg3XX0=
+eyJoaXN0b3J5IjpbMTUxNjU2NDM5NCw4OTMwNDA1NzQsLTUyMz
+g1NjA4N119
 -->
