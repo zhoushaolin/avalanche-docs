@@ -77,9 +77,9 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ### 第一步 – 将AVAX导出X链
 
-To export AVAX, call the X-Chain’s [`avm.exportAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-exportavax) method.
+要导出AVAX，需调用X链的[`avm.exportAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-exportavax) 方法。
 
-Your call should look like this:
+响应如下：
 
 ```cpp
 curl -X POST --data '{
@@ -96,6 +96,8 @@ curl -X POST --data '{
     }
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
+
+其中`to`是用户控制的P链地址，`changeAddr`是发送变更的地址。您可以将`changeAddr`留空；如果留空，则变更将返回到用户控制的地址（有关创建新的P链地址的说明，请参见[here](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) ）。
 
 where `to` is the address of a P-Chain address your user controls and `changeAddr` is the address to send any change to. You can leave `changeAddr` blank; if you leave it blank, change will be returned to an address controlled by your user \(see [here](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) for instructions on creating a new P-Chain address\).
 
@@ -299,5 +301,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTIxOTQwMCwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbNDU4NzI3MTExLC04MDAyMTgzNDddfQ==
 -->
