@@ -161,9 +161,7 @@ curl -X POST --data '{
 
 转账还未完成。我们需要调用P链的 [`platform.importAVAX`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-importavax) 方法来完成转账。
 
-Our transfer isn’t done just yet. We need to call the P-Chain’s [`platform.importAVAX`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-importavax) method to finish the transfer.
-
-Your call should look like this:
+调用如下：
 
 ```cpp
 curl -X POST --data '{
@@ -180,7 +178,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-This returns the transaction ID:
+这将返回交易ID：
 
 ```cpp
 {
@@ -193,7 +191,7 @@ This returns the transaction ID:
 }
 ```
 
-We can check that the transaction was accepted with:
+我们可以通过以下方式确认交易是否已被接受：
 
 ```cpp
 curl -X POST --data '{
@@ -206,7 +204,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-It should be `Committed`, meaning the transfer is complete. We can also check the balance of the address with:
+此处应该是`Committed`，表示转账已完成。我们也可以通过以下方式查看地址余额：
 
 ```cpp
 curl -X POST --data '{
@@ -219,7 +217,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-The response should look like this:
+响应如下：
 
 ```cpp
 {
@@ -236,6 +234,8 @@ The response should look like this:
     "id": 1
 }
 ```
+
+请注意，我们看到的余额是从X链导出的金额\(`.004`AVAX\)减去交易费\(在本实例中为“.001”AVAX \)。现在，我们可以使用这个P链地址所持有的 AVAX 来提供质押，以验证主网。
 
 Note that the balance we see is the amount exported from the X-Chain \(`.004` AVAX\) less the transaction fee \(`.001` AVAX in this example\). Now, we can use the AVAX held by this P-Chain address to provide a stake in order to validate the Primary Network.
 
@@ -301,5 +301,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjAzNzgzMiwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbMjE0Mjg1MDc3OCwtODAwMjE4MzQ3XX0=
 -->
