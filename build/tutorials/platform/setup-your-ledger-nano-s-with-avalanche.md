@@ -46,20 +46,19 @@ Avalanche应用程序安装完成后，便可以通过Ledger与[Avalanche Wallet
 
 ![](https://miro.medium.com/max/1802/1*Qevjy6nhw5UM0ufvxIL_qg.jpeg)
 
-确认Avalanche应用程序运行后，点击钱包主页上的“进入钱包”按钮。
-After you confirm that the Avalanche app is running then on the wallet homepage click the “Access Wallet” button.
+确认Avalanche应用程序运行后，点击钱包主页上的“Access Wallet”按钮。
 
 ![Access wallet button](https://miro.medium.com/max/2364/1*SC1uM5xFybz3lfPiKwOHUw.png)
 
-On the subsequent “How do you want to access your wallet?”, click the “Ledger” button.
+在接下来的“How do you want to access your wallet?”提问中，点击“Ledger”按钮。
 
 ![Ledger Access](../../../.gitbook/assets/ledger-access.png)
 
-You’ll now be prompted to confirm on your Ledger device. Click right button through the prompts on the device and on the last screen confirm by pressing both buttons.
+然后系统将提示您在您的Ledger设备上进行确认。通过设备上的提示单击右键，并在最后一个界面上按下两个按钮进行确认。
 
 ![](https://miro.medium.com/max/3828/1*xpNt2ajcTdEivDr4xEedQQ.png)
 
-If successful you will be signed into the wallet and any previous balances will be displayed.
+如果成功，您将登录到钱包，并看到之前的所有余额。
 
 ![Web Wallet Portfolio Tab](../../../.gitbook/assets/web-wallet-portfolio-tab.png)
 
@@ -88,5 +87,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc0MTg0OTBdfQ==
+eyJoaXN0b3J5IjpbLTE4MTcxNDk2NjBdfQ==
 -->
