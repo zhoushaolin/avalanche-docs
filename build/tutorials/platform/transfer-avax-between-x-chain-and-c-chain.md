@@ -20,22 +20,21 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-01-login.png)
 
-选择**Access Wallet**进入您的钱包。如果要将钱包连接到Avalanche主网以外的网络，请选择**主网**，并选择要连接的网络。
+选择**Access Wallet**进入您的钱包。如果要将钱包连接到Avalanche主网以外的网络，请选择**Mainnet**，并选择要连接的网络。
 
-Select **Access Wallet** to enter your wallet. To connect the wallet to a network other than the main Avalanche network, select **Mainnet** and choose the network to connect to.
+### 第二步 - 登录您的钱包
 
-### Step 2 - Log In to Your Wallet
-
-You can access your wallet using the private key, mnemonic key phrase, keystore file or Ledger Nano S. C-Chain transfers via Ledger are not supported yet.
+您可以使用私人密钥、助记密钥口令、密钥库文件或Ledger Nano S登录您的钱包。目前还不支持通过Ledger进行C链转账。
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-02-access.png)
 
-After a successful login you will see your balance, assets portfolio and various other information.
+登录成功后，您将看到您的余额、资产组合和各种其他信息。
 
-### Step 3 - Go to the Cross Chain Tab
+### 第三步 - 进入跨链选项卡
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-03-earn.png)
 
+在各链之间转移代币的功能在**跨链**选项卡上。
 Functionality for transferring tokens between chains is on the **Cross Chain** tab.
 
 ### Step 4 - Enter Amount to Transfer
@@ -261,5 +260,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg3NzAyMTJdfQ==
+eyJoaXN0b3J5IjpbMTg2Mjc2NTIwXX0=
 -->
