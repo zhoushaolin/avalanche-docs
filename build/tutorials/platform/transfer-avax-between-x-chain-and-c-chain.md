@@ -192,9 +192,9 @@ curl -X POST --data '{
 
 您的AVAX被转移到C链后，您就可以用它来部署和交互智能合约了。
 
-## Transfer from the C-Chain to X-Chain
+## 从C链转账到X链
 
-Now, you can move AVAX back from the C-Chain to the X-Chain. First we need to export:
+现在，您可以把AVAX从C链转回X链。首先，我们需要导出：
 
 ```cpp
 curl -X POST --data '{  
@@ -210,9 +210,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-where `to` is the bech32 encoded address of an X-Chain address you hold. Make sure that the amount you export exceeds the transaction fee because both the export and import transactions will charge a transaction fee.
+其中`to`是您持有的X链地址的Bech32编码地址。确保你的导出金额大于交易费，因为导出导入交易都要收取交易费。
 
-The response should look like this:
+响应如下：
 
 ```cpp
 {   
@@ -224,7 +224,7 @@ The response should look like this:
 }
 ```
 
-To finish the transfer, call [`avm.importAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-importavax).
+调用[`avm.importAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-importavax)完成转账。
 
 ```cpp
 curl -X POST --data '{  
@@ -259,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODQ2NzA1MF19
+eyJoaXN0b3J5IjpbLTIwMzg4MjMwMDldfQ==
 -->
