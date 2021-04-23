@@ -2,9 +2,9 @@
 
 安全保护加密数字货币的行业标准是硬件钱包，这是一种专用的设备，可以将您的电脑和私人密钥完全隔离。
 
-如果要使用先前创建的Avalanche地址，则需要使用从Avalanche钱包中获得的助记词执行[从助记词还原](https://support.ledger.com/hc/en-us/articles/360005434914)程序。若创建新的地址，只需遵循常规的[创建为新设备]( https://support.ledger.com/hc/en-us/articles/360000613793-set-up-as-new-device )程序。
+如果要使用先前创建的Avalanche地址，则需要使用从Avalanche钱包中获得的助记词执行 [restore from recovery phrase](https://support.ledger.com/hc/en-us/articles/360005434914) 程序。若创建新的地址，只需遵循常规的[set up as new device](https://support.ledger.com/hc/en-us/articles/360000613793-Set-up-as-new-device)程序。
 
-If you want to use the Avalanche address you created earlier, you need to use the [restore from recovery phrase](https://support.ledger.com/hc/en-us/articles/360005434914) procedure using mnemonic phrase you got from the Avalanche wallet. If you're setting up a fresh address, just follow regular [set up as new device](https://support.ledger.com/hc/en-us/articles/360000613793-Set-up-as-new-device) procedure.
+目前可在[Ledger Live](https://www.ledger.com/ledger-live) 上获取Avalanche Ledger钱包应用程序的试验模态。
 
 The Avalanche Ledger wallet app is currently available via [Ledger Live](https://www.ledger.com/ledger-live) in Experimental Mode.
 
@@ -89,5 +89,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MzgzNDc4XX0=
+eyJoaXN0b3J5IjpbLTk0Mjc0MTA1NF19
 -->
