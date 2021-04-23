@@ -141,7 +141,7 @@ curl -X POST --data '{
 }
 ```
 
-我们也可以调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) to check that the AVAX was deducted from an address held by our user:
+我们也可以调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance)来查看AVAX是否已从用户持有的地址中扣除:
 
 ```cpp
 curl -X POST --data '{
@@ -155,9 +155,11 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The amount deducted is the exported amount \(`.005` AVAX in this example\) plus the transaction fee. If your user controls multiple X-Chain addresses, AVAX may have been sent from any combination of them.
+扣除的金额是导出金额\(在本实例中为`.005` AVAX \)加上交易费。如果您的用户控制了多个 X链地址，AVAX可能是从它们的任意组合发出的。
 
-### Step 2 - Import AVAX to the P-Chain
+### 第二步 - 将AVAX导入P链
+
+转账还未完成。我们需要调用P链的 [`platform.importAVAX`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-importavax) 方法来完成转账。
 
 Our transfer isn’t done just yet. We need to call the P-Chain’s [`platform.importAVAX`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-importavax) method to finish the transfer.
 
@@ -299,5 +301,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjQ1Nzk4MywtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbMTExNjAzNzgzMiwtODAwMjE4MzQ3XX0=
 -->
