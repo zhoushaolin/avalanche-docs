@@ -62,11 +62,11 @@ Avalanche应用程序安装完成后，便可以通过Ledger与[Avalanche Wallet
 
 ![Web Wallet Portfolio Tab](../../../.gitbook/assets/web-wallet-portfolio-tab.png)
 
-To transfer funds, go to the “Send” tab and paste an X-Address into the “To Address” field. Set an amount and optionally set a memo. Press "Confirm" and then the “Send Transaction” button.
+要转账，进入“Send”选项卡，并将X地址粘贴到“To Address”字段中。设定一个金额，并可选择性地添加转账说明。按“Confirm”然后按“Send Transaction”按钮。
 
 ![Send Transaction](../../../.gitbook/assets/send-transaction.png)
 
-You’ll be prompted to confirm the action on your Ledger. Check that the hash which is displayed in the web wallet matches what is displayed on your Ledger. If everything matches then confirm by pressing both buttons on the last screen to send the transaction.
+系统会提示您在Ledger确认此操作。检查网络钱包中显示的哈希值与您Ledger上显示的是否相符。如果核对无误，按下最后一个界面上的两个按钮确认发送交易。
 
 ![](https://miro.medium.com/max/2932/1*XI8fzBRpDr0PXcuVQPHLvQ.png)
 
@@ -87,5 +87,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcxNDk2NjBdfQ==
+eyJoaXN0b3J5IjpbLTEwOTMwMDg1NDhdfQ==
 -->
