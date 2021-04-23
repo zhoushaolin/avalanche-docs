@@ -68,6 +68,7 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 如果要在Avalanche网络上构建应用程序，您可能希望以编程方式进行转账，作为拓展功能的一部分。您可以通过在AvalancheGo节点上调用适当的应用程序接口来实现这一点。本教程的其余部分假设您可以访问AvalancheGo节点、X链上的AVAX代币，以及[created](../../avalanchego-apis/keystore-api.md#keystorecreateuser) 并存储在节点密钥库中的用户凭证。
 
+下面的所有示例应用程序接口调用都假定节点在本地运行\（即侦听`127.0.0.1` \）。该节点可以连接到主网、测试网络或本地网络。在每种情况下，除了地址格式之外，应用程序接口调用和响应应该是相同的。该节点不需要是本地节点；您可以调用托管在其他地方的节点。
 All the example API calls below assume the node is running locally \(that is, listening on `127.0.0.1`\). The node can be connected to the main network, a test network or a local network. In each case, the API calls and responses should be the same, except for the address formats. The node need not be local; you can make calls to a node hosted elsewhere.
 
 As you may have noticed while transferring AVAX using the Avalanche Wallet, a cross-chain transfer is a two transaction operation:
@@ -259,5 +260,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3OTc3MzFdfQ==
+eyJoaXN0b3J5IjpbNTgzNDQ2OTA5XX0=
 -->
