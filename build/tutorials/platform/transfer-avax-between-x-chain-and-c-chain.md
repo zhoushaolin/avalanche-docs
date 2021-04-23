@@ -34,12 +34,11 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-03-earn.png)
 
-在各链之间转移代币的功能在**跨链**选项卡上。
-Functionality for transferring tokens between chains is on the **Cross Chain** tab.
+在各链之间转移代币的功能在**Cross Chain**选项卡上。
 
-### Step 4 - Enter Amount to Transfer
+### 第四步 - 输入转账金额
 
-You will be presented with a choice for **Source Chain** and **Destination Chain**. Select X-Chain and C-Chain, respectively. You will see your X and C balances, and an input field for entering the amount to transfer from source to destination chain.
+您将看到**Source Chain**和**Destination Chain**的选项。分别选择X链和C链。您将看到您的X链和C链余额，以及一个输入字段，用于输入要从源链转移到目的链的金额。
 
 ![Image for post](../../../.gitbook/assets/wallet-x2c-01-x-c.png)
 
@@ -260,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mjc2NTIwXX0=
+eyJoaXN0b3J5IjpbMTgwNTY0MzAwOF19
 -->
