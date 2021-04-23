@@ -67,16 +67,15 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 ## 通过API调用从 X 链转账到P链
 
 如果要在Avalanche网络上构建应用程序，您可能希望以编程方式进行转账，作为拓展功能的一部分。您可以通过在AvalancheGo节点上调用适当的应用程序接口来实现这一点。本教程的其余部分假设您可以访问AvalancheGo节点、X链上的AVAX代币，以及[created](../../avalanchego-apis/keystore-api.md#keystorecreateuser) 并存储在节点密钥库中的用户凭证。
-If you're building an application on the Avalanche network, you may want to do the transfer programmatically as part of some broader functionality. You can do that by calling the appropriate APIs on an AvalancheGo node. The rest of the tutorial assumes you have access to an AvalancheGo node, AVAX tokens on the X-Chain, and user credentials [created](../../avalanchego-apis/keystore-api.md#keystorecreateuser) and stored in the node's keystore.
 
-All the example API calls below assume the node is running locally \(that is, listening on `127.0.0.1`\). The node can be connected to the main network, a test network or a local network. In each case, the API calls and responses should be the same, except for the address formats. The node need not be local; you can make calls to a node hosted elsewhere.
+下面的所有示例应用程序接口调用都假定节点在本地运行\（即侦听`127.0.0.1` \）。该节点可以连接到主网、测试网络或本地网络。在每种情况下，除了地址格式之外，应用程序接口调用和响应应该是相同的。该节点不需要是本地节点；您可以调用托管在其他地方的节点。
 
-As you may have noticed while transferring AVAX using the Avalanche Wallet, a cross-chain transfer is a two transaction operation:
+您可能已经注意到了，在使用Avalanche钱包转移AVAX时，跨链转账是一个双交易操作：
 
-* Export AVAX from the X-Chain
-* Import AVAX to the P-chain
+* 从X链导出AVAX
+* 将AVAX导入P链
 
-### Step 1 - Export AVAX from the X-Chain
+### 第一步 – 将AVAX导出X链
 
 To export AVAX, call the X-Chain’s [`avm.exportAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-exportavax) method.
 
@@ -300,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzQzNzMyNiwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbLTMyNTIxOTQwMCwtODAwMjE4MzQ3XX0=
 -->
