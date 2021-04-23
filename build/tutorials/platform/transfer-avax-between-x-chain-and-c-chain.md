@@ -62,9 +62,9 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 要将AVAX转回X链，只需反向操作。
 
-Swap source and destination chain, by selecting them from the **Source** and **Destination** dropdown menu. The rest of the process is the same: enter the amount, confirm and transfer.
+在**Source**和**Destination**下拉菜单中进行选择，将源链和目的链对调。其余步骤都是一样的：输入金额、确认和转账。
 
-## Transferring from the X-Chain to C-Chain with API Calls
+## 通过API 调用从 X 链转账到C链
 
 If you're building an application on the Avalanche network, you may want to do the transfer programmatically as part of some broader functionality. You can do that by calling the appropriate APIs on an AvalancheGo node. The rest of the tutorial assumes you have access to an AvalancheGo node, AVAX tokens on the X-Chain, and user credentials [created](../../avalanchego-apis/keystore-api.md#keystorecreateuser) and stored in the node's keystore.
 
@@ -259,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MzU5NTMwXX0=
+eyJoaXN0b3J5IjpbLTE2NjA2NjcwNThdfQ==
 -->
