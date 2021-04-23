@@ -240,9 +240,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-where `to` is the bech32 encoded address the X-Chain address which you sent the funds to in the previous step.
+其中`to`是Bech32编码地址，也就是你上一步发送资金的X链地址。
 
-The response should look like this:
+响应如下：
 
 ```cpp
 {   
@@ -254,10 +254,9 @@ The response should look like this:
 }
 ```
 
-## Wrapping Up
+## 总结
 
-That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
-
+就这样！现在，您可以将AVAX在X链和C链之间来回转移，既可以使用Avalanche钱包，也可以在Avalanche节点上调用适当的应用程序接口调用。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg4MjMwMDldfQ==
+eyJoaXN0b3J5IjpbLTIwODk3Nzc1MDVdfQ==
 -->
