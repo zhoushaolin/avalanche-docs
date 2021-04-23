@@ -14,17 +14,17 @@ AVAX代币存在于X链、P链和C链上，在X链上可以进行交易，在P�
 
 在各链之间转移AVAX最简单的方法是使用[Avalanche钱包](https://wallet.avax.network/)，这是一种安全获得和转移AVAX的非托管方式。
 
-The Avalanche Wallet source code can be found [here](https://github.com/ava-labs/avalanche-wallet).
+Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche-wallet).
 
-### Step 1 - Open the Avalanche Wallet
+### 第一步 - 打开Avalanche钱包
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-01-login.png)
 
-Select **Access Wallet** to enter your wallet. To connect the wallet to a network other than the main Avalanche network, select **Mainnet** and choose the network to connect to.
+选择**Access Wallet**进入您的钱包。如果要将钱包连接到Avalanche主网以外的网络，请选择**Mainnet**，并选择要连接的网络。
 
-### Step 2 - Log In to Your Wallet
+### 第二步 - 登录您的钱包
 
-You can access your wallet using the private key, mnemonic key phrase, keystore file or Ledger Nano S.
+您可以使用私人密钥、助记密钥口令、密钥库文件或Ledger Nano S登录您的钱包。
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-02-access.png)
 
@@ -299,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzQ2MTQ1OCwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbLTcxNDE3NjcyMSwtODAwMjE4MzQ3XX0=
 -->
