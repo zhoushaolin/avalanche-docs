@@ -296,8 +296,8 @@ curl -X POST --data '{
 
 就这样！现在，您可以将AVAX在X链和P链之间来回转移，既可以使用Avalanche钱包，也可以在Avalanche节点上调用适当的应用程序接口调用。
 
-Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
+现在，您就可以在P链上使用代币, 并在主网上添加节点zuo wNow you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEwOTM3OTUsLTgwMDIxODM0N119
+eyJoaXN0b3J5IjpbNzYyOTc0MjM0LC04MDAyMTgzNDddfQ==
 -->
