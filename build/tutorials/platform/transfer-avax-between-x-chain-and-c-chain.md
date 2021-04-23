@@ -10,15 +10,17 @@ AVAX代币存在于X链、P链和C链上，在X链上可以进行交易，在P�
 
 要想发送AVAX，你首先得有AVAX！您可以在交易所购买真正的AVAX，或者可以从[AVAX Test Faucet](https://faucet.avax-test.network)获得测试网络AVAX，这是一个免费试玩Avalanche的简易方法。
 
-## Transferring AVAX using the web wallet
+## 使用网络钱包转移AVAX
 
-The easiest way to transfer AVAX between chains is to use [the Avalanche Wallet](https://wallet.avax.network/) which is a non-custodial and secure way to access and move AVAX.
+在各链之间转移AVAX最简单的方法是使用[the Avalanche Wallet](https://wallet.avax.network/) ，这是一种安全获得和转移AVAX的非托管方式。
 
-The Avalanche Wallet source code can be found [here](https://github.com/ava-labs/avalanche-wallet).
+Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche-wallet)。
 
-### Step 1 - Open the Avalanche Wallet
+### 第一步 - 打开Avalanche钱包
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-01-login.png)
+
+选择**Access Wallet**进入您的钱包。如果要将钱包连接到Avalanche主网以外的网络，请选择**主网**，并选择要连接的网络。
 
 Select **Access Wallet** to enter your wallet. To connect the wallet to a network other than the main Avalanche network, select **Mainnet** and choose the network to connect to.
 
@@ -259,5 +261,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDcxOTUyN119
+eyJoaXN0b3J5IjpbLTIwNzg3NzAyMTJdfQ==
 -->
