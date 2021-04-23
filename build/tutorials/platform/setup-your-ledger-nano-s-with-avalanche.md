@@ -6,17 +6,15 @@
 
 目前可在[Ledger Live](https://www.ledger.com/ledger-live) 上获取Avalanche Ledger钱包应用程序的试验模态。
 
-The Avalanche Ledger wallet app is currently available via [Ledger Live](https://www.ledger.com/ledger-live) in Experimental Mode.
+## 如何在Ledger Live上创建Avalanche
 
-## How to Set Up Avalanche on Ledger Live <a id="1c80"></a>
+首先，您需要安装[Ledger Live]([https://www.ledger.com/ledger-live](https://www.ledger.com/ledger-live))。MacOS、Windows、Linux、iOS和Android均可下载。
 
-First, you’ll need to install [Ledger Live](https://www.ledger.com/ledger-live). There’s a download for MacOS, Windows and Linux as well as iOS and Android.
-
-Next, fire up Ledger Live and click the “Settings” button.
+接下来，启动Ledger Live并点击“Settings” 按钮。
 
 ![Settings button on ledger live](https://miro.medium.com/max/3052/1*lMnVGJneUAqgRvZBIDv_rA.png)
 
-Once in settings then go to the “Experimental features” tab.
+进入设置，然后进入“实验功能”选项卡。 “Experimental features” tab.
 
 ![](https://miro.medium.com/max/4072/1*HrSweaL-kelTl47QRt38iA.png)
 
@@ -89,5 +87,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mjc0MTA1NF19
+eyJoaXN0b3J5IjpbLTE3MDAyNzc4NTRdfQ==
 -->
