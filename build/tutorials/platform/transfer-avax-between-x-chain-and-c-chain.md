@@ -50,17 +50,17 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 点击**Confirm**、**Transfer**开始转账。
 
-### Step 6 - Done!
+### 第六步 – 完成！
 
-A cross-chain transfer is a two step process: first a transaction to export the funds from the X-Chain, and another to import it to the C-Chain. The wallet will do both and show its the progress while doing so.
+跨链转账分两个步骤：一个是从X链导出资金的交易，另一个是将资金导入C链的交易。钱包将同时执行这两项操作并显示其进度。
 
 ![Image for post](../../../.gitbook/assets/wallet-x2c-03-done.png)
 
-That's it! You've transferred AVAX from the X-Chain to C-Chain! Now you can use them to deploy smart contracts on C-Chain.
+就这样！您就成功把 AVAX 从X链转移到C链了！现在您可以用它们在C链上部署智能合同。
 
-### Transfer from the C-Chain to X-chain
+### 从C链转账到X链
 
-To return the AVAX back to the X-Chain, you need to do the transfer in the opposite direction.
+要将AVAX转回X链，只需反向操作。
 
 Swap source and destination chain, by selecting them from the **Source** and **Destination** dropdown menu. The rest of the process is the same: enter the amount, confirm and transfer.
 
@@ -259,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDEwNzgzOV19
+eyJoaXN0b3J5IjpbNTI4MzU5NTMwXX0=
 -->
