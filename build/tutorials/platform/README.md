@@ -1,4 +1,4 @@
-# Platform
+# 平台
 
 | Title | Description |
 | :--- | :--- |
@@ -10,3 +10,6 @@
 | [**Transfer AVAX Between the X-Chain and P-Chain**](transfer-avax-between-x-chain-and-p-chain.md) | Send AVAX between the X-Chain and P-Chain |
 | [**Transfer AVAX Between the X-Chain and C-Chain**](transfer-avax-between-x-chain-and-c-chain.md) | Send AVAX between the X-Chain and C-Chain |
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQzMTIyMTkxNl19
+-->
