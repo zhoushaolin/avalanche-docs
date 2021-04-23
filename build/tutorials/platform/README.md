@@ -7,9 +7,9 @@
 | [**创建一个子网**](create-a-subnet.md) | 创建一个新的子网[subnet](../../../learn/platform-overview/#subnets). |
 | [**创建一个虚拟机\(VM\)**](create-a-virtual-machine-vm.md) | 创建一个简单的[virtual machine \(VM\)](../../../learn/platform-overview/#virtual-machines). |
 | [**通过Avalanche设置您的Ledger Nano S**](setup-your-ledger-nano-s-with-avalanche.md) | 通过Ledger Live和Avalanche Wallet设置您的Ledger |
-| [**在X链和P链之间转移AVAX**](transfer-avax-between-x-chain-and-p-chain.md) | Send AVAX between the X-Chain and P-Chain |
-| [**Transfer AVAX Between the X-Chain and C-Chain**](transfer-avax-between-x-chain-and-c-chain.md) | Send AVAX between the X-Chain and C-Chain |
+| [**在X链和P链之间转移AVAX**](transfer-avax-between-x-chain-and-p-chain.md) | 在X链和P链之间发送AVAX|
+| [**在X链和C链之间转移AVAX**](transfer-avax-between-x-chain-and-c-chain.md) | 在X链和C链之间发送AVAX|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTY2NjU5NV19
+eyJoaXN0b3J5IjpbLTE3NzIwNTgyMDJdfQ==
 -->
