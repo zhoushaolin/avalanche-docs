@@ -265,13 +265,13 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-where `to` is the X-Chain address the AVAX is being sent to.
+其中`to`是AVAX发往的X链地址：
 
-This returns the transaction ID, and we can check that the transaction was committed with another call to [`platform.getTxStatus`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-gettxstatus). Again, make sure that the amount you’re sending exceeds the transaction fee.
+这将返回交易ID，我们还可以通过另一个调用[`platform.getTxStatus`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-gettxstatus)来查看交易是否已被提交。再次提醒，请确保您的导出金额大于交易费。
 
-### Step 2 - Import AVAX to X-Chain
+### 第二步 - 将AVAX导入X链
 
-To finish our transfer from the P-Chain to the X-Chain, call [`avm.importAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-importavax):
+调用 [`avm.importAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-importavax)完成从P链到X链的转账：
 
 ```cpp
 curl -X POST --data '{
@@ -299,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTkwMDUxOSwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbMTU0NTk0NDMwOCwtODAwMjE4MzQ3XX0=
 -->
