@@ -99,9 +99,7 @@ curl -X POST --data '{
 
 其中`to`是用户控制的P链地址，`changeAddr`是发送变更的地址。您可以将`changeAddr`留空；如果留空，则变更将返回到用户控制的地址（有关创建新的P链地址的说明，请参见[here](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) ）。
 
-where `to` is the address of a P-Chain address your user controls and `changeAddr` is the address to send any change to. You can leave `changeAddr` blank; if you leave it blank, change will be returned to an address controlled by your user \(see [here](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) for instructions on creating a new P-Chain address\).
-
-Note that you will pay a transaction fee for both the export and import operations. In this example, let’s assume the transaction fee is `.001` AVAX. Then, the above export actually consumes `.006` AVAX; `.005` goes to the P-Chain and `.001` is burned as a transaction fee.
+请注意，导入和导出操作都需支付交易费。在本实例中，我们假设交易费用为`.001`AVAX。那么，上述导出实际上花费了`.006`AVAX；`.005` 进入P链，`.001`为交易费销毁。
 
 Make sure that the amount that you’re sending exceeds the transaction fee. Otherwise, when you import AVAX on the P-Chain, it will consume the transaction fee, and you’ll end up with _less_ AVAX on the P-Chain.
 
@@ -301,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NzI3MTExLC04MDAyMTgzNDddfQ==
+eyJoaXN0b3J5IjpbMzQzMzAxODg4LC04MDAyMTgzNDddfQ==
 -->
