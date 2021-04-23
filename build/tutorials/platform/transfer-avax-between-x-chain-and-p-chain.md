@@ -235,22 +235,20 @@ curl -X POST --data '{
 }
 ```
 
-请注意，我们看到的余额是从X链导出的金额\(`.004`AVAX\)减去交易费\(在本实例中为“.001”AVAX \)。现在，我们可以使用这个P链地址所持有的 AVAX 来提供质押，以验证主网。
+请注意，我们看到的余额是从X链导出的金额\(`.004`AVAX\)减去交易费\(在本实例中为`.001`AVAX \)。现在，我们可以使用这个P链地址所持有的 AVAX 来提供质押，以验证主网。
 
-Note that the balance we see is the amount exported from the X-Chain \(`.004` AVAX\) less the transaction fee \(`.001` AVAX in this example\). Now, we can use the AVAX held by this P-Chain address to provide a stake in order to validate the Primary Network.
+## 以编程方式从P链转账到X链
 
-## Transferring from the P-Chain to X-Chain programmatically
+现在，让我们把AVAX从P链转回X链。
 
-Now, let’s move AVAX from the P-Chain back to the X-Chain.
+同上，这也是一个双向交易操作。
 
-Same as before, this is also a two transaction operation:
+* 从P链导出
+* 导入X链
 
-* Export from the P-Chain
-* Import to the X-Chain
+### 第一步 - 将AVAX 从P链导出
 
-### Step 1 - Export AVAX from the P-Chain
-
-To do so, call [`platform.exportAVAX`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-exportavax):
+调用[`platform.exportAVAX`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-exportavax)完成这一操作：
 
 ```cpp
 curl -X POST --data '{
@@ -301,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mjg1MDc3OCwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbMTAwOTkwMDUxOSwtODAwMjE4MzQ3XX0=
 -->
