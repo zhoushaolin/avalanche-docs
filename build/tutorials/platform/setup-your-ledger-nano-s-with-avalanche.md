@@ -14,18 +14,19 @@
 
 ![Settings button on ledger live](https://miro.medium.com/max/3052/1*lMnVGJneUAqgRvZBIDv_rA.png)
 
-进入设置，然后进入“实验功能”选项卡。 “Experimental features” tab.
+进入设置，然后进入“Experimental features”选项卡。 
 
 ![](https://miro.medium.com/max/4072/1*HrSweaL-kelTl47QRt38iA.png)
 
-Scroll down to the “Developer mode” toggle switch, and enable it.
+下滑至“Developer mode”切换开关，并启用它。
 
 ![Toggle on developer mode](https://miro.medium.com/max/2908/1*qdte7MSvSZdfqfCIUMNp2Q.png)
 
-Now with “Developer mode” enabled, you can go to the “Manager” tab and search for “Avalanche”. Confirm that the Avalanche app is v0.2.1, and click the “Install” button.
+启用“Developer mode”后，您可以进入“Manager”选项卡，搜索“Avalanche”。确认此Avalanche应用程序为0.2.1版本，然后单击“Install”按钮。
 
 ![Avalanche Ledger app install button](https://miro.medium.com/max/4040/1*rGFrSBEfxRlIkc-k7hS2Vg.png)
 
+您可以进入“已安装应用程序”选项卡确认安装是否成功，您应该可以看到其中有Avalanche v0.2.1。
 You can confirm the installation was successful by going to the “Apps installed” tab where you should see Avalanche v0.2.1.
 
 ![](https://miro.medium.com/max/3020/1*qBSuxqY52-wxWfM-w1YR_w.png)
@@ -87,5 +88,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAyNzc4NTRdfQ==
+eyJoaXN0b3J5IjpbMTc5ODEyNDgwXX0=
 -->
