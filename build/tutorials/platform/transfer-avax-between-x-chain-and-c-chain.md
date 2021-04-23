@@ -4,12 +4,11 @@
 
 AVAX代币存在于X链、P链和C链上，在X链上可以进行交易，在P链上可以在验证主网时作为权益质押，在C链上可以用于智能合约或支付天然气费用。在本教程中，我们将在X链和C链之间发送AVAX代币。
 
+## 要求
 
-## Requirements
+您已完成[Run an Avalanche Node](../../get-started.md) and 并且熟悉[Avalanche's architecture](../../../learn/platform-overview/).
 
-You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/).
-
-In order to send AVAX, you need to have some AVAX! You can get real AVAX by buying it on an exchange, or you can get testnet AVAX from the [AVAX Test Faucet](https://faucet.avax-test.network), which is a free and easy way to get to play around with Avalanche.
+要想发送AVAX，你首先得有AVAX！您可以在交易所购买真正的AVAX，或者可以从[AVAX Test Faucet](https://faucet.avax-test.network)获得测试网络AVAX，这是一个免费试玩Avalanche的简易方法。
 
 ## Transferring AVAX using the web wallet
 
@@ -260,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEwMDE0MDNdfQ==
+eyJoaXN0b3J5IjpbMTg1NDcxOTUyN119
 -->
