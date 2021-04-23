@@ -28,17 +28,17 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-02-access.png)
 
-After a successful login you will see your balance, assets portfolio and various other information.
+登录成功后，您将看到您的余额、资产组合和各种其他信息。
 
-### Step 3 - Go to the Cross Chain Tab
+### 第三步 - 进入跨链选项卡
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-03-earn.png)
 
-Functionality for transferring tokens between chains is on the **Cross Chain** tab.
+在各链之间转移代币的功能在**Cross Chain**选项卡上。
 
-### Step 4 - Enter Amount to Transfer
+### 第四步 - 输入转账金额
 
-You will be presented with a choice for **Source Chain** and **Destination Chain**. Select X-Chain and P-Chain, respectively. You will see your X and P balances, and an input field for entering the amount to transfer from source to destination chain.
+您将看到**Source Chain**和**Destination Chain**的选项。分别选择X链和P链。您将看到您的X链和P链余额，以及一个输入字段，用于输入要从源链转移到目的链的金额。
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-05-x-p.png)
 
@@ -299,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDE3NjcyMSwtODAwMjE4MzQ3XX0=
+eyJoaXN0b3J5IjpbLTE5MTA1OTc0NjMsLTgwMDIxODM0N119
 -->
