@@ -42,23 +42,23 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-05-x-p.png)
 
-Enter the amount you wish to transfer from the X-Chain to the P-Chain.
+输入您希望从X链转移到P链的金额。
 
-### Step 5 - Confirm the Transaction
+### 第五步 - 确认交易
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-06-confirm.png)
 
-Press **Confirm**, and then **Transfer** to initiate the transfer.
+点击**Confirm**、**Transfer**开始转账。
 
-### Step 6 - Done!
+### 第六步 – 完成！
 
-A cross-chain transfer is a two step process: first a transaction to export the funds from the X-Chain, and another to import it to the P-Chain. The wallet will do both and show its the progress while doing so.
+跨链转账分两个步骤：一个是从X链导出资金的交易，另一个是将资金导入P链的交易。钱包将同时执行这两项操作并显示其进度。
 
 ![Image for post](../../../.gitbook/assets/wallet-x2p-07-transfer.png)
 
-That's it! You've transferred AVAX from the X-Chain to P-Chain! Now you can use them to validate or delegate on the Avalanche network.
+就这样！您就成功把 AVAX 从X链转移到P链了！现在，您可以使用它们在Avalanche网络上进行验证或委托。
 
-### Transfer from P-Chain to X-Chain
+### 从P链转账到X链
 
 To return the AVAX back to the X-Chain, you need to do the transfer in the opposite direction.
 
@@ -299,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA1OTc0NjMsLTgwMDIxODM0N119
+eyJoaXN0b3J5IjpbNDcxNzEwOTYxLC04MDAyMTgzNDddfQ==
 -->
