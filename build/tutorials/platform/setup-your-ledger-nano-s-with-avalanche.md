@@ -26,12 +26,13 @@
 
 ![Avalanche Ledger app install button](https://miro.medium.com/max/4040/1*rGFrSBEfxRlIkc-k7hS2Vg.png)
 
-您可以进入“已安装应用程序”选项卡确认安装是否成功，您应该可以看到其中有Avalanche v0.2.1。
-You can confirm the installation was successful by going to the “Apps installed” tab where you should see Avalanche v0.2.1.
+您可以进入“Apps installed”选项卡确认安装是否成功，您应该可以看到其中有Avalanche v0.2.1。
 
 ![](https://miro.medium.com/max/3020/1*qBSuxqY52-wxWfM-w1YR_w.png)
 
-## Use the Avalanche Wallet with Ledger <a id="48a3"></a>
+## 通过Ledger使用Avalanche钱包
+
+Avalanche应用程序安装完成后，便可以通过Ledger与[Avalanche Wallet](https://wallet.avax.network/) 进行交互。包括在X-链<->P-链之间发送AVAX、代币、非同质化通证、跨链交易以及质押代币。
 
 Once you have the Avalanche app installed then you’re able to interact with the [Avalanche Wallet](https://wallet.avax.network/) via the Ledger. This includes sending AVAX, tokens, NFTs, cross-chain swaps between the X-Chain&lt;-&gt;P-Chain as well as staking tokens.
 
@@ -88,5 +89,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODEyNDgwXX0=
+eyJoaXN0b3J5IjpbLTEyMTYyNzIxNl19
 -->
