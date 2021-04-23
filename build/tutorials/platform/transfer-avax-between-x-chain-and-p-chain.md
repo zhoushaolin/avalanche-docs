@@ -3,7 +3,6 @@
 ## 简介
 
 AVAX代币存在于X链、P链和C链上，在X链上可以进行交易，在P链上可以在验证主网时作为权益质押，在C链上可以用于智能合约或支付天然气费用。Avalanche支持AVAX在这些链之间转移，将来，Avalanche将支持它们在各链之间进行更普遍的原子交换。在本教程中，我们将在X链和P链之间发送AVAX代币。
-AVAX tokens exist on the X-Chain, where they can be traded, on the P-Chain, where they can be provided as a stake when validating the Primary Network, and on the C-Chain, where they can be used in smart contracts or to pay for gas. Avalanche supports movement of AVAX between these chains, and in the future, Avalanche will support more generic atomic swaps between chains. In this tutorial, we’ll send AVAX tokens between the X-Chain and P-Chain.
 
 ## Requirements
 
@@ -300,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDIxODM0N119
+eyJoaXN0b3J5IjpbMTEyNTEyOTUsLTgwMDIxODM0N119
 -->
