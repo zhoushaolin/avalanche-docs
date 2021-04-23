@@ -79,13 +79,11 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ### 在C链上创建地址和密钥
 
-X链使用[Bech32]  (http://support.avalabs.org/en/articles/4587392-what-is-bech32)地址，C链使用十六进制以太坊虚拟机\（EVM \）地址。由于两者都是通过单向加密函数从私人密钥派生而来的，因此无法互相转换。
+X链使用[Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32) 地址，C链使用十六进制以太坊虚拟机\(EVM \)地址。由于两者都是通过单向加密函数从私人密钥派生而来的，因此无法互相转换。
 
-The X-Chain uses [Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32) addresses and the C-Chain uses hex Ethereum Virtual Machine \(EVM\) addresses. There is no way to convert the address from one format to the other since they are both derived from a private key using a one-way cryptographic function.
+为了解决这个问题，您可以从X链导出一个私钥，然后将其导入C链。这样，您可以使用X链地址并将X前缀更改为C前缀，以获得可用于C链的正确 Bech32地址。
 
-In order to get around this, you can export a private key from the X-Chain and then import it to the C-Chain. This way, you can use the X-Chain address and change the X- prefix to a C- prefix in order to get the correct Bech32 address to use for the C-Chain.
-
-First, export a private key from the X-Chain:
+首先，从X链导出一个私钥：
 
 ```cpp
 curl -X POST --data '{
@@ -100,7 +98,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-Response:
+响应：
 
 ```cpp
 {
@@ -261,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDU4OTU3NF19
+eyJoaXN0b3J5IjpbLTkwMDg0NzkyOF19
 -->
