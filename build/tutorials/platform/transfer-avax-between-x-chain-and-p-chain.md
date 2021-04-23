@@ -101,9 +101,9 @@ curl -X POST --data '{
 
 请注意，导入和导出操作都需支付交易费。在本实例中，我们假设交易费用为`.001`AVAX。那么，上述导出实际上花费了`.006`AVAX；`.005` 进入P链，`.001`为交易费销毁。
 
-Make sure that the amount that you’re sending exceeds the transaction fee. Otherwise, when you import AVAX on the P-Chain, it will consume the transaction fee, and you’ll end up with _less_ AVAX on the P-Chain.
+确保您的导出金额大于交易费。否则，当您在P链上导入AVAX时，会不够支付交易费，最终您将在P链上获得_负的_ AVAX。
 
-The response should look like this:
+响应如下：
 
 ```cpp
 {
@@ -116,7 +116,7 @@ The response should look like this:
 }
 ```
 
-We can verify that this transaction was accepted by calling [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
+我们可以通过调用[`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来验证该交易是否已被接受：
 
 ```cpp
 curl -X POST --data '{
@@ -129,7 +129,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-Which shows our transaction is accepted:
+这表明我们的交易已被接受：
 
 ```cpp
 {
@@ -141,7 +141,7 @@ Which shows our transaction is accepted:
 }
 ```
 
-We can also call [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) to check that the AVAX was deducted from an address held by our user:
+我们也可以调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) to check that the AVAX was deducted from an address held by our user:
 
 ```cpp
 curl -X POST --data '{
@@ -299,5 +299,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMzAxODg4LC04MDAyMTgzNDddfQ==
+eyJoaXN0b3J5IjpbMTIzNjQ1Nzk4MywtODAwMjE4MzQ3XX0=
 -->
