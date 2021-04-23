@@ -110,7 +110,7 @@ curl -X POST --data '{
 }
 ```
 
-Now, import the same private key to the C-Chain:
+现在，将相同的私钥导入到C链：
 
 ```cpp
 curl -X POST --data '{  
@@ -125,7 +125,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-The response contains a hex-encoded EVM address:
+该响应包含一个十六进制编码的以太坊虚拟机地址：
 
 ```cpp
 {
@@ -137,11 +137,11 @@ The response contains a hex-encoded EVM address:
 }
 ```
 
-Now we have everything we need to transfer the tokens.
+现在，转移代币所需的一切准备工作都已完成。
 
-### Transfer from the X-Chain to C-Chain
+### 从X链转账到C链
 
-Use the address corresponding to the private key you exported and switch to using the C- prefix in the [`avm.exportAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-exportavax) call:
+使用与导出的私人密钥相对应的地址，并在[`avm.exportAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-exportavax)调用中转为使用C前缀：
 
 ```cpp
 curl -X POST --data '{  
@@ -259,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDg0NzkyOF19
+eyJoaXN0b3J5IjpbLTE5MDYyNTY4OTJdfQ==
 -->
