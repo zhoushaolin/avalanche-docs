@@ -158,7 +158,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-Since your keystore user owns the corresponding private key on the C-Chain, you can now import the AVAX to the address of your choice. It’s not necessary to import it to the same address that it was exported to, so can import the AVAX to an address that you own in MetaMask or another third-party service.
+由于您的密钥库用户拥有C链上相应的私人密钥，现在您可以将AVAX导入您所选的地址。没有必要将其导入到与导出地址相同的地址，因此可以将AVAX导入到您在MetaMask或其他第三方服务中的地址。
 
 ```cpp
 curl -X POST --data '{
@@ -174,9 +174,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-where `to` is a hex-encoded EVM address of your choice.
+其中`to`是您所选的十六进制以太网虚拟机地址。
 
-The response looks like this:
+响应如下：
 
 ```cpp
 {   
@@ -188,9 +188,9 @@ The response looks like this:
 }
 ```
 
-Note: there is no transaction fee for import transactions to the C Chain.
+注：C链导入交易不收取交易费。
 
-Once your AVAX has been transferred to the C-Chain, you can use it to deploy and interact with smart contracts.
+您的AVAX被转移到C链后，您就可以用它来部署和交互智能合约了。
 
 ## Transfer from the C-Chain to X-Chain
 
@@ -259,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYyNTY4OTJdfQ==
+eyJoaXN0b3J5IjpbMjAzODQ2NzA1MF19
 -->
