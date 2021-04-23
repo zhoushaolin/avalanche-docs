@@ -60,12 +60,13 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ### 从P链转账到X链
 
-To return the AVAX back to the X-Chain, you need to do the transfer in the opposite direction.
+要将AVAX转回X链，只需反向操作。
 
-Swap the source and destination chains by selecting them from the **Source** and **Destination** drop-down menu. The rest of the process is the same: enter the amount, confirm and transfer.
+在**Source**和**Destination**下拉菜单中进行选择，将源链和目的链对调。其余步骤都是一样的：输入金额、确认和转账。
 
-## Transferring from the X-Chain to P-Chain with API Calls
+## 通过API调用从 X 链转账到P链
 
+如果要在Avalanche网络上构建应用程序，您可能希望以编程方式进行转账，作为拓展功能的一部分。您可以通过在AvalancheGo节点上调用适当的应用程序接口来实现这一点。本教程的其余部分假设您可以访问AvalancheGo节点、X链上的AVAX代币，以及[created](../../avalanchego-apis/keystore-api.md#keystorecreateuser) 并存储在节点密钥库中的用户凭证。
 If you're building an application on the Avalanche network, you may want to do the transfer programmatically as part of some broader functionality. You can do that by calling the appropriate APIs on an AvalancheGo node. The rest of the tutorial assumes you have access to an AvalancheGo node, AVAX tokens on the X-Chain, and user credentials [created](../../avalanchego-apis/keystore-api.md#keystorecreateuser) and stored in the node's keystore.
 
 All the example API calls below assume the node is running locally \(that is, listening on `127.0.0.1`\). The node can be connected to the main network, a test network or a local network. In each case, the API calls and responses should be the same, except for the address formats. The node need not be local; you can make calls to a node hosted elsewhere.
@@ -299,5 +300,5 @@ That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Cha
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxNzEwOTYxLC04MDAyMTgzNDddfQ==
+eyJoaXN0b3J5IjpbLTkxMzQzNzMyNiwtODAwMjE4MzQ3XX0=
 -->
