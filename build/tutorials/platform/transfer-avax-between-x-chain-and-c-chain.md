@@ -42,13 +42,13 @@ Avalanche钱包的源代码请参见[here](https://github.com/ava-labs/avalanche
 
 ![Image for post](../../../.gitbook/assets/wallet-x2c-01-x-c.png)
 
-Enter the amount you wish to transfer from the X-Chain to the C-Chain.
+输入您希望从X链转移到C链的金额。
 
-### Step 5 - Confirm the Transaction
+### 第五步 - 确认交易
 
 ![Image for post](../../../.gitbook/assets/wallet-x2c-02-trasnfer.png)
 
-Press **Confirm**, and then **Transfer** to initiate the transfer.
+点击**Confirm**、**Transfer**开始转账。
 
 ### Step 6 - Done!
 
@@ -259,5 +259,5 @@ The response should look like this:
 That’s it! Now, you can swap AVAX back and forth between the X-Chain and C-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTY0MzAwOF19
+eyJoaXN0b3J5IjpbMTk4MDEwNzgzOV19
 -->
