@@ -294,10 +294,10 @@ curl -X POST --data '{
 
 ## 总结
 
-That’s it! Now, you can swap AVAX back and forth between the X-Chain and P-Chain, both by using the Avalanche Wallet, and by calling the appropriate API calls on an Avalanche node.
+就这样！现在，您可以将AVAX在X链和P链之间来回转移，既可以使用Avalanche钱包，也可以在Avalanche节点上调用适当的应用程序接口调用。
 
 Now you can use the tokens on the P-Chain to [add a node as a validator](../nodes-and-staking/add-a-validator.md) on the Primary Network.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE5Njg5NjMsLTgwMDIxODM0N119
+eyJoaXN0b3J5IjpbLTIwNDEwOTM3OTUsLTgwMDIxODM0N119
 -->
