@@ -39,9 +39,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### Education
 
-[**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 社区成员制作的 "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" 视频教程.
+[**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 社区成员制作的 "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" 视频教程, 关于如何在家运行Avalanche。
 
-\*\*\*\*[**Proof of Learning \(PoL\)**](https://techtec.co.jp/en): a blockchain company developing a curriculum for users and developers to learn about its high-performance, decentralized network through [Proof of Learning \(PoL\)](https://pol.techtec.world/), Japan’s most popular blockchain education platform.
+\*\*\*\*[**Proof of Learning \(PoL\)**](https://techtec.co.jp/en): a blockchain company developing a curriculum for users and developers to learn about its high-performance, decentralized network through 区块链公司为用户和开发者开发了一门课程，通过它来了解其高性能、去中心化的网络[Proof of Learning \(PoL\)](https://pol.techtec.world/), Japan’s most popular blockchain education platform.
 
 ### Exchanges
 
@@ -194,6 +194,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTY2MjY0OCwyMDg1MTM4NTMsLTM5OT
-kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbNDkxNTAzMiwyMDg1MTM4NTMsLTM5OTkyMT
+QxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
