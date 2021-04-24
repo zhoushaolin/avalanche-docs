@@ -34,12 +34,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 \*\*\*\*[**Congress of the Mexican State of Quintana Roo**](http://comunicacion.congresoqroo.gob.mx/20210301/congreso-de-quintana-roo-primero-en-utilizar-tecnologia-blockchain/): ****
 成为第一个使用Avalanche对其立法文件进行数字认证的国会，该文件通过通信和文件管理系统工作。
 
-[**LACChain Alliance**](https://www.lacchain.net/home#/alliance): a global organization accelerating the development of the blockchain ecosystem in Latin America and the Caribbean \(LAC\) region. It now has 25 members, including Consensys, MIT Media Lab, Enterprise Ethereum Alliance, and the Blockchain Research Institute.
+[**LACChain Alliance**](https://www.lacchain.net/home#/alliance): 
 推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
 
 ### Education
 
-[**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): a community member producing "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" video tutorials.
+[**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 社区成员制作的 "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" 视频教程.
 
 \*\*\*\*[**Proof of Learning \(PoL\)**](https://techtec.co.jp/en): a blockchain company developing a curriculum for users and developers to learn about its high-performance, decentralized network through [Proof of Learning \(PoL\)](https://pol.techtec.world/), Japan’s most popular blockchain education platform.
 
@@ -194,6 +194,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODY3NDQ1LDIwODUxMzg1MywtMzk5OT
-IxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
+eyJoaXN0b3J5IjpbMTMxNTY2MjY0OCwyMDg1MTM4NTMsLTM5OT
+kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
