@@ -54,7 +54,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**FTX**](https://ftx.com): 加密货币衍生品交易所。
 
-[**Fulcrum**](https://fulcrum.trade/): a powerful DeFi platform for tokenized lending and margin trading.
+[**Fulcrum**](https://fulcrum.trade/): 
+一个强大的代币化借贷和保证金交易的DeFi平台。
 
 \*\*\*\*[**Injective Protocol**](https://injectiveprotocol.com/): is the first layer-2 decentralized exchange protocol that unlocks the full potential of decentralized derivatives and borderless DeFi. Injective Protocol enables fully decentralized trading without any restrictions, allowing individuals to trade on any derivative market of their choosing.
 
@@ -195,7 +196,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAxMjA5ODMsLTg4NTE2NjM2LDIwOD
-UxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUx
-OThdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NT
+EzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5
+OF19
 -->
