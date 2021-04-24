@@ -20,7 +20,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Avalanche Hub**](https://community.avax.network/accounts/login/?next=/): 
 构建Avalanche全方位包容性环境的社区成长平台。从拓展到开源开发，成员们都直接参与了重要研究、教育和工程计划，以赚取AVAX代币。
 
-[**This Week in Avalanche**](https://weavax.substack.com/): an independent weekly newsletter round-up of Avalanche news, events, and developments produced by a community member.
+[**This Week in Avalanche**](https://weavax.substack.com/): an independent weekly newsletter round-up of Avalanche news, events, and developments produced by a community member.由一名社区成员制作每周资讯，对Avalanche新闻、事件和事态发展进行回顾。
 
 ### Ecosystem Partners
 
@@ -191,6 +191,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTEzODUzLC0zOTk5MjE0MTcsLTUxMj
-g0MzEzOCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTEzNjc3NjA4ODcsMjA4NTEzODUzLC0zOT
+k5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
