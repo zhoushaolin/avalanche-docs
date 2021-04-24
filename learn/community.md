@@ -41,11 +41,11 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 社区成员制作的 "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" 视频教程, 关于如何在家运行Avalanche。
 
-\*\*\*\*[**Proof of Learning \(PoL\)**](https://techtec.co.jp/en): a blockchain company developing a curriculum for users and developers to learn about its high-performance, decentralized network through 区块链公司为用户和开发者开发了一门课程，通过它来了解其高性能、去中心化的网络[Proof of Learning \(PoL\)](https://pol.techtec.world/), Japan’s most popular blockchain education platform.
+\*\*\*\*[**Proof of Learning \(PoL\)**](https://techtec.co.jp/en): 区块链公司为用户和开发者开发了一门课程，通过它来了解其高性能、去中心化的网络[Proof of Learning \(PoL\)](https://pol.techtec.world/), 是日本的最受欢迎的区块链教程平台。
 
-### Exchanges
+### 交易所
 
-\*\*\*\*[**Binance**](https://www.binance.com): the world's \#1 crypto exchange by trading volume.
+\*\*\*\*[**Binance**](https://www.binance.com): 全球交易量最大的加密交易所。
 
 \*\*\*\*[**Bitfinex**](https://www.bitfinex.com): a digital asset trading platform offering state-of-the-art services for digital currency traders and global liquidity providers.
 
@@ -194,6 +194,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNTAzMiwyMDg1MTM4NTMsLTM5OTkyMT
-QxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMTg0NDM2MTk3OSwyMDg1MTM4NTMsLTM5OT
+kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
