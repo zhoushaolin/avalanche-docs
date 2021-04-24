@@ -26,7 +26,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Blockchain Academy Chile**](https://www.blockchainacademy.cl/): 为技术开发人员和商业企业家学习区块链技术提供的培训和教育平台。
 
-[**Blockchain Game Alliance**](https://blockchaingamealliance.org/): is an organization committed to promoting blockchain within the game industry. The BGA also provides an open forum for individuals and companies to share knowledge and collaborate, create common standards, establish best practices, and network.
+[**Blockchain Game Alliance**](https://blockchaingamealliance.org/): 
+致力于在游戏行业内推广区块链的组织。BGA还为个人和公司提供了一个开放性论坛，以分享知识和合作、建立共同标准并确立最佳范例和网络。
 
 [**Blockchain Research Institute \(BRI\)**](https://www.blockchainresearchinstitute.org/): global think tank focusing on the strategic implications of blockchain technology on business, government, and society. Membership includes more than 60 of the world’s leading enterprises, governments, and academic institutions.
 
@@ -191,6 +192,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE3OTcxNSwyMDg1MTM4NTMsLTM5OT
-kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbLTExMzA4MTk5MjMsMjA4NTEzODUzLC0zOT
+k5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
