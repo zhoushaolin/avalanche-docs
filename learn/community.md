@@ -15,7 +15,7 @@
 [**Twitter**](https://twitter.com/avalancheavax): Avalanche官方推特发布所有Avalanche及其生态系统相关的主要新闻和最新资讯。
 
 [**Forum**](https://forum.avax.network): the official Avalanche Forum for technical discussions related to AvalancheAvalanche and its community
-及其社区相关技术讨论的官方论坛。
+Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Avalanche Hub**](https://community.avax.network/accounts/login/?next=/): a community growth platform building an inclusive environment for all aspects of Avalanche. From expansion efforts to open-source development, members directly contribute to vital research, education, and engineering initiatives to earn AVAX tokens.
 
@@ -190,6 +190,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
-EyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMTAwNzQ3MTMxNiwtMzk5OTIxNDE3LC01MT
+I4NDMxMzgsLTE4MTI3NDUxOThdfQ==
 -->
