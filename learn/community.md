@@ -29,11 +29,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Blockchain Game Alliance**](https://blockchaingamealliance.org/): 
 致力于在游戏行业内推广区块链的组织。BGA还为个人和公司提供了一个开放性论坛，以分享知识和合作、建立共同标准并确立最佳范例和网络。
 
-[**Blockchain Research Institute \(BRI\)**](https://www.blockchainresearchinstitute.org/): global think tank focusing on the strategic implications of blockchain technology on business, government, and society. Membership includes more than 60 of the world’s leading enterprises, governments, and academic institutions.
+[**区块链研究院Blockchain Research Institute \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
 
 \*\*\*\*[**Congress of the Mexican State of Quintana Roo**](http://comunicacion.congresoqroo.gob.mx/20210301/congreso-de-quintana-roo-primero-en-utilizar-tecnologia-blockchain/): ****becoming the first national congress to use Avalanche for the digital certification of its legislative documentation, which works through the correspondence and file management system.
-
+成为第一个使用Avalanche对其立法文件进行数字认证的国家大会，该文件通过通信和文件管理系统工作。
 [**LACChain Alliance**](https://www.lacchain.net/home#/alliance): a global organization accelerating the development of the blockchain ecosystem in Latin America and the Caribbean \(LAC\) region. It now has 25 members, including Consensys, MIT Media Lab, Enterprise Ethereum Alliance, and the Blockchain Research Institute.
+推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
 
 ### Education
 
@@ -192,6 +193,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA4MTk5MjMsMjA4NTEzODUzLC0zOT
-k5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTMwODQxMDg3OSwyMDg1MTM4NTMsLTM5OT
+kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
