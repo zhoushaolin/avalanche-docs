@@ -47,9 +47,10 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**Binance**](https://www.binance.com): 全球交易量最大的加密交易所。
 
-\*\*\*\*[**Bitfinex**](https://www.bitfinex.com): a digital asset trading platform offering state-of-the-art services for digital currency traders and global liquidity providers.
+\*\*\*\*[**Bitfinex**](https://www.bitfinex.com): 为数字货币交易员和全球流动供应商提供最先进服务的数字资产交易平台。
 
 \*\*\*\*[**Bitpanda**](https://www.bitpanda.com/): a digital assets platform founded in 2014 and based in Vienna, Austria. Since then, they have grown to become Europe’s leading retail broker for digital assets.
+成立于2014年，总部位于奥地利维也纳的数字资产平台。从那时起，它们已成长为欧洲领先的数字资产零售经纪商。
 
 \*\*\*\*[**FTX**](https://ftx.com): a cryptocurrency derivatives exchange.
 
@@ -194,6 +195,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDM2MTk3OSwyMDg1MTM4NTMsLTM5OT
-kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbLTg4NTE2NjM2LDIwODUxMzg1MywtMzk5OT
+IxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
 -->
