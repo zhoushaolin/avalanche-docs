@@ -12,7 +12,7 @@
 
 [**Discord**](https://chat.avax.network): 官方Avalanche Discord是开发者和爱好者进行集中讨论的地方。
 
-[**Twitter**](https://twitter.com/avalancheavax): the official Avalanche Twitter for all major news and updates regarding Avalanche and its ecosystem.Avalanche官方推特[https://twitter.com/avalancheavax)：所有Avalanche](https://twitter.com/avalancheavax)：所有Avalanche)及其生态系统相关的主要新闻和最新资讯的
+[**Twitter**](https://twitter.com/avalancheavax): Avalanche官方推特发布所有Avalanche及其生态系统相关的主要新闻和最新资讯。
 
 [**Forum**](https://forum.avax.network): the official Avalanche Forum for technical discussions related to Avalanche and its community
 
@@ -189,6 +189,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE4MDA5NywtNTEyODQzMTM4LC0xOD
-EyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbLTE1Njg5NjYyMjIsLTUxMjg0MzEzOCwtMT
+gxMjc0NTE5OF19
 -->
