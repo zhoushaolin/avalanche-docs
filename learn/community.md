@@ -32,7 +32,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**区块链研究院Blockchain Research Institute \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
 
 \*\*\*\*[**Congress of the Mexican State of Quintana Roo**](http://comunicacion.congresoqroo.gob.mx/20210301/congreso-de-quintana-roo-primero-en-utilizar-tecnologia-blockchain/): ****becoming the first national congress to use Avalanche for the digital certification of its legislative documentation, which works through the correspondence and file management system.
-成为第一个使用Avalanche对其立法文件进行数字认证的国家大会，该文件通过通信和文件管理系统工作。
+成为第一个使用Avalanche对其立法文件进行数字认证的国会，该文件通过通信和文件管理系统工作。
 
 [**LACChain Alliance**](https://www.lacchain.net/home#/alliance): a global organization accelerating the development of the blockchain ecosystem in Latin America and the Caribbean \(LAC\) region. It now has 25 members, including Consensys, MIT Media Lab, Enterprise Ethereum Alliance, and the Blockchain Research Institute.
 推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
@@ -194,6 +194,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjE0NjUxMywyMDg1MTM4NTMsLTM5OT
+eyJoaXN0b3J5IjpbMTk0NjA4MjY4NiwyMDg1MTM4NTMsLTM5OT
 kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
