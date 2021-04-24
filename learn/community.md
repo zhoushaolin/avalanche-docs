@@ -20,11 +20,11 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Avalanche Hub**](https://community.avax.network/accounts/login/?next=/): 
 构建Avalanche全方位包容性环境的社区成长平台。从拓展到开源开发，成员们都直接参与了重要研究、教育和工程计划，以赚取AVAX代币。
 
-[**This Week in Avalanche**](https://weavax.substack.com/): an independent weekly newsletter round-up of Avalanche news, events, and developments produced by a community member.由一名社区成员制作每周资讯，对Avalanche新闻、事件和事态发展进行回顾。
+[**This Week in Avalanche**](https://weavax.substack.com/): 由一名社区成员制作每周资讯，对Avalanche新闻、事件和事态发展进行回顾。
 
-### Ecosystem Partners
+### 生态系统合作伙伴
 
-[**Blockchain Academy Chile**](https://www.blockchainacademy.cl/): training and education platform for both technical developers and business entrepreneurs to learn about blockchain technology.
+[**Blockchain Academy Chile**](https://www.blockchainacademy.cl/): 为技术开发人员和商业企业家学习区块链技术提供的培训和教育平台。
 
 [**Blockchain Game Alliance**](https://blockchaingamealliance.org/): is an organization committed to promoting blockchain within the game industry. The BGA also provides an open forum for individuals and companies to share knowledge and collaborate, create common standards, establish best practices, and network.
 
@@ -191,6 +191,6 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc3NjA4ODcsMjA4NTEzODUzLC0zOT
-k5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTE4MzE3OTcxNSwyMDg1MTM4NTMsLTM5OT
+kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
