@@ -28,7 +28,7 @@ admin.alias({endpoint:string, alias:string}) -> {success:bool}
 * 别名API现在可以在`ext/alias`处调用 。
 * `alias` 最多512个字符。
 
-#### **调用shi li**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -42,7 +42,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODM0NzEwMCwtMjMyMDk3MTU0LDE4Mz
-c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
+eyJoaXN0b3J5IjpbOTQ3NzM0NjUzLC0yMzIwOTcxNTQsMTgzNz
+cxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5MV19
 -->
