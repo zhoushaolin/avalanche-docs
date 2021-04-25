@@ -1,12 +1,10 @@
 # 管理员 API
 
-此API可用于测量节点运行状况和调试。注意，出于安全原因，Admin API在默认情况下是禁用的。要运行启用了管理API的节点，请使用[command line argument](../references/command-line-interface.md) `--api-admin-enabled=true`   
+此API可用于测试节点运行状况和调试。注意，出于安全原因，Admin API在默认情况下是禁用的。要运行启用了管理API的节点，请使用[command line argument](../references/command-line-interface.md) `--api-admin-enabled=true`。
 
-This API can be used for measuring node health and debugging. Note that the Admin API is disabled by default for security reasons. To run a node with the Admin API enabled, use [command line argument](../references/command-line-interface.md) `--api-admin-enabled=true`.
+## Format格式
 
-## Format
-
-This API uses the `json 2.0` RPC format.
+这个API使用' json 2.0 ' RPC格式。This API uses the `json 2.0` RPC format.
 
 {% page-ref page="issuing-api-calls.md" %}
 
@@ -283,5 +281,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MzY4NzM5NjMsLTExNjQ5ODU3NDgsMj
+A5ODI5OTFdfQ==
 -->
