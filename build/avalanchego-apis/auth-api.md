@@ -8,8 +8,7 @@
 
 这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要授权令牌来获取。
 
-必须有权限创建授权令牌。如果使用`--api-auth-required`运行节点，则还必须使用参数'——api-auth-password '指定授权令牌密码。您必须提供此密码才能创建/撤消授权令牌。
-Authorization token creation must be permissioned. If you run your node with `--api-auth-required`, you must also specify an authorization token password with argument `--api-auth-password`. You must provide this password in order to create/revoke authorization tokens.
+必须有权限创建授权令牌。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权令牌密码。您必须提供此密码才能创建/撤消授权令牌。
 
 Note that if you run your node with `--api-auth-required` then some tools like MetaMask may not be able to make API calls to your node because they don’t have an auth token.
 
@@ -175,6 +174,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjQwMDE5NSwtMTk1MzQzMSwyNzI3Nz
+eyJoaXN0b3J5IjpbLTUwMDI3MDg4MSwtMTk1MzQzMSwyNzI3Nz
 k2MywtMTM4MDMyNTUwMl19
 -->
