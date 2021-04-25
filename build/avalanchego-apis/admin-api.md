@@ -118,7 +118,7 @@ admin.getChainAliases(
 
 * `chain` is the blockchain’s ID.
 
-#### **调用shi li**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -131,7 +131,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTg1NTAwNiwxMDQwOTY2NDgwLC0yMz
-IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
-MV19
+eyJoaXN0b3J5IjpbLTEwMjQ3NjI1LDEwNDA5NjY0ODAsLTIzMj
+A5NzE1NCwxODM3NzE2OTA5LC0xMTY0OTg1NzQ4LDIwOTgyOTkx
+XX0=
 -->
