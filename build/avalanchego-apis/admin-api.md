@@ -72,9 +72,9 @@ admin.aliasChain(
 ```
 
 * `chain` 是区块链的ID.
-* `alias` 现在可以在使用区块链ID的地方使用(例如, 在API端点\)
+* `alias` 现在可以在使用区块链ID的地方使用(例如, 在API端点\)。
 
-#### **Example Call**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -88,7 +88,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -99,6 +99,7 @@ curl -X POST --data '{
     }
 }
 ```
+
 
 Now, instead of interacting with the blockchain whose ID is `sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM` by making API calls to `/ext/bc/sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`, one can also make calls to `ext/bc/myBlockchainAlias`.
 
@@ -279,6 +280,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTI0MjIxLC0yMzIwOTcxNTQsMTgzNz
-cxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5MV19
+eyJoaXN0b3J5IjpbLTE4Nzg0NjEwMjIsLTIzMjA5NzE1NCwxOD
+M3NzE2OTA5LC0xMTY0OTg1NzQ4LDIwOTgyOTkxXX0=
 -->
