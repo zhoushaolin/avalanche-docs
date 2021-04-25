@@ -39,7 +39,7 @@ auth.newToken(
 ) -> {token: string}
 ```
 
-* `password` 是节点的is this node’s authorization token password.
+* `password` 是节点的授权令牌密码。
 * `endpoints` is a list of endpoints that will be accessible using the generated token. If `endpoints` contains an element `"*"`, the generated token can access any API endpoint.
 * `token` is the authorization token.
 
@@ -174,6 +174,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzA2OTg3NiwtMTg4Mjg5OTU2NiwtMT
-k1MzQzMSwyNzI3Nzk2MywtMTM4MDMyNTUwMl19
+eyJoaXN0b3J5IjpbLTEyODcxMjM4OTMsLTE4ODI4OTk1NjYsLT
+E5NTM0MzEsMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ==
 -->
