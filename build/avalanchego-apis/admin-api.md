@@ -16,7 +16,7 @@
 
 ### admin.alias
 
-Assign an API endpoint an alias, a different endpoint for the API. The original endpoint will still work. This change only affects this node; other nodes will not know about this alias.
+为API端点分配别名，即API的另一个端点。原始端点仍然可以工作。此更改只影响此节点;其他节点并不知道这个别名。
 
 #### **Signature**
 
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc0OTIwMTksLTExNjQ5ODU3NDgsMj
-A5ODI5OTFdfQ==
+eyJoaXN0b3J5IjpbMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMD
+k4Mjk5MV19
 -->
