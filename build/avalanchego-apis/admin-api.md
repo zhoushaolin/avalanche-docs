@@ -26,7 +26,7 @@ admin.alias({endpoint:string, alias:string}) -> {success:bool}
 
 * `endpoint` 是API的原始端点, `endpoint` 应该只包含`/ext/`后面的端点部分。
 * 别名API现在可以在`ext/alias`处调用 。
-* `alias` can be at most 512 characters.
+* `alias` 最多512个字符。
 
 #### **Example Call**
 
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzk4NiwxODM3NzE2OTA5LC0xMTY0OT
-g1NzQ4LDIwOTgyOTkxXX0=
+eyJoaXN0b3J5IjpbLTIzMjA5NzE1NCwxODM3NzE2OTA5LC0xMT
+Y0OTg1NzQ4LDIwOTgyOTkxXX0=
 -->
