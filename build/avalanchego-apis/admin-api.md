@@ -100,7 +100,7 @@ curl -X POST --data '{
 }
 ```
 
-现在, 无需通过API调用`/ext/bc/sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`来与
+现在, 无需通过API调用`/ext/bc/sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`来与ID是`sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`的区块链进行交互, 可以直接
 Now, instead of interacting with the blockchain whose ID is `sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM` by making API calls to `/ext/bc/sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`, one can also make calls to `ext/bc/myBlockchainAlias`.
 
 ### admin.getChainAliases
@@ -280,6 +280,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MjQwMzMzLC0yMzIwOTcxNTQsMTgzNz
+eyJoaXN0b3J5IjpbMzQwMDQ3ODgxLC0yMzIwOTcxNTQsMTgzNz
 cxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5MV19
 -->
