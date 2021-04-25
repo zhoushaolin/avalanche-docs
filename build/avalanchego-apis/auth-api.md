@@ -2,8 +2,9 @@
 
 运行节点时，可以要求API调用附加一个授权令牌。此API管理授权令牌的创建和撤销。
 
-授权令牌提供对一个或多个API端点的访问。这对于委派对节点api的访问很有用。代币12小时后过期。
-An authorization token provides access to one or more API endpoints. This is is useful for delegating access to a node’s APIs. Tokens expire after 12 hours.
+授权令牌提供对一个或多个API端点的访问。这对于委派对节点api的访问很有用。令牌12小时后过期。
+
+授权令牌在API调用的头中提供。具体来说，头‘Authorization’应该有‘持有者TOKEN.GOES’的值。这里“\ (TOKEN.GOES”。这里'被替换为令牌\)。
 
 An authorization token is provided in the header of an API call. Specifically, the header `Authorization` should have value `Bearer TOKEN.GOES.HERE` \(where `TOKEN.GOES.HERE` is replaced with the token\).
 
@@ -175,5 +176,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDQ1Mzk1N119
+eyJoaXN0b3J5IjpbMTIzNTk0OTMxMF19
 -->
