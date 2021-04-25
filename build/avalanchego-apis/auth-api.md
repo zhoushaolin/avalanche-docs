@@ -1,5 +1,6 @@
 # Auth API
 
+运行节点时，可以要求API调用附加一个授权令牌。此API管理授权令牌的创建和撤销。
 When you run a node, you can require that API calls have an authorization token attached. This API manages the creation and revocation of authorization tokens.
 
 An authorization token provides access to one or more API endpoints. This is is useful for delegating access to a node’s APIs. Tokens expire after 12 hours.
@@ -173,3 +174,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA0MjAzMzFdfQ==
+-->
