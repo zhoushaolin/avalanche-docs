@@ -256,7 +256,7 @@ curl -X POST --data '{
 admin.stopCPUProfiler() -> {success:bool}
 ```
 
-#### **调用shi li**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -266,7 +266,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODEyMDQ3NSwxMDQwOTY2NDgwLC0yMz
+eyJoaXN0b3J5IjpbMTE3NTg3MzQ1MiwxMDQwOTY2NDgwLC0yMz
 IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
 MV19
 -->
