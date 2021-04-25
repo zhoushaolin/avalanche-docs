@@ -28,7 +28,7 @@ admin.alias({endpoint:string, alias:string}) -> {success:bool}
 * 别名API现在可以在`ext/alias`处调用 。
 * `alias` 最多512个字符。
 
-#### **Example Call**
+#### **调用shi li**
 
 ```text
 curl -X POST --data '{
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjA5NzE1NCwxODM3NzE2OTA5LC0xMT
-Y0OTg1NzQ4LDIwOTgyOTkxXX0=
+eyJoaXN0b3J5IjpbLTUzODM0NzEwMCwtMjMyMDk3MTU0LDE4Mz
+c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
 -->
