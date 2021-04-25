@@ -104,9 +104,9 @@ curl -X POST --data '{
 
 ### admin.getChainAliases
 
-Returns the aliases of the chain
+返回链的别名。
 
-#### **Signature**
+#### **签名**
 
 ```text
 admin.getChainAliases(
@@ -118,7 +118,7 @@ admin.getChainAliases(
 
 * `chain` is the blockchain’s ID.
 
-#### **Example Call**
+#### **调用shi li**
 
 ```text
 curl -X POST --data '{
@@ -279,6 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDk2NjQ4MCwtMjMyMDk3MTU0LDE4Mz
-c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
+eyJoaXN0b3J5IjpbMjA0MTg1NTAwNiwxMDQwOTY2NDgwLC0yMz
+IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
+MV19
 -->
