@@ -18,7 +18,7 @@
 
 为API端点分配别名，即API的另一个端点。原始端点仍然可以工作。此更改只影响此节点;其他节点并不知道这个别名。
 
-#### **Signature**
+#### **Signatur**
 
 ```text
 admin.alias({endpoint:string, alias:string}) -> {success:bool}
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMD
-k4Mjk5MV19
+eyJoaXN0b3J5IjpbLTQ1MTUyOTgwMiwxODM3NzE2OTA5LC0xMT
+Y0OTg1NzQ4LDIwOTgyOTkxXX0=
 -->
