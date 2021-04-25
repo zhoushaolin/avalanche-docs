@@ -14,10 +14,9 @@
 
 ## 格式
 
-这个API使用' json 2.0 ' RPC格式。有关JSON RPC调用的更多信息，请参见[这里]。
-This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here.](issuing-api-calls.md)
+这个API使用`json 2.0`RPC格式。有关JSON RPC调用的更多信息，请参见[here.](issuing-api-calls.md)。
 
-## Endpoint
+## 端点
 
 ```text
 /ext/auth
@@ -175,6 +174,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI4OTk1NjYsLTE5NTM0MzEsMjcyNz
-c5NjMsLTEzODAzMjU1MDJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjQxNjUwNiwtMTg4Mjg5OTU2NiwtMT
+k1MzQzMSwyNzI3Nzk2MywtMTM4MDMyNTUwMl19
 -->
