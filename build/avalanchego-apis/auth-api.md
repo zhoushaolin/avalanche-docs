@@ -22,13 +22,13 @@
 /ext/auth
 ```
 
-## Methods
+## Methods方法
 
 ### auth.newToken
 
-Creates a new authorization token that grants access to one or more API endpoints.
+创建一个新的授权令牌，以授予对一个或多个API端点的访问权。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 auth.newToken(
@@ -39,7 +39,7 @@ auth.newToken(
 ) -> {token: string}
 ```
 
-* `password` is this node’s authorization token password.
+* `password` 是节点的is this node’s authorization token password.
 * `endpoints` is a list of endpoints that will be accessible using the generated token. If `endpoints` contains an element `"*"`, the generated token can access any API endpoint.
 * `token` is the authorization token.
 
@@ -174,6 +174,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQxNjUwNiwtMTg4Mjg5OTU2NiwtMT
+eyJoaXN0b3J5IjpbMTQ4NzA2OTg3NiwtMTg4Mjg5OTU2NiwtMT
 k1MzQzMSwyNzI3Nzk2MywtMTM4MDMyNTUwMl19
 -->
