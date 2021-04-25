@@ -72,7 +72,7 @@ admin.aliasChain(
 ```
 
 * `chain` 是区块链的ID.
-* `alias` 现在可以在使用区块链ID的dcan now be used in place of the blockchain’s ID \(in API endpoints, for example.\)
+* `alias` 现在可以在使用区块链ID的地方使用(例如, 在API端点\)
 
 #### **Example Call**
 
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODU0OTU1MSwtMjMyMDk3MTU0LDE4Mz
-c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
+eyJoaXN0b3J5IjpbLTczNTI0MjIxLC0yMzIwOTcxNTQsMTgzNz
+cxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5MV19
 -->
