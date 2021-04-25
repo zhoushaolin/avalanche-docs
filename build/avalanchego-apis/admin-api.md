@@ -54,6 +54,8 @@ curl -X POST --data '{
 }
 ```
 
+现在，调用X- chain可以使用`/ext/bc/X`或者`/ext/myAlias`
+调用' /ext/bc/X '，或者等价地调用' /ext/myAlias '。
 Now, calls to the X-Chain can be made to either `/ext/bc/X` or, equivalently, to `/ext/myAlias`.
 
 ### admin.aliasChain
@@ -279,6 +281,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NzM0NjUzLC0yMzIwOTcxNTQsMTgzNz
-cxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5MV19
+eyJoaXN0b3J5IjpbLTg4OTc0NDk0MSwtMjMyMDk3MTU0LDE4Mz
+c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
 -->
