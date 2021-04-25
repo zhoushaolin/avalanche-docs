@@ -223,7 +223,7 @@ curl -X POST --data '{
 admin.startCPUProfiler() -> {success:bool}
 ```
 
-#### **调用**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -234,7 +234,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -248,7 +248,7 @@ curl -X POST --data '{
 
 ### admin.stopCPUProfiler
 
-Stop the CPU profile that was previously started.
+停止之前启动的CPU配置文件。
 
 #### **Signature**
 
@@ -256,7 +256,7 @@ Stop the CPU profile that was previously started.
 admin.stopCPUProfiler() -> {success:bool}
 ```
 
-#### **Example Call**
+#### **调用shi li**
 
 ```text
 curl -X POST --data '{
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjAyNTUwNywxMDQwOTY2NDgwLC0yMz
+eyJoaXN0b3J5IjpbLTI5ODEyMDQ3NSwxMDQwOTY2NDgwLC0yMz
 IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
 MV19
 -->
