@@ -2,19 +2,17 @@
 
 此API可用于测试节点运行状况和调试。注意，出于安全原因，Admin API在默认情况下是禁用的。要运行启用了管理API的节点，请使用[command line argument](../references/command-line-interface.md) `--api-admin-enabled=true`。
 
-## Format格式
+## 格式
 
-这个API使用' json 2.0 ' RPC格式。This API uses the `json 2.0` RPC format.
+这个API使用`json 2.0` RPC格式。
 
-{% page-ref page="issuing-api-calls.md" %}
-
-## Endpoint
+## 端点
 
 ```text
 /ext/admin
 ```
 
-## API Methods
+## API 方法
 
 ### admin.alias
 
@@ -281,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY4NzM5NjMsLTExNjQ5ODU3NDgsMj
+eyJoaXN0b3J5IjpbLTEzNjc0OTIwMTksLTExNjQ5ODU3NDgsMj
 A5ODI5OTFdfQ==
 -->
