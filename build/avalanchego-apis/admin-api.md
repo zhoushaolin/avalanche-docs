@@ -149,15 +149,15 @@ curl -X POST --data '{
 
 ### admin.lockProfile
 
-将互斥Writes a profile of mutex statistics to `lock.profile`.
+将互斥统计数据文件写入`lock.profile`。
 
-#### **Signature**
+#### **签名**
 
 ```text
 admin.lockProfile() -> {success:bool}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -168,7 +168,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUwNjg5OTYsMTA0MDk2NjQ4MCwtMj
-MyMDk3MTU0LDE4Mzc3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTgyNDcxNDA5NSwxMDQwOTY2NDgwLC0yMz
+IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
+MV19
 -->
