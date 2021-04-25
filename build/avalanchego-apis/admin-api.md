@@ -54,12 +54,11 @@ curl -X POST --data '{
 }
 ```
 
-现在，调用X- chain可以使用`/ext/bc/X`或者`/ext/myAlias`
-调用' /ext/bc/X '，或者等价地调用' /ext/myAlias '。
-Now, calls to the X-Chain can be made to either `/ext/bc/X` or, equivalently, to `/ext/myAlias`.
+现在，调用X- chain可以使用`/ext/bc/X`或者`/ext/myAlias`进行调用。
 
 ### admin.aliasChain
 
+给区块链一个别名，可以在使用区块链ID的任何地方使用的不同名称。
 Give a blockchain an alias, a different name that can be used any place the blockchain’s ID is used.
 
 #### **Signature**
@@ -281,6 +280,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTc0NDk0MSwtMjMyMDk3MTU0LDE4Mz
+eyJoaXN0b3J5IjpbLTI1NTgwNjMyNywtMjMyMDk3MTU0LDE4Mz
 c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
 -->
