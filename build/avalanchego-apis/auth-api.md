@@ -10,9 +10,10 @@
 
 必须有权限创建授权令牌。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权令牌密码。您必须提供此密码才能创建/撤消授权令牌。
 
-Note that if you run your node with `--api-auth-required` then some tools like MetaMask may not be able to make API calls to your node because they don’t have an auth token.
+注意，如果你用`--api-auth-required`运行你的节点，那么像MetaMask这样的工具可能无法对你的节点进行API调用，因为它们没有一个认证令牌。
 
-## Format
+## 格式
+
 
 This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here.](issuing-api-calls.md)
 
@@ -174,6 +175,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDI3MDg4MSwtMTk1MzQzMSwyNzI3Nz
+eyJoaXN0b3J5IjpbMTgyMjE0NjIzNSwtMTk1MzQzMSwyNzI3Nz
 k2MywtMTM4MDMyNTUwMl19
 -->
