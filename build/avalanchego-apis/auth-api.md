@@ -6,7 +6,7 @@
 
 授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有`Bearer TOKEN.GOES.HERE`值。\(这里`TOKEN.GOES.HERE`被替换为令牌\)。
 
-An authorization token is provided in the header of an API call. Specifically, the header `Authorization` should have value `Bearer TOKEN.GOES.HERE` \(where `TOKEN.GOES.HERE` is replaced with the token\).
+这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要到达授权令牌。
 
 This API is only reachable if the node is started with [command line argument ](../references/command-line-interface.md)`--api-auth-required`. If the node is started without this CLI, API calls do not require authorization tokens, so this API is not reachable. This API never requires an authorization token to be reached.
 
@@ -176,5 +176,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE5NTM0MzEsMjcyNzc5NjMsLTEzODAzMj
+U1MDJdfQ==
 -->
