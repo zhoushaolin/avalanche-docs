@@ -40,8 +40,8 @@ auth.newToken(
 ```
 
 * `password` 是节点的授权令牌密码。
-* `endpoints` is a list of endpoints that will be accessible using the generated token. If `endpoints` contains an element `"*"`, the generated token can access any API endpoint.
-* `token` is the authorization token.
+* `endpoints` 是一个可以使用生成的令牌访问的端点列表。如果`endpoints` 包含一个元素`"*"`，则生成的令牌可以访问任何API端点。
+* `token` 是授权令牌。
 
 #### **Example Call**
 
@@ -174,6 +174,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODcxMjM4OTMsLTE4ODI4OTk1NjYsLT
-E5NTM0MzEsMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ==
+eyJoaXN0b3J5IjpbMjAwNjE1NzQ1MywtMTI4NzEyMzg5MywtMT
+g4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMTM4MDMyNTUw
+Ml19
 -->
