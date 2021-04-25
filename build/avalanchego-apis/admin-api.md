@@ -149,7 +149,7 @@ curl -X POST --data '{
 
 ### admin.lockProfile
 
-将互斥统计数据文件写入`lock.profile`。
+将互斥统计数据配置文件写入`lock.profile`。
 
 #### **签名**
 
@@ -182,15 +182,15 @@ curl -X POST --data '{
 
 ### admin.memoryProfile
 
-Writes a memory profile of the to `mem.profile`.
+将内存配置文件写入`mem.profile`。
 
-#### **Signature**
+#### **签名**
 
 ```text
 admin.memoryProfile() -> {success:bool}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```text
 curl -X POST --data '{
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDcxNDA5NSwxMDQwOTY2NDgwLC0yMz
+eyJoaXN0b3J5IjpbLTQ2Nzg5ODUzMCwxMDQwOTY2NDgwLC0yMz
 IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
 MV19
 -->
