@@ -58,10 +58,9 @@ curl -X POST --data '{
 
 ### admin.aliasChain
 
-给区块链一个别名，可以在使用区块链ID的任何地方使用的不同名称。
-Give a blockchain an alias, a different name that can be used any place the blockchain’s ID is used.
+给区块链一个别名，可以在使用区块链ID的任何地方使用。
 
-#### **Signature**
+#### **签名**
 
 ```text
 admin.aliasChain(
@@ -72,8 +71,8 @@ admin.aliasChain(
 ) -> {success:bool}
 ```
 
-* `chain` is the blockchain’s ID.
-* `alias` can now be used in place of the blockchain’s ID \(in API endpoints, for example.\)
+* `chain` 是区块链的ID.
+* `alias` 现在可以在使用区块链ID的dcan now be used in place of the blockchain’s ID \(in API endpoints, for example.\)
 
 #### **Example Call**
 
@@ -280,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTgwNjMyNywtMjMyMDk3MTU0LDE4Mz
+eyJoaXN0b3J5IjpbLTk1ODU0OTU1MSwtMjMyMDk3MTU0LDE4Mz
 c3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5OTFdfQ==
 -->
