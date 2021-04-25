@@ -6,9 +6,7 @@
 
 授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有`Bearer TOKEN.GOES.HERE`值。\(这里`TOKEN.GOES.HERE`被替换为令牌\)。
 
-这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要到达授权令牌。
-
-This API is only reachable if the node is started with [command line argument ](../references/command-line-interface.md)`--api-auth-required`. If the node is started without this CLI, API calls do not require authorization tokens, so this API is not reachable. This API never requires an authorization token to be reached.
+这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要授权令牌来获取。
 
 Authorization token creation must be permissioned. If you run your node with `--api-auth-required`, you must also specify an authorization token password with argument `--api-auth-password`. You must provide this password in order to create/revoke authorization tokens.
 
@@ -176,6 +174,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM0MzEsMjcyNzc5NjMsLTEzODAzMj
-U1MDJdfQ==
+eyJoaXN0b3J5IjpbMTYxOTQwMTQxOSwtMTk1MzQzMSwyNzI3Nz
+k2MywtMTM4MDMyNTUwMl19
 -->
