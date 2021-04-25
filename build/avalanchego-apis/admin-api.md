@@ -149,7 +149,7 @@ curl -X POST --data '{
 
 ### admin.lockProfile
 
-Writes a profile of mutex statistics to `lock.profile`.
+将互斥Writes a profile of mutex statistics to `lock.profile`.
 
 #### **Signature**
 
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ3NjI1LDEwNDA5NjY0ODAsLTIzMj
-A5NzE1NCwxODM3NzE2OTA5LC0xMTY0OTg1NzQ4LDIwOTgyOTkx
-XX0=
+eyJoaXN0b3J5IjpbLTEzOTUwNjg5OTYsMTA0MDk2NjQ4MCwtMj
+MyMDk3MTU0LDE4Mzc3MTY5MDksLTExNjQ5ODU3NDgsMjA5ODI5
+OTFdfQ==
 -->
