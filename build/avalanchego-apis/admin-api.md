@@ -18,13 +18,13 @@
 
 为API端点分配别名，即API的另一个端点。原始端点仍然可以工作。此更改只影响此节点;其他节点并不知道这个别名。
 
-#### **Signatur**
+#### **签名**
 
 ```text
 admin.alias({endpoint:string, alias:string}) -> {success:bool}
 ```
 
-* `endpoint` is the original endpoint of the API. `endpoint` should only include the part of the endpoint after `/ext/`.
+* `endpoint` 是API的原始端点, `endpoint` is the original endpoint of the API. `endpoint` should only include the part of the endpoint after `/ext/`.
 * The API being aliased can now be called at `ext/alias`.
 * `alias` can be at most 512 characters.
 
@@ -279,6 +279,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTUyOTgwMiwxODM3NzE2OTA5LC0xMT
+eyJoaXN0b3J5IjpbLTczMjU5MDc3OCwxODM3NzE2OTA5LC0xMT
 Y0OTg1NzQ4LDIwOTgyOTkxXX0=
 -->
