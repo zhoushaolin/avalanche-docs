@@ -201,7 +201,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/admin
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```javascript
 {
@@ -215,15 +215,15 @@ curl -X POST --data '{
 
 ### admin.startCPUProfiler
 
-Start profiling the CPU utilization of the node. To stop, call `admin.stopCPUProfiler`. On stop, writes the profile to `cpu.profile`.
+开始分析节点的CPU利用率。要停止，调用`admin.stopCPUProfiler`。在停止时，将配置文件写入`cpu.profile`。
 
-#### **Signature**
+#### **签名**
 
 ```text
 admin.startCPUProfiler() -> {success:bool}
 ```
 
-#### **Example Call**
+#### **调用**
 
 ```text
 curl -X POST --data '{
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Nzg5ODUzMCwxMDQwOTY2NDgwLC0yMz
+eyJoaXN0b3J5IjpbMTgxMjAyNTUwNywxMDQwOTY2NDgwLC0yMz
 IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
 MV19
 -->
