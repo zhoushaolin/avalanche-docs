@@ -1,4 +1,4 @@
-# Admin API
+# 管理员 API
 
 此API可用于测量节点运行状况和调试。注意，出于安全原因，Admin API在默认情况下是禁用的。要运行启用了管理API的节点，请使用
 
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTc3MDU3OV19
+eyJoaXN0b3J5IjpbMjA5ODI5OTFdfQ==
 -->
