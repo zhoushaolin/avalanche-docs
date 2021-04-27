@@ -43,7 +43,7 @@ auth.newToken(
 * `endpoints` 是一个可以使用生成的令牌访问的端点列表。如果`endpoints` 包含一个元素`"*"`，则生成的令牌可以访问任何API端点。
 * `token` 是授权令牌。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -57,9 +57,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-This call will generate an authorization token that allows access to API endpoints `/ext/bc/X` \(ie the X-Chain\) and `/ext/info` \(ie the [info API](info-api.md).\)
+这个调用将生成一个授权令牌，允许访问API端点`/ext/bc/X`  \(即X-链 \)和`/ext/info` \(即 [info API](info-api.md))
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -71,9 +71,10 @@ This call will generate an authorization token that allows access to API endpoin
 }
 ```
 
-This authorization token should be included in API calls by giving header `Authorization` value `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps`.
+这个授权令牌应该包含在API调用中，通过给出头文件`Authorization`, 值为`Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps`。
 
-For example, to call [`info.peers`](info-api.md#info-peers) with this token:
+例如, 使用以下令牌调用[`info.peers`](info-api.md#info-peers) :
+
 
 ```cpp
 curl -X POST --data '{
@@ -87,9 +88,9 @@ curl -X POST --data '{
 
 ### auth.revokeToken
 
-Revoke a previously generated token. The given token will no longer grant access to any endpoint. If the token is invalid, does nothing.
+撤销先前生成的令牌。给定的令牌将不再授予对任何端点的访问权。如果令牌无效，则不执行任何操作。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 auth.revokeToken(
@@ -100,10 +101,10 @@ auth.revokeToken(
 ) -> {success: bool}
 ```
 
-* `password` is this node’s authorization token password.
-* `token` is the authorization token being revoked.
+* `password` 是节点授权令牌的密码。
+* `token`正在撤销的授权令牌。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -117,7 +118,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -131,9 +132,9 @@ curl -X POST --data '{
 
 ### auth.changePassword
 
-Change this node’s authorization token password. Any authorization tokens created under an old password will become invalid.
+更改此节点的授权令牌密码。在旧密码下创建的任何授权令牌都将失效。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 auth.changePassword(
@@ -144,10 +145,10 @@ auth.changePassword(
 ) -> {success: bool}
 ```
 
-* `oldPassword` is this node’s current authorization token password.
-* `newPassword` is the node’s new authorization token password after this API call. Must be between 1 and 1024 characters.
+* `oldPassword` 此节点当前授权令牌密码。
+* `newPassword` 是此API调用后节点的新授权令牌密码。长度必须在1到1024个字符之间。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -161,7 +162,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -174,7 +175,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjE1NzQ1MywtMTI4NzEyMzg5MywtMT
-g4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMTM4MDMyNTUw
-Ml19
+eyJoaXN0b3J5IjpbLTg1NDg0MTExOCwyMDA2MTU3NDUzLC0xMj
+g3MTIzODkzLC0xODgyODk5NTY2LC0xOTUzNDMxLDI3Mjc3OTYz
+LC0xMzgwMzI1NTAyXX0=
 -->
