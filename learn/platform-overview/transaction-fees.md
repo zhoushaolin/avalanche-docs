@@ -1,46 +1,47 @@
 ---
-description: Learn more about Avalanche's transaction fees
+说明：Avalanche交易费用详情
 ---
 
-# Transaction Fees
+# 交易费用
 
-In order to prevent spam, transactions on Avalanche require the payment of a transaction fee. The fee is paid in [AVAX](../../#avalanche-avax-token). **The transaction fee is burned \(destroyed forever\).**
+为了拦截垃圾信息，Avalanche上的交易需要支付交易费用。费用通过[AVAX](../../#avalanche-avax-token)支付。**交易费用会销毁\(永久销毁\).**
 
-When you issue a transaction through Avalanche’s API, the transaction fee is automatically deducted from one of the addresses you control.
+当您通过Avalanche API发起一项交易时，交易费用将从您名下的其中一个地址中自动扣除。
 
-## Fee Schedule
+## 费用方案
 
-Different types of transactions require payment of a different transaction fee. This table shows the transaction fee schedule:
+不同类型的交易需要支付不同的交易费用。交易费用安排如下表所示：
 
-{% hint style="warning" %}
-The [C-Chain](./#contract-chain-c-chain) gas price is 225 nAVAX (225 GWei). The C-Chain gas limit is 10e8 (100,000,000)
-{% endhint %}
+C链[C-Chain](./#contract-chain-c-chain) 的燃料价格是225 nAVAX (225 GWei). C链燃气费上限是10e8 (100,000,000)
 
 ```cpp
 +----------+-------------------+------------------------+
-| Chain    : Transaction Type  | Transaction Fee (AVAX) |
+| 链       :       交易类型      |   交易费用 (AVAX) |
 +----------+-------------------+------------------------+
-| P        : Create Blockchain |                   0.01 |
+| P        : 创建区块链 |                   0.01 |
 +----------+-------------------+------------------------+
-| P        : Add Validator     |                      0 |
+| P        : 添加验证程序     |                      0 |
 +----------+-------------------+------------------------+
-| P        : Add Delegator     |                      0 |
+| P        : 添加委托程序     |                      0 |
 +----------+-------------------+------------------------+
-| P        : Create Subnet     |                   0.01 |
+| P        : 创建子网    |                   0.01 |
 +----------+-------------------+------------------------+
-| P        : Import AVAX       |                  0.001 |
+| P        : 导入 AVAX       |                  0.001 |
 +----------+-------------------+------------------------+
-| P        : Export AVAX       |                  0.001 |
+| P        : 导出 AVAX       |                  0.001 |
 +----------+-------------------+------------------------+
-| X        : Send              |                  0.001 |
+| X        : 发送             |                  0.001 |
 +----------+-------------------+------------------------+
-| X        : Create Asset      |                   0.01 |
+| X        : 创建资产    |                   0.01 |
 +----------+-------------------+------------------------+
-| X        : Mint Asset        |                  0.001 |
+| X        : 验证资产       |                  0.001 |
 +----------+-------------------+------------------------+
-| X        : Import AVAX       |                  0.001 |
+| X        : 导入 AVAX       |                  0.001 |
 +----------+-------------------+------------------------+
-| X        : Export AVAX       |                  0.001 |
+| X        : 导出 AVAX       |                  0.001 |
 +----------+-------------------+------------------------+
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDI4NTkwNzc0XX0=
+-->
