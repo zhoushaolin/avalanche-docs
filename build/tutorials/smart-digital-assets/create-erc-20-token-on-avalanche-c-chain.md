@@ -1,81 +1,82 @@
 ---
-description: 'Provided by Community member: Murat Çeliktepe'
+描述: 由社区成员Murat Çeliktepe提供
+
 ---
 
-# Create an ERC-20 Token
+# 创建ERC-20代币
 
-ERC-20 tokens are the most fundamental and essential concept in Ethereum. As the Avalanche community and the ecosystem are growing, new use cases and projects that are running on Ethereum or different chains would be implemented to Avalanche. The token standard that would be used for the projects is not specific and everyone can create their own standard and own token.
+ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区和生态系统的成长，在以太坊或不同链上运行的新用例和项目将在Avalanche上实施。用于项目的代币标准并不固定，每个人都可以创建他们自己的标准和代币。
 
-Therefore, we will be creating our own mintable ERC-20 token and will mint it to any address we want. The token will be generated on Avalanche C-Chain and will be accessible on that chain.
+因此，我们会创建我们自己的可铸造ERC-20代币，并将其铸造至我们想要的任何地址。Avalanche C链上将生成代币，并可在该链上访问代币。
 
-The thing we have to mainly consider is that we will deploy a smart contract written with Solidity to Avalanche. This is the feature that Avalanche provides us- to be able to deploy any smart contract to the chain and no requirement for a new language specific contract concept to interact. Let’s look at how to create an ERC-20 contract and deploy it to avalanche C-Chain.
+我们主要需要考虑的问题是，我们将为Avalanche部署一份由Solidity语言编写的智能合约。这就是Avalanche的特点——能够将任何智能合约部署到链中，而不需要特定于语言的新合约概念进行交互。来看看如何创建一个ERC-20合同，并将其部署到avalanche C链吧。
 
-## Set up Metamask
+## 设置 Metamask
 
-The first thing we should set is a metamask wallet.
+我们首先应该设置一个Metamask钱包。
 
 ![Image for post](https://miro.medium.com/max/408/0*0HGM4O_J5iF3943S)
 
-Click to metamask icon on the browser and select the network drop-down menu. Here we should connect to C-Chain. Click to “Custom RPC”.
+点击浏览器上的MetaMask图标，并选择网络下拉列表菜单。我们应连接到C链。点击“Custom RPC”。
 
 ![Image for post](https://miro.medium.com/max/989/1*Y7O1bBeTWnuQBAqTnwmqUQ.png)
 
-Now, we need to set these boxes with correct values.
+现在，我们需要为下列框设置正确的值。
 
-* **Network Name**: Avalanche C-Chain
-* **New RPC URL**:
-  * **Mainnet:** [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 
-  * **Fuji Testnet:** [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
-  * **Local Testnet:** [http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc) 
-* **ChainID**:
-  * **Mainnet:** `0xa86a` 
-  * **Fuji Testnet:** `0xa869` 
-  * **Local Testnet:** `0xa868` 
-* **Symbol**: C-AVAX
-* **Explorer**:
-  * **Mainnet:** [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network/) 
-  * **Fuji Testnet:** [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
-  * **Localnet:** n/a 
+* **网络名**: Avalanche C链
+* * **新 RPC URL**:
+  * **主网:** [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 
+  * **富士测试网:** [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
+  * **本地测试网:** [http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc) 
+* **链**ID**:
+  * **主网:** `0xa86a` 
+  * **富士测试网:** `0xa869` 
+  * **本地测试网:** `0xa868` 
+* **标志**: C-AVAX
+* **浏览器**:
+  * **主网:** [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network/) 
+  * **富士测试网:** [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
+  * **本地网:** n/a 
 
 ![Image for post](https://miro.medium.com/max/358/1*q0HIWcI3okakwYV2glos0A.png)
 
-After setting up all the parameters correctly, we should see this page. For now, we have 0 C-AVAX. “C” refers to C-chain and we have to get some C-AVAX to interact with the network.
+正确设置好所有参数后，我们应看到此页面。目前，我们拥有0个C-AVAX。“C”是指C链，我们需要获得一些C-AVAX来与网络互动。
 
-## Fund your C-Chain address
+## 为您的C链地址充值
 
-Depending on the network used, there are three ways to get funds to your C-Chain address.
+基于所用网络，共有三种给您的C链地址充值的方式。
 
-### **Using Avalanche Wallet**
+### 使用Avalanche钱包
 
-On the main net, you can use the [Avalanche Wallet](https://wallet.avax.network/) to transfer funds from the X-Chain to your C-Chain address. The process is simple, as explained in this [tutorial](../platform/transfer-avax-between-x-chain-and-c-chain.md). Wallet can be used on test and local networks, too.
+在主网上，您可以使用Avalanche钱包[Avalanche Wallet](https://wallet.avax.network/)，将X链上的资金转账到您的C链地址。该过程十分简单，详情如本教程[tutorial](../platform/transfer-avax-between-x-chain-and-c-chain.md)所释。钱包也可用于测试和本地网络。
 
-### **Using Test Network Faucet**
+### 使用测试网接口
 
-For funding on the test network, you can also use the Test Network Faucet. Navigate to [https://faucet.avax-test.network/](https://faucet.avax-test.network/) and paste your C-AVAX address. All you need to do is add a “C-” prefix and the faucet will switch from AVAX to C-AVAX.
+如需为测试网充值，您还可以使用测试网接口。导航至[https://faucet.avax-test.network/](https://faucet.avax-test.network/)，并粘贴您的C-AVAX地址。您只需要添加一个“C-”前缀，接口就会从AVAX切换为C-AVAX。
 
-### Funding on local testnet
+### 为本地测试网充值
 
-On a local network, you can easily fund your addresses by deploying your own faucet. [Tutorial](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
+在本地网上，通过部署您自己的接口，您可以轻松地为您的地址充值。教程[Tutorial](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
 
-Let’s go to [avax faucet](https://faucet.avax-test.network/) and paste our address with prefix “C-”.
+访问[avax faucet](https://faucet.avax-test.network/) 并粘贴我们的地址，附上前缀“C-”。
 
-For example my address is “0xfe8886bec537252040Dff36448C0F104Be635650”, I need to paste my account address as “C-0xfe8886bec537252040Dff36448C0F104Be635650”
+例如，我的地址是“0xfe8886bec537252040Dff36448C0F104Be635650”, 我需要把我的账户地址粘贴为“C-0xfe8886bec537252040Dff36448C0F104Be635650”
 
 ![Image for post](https://miro.medium.com/max/422/1*okw3MKlyGcF4U9ibsq5v8w.png)
 
-After copy and paste the address here, click request 2.0000 C-AVAX. This test faucet token has no value, it is just for development purposes.
+将地址复制粘贴至此后，点击请求2.0000 C-AVAX。此测试接口代币无价值，仅供开发。
 
-Then check your wallet balance and you should have some test token in your metamask.
+然后请检查您的钱包余额，您的MetaMask中应该已有一些测试代币。
 
-## Create mintable token
+## 创建可铸造代币
 
-Now, we can create our mintable token on Remix. Open Remix on your browser or go to [this link](https://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.6.6+commit.6c089d02.js).
+现在我们可以在Remix上创建我们的可铸造代币了。打开您的浏览器上的Remix，或访问此链接[this link](https://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.6.6+commit.6c089d02.js)。
 
 ![Image for post](https://miro.medium.com/max/1910/1*FWHtbWNXr6FvjzPHH93wvw.png)
 
-You should view this page. On this page, first, click “SOLIDITY” from “Featured Plugins” and then click the “New File” button. When you click the New File button, you will see a pop-up that requires a file name. You can choose a name or leave the default.
+您应该查看此页面。此页面上，首先，单击“Featured Plugins”中的“SOLIDITY”，然后单击“New File”按钮。当您单击New File按钮时，您会看到一个弹窗，要求填写文件名。您可以选择一个文件名或选择默认。
 
-Since we will use an ERC-20 contract from [OpenZeppelin](https://openzeppelin.com/contracts/), just paste this line to the file and save.
+由于我们将使用[OpenZeppelin](https://openzeppelin.com/contracts/)的ERC-20合约，因此只需粘贴此段至文件并保存即可。
 
 ```javascript
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol";
@@ -83,21 +84,21 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ![Image for post](https://miro.medium.com/max/1408/1*y1wpcCeB8PypnPfs-zhyBg.png)
 
-After saving the file, we will see a bunch of files that are imported to remix. This is a remix feature that allows us to import a GitHub contract repository to remix by just giving the URL-Link. with an import statement.
+保存文件后，我们会看到一堆导入到Remix的文件。通过该Remix特征，我们可以仅通过提供URL链接将GitHub合同库导入到Remix中。附导入说明。
 
 ![Image for post](https://miro.medium.com/max/1364/1*6pmdpKWiKj4RW-OcvMSijA.png)
 
-We have ERC20PresetMinterPauser.sol file in the presets. This file is written by OpenZeppelin according to ERC20 standards with minter functionality. After deploying this file, we will be the owner of the contract and thus have the authority and ability to mint the tokens.
+我们在预设中拥有ERC20PresetMinterPauser.sol文件。该文件由OpenZeppelin根据附铸造功能的ERC20标准编写。部署此文件后，我们将成为合约所有者，进而有权限和能力来铸造代币。
 
 ![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
-## Deploy the Contract
+## 部署合约
 
-Open the second tab which is “SOLIDITY COMPILER” and select the solidity version that matches with the solidity version written in file as “pragma solidity …..”. The version should be equal to or higher than the file’s version. For example, in my file, “pragma solidity ^0.6.0” is written so the required version is 0.6.0 or higher. As shown, in the compiler the solidity version is 0.6.6, which is ok. After checking the solidity version click the compile button. If you did not change anything in the file, or the solidity version is not wrong, the contract should compile without any errors.
+打开第二个选项“SOLIDITY COMPILER”，选择与文件“pragma SOLIDITY .....”中所写的SOLIDITY版本相匹配的SOLIDITY版本。其版本应该同于或高于该文件的版本。举例来说，在我的文件中，所写的版本是“pragma solidity ^0.6.0”，因此所需版本应是0.6.0或更高。如上所述，在编译器中，solidity版本是0.6.6，这是可行的。检查完solidity版本后，单击编译按钮。如果您并未更改文件中的任何东西或solidity版本无误，合约编译也应无误。
 
 ![Image for post](https://miro.medium.com/max/1388/1*2jkDckFUJ4z3gMoLYZ_-PQ.png)
 
-Then, let’s jump to the third tab which is DEPLOY & RUN TRANSACTION. Here before deploying our contract, we should change the environment. Click to the environment and select “Injected Web3”. If a pop-up shows up and asks you to connect the account, click to connect. After, you should see the account address in the “ACCOUNT” textbox.
+然后，跳到第三个选项，即DEPLOY & RUN TRANSACTION。部署我们的合约之前，我们应更改环境。单击ENVIROMENT，并选择“Injected Web3”。如果跳出一个弹窗，要求您连接账户，请单击以连接。然后，您应该在“ACCOUNT”文本框中看到账户地址。
 
 The last thing before the deployment process is to set the contract that will be deployed as a token. Above the Deploy Button, there is a drop-down menu to select a contract. Select the contract named “ERC20PresetMinterPauser.sol”.
 
@@ -157,3 +158,6 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMxNTQyMzczMF19
+-->
