@@ -108,7 +108,9 @@ Remix应该能找到所部署的合约：
 
 ## 向WAVAX合约发布命令
 
-Let's wrap some AVAX!
+让我们一起来打包AVAX吧！
+
+由于ETH是以更小的单位10^18（wei）命名的，而AVAX是以10^9（gwei）命名的，因此，将值选择器从wei切换至  gwei（gigawei)）1 gwei = 10^9 wei = 1 nAVAX。
 
 Since ETH is denominated in 10^18 smaller units \(wei\), and AVAX is denominated in 10^9, switch the value selector from `wei` to `gwei` \(gigawei\). 1 gwei = 10^9 wei = 1 nAVAX.
 
@@ -144,6 +146,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0NjIxNzQyLC0xNzg5NjM5MTUxLDE4MT
-c0OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbLTI2NjgwNTU5MywtMTc4OTYzOTE1MSwxOD
+E3NDkzNjA1XX0=
 -->
