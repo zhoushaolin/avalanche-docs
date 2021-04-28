@@ -75,9 +75,10 @@
 
 ![Multiple collectibles](../../../.gitbook/assets/nft-studio-10-multiple.png)
 
-您可以在单次交易中发送多个藏品。单击藏品上的标签，您可以编辑您想要发送的复制品数量。您可以在单次交易中发送多个族和收集品类型。
-You can send multiple collectibles in a single transaction. Clicking the label on the collectible will let you edit the number of copies you wish to send. You can send multiple families and collectible types in a single transaction.
+您可以在单次交易中发送多个藏品。单击藏品上的标签，您可以编辑您想要发送的复制品数量。您可以在单次交易中发送多个藏品家族和藏品类型。
 
+当您输入目标地址并有选择地输入备忘文本后，请按下**确认**来初始化交易。
+当你输入了目的地址，并选择输入了备忘录文本，按**确认**启动交易。
 When you have entered the destination address, and optionally entered the memo text, press **Confirm** to initiate the transaction.
 
 ![Transaction](../../../.gitbook/assets/nft-studio-11-send-transaction.png)
@@ -91,7 +92,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjE2MzAyMSwtNDQyNDk3MzA4LDE4Nj
+eyJoaXN0b3J5IjpbMTAwMjU5MTM0OCwtNDQyNDk3MzA4LDE4Nj
 U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
 NjE3XX0=
 -->
