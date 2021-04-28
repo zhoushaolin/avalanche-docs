@@ -54,11 +54,11 @@
 
 ![Overview](../../../.gitbook/assets/nft-studio-06-overview.png)
 
-如需详细查看藏品，请选择左侧菜单的**Portfolio**。您会看到一个显示您所有资产的界面，并默认选择代币。单击相应选项卡，将选项更改为**收集品**。
-To see your collectibles in more detail, select **Portfolio** from the left-hand side menu. You will be presented with a screen showing all of your assets, with tokens selected by default. Change the selection to **Collectibles** by clicking the corresponding tab.
+如需详细查看藏品，请选择左侧菜单的**Portfolio**。您会看到一个显示您所有资产的界面，并默认选择代币。单击相应选项卡，将选项更改为**Collectibles**。
 
 ![Collectibles list](../../../.gitbook/assets/nft-studio-07-collectibles.png)
 
+图片会显示每个普通藏品及其标题和数量, 这个s h l说明您的组合中有多少收集品复制品的数量。将鼠标指针悬停在收集品上即可显示详细说明：
 For each Generic collectible, a picture will be shown, along with the title, and the number indicating how many copies of the collectible are in your portfolio. Hovering over the collectible with your pointer will show the detailed description:
 
 ![Collectible details](../../../.gitbook/assets/nft-studio-08-detail.png)
@@ -90,7 +90,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwOTI4NTg1LC00NDI0OTczMDgsMTg2NT
-U0MDMyNywtMTYyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2
-MTddfQ==
+eyJoaXN0b3J5IjpbLTE2NTMxNTE0MiwtNDQyNDk3MzA4LDE4Nj
+U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
+NjE3XX0=
 -->
