@@ -106,19 +106,18 @@ The last thing before the deployment process is to set the contract that will be
 ![Image for post](https://miro.medium.com/max/383/1*s9LtZu4hSuPcVwVZsweZJA.png)
 
 现在，在此输入您的代币的名称和标志。我将其命名为“test”，标志为“tst”。您可以给它并单击交易按钮。
-Now, here enter the name and symbol of your token. I will name it “test” and the symbol will be “tst”. You can give it a and click to transact button.
 
 ![Image for post](https://miro.medium.com/max/593/1*ZKDEv_h_Pqfd3b7PAosXQw.png)
 
-After clicking the button, a pop-up will show up and just confirm it.
+单击按钮后，会跳出一个弹窗，点击Confirm即可。
 
 ![Image for post](https://miro.medium.com/max/353/1*yOOQYZvESjSKx2qec5pYgA.png)
 
-And then another pop-up, a metamask confirmation, appears. Confirm it.
+然后会出现另一个弹窗，MetaMask确认出现。点击Confirm即可。
 
-After confirming all these pop-ups we have deployed our token to avalanche C-Chain. So we can start to interact with it.
+确认所有此类弹窗后，我们就把代币部署到avalanche C链了。所以我们能够开始与它互动。
 
-## Interact with Token
+## 与代币互动
 
 We can see our transaction that deployed on avalanche C-Chain via this [c-chain explorer](https://cchain.explorer.avax-test.network/).
 
@@ -161,5 +160,5 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYwMzM0MDddfQ==
+eyJoaXN0b3J5IjpbLTE5MjkyMzUyNDNdfQ==
 -->
