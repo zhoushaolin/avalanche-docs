@@ -136,6 +136,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ![Image for post](https://miro.medium.com/max/764/1*tTFQUn3fStbv-TW9kExyUg.png)
 
+首先是创建代币的钱包地址，其次是我的代币合约地址，其名为“test”。现在，让我们给我们自己的地址铸造一些代币吧。
 The first one is my wallet address that creates token and the second address is my token contract address which is named “test”. Now, let’s mint some token to our own address.
 
 ![Image for post](https://miro.medium.com/max/607/1*K9eBNTQFkvUYjjmvegDZtQ.png)
@@ -159,6 +160,6 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg0OTE4MjksLTE5MjkyMzUyNDNdfQ
+eyJoaXN0b3J5IjpbLTEwNTMwNjU0MjUsLTE5MjkyMzUyNDNdfQ
 ==
 -->
