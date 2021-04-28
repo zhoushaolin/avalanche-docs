@@ -62,11 +62,12 @@
 
 ![Collectible details](../../../.gitbook/assets/nft-studio-08-detail.png)
 
-如果您单击一个收集品进行选择，您会看到它所属的组、其数量和**发送**按钮。
-If you select a collectible by clicking on it, you will see which group it belongs to, its quantity, along with the **Send** button.
+如果您单击选中一个藏品，您会看到它所属的组、数量以及**Send**发送按钮。
 
-## Send NFTs
 
+## 发送NFT
+
+如需将您的收集品发送给某人，您可以点击组合中所选收集品的**发送**按钮，或导航至左侧菜单的**发送**选项并单击**添加收集品**：
 To send your collectible to someone, either click the **Send** button on the selected collectible in the Portfolio, or navigate to **Send** tab on the left-hand side menu, and click **Add Collectible**:
 
 ![Choosing the collectibles](../../../.gitbook/assets/nft-studio-09-send.png)
@@ -90,7 +91,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUyMjYyMzEsLTQ0MjQ5NzMwOCwxOD
-Y1NTQwMzI3LC0xNjI1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIx
-NzYxN119
+eyJoaXN0b3J5IjpbODUyMDEzNzU3LC00NDI0OTczMDgsMTg2NT
+U0MDMyNywtMTYyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2
+MTddfQ==
 -->
