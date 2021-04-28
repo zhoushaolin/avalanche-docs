@@ -118,7 +118,7 @@ Remix应该能找到所部署的合约：
 
 在“**值（****Value****）**”区输入10000000000（10^10）gwei，以打包10个单位（gwei）的AVAX。点击“**存放（****Deposit****）**”，开始打包。你将看到Remix立刻提示你确认交易。当你长按“**确认（****Confirm****）**”时，MetaMask会突然弹出，并也要求你确认。请也长按MetaMask中的“**确认（****Confirm****）**”。你应该注意到你的AVAX余额减少了10个单位，加上费用金额。跳到下一步，查看你在MetaMask中的WAVAX。
 
-要封装10个AVAX，需在**Value**字段中输入`10000000000` \(10^10\) gwei。要启动包装，单击**Deposi**。Remix会提示您确认交易。当您按**Confirm**时，Metamask将弹出，也要求确认。在Metamask中也按**Confirm**。你应该注意到你的AVAX余额降低了10，外加费用金额。跳到下一节去看你的Metamask中的WAVAX。
+要封装10个AVAX，需在**Value**字段中输入`10000000000` \(10^10\) gwei。要启动包装，单击**Deposi**。Remix会提示您确认交易。当您按**Confirm**时，Metamask将弹出，也要求确认。在Metamask中也按**Confirm**。你应该注意到你的AVAX余额降低了10，外加手续费金额。跳到下一节去看你的Metamask中的WAVAX。
 
 ## 在Metamask中添加WAVAX
 
@@ -140,15 +140,13 @@ Remix应该能找到所部署的合约：
 
 ![Withdraw](../../../.gitbook/assets/wavax2avax-09-withdraw.png)
 
-但是，取回区是以wei计价的，因此在取回金额中，10个单位的AVAX被表示为10000000000000000000 （10^19）。长按“**交易（****Transact**  **）**”，会先触发Remix的确认，然后触发MetaMask的确认。你的AVAX应该回到账户里，减去费用金额。
+但是，取回区是以wei计价的，因此在取回金额中，10个单位的AVAX被表示为`10000000000000000000` \(10^19\) 。长按“**Transact**”，会先触发Remix的确认，然后触发MetaMask的确认。你的AVAX应该回到账户里，减去手续费金额。
 
-   Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represented as `10000000000000000000` \(10^19\) for the withdraw amount. Pressing **Transact** will trigger the same confirmation first in Remix, then in Metamask. Your AVAX should be back in the account, minus the fee amount.
-
-## Conclusion
+## 总结
 
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NTExNDU5LC0xNzg5NjM5MTUxLDE4MT
-c0OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbMTI3NTU4NDA5MCwtMTc4OTYzOTE1MSwxOD
+E3NDkzNjA1XX0=
 -->
