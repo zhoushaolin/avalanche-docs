@@ -140,6 +140,8 @@ Remix应该能找到所部署的合约：
 
 ![Withdraw](../../../.gitbook/assets/wavax2avax-09-withdraw.png)
 
+但是，取回区是以wei命名的，因此在取回金额中，10个单位的AVAX被表示为10000000000000000000 （10^19）。长按“**交易（****Transact**  **）**”，会先触发Remix的确认，然后触发MetaMask的确认。你的AVAX应该回到账户里，减去费用金额。
+
 Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represented as `10000000000000000000` \(10^19\) for the withdraw amount. Pressing **Transact** will trigger the same confirmation first in Remix, then in Metamask. Your AVAX should be back in the account, minus the fee amount.
 
 ## Conclusion
@@ -147,6 +149,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ4OTQ3NzUsLTE3ODk2MzkxNTEsMT
-gxNzQ5MzYwNV19
+eyJoaXN0b3J5IjpbLTI5NDUxMDI2MSwtMTc4OTYzOTE1MSwxOD
+E3NDkzNjA1XX0=
 -->
