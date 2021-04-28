@@ -1,4 +1,4 @@
-# Use Wrapped AVAX \(WAVAX\) on Avalanche
+# **在Avalanche上使用****包装过的****AVAX代币（WAVAX）*
 
 ## What is WAVAX?
 
@@ -141,3 +141,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ0MzMzODY5Ml19
+-->
