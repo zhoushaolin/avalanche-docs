@@ -2,9 +2,9 @@
 
 ## Avalanche上的不可替换的代币
 
-除了本地AVAX代币以外，Avalanche平台在本机上支持创建其他类型的数字资产：固定资本资产、可变资本资产和不可替换代币（NFT）。
-Besides the native AVAX token, [Avalanche platform](../platform/) natively supports the creation of other types of digital assets: fixed-cap assets, variable-cap assets, and non-fungible tokens \(NFTs\).
+除了本地AVAX代币以外，Avalanche平台[Avalanche platform](../platform/) 在本机上支持创建其他类型的数字资产：固定资本资产、可变资本资产和不可替换代币（NFT）。
 
+与可兑换（替换）的常规代币不同，意即每种代币都是相同的，每种不可替换代币在网络上都是独一无二的，不同的ID使之区分于任何其他代币。因此，使用可兑换代币无法成功的案例也变得可行，例如唯一资产的所有权证明。
 As opposed to regular tokens, which are interchangeable \(fungible\), meaning that each one is the same, each non-fungible token is unique on the network, with a distinct ID making it different from any other. This enables many use cases that would be impossible with interchangeable tokens, like proof of ownership of a unique asset.
 
 ## NFT Studio on Avalanche Wallet
@@ -90,5 +90,5 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODIxNzYxN119
+eyJoaXN0b3J5IjpbLTgzNTkyNDMyNiwxNjc4MjE3NjE3XX0=
 -->
