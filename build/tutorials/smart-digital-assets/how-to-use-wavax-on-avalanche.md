@@ -30,7 +30,7 @@
 ### Avalanche 主网设置:
 
 * **网络名Network Name**: Avalanche Mainnet C-Chain
-* **新 RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
+* **New RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
 * **ChainID**: `0xa86a`
 * **标志Symbol**: `AVAX`
 * **浏览器Explorer**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
@@ -40,14 +40,14 @@
 * **网络名Network Name**: Avalanche Fuji C-Chain
 * **New RPC URL**: [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
 * **ChainID**: `0xa869`
-* **Symbol**: `AVAX`
-* **Explorer**: [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
+* **标志Symbol**: `AVAX`
+* **浏览器Explorer**: [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
 
-After saving the changes, select the Avalanche network you just specified. You should see your AVAX balance, which will probably be 0.
+保存更改后，选择你刚刚指定的Avalanche网络。你应该会看到你的AVAX余额，它将可能是0。
 
-## Fund Your C-Chain Account
+## 充值您的C链账户
 
-You need to get some AVAX into your account.
+你需要在你的账户中放一些AVAX。
 
 ### **Using the Avalanche Wallet**
 
@@ -142,5 +142,5 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTgwMDQxNSwxODE3NDkzNjA1XX0=
+eyJoaXN0b3J5IjpbMTgzMzA1ODUxNiwxODE3NDkzNjA1XX0=
 -->
