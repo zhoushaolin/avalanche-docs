@@ -22,7 +22,8 @@
 
 ![Create new family](../../../.gitbook/assets/nft-studio-02-family.png)
 
-Besides the name and the ticker, you will need to enter **Number of Groups**, that is, how many distinct collectibles will the newly created family hold. Choose carefully, because once created, the parameters of the collectible family cannot be changed.
+除了名称和股票代码，您还需要输入**组的数量**，即新创建的族将持有多少个不同的收藏品。由于一旦创建，收藏品族的参数就无法更改，因此请谨慎选择。
+
 
 When you decided upon the name, ticker, and number of groups, press **Create** to actually create the collectible family. The transaction fee will be deducted from your wallet's balance. When the family is created, you will see the transaction ID \(TxID\), as well as parameters for the family. You can use the TxID to look up the transaction in [the explorer](https://explorer.avax.network/), but it is not necessary to write it down.
 
@@ -89,6 +90,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjkxMjc1MCwxODY1NTQwMzI3LC0xNj
-I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
+eyJoaXN0b3J5IjpbLTEzNTIwMzEyODUsMTg2NTU0MDMyNywtMT
+YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
 -->
