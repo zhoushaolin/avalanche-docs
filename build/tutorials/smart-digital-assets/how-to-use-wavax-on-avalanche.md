@@ -2,7 +2,7 @@
 
 ## 什么是WAVAX？
 
-AVAX是Avalanche平台上的本地代币。合同链（C链）上的很多智能合同（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合同中使用AVAX，您必须使用与ERC-20兼容的打包AVAX（WAVAX）。
+[AVAX](../../../#avalanche-avax-token)是Avalanche平台[Avalanche platform](../../../learn/platform-overview/)上的本地代币。合同链（C链）上的很多智能合同（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合同中使用AVAX，您必须使用与ERC-20兼容的打包AVAX（WAVAX）。
 
 [AVAX](../../../#avalanche-avax-token) is the native token on the [Avalanche platform](../../../learn/platform-overview/). Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain), which is an instance of the Ethereum Virtual Machine, are designed to work with Ethereum's ERC-20 tokens. In order to use AVAX in such contracts, you must use wrapped AVAX \(WAVAX\), which is ERC-20 compatible.
 
@@ -144,5 +144,5 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTExODU1NDddfQ==
+eyJoaXN0b3J5IjpbMTgxNzQ5MzYwNV19
 -->
