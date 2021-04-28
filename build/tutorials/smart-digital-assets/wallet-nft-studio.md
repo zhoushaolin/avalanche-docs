@@ -18,6 +18,7 @@
 
 ### 创建NFT家族
 
+您需要输入您的收藏品ji的名称以及标志（股票代码）。名称可以重复。
 There you will be asked to enter the name of your collectible family, as well as a symbol \(ticker\). Names do not have to be unique.
 
 ![Create new family](../../../.gitbook/assets/nft-studio-02-family.png)
@@ -89,6 +90,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU5NzkxMzcsMTg2NTU0MDMyNywtMT
+eyJoaXN0b3J5IjpbLTE4NzY5ODI4ODIsMTg2NTU0MDMyNywtMT
 YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
 -->
