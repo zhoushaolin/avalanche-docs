@@ -104,7 +104,7 @@ Remix应该能找到所部署的合约：
 
 ![Connect](../../../.gitbook/assets/wavax2avax-07-avalanche-contract.png)
 
-We are now ready to interact with the contract. Open the contract interface by pressing the highlighted arrow.
+我们现在准备与该合约交互。长按标注箭头，打开合约界面。
 
 ## Issue Commands to the WAVAX Contract
 
@@ -144,6 +144,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2Njg2Nzk5LC0xNzg5NjM5MTUxLDE4MT
+eyJoaXN0b3J5IjpbMTk4ODQyMTgxLC0xNzg5NjM5MTUxLDE4MT
 c0OTM2MDVdfQ==
 -->
