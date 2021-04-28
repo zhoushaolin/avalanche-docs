@@ -61,13 +61,13 @@
 
 ### **使用测试网络接口**
 
-如果你连接的是测试网络，你可以使用测试网络接口充值你的MetaMask账户。浏览[the faucet](https://faucet.avax-test.network/) ，然后粘贴你的以太坊地址（如0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57），它显示在Metamask中账户名的下方。当你点击账户名时，账户名会被复制到剪贴板。
+如果你连接的是测试网络，你可以使用测试网络接口充值你的MetaMask账户。浏览[the faucet](https://faucet.avax-test.network/) ，然后粘贴你的以太坊地址（它显示在Metamask中账户名的下方, 如0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57），。当你点击账户名时，账户名会被复制到剪贴板。
 
-将该地址粘入“接口”区，证明你不是机器人，然后请求测试AVAX，应该很快就能在你的MetaMask账户中看到。
 If you're connected to the test network, you can use its faucet to fund your Metamask account. Navigate to [the faucet](https://faucet.avax-test.network/) and paste your Ethereum address, which is shown below the account name in Metamask \(e.g.`0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57`\). When you click on the account name, it will copy the account to the clipboard.
 
 ![Faucet funding](../../../.gitbook/assets/wavax2avax-02-faucet.png)
 
+将该地址粘入“接口”区，证明你不是机器人，然后请求测试AVAX，应该很快就能在你的MetaMask账户中看到。
 Paste that address into the faucet, prove that you're not a robot, and then request test AVAX. They should appear in your Metamask shortly.
 
 ## Load WAVAX contract into Remix
@@ -145,5 +145,5 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMTI0MTQ2LDE4MTc0OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbLTY2NTg5MTUwOCwxODE3NDkzNjA1XX0=
 -->
