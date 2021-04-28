@@ -48,12 +48,13 @@
 
 您输入并检查数据后，请按下**Mint**来创建藏品。交易费用将从您的钱包中扣除，您的钱包中会收到新创建的藏品。
 
-### See your collectibles
+### 查看您的藏品
 
-An overview of your collectibles is always visible in the top of the screen, along with your balances.
+您可以在屏幕顶端查看您的藏品概况和余额。
 
 ![Overview](../../../.gitbook/assets/nft-studio-06-overview.png)
 
+如需详细查看藏品，请选择左侧菜单的**Portfolio**。您会看到一个显示您所有资产的界面，并默认选择代币。单击相应选项卡，将选项更改为**收集品**。
 To see your collectibles in more detail, select **Portfolio** from the left-hand side menu. You will be presented with a screen showing all of your assets, with tokens selected by default. Change the selection to **Collectibles** by clicking the corresponding tab.
 
 ![Collectibles list](../../../.gitbook/assets/nft-studio-07-collectibles.png)
@@ -89,7 +90,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTUxMTA5NywtNDQyNDk3MzA4LDE4Nj
-U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
-NjE3XX0=
+eyJoaXN0b3J5IjpbNDIwOTI4NTg1LC00NDI0OTczMDgsMTg2NT
+U0MDMyNywtMTYyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2
+MTddfQ==
 -->
