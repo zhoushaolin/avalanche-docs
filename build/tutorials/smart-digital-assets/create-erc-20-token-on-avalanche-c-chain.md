@@ -156,10 +156,10 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 现在，我们为合约铸造了1000个代币，但是您应该无法看到您的MetaMask钱包中的代币。为了查看我们自己的代币，我们必须添加它。在MetaMask上，单击“Add Token”按钮并选择“Custom Token”选项。
 
-在此输入您可以从浏览器中看到的代币地址，如上所示。将其复制并粘贴于此。然后单击下一步按钮，您应该在您的MetaMask钱包中看到您命名的1000个代币。同样，您可以通过Remix或MetaMask将其发送到另一个账户。
-Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
+在此输入您可以从浏览器中看到的代币地址，如上所示。将其复制并粘贴于此。然后单击下一步(Next)按钮，您应该在您的MetaMask钱包中看到您命名的1000个代币。同样，您可以通过Remix或MetaMask将其发送到另一个账户。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ2MzE3NjcsLTEyMzg2MDcyNCwxOT
+eyJoaXN0b3J5IjpbLTExMDk1ODQzODMsLTEyMzg2MDcyNCwxOT
 UxNzU4MDkyLC0xOTI5MjM1MjQzXX0=
 -->
