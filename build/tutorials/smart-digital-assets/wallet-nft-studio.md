@@ -14,7 +14,7 @@
 
 ![NFT Studio](../../../.gitbook/assets/nft-studio-01-select.png)
 
-打开NFT工作室。然后会有两个选项：**New Family**——创建新NFT族，**铸造收集品**——创建当前族中的新资产。我们需要创建我们的首个NFT族，因此请点击**新族**。
+打开NFT工作室。然后会有两个选项：**New Family**——创建新NFT，**Mint Collectible**——在现有收藏品中创建新资产。我们需要创建我们的首个NFT族，因此请点击**新族**。
 This will open the NFT Studio. There you have two options: **New Family**, for the creation of a new family of NFTs, and **Mint Collectible** for creating new assets in existing families. We need to create our first family of NFTs, so click **New Family**.
 
 ### Create NFT Family
@@ -90,6 +90,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2ODI3NDA3LDE4NjU1NDAzMjcsLTE2Mj
-U5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3NjE3XX0=
+eyJoaXN0b3J5IjpbMTA4ODcyMjc5MywxODY1NTQwMzI3LC0xNj
+I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
 -->
