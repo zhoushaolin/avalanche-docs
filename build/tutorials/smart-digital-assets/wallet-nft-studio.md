@@ -77,22 +77,22 @@
 
 您可以在单次交易中发送多个藏品。单击藏品上的标签，您可以编辑您想要发送的复制品数量。您可以在单次交易中发送多个藏品家族和藏品类型。
 
-当您输入目标地址并有选择地输入备忘文本后，请按下**确认**来初始化交易。
-当你输入了目的地址，并选择输入了备忘录文本，按**确认**启动交易。
-When you have entered the destination address, and optionally entered the memo text, press **Confirm** to initiate the transaction.
+当你输入了目的地址，并选择输入了备忘录文本，按**Confirm**启动交易。
+
 
 ![Transaction](../../../.gitbook/assets/nft-studio-11-send-transaction.png)
 
-After pressing **Send Transaction** it will be published on the network, and the transaction fee will be deducted from your balance. Collectibles will be deposited into the destination address shortly after.
+按下**Send Transaction**后，网络上会公布该交易，交易费用会从您的余额中扣除。不久后收集品会保存至目标地址。
 
-## Summary
+## 总结
 
+现在，您应该已经知道如何创建NFT藏品家族、铸造NFT组并将其发送至其他地址了。祝您愉快！请务必在我们的社交媒体频道上与我们分享！
 Now, you should know how to create NFT families, mint NFT groups, and send them to other addresses. Have fun with it! Make sure to share your creations with us on our [social media channels](https://www.avalabs.org/social)!
 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjU5MTM0OCwtNDQyNDk3MzA4LDE4Nj
+eyJoaXN0b3J5IjpbMTY2MDM3MDEwNSwtNDQyNDk3MzA4LDE4Nj
 U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
 NjE3XX0=
 -->
