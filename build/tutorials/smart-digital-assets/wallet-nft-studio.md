@@ -34,11 +34,11 @@
 
 ![Select a family](../../../.gitbook/assets/nft-studio-03-select-family.png)
 
-选择我们刚刚创建的族。您会收到一份表格，请填写新收集品的参数：
+选择我们刚刚创建的族。您会收到一份表格，请填写新藏品的参数：
 
 ![Mint a Collectible](../../../.gitbook/assets/nft-studio-04-mint.png)
 
-默认情况下，系统会选择一种**Generic**类型的收藏品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的藏品是什么样子。
+默认情况下，系统会选择一种**Generic**类型的藏品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的藏品是什么样子。
 
 如果您想拥有图片藏品以外的其他内容，请选择**Custom**。
 
@@ -89,6 +89,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTU1Njc3NywxODY1NTQwMzI3LC0xNj
+eyJoaXN0b3J5IjpbLTQ0MjQ5NzMwOCwxODY1NTQwMzI3LC0xNj
 I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
 -->
