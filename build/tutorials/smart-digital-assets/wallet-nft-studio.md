@@ -8,9 +8,7 @@
 
 ## Avalanche钱包上的NFT工作室
 
-为了使创建和交换NFT的体验更方便，我们在Avalanche钱包中搭建了NFT工作室**NFT Studio**，您可以用它创建NFT，以作为所谓“收集品”的资产。收集品可以是带图片和说明的通用NFT，也可以是带有包含JSON、自定义URL或UTF-8数据的有效负载自定义NFT。您可以通过一个简单的点击界面进行创建，借此，您可以在几分钟内将NFT发送给您的朋友。无需技术知识。
-
-To make experimenting with the creation and exchange of NFTs easier, we have built **NFT Studio** into the [Avalanche Wallet](https://wallet.avax.network/), where you can use it to create NFTs as assets that we call Collectibles. Collectibles can be generic NFTs with a picture and a description, or custom NFTs with payloads containing JSON, custom URL, or UTF-8 data. You can create them using a simple point and click interface, enabling you to go from an idea of sending NFTs to your friends within minutes. No technical knowledge required.
+为了使创建和交换NFT的体验更方便，我们在Avalanche钱包[Avalanche Wallet](https://wallet.avax.network/)中搭建了NFT工作室**NFT Studio**，您可以用它创建NFT，以作为所谓“收藏品”的资产。收藏品可以是带图片和说明的通用NFT，也可以是带有包含JSON、自定义URL或UTF-8数据的有效负载自定义NFT。您可以通过一个简单的点击界面进行创建，借此，您可以在几分钟内将NFT发送给您的朋友。无需技术知识。
 
 To access the **NFT Studio**, log into your Avalanche Wallet, and on the left side select **Studio**:
 
@@ -91,6 +89,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTU0MDMyNywtMTYyNTk1NjI0MywtOD
-M1OTI0MzI2LDE2NzgyMTc2MTddfQ==
+eyJoaXN0b3J5IjpbLTEyMzAxODgwNzQsMTg2NTU0MDMyNywtMT
+YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
 -->
