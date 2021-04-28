@@ -1,4 +1,4 @@
-# Create NFTs with the Avalanche Wallet
+# 使用Avalanche钱包创建NFT
 
 ## Non-Fungible Tokens on Avalanche
 
@@ -88,3 +88,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQwMjEzNjY0N119
+-->
