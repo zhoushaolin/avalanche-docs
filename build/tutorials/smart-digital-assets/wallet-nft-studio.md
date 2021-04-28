@@ -58,7 +58,7 @@
 
 ![Collectibles list](../../../.gitbook/assets/nft-studio-07-collectibles.png)
 
-图片会显示每个普通藏品及其标题和数量, 这个s h l说明您的组合中有多少收集品复制品的数量。将鼠标指针悬停在收集品上即可显示详细说明：
+图片会显示每个普通藏品及其标题和数量, 这个数量代表的是你拥有的 多少收集品复制品的数量。将鼠标指针悬停在收集品上即可显示详细说明：
 For each Generic collectible, a picture will be shown, along with the title, and the number indicating how many copies of the collectible are in your portfolio. Hovering over the collectible with your pointer will show the detailed description:
 
 ![Collectible details](../../../.gitbook/assets/nft-studio-08-detail.png)
@@ -90,7 +90,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTMxNTE0MiwtNDQyNDk3MzA4LDE4Nj
+eyJoaXN0b3J5IjpbLTI5ODAzNzQ1OCwtNDQyNDk3MzA4LDE4Nj
 U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
 NjE3XX0=
 -->
