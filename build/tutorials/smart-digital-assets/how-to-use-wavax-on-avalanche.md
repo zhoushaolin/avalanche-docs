@@ -2,12 +2,11 @@
 
 ## 什么是WAVAX？
 
-[AVAX](../../../#avalanche-avax-token)是Avalanche平台[Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链[Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合同中使用AVAX，您必须使用与ERC-20兼容的打包AVAX（WAVAX）。
+[AVAX](../../../#avalanche-avax-token)是Avalanche平台[Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链[Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的AVAX（WAVAX）。
 
-[AVAX](../../../#avalanche-avax-token) is the native token on the [Avalanche platform](../../../learn/platform-overview/). Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain), which is an instance of the Ethereum Virtual Machine, are designed to work with Ethereum's ERC-20 tokens. In order to use AVAX in such contracts, you must use wrapped AVAX \(WAVAX\), which is ERC-20 compatible.
+## 概述
 
-## Overview
-
+若要将AVAX转化为WAVAX，你需将AVAX存入一个智能合约，它会锁住该AVAX然后发给你WAVAX。若要将WAVAX转化为AVAX，你需将该WAVAX归还给该智能合约，该智能合约然后会烧毁WAVAX，并返还你的AVAX。
 To convert AVAX to WAVAX you will deposit AVAX into a smart contract which will lock the AVAX and issue WAVAX to you. To convert WAVAX to AVAX, you will return the WAVAX to the smart contract, which will burn the WAVAX and return your AVAX.
 
 In this tutorial, you will:
@@ -144,5 +143,5 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEyMTAwODMsMTgxNzQ5MzYwNV19
+eyJoaXN0b3J5IjpbNjIzNzAxNDA0LDE4MTc0OTM2MDVdfQ==
 -->
