@@ -1,6 +1,6 @@
 # 使用Avalanche钱包创建NFT
 
-## Avalanche上的不可替换的代币
+## Avalanche上的NFT
 
 除了本地AVAX代币以外，Avalanche平台[Avalanche platform](../platform/) 在本机上支持创建其他类型的数字资产：固定资本资产、可变资本资产和不可替换代币（NFT）。
 
@@ -91,7 +91,7 @@
 如果您想了解NFT在Avalanche网络上工作的技术背景，或者想要使用NFT来创建产品，请查阅NFT教程[NFT tutorial](creating-a-nft-part-1.md)。如果您有任何技术问题，请通过Discord平台[Discord](https://chat.avalabs.org/) 联系我们。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTc4MTg0NCwtNDQyNDk3MzA4LDE4Nj
-U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
-NjE3XX0=
+eyJoaXN0b3J5IjpbLTYwNTY4MDM3MSwtNDYxNzgxODQ0LC00ND
+I0OTczMDgsMTg2NTU0MDMyNywtMTYyNTk1NjI0MywtODM1OTI0
+MzI2LDE2NzgyMTc2MTddfQ==
 -->
