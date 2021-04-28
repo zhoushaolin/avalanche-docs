@@ -38,7 +38,7 @@
 
 ![Mint a Collectible](../../../.gitbook/assets/nft-studio-04-mint.png)
 
-默认情况下，系统会选择一种**Generic**类型的收集品。这是包含**Title**、图像**URL**和**说明**的NFT。请输入所需数据和**数量**，以决定将创建多少份收集品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了收集品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的收集品是什么样子。
+默认情况下，系统会选择一种**Generic**类型的收集品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份收集品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了收集品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的收集品是什么样子。
 By default, a **Generic** type of collectible will be selected. That is an NFT that has a **Title**, **URL** for the image, and a **Description**. Enter the required data, as well as the **Quantity**, which will determine how many copies of the collectible will be created, and therefore, how many of them you will be able to send. As before, enter the data carefully, you won't be able to change anything once collectibles are minted. You will see a preview of the data where you can check how your collectible will look like.
 
 If you would like to have something else besides a picture collectible, select **Custom**.
@@ -90,6 +90,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY2NjAxMzIsMTg2NTU0MDMyNywtMT
-YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
+eyJoaXN0b3J5IjpbMTA1NTE3OTczNCwxODY1NTQwMzI3LC0xNj
+I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
 -->
