@@ -118,13 +118,13 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ## 与代币互动
 
-通过此C链浏览器，我们可以看到部署在avalanche C链上的交易。
-We can see our transaction that deployed on avalanche C-Chain via this [c-chain explorer](https://cchain.explorer.avax-test.network/).
+通过此C链浏览器[c-chain explorer](https://cchain.explorer.avax-test.network/)，我们可以看到部署在avalanche C链上的交易。
 
-But firstly, let’s see our transaction hash from the remix console.
+但首先，让我们看看Remix控制台中的交易队列。
 
 ![Image for post](https://miro.medium.com/max/1469/1*WTHSIfrDe9R_hk-C5GNq0g.png)
 
+部署完合同后，我们应看到Remix控制台中的日志。当您单击箭头并展开它时，一个交易队列就会出现。复制它。
 After deploying the contract, we should see a log in remix console. When you click to arrow and expand it, a transaction hash will come up. Copy it.
 
 ![Image for post](https://miro.medium.com/max/1909/1*NBXgtkYv2VfBkZx1OsBm7A.png)
@@ -160,5 +160,5 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzQ4NDY5MiwtMTkyOTIzNTI0M119
+eyJoaXN0b3J5IjpbLTczNjU1NTQzMSwtMTkyOTIzNTI0M119
 -->
