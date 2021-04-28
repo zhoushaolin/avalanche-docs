@@ -22,7 +22,7 @@
 
 ![Create new family](../../../.gitbook/assets/nft-studio-02-family.png)
 
-除了名称和股票代码，您还需要输入**组的数量**，即新创建的家族将持有多少个不同的藏品。由于一旦创建，藏品家族的参数就无法更改，因此请谨慎选择。
+除了名称和ticker，您还需要输入**组的数量**，即新创建的家族将持有多少个不同的藏品。由于一旦创建，藏品家族的参数就无法更改，因此请谨慎选择。
 
 当您决定名称、股票代码和组的数量时，请按下**Create**，以实际创建藏品家族。交易费用将从您的钱包余额中扣除。完成创建，您会看到交易ID（TxID）和藏品家族的参数。您可以使用TxID在浏览器[the explorer](https://explorer.avax.network/)中查找交易，但无需将之写下来。
 
@@ -91,7 +91,7 @@
 如果您想了解NFT在Avalanche网络上工作的技术背景，或者想要使用NFT来创建产品，请查阅NFT教程[NFT tutorial](creating-a-nft-part-1.md)。如果您有任何技术问题，请通过Discord平台[Discord](https://chat.avalabs.org/) 联系我们。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTY4MDM3MSwtNDYxNzgxODQ0LC00ND
-I0OTczMDgsMTg2NTU0MDMyNywtMTYyNTk1NjI0MywtODM1OTI0
-MzI2LDE2NzgyMTc2MTddfQ==
+eyJoaXN0b3J5IjpbLTE1NjU1Nzg1NTIsLTYwNTY4MDM3MSwtND
+YxNzgxODQ0LC00NDI0OTczMDgsMTg2NTU0MDMyNywtMTYyNTk1
+NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
 -->
