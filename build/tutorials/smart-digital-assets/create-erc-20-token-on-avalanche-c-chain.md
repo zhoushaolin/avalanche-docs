@@ -144,10 +144,11 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 在此，我们有一系列可用于与我们的代币合约互动的功能。您可以检查OpenZeppelin文档的所有此类方法，以了解如何使用它们。但是我们只会使用铸造法。
 
-Click to arrow beside the mint method to read it.
+点击铸造方法旁边的箭头，并阅读。
 
 ![Image for post](https://miro.medium.com/max/577/1*GrxG6rsklrYN4xN1eF_ckw.png)
 
+输入您的地址和WEI中的金额。例如，我准备铸造1000tst代币，所以我输入了“1000000000000000000000”。
 Enter your address and an amount in WEI. For example, I will mint 1000 tst token so, I entered “1000000000000000000000”
 
 ![Image for post](https://miro.medium.com/max/354/1*FM-PMUY7au61ejHJzBIsfg.png)
@@ -159,6 +160,6 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOT
-I5MjM1MjQzXX0=
+eyJoaXN0b3J5IjpbMTk3ODYzOTA2OCwtMTIzODYwNzI0LDE5NT
+E3NTgwOTIsLTE5MjkyMzUyNDNdfQ==
 -->
