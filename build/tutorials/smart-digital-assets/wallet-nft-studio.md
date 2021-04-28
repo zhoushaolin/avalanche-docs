@@ -88,11 +88,10 @@
 
 现在，您应该已经知道如何创建NFT藏品家族、铸造NFT组并将其发送至其他地址了。请务必在我们的社交媒体频道[social media channels](https://www.avalabs.org/social)上与我们分享您的作品！
 
-如果您想了解NFT在Avalanche网络上工作的技术背景，或者想要使用NFT来创建产品，请查阅NFT教程。如果您有任何技术问题，请通过Discord服务器联系我们。
-If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
+如果您想了解NFT在Avalanche网络上工作的技术背景，或者想要使用NFT来创建产品，请查阅NFT教程[NFT tutorial](creating-a-nft-part-1.md)。如果您有任何技术问题，请通过Discord平台[Discord](https://chat.avalabs.org/) 联系我们。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM2MDk2OTMsLTQ0MjQ5NzMwOCwxOD
-Y1NTQwMzI3LC0xNjI1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIx
-NzYxN119
+eyJoaXN0b3J5IjpbLTQ2MTc4MTg0NCwtNDQyNDk3MzA4LDE4Nj
+U1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3
+NjE3XX0=
 -->
