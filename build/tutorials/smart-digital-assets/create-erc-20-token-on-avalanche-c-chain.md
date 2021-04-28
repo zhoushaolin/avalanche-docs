@@ -125,15 +125,14 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 ![Image for post](https://miro.medium.com/max/1469/1*WTHSIfrDe9R_hk-C5GNq0g.png)
 
 部署完合同后，我们应看到Remix控制台中的日志。当您单击箭头并展开它时，一个交易队列就会出现。复制它。
-After deploying the contract, we should see a log in remix console. When you click to arrow and expand it, a transaction hash will come up. Copy it.
 
 ![Image for post](https://miro.medium.com/max/1909/1*NBXgtkYv2VfBkZx1OsBm7A.png)
 
-Just paste the transaction hash to the [explorer](https://cchain.explorer.avax-test.network/) I shared above and press enter.
+将交易队列粘贴至我上文分享的浏览器[explorer](https://cchain.explorer.avax-test.network/)，并按输入键。
 
 ![Image for post](https://miro.medium.com/max/1907/1*6GhQaa_UaDvtk3Kvimi3aA.png)
 
-Here we can see all details about the transaction and token contract.
+在此我们可以看到交易和代币合约的所有详情。
 
 ![Image for post](https://miro.medium.com/max/764/1*tTFQUn3fStbv-TW9kExyUg.png)
 
@@ -160,5 +159,6 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjU1NTQzMSwtMTkyOTIzNTI0M119
+eyJoaXN0b3J5IjpbLTE3NTg0OTE4MjksLTE5MjkyMzUyNDNdfQ
+==
 -->
