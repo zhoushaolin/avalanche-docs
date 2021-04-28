@@ -91,7 +91,7 @@ Remix是一款流行的基于浏览器的编写、部署智能合约并与其交
 
 ![Connect](../../../.gitbook/assets/wavax2avax-06-deploy.png)
 
-确保你已经登录了你的MetaMask账户。在“**Environment**”的下拉菜单中，选择 `Injected Web3`。MetaMask会突然弹出，让你选择账户。选择连接Avalanche那个账户，并允许连接。这将预填满“**账户（****Account****）**”区。确保“**合约（****Contract****）**”区是 WAVAX合约。现在我们可以连接合约，该合约已经在Avalanche上发布了。在“**目的地址（** **At Address****）**”编辑区，复制：
+确保你已经登录了你的MetaMask账户。在“**Environment**”的下拉菜单中，选择 `Injected Web3`。MetaMask会突然弹出，让你选择账户。选择Avalanche，并允许连接。这将预填满“**Account**”字段。确保“**Contract**”字段是 WAVAX合约。现在我们可以连接合约，该合约已经在Avalanche上发布了。在“**目的地址（** **At Address****）**”编辑区，复制：
 
 Make sure you're logged in to your Metamask. In the **Environment** dropdown menu, select `Injected Web3`. Metamask will pop up and ask you to select the account. Choose the one connected to Avalanche and allow it to connect. This will pre-fill the **Account** field. Make sure the **Contract** field is set to the `WAVAX` contract. Now we can connect to the contract, which has already published on Avalanche. In the **At Address** edit field, copy:
 
@@ -144,6 +144,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTg2OTYwMSwtMTc4OTYzOTE1MSwxOD
-E3NDkzNjA1XX0=
+eyJoaXN0b3J5IjpbLTE4MTU4MTc1MjksLTE3ODk2MzkxNTEsMT
+gxNzQ5MzYwNV19
 -->
