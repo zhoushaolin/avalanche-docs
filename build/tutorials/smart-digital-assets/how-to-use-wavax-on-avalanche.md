@@ -122,9 +122,7 @@ Remix应该能找到所部署的合约：
 
 ## 在Metamask中添加WAVAX
 
-要查看你的WAVAX平，你必须将WAVAX作为自定义令牌添加到Metamask。在Metamask中，选择帐户名称旁边的三个点，并选择“扩展视图”。这将打开一个新的浏览器选项卡。向下滚动并选择**添加token**。切换到**自定义令牌**标签。
-
-To see your WAVAX balance, you must add WAVAX as a custom token to Metamask. In Metamask, select the three dots next to your account name and select `Expand View`. This opens a new browser tab. Scroll down and select **Add token**. Switch to the **Custom Token** tab.
+要查看你的WAVAX余额，你必须将WAVAX作为自定义令牌添加到Metamask。在Metamask中，选择帐户名称旁边的三个点，并选择`Expand View`。这将打开一个新的浏览器选项卡。向下滚动并选择**Add token**。切换到**Custom Token**选项。
 
 ![Custom Token](../../../.gitbook/assets/wavax2avax-10-add-token.png)
 
@@ -148,6 +146,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2ODc1Nzc3LC0xNzg5NjM5MTUxLDE4MT
-c0OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbMTA1MjQzMzQ0NSwtMTc4OTYzOTE1MSwxOD
+E3NDkzNjA1XX0=
 -->
