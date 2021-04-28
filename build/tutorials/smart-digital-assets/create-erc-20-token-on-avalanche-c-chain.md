@@ -141,8 +141,8 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 ![Image for post](https://miro.medium.com/max/607/1*K9eBNTQFkvUYjjmvegDZtQ.png)
 
 返回Remix，部署后，您应该能在“Deployed Contracts”部分看到合约。
-Come back to the remix and after deploying, you should be able to see the contract in “Deployed Contracts” section.
 
+在此，我们有一系列可用于与我们的代币合同互动的功能。您可以检查OpenZeppelin文档的所有此类方法，以了解如何使用它们。但是我们只会使用铸造法。
 Here, we have a bunch of functions that we can use to interact with our token contract. You can check all these methods from OpenZeppelin documentation to learn how to use them. But we will only use the mint method.
 
 Click to arrow beside the mint method to read it.
@@ -160,5 +160,5 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjE1NDY3LC0xOTI5MjM1MjQzXX0=
+eyJoaXN0b3J5IjpbMTk1MTc1ODA5MiwtMTkyOTIzNTI0M119
 -->
