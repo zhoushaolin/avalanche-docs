@@ -101,7 +101,6 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 然后，跳到第三个选项，即DEPLOY & RUN TRANSACTION。部署我们的合约之前，我们应更改环境。单击ENVIROMENT，并选择“Injected Web3”。如果跳出一个弹窗，要求您连接账户，请单击以连接。然后，您应该在“ACCOUNT”文本框中看到账户地址。
 
 在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为“ERC20PresetMinterPauser.sol”的合约。
-The last thing before the deployment process is to set the contract that will be deployed as a token. Above the Deploy Button, there is a drop-down menu to select a contract. Select the contract named “ERC20PresetMinterPauser.sol”.
 
 ![Image for post](https://miro.medium.com/max/383/1*s9LtZu4hSuPcVwVZsweZJA.png)
 
@@ -119,6 +118,7 @@ The last thing before the deployment process is to set the contract that will be
 
 ## 与代币互动
 
+通过此C链浏览器，我们可以看到部署在avalanche C链上的交易。
 We can see our transaction that deployed on avalanche C-Chain via this [c-chain explorer](https://cchain.explorer.avax-test.network/).
 
 But firstly, let’s see our transaction hash from the remix console.
@@ -160,5 +160,5 @@ Now we minted 1000 token to our contract, but you should not be able to see the 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjkyMzUyNDNdfQ==
+eyJoaXN0b3J5IjpbMTg3NzQ4NDY5MiwtMTkyOTIzNTI0M119
 -->
