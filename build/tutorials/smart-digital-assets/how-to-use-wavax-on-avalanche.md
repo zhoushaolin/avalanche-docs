@@ -79,13 +79,13 @@ Remix是一款流行的基于浏览器的编写、部署智能合约并与其交
 
 在左边切换至文件资源管理器标签，然后选择`WAVAX.sol`，即我们刚刚载入的合约。
 
-On the left side menu, switch to Compile tab:
+在左侧菜单中，切换到Compile选项卡:
 
 ![Compile](../../../.gitbook/assets/wavax2avax-05-compile.png)
 
-Check that the compiler version is compatible with the contract, as shown. Press **Compile WAVAX.sol**, and check that WAVAX contract has appeared in the `CONTRACT` field below. Now you're ready to connect to the WAVAX contract, which has already been deployed on the Avalanche network.
+检查该编译器是否与所示合约兼容。长按“**Compile WAVAX.sol**”按钮，检查WAVAX合约是否已经出现在下面的`CONTRACT` 区。现在，你可以准备连接WAVAX合约了，该合约已在Avalanche网络中部署好了。
 
-## Connect to the WAVAX contract
+## #连接WAVAX合约
 
 Switch to the **Deploy & Run Tranasactions** tab on the left side.
 
@@ -142,6 +142,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MDAyODcyLC0xNzg5NjM5MTUxLDE4MT
+eyJoaXN0b3J5IjpbMTg1MTM5Mjc4LC0xNzg5NjM5MTUxLDE4MT
 c0OTM2MDVdfQ==
 -->
