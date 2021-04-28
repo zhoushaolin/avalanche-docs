@@ -10,10 +10,11 @@
 
 为了使创建和交换NFT的体验更方便，我们在Avalanche钱包[Avalanche Wallet](https://wallet.avax.network/)中搭建了NFT工作室**NFT Studio**，您可以用它创建NFT，以作为所谓“收藏品”的资产。收藏品可以是带图片和说明的通用NFT，也可以是带有包含JSON、自定义URL或UTF-8数据的有效负载自定义NFT。您可以通过一个简单的点击界面进行创建，借此，您可以在几分钟内将NFT发送给您的朋友。无需技术知识。
 
-To access the **NFT Studio**, log into your Avalanche Wallet, and on the left side select **Studio**:
+如需访问**NFT Studio**，请登录您的Avalanche钱包，并选择左侧的**Studio**：
 
 ![NFT Studio](../../../.gitbook/assets/nft-studio-01-select.png)
 
+打开NFT工作室。然后会有两个选项：**New Family**——创建新NFT族，**铸造收集品**——创建当前族中的新资产。我们需要创建我们的首个NFT族，因此请点击**新族**。
 This will open the NFT Studio. There you have two options: **New Family**, for the creation of a new family of NFTs, and **Mint Collectible** for creating new assets in existing families. We need to create our first family of NFTs, so click **New Family**.
 
 ### Create NFT Family
@@ -89,6 +90,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAxODgwNzQsMTg2NTU0MDMyNywtMT
-YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
+eyJoaXN0b3J5IjpbODk2ODI3NDA3LDE4NjU1NDAzMjcsLTE2Mj
+U5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3NjE3XX0=
 -->
