@@ -126,12 +126,13 @@ Remix应该能找到所部署的合约：
 
 ![Custom Token](../../../.gitbook/assets/wavax2avax-10-add-token.png)
 
-In the **Token Contract Address** paste the same contract address we used before:
+在“**Token Contract Address**”区粘贴前面使用过的合约地址：
 
-* For main net: `0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
-* For Fuji test net: `0xd00ae08403B9bbb9124bB305C09058E32C39A48c`
+* 主网: 
+`0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
+* 富士测试网: `0xd00ae08403B9bbb9124bB305C09058E32C39A48c`
 
-Click **Next** and **Add Tokens**. Your WAVAX should now be visible in under your account in Metmask.
+点击**Next** 以及 **Add Tokens**. Your WAVAX should now be visible in under your account in Metmask.
 
 ### Unwrap WAVAX to AVAX
 
@@ -146,6 +147,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjQzMzQ0NSwtMTc4OTYzOTE1MSwxOD
-E3NDkzNjA1XX0=
+eyJoaXN0b3J5IjpbNTEwMjI2MjQ4LC0xNzg5NjM5MTUxLDE4MT
+c0OTM2MDVdfQ==
 -->
