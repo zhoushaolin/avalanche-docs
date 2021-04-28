@@ -6,12 +6,21 @@
 
 ## 概述
 
-若要将AVAX转化为WAVAX，你需将AVAX存入一个智能合约，它会锁住该AVAX然后发给你WAVAX。若要将WAVAX转化为AVAX，你需将该WAVAX归还给该智能合约，该智能合约然后会烧毁WAVAX，并返还你的AVAX。
-To convert AVAX to WAVAX you will deposit AVAX into a smart contract which will lock the AVAX and issue WAVAX to you. To convert WAVAX to AVAX, you will return the WAVAX to the smart contract, which will burn the WAVAX and return your AVAX.
+若要将AVAX转化为WAVAX，你需将AVAX存入一个智能合约，它会锁住该AVAX然后发给你WAVAX。若要将WAVAX转化为AVAX，你需将该WAVAX归还给该智能合约，该智能合约会销毁WAVAX，并返还你的AVAX。
 
-In this tutorial, you will:
+在这一教程中，你需要：
 
-* Connect Metamask to Avalanche
+
+
+将WAVAX合约上传至Remix
+
+连接到预部署的WAVAX合约
+
+将AVAX转化为WAVAX，再转回
+
+将WAVAX作为一个自定义代币添加至MetaMask
+
+* 将MetaMask连接到 Avalanche 上
 * Fund your Metamask account  
 * Load the WAVAX contract into Remix
 * Connect to the pre-deployed WAVAX contract
@@ -143,5 +152,5 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzNzAxNDA0LDE4MTc0OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MTkxODE4OTksMTgxNzQ5MzYwNV19
 -->
