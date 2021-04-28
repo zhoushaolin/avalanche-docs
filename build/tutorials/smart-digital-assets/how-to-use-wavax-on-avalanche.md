@@ -73,13 +73,11 @@ Remix是一款流行的基于浏览器的编写、部署智能合约并与其交
 
 ![Import from GitHub](../../../.gitbook/assets/wavax2avax-03-remix-import.png)
 
-选择**GitHub**，在输入区粘贴https://raw.githubusercontent.com/ava-labs/wrapped-assets/main/WAVAX.sol ，并选择“**OK**”。这样就将合约载入Remix了。
-
-Select **GitHub**, and in the input field paste `https://raw.githubusercontent.com/ava-labs/wrapped-assets/main/WAVAX.sol` and select **OK**. That will load the contract into Remix.
+选择**GitHub**，在输入区粘贴`https://raw.githubusercontent.com/ava-labs/wrapped-assets/main/WAVAX.sol`，然后选择“**OK**”。这样就将合约载入Remix了。
 
 ![File Explorer](../../../.gitbook/assets/wavax2avax-04-contract.png)
 
-Switching to the File Explorer tab on the left and select `WAVAX.sol`, which is the contract we just loaded.
+在左边切换至文件资源管理器标签，然后选择`WAVAX.sol`，即我们刚刚载入的合约。
 
 On the left side menu, switch to Compile tab:
 
@@ -144,6 +142,6 @@ Unfortunately, the withdraw field is denominated in wei, so 10 AVAX is represent
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ4NTg2MjEsLTE3ODk2MzkxNTEsMT
-gxNzQ5MzYwNV19
+eyJoaXN0b3J5IjpbOTA3MDAyODcyLC0xNzg5NjM5MTUxLDE4MT
+c0OTM2MDVdfQ==
 -->
