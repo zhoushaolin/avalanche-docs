@@ -30,7 +30,7 @@
 
 ### 铸造NFT
 
-按下**Mint Collectible**后，您会看到一份所有收集品族的清单，其中包括尚未创建的收集品组。
+按下**Mint Collectible**后，您会看到一份所有收藏品族的清单，其中包括尚未创建的收藏品组。
 
 ![Select a family](../../../.gitbook/assets/nft-studio-03-select-family.png)
 
@@ -38,13 +38,13 @@
 
 ![Mint a Collectible](../../../.gitbook/assets/nft-studio-04-mint.png)
 
-默认情况下，系统会选择一种**Generic**类型的收集品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份收集品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了收集品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的收集品是什么样子。
-By default, a **Generic** type of collectible will be selected. That is an NFT that has a **Title**, **URL** for the image, and a **Description**. Enter the required data, as well as the **Quantity**, which will determine how many copies of the collectible will be created, and therefore, how many of them you will be able to send. As before, enter the data carefully, you won't be able to change anything once collectibles are minted. You will see a preview of the data where you can check how your collectible will look like.
+默认情况下，系统会选择一种**Generic**类型的收藏品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份收藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了收藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的收藏品是什么样子。
 
-If you would like to have something else besides a picture collectible, select **Custom**.
+如果您想拥有图片收集品以外的其他内容，请选择**Custom**。
 
 ![Custom Collectible](../../../.gitbook/assets/nft-studio-05-custom.png)
 
+自定义收集品可包含一个**UTF-8**编码字符串、**URL**或**JSON**有效载荷。数据规模不得超过1024个字节。
 A custom collectible can contain an **UTF-8** encoded string, an **URL**, or a **JSON** payload. Size of the data cannot exceed 1024 characters.
 
 After you enter and check the data, press **Mint** to create the collectible. Transaction fees will be deducted from your wallet, and a newly created collectible will be placed in your wallet.
@@ -90,6 +90,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTE3OTczNCwxODY1NTQwMzI3LC0xNj
-I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
+eyJoaXN0b3J5IjpbODQzNTU1NjYyLDE4NjU1NDAzMjcsLTE2Mj
+U5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3NjE3XX0=
 -->
