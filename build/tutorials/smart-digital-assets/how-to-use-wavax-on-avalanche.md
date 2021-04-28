@@ -144,10 +144,10 @@ Remix应该能找到所部署的合约：
 
 ## 总结
 
-你现在可以用WAVAX（ERC-20版本的AVAX）在Avalanche的C链上与智能合约交互了。之后，有了钱包和交易的内置支持，AVAX和WAVAX之间的转化会明显容易得多，但与此同时，你仍可以访问Avalanche平台上的DEXes、桥梁和其他基于Solidity的合约。
-You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
+你现在可以用WAVAX（ERC-20版本的AVAX）在Avalanche的C链上与智能合约交互了。之后，有了钱包和交易的内置支持，AVAX和WAVAX之间的转化会明显容易得多，但与此同时，你仍可以访问Avalanche平台上的DEX、桥梁和其他基于Solidity的合约。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzMzNjY2NCwtMTc4OTYzOTE1MSwxOD
+eyJoaXN0b3J5IjpbLTk0NTc0NTk1NSwtMTc4OTYzOTE1MSwxOD
 E3NDkzNjA1XX0=
 -->
