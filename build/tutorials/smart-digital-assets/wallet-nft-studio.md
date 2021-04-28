@@ -24,13 +24,13 @@
 
 除了名称和股票代码，您还需要输入**组的数量**，即新创建的族将持有多少个不同的收藏品。由于一旦创建，收藏品族的参数就无法更改，因此请谨慎选择。
 
-当您决定名称、股票代码和组的数量时，请按下**Create**，以实际创建收藏品族。交易费用将从您的钱包余额中扣除。当创建了族时，您会看到交易ID（TxID）和族的参数。您可以使用TxID在浏览器[the explorer](https://explorer.avax.network/)中查找交易，但无需将之写下来。
+当您决定名称、股票代码和组的数量时，请按下**Create**，以实际创建藏品家族。交易费用将从您的钱包余额中扣除。当创建了族时，您会看到交易ID（TxID）和族的参数。您可以使用TxID在浏览器[the explorer](https://explorer.avax.network/)中查找交易，但无需将之写下来。
 
-请按下**Back to Studio**返回，我们已经准备好创建首个收藏品了。请按下**Mint Collectible**。
+请按下**Back to Studio**返回，我们已经准备好创建首个藏品了。请按下**Mint Collectible**。
 
 ### 铸造NFT
 
-按下**Mint Collectible**后，您会看到一份所有收藏品族的清单，其中包括尚未创建的收藏品组。
+按下**Mint Collectible**后，您会看到一份所有藏品家族的清单，其中包括尚未创建的藏品组。
 
 ![Select a family](../../../.gitbook/assets/nft-studio-03-select-family.png)
 
@@ -89,6 +89,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjQ5NzMwOCwxODY1NTQwMzI3LC0xNj
-I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
+eyJoaXN0b3J5IjpbNDQ0NTQ2MTcwLC00NDI0OTczMDgsMTg2NT
+U0MDMyNywtMTYyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2
+MTddfQ==
 -->
