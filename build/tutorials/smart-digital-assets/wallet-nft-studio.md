@@ -44,10 +44,9 @@
 
 ![Custom Collectible](../../../.gitbook/assets/nft-studio-05-custom.png)
 
-自定义收集品可包含一个**UTF-8**编码字符串、**URL**或**JSON**有效载荷。数据规模不得超过1024个字节。
-A custom collectible can contain an **UTF-8** encoded string, an **URL**, or a **JSON** payload. Size of the data cannot exceed 1024 characters.
+自定义收藏品可包含一个**UTF-8**编码字符串、**URL**或**JSON**有效载荷。数据规模不得超过1024个字节。
 
-After you enter and check the data, press **Mint** to create the collectible. Transaction fees will be deducted from your wallet, and a newly created collectible will be placed in your wallet.
+您输入并检查数据后，请按下**Mint**来创建收藏品。交易费用将从您的钱包中扣除，您的钱包中会收到新创建的收藏品。
 
 ### See your collectibles
 
@@ -90,6 +89,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNTU1NjYyLDE4NjU1NDAzMjcsLTE2Mj
-U5NTYyNDMsLTgzNTkyNDMyNiwxNjc4MjE3NjE3XX0=
+eyJoaXN0b3J5IjpbLTE2ODU3NjAyMjAsMTg2NTU0MDMyNywtMT
+YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
 -->
