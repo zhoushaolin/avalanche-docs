@@ -149,17 +149,17 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 ![Image for post](https://miro.medium.com/max/577/1*GrxG6rsklrYN4xN1eF_ckw.png)
 
 输入您的地址和WEI中的金额。例如，我准备铸造1000tst代币，所以我输入了“1000000000000000000000”。
-Enter your address and an amount in WEI. For example, I will mint 1000 tst token so, I entered “1000000000000000000000”
 
 ![Image for post](https://miro.medium.com/max/354/1*FM-PMUY7au61ejHJzBIsfg.png)
 
-## Add Token to Metamask
+## 将代币添加至Metamask
 
+现在，我们为合同铸造了1000个代币，但是您应该无法看到您的MetaMask钱包中的代币。为了查看我们自己的代币，我们必须添加它。在MetaMask上，单击“添加代币”按钮并选择“自定义代币”选项。
 Now we minted 1000 token to our contract, but you should not be able to see the tokens in your metamask wallet. In order to see our own token, we have to add it. On metamask, click to “Add Token” button and select “Custom Token” tab.
 
 Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metamask.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODYzOTA2OCwtMTIzODYwNzI0LDE5NT
-E3NTgwOTIsLTE5MjkyMzUyNDNdfQ==
+eyJoaXN0b3J5IjpbLTE2MzA0MjQ5MTgsLTEyMzg2MDcyNCwxOT
+UxNzU4MDkyLC0xOTI5MjM1MjQzXX0=
 -->
