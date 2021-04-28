@@ -38,15 +38,15 @@
 
 ![Mint a Collectible](../../../.gitbook/assets/nft-studio-04-mint.png)
 
-默认情况下，系统会选择一种**Generic**类型的收藏品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份收藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了收藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的收藏品是什么样子。
+默认情况下，系统会选择一种**Generic**类型的收藏品。这是包含**Title**、图像**URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的藏品是什么样子。
 
-如果您想拥有图片收集品以外的其他内容，请选择**Custom**。
+如果您想拥有图片藏品以外的其他内容，请选择**Custom**。
 
 ![Custom Collectible](../../../.gitbook/assets/nft-studio-05-custom.png)
 
-自定义收藏品可包含一个**UTF-8**编码字符串、**URL**或**JSON**有效载荷。数据规模不得超过1024个字节。
+自定义藏品可包含一个**UTF-8**编码字符串、**URL**或**JSON**有效载荷。数据规模不得超过1024个字节。
 
-您输入并检查数据后，请按下**Mint**来创建收藏品。交易费用将从您的钱包中扣除，您的钱包中会收到新创建的收藏品。
+您输入并检查数据后，请按下**Mint**来创建藏品。交易费用将从您的钱包中扣除，您的钱包中会收到新创建的藏品。
 
 ### See your collectibles
 
@@ -89,6 +89,6 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU3NjAyMjAsMTg2NTU0MDMyNywtMT
-YyNTk1NjI0MywtODM1OTI0MzI2LDE2NzgyMTc2MTddfQ==
+eyJoaXN0b3J5IjpbMTM1MTU1Njc3NywxODY1NTQwMzI3LC0xNj
+I1OTU2MjQzLC04MzU5MjQzMjYsMTY3ODIxNzYxN119
 -->
