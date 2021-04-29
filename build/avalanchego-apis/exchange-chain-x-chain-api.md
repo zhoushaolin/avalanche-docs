@@ -292,9 +292,7 @@ curl -X POST --data '{
 
 用[`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset)创建的可变资产的铸币单位。
 
-Mint units of a variable-cap asset created with [`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset).
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.mint({
@@ -1716,5 +1714,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjcwMjc4NiwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
