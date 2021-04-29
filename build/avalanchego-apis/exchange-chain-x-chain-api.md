@@ -247,7 +247,7 @@ avm.createFixedCapAsset({
 * `initialHolders`中的每个元素指定`address`持有创世时资产的`amount`单位。
 * `assetID`是新资产的ID。
 
-#### **调用**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -275,7 +275,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -289,6 +289,8 @@ curl -X POST --data '{
 ```
 
 ### avm.mint
+
+用[`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset)创建的可变资产的铸币单位。
 
 Mint units of a variable-cap asset created with [`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset).
 
@@ -1714,5 +1716,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTU2NTU3NywxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMjExMjcwMjc4NiwxNjIwMDI3MzIwXX0=
 -->
