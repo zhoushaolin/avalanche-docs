@@ -52,7 +52,7 @@ ws://127.0.0.1:9650/ext/bc/C/ws
 
 ### 方法
 
-#### 标准Ethereum APIs
+#### 标准的Ethereum APIs
 
 Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 
@@ -62,11 +62,11 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 * `personal_`
 * `txpool_`
 
-您可以以与Geth交互相同的方式与这些服务交互。请参阅[以太坊Wiki的JSON-RPC文档](https://eth.wiki/json-rpc/API)和[Geth的JSON-RPC文档](https://geth.ethereum.org/docs/rpc/server)了解此API的完整描述。
-
-You can interact with these services the same exact way you’d interact with Geth. See the [Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API) and [Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server) for a full description of this API.
+您可以以与Geth交互相同的方式与这些服务交互。请参阅[Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API)和[Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server)了解此API的完整描述。
 
 #### eth\_getAssetBalance
+
+除了标准的以太坊api, Avalanche还提供了`eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额(不包括AVAX，它必须通过' eth_getBalance ' \获取)。
 
 In addition to the standard Ethereum APIs, Avalanche offers `eth_getAssetBalance` to retrieve the balance of first class Avalanche Native Tokens on the C-Chain \(excluding AVAX, which must be fetched with `eth_getBalance`\).
 
@@ -529,5 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyOTg0NDY1LC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTE2MDIwMzIwMzQsLTIwNDA2NjQzNTNdfQ
+==
 -->
