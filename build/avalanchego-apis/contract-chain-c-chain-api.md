@@ -240,9 +240,9 @@ curl -X POST --data '{
 
 ### avax.exportKey
 
-Get the private key that controls a given address. The returned private key can be added to a user with `avax.importKey`.
+获取控制给定地址的私钥。返回的私钥可以添加到具有' `avax.importKey`的用户。
 
-#### Signature
+#### 签名
 
 ```go
 avax.exportKey({
@@ -252,9 +252,9 @@ avax.exportKey({
 }) -> {privateKey: string}
 ```
 
-**Request**
+**要求**
 
-* `username` must control `address`.
+* `username` 必须kong `address`.
 * `address` is the address for which you want to export the corresponding private key. It should be in hex format.
 
 **Response**
@@ -528,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjE5MDA5Niw1MDQ4MzkyNDksLTIwND
+eyJoaXN0b3J5IjpbLTM0NDQ4NjkzOCw1MDQ4MzkyNDksLTIwND
 A2NjQzNTNdfQ==
 -->
