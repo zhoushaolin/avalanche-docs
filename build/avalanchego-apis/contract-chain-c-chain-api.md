@@ -123,7 +123,9 @@ curl -X POST --data '{
 /ext/bc/blockchainID/avax
 ```
 
-### avax.export
+### avax 输出
+
+将资产从C链输出到X链。调用此方法后，必须在X-Chain上调用[' avm.import '](exchange-chain- X-Chain -api.md#avm-import)来完成传输。
 
 Export an asset from the C-Chain to the X-Chain. After calling this method, you must call [`avm.import`](exchange-chain-x-chain-api.md#avm-import) on the X-Chain to complete the transfer.
 
@@ -527,6 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjIwNzIzNzksLTIwNDA2NjQzNTNdfQ
+eyJoaXN0b3J5IjpbLTEzNzUxMTE4MDYsLTIwNDA2NjQzNTNdfQ
 ==
 -->
