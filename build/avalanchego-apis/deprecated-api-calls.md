@@ -1,6 +1,6 @@
 ---
 说明: >-
-此页面列出了已弃用的API方法、参数和响应,
+  此页面列出了已弃用的API方法、参数和响应,
 
 将在未来的版本中删除或修改。
 ---
@@ -153,5 +153,5 @@ Where `reason` is the reason the transaction was dropped. `reason` is only prese
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA1OTQ4MTZdfQ==
+eyJoaXN0b3J5IjpbMTAyNTU5NjY3Ml19
 -->
