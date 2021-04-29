@@ -449,7 +449,7 @@ avax.importAVAX({
 
 * `txID`是已完成的ImportTx的ID。
 
-#### Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -465,7 +465,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -479,9 +479,9 @@ curl -X POST --data '{
 
 ### avax.importKey
 
-Give a user control over an address by providing the private key that controls the address.
+通过提供控制地址的私钥，让用户控制地址。
 
-#### Signature
+#### 签名
 
 ```go
 avax.importKey({
@@ -491,9 +491,9 @@ avax.importKey({
 }) -> {address: string}
 ```
 
-**Request**
+**要求**
 
-* Add `privateKey` to `username`'s set of private keys.
+* 添加 `privateKey` to `username`'s set of private keys.
 
 **Response**
 
@@ -527,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Njc5MjM4MSw1MDQ4MzkyNDksLTIwND
+eyJoaXN0b3J5IjpbMTE4MzAwMDA0OCw1MDQ4MzkyNDksLTIwND
 A2NjQzNTNdfQ==
 -->
