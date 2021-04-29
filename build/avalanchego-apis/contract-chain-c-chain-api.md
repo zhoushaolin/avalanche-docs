@@ -442,12 +442,12 @@ avax.importAVAX({
 **要求**
 
 * `to` 是AVAX发送到的地址, 是十六进制格式。
-* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用“X”。is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
-* `username` is the user that controls `to`.
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用`"X"`。
+* `username` 是控制 `to`的用户.
 
-**Response**
+**响应**
 
-* `txID` is the ID of the completed ImportTx.
+* `txID`是已完成的ImportTx的ID。
 
 #### Example Call
 
@@ -527,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTA1ODc5OSw1MDQ4MzkyNDksLTIwND
+eyJoaXN0b3J5IjpbMTk0Njc5MjM4MSw1MDQ4MzkyNDksLTIwND
 A2NjQzNTNdfQ==
 -->
