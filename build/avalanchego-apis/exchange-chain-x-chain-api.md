@@ -28,9 +28,9 @@
 
 `/ext/vm/avm`
 
-Note: addresses should not include a chain prefix \(ie. X-\) in calls to the static API endpoint because these prefixes refer to a specific chain.
+注意:地址不应该包含链前缀\(即X-\)，因为这些前缀引用一个特定的链。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.buildGenesis({
@@ -42,6 +42,8 @@ avm.buildGenesis({
     encoding: string,
 }
 ```
+
+Encoding指定用于任意字节的编码格式。返回的起源字节。可以是cb58或hex。默认为“cb58”。
 
 Encoding specifies the encoding format to use for arbitrary bytes ie. the genesis bytes that are returned. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
@@ -1716,5 +1718,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTY0NzE1OSwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTg2ODcyMDU2NywxNjIwMDI3MzIwXX0=
 -->
