@@ -45,7 +45,7 @@ avm.buildGenesis({
 
 Encoding指定用于任意字节的编码格式, 也就是说, 返回到起源字节。可以是“cb58”或“hex”, 默认为“cb58”。
 
-`genesisData` has this form:
+`genesisData` 的格式如下:
 
 ```cpp
 {
@@ -97,7 +97,7 @@ Encoding指定用于任意字节的编码格式, 也就是说, 返回到起源�
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -160,7 +160,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/vm/avm
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1716,5 +1716,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzY5ODE1LDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTU4MDY5NDM4OCwxNjIwMDI3MzIwXX0=
 -->
