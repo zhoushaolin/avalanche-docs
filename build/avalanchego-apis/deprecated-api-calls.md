@@ -5,13 +5,12 @@
 将在未来的版本中删除或修改。
 ---
 
-# Deprecated API Calls
-
-## P-Chain API
+# 已弃用的API调用
+## P链 API
 
 ### `getCurrentValidators`
 
-In v1.0.0, the signature was:
+在1.0.0版本中，签名为:
 
 ```cpp
 platform.getCurrentValidators({subnetID: string}) ->
@@ -153,5 +152,5 @@ Where `reason` is the reason the transaction was dropped. `reason` is only prese
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTU5NjY3Ml19
+eyJoaXN0b3J5IjpbMTQ4NDQwOTQzXX0=
 -->
