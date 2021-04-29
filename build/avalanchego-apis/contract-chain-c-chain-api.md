@@ -254,12 +254,13 @@ avax.exportKey({
 
 **要求**
 
-* `username` 必须kong `address`.
-* `address` is the address for which you want to export the corresponding private key. It should be in hex format.
+* `username` 必须控制 `address`.
+* `address` 是要为其导出相应私钥的地址。它应该是十六进制格式。
 
-**Response**
+**响应**
 
-* `privateKey` is the CB58 endcoded string representation of the private key that controls `address`. It has a `PrivateKey-` prefix and can be used to import a key via `avax.importKey`.
+* `privateKey` 是控制“地址”的私钥的CB58端编码字符串表示形式。它有一个' PrivateKey- '前缀，可以用来通过' avax.importKey '导入一个密钥。
+is the CB58 endcoded string representation of the private key that controls `address`. It has a `PrivateKey-` prefix and can be used to import a key via `avax.importKey`.
 * `privateKeyHex` is the hex string representation of the private key that controls `address`. It can be used to import an account into Metamask.
 
 #### Example Call
@@ -528,6 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDQ4NjkzOCw1MDQ4MzkyNDksLTIwND
-A2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTEzMDQxNjQzNjUsNTA0ODM5MjQ5LC0yMD
+QwNjY0MzUzXX0=
 -->
