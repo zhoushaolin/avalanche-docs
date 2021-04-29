@@ -8,7 +8,6 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 
 ## Deploying a Smart Contract
 
-{% page-ref page="../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
 
 ## Ethereum APIs
 
@@ -529,5 +528,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDY4MjQ4OF19
+eyJoaXN0b3J5IjpbNTAwMDQxMTU0XX0=
 -->
