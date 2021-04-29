@@ -42,17 +42,17 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 ws://127.0.0.1:9650/ext/bc/C/ws
 ```
 
-To interact with other instances of the EVM via the websocket endpoint:
+通过websocket端点与其他EVM实例交互:
 
 ```cpp
 /ext/bc/blockchainID/ws
 ```
 
-where `blockchainID` is the ID of the blockchain running the EVM.
+其中`blockchainID`是运行EVM的区块链的ID。
 
-### Methods
+### 方法
 
-#### Standard Ethereum APIs
+#### 标准Ethereum APIs
 
 Avalanche offers an API interface identical to Geth's API except that it only supports the following services:
 
@@ -527,5 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MzAzMjA5LC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTE2MDQ4OTg2MDUsLTIwNDA2NjQzNTNdfQ
+==
 -->
