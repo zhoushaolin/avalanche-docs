@@ -20,7 +20,7 @@
 
 ### avm.buildGenesis
 
-给定此虚拟机起源状态的JSON表示，创建该状态的字节表示。
+此虚拟机起源状态由一个给定的JSON表示，创建该状态的字节表示。
 Given a JSON representation of this Virtual Machine’s genesis state, create the byte representation of that state.
 
 #### **Endpoint**
@@ -1717,5 +1717,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbMTgxNDIyNjcxMSwxNjIwMDI3MzIwXX0=
 -->
