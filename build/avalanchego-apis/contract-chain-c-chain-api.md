@@ -493,11 +493,12 @@ avax.importKey({
 
 **要求**
 
-* 添加 `privateKey` to `username`'s set of private keys.
+* 添加 `privateKey` 到 `username`的私钥组。
 
-**Response**
+**响应**
 
-* `address` is the address `username` now controls with the private key. It will be in hex format.
+* `address`是`username`用私钥控制的地址。它将是十六进制格式。
+`address` is the address `username` now controls with the private key. It will be in hex format.
 
 #### Example Call
 
@@ -527,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzAwMDA0OCw1MDQ4MzkyNDksLTIwND
-A2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTE3MTU4MTgyMjEsNTA0ODM5MjQ5LC0yMD
+QwNjY0MzUzXX0=
 -->
