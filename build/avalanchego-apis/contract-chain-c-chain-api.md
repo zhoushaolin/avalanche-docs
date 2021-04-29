@@ -206,9 +206,9 @@ avax.exportAVAX({
 
 **响应**
 
-* `txID` 是已完成ExportTx的txid。is the txid of the completed ExportTx.
+* `txID` 是已完成的ExportTx的txid。
 
-#### Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -227,8 +227,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### Example Response
-
+#### 响应示例
 ```javascript
 {
     "jsonrpc": "2.0",
@@ -529,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU5OTk4ODgsNTA0ODM5MjQ5LC0yMD
-QwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbMTk1MjE5MDA5Niw1MDQ4MzkyNDksLTIwND
+A2NjQzNTNdfQ==
 -->
