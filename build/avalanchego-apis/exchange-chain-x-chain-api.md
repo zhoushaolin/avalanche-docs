@@ -242,8 +242,8 @@ avm.createFixedCapAsset({
 * `symbol` 是资产的速记符号, 0到4个字符, 不一定是独一无二的, 可以省略。
 * `denomination` 确定该资产的余额如何在用户界面中显示。如果`denomination`为0，则该资产的100个单位显示为100。如果`denomination`为1100，则该资产的100个单位显示为10.0。如果`denomination`是2100，则该资产的100个单位显示为1.00，等等。默认值为0。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
-* `changeAddr` 是地址有任何变化都会发送到。如果省略，更改将被发送到用户控制的地址之一。
-is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `changeAddr` 是任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* `username`和`password`表示用户支付交易费用。
 * `username` and `password` denote the user paying the transaction fee.
 * Each element in `initialHolders` specifies that `address` holds `amount` units of the asset at genesis.
 * `assetID` is the ID of the new asset.
@@ -1715,5 +1715,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MTg2NzEsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTE2MDA0OTQ5NTMsMTYyMDAyNzMyMF19
 -->
