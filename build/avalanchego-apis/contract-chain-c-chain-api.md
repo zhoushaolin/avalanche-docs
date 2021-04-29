@@ -325,10 +325,9 @@ avax.getUTXOs(
 * 如果省略`startIndex`，将获取`limit`以内的所有UTXO。
 * 当使用分页时(即提供了`startIndex`)， UTXO不能保证在多个调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。
 * 使用分页时，不能保证多个调用之间的一致性。也就是说，地址的UTXO集可能在调用过程中发生了变化。
-* `encoding`设置返回UTXO的格式。可以是“cb58”或hex。默认为“cb58”。
-`encoding` sets the format for the returned UTXOs. Can be either “cb58” or “hex”. Defaults to “cb58”.
+* `encoding`设置返回UTXO的格式。可以是“cb58”或“hex”。默认为“cb58”。
 
-#### **Example**
+#### **示例**
 
 Suppose we want all UTXOs that reference at least one of `C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`.
 
@@ -529,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU1MDQ1NzAsNTA0ODM5MjQ5LC0yMD
-QwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbMTMzNDE3MTIwNiw1MDQ4MzkyNDksLTIwND
+A2NjQzNTNdfQ==
 -->
