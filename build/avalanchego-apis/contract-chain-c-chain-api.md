@@ -143,10 +143,9 @@ avax.export({
 
 * `to`资产被发送到的X-Chain地址。
 * `amount` 是要发送的资产数量。
-* `assetID` 为资产的ID。要导出AVAX使用' "AVAX" '作为' assetID '。
-* is the ID of the asset. To export AVAX use `"AVAX"` as the `assetID`.
-* The asset is sent from addresses controlled by `username` and `password`.
-
+* `assetID` 为资产的ID。要导出AVAX, 使用`"AVAX"`作为' `assetID`。
+* 资产是从由`username` 和`password`控制的地址发送的。
+* 
 #### Example Call
 
 ```javascript
@@ -530,5 +529,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDg3MzgyLC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbMTczODcxMTMyMCwtMjA0MDY2NDM1M119
 -->
