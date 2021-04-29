@@ -8,13 +8,11 @@
 
 ## 格式
 
-这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见[这里](issuing-api-calls.md)。
+这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。
 
-This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md).
+## 端点
 
-## Endpoints
-
-`/ext/bc/X` to interact with the X-Chain.
+`/ext/bc/X` 与X链交互。
 
 `/ext/bc/blockchainID` to interact with other AVM instances, where `blockchainID` is the ID of a blockchain running the AVM.
 
@@ -1718,5 +1716,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzOTY1MTUyXX0=
+eyJoaXN0b3J5IjpbMjA2NTA5ODc0OV19
 -->
