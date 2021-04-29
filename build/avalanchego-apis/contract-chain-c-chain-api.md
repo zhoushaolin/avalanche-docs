@@ -389,15 +389,13 @@ avax.import({
 
 * `to` 是资产被发送到的地址。这必须与对应C链`export`调用中的`to`参数相同。
 * `sourceChain` 是要从其中导入资产的链的ID或别名。要从X链导入资金，请使用`"X"`。
-* is the ID or alias of the chain the asset is being imported from. To import funds from the X-Chain, use `"X"`.
-* `username` is the user that controls `to`.
+* `username` 是控制`to`的用户。
 
-**Response**
+**响应**
 
-* `txID` is the ID of the completed ImportTx.
+* `txID` 是已完成的ImportTx的ID
 
-#### Example Call
-
+#### 调用示例
 ```javascript
 curl -X POST --data '{
     "jsonrpc":"2.0",
@@ -412,7 +410,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### Example Response
+#### x
 
 ```javascript
 {
@@ -529,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4Njk4Mjg0LDUwNDgzOTI0OSwtMjA0MD
-Y2NDM1M119
+eyJoaXN0b3J5IjpbMTExMDYyMTM3MCw1MDQ4MzkyNDksLTIwND
+A2NjQzNTNdfQ==
 -->
