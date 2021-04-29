@@ -46,6 +46,8 @@ platform.getCurrentValidators({subnetID: string}) ->
 }
 ```
 
+在后来的版本中，签名如下。请注意，每个验证器都包含其委托器的列表。请查看下一个注释了解最新操作。
+
 In later versions, the signature was as follows. Note that each validator contains a list of its delegators. Please see the next note for current behavior.
 
 ```cpp
@@ -152,5 +154,5 @@ Where `reason` is the reason the transaction was dropped. `reason` is only prese
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDQwOTQzXX0=
+eyJoaXN0b3J5IjpbNDU5NzIzNTczXX0=
 -->
