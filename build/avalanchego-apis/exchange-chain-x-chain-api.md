@@ -1,5 +1,5 @@
 ---
-description: The X-Chain is an instance of the Avalanche Virtual Machine (AVM)
+说明: The X-Chain is an instance of the Avalanche Virtual Machine (AVM)
 ---
 
 # Exchange Chain \(X-Chain\) API
@@ -1717,3 +1717,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjU5MTIyNTNdfQ==
+-->
