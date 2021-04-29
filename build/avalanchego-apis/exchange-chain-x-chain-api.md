@@ -245,10 +245,9 @@ avm.createFixedCapAsset({
 * `changeAddr` 是任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username`和`password`表示支付交易费用的用户。
 * `initialHolders`中的每个元素指定`address`持有创世时资产的`amount`单位。
-Each element in `initialHolders` specifies that `address` holds `amount` units of the asset at genesis.
-* `assetID` is the ID of the new asset.
+* `assetID`是新资产的ID。
 
-#### **Example Call**
+#### **调用**
 
 ```cpp
 curl -X POST --data '{
@@ -1715,5 +1714,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjk2NTc0LDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTcwOTU2NTU3NywxNjIwMDI3MzIwXX0=
 -->
