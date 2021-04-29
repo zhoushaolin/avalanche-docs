@@ -439,9 +439,9 @@ avax.importAVAX({
 }) -> {txID: string}
 ```
 
-****
+**要求**
 
-* `to` is the address the AVAX is sent to. It should be in hex format.
+* `to` 是AVAX发送到的地址是十六进制格式。
 * `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
 * `username` is the user that controls `to`.
 
@@ -527,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODczNjgyODMsNTA0ODM5MjQ5LC0yMD
-QwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTI3Mzc5NzI3NSw1MDQ4MzkyNDksLTIwND
+A2NjQzNTNdfQ==
 -->
