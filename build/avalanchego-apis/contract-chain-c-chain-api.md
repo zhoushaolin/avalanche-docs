@@ -292,9 +292,9 @@ curl -X POST --data '{
 
 ### avax.getUTXOs
 
-Gets the UTXOs that reference a given address.
+获取引用给定地址的UTXO。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avax.getUTXOs(
@@ -319,7 +319,8 @@ avax.getUTXOs(
 }
 ```
 
-* `utxos` is a list of UTXOs such that each UTXO references at least one address in `addresses`.
+* `utxos` 是一个UTXO列表，每个UTXO引用`addresses`中的至少一个地址。
+*  is a list of UTXOs such that each UTXO references at least one address in `addresses`.
 * At most `limit` UTXOs are returned. If `limit` is omitted or greater than 1024, it is set to 1024.
 * This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
 * If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
@@ -528,6 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA2NDQ0MzksNTA0ODM5MjQ5LC0yMD
+eyJoaXN0b3J5IjpbLTIxMzYwOTA4OTUsNTA0ODM5MjQ5LC0yMD
 QwNjY0MzUzXX0=
 -->
