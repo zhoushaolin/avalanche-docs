@@ -4,7 +4,7 @@
 
 # 合约链 \(C-Chain\) API
 
-_注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche的networkID和chainID没有关系，纯粹是EVM内部的_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_。在主网上，C-Chain使用`1` 和' 43114 '作为这些值。在富士测试网中，它使用' 1 '和' 43113 '作为这些值。' networkID '和' chainID '也可以使用下面所示的' net_version '和' eth_chainId '方法获取
+_注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche的networkID和chainID没有关系，纯粹是EVM内部的_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_。在主网上，C-Chain使用`1` 和`43114` 作为这些值。在富士测试网中，它使用`1`和`43113`作为这些值。`networkID`和`chainID`也可以使用下面所示的`net_version`和`eth_chainId`方法获取
 
 _Note: Ethereum has its own notion of `networkID` and `chainID`. These have no relationship to Avalanche’s view of networkID and chainID and are purely internal to the_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_. On Mainnet, the C-Chain uses `1` and `43114` for these values. On the Fuji Testnet, it uses `1` and `43113` for these values. `networkID` and `chainID` can also be obtained using the `net_version` and `eth_chainId` methods shown below._
 
@@ -531,5 +531,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MDY4ODMzXX0=
+eyJoaXN0b3J5IjpbOTU0OTAzMzM5XX0=
 -->
