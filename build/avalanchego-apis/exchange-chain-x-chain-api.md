@@ -1,8 +1,8 @@
 ---
-说明: The X-Chain is an instance of the Avalanche Virtual Machine (AVM)
+说明: X链是Avalanche 虚拟机(AVM)的一个实例
 ---
 
-# Exchange Chain \(X-Chain\) API
+# 交换链\(X-Chain\) API
 
 The [X-Chain](../../learn/platform-overview/#exchange-chain-x-chain), Avalanche’s native platform for creating and trading assets, is an instance of the Avalanche Virtual Machine \(AVM\). This API allows clients to create and trade assets on the X-Chain and other instances of the AVM.
 
@@ -1718,5 +1718,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MTIyNTNdfQ==
+eyJoaXN0b3J5IjpbMTgyNzE0Nzg0N119
 -->
