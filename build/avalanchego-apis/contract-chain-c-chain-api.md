@@ -319,8 +319,8 @@ avax.getUTXOs(
 }
 ```
 
-* `utxos` 是一个UTXO列表，每个UTXO引用`addresses`中的至少一个地址。
-*  is a list of UTXOs such that each UTXO references at least one address in `addresses`.
+* `utxos` 是一个UTXO列表，每个UTXO在`addresses`中至少引用一个地址。
+* 最多返回`limit` utxo。如果省略了' limit '或大于1024，则将其设置为1024。
 * At most `limit` UTXOs are returned. If `limit` is omitted or greater than 1024, it is set to 1024.
 * This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
 * If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
@@ -529,6 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYwOTA4OTUsNTA0ODM5MjQ5LC0yMD
+eyJoaXN0b3J5IjpbLTE4MzQ3NjEzNjgsNTA0ODM5MjQ5LC0yMD
 QwNjY0MzUzXX0=
 -->
