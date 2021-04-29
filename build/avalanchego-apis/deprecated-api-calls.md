@@ -147,10 +147,10 @@ platform.getTxStatus({txID: string} -> status: string
 }
 ```
 
-Where `reason` is the reason the transaction was dropped. `reason` is only present if `status` is `"Dropped"`.
+其中`reason`是丢弃事务的原因。`reason`只在`status`为`"Dropped"`时出现。
 
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjkxNzA5Nl19
+eyJoaXN0b3J5IjpbLTQ0OTY4MzcwXX0=
 -->
