@@ -4,11 +4,11 @@
 
 # 交换链\(X链\) API
 
-[X-Chain](../../learn/platform-overview/#exchange-chain-x-chain)是Avalanche创建和交易资产的原生平台，是Avalanche虚拟机(AVM)的一个实例。这个API允许客户端在X-Chain和AVM的其他实例上创建和交易资产。
+[X-Chain](../../learn/platform-overview/#exchange-chain-x-chain)是Avalanche创建和交易资产的原生平台，是Avalanche虚拟机(AVM)的一个实例。这个API允许客户端在X链和AVM的其他实例上创建和交易资产。
 
-The [X-Chain](../../learn/platform-overview/#exchange-chain-x-chain), Avalanche’s native platform for creating and trading assets, is an instance of the Avalanche Virtual Machine \(AVM\). This API allows clients to create and trade assets on the X-Chain and other instances of the AVM.
+## 格式
 
-## Format
+这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见[这里](issuing-api-calls.md)。
 
 This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md).
 
@@ -1718,5 +1718,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTM0NDE4XX0=
+eyJoaXN0b3J5IjpbNjEzOTY1MTUyXX0=
 -->
