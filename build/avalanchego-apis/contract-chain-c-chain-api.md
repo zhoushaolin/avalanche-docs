@@ -26,6 +26,7 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 /ext/bc/blockchainID/rpc
 ```
 
+其中' blockchainID '是运行EVM的区块链的ID。
 where `blockchainID` is the ID of the blockchain running the EVM.
 
 #### WebSocket Endpoints
@@ -527,5 +528,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTI5OTk2Mjk1NCwtMjA0MDY2NDM1M119
 -->
