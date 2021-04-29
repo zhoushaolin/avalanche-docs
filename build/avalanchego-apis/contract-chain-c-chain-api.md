@@ -1,8 +1,8 @@
 ---
-description: The C-Chain is an instance of the Ethereum Virtual Machine (EVM)
+描述:C-Chain是以太坊虚拟机(EVM)的一个实例
 ---
 
-# Contract Chain \(C-Chain\) API
+# 合约链 \(C-Chain\) API
 
 _Note: Ethereum has its own notion of `networkID` and `chainID`. These have no relationship to Avalanche’s view of networkID and chainID and are purely internal to the_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_. On Mainnet, the C-Chain uses `1` and `43114` for these values. On the Fuji Testnet, it uses `1` and `43113` for these values. `networkID` and `chainID` can also be obtained using the `net_version` and `eth_chainId` methods shown below._
 
@@ -528,3 +528,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4NzYzMTU5MTldfQ==
+-->
