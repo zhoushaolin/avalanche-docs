@@ -68,7 +68,7 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 
 除了标准的以太坊api, Avalanche还提供了`eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额\(不包括AVAX，它必须通过`eth_getBalance`获取\)。
 
-**Signature**
+**签名**
 
 ```cpp
 eth_getAssetBalance({
@@ -129,7 +129,7 @@ curl -X POST --data '{
 
 Export an asset from the C-Chain to the X-Chain. After calling this method, you must call [`avm.import`](exchange-chain-x-chain-api.md#avm-import) on the X-Chain to complete the transfer.
 
-#### Signature
+#### 签名
 
 ```cpp
 avax.export({
@@ -529,6 +529,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUxMTE4MDYsLTIwNDA2NjQzNTNdfQ
-==
+eyJoaXN0b3J5IjpbMzg0MzkzMTIwLC0yMDQwNjY0MzUzXX0=
 -->
