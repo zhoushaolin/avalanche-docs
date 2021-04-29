@@ -149,8 +149,9 @@ platform.getTxStatus({txID: string} -> status: string
 
 其中`reason`是丢弃事务的原因。`reason`只在`status`为`"Dropped"`时出现。
 
-Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
+从1.0.6版本开始，`includeReason`参数被忽略，并且这个方法的响应总是以新的格式。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTY4MzcwXX0=
+eyJoaXN0b3J5IjpbLTE1MTY1MjQ0NTFdfQ==
 -->
