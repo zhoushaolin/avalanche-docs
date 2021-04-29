@@ -20,7 +20,7 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 /ext/bc/C/rpc
 ```
 
-To interact with other instances of the EVM via the JSON-RPC endpoint:
+通过JSON-RPC端点与EVM的其他实例交互:
 
 ```cpp
 /ext/bc/blockchainID/rpc
@@ -527,5 +527,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5NTcyMTU0XX0=
+eyJoaXN0b3J5IjpbLTIwNDA2NjQzNTNdfQ==
 -->
