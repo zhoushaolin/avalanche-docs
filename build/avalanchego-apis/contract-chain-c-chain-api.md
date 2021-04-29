@@ -197,16 +197,16 @@ avax.exportAVAX({
 
 **要求**
 
-* `from` 是发送AVAX的C链的地址, 应该是十六进制格式。
-* `to`是AVAX发送到的C链的地址, 应该是bech32格式。
+* `from` 是发送AVAX的C链的地址, 是十六进制格式。
+* `to`是AVAX发送到的C链的地址, 是bech32格式。
 * `amount` 是要发送的nAVAX的数量。
 * `destinationChain` 是AVAX被发送到的链。要将资金输出到X链，请使用`"X"`。
-* `changeAddr` 是C链地址，任何更改都发送到此。它应该是十六进制格式。
-* The AVAX is sent from addresses controlled by `username`
+* `changeAddr` 是C链地址，任何更改都发送到此。它是十六进制格式。
+* AVAX是由`username`控制的地址发送的。 
 
-**Response**
+**响应**
 
-* `txID` is the txid of the completed ExportTx.
+* `txID` 是已完成ExportTx的txid。is the txid of the completed ExportTx.
 
 #### Example Call
 
@@ -529,6 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MTg1NDQsNTA0ODM5MjQ5LC0yMDQwNj
-Y0MzUzXX0=
+eyJoaXN0b3J5IjpbLTE5NTU5OTk4ODgsNTA0ODM5MjQ5LC0yMD
+QwNjY0MzUzXX0=
 -->
