@@ -109,15 +109,15 @@ curl -X POST --data '{
 
 ## Avalanche 特定 APIs
 
-### Avalanche 特定 API duan
+### Avalanche 特定 API 端点
 
-To interact with the `avax` specific RPC calls on the C-Chain:
+要与C链上的`avax` 特定的RPC调用交互:
 
 ```cpp
 /ext/bc/C/avax
 ```
 
-To interact with other instances of the EVM AVAX endpoints:
+要与EVM AVAX端点的其他实例交互:
 
 ```cpp
 /ext/bc/blockchainID/avax
@@ -527,5 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5NzcyOTUwLC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTEzMjIwNzIzNzksLTIwNDA2NjQzNTNdfQ
+==
 -->
