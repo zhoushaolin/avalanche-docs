@@ -214,10 +214,9 @@ curl -X POST --data '{
 
 ### avm.createFixedCapAsset
 
-创造一个新的固定上限，可替代的资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过' avm.send '发送。
-Create a new fixed-cap, fungible asset. A quantity of it is created at initialization and then no more is ever created. The asset can be sent with `avm.send`.
+创造一个新的固定上限，可替代的资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.createFixedCapAsset({
@@ -239,7 +238,7 @@ avm.createFixedCapAsset({
 }
 ```
 
-* `name` is a human-readable name for the asset. Not necessarily unique.
+* `name` 是资产的可读名称, 不一定是独一无二的。
 * `symbol` is a shorthand symbol for the asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
 * `denomination` determines how balances of this asset are displayed by user interfaces. If `denomination` is 0, 100 units of this asset are displayed as 100. If `denomination` is 1, 100 units of this asset are displayed as 10.0. If `denomination` is 2, 100 units of this asset are displayed as 1.00, etc. Defaults to 0.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
@@ -1715,5 +1714,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAxNjg2OTIsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTEwMzQ5MDY0NjEsMTYyMDAyNzMyMF19
 -->
