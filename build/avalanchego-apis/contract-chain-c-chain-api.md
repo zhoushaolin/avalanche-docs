@@ -6,16 +6,15 @@
 
 _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche的networkID和chainID没有关系，纯粹是EVM内部的_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_。在主网上，C-Chain使用`1` 和`43114` 作为这些值。在富士测试网中，它使用`1`和`43113`作为这些值。`networkID`和`chainID`也可以使用下面所示的`net_version`和`eth_chainId`方法获取_。
 
-## Deploying a Smart Contract
-
+## 部署智能合约
 
 ## Ethereum APIs
 
-### Ethereum API Endpoints
+### Ethereum API 端点
 
-#### JSON-RPC Endpoints
+#### JSON-RPC 端点
 
-To interact with C-Chain via the JSON-RPC endpoint:
+通过JSON-RPC端点与C-Chain交互:
 
 ```cpp
 /ext/bc/C/rpc
@@ -528,5 +527,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMDQxMTU0XX0=
+eyJoaXN0b3J5IjpbODQ5NTcyMTU0XX0=
 -->
