@@ -43,7 +43,7 @@ avm.buildGenesis({
 }
 ```
 
-Encoding指定用于任意字节的编码格式。返回的起源字节。可以是cb58或hex。默认为“cb58”。
+Encoding指定用于任意字节的编码格式, 返回的起源字节。可以是cb58或hex。默认为“cb58”。
 
 Encoding specifies the encoding format to use for arbitrary bytes ie. the genesis bytes that are returned. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
@@ -1718,5 +1718,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODcyMDU2NywxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTM1MTQ2Njk3NSwxNjIwMDI3MzIwXX0=
 -->
