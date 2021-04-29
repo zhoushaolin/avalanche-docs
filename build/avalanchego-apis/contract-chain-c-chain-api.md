@@ -328,8 +328,8 @@ avax.getUTXOs(
 * `encoding`设置返回UTXO的格式。可以是“cb58”或“hex”。默认为“cb58”。
 
 #### **示例**
-假设我们希望所有的UTXO至少引用
-Suppose we want all UTXOs that reference at least one of `C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`.
+
+假设我们希望所有的UTXO至少引用一个`C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`。
 
 ```cpp
 curl -X POST --data '{
@@ -348,7 +348,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-This gives response:
+响应如下:
 
 ```cpp
 {
@@ -370,7 +370,7 @@ This gives response:
 }
 ```
 
-### avax.import
+### avax.输入
 
 Finalize the transfer of a non-AVAX or AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain's [`avm.export`](exchange-chain-x-chain-api.md#avm-export) method to initiate the transfer.
 
@@ -528,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYwNzIwMSw1MDQ4MzkyNDksLTIwND
-A2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTE4MTM3MTczMzcsNTA0ODM5MjQ5LC0yMD
+QwNjY0MzUzXX0=
 -->
