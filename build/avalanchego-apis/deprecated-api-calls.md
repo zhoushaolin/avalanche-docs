@@ -138,7 +138,7 @@ platform.getCurrentValidators({subnetID: string}) ->
 platform.getTxStatus({txID: string} -> status: string
 ```
 
-v1.0.4 added an argument `includeReason`. If `false` or not provided, this method's response was the same as before. If `true`, this method's response had this new format:
+1.0.4版本添加了一个参数`includeReason`。如果显示为`false`或未提供，该方法的响应与之前相同。如果显示为`true`，该方法的响应具有以下新格式:
 
 ```cpp
 {
@@ -152,5 +152,5 @@ Where `reason` is the reason the transaction was dropped. `reason` is only prese
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTQ4MTAzXX0=
+eyJoaXN0b3J5IjpbMTU2NjkxNzA5Nl19
 -->
