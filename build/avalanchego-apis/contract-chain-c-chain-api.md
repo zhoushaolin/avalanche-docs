@@ -410,7 +410,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### x
+#### 响应示例
 
 ```javascript
 {
@@ -424,11 +424,11 @@ curl -X POST --data '{
 
 ### avax.importAVAX
 
-**DEPRECATED—instead use** [**avax.import**](contract-chain-c-chain-api.md#avax-import)
+**弃用—请使用** [**avax.import**](contract-chain-c-chain-api.md#avax-import)
 
-Finalize a transfer of AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain's [`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) method to initiate the transfer.
+将AVAX从X链转移到C链。在调用此方法之前，必须调用X-Chain的[`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
 
-#### Signature
+#### 签名
 
 ```go
 avax.importAVAX({
@@ -439,7 +439,7 @@ avax.importAVAX({
 }) -> {txID: string}
 ```
 
-**Request**
+****
 
 * `to` is the address the AVAX is sent to. It should be in hex format.
 * `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
@@ -527,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDYyMTM3MCw1MDQ4MzkyNDksLTIwND
-A2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTEyODczNjgyODMsNTA0ODM5MjQ5LC0yMD
+QwNjY0MzUzXX0=
 -->
