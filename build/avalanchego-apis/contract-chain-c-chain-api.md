@@ -141,9 +141,10 @@ avax.export({
 }) -> {txID: string}
 ```
 
-* `to` is the X-Chain address the asset is sent to.
-* `amount` is the amount of the asset to send.
-* `assetID` is the ID of the asset. To export AVAX use `"AVAX"` as the `assetID`.
+* `to`资产被发送到的X-Chain地址。
+* `amount` 是要发送的资产数量。
+* `assetID` 为资产的ID。要导出AVAX使用' "AVAX" '作为' assetID '。
+* is the ID of the asset. To export AVAX use `"AVAX"` as the `assetID`.
 * The asset is sent from addresses controlled by `username` and `password`.
 
 #### Example Call
@@ -529,5 +530,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MzkzMTIwLC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbMTE4MDg3MzgyLC0yMDQwNjY0MzUzXX0=
 -->
