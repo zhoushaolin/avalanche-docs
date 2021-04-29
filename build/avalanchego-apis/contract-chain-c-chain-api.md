@@ -259,7 +259,7 @@ avax.exportKey({
 
 **响应**
 
-* `privateKey` 是控制“地址”的私钥的CB58端编码字符串表示形式。它有一个' PrivateKey- '前缀，可以用来通过' avax.importKey '导入一个密钥。
+* `privateKey` 是代表控制`address`的私钥的CB58端编码字符串。它有一个`PrivateKey-`前缀，可以用来通过' avax.importKey '导入一个密钥。
 is the CB58 endcoded string representation of the private key that controls `address`. It has a `PrivateKey-` prefix and can be used to import a key via `avax.importKey`.
 * `privateKeyHex` is the hex string representation of the private key that controls `address`. It can be used to import an account into Metamask.
 
@@ -529,6 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQxNjQzNjUsNTA0ODM5MjQ5LC0yMD
+eyJoaXN0b3J5IjpbLTE1Mjc2Mzg5OTgsNTA0ODM5MjQ5LC0yMD
 QwNjY0MzUzXX0=
 -->
