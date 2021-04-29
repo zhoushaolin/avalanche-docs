@@ -146,7 +146,7 @@ avax.export({
 * `assetID` 为资产的ID。要导出AVAX, 使用`"AVAX"`作为' `assetID`。
 * 资产是从由`username` 和`password`控制的地址发送的。
 * 
-#### Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -163,7 +163,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -529,5 +529,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODcxMTMyMCwtMjA0MDY2NDM1M119
+eyJoaXN0b3J5IjpbNzgwODgyODQzLC0yMDQwNjY0MzUzXX0=
 -->
