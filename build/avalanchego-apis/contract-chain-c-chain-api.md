@@ -372,9 +372,9 @@ curl -X POST --data '{
 
 ### avax.输入
 
-Finalize the transfer of a non-AVAX or AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain's [`avm.export`](exchange-chain-x-chain-api.md#avm-export) method to initiate the transfer.
+将非AVAX或AVAX从X链转移到C链。在调用此方法之前，必须调用X-Chain的[`avm.export`](exchange-chain-x-chain-api.md#avm-export)方法来启动传输。
 
-#### Signature
+#### 签名
 
 ```go
 avax.import({
@@ -385,7 +385,7 @@ avax.import({
 }) -> {txID: string}
 ```
 
-**Request**
+**yao qi**
 
 * `to` is the address the asset is sent to. This must be the same as the `to` argument in the corresponding call to the C-Chain's `export`.
 * `sourceChain` is the ID or alias of the chain the asset is being imported from. To import funds from the X-Chain, use `"X"`.
@@ -528,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3MTczMzcsNTA0ODM5MjQ5LC0yMD
-QwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbMTQ3OTQ4NjU2NSw1MDQ4MzkyNDksLTIwND
+A2NjQzNTNdfQ==
 -->
