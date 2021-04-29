@@ -328,7 +328,7 @@ avax.getUTXOs(
 * `encoding`设置返回UTXO的格式。可以是“cb58”或“hex”。默认为“cb58”。
 
 #### **示例**
-
+假设我们希望所有的UTXO至少引用
 Suppose we want all UTXOs that reference at least one of `C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`.
 
 ```cpp
@@ -528,6 +528,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDE3MTIwNiw1MDQ4MzkyNDksLTIwND
+eyJoaXN0b3J5IjpbLTEwNDYwNzIwMSw1MDQ4MzkyNDksLTIwND
 A2NjQzNTNdfQ==
 -->
