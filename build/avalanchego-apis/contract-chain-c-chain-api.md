@@ -498,9 +498,8 @@ avax.importKey({
 **响应**
 
 * `address`是`username`用私钥控制的地址。它将是十六进制格式。
-`address` is the address `username` now controls with the private key. It will be in hex format.
 
-#### Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -515,7 +514,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -528,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU4MTgyMjEsNTA0ODM5MjQ5LC0yMD
-QwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwND
+A2NjQzNTNdfQ==
 -->
