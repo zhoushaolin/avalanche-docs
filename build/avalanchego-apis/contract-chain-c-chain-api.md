@@ -78,8 +78,8 @@ eth_getAssetBalance({
 }) -> {balance: int}
 ```
 
-* `address` owner of the asset
-* `blk` is the block number or hash at which to retrieve the balance
+* `address` 资产所有者
+* `blk` 是要检索余额的块号或哈希
 * `assetID` id of the asset for which the balance is requested
 
 **Example Call**
@@ -527,6 +527,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ4MTg3MjgsLTIwNDA2NjQzNTNdfQ
-==
+eyJoaXN0b3J5IjpbMTAyNTQ1NjA3MCwtMjA0MDY2NDM1M119
 -->
