@@ -14,12 +14,13 @@
 
 `/ext/bc/X` 与X链交互。
 
-`/ext/bc/blockchainID` to interact with other AVM instances, where `blockchainID` is the ID of a blockchain running the AVM.
+`/ext/bc/blockchainID`与其他AVM实例交互，其中`blockchainID`是运行AVM的区块链的ID。
 
-## Methods
+## 方法
 
 ### avm.buildGenesis
 
+给定此虚拟机起源状态的JSON表示，创建该状态的字节表示。
 Given a JSON representation of this Virtual Machine’s genesis state, create the byte representation of that state.
 
 #### **Endpoint**
@@ -1716,5 +1717,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTA5ODc0OV19
+eyJoaXN0b3J5IjpbMTYyMDAyNzMyMF19
 -->
