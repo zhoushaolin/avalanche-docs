@@ -175,9 +175,9 @@ curl -X POST --data '{
 
 ### avm.createAddress
 
-Create a new address controlled by the given user.
+创建一个由给定用户控制的新地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.createAddress({
@@ -186,7 +186,7 @@ avm.createAddress({
 }) -> {address: string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -200,7 +200,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -214,9 +214,8 @@ curl -X POST --data '{
 
 ### avm.createFixedCapAsset
 
+创造一个新的固定上限，可替代的资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过' avm.send '发送。
 Create a new fixed-cap, fungible asset. A quantity of it is created at initialization and then no more is ever created. The asset can be sent with `avm.send`.
-
-{% page-ref page="../tutorials/smart-digital-assets/create-a-fix-cap-asset.md" %}
 
 #### **Signature**
 
@@ -1716,5 +1715,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDY5NDM4OCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTE0NzAxNjg2OTIsMTYyMDAyNzMyMF19
 -->
