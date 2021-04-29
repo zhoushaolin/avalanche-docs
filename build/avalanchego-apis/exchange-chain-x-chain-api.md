@@ -20,12 +20,11 @@
 
 ### avm.buildGenesis
 
-此虚拟机起源状态由一个给定的JSON表示，创建该状态的字节表示。
-Given a JSON representation of this Virtual Machine’s genesis state, create the byte representation of that state.
+此虚拟机起源状态由一个给定的JSON表示，创建代表该状态的字节。
 
-#### **Endpoint**
+#### **端点**
 
-This call is made to the AVM’s static API endpoint:
+这个调用是针对AVM的静态API端点的:
 
 `/ext/vm/avm`
 
@@ -1717,5 +1716,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDIyNjcxMSwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMjAyMTY0NzE1OSwxNjIwMDI3MzIwXX0=
 -->
