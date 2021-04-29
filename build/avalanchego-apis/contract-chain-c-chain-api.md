@@ -54,13 +54,15 @@ ws://127.0.0.1:9650/ext/bc/C/ws
 
 #### 标准Ethereum APIs
 
-Avalanche offers an API interface identical to Geth's API except that it only supports the following services:
+Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 
 * `web3_`
 * `net_`
 * `eth_`
 * `personal_`
 * `txpool_`
+
+您可以以与Geth交互相同的方式与这些服务交互。请参阅[以太坊Wiki的JSON-RPC文档](https://eth.wiki/json-rpc/API)和[Geth的JSON-RPC文档](https://geth.ethereum.org/docs/rpc/server)了解此API的完整描述。
 
 You can interact with these services the same exact way you’d interact with Geth. See the [Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API) and [Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server) for a full description of this API.
 
@@ -527,6 +529,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ4OTg2MDUsLTIwNDA2NjQzNTNdfQ
-==
+eyJoaXN0b3J5IjpbNDkyOTg0NDY1LC0yMDQwNjY0MzUzXX0=
 -->
