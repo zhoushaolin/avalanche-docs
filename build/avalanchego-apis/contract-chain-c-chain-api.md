@@ -26,18 +26,17 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 /ext/bc/blockchainID/rpc
 ```
 
-其中' blockchainID '是运行EVM的区块链的ID。
-where `blockchainID` is the ID of the blockchain running the EVM.
+其中`blockchainID`是运行EVM的区块链的ID。
 
-#### WebSocket Endpoints
+#### WebSocket 端点
 
-To interact with C-Chain via the websocket endpoint:
+通过websocket端点与C-Chain交互:
 
 ```cpp
 /ext/bc/C/ws
 ```
 
-For example, to interact with the C-Chain's Ethereum APIs via websocket on localhost you can use:
+例如，要在localhost上通过websocket与C-Chain的以太坊api交互，你可以使用:
 
 ```cpp
 ws://127.0.0.1:9650/ext/bc/C/ws
@@ -528,5 +527,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTk2Mjk1NCwtMjA0MDY2NDM1M119
+eyJoaXN0b3J5IjpbMzg2MzAzMjA5LC0yMDQwNjY0MzUzXX0=
 -->
