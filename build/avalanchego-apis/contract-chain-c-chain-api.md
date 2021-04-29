@@ -179,7 +179,7 @@ curl -X POST --data '{
 
 **DEPRECATED—instead use** [**avax.export**](contract-chain-c-chain-api.md#avax-export).
 
-Send AVAX from the C-Chain to the X-Chain. After calling this method, you must call [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax) on the X-Chain to complete the transfer.
+将AVAX从C链发送到X链。调用此方法后，必须在X-Chain上调用[`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)来完成传输。
 
 #### Signature
 
@@ -529,5 +529,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwODgyODQzLC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTg1ODMyOTE2MSwtMjA0MDY2NDM1M119
 -->
