@@ -195,10 +195,10 @@ avax.exportAVAX({
 }) -> {txID: string}
 ```
 
-**Request**
+**要求**
 
-* `from` is the C-Chain addresses the AVAX is sent from. They should be in hex format.
-* `to` is the X-Chain address the AVAX is sent to. It should be in bech32 format.
+* `from` 是发送AVAX的C链的地址, 应该是十六进制格式。
+* `to`是AVAX发送到的C链d地址。它应该是bech32格式。
 * `amount` is the amount of nAVAX to send.
 * `destinationChain` is the chain the AVAX is sent to. To export funds to the X-Chain, use `"X"`.
 * `changeAddr` is the C-Chain address where any change is sent to. It should be in hex format.
@@ -529,5 +529,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0ODM5MjQ5LC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTIxMDMyNjg2NDEsNTA0ODM5MjQ5LC0yMD
+QwNjY0MzUzXX0=
 -->
