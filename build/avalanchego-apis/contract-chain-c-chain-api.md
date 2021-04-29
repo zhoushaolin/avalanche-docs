@@ -66,9 +66,7 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 
 #### eth\_getAssetBalance
 
-除了标准的以太坊api, Avalanche还提供了`eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额(不包括AVAX，它必须通过' eth_getBalance ' \获取)。
-
-In addition to the standard Ethereum APIs, Avalanche offers `eth_getAssetBalance` to retrieve the balance of first class Avalanche Native Tokens on the C-Chain \(excluding AVAX, which must be fetched with `eth_getBalance`\).
+除了标准的以太坊api, Avalanche还提供了`eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额\(不包括AVAX，它必须通过`eth_getBalance`获取\)。
 
 **Signature**
 
@@ -529,6 +527,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDIwMzIwMzQsLTIwNDA2NjQzNTNdfQ
+eyJoaXN0b3J5IjpbLTE2OTQ4MTg3MjgsLTIwNDA2NjQzNTNdfQ
 ==
 -->
