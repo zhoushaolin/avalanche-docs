@@ -883,11 +883,9 @@ curl -X POST --data '{
 
 ### avm.getTx
 
-返回指定的交易, `encoding`参数设置返回交易的格式。可以是“cb58” 或“hex”。默认为“cb58”。
+返回指定的交易, `encoding`参数设置返回交易的格式, 可以是“cb58” 或“hex”, 默认为“cb58”。
 
-Returns the specified transaction. The `encoding` parameter sets the format of the returned transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.getTx({
@@ -899,7 +897,7 @@ avm.getTx({
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -913,7 +911,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -928,9 +926,9 @@ curl -X POST --data '{
 
 ### avm.getTxStatus
 
-Get the status of a transaction sent to the network.
+获取发送到网络的交易的状态。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.getTxStatus({txID: string}) -> {status: string}
@@ -1709,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQ0NDE1MywtMTAxMDE0OTEzNyw3OT
-MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
-LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNz
+kzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1
+OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
