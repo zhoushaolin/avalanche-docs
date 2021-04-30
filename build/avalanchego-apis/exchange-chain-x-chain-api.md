@@ -596,9 +596,9 @@ avm.export({
 * `assetID`被发送的资产的ID。
 * `from`是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是地址有任何变化都会发送到。如果省略，更改将被发送到用户控制的地址之一。
-* The asset is sent from addresses controlled by `username`
-* `txID` is this transaction’s ID.
-* `changeAddr` in the result is the address where any change was sent.
+* `username`是发送资产的用户名。
+* `txID`是此交易的ID。
+* `changeAddr` 是发送任何更改的地址。
 
 #### **Example Call**
 
@@ -1708,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA2NDkzNjgsNDczMTkwMDM2LDE1OT
-Q2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBd
-fQ==
+eyJoaXN0b3J5IjpbMTExNDc1NTc1MCw0NzMxOTAwMzYsMTU5ND
+Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+
 -->
