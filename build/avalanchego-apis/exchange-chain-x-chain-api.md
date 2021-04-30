@@ -657,10 +657,9 @@ avm.exportAVAX({
 * `amount` 是要发送的nAVAX的数量。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是发送AVAX的用户名 is sent from addresses controlled by `username`
-* `txID` is this transaction’s ID.
-* `changeAddr` in the result is the address where any change was sent.
-
+* `username` 是发送AVAX的用户名。 
+* `txID` 是此交易的ID。
+* `changeAddr`是结果中发送任何更改的地址。
 #### **Example Call**
 
 ```cpp
@@ -679,7 +678,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -693,6 +692,10 @@ curl -X POST --data '{
 ```
 
 ### avm.exportKey
+
+获取控制给定地址的私钥。
+
+返回的私钥可以通过[' avm.importKey '](exchange-chain-x-chain-api.md#avm-importkey)添加到用户。
 
 Get the private key that controls a given address.  
 The returned private key can be added to a user with [`avm.importKey`](exchange-chain-x-chain-api.md#avm-importkey).
@@ -1708,7 +1711,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY5NzkzNjQsLTEwMTAxNDkxMzcsNz
-kzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1
-OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTI4ODc5OTcxNSwtMTAxMDE0OTEzNyw3OT
+MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
+LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
