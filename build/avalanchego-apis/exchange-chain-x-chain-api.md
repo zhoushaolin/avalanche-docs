@@ -571,11 +571,9 @@ curl -X POST --data '{
 
 ### avm.export
 
-从X链发送一个非avax到P链或C链。调用此方法后，必须在C-Chain上调用[' avax.import '](contract-chain-c-chain-api.md#avax-import)来完成传输。
+从X链发送一个非avax到P链或C链。调用此方法后，必须在C链上调用[`avax.import`](contract-chain-c-chain-api.md#avax-import)来完成传输。
 
-Send a non-AVAX from the X-Chain to the P-Chain or C-Chain. After calling this method, you must call [`avax.import`](contract-chain-c-chain-api.md#avax-import) on the C-Chain to complete the transfer.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.export({
@@ -593,8 +591,8 @@ avm.export({
 }
 ```
 
-* `to` is the P-Chain or C-Chain address the asset is sent to.
-* `amount` is the amount of the asset to send.
+* `to` 是资产被发送到的P链或C链的地址。
+* `amount` 是要发送的资产数量。
 * `assetID` is the asset id of the asset which is sent.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1710,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODY2NTQyMiw0NzMxOTAwMzYsMTU5ND
+eyJoaXN0b3J5IjpbMTI3Mzc5MTc0Nyw0NzMxOTAwMzYsMTU5ND
 Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 
 -->
