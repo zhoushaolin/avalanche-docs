@@ -385,7 +385,7 @@ avm.createVariableCapAsset({
 * `assetID` 是新资产的ID。
 * `changeAddr` 是发送任何更改的地址。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -419,7 +419,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -434,6 +434,7 @@ curl -X POST --data '{
 
 ### avm.createNFTAsset
 
+创建一个新的不可替代的资产。初始化时资产的单位数量不存在。zhu z可以使用`avm.mintNFT`来铸造该资产的单位。
 Create a new non-fungible asset. No units of the asset exist at initialization. Minters can mint units of this asset using `avm.mintNFT`.
 
 {% page-ref page="../tutorials/smart-digital-assets/creating-a-nft-part-1.md" %}
@@ -1712,6 +1713,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODg2Mzk0MSwxMTEzODY5NTksOTQ2MT
-I2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTIwMTk0NTMwNjYsMTExMzg2OTU5LDk0Nj
+EyNjMwLDE2MjAwMjczMjBdfQ==
 -->
