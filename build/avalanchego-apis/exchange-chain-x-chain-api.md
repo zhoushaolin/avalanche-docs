@@ -532,7 +532,7 @@ avm.mintNFT({
 * `payload` 是最多1024字节的任意负载。它的编码格式由 `encoding`参数指定。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。`username`必须持有密钥，以铸成更多的这一资产。也就是说，它必须为其中一个minter集合控制至少_threshold_键。
+* `username` 是支付交易费用的用户。`username`必须持有密钥，以铸成更多的这一资产。也就是说，它必须至少控制一个铸造qi_threshold_键。
 * is the user that pays the transaction fee. `username` must hold keys giving it permission to mint more of this asset. That is, it must control at least _threshold_ keys for one of the minter sets.
 * `txID` is this transaction’s ID.
 * `changeAddr` in the result is the address where any change was sent.
@@ -1709,7 +1709,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2OTcwNzMwLDQ3MzE5MDAzNiwxNTk0Nj
-UzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTM5ODk3MTA0Miw0NzMxOTAwMzYsMTU5ND
+Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 
 -->
