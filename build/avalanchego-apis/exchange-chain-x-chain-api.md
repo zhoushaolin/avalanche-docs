@@ -528,9 +528,10 @@ avm.mintNFT({
 }
 ```
 
-* `assetID` is the assetID of the newly created NFT asset.
-* `payload` is an arbitrary payload of up to 1024 bytes. Its encoding format is specified by the `encoding` argument.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `assetID` 是新创建的NFT资产的ID。
+* `payload` 是最多1024字节的任意负载。它的编码格式由 `encoding`参数指定。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
+* are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that pays the transaction fee. `username` must hold keys giving it permission to mint more of this asset. That is, it must control at least _threshold_ keys for one of the minter sets.
 * `txID` is this transaction’s ID.
@@ -1708,7 +1709,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDQ1MzYwOSw0NzMxOTAwMzYsMTU5ND
+eyJoaXN0b3J5IjpbMTU2NjkxMzU3NSw0NzMxOTAwMzYsMTU5ND
 Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 
 -->
