@@ -803,10 +803,9 @@ avm.getAssetDescription({assetID: string}) -> {
 * `assetID` 是资产的ID, 需要相关信息。 
 * `name` 是资产的可读名称，不一定是唯一的名称。
 * `symbol` 是资产的符号。
-* `denomination` 确定该资产的余额如何在用户界面中显示。如果面值为0，该资产的100个单位显示为100。如果面值为1100，该资产的100单位显示为10.0。如果面值为2100，则该资产的100个单位显示为。100等。
-* determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
+* `denomination` 确定该资产的余额如何在用户界面中显示。如果面值为0，该资产的100个单位显示为100。如果面值为1100，该资产的100单位显示为10.0。如果面值为2100，则该资产的100个单位显示为100, 等等。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -819,7 +818,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -836,9 +835,9 @@ curl -X POST --data '{
 
 ### avm.getBalance
 
-Get the balance of an asset controlled by a given address.
+获取由给定地址控制的资产的余额。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.getBalance({
@@ -847,7 +846,7 @@ avm.getBalance({
 }) -> {balance: int}
 ```
 
-* `address` owner of the asset
+* `address` 资产所有者
 * `assetID` id of the asset for which the balance is requested
 
 #### **Example Call**
@@ -1708,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODcyMjUwMiwtMTAxMDE0OTEzNyw3OT
+eyJoaXN0b3J5IjpbLTU2NTIyMTE4NSwtMTAxMDE0OTEzNyw3OT
 MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
 LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
