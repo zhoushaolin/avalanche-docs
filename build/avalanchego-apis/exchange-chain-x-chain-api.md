@@ -694,13 +694,9 @@ curl -X POST --data '{
 ### avm.exportKey
 
 获取控制给定地址的私钥。
+返回的私钥可以通过[`avm.importKey`](exchange-chain-x-chain-api.md#avm-importkey)添加到用户。
 
-返回的私钥可以通过[' avm.importKey '](exchange-chain-x-chain-api.md#avm-importkey)添加到用户。
-
-Get the private key that controls a given address.  
-The returned private key can be added to a user with [`avm.importKey`](exchange-chain-x-chain-api.md#avm-importkey).
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.exportKey({
@@ -713,7 +709,7 @@ avm.exportKey({
 * `username` must control `address`.
 * `privateKey` is the string representation of the private key that controls `address`.
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -728,7 +724,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -742,9 +738,9 @@ curl -X POST --data '{
 
 ### avm.getAllBalances
 
-Get the balances of all assets controlled by a given address.
+获取由给定地址控制的所有资产的余额。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.getAllBalances({address:string}) -> {
@@ -1711,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODc5OTcxNSwtMTAxMDE0OTEzNyw3OT
+eyJoaXN0b3J5IjpbLTgwNTg0MDcwNSwtMTAxMDE0OTEzNyw3OT
 MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
 LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
