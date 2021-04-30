@@ -214,7 +214,7 @@ curl -X POST --data '{
 
 ### avm.createFixedCapAsset
 
-创造一个新的固定上限，tong zhi hua资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
+创造一个新的固定上限，同质化资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
 
 #### **签名**
 
@@ -351,7 +351,7 @@ curl -X POST --data '{
 
 ### avm.createVariableCapAsset
 
-创建一个新的可变上限，可替换的资产, 初始化时资产的单位不存在, 铸造器可以使用`avm.mint`铸造代币。
+创建一个新的可变上限，同质化资产, 初始化时资产的单位不存在, 铸造器可以使用`avm.mint`铸造代币。
 
 #### **签名**
 
@@ -434,7 +434,7 @@ curl -X POST --data '{
 
 ### avm.createNFTAsset
 
-创建一个新的不可替代的资产, 初始化时资产的单位数量不存在, 铸造器可以使用`avm.mintNFT`来铸造该资产的单位。
+创建一个新的非同质化资产, 初始化时资产的单位数量不存在, 铸造器可以使用`avm.mintNFT`来铸造该资产的单位。
 
 #### **签名**
 
@@ -1708,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NDQxMDQyLDc5MzEwMTM4MCw0NzMxOT
-AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
-MDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3Mz
+E5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwx
+NjIwMDI3MzIwXX0=
 -->
