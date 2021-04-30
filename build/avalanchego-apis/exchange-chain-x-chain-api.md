@@ -351,7 +351,7 @@ curl -X POST --data '{
 
 ### avm.createVariableCapAsset
 
-创建一个新的可变上限，可替换的资产, 初始化时资产的单位不存在。铸造器可以使用`avm.mint`铸造代币。
+创建一个新的可变上限，可替换的资产, 初始化时资产的单位不存在, 铸造器可以使用`avm.mint`铸造代币。
 
 #### **签名**
 
@@ -461,7 +461,7 @@ avm.createNFTAsset({
 * `symbol` 是资产的速记符号, 0到4个字符之间, 不一定是独一无二的, 可以省略。
 * `minterSets` 是一个列表，其中每个元素指定' ments '中的地址的' threshold '可以通过签署一个铸币交易共同铸币更多的资产。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
-* `changeAddr` 是地址有任何变化都会发送到。如果省略，更改将被发送到用户控制的地址之一。
+* `changeAddr` 是地址有任何变化都会发送到, 如果省略，更改将被发送到用户控制的地址之一。
 * `username` 支付交易费用。
 * `assetID` 是新资产的ID。
 * `changeAddr` 结果是发送任何更改的地址。
@@ -1710,6 +1710,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMzQ3MjQ2LDExMTM4Njk1OSw5NDYxMj
-YzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MT
+I2MzAsMTYyMDAyNzMyMF19
 -->
