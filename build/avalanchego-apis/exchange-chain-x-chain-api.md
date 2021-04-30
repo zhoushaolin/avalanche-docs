@@ -315,10 +315,9 @@ avm.mint({
 * `changeAddr`是任何更改都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。`username` 必须持有密钥，以铸造更多的资产。也就是说，它必须至少为一个铸造器控制_threshold_密钥。
 * `txID`是此交易的ID。
-* `changeAddr` 是任何更改发送的地址。
-* in the result is the address where any change was sent.
+* `changeAddr` 是发送任何更改的地址。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -337,7 +336,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -352,9 +351,7 @@ curl -X POST --data '{
 
 ### avm.createVariableCapAsset
 
-Create a new variable-cap, fungible asset. No units of the asset exist at initialization. Minters can mint units of this asset using `avm.mint`.
-
-{% page-ref page="../tutorials/smart-digital-assets/creating-a-variable-cap-asset.md" %}
+创建一个新的可变上限，可替换的资产。初始化时资产的单位不存在。铸造器可以使用`avm.mint`铸造代币。
 
 #### **Signature**
 
@@ -1715,6 +1712,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5MjE2OTE1LDk0NjEyNjMwLDE2MjAwMj
-czMjBdfQ==
+eyJoaXN0b3J5IjpbMTYxODg3MjUwNCw5NDYxMjYzMCwxNjIwMD
+I3MzIwXX0=
 -->
