@@ -380,11 +380,10 @@ avm.createVariableCapAsset({
 * `denomination` 确定该资产的余额如何在用户界面中显示。如果面值为0，该资产的100个单位显示为100。如果面值为1100，该资产的100单位显示为10.0。如果面值为2100，则该资产的100个单位显示为。100等。
 * `minterSets` 是一个列表，其中每个元素指定`minters`中的地址的`threshold`可以通过签署一个铸币交易共同铸造更多的资产。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
-* `changeAddr` 是有任何变化都会发送到。如果省略，更改将被发送到用户控制的地址之一。
-* is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` pays the transaction fee.
-* `assetID` is the ID of the new asset.
-* `changeAddr` in the result is the address where any change was sent.
+* `changeAddr` 是任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* `username` 支付交易费用的用户名。
+* `assetID` 是新资产的ID。
+* `changeAddr` 是发送任何更改的地址。
 
 #### **Example Call**
 
@@ -1713,6 +1712,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTYwMDIwNzIsMTExMzg2OTU5LDk0Nj
-EyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTQwODg2Mzk0MSwxMTEzODY5NTksOTQ2MT
+I2MzAsMTYyMDAyNzMyMF19
 -->
