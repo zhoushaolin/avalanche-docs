@@ -789,7 +789,7 @@ curl -X POST --data '{
 
 获取有关资产的信息。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.getAssetDescription({assetID: string}) -> {
@@ -800,7 +800,7 @@ avm.getAssetDescription({assetID: string}) -> {
 }
 ```
 
-* `assetID` is the id of the asset for which the information is requested.
+* `assetID` 为其请求信息的资产的id。is the id of the asset for which the information is requested.
 * `name` is the asset’s human-readable, not necessarily unique name.
 * `symbol` is the asset’s symbol.
 * `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NjU2MjgwLC0xMDEwMTQ5MTM3LDc5Mz
+eyJoaXN0b3J5IjpbOTAwNjMxMzg0LC0xMDEwMTQ5MTM3LDc5Mz
 EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
 OTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
