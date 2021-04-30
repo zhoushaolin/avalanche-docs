@@ -508,7 +508,7 @@ curl -X POST --data '{
 ### avm.mintNFT
 
 Mint non-fungible tokens which were created with [`avm.createNFTAsset`](exchange-chain-x-chain-api.md#avm-createnftasset).
-铸币使用[' avm.createNFTAsset ']创建的不可替代令牌(exchange-chain-x-chain-api.md#avm-createnftasset)。
+使用[`avm.createNFTAsset`](exchange-chain-x-chain-api.md#avm-createnftasset)创建的不可替代令牌。
 
 {% page-ref page="../tutorials/smart-digital-assets/creating-a-nft-part-1.md" %}
 
@@ -1711,6 +1711,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMz
-g2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTE2MjIyMDc4NzcsNDczMTkwMDM2LDE1OT
+Q2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBd
+fQ==
 -->
