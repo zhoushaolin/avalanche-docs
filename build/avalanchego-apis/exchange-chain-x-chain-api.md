@@ -466,7 +466,7 @@ avm.createNFTAsset({
 * `assetID` 是新资产的ID。
 * `changeAddr` 是结果中发送任何更改的地址。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -600,7 +600,7 @@ avm.export({
 * `txID`是此交易的ID。
 * `changeAddr` 是结果中发送任何更改的地址。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -619,7 +619,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -634,6 +634,7 @@ curl -X POST --data '{
 
 ### avm.exportAVAX
 
+从X链发送AVAX到另一个链。调用此方法后，必须调用另一个链上的“import”以完成传输。
 Send AVAX from the X-Chain to another chain. After calling this method, you must call `import` on the other chain to complete the transfer.
 
 #### **Signature**
@@ -1708,7 +1709,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3Mz
-E5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwx
-NjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbNDA5MTY0MTQ2LC0xMDEwMTQ5MTM3LDc5Mz
+EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
+OTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
