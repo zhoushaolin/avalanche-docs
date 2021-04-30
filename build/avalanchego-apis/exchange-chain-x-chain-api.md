@@ -464,7 +464,7 @@ avm.createNFTAsset({
 * `changeAddr` 是地址有任何变化都会发送到, 如果省略，更改将被发送到用户控制的地址之一。
 * `username` 支付交易费用。
 * `assetID` 是新资产的ID。
-* `changeAddr` 结果是发送任何更改的地址。
+* `changeAddr` 是发送任何更改的地址。
 
 #### **Example Call**
 
@@ -492,7 +492,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1710,6 +1710,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjI1NTY2NiwxNTk0NjUzMjQ2LDExMT
-M4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTE3MjA5MjMyMjQsMTU5NDY1MzI0NiwxMT
+EzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
