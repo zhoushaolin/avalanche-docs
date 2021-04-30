@@ -375,7 +375,7 @@ avm.createVariableCapAsset({
 }
 ```
 
-* `name` is a human-readable name for the asset. Not necessarily unique.
+* `name` 是资产的可读名称。不一定是独一无二的。
 * `symbol` is a shorthand symbol for the asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
 * `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
 * `minterSets` is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting transaction.
@@ -1712,6 +1712,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMj
-czMjBdfQ==
+eyJoaXN0b3J5IjpbLTcyNTcwOTk4OCwxMTEzODY5NTksOTQ2MT
+I2MzAsMTYyMDAyNzMyMF19
 -->
