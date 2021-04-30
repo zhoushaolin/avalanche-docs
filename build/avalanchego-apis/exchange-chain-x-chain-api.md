@@ -313,9 +313,10 @@ avm.mint({
 * `assetID`的`amount`单位数量将由`to`的地址创建并控制。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr`是任何更改都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。`username` must hold keys giving it permission to mint more of this asset. That is, it must control at least _threshold_ keys for one of the minter sets.
-* `txID` is this transaction’s ID.
-* `changeAddr` in the result is the address where any change was sent.
+* `username` 是支付交易费用的用户。`username` 必须持有密钥，以铸造更多的资产。也就是说，它必须至少为一个铸造器控制_threshold_密钥。
+* `txID`是此交易的ID。
+* `changeAddr` 是任何更改发送的地址。
+* in the result is the address where any change was sent.
 
 #### **Example Call**
 
@@ -1714,6 +1715,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTczNTUzODYsOTQ2MTI2MzAsMTYyMD
-AyNzMyMF19
+eyJoaXN0b3J5IjpbODE5MjE2OTE1LDk0NjEyNjMwLDE2MjAwMj
+czMjBdfQ==
 -->
