@@ -847,9 +847,9 @@ avm.getBalance({
 ```
 
 * `address` 资产所有者
-* `assetID` id of the asset for which the balance is requested
+* `assetID` 要求余额的资产的Id
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -863,7 +863,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -882,6 +882,8 @@ curl -X POST --data '{
 ```
 
 ### avm.getTx
+
+返回指定的交易, `encoding`参数设置返回交易的格式。可以是“cb58” 或“hex”。默认为“cb58”。
 
 Returns the specified transaction. The `encoding` parameter sets the format of the returned transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
@@ -1707,7 +1709,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTIyMTE4NSwtMTAxMDE0OTEzNyw3OT
+eyJoaXN0b3J5IjpbMTIwOTQ0NDE1MywtMTAxMDE0OTEzNyw3OT
 MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
 LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
