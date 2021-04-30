@@ -532,11 +532,10 @@ avm.mintNFT({
 * `payload` 是最多1024字节的任意负载。它的编码格式由 `encoding`参数指定。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。`username`必须持有密钥，以铸成更多的这一资产。也就是说，它必须至少控制一个铸造qi_threshold_键。
-* is the user that pays the transaction fee. `username` must hold keys giving it permission to mint more of this asset. That is, it must control at least _threshold_ keys for one of the minter sets.
-* `txID` is this transaction’s ID.
-* `changeAddr` in the result is the address where any change was sent.
-* `encoding` is the encoding format to use for the payload argument. Can be either “cb58” or “hex”. Defaults to “cb58”.
+* `username` 是支付交易费用的用户。`username`必须持有密钥，以铸成更多的这一资产。也就是说，它必须至少控制一个铸造器的_threshold_密钥。
+* `txID` 是此交易的ID。
+* `changeAddr` 是结果中发送任何更改的地址。
+* `encoding` 为有效负载参数使用的编码格式。可以是cb58或hex。默认为“cb58”。is the encoding format to use for the payload argument. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
 #### **Example Call**
 
@@ -1709,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODk3MTA0Miw0NzMxOTAwMzYsMTU5ND
+eyJoaXN0b3J5IjpbMTYyMDY5ODkzOCw0NzMxOTAwMzYsMTU5ND
 Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 
 -->
