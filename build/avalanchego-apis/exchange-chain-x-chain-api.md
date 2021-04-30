@@ -353,7 +353,7 @@ curl -X POST --data '{
 
 创建一个新的可变上限，可替换的资产。初始化时资产的单位不存在。铸造器可以使用`avm.mint`铸造代币。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.createVariableCapAsset({
@@ -1712,6 +1712,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODg3MjUwNCw5NDYxMjYzMCwxNjIwMD
-I3MzIwXX0=
+eyJoaXN0b3J5IjpbMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMj
+czMjBdfQ==
 -->
