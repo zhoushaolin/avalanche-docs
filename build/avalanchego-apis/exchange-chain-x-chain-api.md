@@ -375,10 +375,11 @@ avm.createVariableCapAsset({
 }
 ```
 
-* `name` 是资产的可读名称。不一定是独一无二的。
-* `symbol` is a shorthand symbol for the asset. Between 0 and 4 characters. Not necessarily unique. May be omitted.
-* `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
-* `minterSets` is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting transaction.
+* `name` 是资产的可读名称, 不一定是独一无二的。
+* `symbol` 是资产的速记符号。0到4个字符之间。不一定是独一无二的。可以省略。
+* `denomination` 确定该资产的余额如何在用户界面中显示。如果面值为0，该资产的100个单位显示为100。如果面值为1100，该资产的100单位显示为10.0。如果面值为2100，则该资产的100个单位显示为。100等。
+* `minterSets` 是一个列表，其中每个元素指定' ments '中的地址的' threshold '可以通过签署一个铸币交易共同铸币更多的资产。
+* is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting transaction.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` pays the transaction fee.
@@ -1712,6 +1713,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTcwOTk4OCwxMTEzODY5NTksOTQ2MT
+eyJoaXN0b3J5IjpbMTcyMzM2MDU3OSwxMTEzODY5NTksOTQ2MT
 I2MzAsMTYyMDAyNzMyMF19
 -->
