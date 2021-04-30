@@ -214,7 +214,7 @@ curl -X POST --data '{
 
 ### avm.createFixedCapAsset
 
-创造一个新的固定上限，可替代的资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
+创造一个新的固定上限，tong zhi hua资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
 
 #### **签名**
 
@@ -1708,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0Nj
-UzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
-
+eyJoaXN0b3J5IjpbOTA4NDQxMDQyLDc5MzEwMTM4MCw0NzMxOT
+AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
+MDAyNzMyMF19
 -->
