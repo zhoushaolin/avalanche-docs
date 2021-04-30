@@ -751,7 +751,7 @@ avm.getAllBalances({address:string}) -> {
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -764,7 +764,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -787,7 +787,7 @@ curl -X POST --data '{
 
 ### avm.getAssetDescription
 
-Get information about an asset.
+获取有关资产的信息。
 
 #### **Signature**
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTg0MDcwNSwtMTAxMDE0OTEzNyw3OT
-MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
-LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbNDM2NjU2MjgwLC0xMDEwMTQ5MTM3LDc5Mz
+EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
+OTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
