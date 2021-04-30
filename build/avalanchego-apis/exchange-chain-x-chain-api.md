@@ -593,9 +593,9 @@ avm.export({
 
 * `to` 是资产被发送到的P链或C链的地址。
 * `amount` 是要发送的资产数量。
-* `assetID` is the asset id of the asset which is sent.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `assetID`被发送的资产的ID。
+* `from`是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
+* `changeAddr` 是地址有任何变化都会发送到。如果省略，更改将被发送到用户控制的地址之一。
 * The asset is sent from addresses controlled by `username`
 * `txID` is this transaction’s ID.
 * `changeAddr` in the result is the address where any change was sent.
@@ -1708,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mzc5MTc0Nyw0NzMxOTAwMzYsMTU5ND
-Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
-
+eyJoaXN0b3J5IjpbLTE5MDA2NDkzNjgsNDczMTkwMDM2LDE1OT
+Q2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBd
+fQ==
 -->
