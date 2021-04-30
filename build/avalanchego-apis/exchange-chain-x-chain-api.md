@@ -803,7 +803,8 @@ avm.getAssetDescription({assetID: string}) -> {
 * `assetID` 是资产的ID, 需要相关信息。 
 * `name` 是资产的可读名称，不一定是唯一的名称。
 * `symbol` 是资产的符号。
-* `denomination` determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
+* `denomination` 确定该资产的余额如何在用户界面中显示。如果面值为0，该资产的100个单位显示为100。如果面值为1100，该资产的100单位显示为10.0。如果面值为2100，则该资产的100个单位显示为。100等。
+* determines how balances of this asset are displayed by user interfaces. If denomination is 0, 100 units of this asset are displayed as 100. If denomination is 1, 100 units of this asset are displayed as 10.0. If denomination is 2, 100 units of this asset are displays as .100, etc.
 
 #### **Example Call**
 
@@ -1707,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxODIzNjA4LC0xMDEwMTQ5MTM3LDc5Mz
-EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
-OTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbMTQ0ODcyMjUwMiwtMTAxMDE0OTEzNyw3OT
+MxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5
+LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
