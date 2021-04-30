@@ -656,8 +656,8 @@ avm.exportAVAX({
 * `to` 是AVAX发送到的P-Chain地址。
 * `amount` 是要发送的nAVAX的数量。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* The AVAX is sent from addresses controlled by `username`
+* `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* `username` 是发送AVAX的用户名 is sent from addresses controlled by `username`
 * `txID` is this transaction’s ID.
 * `changeAddr` in the result is the address where any change was sent.
 
@@ -1708,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjA4MjI4LC0xMDEwMTQ5MTM3LDc5Mz
-EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
-OTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTE4NTY5NzkzNjQsLTEwMTAxNDkxMzcsNz
+kzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1
+OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
