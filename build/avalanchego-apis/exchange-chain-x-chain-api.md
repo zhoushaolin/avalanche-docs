@@ -537,7 +537,7 @@ avm.mintNFT({
 * `changeAddr` 是结果中发送任何更改的地址。
 * `encoding` 为有效负载参数使用的编码格式。可以是“cb58”或“hex”。默认为“cb58”。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -556,7 +556,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -570,6 +570,8 @@ curl -X POST --data '{
 ```
 
 ### avm.export
+
+从X链发送一个非avax到P链或C链。调用此方法后，必须在C-Chain上调用[' avax.import '](contract-chain-c-chain-api.md#avax-import)来完成传输。
 
 Send a non-AVAX from the X-Chain to the P-Chain or C-Chain. After calling this method, you must call [`avax.import`](contract-chain-c-chain-api.md#avax-import) on the C-Chain to complete the transfer.
 
@@ -1708,7 +1710,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk1ODM1OTIsNDczMTkwMDM2LDE1OT
-Q2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBd
-fQ==
+eyJoaXN0b3J5IjpbLTU1ODY2NTQyMiw0NzMxOTAwMzYsMTU5ND
+Y1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+
 -->
