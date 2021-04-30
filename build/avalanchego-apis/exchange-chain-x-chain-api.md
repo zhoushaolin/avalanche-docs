@@ -634,10 +634,9 @@ curl -X POST --data '{
 
 ### avm.exportAVAX
 
-从X链发送AVAX到另一个链。调用此方法后，必须调用另一个链上的“import”以完成传输。
-Send AVAX from the X-Chain to another chain. After calling this method, you must call `import` on the other chain to complete the transfer.
+从X链发送AVAX到另一个链。调用此方法后，必须调用另一个链上的 `import`以完成传输。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.exportAVAX({
@@ -654,9 +653,9 @@ avm.exportAVAX({
 }
 ```
 
-* `to` is the P-Chain address the AVAX is sent to.
-* `amount` is the amount of nAVAX to send.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `to` 是AVAX发送到的P-Chain地址。
+* `amount` 是要发送的nAVAX的数量。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * The AVAX is sent from addresses controlled by `username`
 * `txID` is this transaction’s ID.
@@ -1709,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTY0MTQ2LC0xMDEwMTQ5MTM3LDc5Mz
+eyJoaXN0b3J5IjpbMTQ5NjA4MjI4LC0xMDEwMTQ5MTM3LDc5Mz
 EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
 OTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
