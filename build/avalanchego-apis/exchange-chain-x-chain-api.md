@@ -968,7 +968,7 @@ curl -X POST --data '{
 
 ### avm.getUTXOs
 
-获取引用给定地址的utxo。如果指定了sourchain，那么它将检索从该链导出到X chain的原子utxo。
+获取引用给定地址的UTXO, 如果指定了源链，那么它将检索从该链导出到X chain的原子UTXO。
 
 Gets the UTXOs that reference a given address. If sourceChain is specified, then it will retrieve the atomic UTXOs exported from that chain to the X Chain.
 
@@ -1709,7 +1709,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDcxNDUzNDMsLTE0NDI4NjQ1NzQsLT
-EwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUz
-MjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTYyMTI0NjA0NSwtMTQ0Mjg2NDU3NCwtMT
+AxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMy
+NDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
