@@ -1234,7 +1234,7 @@ avm.importKey({
 
 * 添加`privateKey`到`username`的私钥集。`address`是`username` 现在用私钥控制的地址。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1707,8 +1707,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDQ4MDM0NSwtNjk2MDAzMTM3LDE5OT
-gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
-NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
-ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTU4MzUyODY2MywxNzgwNDgwMzQ1LC02OT
+YwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2
+NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LD
+E1OTQ2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjcz
+MjBdfQ==
 -->
