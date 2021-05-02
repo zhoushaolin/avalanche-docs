@@ -1087,7 +1087,7 @@ curl -X POST --data '{
 
 由于`numFetched`小于`limit`，我们知道已经完成了UTXO的获取，不需要再次调用该方法。
 
-Suppose we want to fetch the UTXOs exported from the P Chain to the X Chain in order to build an ImportTx. Then we need to call GetUTXOs with the sourceChain argument in order to retrieve the atomic UTXOs:
+假设我们想要获取从P链导出到X链的UTXO，以便构建ImportTx。然后我们需要使用源链参数调用GetUTXOs来检索原子UTXO:       
 
 ```cpp
 curl -X POST --data '{
@@ -1103,7 +1103,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-This gives response:
+此处响应:
 
 ```cpp
 {
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxOTk3NzEzLC02OTYwMDMxMzcsMTk5OD
-I0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0
-OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMT
-ExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTc4MzcyMTExNCwtNjk2MDAzMTM3LDE5OT
+gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
+NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
+ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
