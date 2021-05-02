@@ -1004,7 +1004,7 @@ avm.getUTXOs({
 
 #### **示例**
 
-假设我们希望所有引用' Suppose we want all UTXOs that reference at least one of `X-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf` and `X-avax1x459sj0ssujguq723cljfty4jlae28evjzt7xz`.
+假设我们希望所有UTXO至少引用`X-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`和`X-avax1x459sj0ssujguq723cljfty4jlae28evjzt7xz`的      ' Suppose we want all UTXOs that reference at least one of `X-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf` and `X-avax1x459sj0ssujguq723cljfty4jlae28evjzt7xz`.
 
 ```cpp
 curl -X POST --data '{
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkzMDM1NTIsLTY5NjAwMzEzNywxOT
-k4MjQ2NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEw
-MTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0Ni
-wxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbNzMzMzk4MjU5LC02OTYwMDMxMzcsMTk5OD
+I0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0
+OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMT
+ExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
