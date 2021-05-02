@@ -968,11 +968,9 @@ curl -X POST --data '{
 
 ### avm.getUTXOs
 
-获取引用给定地址的UTXO, 如果指定了源链，那么它将检索从该链导出到X chain的原子UTXO。
+获取引用给定地址的UTXO, 如果指定了源链，那么它将检索从该链导出到X链的原子UTXO。
 
-Gets the UTXOs that reference a given address. If sourceChain is specified, then it will retrieve the atomic UTXOs exported from that chain to the X Chain.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.getUTXOs({
@@ -996,7 +994,8 @@ avm.getUTXOs({
 }
 ```
 
-* `utxos` is a list of UTXOs such that each UTXO references at least one address in `addresses`.
+* `utxos` 是一个UTXO列表，每个UTXO至少引用`addresses`中的。' addresses '中的至少一个地址。
+* is a list of UTXOs such that each UTXO references at least one address in `addresses`.
 * At most `limit` UTXOs are returned. If `limit` is omitted or greater than 1024, it is set to 1024.
 * This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
 * If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
@@ -1709,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTI0NjA0NSwtMTQ0Mjg2NDU3NCwtMT
-AxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMy
-NDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbOTc4NTE1OTAwLC0xNDQyODY0NTc0LC0xMD
+EwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0
+NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
