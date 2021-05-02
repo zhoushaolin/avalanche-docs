@@ -1264,9 +1264,8 @@ curl -X POST --data '{
 ### avm.issueTx
 
 向网络发送一个验签事务。`encoding` 指定已签名事务的格式, 可以是“cb58” 或 “hex”。默认为“cb58”。
-Send a signed transaction to the network. `encoding` specifies the format of the signed transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.issueTx({
@@ -1277,7 +1276,7 @@ avm.issueTx({
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1291,7 +1290,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1305,9 +1304,9 @@ curl -X POST --data '{
 
 ### avm.listAddresses
 
-List addresses controlled by the given user.
+列出由给定用户控制的地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.listAddresses({
@@ -1316,7 +1315,7 @@ avm.listAddresses({
 }) -> {addresses: []string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1330,7 +1329,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1344,9 +1343,9 @@ curl -X POST --data '{
 
 ### avm.send
 
-Send a quantity of an asset to an address.
+将一个资产的数量发送到一个地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.send({
@@ -1708,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM4MDM0ODcsMTc4MDQ4MDM0NSwtNj
+eyJoaXN0b3J5IjpbLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwtNj
 k2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4
 NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNi
 wxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3
