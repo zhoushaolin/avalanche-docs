@@ -1000,11 +1000,11 @@ avm.getUTXOs({
 * 如果`startIndex`省略，将获取`limit`限量以内的所有UTXO。
 * 当使用分页\(当提供了`startIndex`  \)，UTXO不能保证在多个 调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。
 * 使用分页时，不能保证多个调用之间的一致性。也就是说，地址的UTXO集可能在调用之间发生了变化。  
-* `encoding` 设置返回的UTXO的格式。可以是cb58或hex。默认为“cb58”。sets the format for the returned UTXOs. Can be either “cb58” or “hex”. Defaults to “cb58”.
+* `encoding` 设置返回的UTXO的格式, 可以是“cb58” 或“hex”, 默认为“cb58”。
 
-#### **Example**
+#### **示例**
 
-Suppose we want all UTXOs that reference at least one of `X-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf` and `X-avax1x459sj0ssujguq723cljfty4jlae28evjzt7xz`.
+假设我们希望所有引用' Suppose we want all UTXOs that reference at least one of `X-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf` and `X-avax1x459sj0ssujguq723cljfty4jlae28evjzt7xz`.
 
 ```cpp
 curl -X POST --data '{
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTY5MDIyMiwtNjk2MDAzMTM3LDE5OT
-gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
-NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
-ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTEwNDkzMDM1NTIsLTY5NjAwMzEzNywxOT
+k4MjQ2NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEw
+MTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0Ni
+wxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
