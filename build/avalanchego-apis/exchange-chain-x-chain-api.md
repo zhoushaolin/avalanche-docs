@@ -995,8 +995,8 @@ avm.getUTXOs({
 ```
 
 * `utxos` 是一个UTXO列表，每个UTXO至少引用`addresses`中的一个地址。
-* 最多返回`limit` 限定的UTXO数量。如果省略了`limit`或大于1024，则将其设置为1024。  At most `limit` UTXOs are returned. If `limit` is omitted or greater than 1024, it is set to 1024.
-* This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
+* 最多返回`limit` 限定的UTXO数量。如果`limit`省略了或大于1024，则将其设置为1024。 
+* 此方法支持分页。`endIndex`表示返回的最后一个UTXO。要获取下一组utxo，在下一个调用中使用`endIndex`的值作为`startIndex`。    This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
 * If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
 * When using pagination \(when `startIndex` is provided\), UTXOs are not guaranteed to be unique across multiple calls. That is, a UTXO may appear in the result of the first call, and then again in the second call.
 * When using pagination, consistency is not guaranteed across multiple calls. That is, the UTXO set of the addresses may have changed between calls.
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTA1NjA3LC0xNDQyODY0NTc0LC0xMD
-EwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0
-NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLT
+EwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUz
+MjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
