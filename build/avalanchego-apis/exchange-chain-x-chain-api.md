@@ -1143,7 +1143,7 @@ avm.import({
 * `username` 是控制`to`的用户。
 * `txID` 是新创建的原子交易的ID。
 
-#### **diao yo**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1159,7 +1159,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1173,9 +1173,9 @@ curl -X POST --data '{
 
 ### avm.importAVAX
 
-Finalize a transfer of AVAX from the P-Chain to the X-Chain. Before this method is called, you must call the P-Chain’s [`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax) method to initiate the transfer.
+将AVAX的P链转移到X链。在调用此方法之前，必须调用P链的[`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax) 方法来初始化传输。 
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.importAVAX({
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDM3NDEzNSwtNjk2MDAzMTM3LDE5OT
+eyJoaXN0b3J5IjpbMTgwNTc4OTM1NiwtNjk2MDAzMTM3LDE5OT
 gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
 NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
 ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
