@@ -1186,9 +1186,9 @@ avm.importAVAX({
 }) -> {txID: string}
 ```
 
-* `to` is the address the AVAX is sent to. This must be the same as the `to` argument in the corresponding call to the P-Chain’s `exportAVAX`.
-* `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the P-Chain, use `"P"`.
-* `username` is the user that controls `to`.
+* `to` 是AVAX发送到的地址。这必须与对应调用P链的`exportAVAX`中的`to`参数相同。 
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从P链导入资金，请使用`"P"`。
+* `username` 是控制`to`的用户。is the user that controls `to`.
 
 #### **Example Call**
 
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTc4OTM1NiwtNjk2MDAzMTM3LDE5OT
-gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
-NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
-ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbNDE2OTk2NzI3LC02OTYwMDMxMzcsMTk5OD
+I0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0
+OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMT
+ExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
