@@ -998,9 +998,9 @@ avm.getUTXOs({
 * 最多返回`limit` 限定的UTXO数量。如果`limit`省略了或大于1024，则将其设置为1024。 
 * 此方法支持分页, `endIndex`表示返回的最后一个UTXO。要获取下一组UTXO，在下一个调用中使用`endIndex`的值作为`startIndex`。   
 * 如果`startIndex`省略，将获取`limit`限量以内的所有UTXO。
-* 当使用分页\(当提供了' startIndex ' \)， utxo不能保证在多个 调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。When using pagination \(when `startIndex` is provided\), UTXOs are not guaranteed to be unique across multiple calls. That is, a UTXO may appear in the result of the first call, and then again in the second call.
-* When using pagination, consistency is not guaranteed across multiple calls. That is, the UTXO set of the addresses may have changed between calls.
-* `encoding` sets the format for the returned UTXOs. Can be either “cb58” or “hex”. Defaults to “cb58”.
+* 当使用分页\(当提供了`startIndex`  \)，UTXO不能保证在多个 调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。
+* 使用分页时，不能保证多个调用之间的一致性。也就是说，地址的UTXO集可能在调用之间发生了变化。  
+* `encoding` 设置返回的UTXO的格式。可以是cb58或hex。默认为“cb58”。sets the format for the returned UTXOs. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
 #### **Example**
 
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xND
-E3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEw
-MTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOT
-Q2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbMTA2NTY5MDIyMiwtNjk2MDAzMTM3LDE5OT
+gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
+NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
+ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
