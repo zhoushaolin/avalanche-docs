@@ -1232,8 +1232,7 @@ avm.importKey({
 }) -> {address: string}
 ```
 
-* 添加`privateKey`到`username`的私钥集。`address`是' username '现在用私钥控制的地址。
-* Add `privateKey` to `username`‘s set of private keys. `address` is the address `username` now controls with the private key.
+* 添加`privateKey`到`username`的私钥集。`address`是`username` 现在用私钥控制的地址。
 
 #### **Example Call**
 
@@ -1708,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTg0MzM2OCwtNjk2MDAzMTM3LDE5OT
+eyJoaXN0b3J5IjpbMTc4MDQ4MDM0NSwtNjk2MDAzMTM3LDE5OT
 gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
 NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
 ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
