@@ -1125,7 +1125,7 @@ curl -X POST --data '{
 
 ### avm.import
 
-Finalize a transfer of AVAX from the P-Chain or C-Chain to the X-Chain. Before this method is called, you must call the P-Chain’s [`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax) or C-Chain’s [`avax.export`](contract-chain-c-chain-api.md#avax-export) method to initiate the transfer.
+将AVAX从P链或C链转移到X链。在调用这个方法之前，你必须调用P链的[`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax)或C链的[`avax.export`](contract-chain-c-chain-api.md#avax-export) 方法来启动传输。
 
 #### **Signature**
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzcyMTExNCwtNjk2MDAzMTM3LDE5OT
+eyJoaXN0b3J5IjpbMTk3NDQzNzc3MCwtNjk2MDAzMTM3LDE5OT
 gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
 NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
 ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
