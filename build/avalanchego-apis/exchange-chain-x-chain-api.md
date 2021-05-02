@@ -1188,9 +1188,9 @@ avm.importAVAX({
 
 * `to` 是AVAX发送到的地址。这必须与对应调用P链的`exportAVAX`中的`to`参数相同。 
 * `sourceChain` 是从其中导入AVAX的链的ID或别名。要从P链导入资金，请使用`"P"`。
-* `username` 是控制`to`的用户。is the user that controls `to`.
+* `username` 是控制`to`的用户。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1206,7 +1206,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1220,9 +1220,9 @@ curl -X POST --data '{
 
 ### avm.importKey
 
-Give a user control over an address by providing the private key that controls the address.
+通过提供控制地址的私钥，让用户控制该地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.importKey({
@@ -1232,6 +1232,7 @@ avm.importKey({
 }) -> {address: string}
 ```
 
+* 添加`privateKey`到`username`的私钥集。`address`是' username '现在用私钥控制的地址。
 * Add `privateKey` to `username`‘s set of private keys. `address` is the address `username` now controls with the private key.
 
 #### **Example Call**
@@ -1707,8 +1708,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2OTk2NzI3LC02OTYwMDMxMzcsMTk5OD
-I0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0
-OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMT
-ExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTk0MTg0MzM2OCwtNjk2MDAzMTM3LDE5OT
+gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
+NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
+ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
