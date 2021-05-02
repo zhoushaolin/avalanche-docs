@@ -1043,7 +1043,7 @@ curl -X POST --data '{
 }
 ```
 
-由于`numFetched`与`limit`相同，我们可以知道可能有更多的utxo没有被获取。我们再次调用该方法，这次使用' startIndex ':   Since `numFetched` is the same as `limit`, we can tell that there may be more UTXOs that were not fetched. We call the method again, this time with `startIndex`:
+由于`numFetched`与`limit`相同，我们可以知道可能有更多的UTXO没有被获取。我们再次调用该方法，这次使用`startIndex`:  
 
 ```cpp
 curl -X POST --data '{
@@ -1062,7 +1062,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-This gives response:
+此处响应:
 
 ```cpp
 {
@@ -1085,7 +1085,7 @@ This gives response:
 }
 ```
 
-Since `numFetched` is less than `limit`, we know that we are done fetching UTXOs and don’t need to call this method again.
+由于`numFetched`小于`limit`，我们知道已经完成了UTXO的获取，不需要再次调用该方法。
 
 Suppose we want to fetch the UTXOs exported from the P Chain to the X Chain in order to build an ImportTx. Then we need to call GetUTXOs with the sourceChain argument in order to retrieve the atomic UTXOs:
 
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYxMzY3ODIsLTY5NjAwMzEzNywxOT
-k4MjQ2NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEw
-MTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0Ni
-wxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbNTIxOTk3NzEzLC02OTYwMDMxMzcsMTk5OD
+I0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0
+OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMT
+ExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
