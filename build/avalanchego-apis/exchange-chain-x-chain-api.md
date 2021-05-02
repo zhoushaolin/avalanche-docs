@@ -936,9 +936,9 @@ avm.getTxStatus({txID: string}) -> {status: string}
 
 `status` 的以下情况:
 
-* `Accepted`: The transaction is \(or will be\) accepted by every node
-* `Processing`: The transaction is being voted on by this node
-* `Rejected`: The transaction will never be accepted by any node in the network
+* `Accepted`: 交易被每个节点(或将被)接受
+* `Processing`: 该节点正在对交易进行投票
+* `Rejected`: 该交易将永远不会被网络中的任何节点接受
 * `Unknown`: The transaction hasn’t been seen by this node
 
 #### **Example Call**
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzk3NTk1NywtMTQ0Mjg2NDU3NCwtMT
-AxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMy
-NDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbMzMzMzIzNzc2LC0xNDQyODY0NTc0LC0xMD
+EwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0
+NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
