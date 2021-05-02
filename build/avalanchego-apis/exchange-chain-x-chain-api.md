@@ -939,9 +939,9 @@ avm.getTxStatus({txID: string}) -> {status: string}
 * `Accepted`: 交易被每个节点(或将被)接受
 * `Processing`: 该节点正在对交易进行投票
 * `Rejected`: 该交易将永远不会被网络中的任何节点接受
-* `Unknown`: The transaction hasn’t been seen by this node
+* `Unknown`: 该节点未看到该交易
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -954,7 +954,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -967,6 +967,8 @@ curl -X POST --data '{
 ```
 
 ### avm.getUTXOs
+
+获取引用给定地址的utxo。如果指定了sourchain，那么它将检索从该链导出到X chain的原子utxo。
 
 Gets the UTXOs that reference a given address. If sourceChain is specified, then it will retrieve the atomic UTXOs exported from that chain to the X Chain.
 
@@ -1707,7 +1709,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMzIzNzc2LC0xNDQyODY0NTc0LC0xMD
-EwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0
-NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTEyMDcxNDUzNDMsLTE0NDI4NjQ1NzQsLT
+EwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUz
+MjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
