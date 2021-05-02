@@ -1127,7 +1127,7 @@ curl -X POST --data '{
 
 将AVAX从P链或C链转移到X链。在调用这个方法之前，你必须调用P链的[`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax)或C链的[`avax.export`](contract-chain-c-chain-api.md#avax-export) 方法来启动传输。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.import({
@@ -1138,7 +1138,7 @@ avm.import({
 }) -> {txID: string}
 ```
 
-* `to` is the address the AVAX is sent to. This must be the same as the `to` argument in the corresponding call to the P-Chain’s `exportAVAX` or C-Chain's `export`.
+* `to` 是AVAX发送到的地址, 这必须与对应调用P链的`exportAVAX`或C链的 `export`中的`to` 的参数相同。  
 * `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the C-Chain, use `"C"`.
 * `username` is the user that controls `to`.
 * `txID` is the ID of the newly created atomic transaction.
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDQzNzc3MCwtNjk2MDAzMTM3LDE5OT
-gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
-NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
-ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTE1MjYyNjkyOTYsLTY5NjAwMzEzNywxOT
+k4MjQ2NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEw
+MTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0Ni
+wxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
