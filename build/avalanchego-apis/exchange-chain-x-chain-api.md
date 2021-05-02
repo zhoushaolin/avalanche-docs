@@ -1139,11 +1139,11 @@ avm.import({
 ```
 
 * `to` 是AVAX发送到的地址, 这必须与对应调用P链的`exportAVAX`或C链的 `export`中的`to` 的参数相同。  
-* `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the C-Chain, use `"C"`.
-* `username` is the user that controls `to`.
-* `txID` is the ID of the newly created atomic transaction.
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从C链导入资金，请使用`"C"`。 
+* `username` 是控制`to`的用户。
+* `txID` 是新创建的原子交易的ID。
 
-#### **Example Call**
+#### **diao yo**
 
 ```cpp
 curl -X POST --data '{
@@ -1707,8 +1707,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjYyNjkyOTYsLTY5NjAwMzEzNywxOT
-k4MjQ2NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEw
-MTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0Ni
-wxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTQ0MDM3NDEzNSwtNjk2MDAzMTM3LDE5OT
+gyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAx
+NDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LD
+ExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
 -->
