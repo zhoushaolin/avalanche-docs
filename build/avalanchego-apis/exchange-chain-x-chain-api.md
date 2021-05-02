@@ -1249,7 +1249,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1263,6 +1263,7 @@ curl -X POST --data '{
 
 ### avm.issueTx
 
+向网络发送一个验签事务。`encoding` 指定已签名事务的格式, 可以是“cb58” 或 “hex”。默认为“cb58”。
 Send a signed transaction to the network. `encoding` specifies the format of the signed transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
 #### **Signature**
@@ -1707,9 +1708,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzUyODY2MywxNzgwNDgwMzQ1LC02OT
-YwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mjg2
-NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LD
-E1OTQ2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjcz
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTIwNjM4MDM0ODcsMTc4MDQ4MDM0NSwtNj
+k2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4
+NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNi
+wxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIwMDI3
+MzIwXX0=
 -->
