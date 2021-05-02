@@ -934,7 +934,7 @@ curl -X POST --data '{
 avm.getTxStatus({txID: string}) -> {status: string}
 ```
 
-`status` is one of:
+`status` 的以下情况:
 
 * `Accepted`: The transaction is \(or will be\) accepted by every node
 * `Processing`: The transaction is being voted on by this node
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNz
-kzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1
-OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTcwNzk3NTk1NywtMTQ0Mjg2NDU3NCwtMT
+AxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMy
+NDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
