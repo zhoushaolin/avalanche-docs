@@ -1360,7 +1360,7 @@ avm.send({
 }) -> {txID: string, changeAddr: string}
 ```
 
-* 发送ID为`assetID`的资产的`amount`单位数量到地址`to`。`amount`是以资产的最小增量来计算的。对于AVAX，`amount`是1 nAVAX \(1 AVAX的十亿分之一。\)      Sends `amount` units of asset with ID `assetID` to address `to`. `amount` is denominated in the smallest increment of the asset. For AVAX this is 1 nAVAX \(one billionth of 1 AVAX.\)
+* 发送ID为`assetID`的资产的`amount`单位数量到地址`to`, `amount`是以资产的最小增量来计算的。对于AVAX，`amount`的最小增量是1 nAVAX \(1 AVAX的十亿分之一\)    。  
 * `to` is the X-Chain address the asset is sent to.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1707,9 +1707,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODM2Nzc5LDIxMTk1MDUxMjMsLTEwMz
-A1OTcxMzIsMTc4MDQ4MDM0NSwtNjk2MDAzMTM3LDE5OTgyNDY2
-MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMz
-csNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2LDExMTM4
-Njk1OSw5NDYxMjYzMCwxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbLTY2NTI4NTMyMiwyMTE5NTA1MTIzLC0xMD
+MwNTk3MTMyLDE3ODA0ODAzNDUsLTY5NjAwMzEzNywxOTk4MjQ2
+NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEwMTQ5MT
+M3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEz
+ODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
 -->
