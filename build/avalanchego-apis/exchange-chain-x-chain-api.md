@@ -1364,10 +1364,10 @@ avm.send({
 * `to` 是资产被发送到的X链地址。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* You can attach a `memo`, whose length can be up to 256 bytes.
-* The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the asset being sent.\)
+* 你可以联系一个`memo`, 字符数最多可达到256个。
+* 资产由`username`控制的地址发出。\(  当然, 该用户至少要持有足量的余额\)
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1387,7 +1387,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1404,7 +1404,7 @@ curl -X POST --data '{
 
 Sends multiple transfers of `amount` of `assetID`, to a specified address from a list of owned addresses.
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.sendMultiple({
@@ -1427,7 +1427,7 @@ avm.sendMultiple({
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the asset being sent.\)
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1456,7 +1456,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1471,9 +1471,9 @@ curl -X POST --data '{
 
 ### avm.sendNFT
 
-Send a non-fungible token.
+发送一个非同质化代币。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 avm.sendNFT({
@@ -1493,7 +1493,7 @@ avm.sendNFT({
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed. `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the NFT being sent.\)
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1512,7 +1512,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1707,9 +1707,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjA0Mzc0NywyMTE5NTA1MTIzLC0xMD
-MwNTk3MTMyLDE3ODA0ODAzNDUsLTY5NjAwMzEzNywxOTk4MjQ2
-NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEwMTQ5MT
-M3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEz
-ODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTE4OTk0NDExNDMsMTI3MjA0Mzc0NywyMT
+E5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzNDUsLTY5NjAw
+MzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0xNDQyODY0NT
+c0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOTAwMzYsMTU5
+NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYyMDAyNzMyMF
+19
 -->
