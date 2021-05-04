@@ -6,19 +6,19 @@
 
 ## 格式
 
-这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见[这里](issuing-api-calls.md)。  
-This API uses the。`json 2.0` RPC forma or more information on making JSON RPC calls, see [here](issuing-api-calls.md).
+这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。  
 
-## Endpoint
+## 端点
 
 ```text
 /ext/health
 ```
 
-## Methods
+## 方法
 
 ### health.getLiveness
 
+节点每30秒运行一组健康检查，包括对每个链的健康检查。此方法返回最后一组运行状况检查结果。
 The node runs a set of health checks every 30 seconds, including a health check for each chain. This method returns the last set of health check results.
 
 #### **Signature**
@@ -119,5 +119,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTk3ODU0OV19
+eyJoaXN0b3J5IjpbLTEzOTE0Nzc5NzZdfQ==
 -->
