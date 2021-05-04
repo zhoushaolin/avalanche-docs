@@ -48,9 +48,9 @@ health.getLiveness() -> {
 * `contiguousFailures` 是连续检查失败的次数。
 * `timeOfFirstFailure`是该检查第一次失败的时间。
 
-More information on these measurements can be found in the documentation for the [go-sundheit](https://github.com/AppsFlyer/go-sundheit) library.
+关于这些测量的更多信息可以在[go-sundheit](https://github.com/AppsFlyer/go-sundheit)库的文档中找到。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -60,9 +60,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/health
 ```
 
-#### **Example Response**
+#### **响应示例**
 
-In this example response, the C-Chain’s health check is failing.
+在此示例响应中，C链的运行状况检查失败。
 
 ```cpp
 {
@@ -117,5 +117,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDk2NDQyN119
+eyJoaXN0b3J5IjpbLTE3MjE5MTkwMzVdfQ==
 -->
