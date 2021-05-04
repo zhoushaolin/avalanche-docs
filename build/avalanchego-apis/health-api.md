@@ -41,12 +41,12 @@ health.getLiveness() -> {
 `healthy`显示为“true”, 如果节点的所有健康检查都通过。
 `checks`是运行状况检查响应列表。
 
-* 一个校验响应可能包含一个带有附加上下文的`message` 。
-* A check response may include an `error` describing why the check failed.
-* `timestamp` is the timestamp of the last health check.
-* `duration` is the execution duration of the last health check, in nanoseconds.
-* `contiguousFailures` is the number of times in a row this check failed.
-* `timeOfFirstFailure` is the time this check first failed.
+* 一个检查响应可能包含一个带有附加上下文的`message` 。
+* 检查响应可能包含一个描述检查失败原因的`error` 。
+* `timestamp` 是上次健康检查的时间戳。
+* `duration` 上一次健康检查的执行时间，单位为纳秒。
+* `contiguousFailures` 是连续检查失败的次数。
+* `timeOfFirstFailure`是该检查第一次失败的时间。
 
 More information on these measurements can be found in the documentation for the [go-sundheit](https://github.com/AppsFlyer/go-sundheit) library.
 
@@ -117,5 +117,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MTEyMzU1XX0=
+eyJoaXN0b3J5IjpbMjExMDk2NDQyN119
 -->
