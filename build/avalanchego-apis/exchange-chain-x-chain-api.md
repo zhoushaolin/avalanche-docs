@@ -1635,13 +1635,13 @@ curl -X POST --data '{
 
 ### wallet.sendMultiple
 
-从拥有的地址列表发送多个 `amount`的`assetID`到指定地址的传输，并假设tx将被接受，以便将来的调用可以使用修改后的UTXO集。Send multiple transfers of `amount` of `assetID`, to a specified address from a list of owned of addresses and assume the tx will be accepted so that future calls can use the modified UTXO set.
+从拥有的地址列表发送多个 `amount`的`assetID`到指定地址的传输，并假设tx将被接受，以便将来的调用可以使用修改后的UTXO集。
 
-This call is made to the wallet API endpoint:
+这个调用是对钱包API端点的:
 
 `/ext/bc/X/wallet`
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 wallet.sendMultiple({
@@ -1658,8 +1658,8 @@ wallet.sendMultiple({
 }) -> {txID: string, changeAddr: string}
 ```
 
-* `outputs` is an array of object literals which each contain an `assetID`, `amount` and `to`.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `outputs` 是一个对象字面量数组，每个数组包含`assetID`， `amount`和`to`。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * You can attach a `memo`, whose length can be up to 256 bytes.
 * The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the asset being sent.\)
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzkyNDg0NCwtMTk0ODgyOTg3NiwyMD
+eyJoaXN0b3J5IjpbMTA2NjA1OTczOCwtMTk0ODgyOTg3NiwyMD
 kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
 Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
 UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
