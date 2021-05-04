@@ -1488,9 +1488,9 @@ avm.sendNFT({
 ```
 
 * `assetID` 是正在发送的NFT的资产ID。
-* `groupID` 是发送NFT的NFT组。NFT创建允许每个NFT ID下有多个组。您可以向每个组发出多个nft。  is the NFT group from which to send the NFT. NFT creation allows multiple groups under each NFT ID. You can issue multiple NFTs to each group.
-* `to` is the X-Chain address the NFT is sent to.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed. `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `groupID` 是发送NFT的NFT组, NFT创建允许每个NFT ID下有多个组, 您可以向每个组发出多个nft。  
+* `to` 是NFT发送到的X链地址。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。' changeAddr '是任何变更都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。  are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed. `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the NFT being sent.\)
 
 #### **调用示例**
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODEzOTkzNywtMTk0ODgyOTg3NiwyMD
-kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
-Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
-UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
-NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
-AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
-MDAyNzMyMF19
+eyJoaXN0b3J5IjpbMzgwMDMxOTEsLTE5NDg4Mjk4NzYsMjA5MD
+Q3NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMTQzLDEyNzIwNDM3
+NDcsMjExOTUwNTEyMywtMTAzMDU5NzEzMiwxNzgwNDgwMzQ1LC
+02OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0
+Mjg2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMD
+M2LDE1OTQ2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAw
+MjczMjBdfQ==
 -->
