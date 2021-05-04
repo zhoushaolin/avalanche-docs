@@ -2,13 +2,12 @@
 
 此API可用于测量节点运行状况。
 
-要获取指示节点运行状况的HTTP状态码响应，请向`/ext/health`发出`GET`请求。如果节点是健康的，它将返回一个“200”状态码。如果需要关于节点运行状况的更深入信息，请使用以下方法。  
+要获取指示节点运行状况的HTTP状态码响应，请向`/ext/health`发出`GET`请求。如果节点是健康的，它将返回一个`200`状态码。如果需要关于节点运行状况的更深入信息，请使用以下方法。  
 
-To get an HTTP status code response that indicates the node’s health, make a。`GET` request to。`/ext/health`. If the node is healthy, it will return a `200` status code. If you want more in-depth information about a node’s health, use the methods below.
+## 格式
 
-## Format
-
-This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md).
+这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见[这里](issuing-api-calls.md)。  
+This API uses the。`json 2.0` RPC forma or more information on making JSON RPC calls, see [here](issuing-api-calls.md).
 
 ## Endpoint
 
@@ -120,5 +119,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMzUwODUxXX0=
+eyJoaXN0b3J5IjpbLTUwNTk3ODU0OV19
 -->
