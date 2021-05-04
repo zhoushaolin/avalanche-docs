@@ -706,8 +706,8 @@ avm.exportKey({
 }) -> {privateKey: string}
 ```
 
-* `username`  `address`.
-* `privateKey` is the string representation of the private key that controls `address`.
+* `username` 必须控制 `address`.
+* `privateKey` 是控制`address`的私钥的字符串表示形式。
 
 #### **调用示例**
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjc5MjU1OSwtMTk0ODgyOTg3NiwyMD
+eyJoaXN0b3J5IjpbMTU0MDgwNDU3NiwtMTk0ODgyOTg3NiwyMD
 kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
 Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
 UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
