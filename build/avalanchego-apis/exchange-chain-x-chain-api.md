@@ -1620,7 +1620,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X/wallet
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1635,7 +1635,7 @@ curl -X POST --data '{
 
 ### wallet.sendMultiple
 
-Send multiple transfers of `amount` of `assetID`, to a specified address from a list of owned of addresses and assume the tx will be accepted so that future calls can use the modified UTXO set.
+从拥有的地址列表发送多个 `amount`的`assetID`到指定地址的传输，并假设tx将被接受，以便将来的调用可以使用修改后的UTXO集。Send multiple transfers of `amount` of `assetID`, to a specified address from a list of owned of addresses and assume the tx will be accepted so that future calls can use the modified UTXO set.
 
 This call is made to the wallet API endpoint:
 
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNzYyMTUsLTE5NDg4Mjk4NzYsMjA5MD
-Q3NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMTQzLDEyNzIwNDM3
-NDcsMjExOTUwNTEyMywtMTAzMDU5NzEzMiwxNzgwNDgwMzQ1LC
-02OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0
-Mjg2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMD
-M2LDE1OTQ2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2MjAw
-MjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTQwMzkyNDg0NCwtMTk0ODgyOTg3NiwyMD
+kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
+Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
+UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
+NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
+AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
+MDAyNzMyMF19
 -->
