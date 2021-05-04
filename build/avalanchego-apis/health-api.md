@@ -19,9 +19,8 @@
 ### health.getLiveness
 
 节点每30秒运行一组健康检查，包括对每个链的健康检查。此方法返回最后一组运行状况检查结果。
-The node runs a set of health checks every 30 seconds, including a health check for each chain. This method returns the last set of health check results.
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 health.getLiveness() -> {
@@ -39,7 +38,7 @@ health.getLiveness() -> {
 }
 ```
 
-`healthy` is true if the node if all health checks are passing.
+`healthy`显示为如果节点的所有健康检查都通过。is true if the node if all health checks are passing.
 
 `checks` is a list of health check responses.
 
@@ -119,5 +118,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE0Nzc5NzZdfQ==
+eyJoaXN0b3J5IjpbODU1Mjk4MzAwXX0=
 -->
