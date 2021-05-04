@@ -1402,7 +1402,7 @@ curl -X POST --data '{
 
 ### avm.sendMultiple
 
-从拥有的地址列表发送多个“amount”的`assetID`到指定地址的传输。Sends multiple transfers of `amount` of `assetID`, to a specified address from a list of owned addresses.
+从拥有的地址的列表发送多个`amount`的`assetID`到指定地址的传输。Sends multiple transfers of `amount` of `assetID`, to a specified address from a list of owned addresses.
 
 #### **签名**
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTQ4OTI1MiwtMTg5OTQ0MTE0MywxMj
+eyJoaXN0b3J5IjpbMjAwMTg0MDQzOSwtMTg5OTQ0MTE0MywxMj
 cyMDQzNzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4
 MDM0NSwtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1Mj
 IsLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3
