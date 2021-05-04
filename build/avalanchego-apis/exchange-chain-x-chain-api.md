@@ -1527,13 +1527,13 @@ curl -X POST --data '{
 
 ### wallet.issueTx
 
-向网络发送一个验签事务，并假设tx将被接受。`encoding`指定已验签事务的格式。可以是“cb58”或 “hex”。默认为“cb58”。  Send a signed transaction to the network and assume the tx will be accepted. `encoding` specifies the format of the signed transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
+向网络发送一个验签事务，并假设tx将被接受。`encoding`指定已验签事务的格式。可以是“cb58”或 “hex”。默认为“cb58”。  
 
-This call is made to the wallet API endpoint:
+这个调用是对钱包API端点的:
 
 `/ext/bc/X/wallet`
 
-#### Signature
+#### 签名
 
 ```cpp
 wallet.issueTx({
@@ -1544,7 +1544,7 @@ wallet.issueTx({
 }
 ```
 
-#### Example call
+#### 调用示例
 
 ```cpp
 curl -X POST --data '{
@@ -1558,7 +1558,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X/wallet
 ```
 
-#### Example response
+#### 响应示例
 
 ```cpp
 {
@@ -1572,7 +1572,7 @@ curl -X POST --data '{
 
 ### wallet.send
 
-Send a quantity of an asset to an address and assume the tx will be accepted so that future calls can use the modified UTXO set.
+将一个资产的数量发送到一个地址，并假设tx将被接受，以便将来的调用可以使用修改后的UTXO集。Send a quantity of an asset to an address and assume the tx will be accepted so that future calls can use the modified UTXO set.
 
 This call is made to the wallet API endpoint:
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMjUwOTUzLC0xOTQ4ODI5ODc2LDIwOT
+eyJoaXN0b3J5IjpbMTEzMTQwNzg1LC0xOTQ4ODI5ODc2LDIwOT
 A0NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQz
 NzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NS
 wtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0
