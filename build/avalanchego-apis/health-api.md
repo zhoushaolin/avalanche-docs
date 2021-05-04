@@ -38,8 +38,7 @@ health.getLiveness() -> {
 }
 ```
 
-`healthy`显示为如果节点的所有健康检查都通过。is true if the node if all health checks are passing.
-
+`healthy`显示为“true”, 如果节点的所有健康检查都通过。
 `checks` is a list of health check responses.
 
 * A check response may include a `message` with additional context.
@@ -118,5 +117,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1Mjk4MzAwXX0=
+eyJoaXN0b3J5IjpbLTI3MTQxMjM1XX0=
 -->
