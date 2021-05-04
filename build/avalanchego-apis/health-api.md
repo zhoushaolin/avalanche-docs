@@ -1,8 +1,10 @@
-# Health API
+# 健康API
 
-This API can be used for measuring node health.
+此API可用于测量节点运行状况。
 
-To get an HTTP status code response that indicates the node’s health, make a `GET` request to `/ext/health`. If the node is healthy, it will return a `200` status code. If you want more in-depth information about a node’s health, use the methods below.
+要获取指示节点运行状况的HTTP状态码响应，请向`/ext/health`发出`GET`请求。如果节点是健康的，它将返回一个“200”状态码。如果需要关于节点运行状况的更深入信息，请使用以下方法。  
+
+To get an HTTP status code response that indicates the node’s health, make a。`GET` request to。`/ext/health`. If the node is healthy, it will return a `200` status code. If you want more in-depth information about a node’s health, use the methods below.
 
 ## Format
 
@@ -117,3 +119,6 @@ In this example response, the C-Chain’s health check is failing.
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzQyMzUwODUxXX0=
+-->
