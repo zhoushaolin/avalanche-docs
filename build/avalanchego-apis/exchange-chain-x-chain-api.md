@@ -1402,7 +1402,7 @@ curl -X POST --data '{
 
 ### avm.sendMultiple
 
-从拥有的地址的列表发送多个`amount`的`assetID`到指定地址的传输。Sends multiple transfers of `amount` of `assetID`, to a specified address from a list of owned addresses.
+从拥有的地址的列表发送多个`amount`的`assetID`到指定地址的传输。
 
 #### **签名**
 
@@ -1421,7 +1421,7 @@ avm.sendMultiple({
 }) -> {txID: string, changeAddr: string}
 ```
 
-* `outputs` is an array of object literals which each contain an `assetID`, `amount` and `to`.
+* `outputs` 是一个对象字面量数组，每个数组包含`assetID`， `amount`和`to`。
 * `memo` is an optional message, whose length can be up to 256 bytes.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTg0MDQzOSwtMTg5OTQ0MTE0MywxMj
+eyJoaXN0b3J5IjpbMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMj
 cyMDQzNzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4
 MDM0NSwtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1Mj
 IsLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3
