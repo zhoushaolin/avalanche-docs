@@ -1570,15 +1570,15 @@ curl -X POST --data '{
 }
 ```
 
-### wallet.send
+### 钱包发送
 
-将一个资产的数量发送到一个地址，并假设tx将被接受，以便将来的调用可以使用修改后的UTXO集。Send a quantity of an asset to an address and assume the tx will be accepted so that future calls can use the modified UTXO set.
+将一个资产的数量发送到一个地址，并假设tx将被接受，以便将来的调用可以使用修改后的UTXO集。
 
-This call is made to the wallet API endpoint:
+这个调用是对钱包API端点的:
 
 `/ext/bc/X/wallet`
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 wallet.send({
@@ -1593,7 +1593,7 @@ wallet.send({
 }) -> {txID: string, changeAddr: string}
 ```
 
-* Sends `amount` units of asset with ID `assetID` to address `to`. `amount` is denominated in the smallest increment of the asset. For AVAX this is 1 nAVAX \(one billionth of 1 AVAX.\)
+* 发送ID为 `assetID` 的资产的`amount`单位到地址“to”。“金额”是以资产的最小增量来计算的。对于AVAX，这是1 nAVAX \(1 AVAX的十亿分之一。\)    Sends `amount` units of asset with ID `assetID` to address `to`. `amount` is denominated in the smallest increment of the asset. For AVAX this is 1 nAVAX \(one billionth of 1 AVAX.\)
 * `to` is the X-Chain address the asset is sent to.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTQwNzg1LC0xOTQ4ODI5ODc2LDIwOT
-A0NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQz
-NzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NS
-wtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0
-NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MD
-AzNiwxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIw
-MDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTA2MzgzNDI5MywtMTk0ODgyOTg3NiwyMD
+kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
+Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
+UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
+NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
+AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
+MDAyNzMyMF19
 -->
