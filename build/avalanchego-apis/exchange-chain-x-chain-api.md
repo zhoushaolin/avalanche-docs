@@ -1593,9 +1593,9 @@ wallet.send({
 }) -> {txID: string, changeAddr: string}
 ```
 
-* 发送ID为 `assetID` 的资产的`amount`单位到地址“to”。“金额”是以资产的最小增量来计算的。对于AVAX，这是1 nAVAX \(1 AVAX的十亿分之一。\)    Sends `amount` units of asset with ID `assetID` to address `to`. `amount` is denominated in the smallest increment of the asset. For AVAX this is 1 nAVAX \(one billionth of 1 AVAX.\)
-* `to` is the X-Chain address the asset is sent to.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* 发送ID为 `assetID` 的资产的`amount`数量单位到地址`to`。`amount`是以资产的最小增量来计算的。对于AVAX，最小增量为1 nAVAX \(1 AVAX的十亿分之一。\)    
+* `to` 是资产被发送到的X链地址。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * You can attach a `memo`, whose length can be up to 256 bytes.
 * The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the asset being sent.\)
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzgzNDI5MywtMTk0ODgyOTg3NiwyMD
+eyJoaXN0b3J5IjpbMTM3MzU4MDg1MywtMTk0ODgyOTg3NiwyMD
 kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
 Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
 UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
