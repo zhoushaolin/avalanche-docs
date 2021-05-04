@@ -1422,7 +1422,7 @@ avm.sendMultiple({
 ```
 
 * `outputs` 是一个对象字面量数组，每个数组包含`assetID`， `amount`和`to`。
-* `memo` is an optional message, whose length can be up to 256 bytes.
+* `memo` 可选消息，最大长度为256字节。
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the asset being sent.\)
@@ -1707,10 +1707,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMj
-cyMDQzNzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4
-MDM0NSwtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1Mj
-IsLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3
-MzE5MDAzNiwxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMC
-wxNjIwMDI3MzIwXX0=
+eyJoaXN0b3J5IjpbMTEzNTA0NDI5OCwyMTA5NDE2ODE2LC0xOD
+k5NDQxMTQzLDEyNzIwNDM3NDcsMjExOTUwNTEyMywtMTAzMDU5
+NzEzMiwxNzgwNDgwMzQ1LC02OTYwMDMxMzcsMTk5ODI0NjYwMi
+wtMTQxNzg0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0OTEzNyw3
+OTMxMDEzODAsNDczMTkwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OT
+U5LDk0NjEyNjMwLDE2MjAwMjczMjBdfQ==
 -->
