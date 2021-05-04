@@ -1364,7 +1364,7 @@ avm.send({
 * `to` 是资产被发送到的X链地址。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* 你可以联系一个`memo`, 字符数最多可达到256个。
+* 你可以附加一个`memo`, 最多可达到256个字节。
 * 资产由`username`控制的地址发出。\(  当然, 该用户至少要持有足量的余额\)
 
 #### **调用示例**
@@ -1664,7 +1664,7 @@ wallet.sendMultiple({
 * 你可以附加一个`memo`，它的长度可以达到256字节。
 * 资产是从用户`username`控制的地址发送的。\(当然，该用户将需要至少持有正在发送的资产的余额。\)
 
-#### **dia**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1693,7 +1693,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X/wallet
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY0MDExOTEsLTE5NDg4Mjk4NzYsMj
-A5MDQ3NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMTQzLDEyNzIw
-NDM3NDcsMjExOTUwNTEyMywtMTAzMDU5NzEzMiwxNzgwNDgwMz
-Q1LC02OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwt
-MTQ0Mjg2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMT
-kwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2
-MjAwMjczMjBdfQ==
+eyJoaXN0b3J5IjpbLTc1NzI4NTI3MSwtMTk0ODgyOTg3NiwyMD
+kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
+Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
+UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
+NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
+AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
+MDAyNzMyMF19
 -->
