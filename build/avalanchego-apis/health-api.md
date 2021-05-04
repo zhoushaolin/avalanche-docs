@@ -39,9 +39,9 @@ health.getLiveness() -> {
 ```
 
 `healthy`显示为“true”, 如果节点的所有健康检查都通过。
-`checks` is a list of health check responses.
+`checks`是运行状况检查响应列表。
 
-* A check response may include a `message` with additional context.
+* 一个校验响应可能包含一个带有附加上下文的`message` 。
 * A check response may include an `error` describing why the check failed.
 * `timestamp` is the timestamp of the last health check.
 * `duration` is the execution duration of the last health check, in nanoseconds.
@@ -117,5 +117,5 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTQxMjM1XX0=
+eyJoaXN0b3J5IjpbOTU2MTEyMzU1XX0=
 -->
