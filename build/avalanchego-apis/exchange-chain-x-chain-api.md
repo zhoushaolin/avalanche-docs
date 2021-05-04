@@ -1660,11 +1660,11 @@ wallet.sendMultiple({
 
 * `outputs` 是一个对象字面量数组，每个数组包含`assetID`， `amount`和`to`。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* You can attach a `memo`, whose length can be up to 256 bytes.
-* The asset is sent from addresses controlled by user `username`. \(Of course, that user will need to hold at least the balance of the asset being sent.\)
+* `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* 你可以附加一个`memo`，它的长度可以达到256字节。
+* 资产是从用户`username`控制的地址发送的。\(当然，该用户将需要至少持有正在发送的资产的余额。\)
 
-#### **Example Call**
+#### **dia**
 
 ```cpp
 curl -X POST --data '{
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjA1OTczOCwtMTk0ODgyOTg3NiwyMD
-kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
-Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
-UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
-NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
-AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
-MDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTE0NTY0MDExOTEsLTE5NDg4Mjk4NzYsMj
+A5MDQ3NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMTQzLDEyNzIw
+NDM3NDcsMjExOTUwNTEyMywtMTAzMDU5NzEzMiwxNzgwNDgwMz
+Q1LC02OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwt
+MTQ0Mjg2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMT
+kwMDM2LDE1OTQ2NTMyNDYsMTExMzg2OTU5LDk0NjEyNjMwLDE2
+MjAwMjczMjBdfQ==
 -->
