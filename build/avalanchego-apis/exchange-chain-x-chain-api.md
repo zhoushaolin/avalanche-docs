@@ -1527,7 +1527,7 @@ curl -X POST --data '{
 
 ### wallet.issueTx
 
-Send a signed transaction to the network and assume the tx will be accepted. `encoding` specifies the format of the signed transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
+向网络发送一个验签事务，并假设tx将被接受。`encoding`指定已验签事务的格式。可以是“cb58”或 “hex”。默认为“cb58”。  Send a signed transaction to the network and assume the tx will be accepted. `encoding` specifies the format of the signed transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
 This call is made to the wallet API endpoint:
 
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDExODg1OSwtMTk0ODgyOTg3NiwyMD
-kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
-Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
-UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
-NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
-AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
-MDAyNzMyMF19
+eyJoaXN0b3J5IjpbMzQzMjUwOTUzLC0xOTQ4ODI5ODc2LDIwOT
+A0NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQz
+NzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NS
+wtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0
+NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MD
+AzNiwxNTk0NjUzMjQ2LDExMTM4Njk1OSw5NDYxMjYzMCwxNjIw
+MDI3MzIwXX0=
 -->
