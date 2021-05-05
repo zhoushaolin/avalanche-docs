@@ -58,7 +58,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/ipcs
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -71,9 +71,9 @@ curl -X POST --data '{
 }
 ```
 
-### ipcs.unpublishBlockchain
+### ipcs.取消发布区块链
 
-Deregister a blockchain so that it no longer publishes to a Unix domain socket.
+注销区块链，使其不再发布到Unix域套接字。
 
 #### **Signature**
 
@@ -109,7 +109,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTg2MTY0MSwxMjUwNDEyNTM0LC01Nj
-E1NzQyMTcsLTE5MTI5NzA2MDUsLTQxODY1MTM1MSwxOTAxOTM3
-Mzc1XX0=
+eyJoaXN0b3J5IjpbLTE3MTI2NDkzODAsLTQzOTg2MTY0MSwxMj
+UwNDEyNTM0LC01NjE1NzQyMTcsLTE5MTI5NzA2MDUsLTQxODY1
+MTM1MSwxOTAxOTM3Mzc1XX0=
 -->
