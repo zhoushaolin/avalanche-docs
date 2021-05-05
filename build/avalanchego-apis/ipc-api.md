@@ -8,6 +8,7 @@ The IPC API allows users to create UNIX domain sockets for blockchains to publis
 
 ## IPC 消息格式
 
+套接字消息由一个BigEndian格式的64位整数后面跟着那么多字节组成。
 Socket messages consist of a 64bit integer in BigEndian format followed by that many bytes.
 
 Example:
@@ -111,5 +112,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODY1MTM1MSwxOTAxOTM3Mzc1XX0=
+eyJoaXN0b3J5IjpbLTE0MzQxNTE5NjAsLTQxODY1MTM1MSwxOT
+AxOTM3Mzc1XX0=
 -->
