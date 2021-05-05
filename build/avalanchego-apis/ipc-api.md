@@ -6,9 +6,7 @@ IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当�
 
 ## IPC 消息格式
 
-套接字消息由一个BigEndian格式的64位整数组成, 后面跟着非常duo字节。
-
-Socket messages consist of a 64bit integer in BigEndian format followed by that many bytes.
+套接字消息由一个BigEndian格式的64位整数组成, 后面跟着非常多字节。
 
 示例:
 
@@ -19,7 +17,7 @@ Writes to the socket:
     [0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x04, 0x41, 0x76, 0x61, 0x78]
 ```
 
-## IPC Socket URL Format
+## IPC 套接字URL格式
 
 The names of the sockets are of the form `<network_id>-<chain_id>-<event_type>` where `<event_type>` is either `consensus` or `decisions`. The consensus socket receives verticies and blocks and while the decisions socket recives individual transactions.
 
@@ -111,6 +109,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA3NDg0NzIsLTE5MTI5NzA2MDUsLT
+eyJoaXN0b3J5IjpbLTExMTc1NjI2NjAsLTE5MTI5NzA2MDUsLT
 QxODY1MTM1MSwxOTAxOTM3Mzc1XX0=
 -->
