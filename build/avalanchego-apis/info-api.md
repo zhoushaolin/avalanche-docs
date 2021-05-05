@@ -209,19 +209,19 @@ curl -X POST --data '{
 }
 ```
 
-### info.isBootstrapped
+### 引导程序
 
-检查给定链是否完成了引导Check whether a given chain is done bootstrapping
+检查给定链是否完成了引导。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.isBootstrapped({chain: string}) -> {isBootstrapped: bool}
 ```
 
-`chain` is the ID or alias of a chain.
+`chain`是链的ID或别名。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzkzODM1MiwxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbMTM3NTEzNjY4MywxOTgzNjkzODk4XX0=
 -->
