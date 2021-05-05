@@ -6,7 +6,7 @@ IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当�
 
 ## IPC 消息格式
 
-套接字消息由一个BigEndian格式的64位整数组成, 后面跟着那么多字节组成。
+套接字消息由一个BigEndian格式的64位整数组成, 后面跟着非常duo字节。
 
 Socket messages consist of a 64bit integer in BigEndian format followed by that many bytes.
 
@@ -111,6 +111,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTI2ODk1NSwtMTkxMjk3MDYwNSwtND
-E4NjUxMzUxLDE5MDE5MzczNzVdfQ==
+eyJoaXN0b3J5IjpbLTIwNzA3NDg0NzIsLTE5MTI5NzA2MDUsLT
+QxODY1MTM1MSwxOTAxOTM3Mzc1XX0=
 -->
