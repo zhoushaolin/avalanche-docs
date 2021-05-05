@@ -181,13 +181,13 @@ curl -X POST --data '{
 
 获取此节点的版本。
 
-#### ****
+#### **签名**
 
 ```cpp
 info.getNodeVersion() -> {version: string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -197,7 +197,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -211,7 +211,7 @@ curl -X POST --data '{
 
 ### info.isBootstrapped
 
-Check whether a given chain is done bootstrapping
+检查给定链是否完成了引导Check whether a given chain is done bootstrapping
 
 #### **Signature**
 
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODgzMjE1NCwxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbLTY2MzkzODM1MiwxOTgzNjkzODk4XX0=
 -->
