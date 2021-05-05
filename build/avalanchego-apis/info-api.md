@@ -85,13 +85,13 @@ curl -X POST --data '{
 
 获取此节点参与的网络的名称。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getNetworkName() -> {networkName:string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -101,7 +101,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -356,5 +356,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE2MjA2OTMsMTk4MzY5Mzg5OF19
+eyJoaXN0b3J5IjpbLTExMjQwOTIxNzEsLTE3NDE2MjA2OTMsMT
+k4MzY5Mzg5OF19
 -->
