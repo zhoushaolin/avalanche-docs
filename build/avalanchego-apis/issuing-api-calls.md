@@ -11,10 +11,9 @@
 这里
 
 * `node-ip`是调用所要访问的节点的IP地址。
-* `http-port` 是节点监听HTTP调用的端口。这是由[command-line argument](../references/command-line-interface.md#http-server) `http-port`指定的(../references/command-line-interface.md#http-server)' http-port ' \(默认值' 9650 ' \)。
-is the port the node listens on for HTTP calls. This is specified by [command-line argument](../references/command-line-interface.md#http-server) `http-port` \(default value `9650`\).
+* `http-port` 是节点监听HTTP调用的端口。这是由[command-line argument](../references/command-line-interface.md#http-server) `http-port`指定的\(默认值`9650`\)。
 
-For example, the base URL might look like this: `127.0.0.1:9650`.
+例如，基础URL可能是这样的`127.0.0.1:9650`。    
 
 Each API’s documentation specifies what endpoint a user should make calls to in order to access the API’s methods.
 
@@ -103,5 +102,5 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzM2MjU0OCwtNTc0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbLTI3NzMwOTAxNSwtNTc0NTg5MTgyXX0=
 -->
