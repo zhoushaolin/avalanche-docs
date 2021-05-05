@@ -133,7 +133,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应shi li**
+#### **响应示例**
 
 ```cpp
 {
@@ -145,17 +145,17 @@ curl -X POST --data '{
 }
 ```
 
-### info.getNodeIP
+### 获取节点IP
 
-Get the IP of this node.
+获取此节点的IP。
 
-#### **Signature**
+#### **签名**
 
 ```text
 info.getNodeIP() -> {ip: string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -165,7 +165,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -177,11 +177,11 @@ curl -X POST --data '{
 }
 ```
 
-### info.getNodeVersion
+### 获取节点版本
 
-Get the version of this node.
+获取此节点的版本。
 
-#### **Signature**
+#### ****
 
 ```cpp
 info.getNodeVersion() -> {version: string}
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzgxOTE5MiwxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbMTczODgzMjE1NCwxOTgzNjkzODk4XX0=
 -->
