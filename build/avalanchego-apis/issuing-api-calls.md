@@ -4,6 +4,7 @@
 
 ### 端点
 
+对端点(URL)进行API调用。URL的基础总是:
 An API call is made to an endpoint, which is a URL. The base of the URL is always:
 
 `[node-ip]:[http-port]`
@@ -102,5 +103,5 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTQ3MTBdfQ==
+eyJoaXN0b3J5IjpbLTU3NDU4OTE4Ml19
 -->
