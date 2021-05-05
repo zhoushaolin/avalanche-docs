@@ -113,17 +113,17 @@ curl -X POST --data '{
 }
 ```
 
-### info.getNodeID
+### 获取节点ID
 
-Get the ID of this node.
+获取此节点的ID。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getNodeID() -> {nodeID: string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -133,7 +133,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应shi li**
 
 ```cpp
 {
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUwNjAxODYsMTk4MzY5Mzg5OF19
+eyJoaXN0b3J5IjpbLTM5MzgxOTE5MiwxOTgzNjkzODk4XX0=
 -->
