@@ -19,13 +19,11 @@ Writes to the socket:
 
 ## IPC 套接字URL格式
 
-套接字的名称形式为`<network_id>-<chain_id>-<event_type>`，其中`<event_type>`要么是`consensus`, 要么是`decisions`。共识套接字接收垂直和块，而决策套接字接收单个事务。
+套接字的名称形式为`<network_id>-<chain_id>-<event_type>`，其中`<event_type>`要么是`consensus`, 要么是`decisions`。共识套接字接收顶点和块，而决策套接字接收单个事务。
 
-The names of the sockets are of the form `<network_id>-<chain_id>-<event_type>` where `<event_type>` is either `consensus` or `decisions`. The consensus socket receives verticies and blocks and while the decisions socket recives individual transactions.
+## 格式
 
-## Format
-
-This API uses the `json 2.0` RPC format.
+这个API使用`json 2.0`  RPC格式。
 
 ## Endpoint
 
@@ -111,6 +109,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTU3NDIxNywtMTkxMjk3MDYwNSwtND
-E4NjUxMzUxLDE5MDE5MzczNzVdfQ==
+eyJoaXN0b3J5IjpbMTI1MDQxMjUzNCwtNTYxNTc0MjE3LC0xOT
+EyOTcwNjA1LC00MTg2NTEzNTEsMTkwMTkzNzM3NV19
 -->
