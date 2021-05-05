@@ -1,4 +1,4 @@
-# Info API
+# 信息 API
 
 This API can be used to access basic information about the node.
 
@@ -355,3 +355,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ0NzkwOTg2OF19
+-->
