@@ -14,7 +14,7 @@
 
 ## API 方法
 
-### 获取区块链ID信息
+### 获取区块链ID
 
 给定区块链的别名，获取它的ID。\(见[`admin.aliasChain`](admin-api.md#admin-aliaschain)\)。  
 
@@ -49,7 +49,7 @@ curl -X POST --data '{
 }
 ```
 
-### 获取网络ID信息
+### 获取网络ID
 
 获取此节点参与的网络的ID。
 
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzY5Mzg5OF19
+eyJoaXN0b3J5IjpbLTIxNDUwNjAxODYsMTk4MzY5Mzg5OF19
 -->
