@@ -1,8 +1,8 @@
-# Issuing API Calls
+# 发布 API 调用
 
-This guide explains how to make calls to APIs exposed by Avalanche nodes.
+本指南解释了如何调用Avalanche节点公开的api。This guide explains how to make calls to APIs exposed by Avalanche nodes.
 
-### Endpoint <a id="endpoint"></a>
+### 端点
 
 An API call is made to an endpoint, which is a URL. The base of the URL is always:
 
@@ -101,3 +101,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTMwOTQ3MTBdfQ==
+-->
