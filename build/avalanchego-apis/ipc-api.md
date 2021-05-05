@@ -1,5 +1,7 @@
 # IPC API
 
+IPC API允许用户创建供区块链发布的UNIX域套接字。当区块链接受一个顶点/块时，它将把它发布到一个套接字中，其中包含的决策将被发布到另一个套接字中。
+
 The IPC API allows users to create UNIX domain sockets for blockchains to publish to. When the blockchain accepts a vertex/block it will publish it to a socket and the decisions contained inside will be published to another.
 
 A node will only expose this API if it is started with [command line argument](../references/command-line-interface.md) `api-ipcs-enabled=true`.
@@ -108,3 +110,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTkwMTkzNzM3NV19
+-->
