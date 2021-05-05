@@ -41,9 +41,9 @@ Writes to the socket:
 ipcs.publishBlockchain({blockchainID: string}) -> {consensusURL: string, decisionsURL: string}
 ```
 
-* `blockchainID` 是将发布接受的顶点的区块链。is the blockchain that will publish accepted vertices.
-* `consensusURL` is the path of the Unix domain socket the vertices are published to.
-* `decisionsURL` is the path of the Unix domain socket the transactions are published to.
+* `blockchainID` 是将发布接受的顶点的区块链。
+* `consensusURL` 是发布顶点的Unix域套接字的路径。
+* `decisionsURL` 是发布事务的Unix域套接字的路径。
 
 #### **调用示例**
 
@@ -109,7 +109,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg3MzIwMTcsMTI1MDQxMjUzNCwtNT
-YxNTc0MjE3LC0xOTEyOTcwNjA1LC00MTg2NTEzNTEsMTkwMTkz
-NzM3NV19
+eyJoaXN0b3J5IjpbLTQzOTg2MTY0MSwxMjUwNDEyNTM0LC01Nj
+E1NzQyMTcsLTE5MTI5NzA2MDUsLTQxODY1MTM1MSwxOTAxOTM3
+Mzc1XX0=
 -->
