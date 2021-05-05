@@ -6,17 +6,17 @@
 
 这个API使用`json 2.0` RPC格式, 有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。
 
-## Endpoint
+## 端点
 
 ```text
 /ext/info
 ```
 
-## API Methods
+## API 方法
 
 ### info.getBlockchainID
 
-Given a blockchain’s alias, get its ID. \(See [`admin.aliasChain`](admin-api.md#admin-aliaschain).\)
+给定区块链的别名，获取它的ID。\(见[' admin.aliasChain '] (admin-api.md # admin-aliaschain) \)。  Given a blockchain’s alias, get its ID. \(See [`admin.aliasChain`](admin-api.md#admin-aliaschain).\)
 
 #### **Signature**
 
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNDczOTcxXX0=
+eyJoaXN0b3J5IjpbLTE3NTczNzYwMjFdfQ==
 -->
