@@ -234,7 +234,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -248,9 +248,9 @@ curl -X POST --data '{
 
 ### info.peers
 
-Get a description of peer connections.
+获取对等连接的描述。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.peers() -> 
@@ -267,7 +267,7 @@ info.peers() ->
 }
 ```
 
-#### **Example Call**
+#### **调用shi**
 
 ```cpp
 curl -X POST --data '{
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTEzNjY4MywxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbLTY1Mjc3NTM1NCwxOTgzNjkzODk4XX0=
 -->
