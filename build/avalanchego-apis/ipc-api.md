@@ -35,17 +35,17 @@ Writes to the socket:
 
 注册一个区块链，以便它接受的顶点发布到Unix域套接字。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 ipcs.publishBlockchain({blockchainID: string}) -> {consensusURL: string, decisionsURL: string}
 ```
 
-* `blockchainID` is the blockchain that will publish accepted vertices.
+* `blockchainID` 是将发布接受的顶点的区块链。is the blockchain that will publish accepted vertices.
 * `consensusURL` is the path of the Unix domain socket the vertices are published to.
 * `decisionsURL` is the path of the Unix domain socket the transactions are published to.
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -109,7 +109,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODA1NjE3NSwxMjUwNDEyNTM0LC01Nj
-E1NzQyMTcsLTE5MTI5NzA2MDUsLTQxODY1MTM1MSwxOTAxOTM3
-Mzc1XX0=
+eyJoaXN0b3J5IjpbLTExNzg3MzIwMTcsMTI1MDQxMjUzNCwtNT
+YxNTc0MjE3LC0xOTEyOTcwNjA1LC00MTg2NTEzNTEsMTkwMTkz
+NzM3NV19
 -->
