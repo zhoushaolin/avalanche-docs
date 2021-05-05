@@ -51,15 +51,15 @@ curl -X POST --data '{
 
 ### 获取网络ID信息
 
-Get the ID of the network this node is participating in.
+获取此节点参与的网络的ID。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getNetworkID() -> {networkID:int}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -69,7 +69,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -81,7 +81,7 @@ curl -X POST --data '{
 }
 ```
 
-### info.getNetworkName
+### 获取网络名
 
 Get the name of the network this node is participating in.
 
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMzAxNDA2XX0=
+eyJoaXN0b3J5IjpbMTk4MzY5Mzg5OF19
 -->
