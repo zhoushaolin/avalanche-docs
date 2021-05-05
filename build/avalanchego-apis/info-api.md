@@ -83,7 +83,7 @@ curl -X POST --data '{
 
 ### 获取网络名
 
-Get the name of the network this node is participating in.
+获取此节点参与的网络的名称。
 
 #### **Signature**
 
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg5NjA0MjcsMTk4MzY5Mzg5OF19
+eyJoaXN0b3J5IjpbLTE3NDE2MjA2OTMsMTk4MzY5Mzg5OF19
 -->
