@@ -49,7 +49,7 @@ curl -X POST --data '{
 }
 ```
 
-### info.getNetworkID
+### 获取网络ID信息
 
 Get the ID of the network this node is participating in.
 
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMTQ3MjU4XX0=
+eyJoaXN0b3J5IjpbNzEyMzAxNDA2XX0=
 -->
