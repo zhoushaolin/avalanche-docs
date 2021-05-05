@@ -330,9 +330,9 @@ info.getTxFee() ->
 ```
 
 * `creationTxFee`是在网络上创建资产的费用。
-* `txFee` is the fee for making transactions on the network.
+* `txFee`是在网络上进行交易的费用。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -342,7 +342,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjU2OTg1MSwxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbLTE1MTg5NjA0MjcsMTk4MzY5Mzg5OF19
 -->
