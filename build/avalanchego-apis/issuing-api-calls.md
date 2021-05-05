@@ -15,8 +15,7 @@
 
 例如，基础URL可能是这样的: `127.0.0.1:9650`。    
 
-每个API的文档都指定了用户应该调用的端点, 为了访问API的方法，用户应该调用哪个端点。
-Each API’s documentation specifies what endpoint a user should make calls to in order to access the API’s methods.
+每个API的文档都指定了用户应该调用的端点, 以访问API的方法，用户应该调用哪个端点。
 
 ## JSON RPC Formatted APIs
 
@@ -103,5 +102,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODA4MDA0MSwtNTc0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbLTE0NTc3MjAyNDEsMTUwODA4MDA0MSwtNT
+c0NTg5MTgyXX0=
 -->
