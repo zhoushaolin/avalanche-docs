@@ -267,7 +267,7 @@ info.peers() ->
 }
 ```
 
-#### **调用shi**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -277,7 +277,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -315,11 +315,11 @@ curl -X POST --data '{
 }
 ```
 
-### info.getTxFee
+###  获取Tx费用
 
-Get the fees of the network.
+获取网络费用。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getTxFee() -> 
@@ -329,7 +329,7 @@ info.getTxFee() ->
 }
 ```
 
-* `creationTxFee` is the fee for creating assets on the network.
+* `creationTxFee`是在网络上创建资产的费用。
 * `txFee` is the fee for making transactions on the network.
 
 #### **Example Call**
@@ -356,5 +356,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mjc3NTM1NCwxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbLTUwNjU2OTg1MSwxOTgzNjkzODk4XX0=
 -->
