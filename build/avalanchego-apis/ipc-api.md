@@ -25,15 +25,15 @@ Writes to the socket:
 
 这个API使用`json 2.0`  RPC格式。
 
-## Endpoint
+## 端点
 
 `/ext/ipcs`
 
-## Methods
+## 方法
 
-### ipcs.publishBlockchain
+### ipcs.发布区块链
 
-Register a blockchain so it publishes accepted vertices to a Unix domain socket.
+注册一个区块链，以便它接受的顶点发布到Unix域套接字。
 
 #### **Signature**
 
@@ -109,6 +109,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDQxMjUzNCwtNTYxNTc0MjE3LC0xOT
-EyOTcwNjA1LC00MTg2NTEzNTEsMTkwMTkzNzM3NV19
+eyJoaXN0b3J5IjpbMTU3ODA1NjE3NSwxMjUwNDEyNTM0LC01Nj
+E1NzQyMTcsLTE5MTI5NzA2MDUsLTQxODY1MTM1MSwxOTAxOTM3
+Mzc1XX0=
 -->
