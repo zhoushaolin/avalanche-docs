@@ -73,9 +73,11 @@ curl -X POST --data '{
 ```
 
 * `id`是此响应对应的请求的ID。
-* `result`是' getTxStatus '的返回值。
+* `result` 是`getTxStatus`的返回值。
 
-### JSON RPC Error Response
+### JSON RPC 错误响应
+
+如果调用的API方法返回一个错误，那么响应将有一个`error`字段代替`result`。此外，还有一个额外的字段' data '，它包含有关所发生错误的额外信息。
 
 If the API method invoked returns an error then the response will have a field `error` in place of `result`. Additionally, there is an extra field, `data`, which holds additional information about the error that occurred.
 
@@ -102,6 +104,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjQ2MjQwNCwtMTQ1NzcyMDI0MSwxNT
-A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
+eyJoaXN0b3J5IjpbOTQ1MzkwOTIxLC0xNDU3NzIwMjQxLDE1MD
+gwODAwNDEsLTU3NDU4OTE4Ml19
 -->
