@@ -23,14 +23,13 @@
 
 ### 创建JSON RPC请求
 
-假设我们想调用[X-Chain API](exchange-chain-x-chain-api.md)的' getTxStatus '方法。X- chain API文档告诉我们，这个API的端点是“/ext/bc/X”。
+假设我们想调用[X-Chain API](exchange-chain-x-chain-api.md)的`getTxStatus`方法。X链API文档告诉我们，这个API的端点是`/ext/bc/X`。
 
-Suppose we want to call the `getTxStatus` method of the [X-Chain API](exchange-chain-x-chain-api.md). The X-Chain API documentation tells us that the endpoint for this API is `/ext/bc/X`.
-
-That means that the endpoint we send our API call to is:
+这意味着我们发送API调用的端点是:
 
 `[node-ip]:[http-port]/ext/bc/X`
 
+X-Chain API文档告诉我们，“getTxStatus”的签名是:
 The X-Chain API documentation tells us that the signature of `getTxStatus` is:
 
 [`avm.getTxStatus`](exchange-chain-x-chain-api.md#avm-gettxstatus)`(txID:bytes) -> (status:string)`
@@ -104,6 +103,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDEyMDU2MSwtMTQ1NzcyMDI0MSwxNT
-A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
+eyJoaXN0b3J5IjpbNjE4MDYyMTEsLTE0NTc3MjAyNDEsMTUwOD
+A4MDA0MSwtNTc0NTg5MTgyXX0=
 -->
