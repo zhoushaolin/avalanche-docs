@@ -19,11 +19,11 @@
 
 ## JSON RPC 格式化的 API
 
-一些内置API使用[JSON RPC 2.0](https://www.jsonrpc.org/specification) 格式来描述它们的请求和响应。这些API包括平台API和X-Chain API。
+一些内置API使用[JSON RPC 2.0](https://www.jsonrpc.org/specification) 格式来描述它们的请求和响应, 这些API包括平台API和X链API。
 
-Several built-in APIs use the [JSON RPC 2.0](https://www.jsonrpc.org/specification) format to describe their requests and responses. Such APIs include the Platform API and the X-Chain API.
+### 创建JSON RPC请求
 
-### Making a JSON RPC Request
+假设我们想调用[X-Chain API](exchange-chain-x-chain-api.md)的' getTxStatus '方法。X- chain API文档告诉我们，这个API的端点是“/ext/bc/X”。
 
 Suppose we want to call the `getTxStatus` method of the [X-Chain API](exchange-chain-x-chain-api.md). The X-Chain API documentation tells us that the endpoint for this API is `/ext/bc/X`.
 
@@ -104,6 +104,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDU2MTkwOSwtMTQ1NzcyMDI0MSwxNT
+eyJoaXN0b3J5IjpbLTEzMDEyMDU2MSwtMTQ1NzcyMDI0MSwxNT
 A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
 -->
