@@ -97,13 +97,13 @@ curl -X POST --data '{
 
 一些API可能使用JSON RPC 2.0以外的标准来格式化它们的请求和响应。这样的扩展应该在文档中指定如何对它们进行调用和解析响应。
 
-Some APIs may use a standard other than JSON RPC 2.0 to format their requests and responses. Such extension should specify how to make calls and parse responses to them in their documentation.
+## 发送和接收字节
 
-## Sending and Receiving Bytes
+除非另有说明，当字节在API调用/响应中发送时，它们都是[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)表示形式，一种带有校验和的base-58编码
 
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDQ3NjI3MSwtMTQ1NzcyMDI0MSwxNT
-A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
+eyJoaXN0b3J5IjpbNTQ1NzMwMTAzLC0xNDU3NzIwMjQxLDE1MD
+gwODAwNDEsLTU3NDU4OTE4Ml19
 -->
