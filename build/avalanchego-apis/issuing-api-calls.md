@@ -17,7 +17,9 @@
 
 每个API的文档都指定了用户应该调用的端点, 以访问API的方法，用户应该调用哪个端点。
 
-## JSON RPC Formatted APIs
+## JSON RPC 格式化的 API
+
+一些内置api使用[JSON RPC 2.0](https://www.jsonrpc.org/specification)格式来描述它们的请求和响应。这些API包括平台API和X-Chain API。
 
 Several built-in APIs use the [JSON RPC 2.0](https://www.jsonrpc.org/specification) format to describe their requests and responses. Such APIs include the Platform API and the X-Chain API.
 
@@ -102,6 +104,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc3MjAyNDEsMTUwODA4MDA0MSwtNT
-c0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbMTkzMzA2MTIwMSwtMTQ1NzcyMDI0MSwxNT
+A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
 -->
