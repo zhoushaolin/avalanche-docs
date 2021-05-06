@@ -36,9 +36,9 @@ X链API文档告诉我们，`getTxStatus`的签名是:
 在这里:
 
 * 参数`txID`是我们正在获取状态的事务的ID。
-* 返回值`status`是相关事务的状态。Returned value `status` is the status of the transaction in question.
+* 返回值`status`是相关事务的状态。
 
-To call this method, then:
+要调用此方法，则:
 
 ```cpp
 curl -X POST --data '{
@@ -51,8 +51,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-* `jsonrpc` specifies the version of the JSON RPC protocol. \(In practice is always 2.0\)
-* `method` specifies the service \(`avm`\) and method \(`getTxStatus`\) that we want to invoke.
+* `jsonrpc` 指定JSON RPC协议的版本。\(实际上总是2.0\)
+* `method` 指定我们想要调用的服务\(`avm` \)和方法\(' getTxStatus ' \)。
+specifies the service \(`avm`\) and method \(`getTxStatus`\) that we want to invoke.
 * `params` specifies the arguments to the method.
 * `id` is the ID of this request. Request IDs should be unique.
 
@@ -102,6 +103,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA2NDUxMDQsLTE0NTc3MjAyNDEsMT
-UwODA4MDA0MSwtNTc0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbNTQzMjAwMjA1LC0xNDU3NzIwMjQxLDE1MD
+gwODAwNDEsLTU3NDU4OTE4Ml19
 -->
