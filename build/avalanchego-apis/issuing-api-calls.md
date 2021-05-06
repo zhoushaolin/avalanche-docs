@@ -29,15 +29,14 @@
 
 `[node-ip]:[http-port]/ext/bc/X`
 
-X-Chain API文档告诉我们，“getTxStatus”的签名是:
-The X-Chain API documentation tells us that the signature of `getTxStatus` is:
+X链API文档告诉我们，`getTxStatus`的签名是:
 
 [`avm.getTxStatus`](exchange-chain-x-chain-api.md#avm-gettxstatus)`(txID:bytes) -> (status:string)`
 
-where:
+在这里:
 
-* Argument `txID` is the ID of the transaction we’re getting the status of.
-* Returned value `status` is the status of the transaction in question.
+* 参数`txID`是我们正在获取状态的事务的ID。
+* 返回值`status`是相关事务的状态。Returned value `status` is the status of the transaction in question.
 
 To call this method, then:
 
@@ -103,6 +102,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MDYyMTEsLTE0NTc3MjAyNDEsMTUwOD
-A4MDA0MSwtNTc0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbLTExOTA2NDUxMDQsLTE0NTc3MjAyNDEsMT
+UwODA4MDA0MSwtNTc0NTg5MTgyXX0=
 -->
