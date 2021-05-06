@@ -79,7 +79,7 @@ curl -X POST --data '{
 
 如果调用的API方法返回一个错误，那么响应将有一个`error`字段代替`result`。此外，还有一个额外的字段`data`，它包含有关所发生错误的额外信息。
 
-Such a response would look like:
+这样的反应看起来是这样的:
 
 ```cpp
 {
@@ -93,7 +93,9 @@ Such a response would look like:
 }
 ```
 
-## Other API Formats
+## 其他API 格式
+
+一些API可能使用JSON RPC 2.0以外的标准来格式化它们的请求和响应。这样的扩展应该在文档中指定如何对它们进行调用和解析响应。
 
 Some APIs may use a standard other than JSON RPC 2.0 to format their requests and responses. Such extension should specify how to make calls and parse responses to them in their documentation.
 
@@ -102,6 +104,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgwMjgxNjksLTE0NTc3MjAyNDEsMT
-UwODA4MDA0MSwtNTc0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbLTI4MDQ3NjI3MSwtMTQ1NzcyMDI0MSwxNT
+A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
 -->
