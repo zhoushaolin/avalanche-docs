@@ -52,10 +52,9 @@ curl -X POST --data '{
 ```
 
 * `jsonrpc` 指定JSON RPC协议的版本。\(实际上总是2.0\)
-* `method` 指定我们想要调用的服务\(`avm` \)和方法\(' getTxStatus ' \)。
-specifies the service \(`avm`\) and method \(`getTxStatus`\) that we want to invoke.
-* `params` specifies the arguments to the method.
-* `id` is the ID of this request. Request IDs should be unique.
+* `method` 指定我们想要调用的服务\(`avm` \)和方法\(`getTxStatus`\)。
+* `params` 指定方法的参数。
+* `id` 是此请求的ID, 请求ID应该是唯一的。 is the ID of this request. Request IDs should be unique.
 
 That’s it!
 
@@ -103,6 +102,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMjAwMjA1LC0xNDU3NzIwMjQxLDE1MD
+eyJoaXN0b3J5IjpbOTgwMTQ1OTU0LC0xNDU3NzIwMjQxLDE1MD
 gwODAwNDEsLTU3NDU4OTE4Ml19
 -->
