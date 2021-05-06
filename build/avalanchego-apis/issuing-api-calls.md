@@ -54,13 +54,13 @@ curl -X POST --data '{
 * `jsonrpc` 指定JSON RPC协议的版本。\(实际上总是2.0\)
 * `method` 指定我们想要调用的服务\(`avm` \)和方法\(`getTxStatus`\)。
 * `params` 指定方法的参数。
-* `id` 是此请求的ID, 请求ID应该是唯一的。 is the ID of this request. Request IDs should be unique.
+* `id` 是此请求的ID, 请求的ID是唯一的。
 
-That’s it!
+就是这样!
 
-### JSON RPC Success Response
+### JSON RPC 成功响应
 
-If the call is successful, the response will look like this:
+如果调用成功，响应将如下所示:
 
 ```cpp
 {
@@ -72,8 +72,8 @@ If the call is successful, the response will look like this:
 }
 ```
 
-* `id` is the ID of the request that this response corresponds to.
-* `result` is the returned values of `getTxStatus`.
+* `id`是此响应对应的请求的ID。
+* `result`是' getTxStatus '的返回值。
 
 ### JSON RPC Error Response
 
@@ -102,6 +102,6 @@ Some APIs may use a standard other than JSON RPC 2.0 to format their requests an
 Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMTQ1OTU0LC0xNDU3NzIwMjQxLDE1MD
-gwODAwNDEsLTU3NDU4OTE4Ml19
+eyJoaXN0b3J5IjpbLTg2MjQ2MjQwNCwtMTQ1NzcyMDI0MSwxNT
+A4MDgwMDQxLC01NzQ1ODkxODJdfQ==
 -->
