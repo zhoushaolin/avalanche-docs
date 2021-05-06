@@ -99,11 +99,10 @@ curl -X POST --data '{
 
 ## 发送和接收字节
 
-除非另有说明，当字节在API调用/响应中发送时，它们都是以[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) 表示的，这是一种带有校验和的base-58编码
+除非另有说明，当字节在API调用/响应中发送时，它们都是以[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) 表示的，这是一种带有校验和的base-58编码。
 
-Unless otherwise noted, when bytes are sent in an API call/response, they are in [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) representation, a base-58 encoding with a checksum
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODA3Mjk3LC0xNDU3NzIwMjQxLDE1MD
-gwODAwNDEsLTU3NDU4OTE4Ml19
+eyJoaXN0b3J5IjpbLTE2MDAxNjc1MTksLTE0NTc3MjAyNDEsMT
+UwODA4MDA0MSwtNTc0NTg5MTgyXX0=
 -->
