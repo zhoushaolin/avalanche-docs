@@ -161,10 +161,9 @@ keystore.importUser(
 ) -> {success:bool}
 ```
 
-`encoding` 指定编码用户数据的字符串格式。可以是“cb58” 或hex。默认为“cb58”。
-specifies the format of the string encoding user data . Can be either “cb58” or “hex”. Defaults to “cb58”.
+`encoding` 指定编码用户数据的字符串格式, 可以是“cb58” 或“hex”。默认为“cb58”。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -179,7 +178,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -191,17 +190,17 @@ curl -X POST --data '{
 }
 ```
 
-### keystore.listUsers
+### 密钥库用户列表
 
-List the users in this keystore.
+列出此密钥库中的用户。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.ListUsers() -> {users:[]string}
 ```
 
-#### **Example Call**
+#### **调用shi li**
 
 ```cpp
 curl -X POST --data '{
@@ -226,6 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzcyOTExMSwtOTIzNDEyMzk5LC0zNz
+eyJoaXN0b3J5IjpbLTk0MzIyNDQ3MSwtOTIzNDEyMzk5LC0zNz
 gwNDI3MV19
 -->
