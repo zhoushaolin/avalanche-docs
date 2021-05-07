@@ -8,15 +8,15 @@ _**您应该只在您所操作的节点上创建一个密钥存储用户，因�
 
 ## 格式
 
-This API uses the `json 2.0` API format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md).
+该API使用`json 2.0`API格式, 有关JSON RPC调用的更多信息，请参见这里 [here](issuing-api-calls.md)。
 
-## Endpoint
+## 端点
 
 ```text
 /ext/keystore
 ```
 
-## Methods
+## 方法
 
 ### keystore.createUser
 
@@ -225,6 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MjYxMjA1LC05MjM0MTIzOTksLTM3OD
-A0MjcxXX0=
+eyJoaXN0b3J5IjpbLTE1NjY4MDA1NTksLTkyMzQxMjM5OSwtMz
+c4MDQyNzFdfQ==
 -->
