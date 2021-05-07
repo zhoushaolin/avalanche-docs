@@ -64,15 +64,15 @@ curl -X POST --data '{
 
 ### 密钥库删除用户
 
-删除yi ge
+删除一个用户。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.deleteUser({username: string, password:string}) -> {success: bool}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -86,7 +86,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -96,7 +96,9 @@ curl -X POST --data '{
 }
 ```
 
-### keystore.exportUser
+### 密钥库导出用户
+
+导出一个用户, 用户可以通过[`keystore.importUser`](keystore-api.md#keystore-importuser)导入到另一个节点。用户的密码保持加密。
 
 Export a user. The user can be imported to another node with [`keystore.importUser`](keystore-api.md#keystore-importuser). The user’s password remains encrypted.
 
@@ -225,6 +227,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIzMTk0MDMsLTkyMzQxMjM5OSwtMz
-c4MDQyNzFdfQ==
+eyJoaXN0b3J5IjpbNTU1NTcwOTgyLC05MjM0MTIzOTksLTM3OD
+A0MjcxXX0=
 -->
