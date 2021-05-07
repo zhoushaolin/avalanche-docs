@@ -20,7 +20,7 @@
 
 委托者质押AVAX并指定一个验证者(被委托者)来代表他们进行验证。根据委托给他们的利益比例，被其他验证者抽样的可能性增加。
 
-代表向代表收取费用;前者会从委托者的验证奖励中获得一定比例的报酬(如果有的话)。委托所持有的交易不收取任何费用。
+被委托者向委托者收取费用;前者会从委托者的验证奖励中获得一定比例的报酬(如果有的话)。委托所持有的交易不收取任何费用。
 The delegatee charges a fee to the delegator; the former receives a percentage of the delegator’s validation reward \(if any.\) A transaction that delegates stake has no fee.
 
 The delegation period must be a subset of the period that the delegatee validates the Primary Network.
@@ -1804,5 +1804,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4ODY5ODc3LDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbMTk1NDcyODY1MCw5MjE2OTkzOTldfQ==
 -->
