@@ -200,7 +200,7 @@ curl -X POST --data '{
 keystore.ListUsers() -> {users:[]string}
 ```
 
-#### **调用shi li**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -210,7 +210,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -225,6 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzIyNDQ3MSwtOTIzNDEyMzk5LC0zNz
+eyJoaXN0b3J5IjpbMTk1Mzg0NjI5MCwtOTIzNDEyMzk5LC0zNz
 gwNDI3MV19
 -->
