@@ -1,10 +1,8 @@
 # 密钥存储库API
 
-每个节点都有一个内置的密钥库, 客户端在密钥存储库中创建用户，这些密钥存储库充当与区块链交互时使用的身份。密钥存储库存在于节点级别，因此如果您在一个节点上创建一个用户，它在该节点上存在_only_。但是，可以使用此API导入和导出用户。
+每个节点都有一个内置的密钥库, 客户端在密钥存储库中创建用户，这些密钥存储库充当与区块链交互时使用的身份。密钥存储库存在于节点级别，因此如果您在一个节点上创建一个用户，它就只在该节点上存在。但是，可以使用此API导入和导出用户。
 
-Every node has a built-in keystore. Clients create users on the keystore, which act as identities to be used when interacting with blockchains. A keystore exists at the node level, so if you create a user on a node it exists _only_ on that node. However, users may be imported and exported using this API.
-
-_**You should only create a keystore user on a node that you operate, as the node operator has access to your plaintext password.**_
+_**您应该只在您所操作的节点上创建一个密钥存储用户，因为节点操作员可以访问您的明文密码。**_
 
 For validation and delegation on main net, you should issue transactions through [the wallet](../tutorials/nodes-and-staking/staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md). That way control keys for your funds won't be stored on the node, which significantly lowers the risk should a computer running a node be compromised.
 
@@ -227,5 +225,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODA0MjcxXX0=
+eyJoaXN0b3J5IjpbMTQ1ODk0MTM1OSwtMzc4MDQyNzFdfQ==
 -->
