@@ -146,9 +146,9 @@ curl -X POST --data '{
 
 ### 密钥库导入用户
 
-Import a user. `password` must match the user’s password. `username` doesn’t have to match the username `user` had when it was exported.
+导入用户, `password`必须与用户的密码匹配, `username`不需要匹配`user`在导出时拥有的用户名。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.importUser(
@@ -161,7 +161,8 @@ keystore.importUser(
 ) -> {success:bool}
 ```
 
-`encoding` specifies the format of the string encoding user data . Can be either “cb58” or “hex”. Defaults to “cb58”.
+`encoding` 指定编码用户数据的字符串格式。可以是“cb58” 或hex。默认为“cb58”。
+specifies the format of the string encoding user data . Can be either “cb58” or “hex”. Defaults to “cb58”.
 
 #### **Example Call**
 
@@ -225,6 +226,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMjc2MTk4LC05MjM0MTIzOTksLTM3OD
-A0MjcxXX0=
+eyJoaXN0b3J5IjpbLTQwMzcyOTExMSwtOTIzNDEyMzk5LC0zNz
+gwNDI3MV19
 -->
