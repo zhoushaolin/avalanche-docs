@@ -1,20 +1,18 @@
 # 平台链 \(P链\) API
 
-这个API允许客户端与[P-Chain](.. ./learn/platform-overview/#platform-chain-p-chain)交互，它维护Avalanche的[validator](../../learn/platform-overview/ stak.md #validators)设置和处理区块链创建。
+这个API允许客户端与[P-Chain](../../learn/platform-overview/#platform-chain-p-chain)交互，它维护Avalanche的[validator](../../learn/platform-overview/staking.md#validators)设置和处理区块链的创建。
 
-This API allows clients to interact with the [P-Chain](../../learn/platform-overview/#platform-chain-p-chain), which maintains Avalanche’s [validator](../../learn/platform-overview/staking.md#validators) set and handles blockchain creation.
-
-## Endpoint
+## 端点
 
 ```cpp
 /ext/P
 ```
 
-## Format
+## 格式
 
-This API uses the `json 2.0` RPC format.
+这个API使用`json 2.0`RPC格式。
 
-## Methods
+## 方法
 
 ### platform.addDelegator
 
@@ -1805,5 +1803,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDk0ODEzN119
+eyJoaXN0b3J5IjpbLTk2Nzk1MDU1NF19
 -->
