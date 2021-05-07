@@ -8,20 +8,21 @@
 /ext/metrics
 ```
 
-## Usage
+## 惯例
 
-To get the node metrics:
+要获取节点指标:
 
 ```cpp
 curl -X POST 127.0.0.1:9650/ext/metrics
 ```
 
-## Format
+## 格式
 
+这个API产生了Prometheus兼容的指标。请参阅[这里](https://github.com/prometheus/docs/blob/master/content/docs/instrumenting/exposition_formats.md)以获得有关普罗米修斯格式的信息。
 This API produces Prometheus compatible metrics. See [here](https://github.com/prometheus/docs/blob/master/content/docs/instrumenting/exposition_formats.md) for information on Prometheus’ formatting.
 
 [Here](../tutorials/nodes-and-staking/setting-up-node-monitoring.md) is a tutorial that shows how to set up Prometheus and Grafana to monitor AvalancheGo node using the Metrics API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc1OTEwNTBdfQ==
+eyJoaXN0b3J5IjpbLTExNzI3NjY2MDhdfQ==
 -->
