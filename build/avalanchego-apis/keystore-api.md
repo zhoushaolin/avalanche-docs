@@ -4,6 +4,8 @@
 
 _**您应该只在您所操作的节点上创建一个密钥存储用户，因为节点操作员可以访问您的明文密码。**_
 
+对于主网上的验证和委托，你应该通过钱包[the wallet](../tutorials/nodes-and-staking/staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md)发布交易。这样一来，你的资金控制键就不会存储在节点上，这大大降低了运行节点的计算机受到威胁的风险。
+
 For validation and delegation on main net, you should issue transactions through [the wallet](../tutorials/nodes-and-staking/staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md). That way control keys for your funds won't be stored on the node, which significantly lowers the risk should a computer running a node be compromised.
 
 ## Format
@@ -225,5 +227,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODk0MTM1OSwtMzc4MDQyNzFdfQ==
+eyJoaXN0b3J5IjpbLTc2MjA5MjcwMiwtMzc4MDQyNzFdfQ==
 -->
