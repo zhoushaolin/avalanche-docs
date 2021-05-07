@@ -18,7 +18,7 @@
 
 向主网络添加一个委派器。
 
-委托者持有AVAX并指定一个验证者(被委托者)来代表他们进行验证。根据委托给他们的利益比例，被其他验证者抽样的可能性增加。
+委托者质押AVAX并指定一个验证者(被委托者)来代表他们进行验证。根据委托给他们的利益比例，被其他验证者抽样的可能性增加。
 A delegator stakes AVAX and specifies a validator \(the delegatee\) to validate on their behalf. The delegatee has an increased probability of being sampled by other validators \(weight\) in proportion to the stake delegated to them.
 
 The delegatee charges a fee to the delegator; the former receives a percentage of the delegator’s validation reward \(if any.\) A transaction that delegates stake has no fee.
@@ -1804,5 +1804,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIxOTI1ODldfQ==
+eyJoaXN0b3J5IjpbOTIxNjk5Mzk5XX0=
 -->
