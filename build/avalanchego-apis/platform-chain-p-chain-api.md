@@ -22,8 +22,7 @@
 
 被委托者向委托者收取费用;前者会从委托者的验证奖励中获得一定比例的报酬(如果有的话)。委托所持有的交易不收取任何费用。
 
-委托周期必须是被委托人验证主网络的周期的子集。
-The delegation period must be a subset of the period that the delegatee validates the Primary Network.
+委托周期必须是被委托人验证主网络的子网周期。
 
 Note that once you issue the transaction to add a node as a delegator, there is no way to change the parameters. **You can’t remove a stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 
@@ -1804,5 +1803,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNj
+k5Mzk5XX0=
 -->
