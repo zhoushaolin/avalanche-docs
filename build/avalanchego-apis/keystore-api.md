@@ -6,7 +6,7 @@ _**您应该只在您所操作的节点上创建一个密钥存储用户，因�
 
 对于主网上的验证和委托，你应该通过钱包[the wallet](../tutorials/nodes-and-staking/staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md)发布交易。这样一来，你的资金控制键就不会存储在节点上，这大大降低了运行节点的计算机受到威胁的风险。
 
-## Format
+## 格式
 
 This API uses the `json 2.0` API format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md).
 
@@ -225,5 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzQxMjM5OSwtMzc4MDQyNzFdfQ==
+eyJoaXN0b3J5IjpbNjc5MjYxMjA1LC05MjM0MTIzOTksLTM3OD
+A0MjcxXX0=
 -->
