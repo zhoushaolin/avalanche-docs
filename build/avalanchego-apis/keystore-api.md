@@ -18,11 +18,11 @@ _**您应该只在您所操作的节点上创建一个密钥存储用户，因�
 
 ## 方法
 
-### keystore.createUser
+### 密钥库创建用户
 
-Create a new user with the specified username and password.
+使用指定的用户名和密码创建新用户。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.createUser(
@@ -33,7 +33,7 @@ keystore.createUser(
 ) -> {success:bool}
 ```
 
-* `username` and `password` can be at most 1024 characters.
+* `username`和`password` 最多1024个字符。
 * Your request will be rejected if `password` is too weak. `password` should be at least 8 characters and contain upper and lower case letters as well as numbers and symbols.
 
 #### **Example Call**
@@ -225,6 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY4MDA1NTksLTkyMzQxMjM5OSwtMz
-c4MDQyNzFdfQ==
+eyJoaXN0b3J5IjpbLTMwMTA2MzgwNiwtOTIzNDEyMzk5LC0zNz
+gwNDI3MV19
 -->
