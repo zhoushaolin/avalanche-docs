@@ -100,9 +100,7 @@ curl -X POST --data '{
 
 导出一个用户, 用户可以通过[`keystore.importUser`](keystore-api.md#keystore-importuser)导入到另一个节点。用户的密码保持加密。
 
-Export a user. The user can be imported to another node with [`keystore.importUser`](keystore-api.md#keystore-importuser). The user’s password remains encrypted.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.exportUser(
@@ -117,9 +115,9 @@ keystore.exportUser(
 }
 ```
 
-`encoding` specifies the format of the string encoding user data. Can be either “cb58” or “hex”. Defaults to “cb58”.
+`encoding` 指定编码用户数据的字符串格式。可以是“cb58”或“hex”。默认为“cb58”。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -133,7 +131,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -146,7 +144,7 @@ curl -X POST --data '{
 }
 ```
 
-### keystore.importUser
+### 密钥库导入用户
 
 Import a user. `password` must match the user’s password. `username` doesn’t have to match the username `user` had when it was exported.
 
@@ -227,6 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1NTcwOTgyLC05MjM0MTIzOTksLTM3OD
+eyJoaXN0b3J5IjpbNTEzMjc2MTk4LC05MjM0MTIzOTksLTM3OD
 A0MjcxXX0=
 -->
