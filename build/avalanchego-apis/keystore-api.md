@@ -1,4 +1,6 @@
-# Keystore API
+# 密钥存储库API
+
+每个节点都有一个内置的密钥库, 客户端在密钥存储库中创建用户，这些密钥存储库充当与区块链交互时使用的身份。密钥存储库存在于节点级别，因此如果您在一个节点上创建一个用户，它在该节点上存在_only_。但是，可以使用此API导入和导出用户。
 
 Every node has a built-in keystore. Clients create users on the keystore, which act as identities to be used when interacting with blockchains. A keystore exists at the node level, so if you create a user on a node it exists _only_ on that node. However, users may be imported and exported using this API.
 
@@ -224,3 +226,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM3ODA0MjcxXX0=
+-->
