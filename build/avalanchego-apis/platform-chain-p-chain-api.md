@@ -50,8 +50,8 @@ platform.addDelegator(
 
 * `nodeID` 是要委托的节点的ID。
 * `startTime` 是委托器开始委托的Unix时间。
-* `endTime` is the Unix time when the delegator stops delegating \(and staked AVAX is returned\).
-* `stakeAmount` is the amount of nAVAX the delegator is staking.
+* `endTime` 是Unix时间时，委托器停止委托\(并且质押的AVAX已返回\)。
+* `stakeAmount` 是委托方所押注的nAVAX的数量。
 * `rewardAddress` is the address the validator reward goes to, if there is one.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1801,6 +1801,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MDUyNzQ3LDY0MjI3NjIzMiwtNjYyND
-k2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTEzMDAyODc4NDksNjQyMjc2MjMyLC02Nj
+I0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
