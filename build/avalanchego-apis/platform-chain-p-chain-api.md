@@ -105,8 +105,7 @@ curl -X POST --data '{
 
 请注意，一旦发出事务以添加节点作为验证器，就无法更改参数。**您不能提前移除质押或更改质押金额、节点ID或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord.](https://chat.avalabs.org/)上寻求帮助。
 
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.addValidator(
@@ -129,10 +128,10 @@ platform.addValidator(
 }
 ```
 
-* `nodeID` is the node ID of the validator being added.
-* `startTime` is the Unix time when the validator starts validating the Primary Network.
-* `endTime` is the Unix time when the validator stops validating the Primary Network \(and staked AVAX is returned\).
-* `stakeAmount` is the amount of nAVAX the validator is staking.
+* `nodeID` 是添加的验证器的节点ID。
+* `startTime` 是验证器开始验证主网络的Unix时间。
+* `endTime` 是验证器停止验证主网络的Unix时间(并返回质押的AVAX)。
+* `stakeAmount`是验证qi所押注的nAVAX的数量。
 * `rewardAddress` is the address the validator reward will go to, if there is one.
 * `delegationFeeRate` is the percent fee this validator charges when others delegate stake to them. Up to 4 decimal places allowed; additional decimal places are ignored. Must be between 0 and 100, inclusive. For example, if `delegationFeeRate` is `1.2345` and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
@@ -1800,6 +1799,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTIyMDkxMyw2NDIyNzYyMzIsLTY2Mj
-Q5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbLTE1MzU3NjAwMDQsNjQyMjc2MjMyLC02Nj
+I0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
