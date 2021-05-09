@@ -57,7 +57,7 @@ platform.addDelegator(
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
 * `password` 是 `username`的密码。
-* `txID` 是这个交易的 ID。
+* `txID` 是这个交易 ID。
 
 #### **调用示例**
 
@@ -138,7 +138,7 @@ platform.addValidator(
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
 * `password` 是 `username`的密码。
-* `txID`是这个交易的ID。
+* `txID`是这个交易ID。
 
 #### **调用示例**
 
@@ -210,9 +210,9 @@ platform.addSubnetValidator(
 * `weight` 是用于取样的验证器权重。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` is the user that pays the transaction fee.
-* `password` is `username`‘s password.
-* `txID` is the transaction ID.
+* `username` 是支付交易费用的用户。
+* `password` 是 `username`的密码。
+* `txID` 是这个交易ID.
 
 #### **Example call**
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxNjIwODEsLTkxMjI3NjE1MCwxNTQ3Nz
-k1Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5
-MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNT
+Q3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1
+Myw5MjE2OTkzOTldfQ==
 -->
