@@ -133,7 +133,7 @@ platform.addValidator(
 * `endTime` 是验证器停止验证主网络的Unix时间(并返回质押的AVAX)。
 * `stakeAmount`是验证器所质押的nAVAX的数量。
 * `rewardAddress` 是验证者奖励将到达的地址，如果有的话。
-* `delegationFeeRate` 是该验证者在他人委托质押给他们时收取的费用百分比。最多允许小数点后4位数; 多余的小数点位将被忽略。必须在0和100之间，包括。例如，如果' delegationFeeRate '是' 1.2345 '，并且有人委托给了这个验证器，那么当委托周期结束时，1.2345%的奖励归验证器，剩下的归委托器。is the percent fee this validator charges when others delegate stake to them. Up to 4 decimal places allowed; additional decimal places are ignored. Must be between 0 and 100, inclusive. For example, if `delegationFeeRate` is `1.2345` and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
+* `delegationFeeRate` 是该验证者在他人委托质押给他们时收取的费用百分比。最多允许小数点后4位数; 多余的小数点位将被忽略。必须在0和100之间，包括。例如，如果`delegationFeeRate`是`1.2345`，并且有人委托给了这个验证器，那么当委托周期结束时，1.2345%的奖励归验证器，剩下的归委托器。is the percent fee this validator charges when others delegate stake to them. Up to 4 decimal places allowed; additional decimal places are ignored. Must be between 0 and 100, inclusive. For example, if `delegationFeeRate` is `1.2345` and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that pays the transaction fee.
@@ -1799,6 +1799,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzA2ODQ0NCw2NDIyNzYyMzIsLTY2Mj
-Q5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbNDkzNzgzNzkyLDY0MjI3NjIzMiwtNjYyND
+k2NTUzLDkyMTY5OTM5OV19
 -->
