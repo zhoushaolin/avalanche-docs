@@ -97,6 +97,7 @@ curl -X POST --data '{
 
 将验证器添加到主网络, 你必须质押AVAX。如果节点在验证时足够正确且响应良好，则在锁定周期结束时将获得奖励。在共识期间， 验证者被其他验证者抽样的概率与质押的AVAX的数量成正比。
 
+验证器向委托方收取费用;前者会从委托方的授权奖励中获得一定比例的佣金(如果有的话)。最少的授权费用是2%。添加验证器的事务是免费的。
 The validator charges a fee to delegators; the former receives a percentage of the delegator’s validation reward \(if any.\) The minimum delegation fee is 2%. A transaction that adds a validator has no fee.
 
 The validation period must be between 2 weeks and 1 year.
@@ -1801,6 +1802,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzI5NDI1LDY0MjI3NjIzMiwtNjYyND
-k2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTE0MDM5MTA2ODIsNjQyMjc2MjMyLC02Nj
+I0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
