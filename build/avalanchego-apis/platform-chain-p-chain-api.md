@@ -214,7 +214,7 @@ platform.addSubnetValidator(
 * `password` 是 `username`的密码。
 * `txID` 是这个交易ID.
 
-#### **Example call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -235,7 +235,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example response**
+#### **响应示例**
 
 ```cpp
 {
@@ -248,11 +248,11 @@ curl -X POST --data '{
 }
 ```
 
-### platform.createAddress
+### 平台创建地址
 
-Create a new address controlled by the given user.
+创建一个由给定用户控制的新地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.createAddress({
@@ -261,7 +261,7 @@ platform.createAddress({
 }) -> {address: string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNT
-Q3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1
-Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbNTAwMTc1Nzc0LC0xNzg0MjQ0NTI3LC05MT
+IyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMy
+LC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
