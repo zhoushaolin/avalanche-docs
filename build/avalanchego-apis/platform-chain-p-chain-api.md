@@ -138,9 +138,11 @@ platform.addValidator(
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
 * `password` 是 `username`的密码。
-* `txID` is the transaction ID
+* `txID`是这个交易的ID。
 
-#### **Example Call**
+#### **调用示例**
+
+在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用' $(gdate '代替' $(date ')。如果你没有安装' gdate '，请使用' brew install coreutils '。\)
 
 In this example, we use shell command `date` to compute Unix times 10 minutes and 2 days in the future. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
 
@@ -1799,6 +1801,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ5MTQ5MzQsNjQyMjc2MjMyLC02Nj
-I0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyND
+k2NTUzLDkyMTY5OTM5OV19
 -->
