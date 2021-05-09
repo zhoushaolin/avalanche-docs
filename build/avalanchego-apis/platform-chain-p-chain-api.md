@@ -180,9 +180,8 @@ curl -X POST --data '{
 ### 平台添加子网验证器
 
 将验证器添加到主网络以外的子网中。验证器必须在验证此子网的整个期间内验证主网络。
-Add a validator to a subnet other than the Primary Network. The Validator must validate the Primary Network for the entire duration they validate this subnet.
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.addSubnetValidator(
@@ -204,10 +203,10 @@ platform.addSubnetValidator(
 }
 ```
 
-* `nodeID` is the node ID of the validator.
-* `subnetID` is the subnet they will validate.
-* `startTime` is the unix time when the validator starts validating the subnet.
-* `endTime` is the unix time when the validator stops validating the subnet.
+* `nodeID` 是验证器的节点ID。
+* `subnetID` 是要验证的子网。
+* `startTime` 验证器开始验证子网的Unix时间。
+* `endTime` 验证器停止验证子网的Unix时间。
 * `weight` is the validator’s weight used for sampling.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1800,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTM5NTA5OSwxNTQ3Nzk1Mzg3LC0yND
+eyJoaXN0b3J5IjpbMTM5NjI1NDQ1MSwxNTQ3Nzk1Mzg3LC0yND
 AzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTld
 fQ==
 -->
