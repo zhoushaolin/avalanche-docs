@@ -103,9 +103,8 @@ curl -X POST --data '{
 
 对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为`min(5 * amount staked, 3M AVAX)`。一个验证器的总值是300万AVAX。
 
-Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
+请注意，一旦发出事务以添加节点作为验证器，就无法更改参数。**您不能提前移除质押或更改质押金额、节点ID或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord.](https://chat.avalabs.org/)上寻求帮助。
 
-{% page-ref page="../../learn/platform-overview/staking.md" %}
 
 #### **Signature**
 
@@ -1801,6 +1800,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ1MzQ2MDAsNjQyMjc2MjMyLC02Nj
-I0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbMTY2OTIyMDkxMyw2NDIyNzYyMzIsLTY2Mj
+Q5NjU1Myw5MjE2OTkzOTldfQ==
 -->
