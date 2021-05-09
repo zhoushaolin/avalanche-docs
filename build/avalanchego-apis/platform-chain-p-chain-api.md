@@ -24,7 +24,7 @@
 
 委托周期必须是被委托人验证主网络的子网周期。
 
-请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前删除一个股份或改变股份数量，节点ID，或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)或在[Discord]上寻求帮助(https://chat.avalabs.org/)。
+请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord]上寻求帮助(https://chat.avalabs.org/)。
 
 Note that once you issue the transaction to add a node as a delegator, there is no way to change the parameters. **You can’t remove a stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 
@@ -1803,6 +1803,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2NTIzMDgsNjQyMjc2MjMyLC02Nj
-I0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbMzUzODA5NzAzLDY0MjI3NjIzMiwtNjYyND
+k2NTUzLDkyMTY5OTM5OV19
 -->
