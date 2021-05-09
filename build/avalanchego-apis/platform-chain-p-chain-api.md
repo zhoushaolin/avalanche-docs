@@ -142,9 +142,7 @@ platform.addValidator(
 
 #### **调用示例**
 
-在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用`$(gdate`代替`$(date`)。如果你没有安装' gdate '，请使用' brew install coreutils '。\)
-
-In this example, we use shell command `date` to compute Unix times 10 minutes and 2 days in the future. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
+在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用`$(gdate`代替`$(date`)。如果你没有安装`gdate` ，请使用`brew install coreutils`。\)
 
 ```cpp
 curl -X POST --data '{
@@ -166,7 +164,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1801,6 +1799,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MzgwNzg4LC0yNDAzOTAzMiw2NDIyNz
-YyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMj
+c2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
