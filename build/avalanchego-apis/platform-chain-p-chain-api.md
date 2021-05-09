@@ -24,11 +24,9 @@
 
 委托周期必须是被委托人验证主网络的子网周期。
 
-请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord]上寻求帮助(https://chat.avalabs.org/)。
+请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord.](https://chat.avalabs.org/)上寻求帮助。
 
-Note that once you issue the transaction to add a node as a delegator, there is no way to change the parameters. **You can’t remove a stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.addDelegator(
@@ -50,8 +48,8 @@ platform.addDelegator(
 }
 ```
 
-* `nodeID` is the ID of the node to delegate to.
-* `startTime` is the Unix time when the delegator starts delegating.
+* `nodeID` 是要委托的节点的ID。
+* `startTime` 是委托器开始委托的Unix时间。
 * `endTime` is the Unix time when the delegator stops delegating \(and staked AVAX is returned\).
 * `stakeAmount` is the amount of nAVAX the delegator is staking.
 * `rewardAddress` is the address the validator reward goes to, if there is one.
@@ -1803,6 +1801,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzODA5NzAzLDY0MjI3NjIzMiwtNjYyND
+eyJoaXN0b3J5IjpbNTc5MDUyNzQ3LDY0MjI3NjIzMiwtNjYyND
 k2NTUzLDkyMTY5OTM5OV19
 -->
