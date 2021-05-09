@@ -51,9 +51,9 @@ platform.addDelegator(
 * `nodeID` 是要委托的节点的ID。
 * `startTime` 是委托器开始委托的Unix时间。
 * `endTime` 是Unix时间时，委托器停止委托\(并且质押的AVAX已返回\)。
-* `stakeAmount` 是委托方所押注的nAVAX的数量。
-* `rewardAddress` is the address the validator reward goes to, if there is one.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `stakeAmount` 是委托方所质押的nAVAX的数量。
+* `rewardAddress`是验证器的奖励地址(如果有的话)。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that pays the transaction fee.
 * `password` is `username`‘s password.
@@ -1801,6 +1801,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAyODc4NDksNjQyMjc2MjMyLC02Nj
-I0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTc4NjM2NjcxNyw2NDIyNzYyMzIsLTY2Mj
+Q5NjU1Myw5MjE2OTkzOTldfQ==
 -->
