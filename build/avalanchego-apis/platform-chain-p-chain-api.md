@@ -208,8 +208,8 @@ platform.addSubnetValidator(
 * `startTime` 验证器开始验证子网的Unix时间。
 * `endTime` 验证器停止验证子网的Unix时间。
 * `weight` 是用于取样的验证器权重。
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
+* `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` is the user that pays the transaction fee.
 * `password` is `username`‘s password.
 * `txID` is the transaction ID.
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yND
-AzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTld
-fQ==
+eyJoaXN0b3J5IjpbNjQxNjIwODEsLTkxMjI3NjE1MCwxNTQ3Nz
+k1Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5
+MjE2OTkzOTldfQ==
 -->
