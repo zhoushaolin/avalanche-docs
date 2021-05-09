@@ -54,10 +54,10 @@ platform.addDelegator(
 * `stakeAmount` 是委托方所质押的nAVAX的数量。
 * `rewardAddress`是验证器的奖励地址(如果有的话)。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that pays the transaction fee.
-* `password` is `username`‘s password.
-* `txID` is the transaction ID
+* `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* `username` 是支付交易费用的用户。
+* `password` 是 `username`的密码.
+* `txID` 是zhe ID
 
 #### **Example Call**
 
@@ -1801,6 +1801,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjM2NjcxNyw2NDIyNzYyMzIsLTY2Mj
+eyJoaXN0b3J5IjpbLTExNjIzOTgwMCw2NDIyNzYyMzIsLTY2Mj
 Q5NjU1Myw5MjE2OTkzOTldfQ==
 -->
