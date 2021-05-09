@@ -101,9 +101,7 @@ curl -X POST --data '{
 
 验证有效期必须在2周到1年之间。
 
-对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为' min(5 * amount stakes, 3M AVAX) '。一个验证器的总价值是300万AVAX。
-
-There is a maximum total weight imposed on validators. This means that no validator will ever have more AVAX staked and delegated to it than this value. This value will initially be set to `min(5 * amount staked, 3M AVAX)`. The total value on a validator is 3 million AVAX.
+对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为`min(5 * amount staked, 3M AVAX)`。一个验证器的总值是300万AVAX。
 
 Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 
@@ -1803,6 +1801,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg2NDMxNTAsNjQyMjc2MjMyLC02Nj
+eyJoaXN0b3J5IjpbLTE3MjQ1MzQ2MDAsNjQyMjc2MjMyLC02Nj
 I0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
