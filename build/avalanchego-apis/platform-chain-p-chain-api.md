@@ -95,7 +95,7 @@ curl -X POST --data '{
 
 ### 平台添加验证器
 
-将验证器添加到主网络。你必须钉住AVAX才能做到这一点。如果节点在验证时足够正确且响应良好，则在锁定周期结束时将获得奖励。在共识期间，验证者被其他验证者抽样的概率与AVAX的数量成比例。
+将验证器添加到主网络, 你必须质押AVAX。如果节点在验证时足够正确且响应良好，则在锁定周期结束时将获得奖励。在共识期间，根据验证者被其他验证者抽样的概率与AVAX的数量成比例。
 Add a validator to the Primary Network. You must stake AVAX to do this. If the node is sufficiently correct and responsive while validating, you receive a reward when end of staking period is reached. The validator’s probability of being sampled by other validators during consensus is in proportion to the amount of AVAX staked.
 
 The validator charges a fee to delegators; the former receives a percentage of the delegator’s validation reward \(if any.\) The minimum delegation fee is 2%. A transaction that adds a validator has no fee.
@@ -1802,6 +1802,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzQxNjk5LDY0MjI3NjIzMiwtNjYyND
-k2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTExMjUzNTE2MzAsNjQyMjc2MjMyLC02Nj
+I0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
