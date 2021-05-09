@@ -275,7 +275,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -287,11 +287,11 @@ curl -X POST --data '{
 }
 ```
 
-### platform.createBlockchain
+### 平台创建区块链
 
-Create a new blockchain. Currently only supports the creation of new instances of the AVM and the Timestamp VM.
+创建一个新的区块链, 目前只支持创建AVM和Timestamp VM的新实例。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.createBlockchain(
@@ -313,7 +313,7 @@ platform.createBlockchain(
 }
 ```
 
-* `subnetID` is the ID of the Subnet that validates the new blockchain. The Subnet must exist and can’t be the Primary Network.
+* `subnetID`是验证新区块链的子网ID。子网必须存在，且不能是主网络。 is the ID of the Subnet that validates the new blockchain. The Subnet must exist and can’t be the Primary Network.
 * `vmID` is the ID of the Virtual Machine the blockchain runs. Can also be an alias of the Virtual Machine.
 * `name` is a human-readable name for the new blockchain. Not necessarily unique.
 * `genesisData` is the byte representation of the genesis state of the new blockchain encoded in the format specified by the `encoding` parameter.
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMTc1Nzc0LC0xNzg0MjQ0NTI3LC05MT
-IyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMy
-LC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbMTM5NDg0MjIzMiwtMTc4NDI0NDUyNywtOT
+EyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIz
+MiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
 -->
