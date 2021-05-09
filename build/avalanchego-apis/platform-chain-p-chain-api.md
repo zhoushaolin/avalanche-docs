@@ -56,10 +56,10 @@ platform.addDelegator(
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
-* `password` 是 `username`的密码.
-* `txID` 是zhe ID
+* `password` 是 `username`的密码。
+* `txID` 是这个交易的 ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -80,7 +80,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -93,8 +93,9 @@ curl -X POST --data '{
 }
 ```
 
-### platform.addValidator
+### 平台添加验证器
 
+将验证器添加到主网络。你必须钉住AVAX才能做到这一点。如果节点在验证时足够正确且响应良好，则在锁定周期结束时将获得奖励。在共识期间，验证者被其他验证者抽样的概率与AVAX的数量成比例。
 Add a validator to the Primary Network. You must stake AVAX to do this. If the node is sufficiently correct and responsive while validating, you receive a reward when end of staking period is reached. The validator’s probability of being sampled by other validators during consensus is in proportion to the amount of AVAX staked.
 
 The validator charges a fee to delegators; the former receives a percentage of the delegator’s validation reward \(if any.\) The minimum delegation fee is 2%. A transaction that adds a validator has no fee.
@@ -1801,6 +1802,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjIzOTgwMCw2NDIyNzYyMzIsLTY2Mj
-Q5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbMjA0MzQxNjk5LDY0MjI3NjIzMiwtNjYyND
+k2NTUzLDkyMTY5OTM5OV19
 -->
