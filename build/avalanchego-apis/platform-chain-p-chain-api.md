@@ -207,7 +207,7 @@ platform.addSubnetValidator(
 * `subnetID` 是要验证的子网。
 * `startTime` 验证器开始验证子网的Unix时间。
 * `endTime` 验证器停止验证子网的Unix时间。
-* `weight` is the validator’s weight used for sampling.
+* `weight` 是用于取样的验证器权重。
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that pays the transaction fee.
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjI1NDQ1MSwxNTQ3Nzk1Mzg3LC0yND
+eyJoaXN0b3J5IjpbLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yND
 AzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTld
 fQ==
 -->
