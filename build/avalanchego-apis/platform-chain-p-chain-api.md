@@ -315,8 +315,8 @@ platform.createBlockchain(
 
 * `subnetID`是验证新区块链的子网ID, 子网必须存在，且不能是主网络。 
 * `vmID` 为区块链运行的虚拟机ID, 也可以是虚拟机的别名。
-* `name`为区块链运行的虚拟机ID。也可以是虚拟机的别名。 is a human-readable name for the new blockchain. Not necessarily unique.
-* `genesisData` is the byte representation of the genesis state of the new blockchain encoded in the format specified by the `encoding` parameter.
+* `name`是新区块链的可读名称, 不一定是独一无二的。
+* `genesisData` 以`encoding`参数指定的格式编码的新区块链的起源状态的字节形式。is the byte representation of the genesis state of the new blockchain encoded in the format specified by the `encoding` parameter.
 * `encoding` specifies the format to use for `genesisData`. Can be either “cb58” or “hex”. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
@@ -1799,7 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMT
-c4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5
-MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbMTIyMzIyMzcwMSwtMTExMDgzODMzOCwtOT
+A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
+NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
+IxNjk5Mzk5XX0=
 -->
