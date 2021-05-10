@@ -736,7 +736,7 @@ curl -X POST --data '{
 
 ### platform.getCurrentSupply
 
-Returns an upper bound on the number of AVAX that exist. This is an upper bound because it does not account for burnt tokens, including transaction fees.
+返回存在的AVAX数量的上限。 这是一个上限，因为它不考虑已销毁的代币，包括交易费。
 
 #### **Signature**
 
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzczMDU2NTIsLTE1ODkyMjc3NjQsLT
-ExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEy
-Mjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMi
-wtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMT
+ExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIy
+NzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC
+02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
