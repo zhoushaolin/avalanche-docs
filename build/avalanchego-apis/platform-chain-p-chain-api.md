@@ -704,9 +704,9 @@ platform.getBlockchainStatus(
 
 `status` 是以下情况之一:
 
-* `Validating`: The blockchain is being validated by this node.
-* `Created`: The blockchain exists but isn’t being validated by this node.
-* `Preferred`: The blockchain was proposed to be created and is likely to be created but the transaction isn’t yet accepted.
+* `Validating`: 该节点正在验证区块链。
+* `Created`: 区块链存在，但该节点没有验证它。
+* `Preferred`: 区块链被提议创建，而且很可能被创建，但交易尚未被接受。
 * `Unknown`: The blockchain either wasn’t proposed or the proposal to create it isn’t preferred. The proposal may be resubmitted.
 
 #### **Example Call**
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzQ0Mzk2MSwtMTExMDgzODMzOCwtOT
-A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
-NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
-IxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbODIxNzY4OTgxLC0xMTEwODM4MzM4LC05MD
+cxMzQwMjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1
+Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5Mj
+E2OTkzOTldfQ==
 -->
