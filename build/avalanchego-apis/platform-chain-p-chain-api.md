@@ -818,10 +818,11 @@ platform.getCurrentValidators({
 
 * `subnetID` 是返回其当前验证器的子网。 如果省略，则返回主网络的当前验证器。
 * `validators`:
-  * `txID` is the validator transaction.
-  * `startTime` is the Unix time when the validator starts validating the Subnet.
-  * `endTime` is the Unix time when the validator stops validating the Subnet.
-  * `stakeAmount` is the amount of nAVAX this validator staked. Omitted if `subnetID` is not the Primary Network.
+  * `txID` 是验证者交易。
+  * `startTime` 是验证器开始验证子网的Unix时间。
+  * `endTime` 是验证器停止验证子网的Unix时间。
+  * `stakeAmount` 是此验证程序投入的nAVAX的数量。 如果`subnetID`不是主网络则省略。
+  is the amount of nAVAX this validator staked. Omitted if `subnetID` is not the Primary Network.
   * `nodeID` is the validator’s node ID.
   * `weight` is the validator’s weight when sampling validators. Omitted if `subnetID` is the Primary Network.
   * `rewardOwner` is an `OutputOwners` output which includes `locktime`, `threshold` and array of `addresses`.
@@ -1799,8 +1800,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDQ4ODQxMCwtOTgyNjA1MTM0LC0xNT
-g5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQy
-NDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMi
-w2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbLTE2NDI5MDA5MDQsLTk4MjYwNTEzNCwtMT
+U4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0
+MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMz
+IsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
