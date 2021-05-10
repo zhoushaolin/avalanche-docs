@@ -619,10 +619,10 @@ platform.getBlockchains() ->
 * `blockchains` 是存在于Avalanche网络上的所有区块链。
 * `name` 是这个区块链的可读名称。
 * `id` 是这个区块链的ID.
-* `subnetID` is the ID of the Subnet that validates this blockchain.
-* `vmID` is the ID of the Virtual Machine the blockchain runs.
+* `subnetID` 是验证这个区块链的子网的ID。
+* `vmID` 是区块链运行的虚拟机ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -633,7 +633,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -688,7 +688,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getBlockchainStatus
+### 平台获取区块链状态
 
 Get the status of a blockchain.
 
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjU4NzA1NSwtMTExMDgzODMzOCwtOT
-A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
-NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
-IxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbMTY0NjAzMjA3LC0xMTEwODM4MzM4LC05MD
+cxMzQwMjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1
+Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5Mj
+E2OTkzOTldfQ==
 -->
