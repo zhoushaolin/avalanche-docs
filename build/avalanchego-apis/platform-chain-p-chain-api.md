@@ -777,7 +777,7 @@ curl -X POST --data '{
 
 从v1.0.1开始，顶级字段`delegators`已不推荐使用[deprecated](deprecated-api-calls.md#getcurrentvalidators)，并已在v1.0.6中删除。 相反，`validators`的每个元素现在都包含该验证器的委托人列表。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getCurrentValidators({
@@ -816,7 +816,7 @@ platform.getCurrentValidators({
 }
 ```
 
-* `subnetID` is the subnet whose current validators are returned. If omitted, returns the current validators of the Primary Network.
+* `subnetID` 是返回其当前验证器的子网。 如果省略，则返回主网络的当前验证器。
 * `validators`:
   * `txID` is the validator transaction.
   * `startTime` is the Unix time when the validator starts validating the Subnet.
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NDU3MjE0LC05ODI2MDUxMzQsLTE1OD
-kyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0
-NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLD
-Y0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbMjEyMDQ4ODQxMCwtOTgyNjA1MTM0LC0xNT
+g5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQy
+NDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMi
+w2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
