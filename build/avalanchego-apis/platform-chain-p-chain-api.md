@@ -775,9 +775,7 @@ curl -X POST --data '{
 
 列出给定子网的当前验证器。
 
-从v1.0.1开始，顶级字段“代理”已[不推荐使用]（deprecated-api-calls.md＃getcurrentvalidators），并已在v1.0.6中删除。 相反，“验证器”的每个元素现在都包含该验证器的委托人列表。
-
-The top level field `delegators` was [deprecated](deprecated-api-calls.md#getcurrentvalidators) as of v1.0.1, and removed in v1.0.6. Instead, each element of `validators` now contains the list of delegators for that validator.
+从v1.0.1开始，顶级字段`delegators`已不推荐使用[deprecated](deprecated-api-calls.md#getcurrentvalidators)，并已在v1.0.6中删除。 相反，`validators`的每个元素现在都包含该验证器的委托人列表。
 
 #### **Signature**
 
@@ -1801,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTA3NzM2MywtOTgyNjA1MTM0LC0xNT
-g5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQy
-NDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMi
-w2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbODE1NDU3MjE0LC05ODI2MDUxMzQsLTE1OD
+kyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0
+NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLD
+Y0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
 -->
