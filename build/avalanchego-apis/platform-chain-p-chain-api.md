@@ -322,7 +322,7 @@ platform.createBlockchain(
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。
 * `password` 是 `username`的密码。
-* `txID`是此交易ID.
+* `txID`是此交易ID。
 
 #### **调用示例**
 
@@ -360,9 +360,9 @@ curl -X POST --data '{
 }
 ```
 
-### 平台platform.createSubnet
+### 平台创建子网
 
-Create a new subnet.
+创建一个新子网。
 
 The subnet’s ID is the same as this transaction’s ID.
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTI1Mjg2NywtMTExMDgzODMzOCwtOT
+eyJoaXN0b3J5IjpbMTk2NDE1MDE3OSwtMTExMDgzODMzOCwtOT
 A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
 NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
 IxNjk5Mzk5XX0=
