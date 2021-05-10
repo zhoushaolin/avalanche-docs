@@ -320,11 +320,13 @@ platform.createBlockchain(
 * `encoding` 指定`genesisData`使用的格式, 可以是“cb58”或“hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成`genesisData`。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制m。is the user that pays the transaction fee. This user must have a sufficient number of the subnet’s control keys.
-* `password` is `username`‘s password.
-* `txID` is the transaction ID.
+* `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。
+* `password` 是 `username`的密码。
+* `txID`是此交易ID.
 
-#### **Example Call**
+#### **调用示例**
+
+在这个例子中，我们创建了一个时间戳虚拟机的新实例。“genesisData”来自于调用“timestamp.buildGenesis”。
 
 In this example we’re creating a new instance of the Timestamp Virtual Machine. `genesisData` came from calling `timestamp.buildGenesis`.
 
@@ -1799,8 +1801,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzE4OTc2MywtMTExMDgzODMzOCwtOT
-A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
-NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
-IxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTE3NDEwNzIzOTMsLTExMTA4MzgzMzgsLT
+kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
+OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
+kyMTY5OTM5OV19
 -->
