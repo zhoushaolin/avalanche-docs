@@ -738,7 +738,7 @@ curl -X POST --data '{
 
 返回存在的AVAX数量的上限。 这是一个上限，因为它不考虑已销毁的代币，包括交易费。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getCurrentSupply() -> {supply: int}
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMT
-ExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIy
-NzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC
-02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTYxMDQ1NDc3OSwtOTgyNjA1MTM0LC0xNT
+g5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQy
+NDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMi
+w2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
