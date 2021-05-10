@@ -707,7 +707,7 @@ platform.getBlockchainStatus(
 * `Validating`: 该节点正在验证区块链。
 * `Created`: 区块链存在，但该节点没有验证它。
 * `Preferred`: 区块链被提议创建，而且很可能被创建，但交易尚未被接受。
-* `Unknown`: The blockchain either wasn’t proposed or the proposal to create it isn’t preferred. The proposal may be resubmitted.
+* `Unknown`: 区块链要么没有被提议，要么创建它的提议不受欢迎。提案可以重新提交。The blockchain either wasn’t proposed or the proposal to create it isn’t preferred. The proposal may be resubmitted.
 
 #### **Example Call**
 
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNzY4OTgxLC0xMTEwODM4MzM4LC05MD
-cxMzQwMjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1
-Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5Mj
-E2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLT
+kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
+OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
+kyMTY5OTM5OV19
 -->
