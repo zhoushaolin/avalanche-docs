@@ -364,9 +364,9 @@ curl -X POST --data '{
 
 创建一个新子网。
 
-The subnet’s ID is the same as this transaction’s ID.
+子网的ID与该事务的ID相同。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.createSubnet(
@@ -385,7 +385,7 @@ platform.createSubnet(
 }
 ```
 
-* In order to add a validator to this subnet, `threshold` signatures are required from the addresses in `controlKeys`
+* 为了向这个子网添加一个验证器，`controlKeys`中的地址需要`threshold`签名。
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that pays the transaction fee.
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDE1MDE3OSwtMTExMDgzODMzOCwtOT
-A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
-NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
-IxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTE5Mjc0NjAwMzEsLTExMTA4MzgzMzgsLT
+kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
+OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
+kyMTY5OTM5OV19
 -->
