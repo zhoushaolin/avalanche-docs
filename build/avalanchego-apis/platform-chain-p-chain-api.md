@@ -386,12 +386,12 @@ platform.createSubnet(
 ```
 
 * 为了向这个子网添加一个验证器，`controlKeys`中的地址需要`threshold`签名。
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that pays the transaction fee.
-* `password` is `username`‘s password.
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
+* `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* `username` 是支付交易费用的用户。
+* `password` 是 `username`的密码。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -412,7 +412,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -424,7 +424,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.exportAVAX
+### 平台导出AVAX
 
 Send AVAX from an address on the P-Chain to an address on the X-Chain. After issuing this transaction, you must call the X-Chain’s [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax) method to complete the transfer.
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc0NjAwMzEsLTExMTA4MzgzMzgsLT
+eyJoaXN0b3J5IjpbLTE1MjcwMTI2NzMsLTExMTA4MzgzMzgsLT
 kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
 OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
 kyMTY5OTM5OV19
