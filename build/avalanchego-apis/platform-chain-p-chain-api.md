@@ -428,7 +428,7 @@ curl -X POST --data '{
 
 从P链上的地址发送AVAX到X链上的地址。在发布这个交易之后，你必须调用X链的[`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)方法来完成交易。
 
-#### **qian**
+#### **签名**
 
 ```cpp
 platform.exportAVAX(
@@ -447,8 +447,8 @@ platform.exportAVAX(
 }
 ```
 
-* `amount` is the amount of nAVAX to send.
-* `to` is the address on the X-Chain to send the AVAX to
+* `amount` 是要发送的nAVAX的数量。
+* `to` 是要发送AVAX的X链上的地址。是什么is the address on the X-Chain to send the AVAX to
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user sending the AVAX and paying the transaction fee.
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzMwNjk4NSwtMTExMDgzODMzOCwtOT
-A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
-NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
-IxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTEyNTU5NTY1NTAsLTExMTA4MzgzMzgsLT
+kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
+OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
+kyMTY5OTM5OV19
 -->
