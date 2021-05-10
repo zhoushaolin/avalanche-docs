@@ -326,9 +326,7 @@ platform.createBlockchain(
 
 #### **调用示例**
 
-在这个例子中，我们创建了一个时间戳虚拟机的新实例。“genesisData”来自于调用“timestamp.buildGenesis”。
-
-In this example we’re creating a new instance of the Timestamp Virtual Machine. `genesisData` came from calling `timestamp.buildGenesis`.
+在这个例子中，我们创建了一个时间戳虚拟机的新实例。`genesisData`来自于调用`timestamp.buildGenesis`。
 
 ```cpp
 curl -X POST --data '{
@@ -349,7 +347,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -362,7 +360,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.createSubnet
+### 平台platform.createSubnet
 
 Create a new subnet.
 
@@ -1801,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEwNzIzOTMsLTExMTA4MzgzMzgsLT
-kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
-OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
-kyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTQ4OTI1Mjg2NywtMTExMDgzODMzOCwtOT
+A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
+NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
+IxNjk5Mzk5XX0=
 -->
