@@ -448,9 +448,10 @@ platform.exportAVAX(
 ```
 
 * `amount` 是要发送的nAVAX的数量。
-* `to` 是要发送AVAX的X链上的地址。是什么is the address on the X-Chain to send the AVAX to
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `to` 是要发送AVAX到的X链上的地址。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
+* `changeAddr` 是地址有任何变化都会发送到。如果省略，更改将被发送到用户控制的地址之一。
+is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user sending the AVAX and paying the transaction fee.
 * `password` is `username`‘s password.
 * `txID` is the ID of this transaction.
@@ -1799,8 +1800,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU5NTY1NTAsLTExMTA4MzgzMzgsLT
-kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
-OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
-kyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbMTc5OTU1NzM4NCwtMTExMDgzODMzOCwtOT
+A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
+NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
+IxNjk5Mzk5XX0=
 -->
