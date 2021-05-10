@@ -553,11 +553,11 @@ platform.getBalance({
 }
 ```
 
-* `address` is the address to get the balance of.
-* `balance` is the total balance, in nAVAX.
-* `unlocked` is the unlocked balance, in nAVAX.
-* `lockedStakeable` is the locked stakeable balance, in nAVAX.
-* `lockedNotStakeable` is the locked and not stakeable balance, in nAVAX.
+* `address` 是获取余额的地址。
+* `balance` 是nAVAX的总余额。
+* `unlocked` 是nAVAX的解锁的余额。
+* `lockedStakeable`是锁定的质押中的nAVAX余额。
+* `lockedNotStakeable` 是锁定未质押的yu。is the locked and not stakeable balance, in nAVAX.
 * `utxoIDs` are the IDs of the UTXOs that reference `address`.
 
 #### **Example Call**
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjYxMTUxOCwtMTExMDgzODMzOCwtOT
+eyJoaXN0b3J5IjpbLTYzMTAwNjY5OSwtMTExMDgzODMzOCwtOT
 A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
 NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
 IxNjk5Mzk5XX0=
