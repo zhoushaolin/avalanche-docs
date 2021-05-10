@@ -770,10 +770,10 @@ curl -X POST --data '{
 ```
 
 此示例中的响应表明AVAX的供应量最多为3,865.65万。
-The response in this example indicates that AVAX’s supply is at most 365.865 million.
 
-### platform.getCurrentValidators
+### 平台获取当前验证器
 
+列出给定子网的当前验证器。
 List the current validators of the given Subnet.
 
 The top level field `delegators` was [deprecated](deprecated-api-calls.md#getcurrentvalidators) as of v1.0.1, and removed in v1.0.6. Instead, each element of `validators` now contains the list of delegators for that validator.
@@ -1800,8 +1800,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA2MDA1NzAsLTk4MjYwNTEzNCwtMT
-U4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0
-MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMz
-IsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbMzQ5OTEzMjMyLC05ODI2MDUxMzQsLTE1OD
+kyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0
+NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLD
+Y0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
 -->
