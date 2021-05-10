@@ -503,9 +503,9 @@ platform.exportKey({
 
 * `username`是控制`address`的用户。
 * `password` 是 `username`的密码。
-* `privateKey` is the string representation of the private key that controls `address`.
+* `privateKey`是控制`address`的私钥的字符串表现形式。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -520,7 +520,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -532,7 +532,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getBalance
+### 平台huo
 
 Get the balance of AVAX controlled by a given address.
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ3NTM0NTAsLTExMTA4MzgzMzgsLT
+eyJoaXN0b3J5IjpbLTEwNzU3NjkzOTMsLTExMTA4MzgzMzgsLT
 kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
 OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
 kyMTY5OTM5OV19
