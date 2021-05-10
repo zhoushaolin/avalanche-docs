@@ -317,7 +317,8 @@ platform.createBlockchain(
 * `vmID` 为区块链运行的虚拟机ID, 也可以是虚拟机的别名。
 * `name`是新区块链的可读名称, 不一定是独一无二的。
 * `genesisData` 以`encoding`参数指定的格式编码的新区块链的起源状态的字节形式。
-* `encoding` specifies the format to use for `genesisData`. Can be either “cb58” or “hex”. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`
+* `encoding` 指定`genesisData`使用的格式, 可以是“cb58”或“hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成`genesisData`
+* specifies the format to use for `genesisData`. Can be either “cb58” or “hex”. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that pays the transaction fee. This user must have a sufficient number of the subnet’s control keys.
@@ -1799,8 +1800,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTEwMjgyNSwtMTExMDgzODMzOCwtOT
-A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
-NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
-IxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTE5NzcwMTMxOTMsLTExMTA4MzgzMzgsLT
+kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
+OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
+kyMTY5OTM5OV19
 -->
