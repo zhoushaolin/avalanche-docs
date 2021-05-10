@@ -734,7 +734,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getCurrentSupply
+### 平台获取当前供应
 
 返回存在的AVAX数量的上限。 这是一个上限，因为它不考虑已销毁的代币，包括交易费。
 
@@ -744,9 +744,9 @@ curl -X POST --data '{
 platform.getCurrentSupply() -> {supply: int}
 ```
 
-* `supply` is an upper bound on the number of AVAX that exist, denominated in nAVAX.
+* `supply` 是存在的AVAX数量的上限，以nAVAX表示。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -757,7 +757,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -769,6 +769,7 @@ curl -X POST --data '{
 }
 ```
 
+此示例中的响应表明AVAX的供应量最多为3,865.65万。
 The response in this example indicates that AVAX’s supply is at most 365.865 million.
 
 ### platform.getCurrentValidators
@@ -1799,8 +1800,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDQ1NDc3OSwtOTgyNjA1MTM0LC0xNT
-g5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQy
-NDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMi
-w2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbLTExNTA2MDA1NzAsLTk4MjYwNTEzNCwtMT
+U4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0
+MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMz
+IsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
