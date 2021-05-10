@@ -532,11 +532,11 @@ curl -X POST --data '{
 }
 ```
 
-### 平台huo
+### 平台获取余额
 
-Get the balance of AVAX controlled by a given address.
+获取由给定地址控制的AVAX的余额。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getBalance({
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU3NjkzOTMsLTExMTA4MzgzMzgsLT
-kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
-OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
-kyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbMTkyNjYxMTUxOCwtMTExMDgzODMzOCwtOT
+A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
+NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
+IxNjk5Mzk5XX0=
 -->
