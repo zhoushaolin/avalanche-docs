@@ -426,9 +426,9 @@ curl -X POST --data '{
 
 ### 平台导出AVAX
 
-Send AVAX from an address on the P-Chain to an address on the X-Chain. After issuing this transaction, you must call the X-Chain’s [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax) method to complete the transfer.
+从P链上的地址发送AVAX到X链上的地址。在发布这个交易之后，你必须调用X链的[`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)方法来完成交易。
 
-#### **Signature**
+#### **qian**
 
 ```cpp
 platform.exportAVAX(
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjcwMTI2NzMsLTExMTA4MzgzMzgsLT
-kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
-OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
-kyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTQyNzMwNjk4NSwtMTExMDgzODMzOCwtOT
+A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
+NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
+IxNjk5Mzk5XX0=
 -->
