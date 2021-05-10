@@ -557,10 +557,10 @@ platform.getBalance({
 * `balance` 是nAVAX的总余额。
 * `unlocked` 是nAVAX的解锁的余额。
 * `lockedStakeable`是锁定的质押中的nAVAX余额。
-* `lockedNotStakeable` 是锁定未质押的yu。is the locked and not stakeable balance, in nAVAX.
-* `utxoIDs` are the IDs of the UTXOs that reference `address`.
+* `lockedNotStakeable` 是锁定未质押的余额。
+* `utxoIDs` 是引用`address`的UTXO的ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -573,7 +573,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -598,7 +598,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getBlockchains
+### 平台获取区块链
 
 Get all the blockchains that exist \(excluding the P-Chain\).
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTAwNjY5OSwtMTExMDgzODMzOCwtOT
+eyJoaXN0b3J5IjpbMTA1MDQzOTc5NCwtMTExMDgzODMzOCwtOT
 A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
 NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
 IxNjk5Mzk5XX0=
