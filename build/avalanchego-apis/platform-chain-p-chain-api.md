@@ -824,9 +824,9 @@ platform.getCurrentValidators({
   * `stakeAmount` 是此验证程序投入的nAVAX的数量。 如果`subnetID`不是主网络则省略。
   * `nodeID` 是验证者的节点ID。
   * `weight` 是在对验证者进行抽样时验证者的权重。 如果`subnetID`是主网络则省略。
-  * `rewardOwner` 是 `OutputOwners` 的输出, 包括`locktime`、`threshold`, 以及大批`addresses`.
-  * `potentialReward` is the potential reward earned from staking
-  * `delegationFeeRate` is the percent fee this validator charges when others delegate stake to them.
+  * `rewardOwner` 是 `OutputOwners` 的输出, 包括`locktime`、`threshold`, 以及大批`addresses`。
+  * `potentialReward` 是从质押中获得的潜在报酬。
+  * `delegationFeeRate` 是当其他人将质押委托给他们时，该验证程序收取的费用百分比。
   * `uptime` is the % of time the queried node has reported the peer as online.
   * `connected` is if the node is connected to the network
   * `delegators` is the list of delegators to this validator:
@@ -1799,8 +1799,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc1NDQ1NDIsLTk4MjYwNTEzNCwtMT
-U4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0
-MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMz
-IsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTMxNTc0MDM5MSwtOTgyNjA1MTM0LC0xNT
+g5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQy
+NDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMi
+w2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
