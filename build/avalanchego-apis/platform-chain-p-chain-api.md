@@ -600,9 +600,9 @@ curl -X POST --data '{
 
 ### 平台获取区块链
 
-Get all the blockchains that exist \(excluding the P-Chain\).
+获取所有存在的区块链\(不包括P链\)。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getBlockchains() ->
@@ -616,9 +616,9 @@ platform.getBlockchains() ->
 }
 ```
 
-* `blockchains` is all of the blockchains that exists on the Avalanche network.
-* `name` is the human-readable name of this blockchain.
-* `id` is the blockchain’s ID.
+* `blockchains` 是存在于Avalanche网络上的所有区块链。
+* `name` 是这个区块链的可读名称。
+* `id` 是这个区块链的ID.
 * `subnetID` is the ID of the Subnet that validates this blockchain.
 * `vmID` is the ID of the Virtual Machine the blockchain runs.
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDQzOTc5NCwtMTExMDgzODMzOCwtOT
+eyJoaXN0b3J5IjpbLTM2NjU4NzA1NSwtMTExMDgzODMzOCwtOT
 A3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5
 NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOT
 IxNjk5Mzk5XX0=
