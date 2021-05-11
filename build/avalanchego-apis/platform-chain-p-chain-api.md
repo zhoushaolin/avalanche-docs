@@ -1,6 +1,8 @@
 # 平台链 \(P链\) API
 
-这个API允许客户端与[P-Chain](../../learn/platform-overview/#platform-chain-p-chain)交互，它维护Avalanche的[validator](../../learn/platform-overview/staking.md#validators)设置和处理区块链的创建。
+这个API允许客户端与Platform Chain \(P-Chain\) API
+
+This API allows clients to interact with the [P-Chain](../../learn/platform-overview/#platform-chain-p-chain)交互，它维护, which maintains Avalanche的’s [validator](../../learn/platform-overview/staking.md#validators)设置和处理区块链的创建。
 
 ## 端点
 
@@ -10,7 +12,17 @@
 
 ## 格式
 
-这个API使用`json 2.0`RPC格式。
+这个API使用 set and handles blockchain creation.
+
+## Endpoint
+
+```cpp
+/ext/P
+```
+
+## Format
+
+This API uses the `json 2.0` RPC格式。
 
 ## 方法
 
@@ -24,9 +36,27 @@
 
 委托周期必须是被委托人验证主网络的子网周期。
 
-请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord.](https://chat.avalabs.org/)上寻求帮助。
+请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答 format.
 
-#### **签名**
+## Methods
+
+### platform.addDelegator
+
+Add a delegator to the Primary Network.
+
+A delegator stakes AVAX and specifies a validator \(the delegatee\) to validate on their behalf. The delegatee has an increased probability of being sampled by other validators \(weight\) in proportion to the stake delegated to them.
+
+The delegatee charges a fee to the delegator; the former receives a percentage of the delegator’s validation reward \(if any.\) A transaction that delegates stake has no fee.
+
+The delegation period must be a subset of the period that the delegatee validates the Primary Network.
+
+Note that once you issue the transaction to add a node as a delegator, there is no way to change the parameters. **You can’t remove a stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在or ask for help on [Discord.](https://chat.avalabs.org/)上寻求帮助。
+
+#### **签名
+
+{% page-ref page="../../learn/platform-overview/staking.md" %}
+
+#### **Signature**
 
 ```cpp
 platform.addDelegator(
@@ -50,16 +80,23 @@ platform.addDelegator(
 
 * `nodeID` 是要委托的节点的ID。
 * `startTime` 是委托器开始委托的Unix时间。
-* `endTime` 是Unix时间时，委托器停止委托\(并且质押的AVAX已返回\)。
+* `endTime` 是Unix时间时，委托器停止委托\(并且质押的AVAX已返回is the ID of the node to delegate to.
+* `startTime` is the Unix time when the delegator starts delegating.
+* `endTime` is the Unix time when the delegator stops delegating \(and staked AVAX is returned\)。.
 * `stakeAmount` 是委托方所质押的nAVAX的数量。
 * `rewardAddress`是验证器的奖励地址(如果有的话)。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。
-* `password` 是 `username`的密码。
-* `txID` 是这个交易 ID。
+* `username` 是支付交易费用的用户。is the amount of nAVAX the delegator is staking.
+* `rewardAddress` is the address the validator reward goes to, if there is one.
+* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `username` is the user that pays the transaction fee.
+* `password` 是is `username`的密码。
+* `txID` 是这个交易‘s password.
+* `txID` is the transaction ID。
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -80,7 +117,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -101,11 +138,23 @@ curl -X POST --data '{
 
 验证有效期必须在2周到1年之间。
 
-对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为`min(5 * amount staked, 3M AVAX)`。一个验证器的总值是300万AVAX。
+对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为`min(5 * amount staked, 3M AVAX)`。一个验证器的总值是300万platform.addValidator
 
-请注意，一旦发出事务以添加节点作为验证器，就无法更改参数。**您不能提前移除质押或更改质押金额、节点ID或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在[Discord.](https://chat.avalabs.org/)上寻求帮助。
+Add a validator to the Primary Network. You must stake AVAX to do this. If the node is sufficiently correct and responsive while validating, you receive a reward when end of staking period is reached. The validator’s probability of being sampled by other validators during consensus is in proportion to the amount of AVAX staked.
 
-#### **签名**
+The validator charges a fee to delegators; the former receives a percentage of the delegator’s validation reward \(if any.\) The minimum delegation fee is 2%. A transaction that adds a validator has no fee.
+
+The validation period must be between 2 weeks and 1 year.
+
+There is a maximum total weight imposed on validators. This means that no validator will ever have more AVAX staked and delegated to it than this value. This value will initially be set to `min(5 * amount staked, 3M AVAX)`. The total value on a validator is 3 million AVAX。.
+
+请注意，一旦发出事务以添加节点作为验证器，就无法更改参数。**您不能提前移除质押或更改质押金额、节点ID或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在or ask for help on [Discord.](https://chat.avalabs.org/)上寻求帮助。
+
+#### **签名
+
+{% page-ref page="../../learn/platform-overview/staking.md" %}
+
+#### **Signature**
 
 ```cpp
 platform.addValidator(
@@ -133,16 +182,27 @@ platform.addValidator(
 * `endTime` 是验证器停止验证主网络的Unix时间(并返回质押的AVAX)。
 * `stakeAmount`是验证器所质押的nAVAX的数量。
 * `rewardAddress` 是验证者奖励将到达的地址，如果有的话。
-* `delegationFeeRate` 是该验证者在他人委托质押给他们时收取的费用百分比。最多允许小数点后4位数; 多余的小数点位将被忽略。必须在0和100之间，一切费用包括在内。例如，如果`delegationFeeRate`是`1.2345`，并且有人委托给了这个验证器，那么当委托周期结束时，1.2345%的奖励归验证器，剩下的归委托器。
+* `delegationFeeRate` 是该验证者在他人委托质押给他们时收取的费用百分比。最多允许小数点后4位数; 多余的小数点位将被忽略。必须在0和100之间，一切费用包括在内。例如，如果is the node ID of the validator being added.
+* `startTime` is the Unix time when the validator starts validating the Primary Network.
+* `endTime` is the Unix time when the validator stops validating the Primary Network \(and staked AVAX is returned\).
+* `stakeAmount` is the amount of nAVAX the validator is staking.
+* `rewardAddress` is the address the validator reward will go to, if there is one.
+* `delegationFeeRate` is the percent fee this validator charges when others delegate stake to them. Up to 4 decimal places allowed; additional decimal places are ignored. Must be between 0 and 100, inclusive. For example, if `delegationFeeRate`是 is `1.2345`，并且有人委托给了这个验证器，那么当委托周期结束时，1.2345%的奖励归验证器，剩下的归委托器。
 * `from`是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。 
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。
-* `password` 是 `username`的密码。
-* `txID`是这个交易ID。
+* `username` 是支付交易费用的用户。 and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
+* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `username` is the user that pays the transaction fee.
+* `password` 是is `username`的密码。
+* `txID`是这个交易‘s password.
+* `txID` is the transaction ID。
 
 #### **调用示例**
 
-在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用`$(gdate`代替`$(date`)。如果你没有安装`gdate` ，请使用`brew install coreutils`。\)
+在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用Example Call**
+
+In this example, we use shell command `date` to compute Unix times 10 minutes and 2 days in the future. \(Note: If you’re on a Mac, replace `$(gdate`代替 with `$(gdate`)。如果你没有安装`gdate` ，请使用. If you don’t have `gdate` installed, do `brew install coreutils`。.\)
 
 ```cpp
 curl -X POST --data '{
@@ -164,7 +224,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -181,7 +241,11 @@ curl -X POST --data '{
 
 将验证器添加到主网络以外的子网中。验证器必须在验证此子网的整个期间内验证主网络。
 
-#### **签名**
+#### **签名platform.addSubnetValidator
+
+Add a validator to a subnet other than the Primary Network. The Validator must validate the Primary Network for the entire duration they validate this subnet.
+
+#### **Signature**
 
 ```cpp
 platform.addSubnetValidator(
@@ -210,11 +274,21 @@ platform.addSubnetValidator(
 * `weight` 是用于取样的验证器权重。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。
-* `password` 是 `username`的密码。
+* `username` 是支付交易费用的用户。is the node ID of the validator.
+* `subnetID` is the subnet they will validate.
+* `startTime` is the unix time when the validator starts validating the subnet.
+* `endTime` is the unix time when the validator stops validating the subnet.
+* `weight` is the validator’s weight used for sampling.
+* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `username` is the user that pays the transaction fee.
+* `password` 是is `username`的密码。
 * `txID` 是这个交易ID.
 
-#### **调用示例**
+#### **调用示例‘s password.
+* `txID` is the transaction ID.
+
+#### **Example call**
 
 ```cpp
 curl -X POST --data '{
@@ -235,7 +309,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example response**
 
 ```cpp
 {
@@ -252,7 +326,11 @@ curl -X POST --data '{
 
 创建一个由给定用户控制的新地址。
 
-#### **签名**
+#### **签名platform.createAddress
+
+Create a new address controlled by the given user.
+
+#### **Signature**
 
 ```cpp
 platform.createAddress({
@@ -261,7 +339,7 @@ platform.createAddress({
 }) -> {address: string}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -275,7 +353,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -289,9 +367,11 @@ curl -X POST --data '{
 
 ### 平台创建区块链
 
-创建一个新的区块链, 目前只支持创建AVM和Timestamp VM的新实例。
+创建一个新的区块链, 目前只支持创建AVM和platform.createBlockchain
 
-#### **签名**
+Create a new blockchain. Currently only supports the creation of new instances of the AVM and the Timestamp VM的新实例。.
+
+#### **签名Signature**
 
 ```cpp
 platform.createBlockchain(
@@ -317,16 +397,25 @@ platform.createBlockchain(
 * `vmID` 为区块链运行的虚拟机ID, 也可以是虚拟机的别名。
 * `name`是新区块链的可读名称, 不一定是独一无二的。
 * `genesisData` 以`encoding`参数指定的格式编码的新区块链的起源状态的字节形式。
-* `encoding` 指定`genesisData`使用的格式, 可以是“cb58”或“hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成`genesisData`。
+* `encoding` 指定`genesisData`使用的格式, 可以是 is the ID of the Subnet that validates the new blockchain. The Subnet must exist and can’t be the Primary Network.
+* `vmID` is the ID of the Virtual Machine the blockchain runs. Can also be an alias of the Virtual Machine.
+* `name` is a human-readable name for the new blockchain. Not necessarily unique.
+* `genesisData` is the byte representation of the genesis state of the new blockchain encoded in the format specified by the `encoding` parameter.
+* `encoding` specifies the format to use for `genesisData`. Can be either “cb58”或 or “hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。
-* `password` 是 `username`的密码。
-* `txID`是此交易ID。
+* `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `username` is the user that pays the transaction fee. This user must have a sufficient number of the subnet’s control keys.
+* `password` 是is `username`的密码。
+* `txID`是此交易‘s password.
+* `txID` is the transaction ID。.
 
 #### **调用示例**
 
-在这个例子中，我们创建了一个时间戳虚拟机的新实例。`genesisData`来自于调用`timestamp.buildGenesis`。
+在这个例子中，我们创建了一个时间戳虚拟机的新实例。`genesisData`来自于调用Example Call**
+
+In this example we’re creating a new instance of the Timestamp Virtual Machine. `genesisData` came from calling `timestamp.buildGenesis`。.
 
 ```cpp
 curl -X POST --data '{
@@ -347,7 +436,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -366,7 +455,13 @@ curl -X POST --data '{
 
 子网的ID与该事务的ID相同。
 
-#### **签名**
+#### **签名platform.createSubnet
+
+Create a new subnet.
+
+The subnet’s ID is the same as this transaction’s ID.
+
+#### **Signature**
 
 ```cpp
 platform.createSubnet(
@@ -388,10 +483,15 @@ platform.createSubnet(
 * 为了向这个子网添加一个验证器，`controlKeys`中的地址需要`threshold`签名。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。
-* `password` 是 `username`的密码。
+* `username` 是支付交易费用的用户。In order to add a validator to this subnet, `threshold` signatures are required from the addresses in `controlKeys`
+* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `username` is the user that pays the transaction fee.
+* `password` 是is `username`的密码。
 
-#### **调用示例**
+#### **调用示例‘s password.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -412,7 +512,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -426,9 +526,13 @@ curl -X POST --data '{
 
 ### 平台导出AVAX
 
-从P链上的地址发送AVAX到X链上的地址。在发布这个交易之后，你必须调用X链的[`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)方法来完成交易。
+从P链上的地址发送AVAX到X链上的地址。在发布这个交易之后，你必须调用X链的platform.exportAVAX
 
-#### **签名**
+Send AVAX from an address on the P-Chain to an address on the X-Chain. After issuing this transaction, you must call the X-Chain’s [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)方法来完成交易。
+
+#### **签名 method to complete the transfer.
+
+#### **Signature**
 
 ```cpp
 platform.exportAVAX(
@@ -451,11 +555,18 @@ platform.exportAVAX(
 * `to` 是要发送AVAX到的X链上的地址。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username`是发送AVAX并支付交易费用的用户。
-* `password` 是 `username`的密码。
+* `username`是发送AVAX并支付交易费用的用户。is the amount of nAVAX to send.
+* `to` is the address on the X-Chain to send the AVAX to
+* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
+* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
+* `username` is the user sending the AVAX and paying the transaction fee.
+* `password` 是is `username`的密码。
 * `txID` 是此交易ID。
 
-#### **调用示例**
+#### **调用示例‘s password.
+* `txID` is the ID of this transaction.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -473,7 +584,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -489,9 +600,12 @@ curl -X POST --data '{
 ### 平台导出密钥
 
 获取控制给定地址的私钥。
-返回的私钥可以通过[`platform.importKey`](platform-chain-p-chain-api.md#platform-importkey)添加到用户。
+返回的私钥可以通过platform.exportKey
 
-#### **签名**
+Get the private key that controls a given address.  
+The returned private key can be added to a user with [`platform.importKey`](platform-chain-p-chain-api.md#platform-importkey)添加到用户。.
+
+#### **签名Signature**
 
 ```cpp
 platform.exportKey({
@@ -501,11 +615,13 @@ platform.exportKey({
 }) -> {privateKey: string}
 ```
 
-* `username`是控制`address`的用户。
-* `password` 是 `username`的密码。
+* `username`是控制 is the user that controls `address`的用户。.
+* `password` 是is `username`的密码。‘s password.
 * `privateKey`是控制`address`的私钥的字符串表现形式。
 
-#### **调用示例**
+#### **调用示例 is the string representation of the private key that controls `address`.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -520,7 +636,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -536,7 +652,11 @@ curl -X POST --data '{
 
 获取由给定地址控制的AVAX的余额。
 
-#### **签名**
+#### **签名platform.getBalance
+
+Get the balance of AVAX controlled by a given address.
+
+#### **Signature**
 
 ```cpp
 platform.getBalance({
@@ -556,11 +676,17 @@ platform.getBalance({
 * `address` 是获取余额的地址。
 * `balance` 是nAVAX的总余额。
 * `unlocked` 是nAVAX的解锁的余额。
-* `lockedStakeable`是锁定的质押中的nAVAX余额。
+* `lockedStakeable`是锁定的质押中的is the address to get the balance of.
+* `balance` is the total balance, in nAVAX.
+* `unlocked` is the unlocked balance, in nAVAX.
+* `lockedStakeable` is the locked stakeable balance, in nAVAX余额。.
 * `lockedNotStakeable` 是锁定未质押的余额。
 * `utxoIDs` 是引用`address`的UTXO的ID。
 
-#### **调用示例**
+#### **调用示例is the locked and not stakeable balance, in nAVAX.
+* `utxoIDs` are the IDs of the UTXOs that reference `address`.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -573,7 +699,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -600,9 +726,11 @@ curl -X POST --data '{
 
 ### 平台获取区块链
 
-获取所有存在的区块链\(不包括P链\)。
+获取所有存在的区块链\(不包括P链platform.getBlockchains
 
-#### **签名**
+Get all the blockchains that exist \(excluding the P-Chain\)。.
+
+#### **签名Signature**
 
 ```cpp
 platform.getBlockchains() ->
@@ -622,7 +750,13 @@ platform.getBlockchains() ->
 * `subnetID` 是验证这个区块链的子网的ID。
 * `vmID` 是区块链运行的虚拟机ID。
 
-#### **调用示例**
+#### **调用示例is all of the blockchains that exists on the Avalanche network.
+* `name` is the human-readable name of this blockchain.
+* `id` is the blockchain’s ID.
+* `subnetID` is the ID of the Subnet that validates this blockchain.
+* `vmID` is the ID of the Virtual Machine the blockchain runs.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -633,7 +767,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -692,7 +826,11 @@ curl -X POST --data '{
 
 获取区块链状态。
 
-#### **签名**
+#### **签名platform.getBlockchainStatus
+
+Get the status of a blockchain.
+
+#### **Signature**
 
 ```cpp
 platform.getBlockchainStatus(
@@ -702,14 +840,19 @@ platform.getBlockchainStatus(
 ) -> {status: string}
 ```
 
-`status` 是以下情况之一:
+`status` 是以下情况之一is one of:
 
 * `Validating`: 该节点正在验证区块链。
 * `Created`: 区块链存在，但该节点没有验证它。
 * `Preferred`: 区块链被提议创建，而且很可能被创建，但交易尚未被接受。
 * `Unknown`: 区块链要么没有被提议，要么创建它的提议不受欢迎。提案可以重新提交。
 
-#### **调用示例**
+#### **调用示例The blockchain is being validated by this node.
+* `Created`: The blockchain exists but isn’t being validated by this node.
+* `Preferred`: The blockchain was proposed to be created and is likely to be created but the transaction isn’t yet accepted.
+* `Unknown`: The blockchain either wasn’t proposed or the proposal to create it isn’t preferred. The proposal may be resubmitted.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -722,7 +865,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -738,15 +881,19 @@ curl -X POST --data '{
 
 返回存在的AVAX数量的上限。 这是一个上限，因为它不考虑已销毁的代币，包括交易费。
 
-#### **签名**
+#### **签名platform.getCurrentSupply
+
+Returns an upper bound on the number of AVAX that exist. This is an upper bound because it does not account for burnt tokens, including transaction fees.
+
+#### **Signature**
 
 ```cpp
 platform.getCurrentSupply() -> {supply: int}
 ```
 
-* `supply` 是存在的AVAX数量的上限，以nAVAX表示。
+* `supply` 是存在的AVAX数量的上限，以is an upper bound on the number of AVAX that exist, denominated in nAVAX表示。.
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -757,7 +904,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -769,15 +916,23 @@ curl -X POST --data '{
 }
 ```
 
-此示例中的响应表明AVAX的供应量最多为3,865.65万。
+此示例中的响应表明AVAX的供应量最多为3,8The response in this example indicates that AVAX’s supply is at most 365.865万。
 
 ### 平台获取当前验证器
 
 列出给定子网的当前验证器。
 
-从v1.0.1开始，顶级字段`delegators`已不推荐使用[deprecated](deprecated-api-calls.md#getcurrentvalidators)，并已在v1.0.6中删除。 相反，`validators`的每个元素现在都包含该验证器的委托人列表。
+从v1.0.1开始，顶级字段 million.
 
-#### **签名**
+### platform.getCurrentValidators
+
+List the current validators of the given Subnet.
+
+The top level field `delegators`已不推荐使用 was [deprecated](deprecated-api-calls.md#getcurrentvalidators)，并已在v1.0.6中删除。 相反，`validators`的每个元素现在都包含该验证器的委托人列表。
+
+#### **签名 as of v1.0.1, and removed in v1.0.6. Instead, each element of `validators` now contains the list of delegators for that validator.
+
+#### **Signature**
 
 ```cpp
 platform.getCurrentValidators({
@@ -822,12 +977,20 @@ platform.getCurrentValidators({
   * `startTime` 是验证器开始验证子网的Unix时间。
   * `endTime` 是验证器停止验证子网的Unix时间。
   * `stakeAmount` 是此验证程序投入的nAVAX的数量。 如果`subnetID`不是主网络则省略。
-  * `nodeID` 是验证者的节点ID。
-  * `weight` 是在对验证者进行抽样时验证者的权重。 如果`subnetID`是主网络则省略。
-  * `rewardOwner` 是 `OutputOwners` 的输出, 包括`locktime`、`threshold`, 以及大批`addresses`。
+  * `nodeID` 是验证者的节点is the subnet whose current validators are returned. If omitted, returns the current validators of the Primary Network.
+* `validators`:
+  * `txID` is the validator transaction.
+  * `startTime` is the Unix time when the validator starts validating the Subnet.
+  * `endTime` is the Unix time when the validator stops validating the Subnet.
+  * `stakeAmount` is the amount of nAVAX this validator staked. Omitted if `subnetID` is not the Primary Network.
+  * `nodeID` is the validator’s node ID。.
+  * `weight` 是在对验证者进行抽样时验证者的权重。 如果`subnetID`是主网络则省略。is the validator’s weight when sampling validators. Omitted if `subnetID` is the Primary Network.
+  * `rewardOwner` 是is an `OutputOwners` 的输出, 包括output which includes `locktime`、, `threshold`, 以及大批 and array of `addresses`。.
   * `potentialReward` 是从质押中获得的潜在报酬。
   * `delegationFeeRate` 是当其他人将质押委托给他们时，该验证程序收取的费用百分比。
-  * `uptime` 是查询的节点将对等方报告为在线的时间的百分比。is the % of time the queried node has reported the peer as online.
+  * `uptime` 是查询的节点将对等方报告为在线的时间的百分比。is the potential reward earned from staking
+  * `delegationFeeRate` is the percent fee this validator charges when others delegate stake to them.
+  * `uptime` is the % of time the queried node has reported the peer as online.
   * `connected` is if the node is connected to the network
   * `delegators` is the list of delegators to this validator:
     * `txID` is the delegator transaction.
@@ -1799,8 +1962,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMT
-U4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0
-MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMz
-IsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05OD
+I2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEz
+NDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzOD
+csLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5
+OTM5OV19
 -->
