@@ -1,6 +1,6 @@
 # IPC API
 
-IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当区块链接受一个顶点/块时，它将把这个顶点/块发布到一个套接字中，其中包含的决策将被发布到另一个套接字中。
+The IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当区块链接受一个顶点/块时，它将把这个顶点/块发布到一个套接字中，其中包含的决策将被发布到另一个套接字中。
 
 一个节点只有在使用[command line argument](../references/command-line-interface.md) `api-ipcs-enabled=true`启动时才会公开这个API。
 
@@ -8,7 +8,15 @@ IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当�
 
 套接字消息由一个BigEndian格式的64位整数组成, 后面跟着非常多字节。
 
-示例:
+示例 allows users to create UNIX domain sockets for blockchains to publish to. When the blockchain accepts a vertex/block it will publish it to a socket and the decisions contained inside will be published to another.
+
+A node will only expose this API if it is started with [command line argument](../references/command-line-interface.md) `api-ipcs-enabled=true`.
+
+## IPC Message Format
+
+Socket messages consist of a 64bit integer in BigEndian format followed by that many bytes.
+
+Example:
 
 ```text
 Sending:
@@ -19,23 +27,35 @@ Writes to the socket:
 
 ## IPC 套接字URL格式
 
-套接字的名称形式为`<network_id>-<chain_id>-<event_type>`，其中`<event_type>`要么是`consensus`, 要么是`decisions`。共识套接字接收顶点和块，而决策套接字接收单个事务。
+套接字的名称形式为Socket URL Format
+
+The names of the sockets are of the form `<network_id>-<chain_id>-<event_type>`，其中 where `<event_type>`要么是 is either `consensus`, 要么是 or `decisions`。共识套接字接收顶点和块，而决策套接字接收单个事务。
 
 ## 格式
 
-这个API使用`json 2.0`  RPC格式。
+这个API使用. The consensus socket receives verticies and blocks and while the decisions socket recives individual transactions.
 
-## 端点
+## Format
+
+This API uses the `json 2.0`  RPC格式。
+
+## 端点 format.
+
+## Endpoint
 
 `/ext/ipcs`
 
-## 方法
+## 方法Methods
 
 ### ipcs.发布区块链
 
 注册一个区块链，以便它接受的顶点发布到Unix域套接字。
 
-#### **签名**
+#### **签名publishBlockchain
+
+Register a blockchain so it publishes accepted vertices to a Unix domain socket.
+
+#### **Signature**
 
 ```cpp
 ipcs.publishBlockchain({blockchainID: string}) -> {consensusURL: string, decisionsURL: string}
@@ -45,7 +65,11 @@ ipcs.publishBlockchain({blockchainID: string}) -> {consensusURL: string, decisio
 * `consensusURL` 是发布顶点的Unix域套接字的路径。
 * `decisionsURL` 是发布事务的Unix域套接字的路径。
 
-#### **调用示例**
+#### **调用示例is the blockchain that will publish accepted vertices.
+* `consensusURL` is the path of the Unix domain socket the vertices are published to.
+* `decisionsURL` is the path of the Unix domain socket the transactions are published to.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -58,7 +82,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/ipcs
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -75,7 +99,11 @@ curl -X POST --data '{
 
 注销区块链，使其不再发布到Unix域套接字。
 
-#### **签名**
+#### **签名unpublishBlockchain
+
+Deregister a blockchain so that it no longer publishes to a Unix domain socket.
+
+#### **Signature**
 
 ```cpp
 ipcs.unpublishBlockchain({blockchainID: string}) -> {success: bool}
@@ -83,7 +111,9 @@ ipcs.unpublishBlockchain({blockchainID: string}) -> {success: bool}
 
 * `blockchainID` 是将不再发布到Unix域套接字的区块链。
 
-#### **调用示例**
+#### **调用示例is the blockchain that will no longer publish to a Unix domain socket.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -96,7 +126,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/ipcs
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -109,7 +139,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjc0OTQ0OCwtNDM5ODYxNjQxLDEyNT
-A0MTI1MzQsLTU2MTU3NDIxNywtMTkxMjk3MDYwNSwtNDE4NjUx
-MzUxLDE5MDE5MzczNzVdfQ==
+eyJoaXN0b3J5IjpbMTY2ODQyMzY5NSwtNTI2NzQ5NDQ4LC00Mz
+k4NjE2NDEsMTI1MDQxMjUzNCwtNTYxNTc0MjE3LC0xOTEyOTcw
+NjA1LC00MTg2NTEzNTEsMTkwMTkzNzM3NV19
 -->
