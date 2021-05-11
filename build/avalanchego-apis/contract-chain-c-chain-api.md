@@ -4,13 +4,22 @@
 
 # 合约链 \(C-Chain\) API
 
-_注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche的networkID和chainID没有关系，纯粹是EVM内部的_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_。在主网上，C-Chain使用`1` 和`43114` 作为这些值。在富士测试网中，它使用`1`和`43113`作为这些值。`networkID`和`chainID`也可以使用下面所示的`net_version`和`eth_chainId`方法获取_。
+_注意:以太坊有自己的description: The C-Chain is an instance of the Ethereum Virtual Machine (EVM)
+---
 
-## 部署智能合约
+# Contract Chain \(C-Chain\) API
+
+_Note: Ethereum has its own notion of `networkID`和 and `chainID`概念。这些与Avalanche的. These have no relationship to Avalanche’s view of networkID和 and chainID没有关系，纯粹是EVM内部的 and are purely internal to the_ [_C-Chain_](../../learn/platform-overview/#contract-chain-c-chain)_。在主网上，C-Chain使用`1` 和`43114` 作为这些值。在富士测试网中，它使用`1`和`43113`作为这些值。. On Mainnet, the C-Chain uses `1` and `43114` for these values. On the Fuji Testnet, it uses `1` and `43113` for these values. `networkID`和 and `chainID`也可以使用下面所示的 can also be obtained using the `net_version`和 and `eth_chainId`方法获取_。
+
+## 部署智能合约 methods shown below._
+
+## Deploying a Smart Contract
+
+{% page-ref page="../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
 
 ## Ethereum APIs
 
-### Ethereum API 端点
+### Ethereum API 端点Endpoints
 
 #### JSON-RPC 端点
 
@@ -20,13 +29,21 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 /ext/bc/C/rpc
 ```
 
-通过JSON-RPC端点与EVM的其他实例交互:
+通过JSON-RPC端点与EVM的其他实例交互Endpoints
+
+To interact with C-Chain via the JSON-RPC endpoint:
+
+```cpp
+/ext/bc/C/rpc
+```
+
+To interact with other instances of the EVM via the JSON-RPC endpoint:
 
 ```cpp
 /ext/bc/blockchainID/rpc
 ```
 
-其中`blockchainID`是运行EVM的区块链的ID。
+其中where `blockchainID`是运行EVM的区块链的ID。
 
 #### WebSocket 端点
 
@@ -42,13 +59,29 @@ _注意:以太坊有自己的`networkID`和`chainID`概念。这些与Avalanche�
 ws://127.0.0.1:9650/ext/bc/C/ws
 ```
 
-通过websocket端点与其他EVM实例交互:
+通过websocket端点与其他EVM实例交互 is the ID of the blockchain running the EVM.
+
+#### WebSocket Endpoints
+
+To interact with C-Chain via the websocket endpoint:
+
+```cpp
+/ext/bc/C/ws
+```
+
+For example, to interact with the C-Chain's Ethereum APIs via websocket on localhost you can use:
+
+```cpp
+ws://127.0.0.1:9650/ext/bc/C/ws
+```
+
+To interact with other instances of the EVM via the websocket endpoint:
 
 ```cpp
 /ext/bc/blockchainID/ws
 ```
 
-其中`blockchainID`是运行EVM的区块链的ID。
+其中where `blockchainID`是运行EVM的区块链的ID。
 
 ### 方法
 
@@ -62,13 +95,31 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 * `personal_`
 * `txpool_`
 
-您可以以与Geth交互相同的方式与这些服务交互。请参阅[Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API)和[Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server)了解此API的完整描述。
+您可以以与Geth交互相同的方式与这些服务交互。请参阅 is the ID of the blockchain running the EVM.
+
+### Methods
+
+#### Standard Ethereum APIs
+
+Avalanche offers an API interface identical to Geth's API except that it only supports the following services:
+
+* `web3_`
+* `net_`
+* `eth_`
+* `personal_`
+* `txpool_`
+
+You can interact with these services the same exact way you’d interact with Geth. See the [Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API)和 and [Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server)了解此API的完整描述。
 
 #### eth\_getAssetBalance
 
-除了标准的以太坊api, Avalanche还提供了`eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额\(不包括AVAX，它必须通过`eth_getBalance`获取\)。
+除了标准的以太坊api for a full description of this API.
 
-**签名**
+#### eth\_getAssetBalance
+
+In addition to the standard Ethereum APIs, Avalanche还提供了 offers `eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额\(不包括AVAX，它必须通过 to retrieve the balance of first class Avalanche Native Tokens on the C-Chain \(excluding AVAX, which must be fetched with `eth_getBalance`获取\)。.
+
+**签名Signature**
 
 ```cpp
 eth_getAssetBalance({
@@ -82,7 +133,11 @@ eth_getAssetBalance({
 * `blk` 是要检索余额的块号或哈希
 * `assetID` 要求余额的资产的Id
 
-**调用示例**
+**调用示例owner of the asset
+* `blk` is the block number or hash at which to retrieve the balance
+* `assetID` id of the asset for which the balance is requested
+
+**Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -97,7 +152,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/rpc
 ```
 
-**响应示例**
+**响应示例Example Response**
 
 ```cpp
 {
@@ -107,7 +162,7 @@ curl -X POST --data '{
 }
 ```
 
-## Avalanche 特定 APIs
+## Avalanche 特定Specific APIs
 
 ### Avalanche 特定 API 端点
 
@@ -125,11 +180,25 @@ curl -X POST --data '{
 
 ### avax 输出
 
-将资产从C链输出到X链。调用此方法后，必须在X-Chain上调用[' avm.import '](exchange-chain- X-Chain -api.md#avm-import)来完成传输。
+将资产从C链输出到X链。调用此方法后，必须在X-Chain上调用[' avm.import '](exchange-chain- X-Chain -api.md#avm-import)来完成传输。Specific API Endpoints
+
+To interact with the `avax` specific RPC calls on the C-Chain:
+
+```cpp
+/ext/bc/C/avax
+```
+
+To interact with other instances of the EVM AVAX endpoints:
+
+```cpp
+/ext/bc/blockchainID/avax
+```
+
+### avax.export
 
 Export an asset from the C-Chain to the X-Chain. After calling this method, you must call [`avm.import`](exchange-chain-x-chain-api.md#avm-import) on the X-Chain to complete the transfer.
 
-#### 签名
+#### 签名Signature
 
 ```cpp
 avax.export({
@@ -143,10 +212,14 @@ avax.export({
 
 * `to`资产被发送到的X-Chain地址。
 * `amount` 是要发送的资产数量。
-* `assetID` 为资产的ID。要导出AVAX, 使用`"AVAX"`作为' `assetID`。
-* 资产是从由`username` 和`password`控制的地址发送的。
+* `assetID` 为资产的ID。要导出AVAX, 使用 is the X-Chain address the asset is sent to.
+* `amount` is the amount of the asset to send.
+* `assetID` is the ID of the asset. To export AVAX use `"AVAX"`作为' as the `assetID`。.
+* 资产是从由The asset is sent from addresses controlled by `username` 和and `password`控制的地址发送的。
 * 
-#### 调用示例
+#### 调用示例.
+
+#### Example Call
 
 ```javascript
 curl -X POST --data '{
@@ -163,7 +236,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例
+#### 响应示例Example Response
 
 ```javascript
 {
@@ -177,11 +250,13 @@ curl -X POST --data '{
 
 ### avax.exportAVAX
 
-**弃用—请使用** [**avax.export**](contract-chain-c-chain-api.md#avax-export).
+**弃用—请使用DEPRECATED—instead use** [**avax.export**](contract-chain-c-chain-api.md#avax-export).
 
-将AVAX从C链发送到X链。调用此方法后，必须在X-Chain上调用[`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)来完成传输。
+将AVAX从C链发送到X链。调用此方法后，必须在X-Chain上调用Send AVAX from the C-Chain to the X-Chain. After calling this method, you must call [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)来完成传输。
 
-#### 签名
+#### 签名 on the X-Chain to complete the transfer.
+
+#### Signature
 
 ```go
 avax.exportAVAX({
@@ -195,20 +270,28 @@ avax.exportAVAX({
 }) -> {txID: string}
 ```
 
-**要求**
+**要求Request**
 
 * `from` 是发送AVAX的C链的地址, 是十六进制格式。
 * `to`是AVAX发送到的C链的地址, 是bech32格式。
 * `amount` 是要发送的nAVAX的数量。
-* `destinationChain` 是AVAX被发送到的链。要将资金输出到X链，请使用`"X"`。
+* `destinationChain` 是AVAX被发送到的链。要将资金输出到X链，请使用is the C-Chain addresses the AVAX is sent from. They should be in hex format.
+* `to` is the X-Chain address the AVAX is sent to. It should be in bech32 format.
+* `amount` is the amount of nAVAX to send.
+* `destinationChain` is the chain the AVAX is sent to. To export funds to the X-Chain, use `"X"`。.
 * `changeAddr` 是C链地址，任何更改都发送到此。它是十六进制格式。
 * AVAX是由`username`控制的地址发送的。 
 
 **响应**
 
-* `txID` 是已完成的ExportTx的txid。
+* `txID` 是已完成的is the C-Chain address where any change is sent to. It should be in hex format.
+* The AVAX is sent from addresses controlled by `username`
 
-#### 调用示例
+**Response**
+
+* `txID` is the txid of the completed ExportTx的txid。.
+
+#### 调用示例Example Call
 
 ```javascript
 curl -X POST --data '{
@@ -227,7 +310,8 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例
+#### 响应示例Example Response
+
 ```javascript
 {
     "jsonrpc": "2.0",
@@ -240,9 +324,9 @@ curl -X POST --data '{
 
 ### avax.exportKey
 
-获取控制给定地址的私钥。返回的私钥可以添加到具有' `avax.importKey`的用户。
+获取控制给定地址的私钥。返回的私钥可以添加到具有'Get the private key that controls a given address. The returned private key can be added to a user with `avax.importKey`的用户。.
 
-#### 签名
+#### 签名Signature
 
 ```go
 avax.exportKey({
@@ -252,17 +336,21 @@ avax.exportKey({
 }) -> {privateKey: string}
 ```
 
-**要求**
+**要求Request**
 
-* `username` 必须控制 `address`.
+* `username` 必须控制must control `address`.
 * `address` 是要为其导出相应私钥的地址。它应该是十六进制格式。
 
 **响应**
 
-* `privateKey` 是代表控制`address`的私钥的CB58端编码字符串。它有一个`PrivateKey-`前缀，可以用来通过`avax.importKey`导入一个密钥。
-* `privateKeyHex` 是代表控制`address`的私钥的十六进制字符串。它可以用于将帐户导入Metamask。
+* `privateKey` 是代表控制`address`的私钥的CB58端编码字符串。它有一个`PrivateKey-`前缀，可以用来通过is the address for which you want to export the corresponding private key. It should be in hex format.
 
-#### 调用示例
+**Response**
+
+* `privateKey` is the CB58 endcoded string representation of the private key that controls `address`. It has a `PrivateKey-` prefix and can be used to import a key via `avax.importKey`导入一个密钥。.
+* `privateKeyHex` 是代表控制`address`的私钥的十六进制字符串。它可以用于将帐户导入is the hex string representation of the private key that controls `address`. It can be used to import an account into Metamask。.
+
+#### 调用示例Example Call
 
 ```javascript
 curl -X POST --data '{
@@ -277,7 +365,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例
+#### 响应示例Example Response
 
 ```javascript
 {
@@ -294,7 +382,9 @@ curl -X POST --data '{
 
 获取引用给定地址的UTXO。
 
-#### **签名**
+#### **签名Gets the UTXOs that reference a given address.
+
+#### **Signature**
 
 ```cpp
 avax.getUTXOs(
@@ -320,16 +410,23 @@ avax.getUTXOs(
 ```
 
 * `utxos` 是一个UTXO列表，每个UTXO在`addresses`中至少引用一个地址。
-* 最多返回`limit`限制的UTXO。如果省略了`limit`或大于1024，则将其设置为1024。
-* 此方法支持分页。`endIndex`表示返回的最后一个UTXO。要获取下一组UTXO，在下一个调用中使用`endIndex`的值作为`startIndex`。
+* 最多返回is a list of UTXOs such that each UTXO references at least one address in `addresses`.
+* At most `limit`限制的 UTXO。如果省略了`limit`或大于1024，则将其设置为s are returned. If `limit` is omitted or greater than 1024, it is set to 1024。.
+* 此方法支持分页。`endIndex`表示返回的最后一个UTXO。要获取下一组UTXO，在下一个调用中使用This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex`的值作为 as `startIndex`。
 * 如果省略`startIndex`，将获取`limit`以内的所有UTXO。
 * 当使用分页时(即提供了`startIndex`)， UTXO不能保证在多个调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。
 * 使用分页时，不能保证多个调用之间的一致性。也就是说，地址的UTXO集可能在调用过程中发生了变化。
-* `encoding`设置返回UTXO的格式。可以是“cb58”或“hex”。默认为“cb58”。
+* `encoding`设置返回UTXO的格式。可以是 in the next call.
+* If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
+* When using pagination \(ie when `startIndex` is provided\), UTXOs are not guaranteed to be unique across multiple calls. That is, a UTXO may appear in the result of the first call, and then again in the second call.
+* When using pagination, consistency is not guaranteed across multiple calls. That is, the UTXO set of the addresses may have changed between calls.
+* `encoding` sets the format for the returned UTXOs. Can be either “cb58”或 or “hex”。默认为. Defaults to “cb58”。.
 
 #### **示例**
 
-假设我们希望所有的UTXO至少引用一个`C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`。
+假设我们希望所有的UTXO至少引用一个Example**
+
+Suppose we want all UTXOs that reference at least one of `C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`。.
 
 ```cpp
 curl -X POST --data '{
@@ -348,7 +445,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-响应如下:
+响应如下This gives response:
 
 ```cpp
 {
@@ -372,9 +469,13 @@ curl -X POST --data '{
 
 ### avax.输入
 
-将非AVAX或AVAX从X链转移到C链。在调用此方法之前，必须调用X-Chain的[`avm.export`](exchange-chain-x-chain-api.md#avm-export)方法来启动传输。
+将非AVAX或AVAX从X链转移到C链。在调用此方法之前，必须调用import
 
-#### 签名
+Finalize the transfer of a non-AVAX or AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain的's [`avm.export`](exchange-chain-x-chain-api.md#avm-export)方法来启动传输。
+
+#### 签名 method to initiate the transfer.
+
+#### Signature
 
 ```go
 avax.import({
@@ -385,17 +486,23 @@ avax.import({
 }) -> {txID: string}
 ```
 
-**要求**
+**要求Request**
 
 * `to` 是资产被发送到的地址。这必须与对应C链`export`调用中的`to`参数相同。
-* `sourceChain` 是要从其中导入资产的链的ID或别名。要从X链导入资金，请使用`"X"`。
+* `sourceChain` 是要从其中导入资产的链的ID或别名。要从X链导入资金，请使用is the address the asset is sent to. This must be the same as the `to` argument in the corresponding call to the C-Chain's `export`.
+* `sourceChain` is the ID or alias of the chain the asset is being imported from. To import funds from the X-Chain, use `"X"`。.
 * `username` 是控制`to`的用户。
 
 **响应**
 
-* `txID` 是已完成的ImportTx的ID
+* `txID` 是已完成的is the user that controls `to`.
 
-#### 调用示例
+**Response**
+
+* `txID` is the ID of the completed ImportTx的ID.
+
+#### 调用示例Example Call
+
 ```javascript
 curl -X POST --data '{
     "jsonrpc":"2.0",
@@ -410,7 +517,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例
+#### 响应示例Example Response
 
 ```javascript
 {
@@ -424,11 +531,13 @@ curl -X POST --data '{
 
 ### avax.importAVAX
 
-**弃用—请使用** [**avax.import**](contract-chain-c-chain-api.md#avax-import)
+**弃用—请使用DEPRECATED—instead use** [**avax.import**](contract-chain-c-chain-api.md#avax-import)
 
-将AVAX从X链转移到C链。在调用此方法之前，必须调用X-Chain的[`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
+将AVAX从X链转移到C链。在调用此方法之前，必须调用Finalize a transfer of AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain的's [`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
 
-#### 签名
+#### 签名method to initiate the transfer.
+
+#### Signature
 
 ```go
 avax.importAVAX({
@@ -439,17 +548,18 @@ avax.importAVAX({
 }) -> {txID: string}
 ```
 
-**要求**
+**要求Request**
 
 * `to` 是AVAX发送到的地址, 是十六进制格式。
-* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用`"X"`。
-* `username` 是控制 `to`的用户.
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用is the address the AVAX is sent to. It should be in hex format.
+* `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`。.
+* `username` 是控制is the user that controls `to`的用户.
 
-**响应**
+**响应Response**
 
-* `txID`是已完成的ImportTx的ID。
+* `txID`是已完成的 is the ID of the completed ImportTx的ID。.
 
-#### 调用示例
+#### 调用示例Example Call
 
 ```javascript
 curl -X POST --data '{
@@ -465,7 +575,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例
+#### 响应示例Example Response
 
 ```javascript
 {
@@ -481,7 +591,9 @@ curl -X POST --data '{
 
 通过提供控制地址的私钥，让用户控制地址。
 
-#### 签名
+#### 签名Give a user control over an address by providing the private key that controls the address.
+
+#### Signature
 
 ```go
 avax.importKey({
@@ -491,15 +603,21 @@ avax.importKey({
 }) -> {address: string}
 ```
 
-**要求**
+**要求Request**
 
-* 添加 `privateKey` 到 `username`的私钥组。
+* 添加Add `privateKey` 到to `username`的私钥组。
 
 **响应**
 
 * `address`是`username`用私钥控制的地址。它将是十六进制格式。
 
-#### 调用示例
+#### 调用示例's set of private keys.
+
+**Response**
+
+* `address` is the address `username` now controls with the private key. It will be in hex format.
+
+#### Example Call
 
 ```javascript
 curl -X POST --data '{
@@ -514,7 +632,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例
+#### 响应示例Example Response
 
 ```javascript
 {
@@ -527,6 +645,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwND
-A2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTE4ODk0NDc2MDAsLTM2MDAwOTc3MSw1MD
+Q4MzkyNDksLTIwNDA2NjQzNTNdfQ==
 -->
