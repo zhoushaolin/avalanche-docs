@@ -6,21 +6,31 @@
 
 ## 格式
 
-这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。  
+这个API使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见这里Health API
 
-## 端点
+This API can be used for measuring node health.
+
+To get an HTTP status code response that indicates the node’s health, make a `GET` request to `/ext/health`. If the node is healthy, it will return a `200` status code. If you want more in-depth information about a node’s health, use the methods below.
+
+## Format
+
+This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md)。  .
+
+## 端点Endpoint
 
 ```text
 /ext/health
 ```
 
-## 方法
+## 方法Methods
 
 ### health.getLiveness
 
 节点每30秒运行一组健康检查，包括对每个链的健康检查。此方法返回最后一组运行状况检查结果。
 
-#### **签名**
+#### **签名The node runs a set of health checks every 30 seconds, including a health check for each chain. This method returns the last set of health check results.
+
+#### **Signature**
 
 ```cpp
 health.getLiveness() -> {
@@ -48,9 +58,22 @@ health.getLiveness() -> {
 * `contiguousFailures` 是连续检查失败的次数。
 * `timeOfFirstFailure`是该检查第一次失败的时间。
 
-关于这些测量的更多信息可以在[go-sundheit](https://github.com/AppsFlyer/go-sundheit)库的文档中找到。
+关于这些测量的更多信息可以在 is true if the node if all health checks are passing.
 
-#### **调用示例**
+`checks` is a list of health check responses.
+
+* A check response may include a `message` with additional context.
+* A check response may include an `error` describing why the check failed.
+* `timestamp` is the timestamp of the last health check.
+* `duration` is the execution duration of the last health check, in nanoseconds.
+* `contiguousFailures` is the number of times in a row this check failed.
+* `timeOfFirstFailure` is the time this check first failed.
+
+More information on these measurements can be found in the documentation for the [go-sundheit](https://github.com/AppsFlyer/go-sundheit)库的文档中找到。
+
+#### **调用示例 library.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -62,7 +85,9 @@ curl -X POST --data '{
 
 #### **响应示例**
 
-在此示例响应中，C链的运行状况检查失败。
+在此示例响应中，C链的运行状况检查失败。Example Response**
+
+In this example response, the C-Chain’s health check is failing.
 
 ```cpp
 {
@@ -117,5 +142,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE5MTkwMzVdfQ==
+eyJoaXN0b3J5IjpbLTk5MzYyMTI3MywtMTcyMTkxOTAzNV19
 -->
