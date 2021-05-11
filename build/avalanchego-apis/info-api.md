@@ -1,12 +1,16 @@
-# 信息 API
+# 信息Info API
 
 此API可用于访问节点的基本信息。
 
 ## 格式
 
-这个API使用`json 2.0` RPC格式, 有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。
+这个API使用`json 2.0` RPC格式, 有关JSON RPC调用的更多信息，请参见这里This API can be used to access basic information about the node.
 
-## 端点
+## Format
+
+This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md)。.
+
+## 端点Endpoint
 
 ```text
 /ext/info
@@ -16,15 +20,19 @@
 
 ### 获取区块链ID
 
-给定区块链的别名，获取它的ID。\(见[`admin.aliasChain`](admin-api.md#admin-aliaschain)\)。  
+给定区块链的别名，获取它的ID。\(见Methods
 
-#### **签名**
+### info.getBlockchainID
+
+Given a blockchain’s alias, get its ID. \(See [`admin.aliasChain`](admin-api.md#admin-aliaschain).\)。  
+
+#### **签名Signature**
 
 ```cpp
 info.getBlockchainID({alias:string}) -> {blockchainID:string}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -37,7 +45,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -53,13 +61,17 @@ curl -X POST --data '{
 
 获取此节点参与的网络的ID。
 
-#### **签名**
+#### **签名info.getNetworkID
+
+Get the ID of the network this node is participating in.
+
+#### **Signature**
 
 ```cpp
 info.getNetworkID() -> {networkID:int}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -69,7 +81,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -85,13 +97,17 @@ curl -X POST --data '{
 
 获取此节点参与的网络的名称。
 
-#### **签名**
+#### **签名info.getNetworkName
+
+Get the name of the network this node is participating in.
+
+#### **Signature**
 
 ```cpp
 info.getNetworkName() -> {networkName:string}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -101,7 +117,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -117,13 +133,17 @@ curl -X POST --data '{
 
 获取此节点的ID。
 
-#### **签名**
+#### **签名info.getNodeID
+
+Get the ID of this node.
+
+#### **Signature**
 
 ```cpp
 info.getNodeID() -> {nodeID: string}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -133,7 +153,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -149,13 +169,17 @@ curl -X POST --data '{
 
 获取此节点的IP。
 
-#### **签名**
+#### **签名info.getNodeIP
+
+Get the IP of this node.
+
+#### **Signature**
 
 ```text
 info.getNodeIP() -> {ip: string}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -165,7 +189,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -181,13 +205,17 @@ curl -X POST --data '{
 
 获取此节点的版本。
 
-#### **签名**
+#### **签名info.getNodeVersion
+
+Get the version of this node.
+
+#### **Signature**
 
 ```cpp
 info.getNodeVersion() -> {version: string}
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -197,7 +225,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -213,7 +241,11 @@ curl -X POST --data '{
 
 检查给定链是否完成了引导。
 
-#### **签名**
+#### **签名info.isBootstrapped
+
+Check whether a given chain is done bootstrapping
+
+#### **Signature**
 
 ```cpp
 info.isBootstrapped({chain: string}) -> {isBootstrapped: bool}
@@ -221,7 +253,9 @@ info.isBootstrapped({chain: string}) -> {isBootstrapped: bool}
 
 `chain`是链的ID或别名。
 
-#### **调用示例**
+#### **调用示例 is the ID or alias of a chain.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -234,7 +268,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -250,7 +284,9 @@ curl -X POST --data '{
 
 获取对等连接的描述。
 
-#### **签名**
+#### **签名Get a description of peer connections.
+
+#### **Signature**
 
 ```cpp
 info.peers() -> 
@@ -267,7 +303,7 @@ info.peers() ->
 }
 ```
 
-#### **调用示例**
+#### **调用示例Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -277,7 +313,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -319,7 +355,11 @@ curl -X POST --data '{
 
 获取网络费用。
 
-#### **签名**
+#### **签名info.getTxFee
+
+Get the fees of the network.
+
+#### **Signature**
 
 ```cpp
 info.getTxFee() -> 
@@ -332,7 +372,10 @@ info.getTxFee() ->
 * `creationTxFee`是在网络上创建资产的费用。
 * `txFee`是在网络上进行交易的费用。
 
-#### **调用示例**
+#### **调用示例 is the fee for creating assets on the network.
+* `txFee` is the fee for making transactions on the network.
+
+#### **Example Call**
 
 ```cpp
 curl -X POST --data '{
@@ -342,7 +385,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例**
+#### **响应示例Example Response**
 
 ```cpp
 {
@@ -356,6 +399,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQwOTIxNzEsLTE3NDE2MjA2OTMsMT
-k4MzY5Mzg5OF19
+eyJoaXN0b3J5IjpbLTE2MzU5ODcyOTMsLTExMjQwOTIxNzEsLT
+E3NDE2MjA2OTMsMTk4MzY5Mzg5OF19
 -->
