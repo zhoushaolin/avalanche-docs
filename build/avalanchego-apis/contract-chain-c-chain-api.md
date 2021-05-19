@@ -521,7 +521,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -534,7 +534,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzMzMjI5NiwtMTU5MjA4MzIyNiwtMT
+eyJoaXN0b3J5IjpbMTM5NDMxNzUzNSwtMTU5MjA4MzIyNiwtMT
 c4NzMwMTA5MiwtNzg2MjYzNTc2LDEyMzc2MjMxNTQsMjA5NzYw
 MDU3LC0xMTQ5NzMyMzgsLTE4ODk0NDc2MDAsLTM2MDAwOTc3MS
 w1MDQ4MzkyNDksLTIwNDA2NjQzNTNdfQ==
