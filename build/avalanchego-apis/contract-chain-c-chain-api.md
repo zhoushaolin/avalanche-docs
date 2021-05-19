@@ -71,13 +71,9 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 
 您可以以与Geth交互相同的方式与这些服务交互。请参阅[Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API) 和[Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server), 以获取这个API的完整描述。
 
-#### eth\_getAssetBalance
+#### 以太坊获取资产余额
 
-除了标准的以太坊api for a full description of this API.
-
-#### eth\_getAssetBalance
-
-In addition to the standard Ethereum APIs, Avalanche还提供了 offers `eth_getAssetBalance`来检索C-Chain上第一类Avalanche原生令牌的余额\(不包括AVAX，它必须通过 to retrieve the balance of first class Avalanche Native Tokens on the C-Chain \(excluding AVAX, which must be fetched with `eth_getBalance`获取\)。.
+除了标准的以太坊APIs, Avalanche还提供了`eth_getAssetBalance`来检索C链上第一类Avalanche原生令牌的余额\(不包括AVAX，它必须通过 to retrieve the balance of first class Avalanche Native Tokens on the C-Chain \(excluding AVAX, which must be fetched with `eth_getBalance`获取\)。.
 
 **签名Signature**
 
@@ -605,7 +601,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODkzNjc0LC0xMTQ5NzMyMzgsLTE4OD
-k0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQz
-NTNdfQ==
+eyJoaXN0b3J5IjpbLTQ2ODU4MjAxMSwtMTE0OTczMjM4LC0xOD
+g5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC0yMDQwNjY0
+MzUzXX0=
 -->
