@@ -246,11 +246,11 @@ curl -X POST --data '{
 }
 ```
 
-### admin.stopCPUProfiler
+### 管理员停止CPU分析器
 
 停止之前启动的CPU配置文件。
 
-#### **Signature**
+#### **签名**
 
 ```text
 admin.stopCPUProfiler() -> {success:bool}
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTg3MzQ1MiwxMDQwOTY2NDgwLC0yMz
-IwOTcxNTQsMTgzNzcxNjkwOSwtMTE2NDk4NTc0OCwyMDk4Mjk5
-MV19
+eyJoaXN0b3J5IjpbMTYzNzcxMjYxMCwxMTc1ODczNDUyLDEwND
+A5NjY0ODAsLTIzMjA5NzE1NCwxODM3NzE2OTA5LC0xMTY0OTg1
+NzQ4LDIwOTgyOTkxXX0=
 -->
