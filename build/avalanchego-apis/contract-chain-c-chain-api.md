@@ -484,13 +484,11 @@ curl -X POST --data '{
 }
 ```
 
-### avax.importKey
+### avax导入密钥
 
-通过提供控制地址的私钥，让用户控制地址。
+通过提供控制地址的私人密钥，让用户控制地址。
 
-#### 签名Give a user control over an address by providing the private key that controls the address.
-
-#### Signature
+#### 签名
 
 ```go
 avax.importKey({
@@ -500,7 +498,7 @@ avax.importKey({
 }) -> {address: string}
 ```
 
-**要求Request**
+**要求**
 
 * 添加Add `privateKey` 到to `username`的私钥组。
 
@@ -542,8 +540,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzMzgxOTQ2LC0xNzg3MzAxMDkyLC03OD
-YyNjM1NzYsMTIzNzYyMzE1NCwyMDk3NjAwNTcsLTExNDk3MzIz
-OCwtMTg4OTQ0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0OSwtMj
-A0MDY2NDM1M119
+eyJoaXN0b3J5IjpbLTE1OTIwODMyMjYsLTE3ODczMDEwOTIsLT
+c4NjI2MzU3NiwxMjM3NjIzMTU0LDIwOTc2MDA1NywtMTE0OTcz
+MjM4LC0xODg5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC
+0yMDQwNjY0MzUzXX0=
 -->
