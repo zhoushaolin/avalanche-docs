@@ -431,9 +431,8 @@ curl -X POST --data '{
 
 ### avax.导入AVAX
 
-**弃用—请使用[**avax.import**](contract-chain-c-chain-api.md#avax-import)
+**弃用—请使用**  [**avax.import**](https://github.com/ava-labs/avalanche-docs/blob/master/build/avalanchego-apis/contract-chain-c-chain-api.md#avax-import)
 
-**DEPRECATED—instead use**  [**avax.import**](https://github.com/ava-labs/avalanche-docs/blob/master/build/avalanchego-apis/contract-chain-c-chain-api.md#avax-import)
 将AVAX从X链转移到C链。在调用此方法之前，必须调用Finalize a transfer of AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain的's [`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
 
 #### 签名method to initiate the transfer.
@@ -546,8 +545,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjAyNjc0MCwtMTc4NzMwMTA5MiwtNz
-g2MjYzNTc2LDEyMzc2MjMxNTQsMjA5NzYwMDU3LC0xMTQ5NzMy
-MzgsLTE4ODk0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLT
-IwNDA2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbLTE0NTYyNjU2OTMsLTE3ODczMDEwOTIsLT
+c4NjI2MzU3NiwxMjM3NjIzMTU0LDIwOTc2MDA1NywtMTE0OTcz
+MjM4LC0xODg5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC
+0yMDQwNjY0MzUzXX0=
 -->
