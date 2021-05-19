@@ -45,7 +45,7 @@ platform.getCurrentValidators({subnetID: string}) ->
 }
 ```
 
-在后来的版本中，签名如下。请注意，每个验证器都包含其委托器的列表。请查看下一个注释了解最新操作。In later versions, the signature was as follows. Note that each validator contains a list of its delegators. Please see the next note for current behavior.
+在后来的版本中，签名如下。请注意，每个验证器都包含其委托器的列表。请查看下一个注释了解最新操作。
 
 ```cpp
 platform.getCurrentValidators({subnetID: string}) ->
@@ -93,7 +93,7 @@ platform.getCurrentValidators({subnetID: string}) ->
 }
 ```
 
-从1.0.6版本开始，顶部的`delegators`字段被删除了。现在的签名是Since v1.0.6, top level `delegators` field is removed. The signature is now:
+从1.0.6版本开始，顶部的`delegators`字段被删除了。现在的签名是:
 
 ```cpp
 platform.getCurrentValidators({subnetID: string}) ->
@@ -131,7 +131,7 @@ platform.getCurrentValidators({subnetID: string}) ->
 
 ### `getTxStatus`
 
-在1.0.4版本之前, 签名为Before v1.0.4, the signature was:
+在1.0.4版本之前, 签名为:
 
 ```cpp
 platform.getTxStatus({txID: string} -> status: string
@@ -154,6 +154,6 @@ v1.0.4版本添加了一个参数 added an argument `includeReason`。如果显�
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDIyMDQ1NSwtMTg0NDc3OTk0MSwtMT
-UxNjUyNDQ1MV19
+eyJoaXN0b3J5IjpbLTIwMzgwMTMzNjgsLTE4NDQ3Nzk5NDEsLT
+E1MTY1MjQ0NTFdfQ==
 -->
