@@ -8,26 +8,21 @@
 
 这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要授权令牌来获取。
 
-必须有权限创建授权令牌。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权令牌密码。您必须提供此密码才能创建/撤消授权令牌。
+必须有权限创建授权。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权令牌密码。您必须提供此密码才能创建/撤消授权代币。
 
-注意，如果你用`--api-auth-required`运行你的节点，那么像MetaMask这样的工具可能无法对你的节点进行API调用，因为它们没有一个认证令牌。
+注意，如果你用`--api-auth-required`运行你的节点，那么像MetaMask这样的工具可能无法对你的节点进行API调用，因为它们没有一个认证代币。
 
 ## 格式
 
-这个API使用. If the node is started without this CLI, API calls do not require authorization tokens, so this API is not reachable. This API never requires an authorization token to be reached.
+这个API 使用`json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。
 
-
-## Format
-
-This API uses the `json 2.0` RPC格式。有关JSON RPC调用的更多信息，请参见 format. For more information on making JSON RPC calls, see [here.](issuing-api-calls.md)。
-
-## 端点Endpoint
+## 端点
 
 ```text
 /ext/auth
 ```
 
-## Methods方法
+## 方法
 
 ### auth.newToken
 
@@ -196,7 +191,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjMzMTIzMSwtMTA2NjA3MzA2NiwxMD
+eyJoaXN0b3J5IjpbMjExODkwMTg5NCwtMTA2NjA3MzA2NiwxMD
 EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
 Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
 M4MDMyNTUwMl19
