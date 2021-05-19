@@ -10,8 +10,6 @@ _注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalan
 
 ## 部署智能合约
 
-{% page-ref page="../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
-
 ## 以太坊API
 
 ### 以太坊API 端点
@@ -531,8 +529,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NjE4MjEwLC0xNTkyMDgzMjI2LC0xNz
-g3MzAxMDkyLC03ODYyNjM1NzYsMTIzNzYyMzE1NCwyMDk3NjAw
-NTcsLTExNDk3MzIzOCwtMTg4OTQ0NzYwMCwtMzYwMDA5NzcxLD
-UwNDgzOTI0OSwtMjA0MDY2NDM1M119
+eyJoaXN0b3J5IjpbLTE2NDY5MDg5MTgsLTE1OTIwODMyMjYsLT
+E3ODczMDEwOTIsLTc4NjI2MzU3NiwxMjM3NjIzMTU0LDIwOTc2
+MDA1NywtMTE0OTczMjM4LC0xODg5NDQ3NjAwLC0zNjAwMDk3Nz
+EsNTA0ODM5MjQ5LC0yMDQwNjY0MzUzXX0=
 -->
