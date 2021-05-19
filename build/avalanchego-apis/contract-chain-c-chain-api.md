@@ -335,9 +335,7 @@ avax.getUTXOs(
 
 #### **示例**
 
-假设我们希望所有的UTXO至少引用一个Example**
-
-Suppose we want all UTXOs that reference at least one of `C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`。.
+假设我们希望所有的UTXO至少引用一个 `C-avax1yzt57wd8me6xmy3t42lz8m5lg6yruy79m6whsf`。
 
 ```cpp
 curl -X POST --data '{
@@ -356,7 +354,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-响应如下This gives response:
+响应如下:
 
 ```cpp
 {
@@ -378,11 +376,9 @@ curl -X POST --data '{
 }
 ```
 
-### avax.输入
+### avax.导入
 
-将非AVAX或AVAX从X链转移到C链。在调用此方法之前，必须调用import
-
-Finalize the transfer of a non-AVAX or AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain的's [`avm.export`](exchange-chain-x-chain-api.md#avm-export)方法来启动传输。
+将非AVAX或AVAX从X链转移到C链。在调用此方法之前，必须调用[`avm.export`](exchange-chain-x-chain-api.md#avm-export)方法来启动传输。
 
 #### 签名 method to initiate the transfer.
 
@@ -556,7 +552,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjI2MzU3NiwxMjM3NjIzMTU0LDIwOT
-c2MDA1NywtMTE0OTczMjM4LC0xODg5NDQ3NjAwLC0zNjAwMDk3
-NzEsNTA0ODM5MjQ5LC0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbLTU1OTM5MjI0OCwtNzg2MjYzNTc2LDEyMz
+c2MjMxNTQsMjA5NzYwMDU3LC0xMTQ5NzMyMzgsLTE4ODk0NDc2
+MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQzNTNdfQ
+==
 -->
