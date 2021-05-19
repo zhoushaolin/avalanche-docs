@@ -146,11 +146,11 @@ v1.0.4版本添加了一个参数 `includeReason`。如果显示为`false`或未
 }
 ```
 
-其中Where `reason`是丢弃事务的原因。`reason`只在`status`为 is `"Dropped"`时出现。
+其中Where `reason`是丢弃事务的原因。`reason`只在`status`为 `"Dropped"`时出现。
 
 从1.0.6版本开始，`includeReason`参数被忽略，并且这个方法的响应总是以新的格式。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjkyNDUyNywtMTg0NDc3OTk0MSwtMT
-UxNjUyNDQ1MV19
+eyJoaXN0b3J5IjpbMTQzNzEyMTg4NywtMjI2OTI0NTI3LC0xOD
+Q0Nzc5OTQxLC0xNTE2NTI0NDUxXX0=
 -->
