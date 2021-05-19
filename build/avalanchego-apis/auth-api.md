@@ -57,9 +57,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-这个调用将生成一个授权代币，允许访问API端点`/ext/bc/X`  \(即X-链 \)和ie the X-Chain\) and `/ext/info` \(即ie the [info API](info-api.md).\)
+这个调用将生成一个授权代币，允许访问API端点`/ext/bc/X`  \(即X-链 \)和`/ext/info` \(即信息API[info API](info-api.md).\)
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -71,7 +71,7 @@ curl -X POST --data '{
 }
 ```
 
-这个授权令牌应该包含在API调用中，通过给出头文件This authorization token should be included in API calls by giving header `Authorization`, 值为 value `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps`。.
+这个授权代币应该包含在API调用中，通过给出头文件 `Authorization`, 值为`Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps`。.
 
 例如, 使用以下令牌调用For example, to call [`info.peers`](info-api.md#info-peers) with this token:
 
@@ -185,8 +185,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUyMDUyMjAsLTEwNjYwNzMwNjYsMT
-AxMzg5MTMxNCwtODU0ODQxMTE4LDIwMDYxNTc0NTMsLTEyODcx
-MjM4OTMsLTE4ODI4OTk1NjYsLTE5NTM0MzEsMjcyNzc5NjMsLT
-EzODAzMjU1MDJdfQ==
+eyJoaXN0b3J5IjpbMjExMDkwMjI4NCwtMTA2NjA3MzA2NiwxMD
+EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
+Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
+M4MDMyNTUwMl19
 -->
