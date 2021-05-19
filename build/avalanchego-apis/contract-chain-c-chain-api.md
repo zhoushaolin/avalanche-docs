@@ -49,17 +49,9 @@ _注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalan
 ws://127.0.0.1:9650/ext/bc/C/ws
 ```
 
-通过websocket端点与其他EVM实例交互 is the ID of the blockchain running the EVM.
+通过websocket端点与其他EVM实例交互
 
-#### WebSocket Endpoints
 
-To interact with C-Chain via the websocket endpoint:
-
-```cpp
-/ext/bc/C/ws
-```
-
-For example, to interact with the C-Chain's Ethereum APIs via websocket on localhost you can use:
 
 ```cpp
 ws://127.0.0.1:9650/ext/bc/C/ws
@@ -635,7 +627,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDk2MzQzOCwtMTE0OTczMjM4LC0xOD
+eyJoaXN0b3J5IjpbMTQ4ODU4MDkyOSwtMTE0OTczMjM4LC0xOD
 g5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC0yMDQwNjY0
 MzUzXX0=
 -->
