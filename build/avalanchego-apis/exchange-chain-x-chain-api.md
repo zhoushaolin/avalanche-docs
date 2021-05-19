@@ -737,7 +737,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm获取所有yu' e
+### avm获取所有余额
 
 获取由给定地址控制的所有资产的余额。
 
@@ -786,7 +786,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.getAssetDescription
+### avm获取资产xin xi
 
 获取有关资产的信息。
 
@@ -1708,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM2NTkxODgsLTkzODk4MjA1OSwtMT
+eyJoaXN0b3J5IjpbLTIxMjE5OTk2NzAsLTkzODk4MjA1OSwtMT
 k1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0
 NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNz
 Q3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwt
