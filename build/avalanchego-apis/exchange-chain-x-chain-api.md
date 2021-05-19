@@ -4,7 +4,7 @@
 
 # 交换链\(X链\) API
 
-[X-Chain](../../learn/platform-overview/#exchange-chain-x-chain)是Avalanche创建和交易资产的原生平台，是Avalanche虚拟机(AVM)的一个实例。这个API允许客户端在X链和AVM的其他实例上创建和交易资产。
+[X-链](../../learn/platform-overview/#exchange-chain-x-chain)是Avalanche创建和交易资产的原生平台，是Avalanche虚拟机(AVM)的一个实例。这个API允许客户端在X链和AVM的其他实例上创建和交易资产。
 
 ## 格式
 
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDgwNDU3NiwtMTk0ODgyOTg3NiwyMD
-kwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExNDMsMTI3MjA0
-Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3ODA0ODAzND
-UsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3ODQxNTIyLC0x
-NDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4MCw0NzMxOT
-AwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTksOTQ2MTI2MzAsMTYy
-MDAyNzMyMF19
+eyJoaXN0b3J5IjpbLTE5NTk1NTMxNTUsMTU0MDgwNDU3NiwtMT
+k0ODgyOTg3NiwyMDkwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0
+NDExNDMsMTI3MjA0Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MT
+MyLDE3ODA0ODAzNDUsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0x
+NDE3ODQxNTIyLC0xNDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5Mz
+EwMTM4MCw0NzMxOTAwMzYsMTU5NDY1MzI0NiwxMTEzODY5NTks
+OTQ2MTI2MzBdfQ==
 -->
