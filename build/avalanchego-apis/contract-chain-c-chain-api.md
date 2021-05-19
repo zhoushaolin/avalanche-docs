@@ -433,11 +433,9 @@ curl -X POST --data '{
 
 **弃用—请使用**  [**avax.import**](https://github.com/ava-labs/avalanche-docs/blob/master/build/avalanchego-apis/contract-chain-c-chain-api.md#avax-import)
 
-将AVAX从X链转移到C链。在调用此方法之前，必须调用Finalize a transfer of AVAX from the X-Chain to the C-Chain. Before this method is called, you must call the X-Chain的's [`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
+将AVAX从X链转移到C链。在调用此方法之前，必须调用[`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
 
-#### 签名method to initiate the transfer.
-
-#### Signature
+#### 签名
 
 ```go
 avax.importAVAX({
@@ -448,18 +446,17 @@ avax.importAVAX({
 }) -> {txID: string}
 ```
 
-**要求Request**
+**要求**
 
 * `to` 是AVAX发送到的地址, 是十六进制格式。
-* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用is the address the AVAX is sent to. It should be in hex format.
-* `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`。.
-* `username` 是控制is the user that controls `to`的用户.
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用`"X"`。.
+* `username` 是控制`to`的用户.
 
-**响应Response**
+**响应**
 
-* `txID`是已完成的 is the ID of the completed ImportTx的ID。.
+* `txID`是已完成输入的Tx的ID。.
 
-#### 调用示例Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -475,7 +472,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -545,8 +542,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYyNjU2OTMsLTE3ODczMDEwOTIsLT
-c4NjI2MzU3NiwxMjM3NjIzMTU0LDIwOTc2MDA1NywtMTE0OTcz
-MjM4LC0xODg5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC
-0yMDQwNjY0MzUzXX0=
+eyJoaXN0b3J5IjpbNTkzMzgxOTQ2LC0xNzg3MzAxMDkyLC03OD
+YyNjM1NzYsMTIzNzYyMzE1NCwyMDk3NjAwNTcsLTExNDk3MzIz
+OCwtMTg4OTQ0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0OSwtMj
+A0MDY2NDM1M119
 -->
