@@ -1,8 +1,6 @@
 ---
 说明: >-
-  此页面列出了已弃用的API方法、参数和响应,
-
-将在未来的版本中删除或修改。
+  此页面列出了已弃用的API方法、参数和响应,将在未来的版本中删除或修改。
 ---
 
 # 已弃用的API调用
@@ -162,6 +160,6 @@ v1.0.4版本添加了一个参数 added an argument `includeReason`。如果显�
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ3Nzk5NDEsLTE1MTY1MjQ0NTFdfQ
-==
+eyJoaXN0b3J5IjpbLTY5NjEwOTAwMSwtMTg0NDc3OTk0MSwtMT
+UxNjUyNDQ1MV19
 -->
