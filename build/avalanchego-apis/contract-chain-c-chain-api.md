@@ -15,9 +15,9 @@ _注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalan
 
 {% page-ref page="../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
 
-## Ethereum APIs
+## 以太坊API
 
-### Ethereum API 端点Endpoints
+### 以太坊API 端点
 
 #### JSON-RPC 端点
 
@@ -27,21 +27,13 @@ _注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalan
 /ext/bc/C/rpc
 ```
 
-通过JSON-RPC端点与EVM的其他实例交互Endpoints
-
-To interact with C-Chain via the JSON-RPC endpoint:
-
-```cpp
-/ext/bc/C/rpc
-```
-
-To interact with other instances of the EVM via the JSON-RPC endpoint:
+通过JSON-RPC端点与EVM的其他实例交互:
 
 ```cpp
 /ext/bc/blockchainID/rpc
 ```
 
-其中where `blockchainID`是运行EVM的区块链的ID。
+其中`blockchainID`是运行EVM的区块链的ID。
 
 #### WebSocket 端点
 
@@ -643,6 +635,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk3MzIzOCwtMTg4OTQ0NzYwMCwtMz
-YwMDA5NzcxLDUwNDgzOTI0OSwtMjA0MDY2NDM1M119
+eyJoaXN0b3J5IjpbNjg5MDQ5NjUwLC0xMTQ5NzMyMzgsLTE4OD
+k0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQz
+NTNdfQ==
 -->
