@@ -180,7 +180,7 @@ curl -X POST --data '{
 }
 ```
 
-### admin.memoryProfile
+### 管理内存配置文件
 
 将内存配置文件写入`mem.profile`。
 
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzU0NDYzLDExNzU4NzM0NTIsMTA0MD
-k2NjQ4MCwtMjMyMDk3MTU0LDE4Mzc3MTY5MDksLTExNjQ5ODU3
-NDgsMjA5ODI5OTFdfQ==
+eyJoaXN0b3J5IjpbLTc0Mzc3NDYzOCwxNzA3NTQ0NjMsMTE3NT
+g3MzQ1MiwxMDQwOTY2NDgwLC0yMzIwOTcxNTQsMTgzNzcxNjkw
+OSwtMTE2NDk4NTc0OCwyMDk4Mjk5MV19
 -->
