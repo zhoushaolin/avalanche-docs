@@ -213,7 +213,7 @@ curl -X POST --data '{
 }
 ```
 
-### admin.startCPUProfiler
+### 管理员开启CPU分析器
 
 开始分析节点的CPU利用率。要停止，调用`admin.stopCPUProfiler`。在停止时，将配置文件写入`cpu.profile`。
 
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzcxMjYxMCwxMTc1ODczNDUyLDEwND
+eyJoaXN0b3J5IjpbLTE1MTY3Njg3NiwxMTc1ODczNDUyLDEwND
 A5NjY0ODAsLTIzMjA5NzE1NCwxODM3NzE2OTA5LC0xMTY0OTg1
 NzQ4LDIwOTgyOTkxXX0=
 -->
