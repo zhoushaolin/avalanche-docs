@@ -59,7 +59,7 @@ ws://127.0.0.1:9650/ext/bc/C/ws
 
 ### 方法
 
-#### 标准的Ethereum APIs
+#### 标准的以太坊API
 
 Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 
@@ -69,7 +69,9 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 * `personal_`
 * `txpool_`
 
-您可以以与Geth交互相同的方式与这些服务交互。请参阅 is the ID of the blockchain running the EVM.
+您可以以与Geth交互相同的方式与这些服务交互。请参阅[Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API) and [Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server) for a full description of this API.
+
+请参阅 is the ID of the blockchain running the EVM.
 
 ### Methods
 
@@ -619,7 +621,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTEwMTQ2NiwtMTE0OTczMjM4LC0xOD
-g5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC0yMDQwNjY0
-MzUzXX0=
+eyJoaXN0b3J5IjpbOTQwODE5MDUsLTExNDk3MzIzOCwtMTg4OT
+Q0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0OSwtMjA0MDY2NDM1
+M119
 -->
