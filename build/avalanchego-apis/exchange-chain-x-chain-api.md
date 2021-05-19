@@ -290,7 +290,7 @@ curl -X POST --data '{
 
 ### avm铸造代币
 
-用[`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset)创建的可变上限资产的铸币单位。
+用[`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset)铸造的可变上限资产的代币。
 
 #### **签名**
 
@@ -349,7 +349,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.createVariableCapAsset
+### avm创建可变上限资产
 
 创建一个新的可变上限，同质化资产, 初始化时资产的单位不存在, 铸造器可以使用`avm.mint`铸造代币。
 
@@ -432,7 +432,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.createNFTAsset
+### avmch
 
 创建一个新的非同质化资产, 初始化时资产的单位数量不存在, 铸造器可以使用`avm.mintNFT`来铸造该资产的单位。
 
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MjQ4NDYsLTkzODk4MjA1OSwtMTk1OT
-U1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0NzYy
-NDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNzQ3LD
-IxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwtNjk2
-MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4Nj
-Q1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwx
-NTk0NjUzMjQ2XX0=
+eyJoaXN0b3J5IjpbLTIwNzEyNTk2OTQsLTkzODk4MjA1OSwtMT
+k1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0
+NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNz
+Q3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwt
+Njk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0ND
+I4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAz
+NiwxNTk0NjUzMjQ2XX0=
 -->
