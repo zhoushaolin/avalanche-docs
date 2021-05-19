@@ -6,10 +6,6 @@
 
 授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有Auth API
 
-When you run a node, you can require that API calls have an authorization token attached. This API manages the creation and revocation of authorization tokens.
-
-An authorization token provides access to one or more API endpoints. This is is useful for delegating access to a node’s APIs. Tokens expire after 12 hours.
-
 An authorization token is provided in the header of an API call. Specifically, the header `Authorization` should have value `Bearer TOKEN.GOES.HERE`值。\(这里 \(where `TOKEN.GOES.HERE`被替换为令牌 is replaced with the token\)。.
 
 这个API只有在节点使用This API is only reachable if the node is started with [command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要授权令牌来获取。
@@ -205,7 +201,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzg5MTMxNCwtODU0ODQxMTE4LDIwMD
-YxNTc0NTMsLTEyODcxMjM4OTMsLTE4ODI4OTk1NjYsLTE5NTM0
-MzEsMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ==
+eyJoaXN0b3J5IjpbMzk1MTk2NDA0LDEwMTM4OTEzMTQsLTg1ND
+g0MTExOCwyMDA2MTU3NDUzLC0xMjg3MTIzODkzLC0xODgyODk5
+NTY2LC0xOTUzNDMxLDI3Mjc3OTYzLC0xMzgwMzI1NTAyXX0=
 -->
