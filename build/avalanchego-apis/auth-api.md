@@ -88,11 +88,9 @@ curl -X POST --data '{
 
 ### 授权撤销代币
 
-撤销先前生成的令牌。给定的代币将不再授予对任何端点的访问权。如果令牌无效，则不执行任何操作。
+撤销先前生成的代币。给定的代币将不再授予对任何端点的访问权。如果代币无效，则不执行任何操作。
 
-#### **签名Revoke a previously generated token. The given token will no longer grant access to any endpoint. If the token is invalid, does nothing.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 auth.revokeToken(
@@ -103,13 +101,10 @@ auth.revokeToken(
 ) -> {success: bool}
 ```
 
-* `password` 是节点授权令牌的密码。
-* `token`正在撤销的授权令牌。
+* `password` 是节点授权代币的密码。
+* `token`正在撤销的授权代币。
 
-#### **调用示例is this node’s authorization token password.
-* `token` is the authorization token being revoked.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -123,7 +118,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -135,9 +130,9 @@ curl -X POST --data '{
 }
 ```
 
-### auth.changePassword
+### 授权更改密码
 
-更改此节点的授权令牌密码。在旧密码下创建的任何授权令牌都将失效。
+更改此节点的授权密码。在旧密码下创建的任何授权令牌都将失效。
 
 #### **签名Change this node’s authorization token password. Any authorization tokens created under an old password will become invalid.
 
@@ -185,7 +180,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODE1NDc2NiwtMTA2NjA3MzA2NiwxMD
+eyJoaXN0b3J5IjpbMTcxNTcyMDk2MywtMTA2NjA3MzA2NiwxMD
 EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
 Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
 M4MDMyNTUwMl19
