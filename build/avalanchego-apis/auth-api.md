@@ -4,7 +4,7 @@
 
 授权令牌提供对一个或多个API端点的访问。这对于委派对节点api的访问很有用。令牌12小时后过期。
 
-授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有Auth API
+授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有`Bearer TOKEN.GOES.HERE`值
 
 An authorization token is provided in the header of an API call. Specifically, the header `Authorization` should have value `Bearer TOKEN.GOES.HERE`值。\(这里 \(where `TOKEN.GOES.HERE`被替换为令牌 is replaced with the token\)。.
 
@@ -201,7 +201,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1MTk2NDA0LDEwMTM4OTEzMTQsLTg1ND
-g0MTExOCwyMDA2MTU3NDUzLC0xMjg3MTIzODkzLC0xODgyODk5
-NTY2LC0xOTUzNDMxLDI3Mjc3OTYzLC0xMzgwMzI1NTAyXX0=
+eyJoaXN0b3J5IjpbLTExMjI0NzQ0MzIsMTAxMzg5MTMxNCwtOD
+U0ODQxMTE4LDIwMDYxNTc0NTMsLTEyODcxMjM4OTMsLTE4ODI4
+OTk1NjYsLTE5NTM0MzEsMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ
+==
 -->
