@@ -132,11 +132,9 @@ curl -X POST --data '{
 
 ### 授权更改密码
 
-更改此节点的授权密码。在旧密码下创建的任何授权令牌都将失效。
+更改此节点的授权代币密码。在旧密码下创建的任何授权代币都将失效。
 
-#### **签名Change this node’s authorization token password. Any authorization tokens created under an old password will become invalid.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 auth.changePassword(
@@ -150,10 +148,7 @@ auth.changePassword(
 * `oldPassword` 此节点当前授权令牌密码。
 * `newPassword` 是此API调用后节点的新授权令牌密码。长度必须在1到1024个字符之间。
 
-#### **调用示例is this node’s current authorization token password.
-* `newPassword` is the node’s new authorization token password after this API call. Must be between 1 and 1024 characters.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -167,7 +162,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -180,7 +175,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTcyMDk2MywtMTA2NjA3MzA2NiwxMD
+eyJoaXN0b3J5IjpbLTcwMzYxNjE0MSwtMTA2NjA3MzA2NiwxMD
 EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
 Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
 M4MDMyNTUwMl19
