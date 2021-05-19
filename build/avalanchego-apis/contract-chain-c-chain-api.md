@@ -9,11 +9,9 @@ _注意:以太坊有自己的description: The C-Chain is an instance of the Ethe
 
 # 合约链 \(C链\) API
 
-_注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalanche的networkID和chainID的概念没有关系，纯粹是在EVM内部的[_C链_](../../learn/platform-overview/#contract-chain-c-chain)上_。_在主网上，C链使用`1` 和`43114` 作为这些值。在富士测试网上，使用`1`和`43113`作为这些值。`networkID`和 and `chainID`也可以使用下面所示的 can also be obtained using the `net_version`和 and `eth_chainId`方法获取_。
+_注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalanche的networkID和chainID的概念没有关系，纯粹是在EVM内部的[_C链_](../../learn/platform-overview/#contract-chain-c-chain)上_。_在主网上，C链使用`1` 和`43114` 作为这些值。在富士测试网上，使用`1`和`43113`作为这些值。`networkID`和 and `chainID`也可以使用下面所示的`net_version`和`eth_chainId`方法获取_。
 
-## 部署智能合约 methods shown below._
-
-## Deploying a Smart Contract
+## 部署智能合约
 
 {% page-ref page="../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
 
@@ -645,6 +643,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjAxMDIxNCwtMTg4OTQ0NzYwMCwtMz
+eyJoaXN0b3J5IjpbLTExNDk3MzIzOCwtMTg4OTQ0NzYwMCwtMz
 YwMDA5NzcxLDUwNDgzOTI0OSwtMjA0MDY2NDM1M119
 -->
