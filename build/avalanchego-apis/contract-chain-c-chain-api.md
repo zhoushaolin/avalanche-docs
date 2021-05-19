@@ -134,7 +134,7 @@ curl -X POST --data '{
 
 将资产从C链导出到X链。调用此方法后，必须在X-Chain上调用[' avm.import '](exchange-chain- X-Chain -api.md#avm-import)来完成传输。
 
-To interact with the `avax` specific RPC calls on the C-Chain:
+
 
 ```cpp
 /ext/bc/C/avax
@@ -597,7 +597,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzYwMDU3LC0xMTQ5NzMyMzgsLTE4OD
-k0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQz
-NTNdfQ==
+eyJoaXN0b3J5IjpbMTIzNzYyMzE1NCwyMDk3NjAwNTcsLTExND
+k3MzIzOCwtMTg4OTQ0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0
+OSwtMjA0MDY2NDM1M119
 -->
