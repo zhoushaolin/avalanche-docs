@@ -14,7 +14,7 @@
 
 ## API 方法
 
-### admin.alias
+### 管理别名
 
 为API端点分配别名，即API的另一个端点。原始端点仍然可以工作。此更改只影响此节点;其他节点并不知道这个别名。
 
@@ -56,7 +56,7 @@ curl -X POST --data '{
 
 现在，调用X- chain可以使用`/ext/bc/X`或者`/ext/myAlias`进行调用。
 
-### admin.aliasChain
+### 管理员给区块链取别名
 
 给区块链一个别名，可以在使用区块链ID的任何地方使用。
 
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc2OTM2MCwxMTc1ODczNDUyLDEwND
-A5NjY0ODAsLTIzMjA5NzE1NCwxODM3NzE2OTA5LC0xMTY0OTg1
-NzQ4LDIwOTgyOTkxXX0=
+eyJoaXN0b3J5IjpbMTcwNzU0NDYzLDExNzU4NzM0NTIsMTA0MD
+k2NjQ4MCwtMjMyMDk3MTU0LDE4Mzc3MTY5MDksLTExNjQ5ODU3
+NDgsMjA5ODI5OTFdfQ==
 -->
