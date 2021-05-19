@@ -4,11 +4,9 @@
 
 授权令牌提供对一个或多个API端点的访问。这对于委派对节点api的访问很有用。令牌12小时后过期。
 
-授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有`Bearer TOKEN.GOES.HERE`值
+授权令牌在API调用的开头。具体来说，开头的`Authorization`应该有`Bearer TOKEN.GOES.HERE`值\(这里`TOKEN.GOES.HERE`被替换为上述授权令牌\)。
 
-An authorization token is provided in the header of an API call. Specifically, the header `Authorization` should have value `Bearer TOKEN.GOES.HERE`值。\(这里 \(where `TOKEN.GOES.HERE`被替换为令牌 is replaced with the token\)。.
-
-这个API只有在节点使用This API is only reachable if the node is started with [command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要授权令牌来获取。
+这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权令牌，因此此API不可达。此API从不需要授权令牌来获取。
 
 必须有权限创建授权令牌。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权令牌密码。您必须提供此密码才能创建/撤消授权令牌。
 
@@ -201,7 +199,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI0NzQ0MzIsMTAxMzg5MTMxNCwtOD
+eyJoaXN0b3J5IjpbLTEwNjYwNzMwNjYsMTAxMzg5MTMxNCwtOD
 U0ODQxMTE4LDIwMDYxNTc0NTMsLTEyODcxMjM4OTMsLTE4ODI4
 OTk1NjYsLTE5NTM0MzEsMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ
 ==
