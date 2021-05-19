@@ -16,9 +16,6 @@
 
 这个API使用. If the node is started without this CLI, API calls do not require authorization tokens, so this API is not reachable. This API never requires an authorization token to be reached.
 
-Authorization token creation must be permissioned. If you run your node with `--api-auth-required`, you must also specify an authorization token password with argument `--api-auth-password`. You must provide this password in order to create/revoke authorization tokens.
-
-Note that if you run your node with `--api-auth-required` then some tools like MetaMask may not be able to make API calls to your node because they don’t have an auth token.
 
 ## Format
 
@@ -199,8 +196,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYwNzMwNjYsMTAxMzg5MTMxNCwtOD
-U0ODQxMTE4LDIwMDYxNTc0NTMsLTEyODcxMjM4OTMsLTE4ODI4
-OTk1NjYsLTE5NTM0MzEsMjcyNzc5NjMsLTEzODAzMjU1MDJdfQ
-==
+eyJoaXN0b3J5IjpbLTY3NjMzMTIzMSwtMTA2NjA3MzA2NiwxMD
+EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
+Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
+M4MDMyNTUwMl19
 -->
