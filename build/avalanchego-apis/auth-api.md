@@ -71,9 +71,9 @@ curl -X POST --data '{
 }
 ```
 
-这个授权代币应该包含在API调用中，通过给出头文件 `Authorization`, 值为`Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps`。.
+这个授权代币应该包含在API调用中，通过给出头文件 `Authorization`, 值为`Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps`。
 
-例如, 使用以下令牌调用For example, to call [`info.peers`](info-api.md#info-peers) with this token:
+例如, 使用这个代币调用 [`info.peers`](info-api.md#info-peers):
 
 
 ```cpp
@@ -86,9 +86,9 @@ curl -X POST --data '{
 -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbmRwb2ludHMiOlsiKiJdLCJleHAiOjE1OTM0NzU4OTR9.Cqo7TraN_CFN13q3ae4GRJCMgd8ZOlQwBzyC29M6Aps'
 ```
 
-### auth.revokeToken
+### 授权撤销代币
 
-撤销先前生成的令牌。给定的令牌将不再授予对任何端点的访问权。如果令牌无效，则不执行任何操作。
+撤销先前生成的令牌。给定的代币将不再授予对任何端点的访问权。如果令牌无效，则不执行任何操作。
 
 #### **签名Revoke a previously generated token. The given token will no longer grant access to any endpoint. If the token is invalid, does nothing.
 
@@ -185,7 +185,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDkwMjI4NCwtMTA2NjA3MzA2NiwxMD
+eyJoaXN0b3J5IjpbMTM3ODE1NDc2NiwtMTA2NjA3MzA2NiwxMD
 EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
 Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
 M4MDMyNTUwMl19
