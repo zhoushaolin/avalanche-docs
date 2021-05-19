@@ -69,23 +69,7 @@ Avalanche提供了一个与Geth相同的API接口，但它只支持以下服务:
 * `personal_`
 * `txpool_`
 
-您可以以与Geth交互相同的方式与这些服务交互。请参阅[Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API) and [Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server) for a full description of this API.
-
-请参阅 is the ID of the blockchain running the EVM.
-
-### Methods
-
-#### Standard Ethereum APIs
-
-Avalanche offers an API interface identical to Geth's API except that it only supports the following services:
-
-* `web3_`
-* `net_`
-* `eth_`
-* `personal_`
-* `txpool_`
-
-You can interact with these services the same exact way you’d interact with Geth. See the [Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API)和 and [Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server)了解此API的完整描述。
+您可以以与Geth交互相同的方式与这些服务交互。请参阅[Ethereum Wiki’s JSON-RPC Documentation](https://eth.wiki/json-rpc/API) 和[Geth’s JSON-RPC Documentation](https://geth.ethereum.org/docs/rpc/server), 以获取这个API的完整描述。
 
 #### eth\_getAssetBalance
 
@@ -621,7 +605,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwODE5MDUsLTExNDk3MzIzOCwtMTg4OT
-Q0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0OSwtMjA0MDY2NDM1
-M119
+eyJoaXN0b3J5IjpbMjA5ODkzNjc0LC0xMTQ5NzMyMzgsLTE4OD
+k0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQz
+NTNdfQ==
 -->
