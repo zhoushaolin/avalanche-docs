@@ -134,23 +134,7 @@ curl -X POST --data '{
 
 将资产从C链导出到X链。调用此方法后，必须在X-Chain上调用[' avm.import '](exchange-chain- X-Chain -api.md#avm-import)来完成传输。
 
-
-
-```cpp
-/ext/bc/C/avax
-```
-
-To interact with other instances of the EVM AVAX endpoints:
-
-```cpp
-/ext/bc/blockchainID/avax
-```
-
-### avax.export
-
-Export an asset from the C-Chain to the X-Chain. After calling this method, you must call [`avm.import`](exchange-chain-x-chain-api.md#avm-import) on the X-Chain to complete the transfer.
-
-#### 签名Signature
+#### 签名
 
 ```cpp
 avax.export({
@@ -164,14 +148,10 @@ avax.export({
 
 * `to`资产被发送到的X-Chain地址。
 * `amount` 是要发送的资产数量。
-* `assetID` 为资产的ID。要导出AVAX, 使用 is the X-Chain address the asset is sent to.
-* `amount` is the amount of the asset to send.
-* `assetID` is the ID of the asset. To export AVAX use `"AVAX"`作为' as the `assetID`。.
-* 资产是从由The asset is sent from addresses controlled by `username` 和and `password`控制的地址发送的。
-* 
-#### 调用示例.
+* `assetID` 为资产的ID。要导出AVAX, 使用 `"AVAX"`作为`assetID`。
+* 资产是从由`username` 和and `password`控制的地址发送的。
 
-#### Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -188,7 +168,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -200,15 +180,13 @@ curl -X POST --data '{
 }
 ```
 
-### avax.exportAVAX
+### avax.导出AVAX
 
-**弃用—请使用DEPRECATED—instead use** [**avax.export**](contract-chain-c-chain-api.md#avax-export).
+**弃用—请使用[**avax.export**](https://github.com/ava-labs/avalanche-docs/blob/master/build/avalanchego-apis/contract-chain-c-chain-api.md#avax-export)** 
 
-将AVAX从C链发送到X链。调用此方法后，必须在X-Chain上调用Send AVAX from the C-Chain to the X-Chain. After calling this method, you must call [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)来完成传输。
+将AVAX从C链发送到X链。调用此方法后，必须在X链上调用 [`avm.importAVAX`](exchange-chain-x-chain-api.md#avm-importavax)来完成传输。
 
-#### 签名 on the X-Chain to complete the transfer.
-
-#### Signature
+#### 签名
 
 ```go
 avax.exportAVAX({
@@ -222,28 +200,20 @@ avax.exportAVAX({
 }) -> {txID: string}
 ```
 
-**要求Request**
+**要求**
 
 * `from` 是发送AVAX的C链的地址, 是十六进制格式。
 * `to`是AVAX发送到的C链的地址, 是bech32格式。
 * `amount` 是要发送的nAVAX的数量。
-* `destinationChain` 是AVAX被发送到的链。要将资金输出到X链，请使用is the C-Chain addresses the AVAX is sent from. They should be in hex format.
-* `to` is the X-Chain address the AVAX is sent to. It should be in bech32 format.
-* `amount` is the amount of nAVAX to send.
-* `destinationChain` is the chain the AVAX is sent to. To export funds to the X-Chain, use `"X"`。.
+* `destinationChain` 是AVAX被发送到的链。要将资金输出到X链，请使用`"X"`。
 * `changeAddr` 是C链地址，任何更改都发送到此。它是十六进制格式。
 * AVAX是由`username`控制的地址发送的。 
 
 **响应**
 
-* `txID` 是已完成的is the C-Chain address where any change is sent to. It should be in hex format.
-* The AVAX is sent from addresses controlled by `username`
+* `txID` 是已完成导出的Tx的ID。
 
-**Response**
-
-* `txID` is the txid of the completed ExportTx的txid。.
-
-#### 调用示例Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -262,7 +232,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -274,11 +244,11 @@ curl -X POST --data '{
 }
 ```
 
-### avax.exportKey
+### avax.导出密钥
 
-获取控制给定地址的私钥。返回的私钥可以添加到具有'Get the private key that controls a given address. The returned private key can be added to a user with `avax.importKey`的用户。.
+获取控制给定地址的私人密钥。返回的私钥可以添加到具有 `avax.importKey`的用户。
 
-#### 签名Signature
+#### 签名
 
 ```go
 avax.exportKey({
@@ -288,21 +258,17 @@ avax.exportKey({
 }) -> {privateKey: string}
 ```
 
-**要求Request**
+**要求**
 
-* `username` 必须控制must control `address`.
+* `username` 必须控制`address`.
 * `address` 是要为其导出相应私钥的地址。它应该是十六进制格式。
 
 **响应**
 
-* `privateKey` 是代表控制`address`的私钥的CB58端编码字符串。它有一个`PrivateKey-`前缀，可以用来通过is the address for which you want to export the corresponding private key. It should be in hex format.
+* `privateKey` 是代表控制`address`的私钥的CB58端编码字符串。它有一个`PrivateKey-`前缀，可以用来通过`avax.importKey`导入一个密钥。.
+* `privateKeyHex` 是代表控制`address`的私钥的十六进制字符串。它可以用于将帐户导入Metamask。
 
-**Response**
-
-* `privateKey` is the CB58 endcoded string representation of the private key that controls `address`. It has a `PrivateKey-` prefix and can be used to import a key via `avax.importKey`导入一个密钥。.
-* `privateKeyHex` 是代表控制`address`的私钥的十六进制字符串。它可以用于将帐户导入is the hex string representation of the private key that controls `address`. It can be used to import an account into Metamask。.
-
-#### 调用示例Example Call
+#### 调用示例
 
 ```javascript
 curl -X POST --data '{
@@ -317,7 +283,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/avax
 ```
 
-#### 响应示例Example Response
+#### 响应示例
 
 ```javascript
 {
@@ -330,13 +296,11 @@ curl -X POST --data '{
 }}
 ```
 
-### avax.getUTXOs
+### avax获取UTXO
 
 获取引用给定地址的UTXO。
 
-#### **签名Gets the UTXOs that reference a given address.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 avax.getUTXOs(
@@ -362,17 +326,12 @@ avax.getUTXOs(
 ```
 
 * `utxos` 是一个UTXO列表，每个UTXO在`addresses`中至少引用一个地址。
-* 最多返回is a list of UTXOs such that each UTXO references at least one address in `addresses`.
-* At most `limit`限制的 UTXO。如果省略了`limit`或大于1024，则将其设置为s are returned. If `limit` is omitted or greater than 1024, it is set to 1024。.
-* 此方法支持分页。`endIndex`表示返回的最后一个UTXO。要获取下一组UTXO，在下一个调用中使用This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex`的值作为 as `startIndex`。
+* 最多返回`limit`限制上限的 UTXO。如果省略了`limit`或大于1024，则将其设置为1024。.
+* 此方法支持分页。`endIndex`表示返回的最后一个UTXO。要获取下一组UTXO，在下一个调用中使用`endIndex`的值作`startIndex`。
 * 如果省略`startIndex`，将获取`limit`以内的所有UTXO。
 * 当使用分页时(即提供了`startIndex`)， UTXO不能保证在多个调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。
 * 使用分页时，不能保证多个调用之间的一致性。也就是说，地址的UTXO集可能在调用过程中发生了变化。
-* `encoding`设置返回UTXO的格式。可以是 in the next call.
-* If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
-* When using pagination \(ie when `startIndex` is provided\), UTXOs are not guaranteed to be unique across multiple calls. That is, a UTXO may appear in the result of the first call, and then again in the second call.
-* When using pagination, consistency is not guaranteed across multiple calls. That is, the UTXO set of the addresses may have changed between calls.
-* `encoding` sets the format for the returned UTXOs. Can be either “cb58”或 or “hex”。默认为. Defaults to “cb58”。.
+* `encoding`设置返回UTXO的格式。可以是“cb58”或 or “hex”。默认为“cb58”。
 
 #### **示例**
 
@@ -597,7 +556,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzYyMzE1NCwyMDk3NjAwNTcsLTExND
-k3MzIzOCwtMTg4OTQ0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0
-OSwtMjA0MDY2NDM1M119
+eyJoaXN0b3J5IjpbLTc4NjI2MzU3NiwxMjM3NjIzMTU0LDIwOT
+c2MDA1NywtMTE0OTczMjM4LC0xODg5NDQ3NjAwLC0zNjAwMDk3
+NzEsNTA0ODM5MjQ5LC0yMDQwNjY0MzUzXX0=
 -->
