@@ -6,9 +6,9 @@
 
 授权代币在API调用的开头。具体来说，开头的`Authorization`应该有`Bearer TOKEN.GOES.HERE`值\(这里`TOKEN.GOES.HERE`被替换为上述授权代币\)。
 
-这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权代币，因此, 此API不可达。此API从不需要授权令牌来获取。
+这个API只有在节点使用[command line argument ](../references/command-line-interface.md)`--api-auth-required`启动时才可访问。如果节点在没有此CLI的情况下启动，API调用不需要授权代币，因此, 此API不可达。此API从不需要授权代币来获取。
 
-必须有权限创建授权代币。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权令牌密码。您必须提供此密码才能创建/撤消授权代币。
+必须有权限创建授权代币。如果使用`--api-auth-required`运行节点，则还必须使用参数`--api-auth-password`指定授权代币密码。您必须提供此密码才能创建/撤消授权代币。
 
 注意，如果你用`--api-auth-required`运行你的节点，那么像MetaMask这样的工具可能无法对你的节点进行API调用，因为它们没有一个认证代币。
 
@@ -24,13 +24,11 @@
 
 ## 方法
 
-### auth.newToken
+### 授权新代币
 
-创建一个新的授权令牌，以授予对一个或多个API端点的访问权。
+创建一个新的授权代币，以授予对一个或多个API端点的访问权。
 
-#### **签名Creates a new authorization token that grants access to one or more API endpoints.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 auth.newToken(
@@ -191,8 +189,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUxNTcyMTAsLTEwNjYwNzMwNjYsMT
-AxMzg5MTMxNCwtODU0ODQxMTE4LDIwMDYxNTc0NTMsLTEyODcx
-MjM4OTMsLTE4ODI4OTk1NjYsLTE5NTM0MzEsMjcyNzc5NjMsLT
-EzODAzMjU1MDJdfQ==
+eyJoaXN0b3J5IjpbLTg2Nzg2MTE1OSwtMTA2NjA3MzA2NiwxMD
+EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
+Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
+M4MDMyNTUwMl19
 -->
