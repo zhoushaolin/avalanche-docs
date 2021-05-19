@@ -4,14 +4,12 @@
 ---
 
 # 已弃用的API调用
+
 ## P链API
-
-
-## P-Chain API
 
 ### `getCurrentValidators`
 
-在In v1.0.0版本中，签名为, the signature was:
+在In v1.0.0版本中，签名为:
 
 ```cpp
 platform.getCurrentValidators({subnetID: string}) ->
@@ -156,6 +154,6 @@ v1.0.4版本添加了一个参数 added an argument `includeReason`。如果显�
 Since v1.0.6, the `includeReason` argument is ignored, and this method's response is always in the new format.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjA5NDgzMywtMTg0NDc3OTk0MSwtMT
+eyJoaXN0b3J5IjpbMTQzNDIyMDQ1NSwtMTg0NDc3OTk0MSwtMT
 UxNjUyNDQ1MV19
 -->
