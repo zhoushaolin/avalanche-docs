@@ -632,7 +632,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.exportAVAX
+### avm导出AVAX
 
 从X链发送AVAX到另一个链。调用此方法后，必须调用另一个链上的 `import`以完成传输。
 
@@ -660,7 +660,8 @@ avm.exportAVAX({
 * `username` 是发送AVAX的用户名。 
 * `txID` 是此交易的ID。
 * `changeAddr`是结果中发送任何更改的地址。
-#### **Example Call**
+
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -691,7 +692,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.exportKey
+### avm导出密钥
 
 获取控制给定地址的私钥。
 返回的私钥可以通过[`avm.importKey`](exchange-chain-x-chain-api.md#avm-importkey)添加到用户。
@@ -736,7 +737,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.getAllBalances
+### avm获取所有yu' e
 
 获取由给定地址控制的所有资产的余额。
 
@@ -1707,7 +1708,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk5NjMwODIsLTkzODk4MjA1OSwtMT
+eyJoaXN0b3J5IjpbLTExMTM2NTkxODgsLTkzODk4MjA1OSwtMT
 k1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0
 NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNz
 Q3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwt
