@@ -89,11 +89,7 @@ eth_getAssetBalance({
 * `blk` 是要检索余额的块号或哈希
 * `assetID` 要求余额的资产的Id
 
-**调用示例owner of the asset
-* `blk` is the block number or hash at which to retrieve the balance
-* `assetID` id of the asset for which the balance is requested
-
-**Example Call**
+**调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -108,7 +104,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/C/rpc
 ```
 
-**响应示例Example Response**
+**响应示例**
 
 ```cpp
 {
@@ -118,9 +114,9 @@ curl -X POST --data '{
 }
 ```
 
-## Avalanche 特定Specific APIs
+## Avalanche 特定的API
 
-### Avalanche 特定 API 端点
+### Avalanche 特定的API 端点
 
 要与C链上的`avax` 特定的RPC调用交互:
 
@@ -601,7 +597,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ3MTU2MTIsLTExNDk3MzIzOCwtMT
-g4OTQ0NzYwMCwtMzYwMDA5NzcxLDUwNDgzOTI0OSwtMjA0MDY2
-NDM1M119
+eyJoaXN0b3J5IjpbMjQxMTU5NzMzLC0xMTQ5NzMyMzgsLTE4OD
+k0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQz
+NTNdfQ==
 -->
