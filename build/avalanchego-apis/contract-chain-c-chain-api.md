@@ -380,9 +380,7 @@ curl -X POST --data '{
 
 将非AVAX或AVAX从X链转移到C链。在调用此方法之前，必须调用[`avm.export`](exchange-chain-x-chain-api.md#avm-export)方法来启动传输。
 
-#### 签名 method to initiate the transfer.
-
-#### Signature
+#### 签名
 
 ```go
 avax.import({
@@ -393,20 +391,15 @@ avax.import({
 }) -> {txID: string}
 ```
 
-**要求Request**
+**要求**
 
 * `to` 是资产被发送到的地址。这必须与对应C链`export`调用中的`to`参数相同。
-* `sourceChain` 是要从其中导入资产的链的ID或别名。要从X链导入资金，请使用is the address the asset is sent to. This must be the same as the `to` argument in the corresponding call to the C-Chain's `export`.
-* `sourceChain` is the ID or alias of the chain the asset is being imported from. To import funds from the X-Chain, use `"X"`。.
+* `sourceChain` 是要从其中导入资产的链的ID或别名。要从X链导入资金，请使用`"X"`。.
 * `username` 是控制`to`的用户。
 
 **响应**
 
-* `txID` 是已完成的is the user that controls `to`.
-
-**Response**
-
-* `txID` is the ID of the completed ImportTx的ID.
+* `txID` 是已完成导入的Tx的ID.
 
 #### 调用示例Example Call
 
@@ -552,8 +545,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTM5MjI0OCwtNzg2MjYzNTc2LDEyMz
-c2MjMxNTQsMjA5NzYwMDU3LC0xMTQ5NzMyMzgsLTE4ODk0NDc2
-MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQzNTNdfQ
-==
+eyJoaXN0b3J5IjpbLTE3ODczMDEwOTIsLTc4NjI2MzU3NiwxMj
+M3NjIzMTU0LDIwOTc2MDA1NywtMTE0OTczMjM4LC0xODg5NDQ3
+NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC0yMDQwNjY0MzUzXX
+0=
 -->
