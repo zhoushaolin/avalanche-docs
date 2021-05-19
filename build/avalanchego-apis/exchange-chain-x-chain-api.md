@@ -173,7 +173,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.createAddress
+### avm创建地址
 
 创建一个由给定用户控制的新地址。
 
@@ -212,7 +212,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.createFixedCapAsset
+### avm创建固定上限资产
 
 创造一个新的固定上限，同质化资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
 
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODk4MjA1OSwtMTk1OTU1MzE1NSwxNT
-QwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0NzYyNDgsMjEwOTQx
-NjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNzQ3LDIxMTk1MDUxMj
-MsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwtNjk2MDAzMTM3LDE5
-OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4NjQ1NzQsLTEwMT
-AxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwxNTk0NjUzMjQ2
-LDExMTM4Njk1OV19
+eyJoaXN0b3J5IjpbMTE4NjA4NTkwNCwtOTM4OTgyMDU5LC0xOT
+U5NTUzMTU1LDE1NDA4MDQ1NzYsLTE5NDg4Mjk4NzYsMjA5MDQ3
+NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMTQzLDEyNzIwNDM3ND
+csMjExOTUwNTEyMywtMTAzMDU5NzEzMiwxNzgwNDgwMzQ1LC02
+OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mj
+g2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2
+LDE1OTQ2NTMyNDZdfQ==
 -->
