@@ -432,7 +432,7 @@ curl -X POST --data '{
 }
 ```
 
-### avmch
+### avm创建非同质化资产
 
 创建一个新的非同质化资产, 初始化时资产的单位数量不存在, 铸造器可以使用`avm.mintNFT`来铸造该资产的单位。
 
@@ -505,9 +505,9 @@ curl -X POST --data '{
 }
 ```
 
-### avm.mintNFT
+### avm铸造NFT
 
-使用[`avm.createNFTAsset`](exchange-chain-x-chain-api.md#avm-createnftasset)创建的不可替代令牌。
+使用[`avm.createNFTAsset`](exchange-chain-x-chain-api.md#avm-createnftasset)创建非同质化资产。
 
 #### **签名**
 
@@ -569,7 +569,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.export
+### avm导出
 
 从X链发送一个非avax到P链或C链。调用此方法后，必须在C链上调用[`avax.import`](contract-chain-c-chain-api.md#avax-import)来完成传输。
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEyNTk2OTQsLTkzODk4MjA1OSwtMT
+eyJoaXN0b3J5IjpbLTIwOTk5NjMwODIsLTkzODk4MjA1OSwtMT
 k1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0
 NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNz
 Q3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwt
