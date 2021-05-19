@@ -39,15 +39,11 @@ auth.newToken(
 ) -> {token: string}
 ```
 
-* `password` 是节点的授权令牌密码。
-* `endpoints` 是一个可以使用生成的令牌访问的端点列表。如果`endpoints` 包含一个元素`"*"`，则生成的令牌可以访问任何API端点。
-* `token` 是授权令牌。
+* `password` 是节点的授权代币密码。
+* `endpoints` 是一个可以使用生成的代币访问的端点列表。如果`endpoints` 包含一个元素`"*"`，则生成的代币可以访问任何API端点。
+* `token` 是授权代币。
 
-#### **调用示例is this node’s authorization token password.
-* `endpoints` is a list of endpoints that will be accessible using the generated token. If `endpoints` contains an element `"*"`, the generated token can access any API endpoint.
-* `token` is the authorization token.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -61,7 +57,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/auth
 ```
 
-这个调用将生成一个授权令牌，允许访问API端点This call will generate an authorization token that allows access to API endpoints `/ext/bc/X`  \(即X-链 \)和ie the X-Chain\) and `/ext/info` \(即ie the [info API](info-api.md).\)
+这个调用将生成一个授权代币，允许访问API端点`/ext/bc/X`  \(即X-链 \)和ie the X-Chain\) and `/ext/info` \(即ie the [info API](info-api.md).\)
 
 #### **响应示例Example Response**
 
@@ -189,8 +185,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Nzg2MTE1OSwtMTA2NjA3MzA2NiwxMD
-EzODkxMzE0LC04NTQ4NDExMTgsMjAwNjE1NzQ1MywtMTI4NzEy
-Mzg5MywtMTg4Mjg5OTU2NiwtMTk1MzQzMSwyNzI3Nzk2MywtMT
-M4MDMyNTUwMl19
+eyJoaXN0b3J5IjpbLTE2NzUyMDUyMjAsLTEwNjYwNzMwNjYsMT
+AxMzg5MTMxNCwtODU0ODQxMTE4LDIwMDYxNTc0NTMsLTEyODcx
+MjM4OTMsLTE4ODI4OTk1NjYsLTE5NTM0MzEsMjcyNzc5NjMsLT
+EzODAzMjU1MDJdfQ==
 -->
