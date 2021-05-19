@@ -102,7 +102,7 @@ curl -X POST --data '{
 
 现在, 无需通过API调用`/ext/bc/sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`来与ID是`sV6o671RtkGBcno1FiaDbVcFv2sG5aVXMZYzKdP4VQAWmJQnM`的区块链进行交互, 可以直接调用`ext/bc/myBlockchainAlias`进行。
 
-### admin.getChainAliases
+### 管理员获取链别名
 
 返回链的别名。
 
@@ -116,7 +116,7 @@ admin.getChainAliases(
 ) -> {aliases:string[]}
 ```
 
-* `chain` is the blockchain’s ID.
+* `chain` 是区块链的ID。
 
 #### **调用示例**
 
@@ -147,7 +147,7 @@ curl -X POST --data '{
 }
 ```
 
-### admin.lockProfile
+### 管理员锁定配置文件
 
 将互斥统计数据配置文件写入`lock.profile`。
 
@@ -279,7 +279,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY3Njg3NiwxMTc1ODczNDUyLDEwND
+eyJoaXN0b3J5IjpbLTE4MTc2OTM2MCwxMTc1ODczNDUyLDEwND
 A5NjY0ODAsLTIzMjA5NzE1NCwxODM3NzE2OTA5LC0xMTY0OTg1
 NzQ4LDIwOTgyOTkxXX0=
 -->
