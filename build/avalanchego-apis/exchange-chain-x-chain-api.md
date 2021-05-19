@@ -214,7 +214,7 @@ curl -X POST --data '{
 
 ### avm创建固定上限资产
 
-创造一个新的固定上限，同质化资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
+创造一个新的固定上限的同质化资产。在初始化时创建一个数量，然后不再创建更多。资产可以通过`avm.send`发送。
 
 #### **签名**
 
@@ -288,9 +288,9 @@ curl -X POST --data '{
 }
 ```
 
-### avm.mint
+### avm铸造代币
 
-用[`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset)创建的可变资产的铸币单位。
+用[`avm.createVariableCapAsset`](exchange-chain-x-chain-api.md#avm-createvariablecapasset)创建的可变上限资产的铸币单位。
 
 #### **签名**
 
@@ -1707,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjA4NTkwNCwtOTM4OTgyMDU5LC0xOT
-U5NTUzMTU1LDE1NDA4MDQ1NzYsLTE5NDg4Mjk4NzYsMjA5MDQ3
-NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMTQzLDEyNzIwNDM3ND
-csMjExOTUwNTEyMywtMTAzMDU5NzEzMiwxNzgwNDgwMzQ1LC02
-OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNzg0MTUyMiwtMTQ0Mj
-g2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEzODAsNDczMTkwMDM2
-LDE1OTQ2NTMyNDZdfQ==
+eyJoaXN0b3J5IjpbMjQ0MjQ4NDYsLTkzODk4MjA1OSwtMTk1OT
+U1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5ODc2LDIwOTA0NzYy
+NDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0MywxMjcyMDQzNzQ3LD
+IxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4MDQ4MDM0NSwtNjk2
+MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4NDE1MjIsLTE0NDI4Nj
+Q1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgwLDQ3MzE5MDAzNiwx
+NTk0NjUzMjQ2XX0=
 -->
