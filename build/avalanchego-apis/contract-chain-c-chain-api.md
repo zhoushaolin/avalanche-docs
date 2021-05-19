@@ -37,13 +37,13 @@ _注意:以太坊有自己的`networkID`和 and `chainID`概念, 它们与Avalan
 
 #### WebSocket 端点
 
-通过websocket端点与C-Chain交互:
+通过Websocket端点与C-Chain交互:
 
 ```cpp
 /ext/bc/C/ws
 ```
 
-例如，要在localhost上通过websocket与C-Chain的以太坊api交互，你可以使用:
+例如，要在localhost上通过websocket与C链的以太坊api交互，你可以使用:
 
 ```cpp
 ws://127.0.0.1:9650/ext/bc/C/ws
@@ -635,7 +635,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MDQ5NjUwLC0xMTQ5NzMyMzgsLTE4OD
-k0NDc2MDAsLTM2MDAwOTc3MSw1MDQ4MzkyNDksLTIwNDA2NjQz
-NTNdfQ==
+eyJoaXN0b3J5IjpbLTY3MDk2MzQzOCwtMTE0OTczMjM4LC0xOD
+g5NDQ3NjAwLC0zNjAwMDk3NzEsNTA0ODM5MjQ5LC0yMDQwNjY0
+MzUzXX0=
 -->
