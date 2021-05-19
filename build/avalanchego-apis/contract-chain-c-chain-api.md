@@ -2,10 +2,7 @@
 描述:C链是以太坊虚拟机(EVM)的一个实例
 ---
 
-# 合约链 \(C-Chain\) API
 
-_注意:以太坊有自己的description: The C-Chain is an instance of the Ethereum Virtual Machine (EVM)
----
 
 # 合约链 \(C链\) API
 
@@ -534,8 +531,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDMxNzUzNSwtMTU5MjA4MzIyNiwtMT
-c4NzMwMTA5MiwtNzg2MjYzNTc2LDEyMzc2MjMxNTQsMjA5NzYw
-MDU3LC0xMTQ5NzMyMzgsLTE4ODk0NDc2MDAsLTM2MDAwOTc3MS
-w1MDQ4MzkyNDksLTIwNDA2NjQzNTNdfQ==
+eyJoaXN0b3J5IjpbODI2NjE4MjEwLC0xNTkyMDgzMjI2LC0xNz
+g3MzAxMDkyLC03ODYyNjM1NzYsMTIzNzYyMzE1NCwyMDk3NjAw
+NTcsLTExNDk3MzIzOCwtMTg4OTQ0NzYwMCwtMzYwMDA5NzcxLD
+UwNDgzOTI0OSwtMjA0MDY2NDM1M119
 -->
