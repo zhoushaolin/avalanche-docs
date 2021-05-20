@@ -1261,7 +1261,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.issueTx
+### avm发布Tx
 
 向网络发送一个验签事务。`encoding` 指定已签名事务的格式, 可以是“cb58” 或 “hex”。默认为“cb58”。
 
@@ -1302,7 +1302,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.listAddresses
+### avm罗列地址
 
 列出由给定用户控制的地址。
 
@@ -1341,7 +1341,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.send
+### avm发送
 
 将一个资产的数量发送到一个地址。
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1OTk4NDc2LDEwMzYyMDYzNzIsLTkzOD
+eyJoaXN0b3J5IjpbMjQxMTU5NzM1LDEwMzYyMDYzNzIsLTkzOD
 k4MjA1OSwtMTk1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5
 ODc2LDIwOTA0NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0My
 wxMjcyMDQzNzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4
