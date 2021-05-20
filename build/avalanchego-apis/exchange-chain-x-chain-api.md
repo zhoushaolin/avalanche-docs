@@ -1124,8 +1124,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.import
-
+### avm导入
 将AVAX从P链或C链转移到X链。在调用这个方法之前，你必须调用P链的[`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax)或C链的[`avax.export`](contract-chain-c-chain-api.md#avax-export) 方法来启动传输。
 
 #### **签名**
@@ -1172,7 +1171,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.importAVAX
+### avm导入AVAX
 
 将AVAX的P链转移到X链。在调用此方法之前，必须调用P链的[`platform.exportAVAX`](platform-chain-p-chain-api.md#platform-exportavax) 方法来初始化传输。 
 
@@ -1219,7 +1218,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.importKey
+### avm导入密钥
 
 通过提供控制地址的私钥，让用户控制该地址。
 
@@ -1708,11 +1707,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ3NTI1MDgsMTAzNjIwNjM3MiwtOT
-M4OTgyMDU5LC0xOTU5NTUzMTU1LDE1NDA4MDQ1NzYsLTE5NDg4
-Mjk4NzYsMjA5MDQ3NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMT
-QzLDEyNzIwNDM3NDcsMjExOTUwNTEyMywtMTAzMDU5NzEzMiwx
-NzgwNDgwMzQ1LC02OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNz
-g0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEz
-ODAsNDczMTkwMDM2XX0=
+eyJoaXN0b3J5IjpbOTM1OTk4NDc2LDEwMzYyMDYzNzIsLTkzOD
+k4MjA1OSwtMTk1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5
+ODc2LDIwOTA0NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0My
+wxMjcyMDQzNzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4
+MDQ4MDM0NSwtNjk2MDAzMTM3LDE5OTgyNDY2MDIsLTE0MTc4ND
+E1MjIsLTE0NDI4NjQ1NzQsLTEwMTAxNDkxMzcsNzkzMTAxMzgw
+LDQ3MzE5MDAzNl19
 -->
