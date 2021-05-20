@@ -62,9 +62,7 @@ curl -X POST --data '{
 
 #### **响应示例**
 
-在此示例响应中，C链的运行状况检查失败。Example Response**
-
-In this example response, the C-Chain’s health check is failing.
+在此示例响应中，C链的运行状况检查失败。
 
 ```cpp
 {
@@ -119,6 +117,6 @@ In this example response, the C-Chain’s health check is failing.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc4MzEwNzcsLTk5MzYyMTI3MywtMT
-cyMTkxOTAzNV19
+eyJoaXN0b3J5IjpbLTg0NjU1NDAwNiwtOTkzNjIxMjczLC0xNz
+IxOTE5MDM1XX0=
 -->
