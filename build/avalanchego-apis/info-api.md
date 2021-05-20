@@ -1,4 +1,4 @@
-# 信息Info API
+# 信息API
 
 此API可用于访问节点的基本信息。
 
@@ -399,6 +399,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzU5ODcyOTMsLTExMjQwOTIxNzEsLT
-E3NDE2MjA2OTMsMTk4MzY5Mzg5OF19
+eyJoaXN0b3J5IjpbMTM4MjIxODExNSwtMTYzNTk4NzI5MywtMT
+EyNDA5MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzODk4XX0=
 -->
