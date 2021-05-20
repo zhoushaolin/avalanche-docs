@@ -1400,7 +1400,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.sendMultiple
+### avm大量发送
 
 从拥有的地址的列表发送多个`amount`的`assetID`到指定地址的传输。
 
@@ -1469,7 +1469,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.sendNFT
+### avm发送NFT
 
 发送一个非同质化代币。
 
@@ -1525,7 +1525,7 @@ curl -X POST --data '{
 }
 ```
 
-### wallet.issueTx
+### 钱包发送Tx
 
 向网络发送一个验签事务，并假设tx将被接受。`encoding`指定已验签事务的格式。可以是“cb58”或 “hex”。默认为“cb58”。  
 
@@ -1707,7 +1707,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMTU5NzM1LDEwMzYyMDYzNzIsLTkzOD
+eyJoaXN0b3J5IjpbMTQxODc3MjQ5LDEwMzYyMDYzNzIsLTkzOD
 k4MjA1OSwtMTk1OTU1MzE1NSwxNTQwODA0NTc2LC0xOTQ4ODI5
 ODc2LDIwOTA0NzYyNDgsMjEwOTQxNjgxNiwtMTg5OTQ0MTE0My
 wxMjcyMDQzNzQ3LDIxMTk1MDUxMjMsLTEwMzA1OTcxMzIsMTc4
