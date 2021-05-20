@@ -834,7 +834,7 @@ curl -X POST --data '{
 }`
 ```
 
-### avm
+### avm获取余额
 
 获取由给定地址控制的资产的余额。
 
@@ -882,7 +882,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.getTx
+### avm获取Tx
 
 返回指定的交易, `encoding`参数设置返回交易的格式, 可以是“cb58” 或“hex”, 默认为“cb58”。
 
@@ -925,7 +925,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.getTxStatus
+### avm获取Tx状态
 
 获取发送到网络的交易的状态。
 
@@ -967,7 +967,7 @@ curl -X POST --data '{
 }
 ```
 
-### avm.getUTXOs
+### avm获取UTXO
 
 获取引用给定地址的UTXO, 如果指定了源链，那么它将检索从该链导出到X链的原子UTXO。
 
@@ -1708,11 +1708,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzgwMDQzNCwxMDM2MjA2MzcyLC05Mz
-g5ODIwNTksLTE5NTk1NTMxNTUsMTU0MDgwNDU3NiwtMTk0ODgy
-OTg3NiwyMDkwNDc2MjQ4LDIxMDk0MTY4MTYsLTE4OTk0NDExND
-MsMTI3MjA0Mzc0NywyMTE5NTA1MTIzLC0xMDMwNTk3MTMyLDE3
-ODA0ODAzNDUsLTY5NjAwMzEzNywxOTk4MjQ2NjAyLC0xNDE3OD
-QxNTIyLC0xNDQyODY0NTc0LC0xMDEwMTQ5MTM3LDc5MzEwMTM4
-MCw0NzMxOTAwMzZdfQ==
+eyJoaXN0b3J5IjpbLTEwNzQ3NTI1MDgsMTAzNjIwNjM3MiwtOT
+M4OTgyMDU5LC0xOTU5NTUzMTU1LDE1NDA4MDQ1NzYsLTE5NDg4
+Mjk4NzYsMjA5MDQ3NjI0OCwyMTA5NDE2ODE2LC0xODk5NDQxMT
+QzLDEyNzIwNDM3NDcsMjExOTUwNTEyMywtMTAzMDU5NzEzMiwx
+NzgwNDgwMzQ1LC02OTYwMDMxMzcsMTk5ODI0NjYwMiwtMTQxNz
+g0MTUyMiwtMTQ0Mjg2NDU3NCwtMTAxMDE0OTEzNyw3OTMxMDEz
+ODAsNDczMTkwMDM2XX0=
 -->
