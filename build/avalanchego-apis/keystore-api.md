@@ -35,11 +35,8 @@ keystore.createUser(
 
 * `username`和 and `password` 最多1024个字符。
 * 如果`password`太弱，您的请求将被拒绝, `password`至少8个字符，包含大写字母和小写字母以及数字和符号。
-* 
-#### **调用示例can be at most 1024 characters.
-* Your request will be rejected if `password` is too weak. `password` should be at least 8 characters and contain upper and lower case letters as well as numbers and symbols.
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -53,7 +50,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -69,17 +66,13 @@ curl -X POST --data '{
 
 删除一个用户。
 
-#### **签名keystore.deleteUser
-
-Delete a user.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.deleteUser({username: string, password:string}) -> {success: bool}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -93,7 +86,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -244,6 +237,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTMyMzk2LDY4NzI5MDg5OSwxOTUzOD
-Q2MjkwLC05MjM0MTIzOTksLTM3ODA0MjcxXX0=
+eyJoaXN0b3J5IjpbMTMzNjk4Nzc1Nyw2ODcyOTA4OTksMTk1Mz
+g0NjI5MCwtOTIzNDEyMzk5LC0zNzgwNDI3MV19
 -->
