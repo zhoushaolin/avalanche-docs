@@ -473,7 +473,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -489,12 +489,9 @@ curl -X POST --data '{
 ### 平台导出密钥
 
 获取控制给定地址的私钥。
-返回的私钥可以通过platform.exportKey
+返回的私钥可以通过 [`platform.importKey`](platform-chain-p-chain-api.md#platform-importkey)添加到用户。
 
-Get the private key that controls a given address.  
-The returned private key can be added to a user with [`platform.importKey`](platform-chain-p-chain-api.md#platform-importkey)添加到用户。.
-
-#### **签名Signature**
+#### **签名**
 
 ```cpp
 platform.exportKey({
@@ -504,7 +501,7 @@ platform.exportKey({
 }) -> {privateKey: string}
 ```
 
-* `username`是控制 is the user that controls `address`的用户。.
+* `username`是控制`address`的用户。
 * `password` 是is `username`的密码。‘s password.
 * `privateKey`是控制`address`的私钥的字符串表现形式。
 
@@ -1851,7 +1848,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTI1ODEwMSwtMjEwNTYwOTMyMywtNT
+eyJoaXN0b3J5IjpbMTc4MzYwMjgyNywtMjEwNTYwOTMyMywtNT
 Q3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1
 MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMj
 AsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0y
