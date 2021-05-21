@@ -769,23 +769,15 @@ curl -X POST --data '{
 }
 ```
 
-此示例中的响应表明AVAX的供应量最多为365.865万。
+此示例中的响应表明AVAX的供应量最多为365.865百万。
 
 ### 平台获取当前验证器
 
 列出给定子网的当前验证器。
 
-从v1.0.1开始，顶级字段 million.
+从v1.0.1开始，顶级字段  `delegators`已不推荐使用 [deprecated](deprecated-api-calls.md#getcurrentvalidators)，并已在v1.0.6中删除。 相反，`validators`的每个元素现在都包含该验证器的委托人列表。
 
-### platform.getCurrentValidators
-
-List the current validators of the given Subnet.
-
-The top level field `delegators`已不推荐使用 was [deprecated](deprecated-api-calls.md#getcurrentvalidators)，并已在v1.0.6中删除。 相反，`validators`的每个元素现在都包含该验证器的委托人列表。
-
-#### **签名 as of v1.0.1, and removed in v1.0.6. Instead, each element of `validators` now contains the list of delegators for that validator.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getCurrentValidators({
@@ -830,15 +822,9 @@ platform.getCurrentValidators({
   * `startTime` 是验证器开始验证子网的Unix时间。
   * `endTime` 是验证器停止验证子网的Unix时间。
   * `stakeAmount` 是此验证程序投入的nAVAX的数量。 如果`subnetID`不是主网络则省略。
-  * `nodeID` 是验证者的节点is the subnet whose current validators are returned. If omitted, returns the current validators of the Primary Network.
-* `validators`:
-  * `txID` is the validator transaction.
-  * `startTime` is the Unix time when the validator starts validating the Subnet.
-  * `endTime` is the Unix time when the validator stops validating the Subnet.
-  * `stakeAmount` is the amount of nAVAX this validator staked. Omitted if `subnetID` is not the Primary Network.
-  * `nodeID` is the validator’s node ID。.
-  * `weight` 是在对验证者进行抽样时验证者的权重。 如果`subnetID`是主网络则省略。is the validator’s weight when sampling validators. Omitted if `subnetID` is the Primary Network.
-  * `rewardOwner` 是is an `OutputOwners` 的输出, 包括output which includes `locktime`、, `threshold`, 以及大批 and array of `addresses`。.
+  * `nodeID` 是验证者的节点ID。
+  * `weight` 是在对验证者进行抽样时验证者的权重。 如果`subnetID`是主网络则省略。
+  * `rewardOwner` 是is an `OutputOwners` 的输出, 包括 `locktime`、, `threshold`, 以及大批 `addresses`。.
   * `potentialReward` 是从质押中获得的潜在报酬。
   * `delegationFeeRate` 是当其他人将质押委托给他们时，该验证程序收取的费用百分比。
   * `uptime` 是查询的节点将对等方报告为在线的时间的百分比。is the potential reward earned from staking
@@ -1815,10 +1801,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1Nzg1OTgyLC0yMTA1NjA5MzIzLC01ND
-czNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUx
-MzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMC
-wtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0
-MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV
-19
+eyJoaXN0b3J5IjpbLTU0MjA0Mjg5NCwtMjEwNTYwOTMyMywtNT
+Q3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1
+MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMj
+AsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0y
+NDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOT
+ldfQ==
 -->
