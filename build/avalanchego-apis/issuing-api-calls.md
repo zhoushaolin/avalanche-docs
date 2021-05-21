@@ -1,6 +1,6 @@
 # 发布 API 调用
 
-本指南解释了如何调用Avalanche节点公开的api。This guide explains how to make calls to APIs exposed by Avalanche nodes.
+本指南解释了如何调用Avalanche节点公开的api。
 
 ### 端点
 
@@ -103,6 +103,6 @@ curl -X POST --data '{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAxNjc1MTksLTE0NTc3MjAyNDEsMT
-UwODA4MDA0MSwtNTc0NTg5MTgyXX0=
+eyJoaXN0b3J5IjpbLTkzNzI0Mjg2OCwtMTYwMDE2NzUxOSwtMT
+Q1NzcyMDI0MSwxNTA4MDgwMDQxLC01NzQ1ODkxODJdfQ==
 -->
