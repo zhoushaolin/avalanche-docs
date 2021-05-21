@@ -85,17 +85,13 @@ curl -X POST --data '{
 
 获取此节点参与的网络的名称。
 
-#### **签名info.getNetworkName
-
-Get the name of the network this node is participating in.
-
 #### **签名**
 
 ```cpp
 info.getNetworkName() -> {networkName:string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -105,7 +101,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -117,21 +113,17 @@ curl -X POST --data '{
 }
 ```
 
-### 获取节点ID
+### 信息获取节点ID
 
 获取此节点的ID。
 
-#### **签名info.getNodeID
-
-Get the ID of this node.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getNodeID() -> {nodeID: string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -141,7 +133,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -157,17 +149,13 @@ curl -X POST --data '{
 
 获取此节点的IP。
 
-#### **签名info.getNodeIP
-
-Get the IP of this node.
-
-#### **Signature**
+#### **签名**
 
 ```text
 info.getNodeIP() -> {ip: string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -177,7 +165,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -189,21 +177,17 @@ curl -X POST --data '{
 }
 ```
 
-### 获取节点版本
+### 信息获取节点版本
 
 获取此节点的版本。
 
-#### **签名info.getNodeVersion
-
-Get the version of this node.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getNodeVersion() -> {version: string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -387,7 +371,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTI1MzAwOCwtMTYwMzEzMTMyNSwzMj
+eyJoaXN0b3J5IjpbMTk3MDIyNjM1NSwtMTYwMzEzMTMyNSwzMj
 Q0MTA1NTgsMTM4MjIxODExNSwtMTYzNTk4NzI5MywtMTEyNDA5
 MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzODk4XX0=
 -->
