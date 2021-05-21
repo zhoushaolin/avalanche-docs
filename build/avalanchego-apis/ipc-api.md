@@ -24,25 +24,19 @@ Writes to the socket:
 
 ## 格式
 
-这个 API uses the `json 2.0`  RPC格式。
+这个API使用 `json 2.0`  RPC格式。
 
-## 端点 format.
-
-## Endpoint
+## 端点
 
 `/ext/ipcs`
 
-## 方法Methods
+## 方法
 
-### ipcs.发布区块链
+### ipc发布区块链
 
 注册一个区块链，以便它接受的顶点发布到Unix域套接字。
 
-#### **签名publishBlockchain
-
-Register a blockchain so it publishes accepted vertices to a Unix domain socket.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 ipcs.publishBlockchain({blockchainID: string}) -> {consensusURL: string, decisionsURL: string}
@@ -52,11 +46,7 @@ ipcs.publishBlockchain({blockchainID: string}) -> {consensusURL: string, decisio
 * `consensusURL` 是发布顶点的Unix域套接字的路径。
 * `decisionsURL` 是发布事务的Unix域套接字的路径。
 
-#### **调用示例is the blockchain that will publish accepted vertices.
-* `consensusURL` is the path of the Unix domain socket the vertices are published to.
-* `decisionsURL` is the path of the Unix domain socket the transactions are published to.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -69,7 +59,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/ipcs
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -82,15 +72,11 @@ curl -X POST --data '{
 }
 ```
 
-### ipcs.取消发布区块链
+### ipc取消发布区块链
 
 注销区块链，使其不再发布到Unix域套接字。
 
-#### **签名unpublishBlockchain
-
-Deregister a blockchain so that it no longer publishes to a Unix domain socket.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 ipcs.unpublishBlockchain({blockchainID: string}) -> {success: bool}
@@ -126,7 +112,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MjA0NDIwLDIwMDc0NDA4MDAsMTY2OD
+eyJoaXN0b3J5IjpbNjIyMjA4MTI1LDIwMDc0NDA4MDAsMTY2OD
 QyMzY5NSwtNTI2NzQ5NDQ4LC00Mzk4NjE2NDEsMTI1MDQxMjUz
 NCwtNTYxNTc0MjE3LC0xOTEyOTcwNjA1LC00MTg2NTEzNTEsMT
 kwMTkzNzM3NV19
