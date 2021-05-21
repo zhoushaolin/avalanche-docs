@@ -98,13 +98,9 @@ curl -X POST --data '{
 
 ### 密钥库导出用户
 
-导出一个用户, 用户可以通过keystore.exportUser
+导出一个用户, 用户可以通过[`keystore.importUser`](keystore-api.md#keystore-importuser)导入到另一个节点。用户的密码保持加密。
 
-Export a user. The user can be imported to another node with [`keystore.importUser`](keystore-api.md#keystore-importuser)导入到另一个节点。用户的密码保持加密。
-
-#### **签名. The user’s password remains encrypted.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.exportUser(
@@ -119,7 +115,7 @@ keystore.exportUser(
 }
 ```
 
-`encoding` 指定编码用户数据的字符串格式。可以是specifies the format of the string encoding user data. Can be either “cb58”或 or “hex”。默认为. Defaults to “cb58”。.
+`encoding` 指定编码用户数据的字符串格式。可以是“cb58”或 “hex”。默认为“cb58”。
 
 #### **调用示例Example Call**
 
@@ -237,6 +233,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjk4Nzc1Nyw2ODcyOTA4OTksMTk1Mz
+eyJoaXN0b3J5IjpbLTMwNTIzMTQ4Myw2ODcyOTA4OTksMTk1Mz
 g0NjI5MCwtOTIzNDEyMzk5LC0zNzgwNDI3MV19
 -->
