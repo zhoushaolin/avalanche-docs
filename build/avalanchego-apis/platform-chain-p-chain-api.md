@@ -709,12 +709,7 @@ platform.getBlockchainStatus(
 * `Preferred`: 区块链被提议创建，而且很可能被创建，但交易尚未被接受。
 * `Unknown`: 区块链要么没有被提议，要么创建它的提议不受欢迎。提案可以重新提交。
 
-#### **调用示例The blockchain is being validated by this node.
-* `Created`: The blockchain exists but isn’t being validated by this node.
-* `Preferred`: The blockchain was proposed to be created and is likely to be created but the transaction isn’t yet accepted.
-* `Unknown`: The blockchain either wasn’t proposed or the proposal to create it isn’t preferred. The proposal may be resubmitted.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -727,7 +722,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -743,19 +738,15 @@ curl -X POST --data '{
 
 返回存在的AVAX数量的上限。 这是一个上限，因为它不考虑已销毁的代币，包括交易费。
 
-#### **签名platform.getCurrentSupply
-
-Returns an upper bound on the number of AVAX that exist. This is an upper bound because it does not account for burnt tokens, including transaction fees.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getCurrentSupply() -> {supply: int}
 ```
 
-* `supply` 是存在的AVAX数量的上限，以is an upper bound on the number of AVAX that exist, denominated in nAVAX表示。.
+* `supply` 是存在的AVAX数量的上限，以nAVAX表示。
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -766,7 +757,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -778,7 +769,7 @@ curl -X POST --data '{
 }
 ```
 
-此示例中的响应表明AVAX的供应量最多为3,8The response in this example indicates that AVAX’s supply is at most 365.865万。
+此示例中的响应表明AVAX的供应量最多为365.865万。
 
 ### 平台获取当前验证器
 
@@ -1824,10 +1815,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk3NTE3MDksLTIxMDU2MDkzMjMsLT
-U0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYw
-NTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MD
-IwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4Nywt
-MjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mz
-k5XX0=
+eyJoaXN0b3J5IjpbMzk1Nzg1OTgyLC0yMTA1NjA5MzIzLC01ND
+czNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUx
+MzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMC
+wtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0
+MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV
+19
 -->
