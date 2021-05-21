@@ -197,7 +197,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -213,11 +213,7 @@ curl -X POST --data '{
 
 检查给定链是否完成了引导。
 
-#### **签名info.isBootstrapped
-
-Check whether a given chain is done bootstrapping
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.isBootstrapped({chain: string}) -> {isBootstrapped: bool}
@@ -371,7 +367,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDIyNjM1NSwtMTYwMzEzMTMyNSwzMj
+eyJoaXN0b3J5IjpbLTc2NDQ4ODkzMywtMTYwMzEzMTMyNSwzMj
 Q0MTA1NTgsMTM4MjIxODExNSwtMTYzNTk4NzI5MywtMTEyNDA5
 MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzODk4XX0=
 -->
