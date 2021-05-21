@@ -50,19 +50,16 @@ platform.addDelegator(
 
 * `nodeID` 是要委托的节点的ID。
 * `startTime` 是委托器开始委托的Unix时间。
-* `endTime` 是Unix时间时，委托器停止委托\(并且质押的AVAX已返回is the ID of the node to delegate to.
-* `startTime` is the Unix time when the delegator starts delegating.
-* `endTime` is the Unix time when the delegator stops delegating \(and staked AVAX is returned\)。.
+* `endTime` 是Unix时间时，委托器停止委托\(并且质押的AVAX已返回)。
 * `stakeAmount` 是委托方所质押的nAVAX的数量。
 * `rewardAddress`是验证器的奖励地址(如果有的话)。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
 * `password` 是is `username`的密码。
-* `txID` 是这个交易‘s password.
-* `txID` is the transaction ID。
+* `txID` 是这个交易的ID。
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -83,7 +80,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -104,23 +101,11 @@ curl -X POST --data '{
 
 验证有效期必须在2周到1年之间。
 
-对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为`min(5 * amount staked, 3M AVAX)`。一个验证器的总值是300万platform.addValidator
+对验证器施加的总权重是最大的。这意味着没有哪个验证器比这个值拥有更多的AVAX。这个值最初将被设置为`min(5 * amount staked, 3M AVAX)`。一个验证器的总值是300万 AVAX。
 
-Add a validator to the Primary Network. You must stake AVAX to do this. If the node is sufficiently correct and responsive while validating, you receive a reward when end of staking period is reached. The validator’s probability of being sampled by other validators during consensus is in proportion to the amount of AVAX staked.
+请注意，一旦发出事务以添加节点作为验证器，就无法更改参数。**您不能提前移除质押或更改质押金额、节点ID或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在 [Discord](https://chat.avalabs.org/)上寻求帮助。
 
-The validator charges a fee to delegators; the former receives a percentage of the delegator’s validation reward \(if any.\) The minimum delegation fee is 2%. A transaction that adds a validator has no fee.
-
-The validation period must be between 2 weeks and 1 year.
-
-There is a maximum total weight imposed on validators. This means that no validator will ever have more AVAX staked and delegated to it than this value. This value will initially be set to `min(5 * amount staked, 3M AVAX)`. The total value on a validator is 3 million AVAX。.
-
-请注意，一旦发出事务以添加节点作为验证器，就无法更改参数。**您不能提前移除质押或更改质押金额、节点ID或奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在or ask for help on [Discord.](https://chat.avalabs.org/)上寻求帮助。
-
-#### **签名
-
-{% page-ref page="../../learn/platform-overview/staking.md" %}
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.addValidator(
@@ -1928,7 +1913,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODU2MDQxMCwtNTQ3MzYyNTUyLDEwNT
+eyJoaXN0b3J5IjpbMjA1NDY4NDgwMiwtNTQ3MzYyNTUyLDEwNT
 M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
 NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
 csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
