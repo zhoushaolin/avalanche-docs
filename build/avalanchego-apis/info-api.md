@@ -37,7 +37,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -49,7 +49,7 @@ curl -X POST --data '{
 }
 ```
 
-### 获取网络ID
+### 信息获取网络ID
 
 获取此节点参与的网络的ID。
 
@@ -391,7 +391,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0NDEwNTU4LDEzODIyMTgxMTUsLTE2Mz
-U5ODcyOTMsLTExMjQwOTIxNzEsLTE3NDE2MjA2OTMsMTk4MzY5
-Mzg5OF19
+eyJoaXN0b3J5IjpbLTE2MDMxMzEzMjUsMzI0NDEwNTU4LDEzOD
+IyMTgxMTUsLTE2MzU5ODcyOTMsLTExMjQwOTIxNzEsLTE3NDE2
+MjA2OTMsMTk4MzY5Mzg5OF19
 -->
