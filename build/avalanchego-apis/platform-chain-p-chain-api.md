@@ -142,7 +142,7 @@ platform.addValidator(
 
 #### **调用示例**
 
-在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用`$(gdate`代替 `$(date`。如果你没有安装`gdate` ，请使用. If you don’t have `gdate` installed, do `brew install coreutils`。.\)
+在这个例子中，我们使用shell命令`date`来计算未来10分钟和2天的Unix时间。\(注意:如果你在Mac上，用`$(gdate`代替 `$(date`。如果你没有安装`gdate` ，请使用`brew install coreutils`。\)
 
 ```cpp
 curl -X POST --data '{
@@ -164,7 +164,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -181,11 +181,7 @@ curl -X POST --data '{
 
 将验证器添加到主网络以外的子网中。验证器必须在验证此子网的整个期间内验证主网络。
 
-#### **签名platform.addSubnetValidator
-
-Add a validator to a subnet other than the Primary Network. The Validator must validate the Primary Network for the entire duration they validate this subnet.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.addSubnetValidator(
@@ -214,21 +210,11 @@ platform.addSubnetValidator(
 * `weight` 是用于取样的验证器权重。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。is the node ID of the validator.
-* `subnetID` is the subnet they will validate.
-* `startTime` is the unix time when the validator starts validating the subnet.
-* `endTime` is the unix time when the validator stops validating the subnet.
-* `weight` is the validator’s weight used for sampling.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that pays the transaction fee.
-* `password` 是is `username`的密码。
+* `username` 是支付交易费用的用户。
+* `password` 是是`username`的密码。
 * `txID` 是这个交易ID.
 
-#### **调用示例‘s password.
-* `txID` is the transaction ID.
-
-#### **Example call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -249,7 +235,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1902,9 +1888,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYxMjc0LC01NDczNjI1NTIsMTA1Mz
-k0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3
-NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNy
-wtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3
-NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbMjE0NDQ5NTI1NSwtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
