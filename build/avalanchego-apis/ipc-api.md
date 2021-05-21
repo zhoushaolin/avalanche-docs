@@ -1,6 +1,6 @@
 # IPC API
 
-The IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当区块链接受一个顶点/块时，它将把这个顶点/块发布到一个套接字中，其中包含的决策将被发布到另一个套接字中。
+IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当区块链接受一个顶点/块时，它将把这个顶点/块发布到一个套接字中，其中包含的决策将被发布到另一个套接字中。
 
 一个节点只有在使用[command line argument](../references/command-line-interface.md) `api-ipcs-enabled=true`启动时才会公开这个API。
 
@@ -139,7 +139,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODQyMzY5NSwtNTI2NzQ5NDQ4LC00Mz
-k4NjE2NDEsMTI1MDQxMjUzNCwtNTYxNTc0MjE3LC0xOTEyOTcw
-NjA1LC00MTg2NTEzNTEsMTkwMTkzNzM3NV19
+eyJoaXN0b3J5IjpbMjAwNzQ0MDgwMCwxNjY4NDIzNjk1LC01Mj
+Y3NDk0NDgsLTQzOTg2MTY0MSwxMjUwNDEyNTM0LC01NjE1NzQy
+MTcsLTE5MTI5NzA2MDUsLTQxODY1MTM1MSwxOTAxOTM3Mzc1XX
+0=
 -->
