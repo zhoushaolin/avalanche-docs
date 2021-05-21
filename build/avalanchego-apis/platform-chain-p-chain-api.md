@@ -56,7 +56,7 @@ platform.addDelegator(
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
-* `password` 是is `username`的密码。
+* `password` 是 `username`的密码。
 * `txID` 是这个交易的ID。
 
 #### **调用示例**
@@ -133,21 +133,12 @@ platform.addValidator(
 * `endTime` 是验证器停止验证主网络的Unix时间(并返回质押的AVAX)。
 * `stakeAmount`是验证器所质押的nAVAX的数量。
 * `rewardAddress` 是验证者奖励将到达的地址，如果有的话。
-* `delegationFeeRate` 是该验证者在他人委托质押给他们时收取的费用百分比。最多允许小数点后4位数; 多余的小数点位将被忽略。必须在0和100之间，一切费用包括在内。例如，如果is the node ID of the validator being added.
-* `startTime` is the Unix time when the validator starts validating the Primary Network.
-* `endTime` is the Unix time when the validator stops validating the Primary Network \(and staked AVAX is returned\).
-* `stakeAmount` is the amount of nAVAX the validator is staking.
-* `rewardAddress` is the address the validator reward will go to, if there is one.
-* `delegationFeeRate` is the percent fee this validator charges when others delegate stake to them. Up to 4 decimal places allowed; additional decimal places are ignored. Must be between 0 and 100, inclusive. For example, if `delegationFeeRate`是 is `1.2345`，并且有人委托给了这个验证器，那么当委托周期结束时，1.2345%的奖励归验证器，剩下的归委托器。
+* `delegationFeeRate` 是该验证者在他人委托质押给他们时收取的费用百分比。最多允许小数点后4位数; 多余的小数点位将被忽略。必须在0和100之间，一切费用包括在内。例如，如果`delegationFeeRate`是 is `1.2345`，并且有人委托给了这个验证器，那么当委托周期结束时，1.2345%的奖励归验证器，剩下的归委托器。
 * `from`是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。 
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。 and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that pays the transaction fee.
-* `password` 是is `username`的密码。
-* `txID`是这个交易‘s password.
-* `txID` is the transaction ID。
+* `username` 是支付交易费用的用户。
+* `password` 是 `username`的密码。
+* `txID`是这个交易的ID。
 
 #### **调用示例**
 
@@ -1913,7 +1904,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDY4NDgwMiwtNTQ3MzYyNTUyLDEwNT
+eyJoaXN0b3J5IjpbLTI1NzcxMTk1MSwtNTQ3MzYyNTUyLDEwNT
 M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
 NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
 csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
