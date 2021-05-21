@@ -573,7 +573,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -600,11 +600,9 @@ curl -X POST --data '{
 
 ### 平台获取区块链
 
-获取所有存在的区块链\(不包括P链platform.getBlockchains
+获取所有存在的区块链\(不包括P链\)。
 
-Get all the blockchains that exist \(excluding the P-Chain\)。.
-
-#### **签名Signature**
+#### **签名**
 
 ```cpp
 platform.getBlockchains() ->
@@ -624,13 +622,7 @@ platform.getBlockchains() ->
 * `subnetID` 是验证这个区块链的子网的ID。
 * `vmID` 是区块链运行的虚拟机ID。
 
-#### **调用示例is all of the blockchains that exists on the Avalanche network.
-* `name` is the human-readable name of this blockchain.
-* `id` is the blockchain’s ID.
-* `subnetID` is the ID of the Subnet that validates this blockchain.
-* `vmID` is the ID of the Virtual Machine the blockchain runs.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -641,7 +633,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -700,11 +692,7 @@ curl -X POST --data '{
 
 获取区块链状态。
 
-#### **签名platform.getBlockchainStatus
-
-Get the status of a blockchain.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getBlockchainStatus(
@@ -714,7 +702,7 @@ platform.getBlockchainStatus(
 ) -> {status: string}
 ```
 
-`status` 是以下情况之一is one of:
+`status` 是以下情况之一:
 
 * `Validating`: 该节点正在验证区块链。
 * `Created`: 区块链存在，但该节点没有验证它。
@@ -1836,10 +1824,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDAzOTA2NiwtMjEwNTYwOTMyMywtNT
-Q3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1
-MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMj
-AsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0y
-NDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOT
-ldfQ==
+eyJoaXN0b3J5IjpbLTEzNTk3NTE3MDksLTIxMDU2MDkzMjMsLT
+U0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYw
+NTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MD
+IwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4Nywt
+MjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mz
+k5XX0=
 -->
