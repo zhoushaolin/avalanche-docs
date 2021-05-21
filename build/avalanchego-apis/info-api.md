@@ -221,9 +221,7 @@ info.isBootstrapped({chain: string}) -> {isBootstrapped: bool}
 
 `chain`是链的ID或别名。
 
-#### **调用示例 is the ID or alias of a chain.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -236,7 +234,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -248,13 +246,11 @@ curl -X POST --data '{
 }
 ```
 
-### info.peers
+### 信息对
 
 获取对等连接的描述。
 
-#### **签名Get a description of peer connections.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.peers() -> 
@@ -271,7 +267,7 @@ info.peers() ->
 }
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -367,7 +363,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDQ4ODkzMywtMTYwMzEzMTMyNSwzMj
-Q0MTA1NTgsMTM4MjIxODExNSwtMTYzNTk4NzI5MywtMTEyNDA5
-MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbLTIwNjI1MzkxNTksLTc2NDQ4ODkzMywtMT
+YwMzEzMTMyNSwzMjQ0MTA1NTgsMTM4MjIxODExNSwtMTYzNTk4
+NzI5MywtMTEyNDA5MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzOD
+k4XX0=
 -->
