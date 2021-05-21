@@ -24,7 +24,7 @@
 info.getBlockchainID({alias:string}) -> {blockchainID:string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -391,7 +391,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODYwMzk0NiwxMzgyMjE4MTE1LC0xNj
-M1OTg3MjkzLC0xMTI0MDkyMTcxLC0xNzQxNjIwNjkzLDE5ODM2
-OTM4OThdfQ==
+eyJoaXN0b3J5IjpbMzI0NDEwNTU4LDEzODIyMTgxMTUsLTE2Mz
+U5ODcyOTMsLTExMjQwOTIxNzEsLTE3NDE2MjA2OTMsMTk4MzY5
+Mzg5OF19
 -->
