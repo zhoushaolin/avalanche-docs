@@ -520,7 +520,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -536,11 +536,7 @@ curl -X POST --data '{
 
 获取由给定地址控制的AVAX的余额。
 
-#### **签名platform.getBalance
-
-Get the balance of AVAX controlled by a given address.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getBalance({
@@ -560,17 +556,11 @@ platform.getBalance({
 * `address` 是获取余额的地址。
 * `balance` 是nAVAX的总余额。
 * `unlocked` 是nAVAX的解锁的余额。
-* `lockedStakeable`是锁定的质押中的is the address to get the balance of.
-* `balance` is the total balance, in nAVAX.
-* `unlocked` is the unlocked balance, in nAVAX.
-* `lockedStakeable` is the locked stakeable balance, in nAVAX余额。.
+* `lockedStakeable`是锁定的质押中的nAVAX余额。
 * `lockedNotStakeable` 是锁定未质押的余额。
 * `utxoIDs` 是引用`address`的UTXO的ID。
 
-#### **调用示例is the locked and not stakeable balance, in nAVAX.
-* `utxoIDs` are the IDs of the UTXOs that reference `address`.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1846,10 +1836,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg0MzQ5MTcsLTIxMDU2MDkzMjMsLT
-U0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYw
-NTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MD
-IwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4Nywt
-MjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mz
-k5XX0=
+eyJoaXN0b3J5IjpbLTUwNDAzOTA2NiwtMjEwNTYwOTMyMywtNT
+Q3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1
+MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMj
+AsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0y
+NDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOT
+ldfQ==
 -->
