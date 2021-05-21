@@ -84,9 +84,7 @@ ipcs.unpublishBlockchain({blockchainID: string}) -> {success: bool}
 
 * `blockchainID` 是将不再发布到Unix域套接字的区块链。
 
-#### **调用示例is the blockchain that will no longer publish to a Unix domain socket.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -99,7 +97,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/ipcs
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -112,7 +110,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMjA4MTI1LDIwMDc0NDA4MDAsMTY2OD
+eyJoaXN0b3J5IjpbMzA5MjYwNDUyLDIwMDc0NDA4MDAsMTY2OD
 QyMzY5NSwtNTI2NzQ5NDQ4LC00Mzk4NjE2NDEsMTI1MDQxMjUz
 NCwtNTYxNTc0MjE3LC0xOTEyOTcwNjA1LC00MTg2NTEzNTEsMT
 kwMTkzNzM3NV19
