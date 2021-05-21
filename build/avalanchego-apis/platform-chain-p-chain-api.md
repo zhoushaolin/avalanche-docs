@@ -10,17 +10,7 @@
 
 ## 格式
 
-这个API使用 set and handles blockchain creation.
-
-## Endpoint
-
-```cpp
-/ext/P
-```
-
-## Format
-
-This API uses the `json 2.0` RPC格式。
+这个API使用`json 2.0` RPC格式。
 
 ## 方法
 
@@ -1960,7 +1950,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTM3NTM1MCwxMDUzOTQxNzEsLTE3Nj
+eyJoaXN0b3J5IjpbLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3Nj
 IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
 ODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNT
 AsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0
