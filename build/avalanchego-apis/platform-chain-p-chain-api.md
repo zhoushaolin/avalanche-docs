@@ -211,7 +211,7 @@ platform.addSubnetValidator(
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。
-* `password` 是是`username`的密码。
+* `password` 是`username`的密码。
 * `txID` 是这个交易ID.
 
 #### **调用示例**
@@ -317,15 +317,12 @@ platform.createBlockchain(
 * `vmID` 为区块链运行的虚拟机ID, 也可以是虚拟机的别名。
 * `name`是新区块链的可读名称, 不一定是独一无二的。
 * `genesisData` 以`encoding`参数指定的格式编码的新区块链的起源状态的字节形式。
-* `encoding` 指定`genesisData`使用的格式, 可以是 “cb58”或 or “hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`。
+* `encoding` 指定`genesisData`使用的格式, 可以是 “cb58”或 or “hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成`genesisData`。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that pays the transaction fee. This user must have a sufficient number of the subnet’s control keys.
-* `password` 是is `username`的密码。
-* `txID`是此交易‘s password.
-* `txID` is the transaction ID。.
+* `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。
+* `password` 是`username`的密码。
+* `txID`是此交易。
 
 #### **调用示例**
 
@@ -1878,9 +1875,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NTcwMzc1LC01NDczNjI1NTIsMTA1Mz
-k0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3
-NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNy
-wtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3
-NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTU5NDUyOTk1OCwtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
