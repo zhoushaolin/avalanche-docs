@@ -4,13 +4,9 @@
 
 ## 格式
 
-这个API使用`json 2.0` RPC格式, 有关JSON RPC调用的更多信息，请参见这里This API can be used to access basic information about the node.
+这个API使用`json 2.0` RPC格式, 有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。
 
-## Format
-
-This API uses the `json 2.0` RPC format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md)。.
-
-## 端点Endpoint
+## 端点
 
 ```text
 /ext/info
@@ -399,6 +395,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjIxODExNSwtMTYzNTk4NzI5MywtMT
-EyNDA5MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzODk4XX0=
+eyJoaXN0b3J5IjpbMTMyNDY3MTE2MiwxMzgyMjE4MTE1LC0xNj
+M1OTg3MjkzLC0xMTI0MDkyMTcxLC0xNzQxNjIwNjkzLDE5ODM2
+OTM4OThdfQ==
 -->
