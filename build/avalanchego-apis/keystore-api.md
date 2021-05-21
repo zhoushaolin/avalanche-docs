@@ -8,19 +8,9 @@ _**您应该只在您所操作的节点上创建一个密钥存储用户，因�
 
 ## 格式
 
-该API使用Keystore API
+该API使用`json 2.0` API格式, 有关JSON RPC调用的更多信息，请参见这里[here](issuing-api-calls.md)。
 
-Every node has a built-in keystore. Clients create users on the keystore, which act as identities to be used when interacting with blockchains. A keystore exists at the node level, so if you create a user on a node it exists _only_ on that node. However, users may be imported and exported using this API.
-
-_**You should only create a keystore user on a node that you operate, as the node operator has access to your plaintext password.**_
-
-For validation and delegation on main net, you should issue transactions through [the wallet](../tutorials/nodes-and-staking/staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md). That way control keys for your funds won't be stored on the node, which significantly lowers the risk should a computer running a node be compromised.
-
-## Format
-
-This API uses the `json 2.0` API格式, 有关JSON RPC调用的更多信息，请参见这里 format. For more information on making JSON RPC calls, see [here](issuing-api-calls.md)。.
-
-## 端点Endpoint
+## 端点
 
 ```text
 /ext/keystore
@@ -32,13 +22,7 @@ This API uses the `json 2.0` API格式, 有关JSON RPC调用的更多信息，�
 
 使用指定的用户名和密码创建新用户。
 
-#### **签名Methods
-
-### keystore.createUser
-
-Create a new user with the specified username and password.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.createUser(
@@ -260,6 +244,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3MjkwODk5LDE5NTM4NDYyOTAsLTkyMz
-QxMjM5OSwtMzc4MDQyNzFdfQ==
+eyJoaXN0b3J5IjpbMTA2NTMyMzk2LDY4NzI5MDg5OSwxOTUzOD
+Q2MjkwLC05MjM0MTIzOTksLTM3ODA0MjcxXX0=
 -->
