@@ -8,15 +8,8 @@ IPC API允许用户创建UNIX域套接字, 以便区块链发布到其中。当�
 
 套接字消息由一个BigEndian格式的64位整数组成, 后面跟着非常多字节。
 
-示例 allows users to create UNIX domain sockets for blockchains to publish to. When the blockchain accepts a vertex/block it will publish it to a socket and the decisions contained inside will be published to another.
 
-A node will only expose this API if it is started with [command line argument](../references/command-line-interface.md) `api-ipcs-enabled=true`.
-
-## IPC Message Format
-
-Socket messages consist of a 64bit integer in BigEndian format followed by that many bytes.
-
-Example:
+示例:
 
 ```text
 Sending:
@@ -139,8 +132,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzQ0MDgwMCwxNjY4NDIzNjk1LC01Mj
-Y3NDk0NDgsLTQzOTg2MTY0MSwxMjUwNDEyNTM0LC01NjE1NzQy
-MTcsLTE5MTI5NzA2MDUsLTQxODY1MTM1MSwxOTAxOTM3Mzc1XX
-0=
+eyJoaXN0b3J5IjpbMTA0NDAwNjk4MSwyMDA3NDQwODAwLDE2Nj
+g0MjM2OTUsLTUyNjc0OTQ0OCwtNDM5ODYxNjQxLDEyNTA0MTI1
+MzQsLTU2MTU3NDIxNywtMTkxMjk3MDYwNSwtNDE4NjUxMzUxLD
+E5MDE5MzczNzVdfQ==
 -->
