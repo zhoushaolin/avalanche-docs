@@ -117,7 +117,7 @@ keystore.exportUser(
 
 `encoding` 指定编码用户数据的字符串格式。可以是“cb58”或 “hex”。默认为“cb58”。
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -131,7 +131,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -148,11 +148,7 @@ curl -X POST --data '{
 
 导入用户, `password`必须与用户的密码匹配, `username`不需要匹配`user`在导出时拥有的用户名。
 
-#### **签名keystore.importUser
-
-Import a user. `password` must match the user’s password. `username` doesn’t have to match the username `user` had when it was exported.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.importUser(
@@ -165,9 +161,9 @@ keystore.importUser(
 ) -> {success:bool}
 ```
 
-`encoding` 指定编码用户数据的字符串格式, 可以是specifies the format of the string encoding user data . Can be either “cb58” 或or “hex”。默认为. Defaults to “cb58”。.
+`encoding` 指定编码用户数据的字符串格式, 可以是“cb58” 或 “hex”。默认为“cb58”。
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -182,7 +178,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -198,17 +194,13 @@ curl -X POST --data '{
 
 列出此密钥库中的用户。
 
-#### **签名keystore.listUsers
-
-List the users in this keystore.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 keystore.ListUsers() -> {users:[]string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -218,7 +210,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -233,6 +225,6 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTIzMTQ4Myw2ODcyOTA4OTksMTk1Mz
-g0NjI5MCwtOTIzNDEyMzk5LC0zNzgwNDI3MV19
+eyJoaXN0b3J5IjpbLTIwMTYwMDgyMjMsNjg3MjkwODk5LDE5NT
+M4NDYyOTAsLTkyMzQxMjM5OSwtMzc4MDQyNzFdfQ==
 -->
