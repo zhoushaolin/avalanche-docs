@@ -505,9 +505,7 @@ platform.exportKey({
 * `password` 是is `username`的密码。‘s password.
 * `privateKey`是控制`address`的私钥的字符串表现形式。
 
-#### **调用示例 is the string representation of the private key that controls `address`.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1848,10 +1846,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzYwMjgyNywtMjEwNTYwOTMyMywtNT
-Q3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1
-MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMj
-AsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0y
-NDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOT
-ldfQ==
+eyJoaXN0b3J5IjpbLTEzMzg0MzQ5MTcsLTIxMDU2MDkzMjMsLT
+U0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYw
+NTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MD
+IwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4Nywt
+MjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5Mz
+k5XX0=
 -->
