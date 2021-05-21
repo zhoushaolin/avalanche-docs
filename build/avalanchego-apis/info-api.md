@@ -14,15 +14,11 @@
 
 ## API 方法
 
-### 获取区块链ID
+### 信息获取区块链ID
 
-给定区块链的别名，获取它的ID。\(见Methods
+给定区块链的别名，获取它的ID。\([详见`admin.aliasChain`](admin-api.md#admin-aliaschain)\)
 
-### info.getBlockchainID
-
-Given a blockchain’s alias, get its ID. \(See [`admin.aliasChain`](admin-api.md#admin-aliaschain).\)。  
-
-#### **签名Signature**
+#### **签名**
 
 ```cpp
 info.getBlockchainID({alias:string}) -> {blockchainID:string}
@@ -395,7 +391,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDY3MTE2MiwxMzgyMjE4MTE1LC0xNj
+eyJoaXN0b3J5IjpbMTQzODYwMzk0NiwxMzgyMjE4MTE1LC0xNj
 M1OTg3MjkzLC0xMTI0MDkyMTcxLC0xNzQxNjIwNjkzLDE5ODM2
 OTM4OThdfQ==
 -->
