@@ -277,7 +277,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -315,7 +315,7 @@ curl -X POST --data '{
 }
 ```
 
-###  获取Tx费用
+###  信息获取Tx费用
 
 获取网络费用。
 
@@ -363,8 +363,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI1MzkxNTksLTc2NDQ4ODkzMywtMT
-YwMzEzMTMyNSwzMjQ0MTA1NTgsMTM4MjIxODExNSwtMTYzNTk4
-NzI5MywtMTEyNDA5MjE3MSwtMTc0MTYyMDY5MywxOTgzNjkzOD
-k4XX0=
+eyJoaXN0b3J5IjpbMjAwNzUzNjAzMiwtMjA2MjUzOTE1OSwtNz
+Y0NDg4OTMzLC0xNjAzMTMxMzI1LDMyNDQxMDU1OCwxMzgyMjE4
+MTE1LC0xNjM1OTg3MjkzLC0xMTI0MDkyMTcxLC0xNzQxNjIwNj
+kzLDE5ODM2OTM4OThdfQ==
 -->
