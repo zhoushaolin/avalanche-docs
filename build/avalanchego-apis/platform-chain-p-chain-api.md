@@ -24,27 +24,9 @@
 
 委托周期必须是被委托人验证主网络的子网周期。
 
-请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答 format.
+请注意，一旦发出事务以添加节点作为委托，就无法更改参数。**你不能提前移除质押或改变质押的数量、节点ID、奖励地址。**请确保您使用的是正确的值。如果你不确定，可以查看我们的开发者常见问题解答[Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq)或在[Discord.](https://chat.avalabs.org/)上寻求帮助。
 
-## Methods
-
-### platform.addDelegator
-
-Add a delegator to the Primary Network.
-
-A delegator stakes AVAX and specifies a validator \(the delegatee\) to validate on their behalf. The delegatee has an increased probability of being sampled by other validators \(weight\) in proportion to the stake delegated to them.
-
-The delegatee charges a fee to the delegator; the former receives a percentage of the delegator’s validation reward \(if any.\) A transaction that delegates stake has no fee.
-
-The delegation period must be a subset of the period that the delegatee validates the Primary Network.
-
-Note that once you issue the transaction to add a node as a delegator, there is no way to change the parameters. **You can’t remove a stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) 或在or ask for help on [Discord.](https://chat.avalabs.org/)上寻求帮助。
-
-#### **签名
-
-{% page-ref page="../../learn/platform-overview/staking.md" %}
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.addDelegator(
@@ -75,11 +57,7 @@ platform.addDelegator(
 * `rewardAddress`是验证器的奖励地址(如果有的话)。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 是支付交易费用的用户。is the amount of nAVAX the delegator is staking.
-* `rewardAddress` is the address the validator reward goes to, if there is one.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that pays the transaction fee.
+* `username` 是支付交易费用的用户。
 * `password` 是is `username`的密码。
 * `txID` 是这个交易‘s password.
 * `txID` is the transaction ID。
@@ -1950,9 +1928,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3Nj
-IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
-ODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNT
-AsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0
-OTY1NTMsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbLTIyODU2MDQxMCwtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
