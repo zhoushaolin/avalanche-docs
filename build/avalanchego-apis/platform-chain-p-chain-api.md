@@ -252,11 +252,7 @@ curl -X POST --data '{
 
 创建一个由给定用户控制的新地址。
 
-#### **签名platform.createAddress
-
-Create a new address controlled by the given user.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.createAddress({
@@ -265,7 +261,7 @@ platform.createAddress({
 }) -> {address: string}
 ```
 
-#### **调用示例Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -279,7 +275,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -293,11 +289,9 @@ curl -X POST --data '{
 
 ### 平台创建区块链
 
-创建一个新的区块链, 目前只支持创建AVM和platform.createBlockchain
+创建一个新的区块链, 目前只支持创建AVM和VM的新实例。
 
-Create a new blockchain. Currently only supports the creation of new instances of the AVM and the Timestamp VM的新实例。.
-
-#### **签名Signature**
+#### **签名**
 
 ```cpp
 platform.createBlockchain(
@@ -323,11 +317,7 @@ platform.createBlockchain(
 * `vmID` 为区块链运行的虚拟机ID, 也可以是虚拟机的别名。
 * `name`是新区块链的可读名称, 不一定是独一无二的。
 * `genesisData` 以`encoding`参数指定的格式编码的新区块链的起源状态的字节形式。
-* `encoding` 指定`genesisData`使用的格式, 可以是 is the ID of the Subnet that validates the new blockchain. The Subnet must exist and can’t be the Primary Network.
-* `vmID` is the ID of the Virtual Machine the blockchain runs. Can also be an alias of the Virtual Machine.
-* `name` is a human-readable name for the new blockchain. Not necessarily unique.
-* `genesisData` is the byte representation of the genesis state of the new blockchain encoded in the format specified by the `encoding` parameter.
-* `encoding` specifies the format to use for `genesisData`. Can be either “cb58”或 or “hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`。
+* `encoding` 指定`genesisData`使用的格式, 可以是 “cb58”或 or “hex”。默认为“cb58”。虚拟机应该有一个名为`buildGenesis`的静态API方法，可以用来生成. Defaults to “cb58”. Virtual Machines should have a static API method named `buildGenesis` that can be used to generate `genesisData`。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
 * `username` 是支付交易费用的用户。此用户必须有足够数量的子网控制密钥。are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
@@ -1888,9 +1878,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDQ5NTI1NSwtNTQ3MzYyNTUyLDEwNT
-M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
-NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
-csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
-NzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbOTg1NTcwMzc1LC01NDczNjI1NTIsMTA1Mz
+k0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3
+NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNy
+wtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3
+NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
 -->
