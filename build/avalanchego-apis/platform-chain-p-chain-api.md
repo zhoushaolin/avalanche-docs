@@ -1,8 +1,6 @@
 # 平台链 \(P链\) API
 
-这个API允许客户端与Platform Chain \(P-Chain\) API
-
-This API allows clients to interact with the [P-Chain](../../learn/platform-overview/#platform-chain-p-chain)交互，它维护, which maintains Avalanche的’s [validator](../../learn/platform-overview/staking.md#validators)设置和处理区块链的创建。
+这个API允许客户端与[P-链](../../learn/platform-overview/#platform-chain-p-chain)进行交互，它维护Avalanche的验证器[validator](../../learn/platform-overview/staking.md#validators), 设置和处理区块链的创建。
 
 ## 端点
 
@@ -1962,9 +1960,9 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05OD
-I2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEz
-NDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzOD
-csLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5
-OTM5OV19
+eyJoaXN0b3J5IjpbLTI4NTM3NTM1MCwxMDUzOTQxNzEsLTE3Nj
+IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
+ODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNT
+AsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0
+OTY1NTMsOTIxNjk5Mzk5XX0=
 -->
