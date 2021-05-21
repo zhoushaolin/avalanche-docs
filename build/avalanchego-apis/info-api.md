@@ -319,11 +319,7 @@ curl -X POST --data '{
 
 获取网络费用。
 
-#### **签名info.getTxFee
-
-Get the fees of the network.
-
-#### **Signature**
+#### **签名**
 
 ```cpp
 info.getTxFee() -> 
@@ -336,10 +332,7 @@ info.getTxFee() ->
 * `creationTxFee`是在网络上创建资产的费用。
 * `txFee`是在网络上进行交易的费用。
 
-#### **调用示例 is the fee for creating assets on the network.
-* `txFee` is the fee for making transactions on the network.
-
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -349,7 +342,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-#### **响应示例Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -363,8 +356,8 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzUzNjAzMiwtMjA2MjUzOTE1OSwtNz
-Y0NDg4OTMzLC0xNjAzMTMxMzI1LDMyNDQxMDU1OCwxMzgyMjE4
-MTE1LC0xNjM1OTg3MjkzLC0xMTI0MDkyMTcxLC0xNzQxNjIwNj
-kzLDE5ODM2OTM4OThdfQ==
+eyJoaXN0b3J5IjpbLTE4NTM5Mjg4MjUsLTIwNjI1MzkxNTksLT
+c2NDQ4ODkzMywtMTYwMzEzMTMyNSwzMjQ0MTA1NTgsMTM4MjIx
+ODExNSwtMTYzNTk4NzI5MywtMTEyNDA5MjE3MSwtMTc0MTYyMD
+Y5MywxOTgzNjkzODk4XX0=
 -->
