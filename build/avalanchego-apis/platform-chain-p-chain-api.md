@@ -833,10 +833,10 @@ platform.getCurrentValidators({
     * `txID`是委托方的交易。
     * `startTime` 是委托方开始委托的Unix时间。  
     * `endTime`是委托停止的Unix时间。
-    * `stakeAmount`  is the amount of nAVAX this delegator staked. Omitted if `subnetID` is not the Primary Network.
-    * `nodeID` is the validating node’s node ID.
-    * `rewardOwner` is an `OutputOwners` output which includes `locktime`, `threshold` and array of `addresses`.
-    * `potentialReward` is the potential reward earned from staking
+    * `stakeAmount` 是这个委托方所质押的nAVAX的数量。如果`subnetID`不是主网络则省略。
+    * `nodeID`是验证节点的节点ID。
+    * `rewardOwner` 是`OutputOwners`输出，包括`locktime`， `threshold`和`addresses`数组。
+    * `potentialReward` 是质押赚取dis the potential reward earned from staking
 * `delegators`: \(**deprecated as of v1.0.1. See note at top of method documentation.**\)
 
 #### **Example Call**
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjMxMzAxNSwtMzA1NjEyMzYsLTIxMD
+eyJoaXN0b3J5IjpbLTE2MjYyMzI2NSwtMzA1NjEyMzYsLTIxMD
 U2MDkzMjMsLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3
 NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOC
 wtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0
