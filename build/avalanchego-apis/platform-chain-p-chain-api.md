@@ -1063,7 +1063,7 @@ curl -X POST --data '{
 
 检索子网所质押资产的ID, 目前, 只能返回主网质押资产的ID。
 
-#### **Signatu*
+#### **签名**
 
 ```cpp
 platform.getStakingAssetID({
@@ -1073,7 +1073,7 @@ platform.getStakingAssetID({
 }
 ```
 
-* `subnetID` is the subnet whose assetID is requested.
+* `subnetID` 是要求资产ID的子网。 is the subnet whose assetID is requested.
 * `assetID` is the assetID for a subnet’s staking asset.
 
 #### **Example Call**
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI1NjM2MjksLTE5ODQ1ODI1NTEsND
-AwODMyODUsNjk1MTMyNDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIz
-LC01NDczNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05OD
-I2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEz
-NDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzOD
-csLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5
-OTM5OV19
+eyJoaXN0b3J5IjpbLTIzMTA5Njk0MiwtMTk4NDU4MjU1MSw0MD
+A4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMs
+LTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4Mj
+YwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0
+MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4Ny
+wtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5
+Mzk5XX0=
 -->
