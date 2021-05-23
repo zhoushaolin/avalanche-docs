@@ -1394,8 +1394,8 @@ curl -X POST --data '{
 }
 ```
 
-由于' numfetch '与' limit '相同，我们可以知道可能有更多的utxo没有被获取。我们再次调用该方法，这次使用' startIndex ':
-Since `numFetched` is the same as `limit`, we can tell that there may be more UTXOs that were not fetched. We call the method again, this time with `startIndex`:
+由于`numFetched` 与`limit`相同，我们可以断定可能有更多的UTXO没有被获取。我们再次调用该方法，这次使用`startIndex`:
+
 
 ```cpp
 curl -X POST --data '{
@@ -1800,7 +1800,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjAyOTI0MywtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbLTg3MjgzMDE2OSwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
