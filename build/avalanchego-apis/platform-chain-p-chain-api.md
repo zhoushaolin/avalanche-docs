@@ -934,12 +934,11 @@ curl -X POST --data '{
 }
 ```
 
-### 平台获取最小的zplatform.getMinStake
+### 平台获取最小的质押数量
 
 获得验证主网络所需的最小AVAX量，以及可以委托的最小AVAX量。
-Get the minimum amount of AVAX required to validate the Primary Network and the minimum amount of AVAX that can be delegated.
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getMinStake() -> 
@@ -949,7 +948,7 @@ platform.getMinStake() ->
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -959,7 +958,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -972,7 +971,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getPendingValidators
+### piplatform.getPendingValidators
 
 List the validators in the pending validator set of the specified Subnet. Each validator is not currently validating the Subnet but will in the future.
 
@@ -1800,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODk0MTg2MTMsNjk1MTMyNDQsLTMwNT
+eyJoaXN0b3J5IjpbLTIwNTE1MzgyOTcsNjk1MTMyNDQsLTMwNT
 YxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcx
 LC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLT
 ExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEy
