@@ -837,9 +837,9 @@ platform.getCurrentValidators({
     * `nodeID`是验证节点的节点ID。
     * `rewardOwner` 是`OutputOwners`输出，包括`locktime`， `threshold`和`addresses`数组。
     * `potentialReward` 是质押赚取的潜在收益。
-* `delegators`: \(**deprecated as of v1.0.1. See note at top of method documentation.**\)
+* `delegators`: \(**从v1.0.1版起已移除, 参见方法文档顶部的注释。**\)
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -850,7 +850,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -898,11 +898,11 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getHeight
+### 平台获取高度
 
-Returns the height of the last accepted block.
+返回最后接受的区块的高度。 
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getHeight() ->
@@ -911,7 +911,7 @@ platform.getHeight() ->
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -922,7 +922,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1799,10 +1799,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MzYwMzg1LC0zMDU2MTIzNiwtMjEwNT
-YwOTMyMywtNTQ3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3
-MSwtOTgyNjA1MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC
-05MDcxMzQwMjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3
-Nzk1Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1My
-w5MjE2OTkzOTldfQ==
+eyJoaXN0b3J5IjpbNjk1MTMyNDQsLTMwNTYxMjM2LC0yMTA1Nj
+A5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcx
+LC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLT
+kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
+OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
+kyMTY5OTM5OV19
 -->
