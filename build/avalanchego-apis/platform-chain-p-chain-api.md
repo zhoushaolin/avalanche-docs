@@ -1009,11 +1009,11 @@ platform.getPendingValidators({
   * `stakeAmount` 是这个验证器质押的nAVAX的数量。如果`subnetID`不是主网络则省略。
   * `nodeID` 是验证器的节点ID。
   * `connected` 节点已连接。
-  * `weight` 是当抽样验证器时的验证器权重, is the validator’s weight when sampling validators. Omitted if `subnetID` is the Primary Network.
+  * `weight` 是当抽样验证器时的验证器权重, 如果`subnetID`是主网络则省略。
 * `delegators`:
-  * `txID` is the delegator transaction.
-  * `startTime` is the Unix time when the delegator starts.
-  * `endTime` is the Unix time when the delegator stops.
+  * `txID` 是委托方交易。 
+  * `startTime` 是委托启动的Unix时间。
+  * `endTime` 是委托停止的Unix时间。
   * `stakeAmount` is the amount of nAVAX this delegator staked. Omitted if `subnetID` is not the Primary Network.
   * `nodeID` is the validating node’s node ID.
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzODU2NTE2LC0xOTg0NTgyNTUxLDQwMD
-gzMjg1LDY5NTEzMjQ0LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywt
-NTQ3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNj
-A1MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQw
-MjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC
-0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkz
-OTldfQ==
+eyJoaXN0b3J5IjpbMTc3Mzk1MjQ1OSwtMTk4NDU4MjU1MSw0MD
+A4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMs
+LTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4Mj
+YwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0
+MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4Ny
+wtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NTMsOTIxNjk5
+Mzk5XX0=
 -->
