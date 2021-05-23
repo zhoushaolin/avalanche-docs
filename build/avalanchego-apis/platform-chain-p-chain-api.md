@@ -1593,10 +1593,10 @@ platform.issueTx({
 ```
 
 * `tx` 是交易的字节表示形式。
-* `encoding` specifies the encoding format for the transaction bytes. Can be either “cb58” or “hex”. Defaults to “cb58”.
-* `txID` is the transaction’s ID.
+* `encoding` 是指定交易字节的编码格式。可以是“cb58” 或“hex”。默认为“cb58”。
+* `txID` 是这个交易的ID.
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1610,7 +1610,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1622,7 +1622,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.listAddresses
+### 平台罗列地址
 
 List addresses controlled by the given user.
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODA4MzUxMCwtMTAwMDE2MDcyNCwtMT
-U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
-NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
-UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
-Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
-I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
-Mjc2MjMyXX0=
+eyJoaXN0b3J5IjpbLTExNTUwMzUxMDUsLTEwMDAxNjA3MjQsLT
+E1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsNDAwODMyODUsNjk1MTMy
+NDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMT
+A1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODky
+Mjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0ND
+UyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0
+MjI3NjIzMl19
 -->
