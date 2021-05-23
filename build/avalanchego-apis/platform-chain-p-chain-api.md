@@ -971,7 +971,7 @@ curl -X POST --data '{
 }
 ```
 
-### piplatform.getPendingValidators
+### 平台获取等待的验证器platform.getPendingValidators
 
 List the validators in the pending validator set of the specified Subnet. Each validator is not currently validating the Subnet but will in the future.
 
@@ -1799,10 +1799,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE1MzgyOTcsNjk1MTMyNDQsLTMwNT
-YxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcx
-LC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLT
-ExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEy
-Mjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMi
-wtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbNDAwODMyODUsNjk1MTMyNDQsLTMwNTYxMj
+M2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcxLC0x
+NzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLTExMT
+A4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2
+MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNj
+YyNDk2NTUzLDkyMTY5OTM5OV19
 -->
