@@ -1280,9 +1280,9 @@ curl -X POST --data '{
 
 通过交易的ID获取交易的状态。如果交易被删除，响应将包含一个`reason`字段，关于交易被删除的更多信息。
 
-关于之前行为的解释, 详见此处[here](deprecated-api-calls.md#gettxstatus) for notes on previous behavior.
+关于之前行为的解释, 详见此处[here](deprecated-api-calls.md#gettxstatus) 。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getTxStatus({
@@ -1290,7 +1290,7 @@ platform.getTxStatus({
 }) -> {status: string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1303,7 +1303,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1315,9 +1315,9 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getUTXOs
+### 平台获取UTXO
 
-Gets the UTXOs that reference a given set of addresses.
+获取引用给定地址集的utxo。Gets the UTXOs that reference a given set of addresses.
 
 #### **Signature**
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3OTg4MTYzLC0xMDAwMTYwNzI0LC0xNT
-UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
-LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
-M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
-NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
-csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
-NzYyMzJdfQ==
+eyJoaXN0b3J5IjpbLTkyODAxOTgzMiwtMTAwMDE2MDcyNCwtMT
+U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
+NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
+UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
+Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
+I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
+Mjc2MjMyXX0=
 -->
