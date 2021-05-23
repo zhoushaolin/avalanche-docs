@@ -1278,10 +1278,9 @@ curl -X POST --data '{
 
 ### 平台获取Tx状态
 
-通过交易的ID获取交易的状态。如果交易被删除，响应将包含一个`reason`字段，其中包含被删除的更多信息。
-Gets a transaction’s status by its ID. If the transaction was dropped, response will include a `reason` field with more information why the transaction was dropped.
+通过交易的ID获取交易的状态。如果交易被删除，响应将包含一个`reason`字段，关于交易被删除的更多信息。
 
-See [here](deprecated-api-calls.md#gettxstatus) for notes on previous behavior.
+关于之前行为的解释, 详见此处[here](deprecated-api-calls.md#gettxstatus) for notes on previous behavior.
 
 #### **Signature**
 
@@ -1800,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3ODI0ODI2LC0xMDAwMTYwNzI0LC0xNT
+eyJoaXN0b3J5IjpbOTc3OTg4MTYzLC0xMDAwMTYwNzI0LC0xNT
 UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
 LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
 M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
