@@ -1499,10 +1499,10 @@ platform.importAVAX(
 ```
 
 * `to` 是导入AVAX的地址的ID。这必须与X链的`exportAVAX`对应调用中的`to`参数相同。
-* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用“X”。is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
-* `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
-* `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that controls the address specified in `to`.
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用`"X"`。
+* `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
+* `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
+* `username` 控制`to`中指定的地址的用户。is the user that controls the address specified in `to`.
 * `password` is `username`‘s password.
 
 #### **Example Call**
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzY1NTI4NiwtMTAwMDE2MDcyNCwtMT
-U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
-NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
-UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
-Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
-I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
-Mjc2MjMyXX0=
+eyJoaXN0b3J5IjpbNjgxOTQ4NDc5LC0xMDAwMTYwNzI0LC0xNT
+UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
+LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzJdfQ==
 -->
