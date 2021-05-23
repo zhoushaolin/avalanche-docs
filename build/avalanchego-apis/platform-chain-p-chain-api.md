@@ -1199,15 +1199,15 @@ curl -X POST --data '{
 
 ### 平台获取总质押金额
 
-获取主网上nAVAX的总数量。Get the total amount of nAVAX staked on the Primary Network.
+获取主网上nAVAX的总数量。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getTotalStake() -> {stake: int}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1219,7 +1219,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1231,10 +1231,11 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getTx
+### 平台获取Tx
 
-Gets a transaction by its ID.
+根据交易的ID获取交易。
 
+可选`encoding` 参数指定返回事务的格式。可以是cb58或hex。默认为“cb58”。
 Optional `encoding` parameter to specify the format for the returned transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
 
 #### **Signature**
@@ -1799,11 +1800,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NDQ5MzY4LC0xMDAwMTYwNzI0LC0xNT
-UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
-LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
-M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
-NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
-csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
-NzYyMzJdfQ==
+eyJoaXN0b3J5IjpbMTkzMjM4MTI0NiwtMTAwMDE2MDcyNCwtMT
+U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
+NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
+UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
+Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
+I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
+Mjc2MjMyXX0=
 -->
