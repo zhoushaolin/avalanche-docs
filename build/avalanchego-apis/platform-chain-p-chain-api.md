@@ -1711,7 +1711,7 @@ curl -X POST --data '{
 }
 ```
 
-### 平台验证
+### 平台被验证
 
 获取验证给定区块链的子网。
 
@@ -1753,11 +1753,11 @@ curl -X POST --data '{
 }
 ```
 
-### platform.validates
+### 平台验证
 
-Get the IDs of the blockchains a Subnet validates.
+获取子网验证的区块链ID。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.validates(
@@ -1767,8 +1767,8 @@ platform.validates(
 ) -> {blockchainIDs: []string}
 ```
 
-* `subnetID` is the Subnet’s ID.
-* Each element of `blockchainIDs` is the ID of a blockchain the Subnet validates.
+* `subnetID` 是这个交易的ID.
+* blockchainid的每个元素都是子网验证的区块链的ID。Each element of `blockchainIDs` is the ID of a blockchain the Subnet validates.
 
 #### **Example Call**
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjkyOTMwLDk1NTM0ODA2NCwtMTAwMD
+eyJoaXN0b3J5IjpbODY5NTY0OTIwLDk1NTM0ODA2NCwtMTAwMD
 E2MDcyNCwtMTU1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4
 NSw2OTUxMzI0NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0Nz
 M2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEz
