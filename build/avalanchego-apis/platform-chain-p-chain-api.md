@@ -1475,8 +1475,9 @@ curl -X POST --data '{
 
 ### 平台导入AVAX
 
-Complete a transfer of AVAX from the X-Chain to the P-Chain.
+完成从X链到P链的AVAX转输。
 
+在调用此方法之前，必须调用X链的[`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
 Before this method is called, you must call the X-Chain’s [`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) method to initiate the transfer.
 
 #### **Signature**
@@ -1799,11 +1800,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjA5NzI3MywtMTAwMDE2MDcyNCwtMT
-U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
-NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
-UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
-Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
-I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
-Mjc2MjMyXX0=
+eyJoaXN0b3J5IjpbLTE2ODg0ODQxMjQsLTEwMDAxNjA3MjQsLT
+E1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsNDAwODMyODUsNjk1MTMy
+NDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMT
+A1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODky
+Mjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0ND
+UyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0
+MjI3NjIzMl19
 -->
