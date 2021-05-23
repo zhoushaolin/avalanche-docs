@@ -934,8 +934,9 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getMinStake
+### 平台获取最小的zplatform.getMinStake
 
+获得验证主网络所需的最小AVAX量，以及可以委托的最小AVAX量。
 Get the minimum amount of AVAX required to validate the Primary Network and the minimum amount of AVAX that can be delegated.
 
 #### **Signature**
@@ -1799,10 +1800,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MTMyNDQsLTMwNTYxMjM2LC0yMTA1Nj
-A5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcx
-LC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLT
-kwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3
-OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLD
-kyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTE2ODk0MTg2MTMsNjk1MTMyNDQsLTMwNT
+YxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcx
+LC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLT
+ExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEy
+Mjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMi
+wtNjYyNDk2NTUzLDkyMTY5OTM5OV19
 -->
