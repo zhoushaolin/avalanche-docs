@@ -1355,7 +1355,7 @@ platform.getUTXOs(
 
 #### **示例**
 
-假设我们希望所有UTXO引用其中至少一个的utxo Suppose we want all UTXOs that reference at least one of `P-avax1s994jad0rtwvlfpkpyg2yau9nxt60qqfv023qx` and `P-avax1fquvrjkj7ma5srtayfvx7kncu7um3ym73ztydr`.
+假设我们希望所有UTXO至少引用`P-avax1s994jad0rtwvlfpkpyg2yau9nxt60qqfv023qx` 或者 `P-avax1fquvrjkj7ma5srtayfvx7kncu7um3ym73ztydr`。
 
 ```cpp
 curl -X POST --data '{
@@ -1370,7 +1370,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-This gives response:
+这响应如下:
 
 ```cpp
 {
@@ -1394,6 +1394,7 @@ This gives response:
 }
 ```
 
+由于' numfetch '与' limit '相同，我们可以知道可能有更多的utxo没有被获取。我们再次调用该方法，这次使用' startIndex ':
 Since `numFetched` is the same as `limit`, we can tell that there may be more UTXOs that were not fetched. We call the method again, this time with `startIndex`:
 
 ```cpp
@@ -1799,7 +1800,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTEzOTgyOCwtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbMjEwMjAyOTI0MywtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
