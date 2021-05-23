@@ -1001,9 +1001,9 @@ platform.getPendingValidators({
 }
 ```
 
-* `subnetID` 返回当前验证器的子网。如果省略，返回主网络的当前验证器。is the subnet whose current validators are returned. If omitted, returns the current validators of the Primary Network.
+* `subnetID` 返回当前验证器的子网。如果省略，则返回主网络的当前验证器。
 * `validators`:
-  * `txID` is the validator transaction.
+  * `txID`是验证器交易
   * `startTime` is the Unix time when the validator starts validating the Subnet.
   * `endTime` is the Unix time when the validator stops validating the Subnet.
   * `stakeAmount` is the amount of nAVAX this validator staked. Omitted if `subnetID` is not the Primary Network.
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1OTE3MjQxLC0xOTg0NTgyNTUxLDQwMD
+eyJoaXN0b3J5IjpbOTA3NzkwOTg0LC0xOTg0NTgyNTUxLDQwMD
 gzMjg1LDY5NTEzMjQ0LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywt
 NTQ3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNj
 A1MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQw
