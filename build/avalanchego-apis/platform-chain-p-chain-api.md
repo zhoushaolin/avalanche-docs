@@ -1103,9 +1103,9 @@ curl -X POST --data '{
 
 ### 平台获取子网
 
-获取关于
+获取关于子网的信息。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getSubnets(
@@ -1120,7 +1120,7 @@ platform.getSubnets(
 }
 ```
 
-* `ids` are the IDs of the subnets to get information about. If omitted, gets information about all subnets.
+* `ids` 是要获取信息的子网id。如果省略，获取所有子网的信息。are the IDs of the subnets to get information about. If omitted, gets information about all subnets.
 * `id` is the Subnet’s ID.  
 * `threshold` signatures from addresses in `controlKeys` are needed to add a validator to the subnet.  
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjY5MjYyNSwtMTU1MDI1MzkxNiwtMT
+eyJoaXN0b3J5IjpbMjA2MjA3MTg5MSwtMTU1MDI1MzkxNiwtMT
 k4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYs
 LTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3Nj
 IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
