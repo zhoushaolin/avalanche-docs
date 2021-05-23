@@ -1317,9 +1317,9 @@ curl -X POST --data '{
 
 ### 平台获取UTXO
 
-获取引用给定地址集的utxo。Gets the UTXOs that reference a given set of addresses.
+获取引用给定地址集的UTXO。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getUTXOs(
@@ -1345,7 +1345,7 @@ platform.getUTXOs(
 }
 ```
 
-* `utxos` is a list of UTXOs such that each UTXO references at least one address in `addresses`.
+* `utxos` 是一个UTXO列表，每个UTXO至少引用一个`addresses`中的地址。
 * At most `limit` UTXOs are returned. If `limit` is omitted or greater than 1024, it is set to 1024.
 * This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
 * If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODAxOTgzMiwtMTAwMDE2MDcyNCwtMT
-U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
-NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
-UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
-Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
-I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
-Mjc2MjMyXX0=
+eyJoaXN0b3J5IjpbODA5NDUxMzQzLC0xMDAwMTYwNzI0LC0xNT
+UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
+LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzJdfQ==
 -->
