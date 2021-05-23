@@ -1347,7 +1347,7 @@ platform.getUTXOs(
 
 * `utxos` 是一个UTXO列表，每个UTXO至少引用一个`addresses`中的地址。
 * 最多返回`limit`上限的UTXO。如果省略了`limit`或大于1024，则将其设置为1024。
-* 此方法支持分页。' endIndex '表示返回的最后一个UTXO。要获取下一组utxo，在下一个调用中使用' endIndex '的值作为' startIndex '。
+* 此方法支持分页。`endIndex`表示返回的最后一个UTXO。要获取下一组utxo，在下一个调用中使用`endIndex`的值作为`startIndex`。
 * This method supports pagination. `endIndex` denotes the last UTXO returned. To get the next set of UTXOs, use the value of `endIndex` as `startIndex` in the next call.
 * If `startIndex` is omitted, will fetch all UTXOs up to `limit`.
 * When using pagination \(ie when `startIndex` is provided\), UTXOs are not guaranteed to be unique across multiple calls. That is, a UTXO may appear in the result of the first call, and then again in the second call.
@@ -1800,7 +1800,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjMwNjgyNiwtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbMTYyNTY2NDU1OCwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
