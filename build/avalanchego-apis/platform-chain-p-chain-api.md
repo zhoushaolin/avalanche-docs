@@ -1014,10 +1014,10 @@ platform.getPendingValidators({
   * `txID` 是委托方交易。 
   * `startTime` 是委托启动的Unix时间。
   * `endTime` 是委托停止的Unix时间。
-  * `stakeAmount` is the amount of nAVAX this delegator staked. Omitted if `subnetID` is not the Primary Network.
-  * `nodeID` is the validating node’s node ID.
+  * `stakeAmount` 是这个委托方所质押的nAVAX的数量。如果`subnetID` 不是主网络则省略。
+  * `nodeID` 是验证节点的节点ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1028,7 +1028,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1059,7 +1059,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getStakingAssetID
+### 平台获取platform.getStakingAssetID
 
 Retrieve an assetID for a subnet’s staking asset. Currently, this only returns the Primary Network’s staking assetID.
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzk1MjQ1OSwtMTk4NDU4MjU1MSw0MD
+eyJoaXN0b3J5IjpbLTk5NDYxMzEwMSwtMTk4NDU4MjU1MSw0MD
 A4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMs
 LTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4Mj
 YwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0
