@@ -1278,7 +1278,7 @@ curl -X POST --data '{
 
 ### 平台获取Tx状态
 
-通过事务的ID获取事务的状态。如果事务被删除，响应将包含一个“reason”字段，其中包含事务被删除的更多信息。
+通过交易的ID获取交易的状态。如果交易被删除，响应将包含一个`reason`字段，其中包含被删除的更多信息。
 Gets a transaction’s status by its ID. If the transaction was dropped, response will include a `reason` field with more information why the transaction was dropped.
 
 See [here](deprecated-api-calls.md#gettxstatus) for notes on previous behavior.
@@ -1800,11 +1800,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjE1MDQxMCwtMTAwMDE2MDcyNCwtMT
-U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
-NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
-UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
-Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
-I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
-Mjc2MjMyXX0=
+eyJoaXN0b3J5IjpbOTI3ODI0ODI2LC0xMDAwMTYwNzI0LC0xNT
+UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
+LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzJdfQ==
 -->
