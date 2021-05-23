@@ -973,9 +973,9 @@ curl -X POST --data '{
 
 ### 平台获取等待的验证器
 
-列出给定的子网的等待中的验证器, List the validators in the pending validator set of the specified Subnet. Each validator is not currently validating the Subnet but will in the future.
+列出给定的子网的等待中的验证器, 每一个验证器当前都没有验证子网, 但是后续会对子网进行验证。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getPendingValidators({
@@ -1001,7 +1001,7 @@ platform.getPendingValidators({
 }
 ```
 
-* `subnetID` is the subnet whose current validators are returned. If omitted, returns the current validators of the Primary Network.
+* `subnetID` 返回当前验证器的子网。如果省略，返回主网络的当前验证器。is the subnet whose current validators are returned. If omitted, returns the current validators of the Primary Network.
 * `validators`:
   * `txID` is the validator transaction.
   * `startTime` is the Unix time when the validator starts validating the Subnet.
@@ -1799,10 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ1ODI1NTEsNDAwODMyODUsNjk1MT
-MyNDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIs
-MTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1OD
-kyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0
-NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLD
-Y0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbNjM1OTE3MjQxLC0xOTg0NTgyNTUxLDQwMD
+gzMjg1LDY5NTEzMjQ0LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywt
+NTQ3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNj
+A1MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQw
+MjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC
+0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkz
+OTldfQ==
 -->
