@@ -1536,11 +1536,11 @@ curl -X POST --data '{
 }
 ```
 
-### 平台导入密钥platform.importKey
+### 平台导入密钥
 
-Give a user control over an address by providing the private key that controls the address.
+通过提供控制地址的私钥，让用户控制地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.importKey({
@@ -1550,7 +1550,7 @@ platform.importKey({
 }) -> {address: string}
 ```
 
-* Add `privateKey` to `username`‘s set of private keys. `address` is the address `username` now controls with the private key.
+* 添加`privateKey`到`username`的私钥集。`address`是'`username`现在用私钥控制的地址。
 
 #### **Example Call**
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzA5OTU2MSwtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbLTE0NTMwNDc4NSwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
