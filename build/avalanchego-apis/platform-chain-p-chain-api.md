@@ -1768,9 +1768,9 @@ platform.validates(
 ```
 
 * `subnetID` 是这个交易的ID.
-* blockchainid的每个元素都是子网验证的区块链的ID。Each element of `blockchainIDs` is the ID of a blockchain the Subnet validates.
+* `blockchainIDs`的每个元素都是子网验证的区块链的ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1783,7 +1783,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NTY0OTIwLDk1NTM0ODA2NCwtMTAwMD
+eyJoaXN0b3J5IjpbNjY5MDM3MTA5LDk1NTM0ODA2NCwtMTAwMD
 E2MDcyNCwtMTU1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4
 NSw2OTUxMzI0NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0Nz
 M2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEz
