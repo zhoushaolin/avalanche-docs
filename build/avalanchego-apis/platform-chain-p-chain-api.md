@@ -1089,7 +1089,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1101,9 +1101,9 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getSubnets
+### 平台获取子网
 
-Get info about the Subnets.
+获取关于
 
 #### **Signature**
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTMzNDY2NCwtMTU1MDI1MzkxNiwtMT
+eyJoaXN0b3J5IjpbMTQ0MjY5MjYyNSwtMTU1MDI1MzkxNiwtMT
 k4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYs
 LTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3Nj
 IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
