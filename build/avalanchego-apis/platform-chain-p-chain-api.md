@@ -971,9 +971,9 @@ curl -X POST --data '{
 }
 ```
 
-### 平台获取等待的验证器platform.getPendingValidators
+### 平台获取等待的验证器
 
-List the validators in the pending validator set of the specified Subnet. Each validator is not currently validating the Subnet but will in the future.
+列出等待中的验证器List the validators in the pending validator set of the specified Subnet. Each validator is not currently validating the Subnet but will in the future.
 
 #### **Signature**
 
@@ -1799,10 +1799,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwODMyODUsNjk1MTMyNDQsLTMwNTYxMj
-M2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcxLC0x
-NzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLTExMT
-A4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2
-MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNj
-YyNDk2NTUzLDkyMTY5OTM5OV19
+eyJoaXN0b3J5IjpbLTIzMjI5ODU5LDQwMDgzMjg1LDY5NTEzMj
+Q0LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEw
+NTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5Mj
+I3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1
+MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2ND
+IyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkzOTldfQ==
 -->
