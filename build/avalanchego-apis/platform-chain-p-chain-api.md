@@ -1351,11 +1351,11 @@ platform.getUTXOs(
 * 如果省略`startIndex`，将获取`limit`.以内的所有UTXO。
 * 当使用分页时(即提供了`startIndex`)， UTXO不能保证在多个调用中是唯一的。也就是说，UTXO可能出现在第一次调用的结果中，然后在第二次调用中再次出现。
 * 使用分页时，不能保证多个调用之间的一致性。也就是说，地址的UTXO集可能在调用之间发生了变化。
-* `encoding` specifies the format for the returned UTXOs. Can be either “cb58” or “hex” and defaults to “cb58”.
+* `encoding`指定返回UTXO的格式。可以是" cb58 "或" hex "，默认为" cb58 "。
 
-#### **Example**
+#### **示例**
 
-Suppose we want all UTXOs that reference at least one of `P-avax1s994jad0rtwvlfpkpyg2yau9nxt60qqfv023qx` and `P-avax1fquvrjkj7ma5srtayfvx7kncu7um3ym73ztydr`.
+假设我们希望所有UTXO引用其中至少一个的utxo Suppose we want all UTXOs that reference at least one of `P-avax1s994jad0rtwvlfpkpyg2yau9nxt60qqfv023qx` and `P-avax1fquvrjkj7ma5srtayfvx7kncu7um3ym73ztydr`.
 
 ```cpp
 curl -X POST --data '{
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTI5NjM1NywtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbLTgzOTEzOTgyOCwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
