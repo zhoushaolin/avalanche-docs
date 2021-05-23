@@ -1074,9 +1074,9 @@ platform.getStakingAssetID({
 ```
 
 * `subnetID` 是要求资产ID的子网。 
-* `assetID` 是子网的标的资产的assetID。is the assetID for a subnet’s staking asset.
+* `assetID` 是子网的质押资产的资产ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsND
-AwODMyODUsNjk1MTMyNDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIz
-LC01NDczNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05OD
-I2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEz
-NDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzOD
-csLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5
-OTM5OV19
+eyJoaXN0b3J5IjpbMTQ3OTMzNDY2NCwtMTU1MDI1MzkxNiwtMT
+k4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYs
+LTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3Nj
+IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
+ODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNT
+AsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0
+OTY1NTNdfQ==
 -->
