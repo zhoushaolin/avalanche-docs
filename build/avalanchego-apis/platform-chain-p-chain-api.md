@@ -1003,10 +1003,10 @@ platform.getPendingValidators({
 
 * `subnetID` 返回当前验证器的子网。如果省略，则返回主网络的当前验证器。
 * `validators`:
-  * `txID`是验证器交易
-  * `startTime` is the Unix time when the validator starts validating the Subnet.
-  * `endTime` is the Unix time when the validator stops validating the Subnet.
-  * `stakeAmount` is the amount of nAVAX this validator staked. Omitted if `subnetID` is not the Primary Network.
+  * `txID`是验证器交易。
+  * `startTime`是验证器开始验证子网的Unix时间。
+  * `endTime` 是验证器停止验证子网的Unix时间。
+  * `stakeAmount` 是这个验证器质押的nAVAX的数量。如果`subnetID`不是主网络则省略。
   * `nodeID` is the validator’s node ID.
   * `connected` if the node is connected.
   * `weight` is the validator’s weight when sampling validators. Omitted if `subnetID` is the Primary Network.
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NzkwOTg0LC0xOTg0NTgyNTUxLDQwMD
-gzMjg1LDY5NTEzMjQ0LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywt
-NTQ3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNj
-A1MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC05MDcxMzQw
-MjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC
-0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1Myw5MjE2OTkz
-OTldfQ==
+eyJoaXN0b3J5IjpbLTE4ODU0NzE4MzksLTE5ODQ1ODI1NTEsND
+AwODMyODUsNjk1MTMyNDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIz
+LC01NDczNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05OD
+I2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEz
+NDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzOD
+csLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYyNDk2NTUzLDkyMTY5
+OTM5OV19
 -->
