@@ -1124,9 +1124,9 @@ platform.getSubnets(
 * `id` 是子网的ID.  
 * `threshold` 需要来自`controlKeys`中的地址的签名来向子网添加验证器。
 
-关于添加验证器到子网的信息, 详见此处[here](../tutorials/nodes-and-staking/add-a-validator.md) for information on adding a validator to a Subnet.
+关于添加验证器到子网的信息, 详见此处[here](../tutorials/nodes-and-staking/add-a-validator.md)。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1137,7 +1137,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1158,9 +1158,9 @@ curl -X POST --data '{
 }'
 ```
 
-### platform.getStake
+### 平台获取质押
 
-Get the amount of nAVAX staked by a set of addresses. The amount returned does not include staking rewards.
+通过一组地址获取nAVAX的数量, 返还的金额不包括质押奖励。Get the amount of nAVAX staked by a set of addresses. The amount returned does not include staking rewards.
 
 #### **Signature**
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjE3NjUxOCwtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbLTg2Mzc0ODczMSwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
