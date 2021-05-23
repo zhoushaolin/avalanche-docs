@@ -1681,9 +1681,9 @@ platform.sampleValidators(
 
 * `size` 样本验证器的数量。
 * `subnetID` 是要采样的子网。如果省略，默认为主网络。
-* ' validators '的每个元素都是一个验证器的ID。Each element of `validators` is the ID of a validator.
+* `validators`的每个元素都是一个验证器的ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1696,7 +1696,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1713,7 +1713,7 @@ curl -X POST --data '{
 
 ### platform.validatedBy
 
-Get the Subnet that validates a given blockchain.
+获取验证给定区块链的子网。
 
 #### **Signature**
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM1OTcwNDEsLTEwMDAxNjA3MjQsLT
-E1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsNDAwODMyODUsNjk1MTMy
-NDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMT
-A1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODky
-Mjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0ND
-UyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0
-MjI3NjIzMl19
+eyJoaXN0b3J5IjpbOTU1MzQ4MDY0LC0xMDAwMTYwNzI0LC0xNT
+UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
+LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzJdfQ==
 -->
