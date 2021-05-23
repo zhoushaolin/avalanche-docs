@@ -1715,7 +1715,7 @@ curl -X POST --data '{
 
 获取验证给定区块链的子网。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.validatedBy(
@@ -1725,10 +1725,10 @@ platform.validatedBy(
 ) -> {subnetID: string}
 ```
 
-* `blockchainID` is the blockchain’s ID.
-* `subnetID` is the ID of the Subnet that validates the blockchain.
+* `blockchainID` 是区块链的ID。
+* `subnetID` 是验证区块链的子网ID。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1741,7 +1741,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDI0MTcwNCw5NTUzNDgwNjQsLTEwMD
-AxNjA3MjQsLTE1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsNDAwODMy
-ODUsNjk1MTMyNDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01ND
-czNjI1NTIsMTA1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUx
-MzQsLTE1ODkyMjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMC
-wtMTc4NDI0NDUyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0
-MDM5MDMyXX0=
+eyJoaXN0b3J5IjpbLTY2MjkyOTMwLDk1NTM0ODA2NCwtMTAwMD
+E2MDcyNCwtMTU1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4
+NSw2OTUxMzI0NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0Nz
+M2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEz
+NCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC
+0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQw
+MzkwMzJdfQ==
 -->
