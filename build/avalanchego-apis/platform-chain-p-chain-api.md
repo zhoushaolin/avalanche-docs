@@ -836,7 +836,7 @@ platform.getCurrentValidators({
     * `stakeAmount` 是这个委托方所质押的nAVAX的数量。如果`subnetID`不是主网络则省略。
     * `nodeID`是验证节点的节点ID。
     * `rewardOwner` 是`OutputOwners`输出，包括`locktime`， `threshold`和`addresses`数组。
-    * `potentialReward` 是质押赚取dis the potential reward earned from staking
+    * `potentialReward` 是质押赚取的潜在收益。
 * `delegators`: \(**deprecated as of v1.0.1. See note at top of method documentation.**\)
 
 #### **Example Call**
@@ -1799,10 +1799,10 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjYyMzI2NSwtMzA1NjEyMzYsLTIxMD
-U2MDkzMjMsLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3NjIwODM3
-NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgzODMzOC
-wtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNTAsMTU0
-Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0OTY1NT
-MsOTIxNjk5Mzk5XX0=
+eyJoaXN0b3J5IjpbNDM0MzYwMzg1LC0zMDU2MTIzNiwtMjEwNT
+YwOTMyMywtNTQ3MzYyNTUyLDEwNTM5NDE3MSwtMTc2MjA4Mzc3
+MSwtOTgyNjA1MTM0LC0xNTg5MjI3NzY0LC0xMTEwODM4MzM4LC
+05MDcxMzQwMjAsLTE3ODQyNDQ1MjcsLTkxMjI3NjE1MCwxNTQ3
+Nzk1Mzg3LC0yNDAzOTAzMiw2NDIyNzYyMzIsLTY2MjQ5NjU1My
+w5MjE2OTkzOTldfQ==
 -->
