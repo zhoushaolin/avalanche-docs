@@ -1552,7 +1552,7 @@ platform.importKey({
 
 * 添加`privateKey`到`username`的私钥集。`address`是'`username`现在用私钥控制的地址。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1567,7 +1567,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1579,11 +1579,11 @@ curl -X POST --data '{
 }
 ```
 
-### platform.issueTx
+### 平台发布Tx
 
-Issue a transaction to the Platform Chain.
+发布交易到平台链。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.issueTx({
@@ -1592,7 +1592,7 @@ platform.issueTx({
 }) -> {txID: string}
 ```
 
-* `tx` is the byte representation of a transaction.
+* `tx` 是交易的字节表示形式。
 * `encoding` specifies the encoding format for the transaction bytes. Can be either “cb58” or “hex”. Defaults to “cb58”.
 * `txID` is the transaction’s ID.
 
@@ -1799,7 +1799,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMwNDc4NSwtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbLTM0ODA4MzUxMCwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
