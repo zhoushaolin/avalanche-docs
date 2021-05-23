@@ -1624,9 +1624,9 @@ curl -X POST --data '{
 
 ### 平台罗列地址
 
-List addresses controlled by the given user.
+列出由给定用户控制的地址。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.listAddresses({
@@ -1635,7 +1635,7 @@ platform.listAddresses({
 }) -> {addresses: []string}
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1649,7 +1649,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1661,9 +1661,9 @@ curl -X POST --data '{
 }
 ```
 
-### platform.sampleValidators
+### 平台抽样验证器
 
-Sample validators from the specified Subnet.
+从指定子网的示例验证器。Sample validators from the specified Subnet.
 
 #### **Signature**
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUwMzUxMDUsLTEwMDAxNjA3MjQsLT
-E1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsNDAwODMyODUsNjk1MTMy
-NDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMT
-A1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODky
-Mjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0ND
-UyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0
-MjI3NjIzMl19
+eyJoaXN0b3J5IjpbNTkxMzQ2MjI2LC0xMDAwMTYwNzI0LC0xNT
+UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
+LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
+M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
+NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
+csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
+NzYyMzJdfQ==
 -->
