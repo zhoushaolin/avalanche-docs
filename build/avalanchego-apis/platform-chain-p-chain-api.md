@@ -1120,9 +1120,9 @@ platform.getSubnets(
 }
 ```
 
-* `ids` 是要获取信息的子网id。如果省略，获取所有子网的信息。are the IDs of the subnets to get information about. If omitted, gets information about all subnets.
-* `id` is the Subnet’s ID.  
-* `threshold` signatures from addresses in `controlKeys` are needed to add a validator to the subnet.  
+* `ids` 是要获取信息的子网ID。如果省略，获取所有子网的信息。
+* `id` 是子网的ID.  
+* `threshold` 需要来自' controlKeys '中的地址的签名来向子网添加验证器。signatures from addresses in `controlKeys` are needed to add a validator to the subnet.  
 
 See [here](../tutorials/nodes-and-staking/add-a-validator.md) for information on adding a validator to a Subnet.
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjA3MTg5MSwtMTU1MDI1MzkxNiwtMT
-k4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0NCwtMzA1NjEyMzYs
-LTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMDUzOTQxNzEsLTE3Nj
-IwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIyNzc2NCwtMTExMDgz
-ODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NTI3LC05MTIyNzYxNT
-AsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQyMjc2MjMyLC02NjI0
-OTY1NTNdfQ==
+eyJoaXN0b3J5IjpbLTEwMDAxNjA3MjQsLTE1NTAyNTM5MTYsLT
+E5ODQ1ODI1NTEsNDAwODMyODUsNjk1MTMyNDQsLTMwNTYxMjM2
+LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMTA1Mzk0MTcxLC0xNz
+YyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODkyMjc3NjQsLTExMTA4
+MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0NDUyNywtOTEyMjc2MT
+UwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0MjI3NjIzMiwtNjYy
+NDk2NTUzXX0=
 -->
