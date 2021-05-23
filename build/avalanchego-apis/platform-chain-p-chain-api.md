@@ -1502,10 +1502,10 @@ platform.importAVAX(
 * `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用`"X"`。
 * `from` 是您要用于此操作的地址。如果省略，根据需要使用您的任何地址。
 * `changeAddr` 是有任何变化都会发送到的地址。如果省略，更改将被发送到用户控制的地址之一。
-* `username` 控制`to`中指定的地址的用户。is the user that controls the address specified in `to`.
-* `password` is `username`‘s password.
+* `username` 是控制指定地址`to`的用户。
+* `password` 是`username`的密码。
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1523,7 +1523,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1536,7 +1536,7 @@ curl -X POST --data '{
 }
 ```
 
-### platform.importKey
+### 平台导入密钥platform.importKey
 
 Give a user control over an address by providing the private key that controls the address.
 
@@ -1799,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxOTQ4NDc5LC0xMDAwMTYwNzI0LC0xNT
-UwMjUzOTE2LC0xOTg0NTgyNTUxLDQwMDgzMjg1LDY5NTEzMjQ0
-LC0zMDU2MTIzNiwtMjEwNTYwOTMyMywtNTQ3MzYyNTUyLDEwNT
-M5NDE3MSwtMTc2MjA4Mzc3MSwtOTgyNjA1MTM0LC0xNTg5MjI3
-NzY0LC0xMTEwODM4MzM4LC05MDcxMzQwMjAsLTE3ODQyNDQ1Mj
-csLTkxMjI3NjE1MCwxNTQ3Nzk1Mzg3LC0yNDAzOTAzMiw2NDIy
-NzYyMzJdfQ==
+eyJoaXN0b3J5IjpbMTI1NzA5OTU2MSwtMTAwMDE2MDcyNCwtMT
+U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
+NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
+UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
+Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
+I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
+Mjc2MjMyXX0=
 -->
