@@ -1235,10 +1235,9 @@ curl -X POST --data '{
 
 根据交易的ID获取交易。
 
-可选`encoding` 参数指定返回事务的格式。可以是cb58或hex。默认为“cb58”。
-Optional `encoding` parameter to specify the format for the returned transaction. Can be either “cb58” or “hex”. Defaults to “cb58”.
+可选`encoding` 参数指定返回事务的格式。可以是“cb58” 或“hex”。默认为“cb58” 。
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.getTx({
@@ -1250,7 +1249,7 @@ platform.getTx({
 }
 ```
 
-#### **Example Call**
+#### **调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -1264,7 +1263,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-#### **Example Response**
+#### **响应示例**
 
 ```cpp
 {
@@ -1277,8 +1276,9 @@ curl -X POST --data '{
 }
 ```
 
-### platform.getTxStatus
+### 平台获取Tx状态
 
+通过事务的ID获取事务的状态。如果事务被删除，响应将包含一个“reason”字段，其中包含事务被删除的更多信息。
 Gets a transaction’s status by its ID. If the transaction was dropped, response will include a `reason` field with more information why the transaction was dropped.
 
 See [here](deprecated-api-calls.md#gettxstatus) for notes on previous behavior.
@@ -1800,7 +1800,7 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjM4MTI0NiwtMTAwMDE2MDcyNCwtMT
+eyJoaXN0b3J5IjpbLTk2NjE1MDQxMCwtMTAwMDE2MDcyNCwtMT
 U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
 NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
 UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
