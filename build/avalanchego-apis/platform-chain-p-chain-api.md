@@ -1478,9 +1478,8 @@ curl -X POST --data '{
 完成从X链到P链的AVAX转输。
 
 在调用此方法之前，必须调用X链的[`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) 方法来初始化传输。
-Before this method is called, you must call the X-Chain’s [`avm.exportAVAX`](exchange-chain-x-chain-api.md#avm-exportavax) method to initiate the transfer.
 
-#### **Signature**
+#### **签名**
 
 ```cpp
 platform.importAVAX(
@@ -1499,8 +1498,8 @@ platform.importAVAX(
 }
 ```
 
-* `to` is the ID of the address the AVAX is imported to. This must be the same as the `to` argument in the corresponding call to the X-Chain’s `exportAVAX`.
-* `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
+* `to` 是导入AVAX的地址的ID。这必须与X链的`exportAVAX`对应调用中的`to`参数相同。
+* `sourceChain` 是从其中导入AVAX的链的ID或别名。要从X链导入资金，请使用“X”。is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
 * `username` is the user that controls the address specified in `to`.
@@ -1800,11 +1799,11 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg0ODQxMjQsLTEwMDAxNjA3MjQsLT
-E1NTAyNTM5MTYsLTE5ODQ1ODI1NTEsNDAwODMyODUsNjk1MTMy
-NDQsLTMwNTYxMjM2LC0yMTA1NjA5MzIzLC01NDczNjI1NTIsMT
-A1Mzk0MTcxLC0xNzYyMDgzNzcxLC05ODI2MDUxMzQsLTE1ODky
-Mjc3NjQsLTExMTA4MzgzMzgsLTkwNzEzNDAyMCwtMTc4NDI0ND
-UyNywtOTEyMjc2MTUwLDE1NDc3OTUzODcsLTI0MDM5MDMyLDY0
-MjI3NjIzMl19
+eyJoaXN0b3J5IjpbLTI3NzY1NTI4NiwtMTAwMDE2MDcyNCwtMT
+U1MDI1MzkxNiwtMTk4NDU4MjU1MSw0MDA4MzI4NSw2OTUxMzI0
+NCwtMzA1NjEyMzYsLTIxMDU2MDkzMjMsLTU0NzM2MjU1MiwxMD
+UzOTQxNzEsLTE3NjIwODM3NzEsLTk4MjYwNTEzNCwtMTU4OTIy
+Nzc2NCwtMTExMDgzODMzOCwtOTA3MTM0MDIwLC0xNzg0MjQ0NT
+I3LC05MTIyNzYxNTAsMTU0Nzc5NTM4NywtMjQwMzkwMzIsNjQy
+Mjc2MjMyXX0=
 -->
