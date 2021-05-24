@@ -2,15 +2,11 @@
 
 ## 什么是WAVAX?
 
-[AVAX](../../../#avalanche-avax-token)是Avalanche平台 is the native token on the [Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链. Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的AVAX \(WAVAX)。
+[AVAX](../../../#avalanche-avax-token)是Avalanche平台 is the native token on the [Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链. Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的AVAX \(WAVAX\)。
 
 ## 概述
 
-若要将AVAX转化为WAVAX，你需将AVAX存入一个智能合约，它会锁住该AVAX然后发给你WAVAX。若要将WAVAX转化为AVAX，你需将该WAVAX归还给该智能合约，该智能合约会销毁WAVAX，并返还你的\), which is ERC-20 compatible.
-
-## Overview
-
-To convert AVAX to WAVAX you will deposit AVAX into a smart contract which will lock the AVAX and issue WAVAX to you. To convert WAVAX to AVAX, you will return the WAVAX to the smart contract, which will burn the WAVAX and return your AVAX。.
+若要将AVAX转化为WAVAX，你需将AVAX存入一个智能合约，它会锁住该AVAX然后发给你WAVAX。若要将WAVAX转化为AVAX，你需将该WAVAX归还给该智能合约，该智能合约会销毁WAVAX，并返还你的AVAX。
 
 在这一教程中，你需要：
 
@@ -218,6 +214,6 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3NzYwNjYzLC0xMDU1NzczNTM0LC05ND
+eyJoaXN0b3J5IjpbMTYyMzQyMDM0LC0xMDU1NzczNTM0LC05ND
 U3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5MzYwNV19
 -->
