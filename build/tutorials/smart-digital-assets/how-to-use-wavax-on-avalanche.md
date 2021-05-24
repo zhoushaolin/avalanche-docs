@@ -30,7 +30,7 @@
 ### Avalanche 主网设置:
 
 * **网络名**: Avalanche Mainnet C-Chain
-* **New RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
+* **NRPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
 * **ChainID**: `0xa86a`
 * **标志Symbol**: `AVAX`
 * **浏览器Explorer**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
@@ -204,6 +204,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTc3MjQ2NSwtMTA1NTc3MzUzNCwtOT
-Q1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbOTU5NDUyOTY5LC02OTE3NzI0NjUsLTEwNT
+U3NzM1MzQsLTk0NTc0NTk1NSwtMTc4OTYzOTE1MSwxODE3NDkz
+NjA1XX0=
 -->
