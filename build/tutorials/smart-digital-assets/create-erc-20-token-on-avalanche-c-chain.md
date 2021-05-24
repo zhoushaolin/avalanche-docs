@@ -103,20 +103,15 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 “ERC20PresetMinterPauser.sol”的合约。
 
-![Image for post](https://camo.githubusercontent.com/53746b928ab261a39bb846643588a359e764a3899b062e6c0d182406c73fc875/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3539332f312a5a4b4445765f685f5071666433623750416f735851772e706e67)
-单击按钮后，将弹出一个窗口并确认它。
-
-
 ![Image for post](https://miro.medium.com/max/383/1*s9LtZu4hSuPcVwVZsweZJA.png)
 
 现在，在这里输入您的代币的名称和符号。命名为“test”，符号为“tst”。你可以给它一个名称，然后点击交易按钮。
 ![Image for post](https://miro.medium.com/max/593/1*ZKDEv_h_Pqfd3b7PAosXQw.png)
 
-单击按钮后，会跳出一个弹窗，点击CAfter clicking the button, a pop-up will show up and just confirm即可。 it.
-
+单击按钮后，会跳出一个弹窗，点击 confirm即可。
 ![Image for post](https://miro.medium.com/max/353/1*yOOQYZvESjSKx2qec5pYgA.png)
 
-然后会出现另一个弹窗，MAnd then another pop-up, a metaMmask确认出现。点击Confirm即可。
+然后会出现另一个弹窗，metaMmask确认出现。点击Confirm即可。
 
 确认所有此类弹窗后，我们就把代币部署到avalanche C链了。所以我们能够开始与它互动。
 
@@ -188,7 +183,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ3NTg3LDE4MDA2MTkyNDMsLTExMD
+eyJoaXN0b3J5IjpbMTU5Mzg4ODEyLDE4MDA2MTkyNDMsLTExMD
 k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
 MjQzXX0=
 -->
