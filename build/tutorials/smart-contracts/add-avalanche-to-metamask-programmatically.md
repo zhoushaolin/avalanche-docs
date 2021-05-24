@@ -64,11 +64,9 @@ export const AVALANCHE_TESTNET_PARAMS = {
     })
   }
 ```
-这里`injected`被初始化为`web3-react/injected-connector`，用于与MetaMask API接口。其他流行的web框架也有类似的用法。如果要添加测试网络，请将`AVALANCHE_MAINNET_PARAMS` 替换为' AVALANCHE_TESTNET_PARAMS '。
+这里`injected`被初始化为`web3-react/injected-connector`，用于与MetaMask API接口。其他流行的web框架也有类似的用法。如果要添加测试网络，请将`AVALANCHE_MAINNET_PARAMS` 替换为`AVALANCHE_TESTNET_PARAMS`。
 
-Where `injected` is initialized as a `web3-react/injected-connector` used to interface with MetaMask APIs. Usage for other popular web frameworks is similar. Replace `AVALANCHE_MAINNET_PARAMS` with `AVALANCHE_TESTNET_PARAMS` if you want to add the test network.
-
-Typical usage pattern would be to expose a button calling that method if you get `Wrong Network` or `Error connecting` errors when attempting to establish a connection to MetaMask.
+典型的使用模式是，如果在试图建立到MetaMask的连接时出现`Wrong Network`或`Error connecting` 错误，则公开一个调用该方法的按钮。Typical usage pattern would be to expose a button calling that method if you get `Wrong Network` or `Error connecting` errors when attempting to establish a connection to MetaMask.
 
 ## User experience
 
@@ -88,5 +86,5 @@ Dapps users are often not very technically sophisticated and onboarding them nee
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjE0NDYwM119
+eyJoaXN0b3J5IjpbMTU0NDI1MjM3XX0=
 -->
