@@ -67,10 +67,6 @@
 
 将该地址粘入“接口”区，证明你不是机器人，然后请求测试AVAX，应该很快就能在你的MetaMmask账户中看到。
 
-![Faucet funding](../../../.gitbook/assets/wavax2avax-02-faucet.png)
-
-Paste that address into the faucet, prove that you're not a robot, and then request test AVAX. They should appear in your MetaMmask账户中看到。
-
 ## 将WAVAX合约载入Remix
 
 Remix是一款流行的基于浏览器的编写、部署智能合约并与其交互的工具。浏览[Remix's website](https://remix.ethereum.org/)。向下滚动，直到你看见输入合约选项。 shortly.
@@ -190,7 +186,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc3NzQ3NzgsLTY5MTc3MjQ2NSwtMT
+eyJoaXN0b3J5IjpbLTE3MzAyMzg0MTcsLTY5MTc3MjQ2NSwtMT
 A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
 OTM2MDVdfQ==
 -->
