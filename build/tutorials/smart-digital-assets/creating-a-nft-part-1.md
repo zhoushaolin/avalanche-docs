@@ -228,7 +228,7 @@ curl -X POST --data '{
 }
 ```
 
-类似于前面的步骤, 我们现在可以确认一个NFT的通过调用[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)进行铸造,   和解析UTXO确认我们现在有一个[非功能性测试转移输出](. . / . . /引用/ avm-transaction-serialization.md # nft-transfer-output)。
+类似于前面的步骤, 我们现在可以确认一个NFT的通过调用[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)进行铸造,   解析UTXO确认我们现在有一个[非功能性测试转移输出](. . / . . /引用/ avm-transaction-serialization.md # nft-transfer-output)。
 
 Similar to the previous step, we can now confirm that an NFT was minted by calling [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) and parsing the UTXO to confirm that we now have an [NFT Transfer Output](../../references/avm-transaction-serialization.md#nft-transfer-output).
 
@@ -361,5 +361,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzMzMxMTBdfQ==
+eyJoaXN0b3J5IjpbNjE4NDgyOTk4LC0xODk0MzMzMTEwXX0=
 -->
