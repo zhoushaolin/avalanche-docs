@@ -117,17 +117,11 @@ Remix应该能找到所部署的合约：
 
 ### 包装AVAX，创建WAVAX
 
-在“**Value**”字段输入`10000000000` (10^10) gwei，打包10AVAX, 点击“**Deposit**”，开始打包。你将看到Remix立刻提示你确认交易。当你长按“**Confirm**”时，MetaMask会突然弹出，并也要求你确认。请也长按MetaMask中的“**Confirm**”。你应该注意到你的AVAX余额减少了10个单位，加上费用金额。跳到下一步，查看你在 in the **Value** field. To initiate the wrapping, click **Deposit**. You will be presented with a prompt by Remix to confirm the transaction. When you press **Confirm** MetaMmask中的WAVAX。
-
-要封装10个AVAX，需在**Value**字段中输入`10000000000` \(10^10\) gwei。要启动包装，单击**Deposi**。Remix会提示您确认交易。当您按 will pop up, also asking for confirmation. Press **Confirm**时， in Metamask将弹出，也要求确认。在Metamask中也按**Confirm**。你应该注意到你的AVAX余额降低了10，外加手续费金额。跳到下一节去看你的Metamask中的WAVAX。
+在“**Value**”字段输入`10000000000` (10^10) gwei，打包10AVAX, 点击“**Deposit**”，开始打包。你将看到Remix立刻提示你确认交易。当你长按“**Confirm**”时，MetaMask会突然弹出，并也要求你确认。请也长按MetaMask中的“**Confirm**”。你应该注意到你的AVAX余额减少了10个单位，加上费用金额。跳到下一步，查看你在MetaMmask中的WAVAX。
 
 ## 在Metamask中添加WAVAX
 
-要查看你的WAVAX余额，你必须将WAVAX作为自定义令牌添加到, too. You should notice your AVAX balance lowered by 10, plus the fee amount. Skip to the next section to see your WAVAX in Metamask.
-
-## Add WAVAX to Metamask
-
-To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。在. In Metamask中，选择帐户名称旁边的三个点，并选择`Expand View`。这将打开一个新的浏览器选项卡。向下滚动并选择**Add token**。切换到, select the three dots next to your account name and select `Expand View`. This opens a new browser tab. Scroll down and select **Add token**. Switch to the **Custom Token**选项。 tab.
+要查看你的WAVAX余额，你必须将WAVAX作为自定义代币添加到Metamask。在. In Metamask中，选择帐户名称旁边的三个点，并选择`Expand View`。这将打开一个新的浏览器选项卡。向下滚动并选择**Add token**。切换到, select the three dots next to your account name and select `Expand View`. This opens a new browser tab. Scroll down and select **Add token**. Switch to the **Custom Token**选项。 tab.
 
 ![Custom Token](../../../.gitbook/assets/wavax2avax-10-add-token.png)
 
@@ -161,7 +155,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE3MDg2NTQsLTY5MTc3MjQ2NSwtMT
-A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
-OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbMTQxMDQ1NDAzNCwtNjkxNzcyNDY1LC0xMD
+U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
+MzYwNV19
 -->
