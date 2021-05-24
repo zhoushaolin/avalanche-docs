@@ -296,11 +296,9 @@ Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 
 注意`TypeID`是`00 00 00 0b`，这是[NFT Transfer Output](../../references/avm-transaction-serialization.md#nft-transfer-output)正确类型的ID。另外，请注意包含了有效载荷。
 
-Note that the `TypeID` is `00 00 00 0b` which is the correct type id for an [NFT Transfer Output](../../references/avm-transaction-serialization.md#nft-transfer-output). Also, note that the Payload is included.
+## 发送NFT
 
-## Send the NFT
-
-Now, you can send the NFT to anyone. To do that, use AvalancheGo’s [`avm.sendNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-sendnft) API method.
+现在，你可以把NFT发送给任何人。要做到这一点，使用AvalancheGo的[`avm.sendNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-sendnft) API方法。
 
 **Method**
 
@@ -361,6 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ4NTcxNTEsLTE4OTQzMzMxMTBdfQ
-==
+eyJoaXN0b3J5IjpbLTI1Mzc3NDk5NiwtMTg5NDMzMzExMF19
 -->
