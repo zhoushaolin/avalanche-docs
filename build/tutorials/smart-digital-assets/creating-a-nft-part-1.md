@@ -198,7 +198,7 @@ Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 ### **响应**
 
 * `txID`是交易的ID.
-* `changeAddr`是结果是发送任何更改的地址。
+* `changeAddr`是结果中发送任何更改的地址。
 
 ```cpp
 curl -X POST --data '{
@@ -215,7 +215,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response contains the transaction’s ID:
+响应包含这个交易的ID:
 
 ```cpp
 {
@@ -227,6 +227,8 @@ The response contains the transaction’s ID:
     }
 }
 ```
+
+类似于前面的步骤, 我们现在可以确认一个NFT的通过调用[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)和解析UTXO确认我们现在有一个[非功能性测试转移输出](. . / . . /引用/ avm-transaction-serialization.md # nft-transfer-output)。
 
 Similar to the previous step, we can now confirm that an NFT was minted by calling [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) and parsing the UTXO to confirm that we now have an [NFT Transfer Output](../../references/avm-transaction-serialization.md#nft-transfer-output).
 
@@ -359,5 +361,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5Nzc0MjU2Nl19
+eyJoaXN0b3J5IjpbLTE2NDA1ODQ0MTldfQ==
 -->
