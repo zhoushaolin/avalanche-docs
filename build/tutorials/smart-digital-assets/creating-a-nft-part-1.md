@@ -109,13 +109,13 @@ NFT输出不显示在调用[`avm.getBalance`](../../avalanchego-apis/exchange-ch
 
 ### **参数**
 
-* `addresses` are the addresses to fetch UTXOs for.
+* `addresses` 是获取UTXO的地址。
 
-**Response:**
+**响应:**
 
-* `numFetched` is the total number of UTXOs in the response.
-* `utxos` is an array of CB58 encoded strings.
-* `endIndex` This method supports pagination. `endIndex` denotes the last UTXO returned.
+* `numFetched` 为响应中的UTXO总数。
+* `utxos`是一个CB58编码字符串数组。
+* `endIndex` 此方法支持分页。`endIndex`表示返回的最后一个UTXO。
 
 ```cpp
 curl -X POST --data '{
@@ -128,7 +128,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response contains a list of UTXOs:
+这个响应包含UTXOs:
 
 ```cpp
 {
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTEyMzE1Ml19
+eyJoaXN0b3J5IjpbMTIyNjMxNjI1N119
 -->
