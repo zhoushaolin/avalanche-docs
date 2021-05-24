@@ -19,21 +19,17 @@
 
 ## 连接Metamask
 
-[Metamask](https://metamask.io/)是一款流行的浏览器扩展插件，有了它，可以快捷地与以太坊和兼容的区块链（比如 Avalanche 的C链）交互。设置MetaMmask并在其上创建一个账户不在本教程的范围内，但是网上有许多相关资源。
+[Metamask](https://metamask.io/)是一款流行的浏览器扩展插件，有了它，可以快捷地与以太坊和兼容的区块链(比如 Avalanche 的C链)交互。设置MetaMmask并在其上创建一个账户不在本教程的范围内，但是网上有许多相关资源。
 
-登录你的 and creating an account on it is beyond the scope of this tutorial, but there are a number of resources on the internet to walk you through that.
-
-After you log in to your MetaMmask账户后，连接上Avalanche的网络。点击“Network”的下拉项->选择 account, connect it to the Avalanche network. Click the Network drop-down -&gt; Select **Custom RPC**：:
+登录你的MetaMmask账户后，连接上Avalanche的网络。点击“Network”的下拉项->选择**Custom RPC**：:
 
 ![metamask network dropdown](../../../.gitbook/assets/image%20%2860%29.png)
 
 输入所选网络的信息：
 
-### Avalanche 主网设置Enter the information for the network of your choice:
+### Avalanche 主网设置:
 
-### Avalanche Mainnet Settings:
-
-* **网络名Network Name**: Avalanche Mainnet C-Chain
+* **网络名**: Avalanche Mainnet C-Chain
 * **New RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
 * **ChainID**: `0xa86a`
 * **标志Symbol**: `AVAX`
@@ -208,6 +204,6 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTIxMTQ1NiwtMTA1NTc3MzUzNCwtOT
+eyJoaXN0b3J5IjpbLTY5MTc3MjQ2NSwtMTA1NTc3MzUzNCwtOT
 Q1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0OTM2MDVdfQ==
 -->
