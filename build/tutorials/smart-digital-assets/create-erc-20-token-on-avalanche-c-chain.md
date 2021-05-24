@@ -23,18 +23,17 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
 
 现在，我们需要为下列框设置正确的值。
 
-* **网络名Now, we need to set these boxes with correct values.
 
-* **Network Name**: Avalanche C链
-* * **新-Chain
-* **New RPC URL**:
-  * **主网Mainnet:** [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 
-  * **富士测试网Fuji Testnet:** [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
-  * **本地测试网Local Testnet:** [http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc) 
-* **链**ChainID**:
-  * **主网Mainnet:** `0xa86a` 
-  * **富士测试网Fuji Testnet:** `0xa869` 
-  * **本地测试网Local Testnet:** `0xa868` 
+
+* **网络名**: Avalanche C链
+* **新 RPC URL**:
+  * **主网:** [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 
+  * **富士测试网:** [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
+  * **本地测试网:** [http://localhost:9650/ext/bc/C/rpc](http://localhost:9650/ext/bc/C/rpc) 
+* **链ID**:
+  * **主网:** `0xa86a` 
+  * **富士测试网:** `0xa869` 
+  * **本地测试网:** `0xa868` 
 * **标志Symbol**: C-AVAX
 * **浏览器Explorer**:
   * **主网Mainnet:** [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network/) 
@@ -221,7 +220,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkwOTY3MTUsMTgwMDYxOTI0MywtMT
-EwOTU4NDM4MywtMTIzODYwNzI0LDE5NTE3NTgwOTIsLTE5Mjky
-MzUyNDNdfQ==
+eyJoaXN0b3J5IjpbLTkxOTExNTI0OCwxODAwNjE5MjQzLC0xMT
+A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
+NTI0M119
 -->
