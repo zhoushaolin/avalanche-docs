@@ -102,25 +102,14 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 然后，跳到第三个选项，即DEPLOY & RUN TRANSACTION。部署我们的合约之前，我们应更改环境。单击ENVIROMENT，并选择“Injected Web3”。如果跳出一个弹窗，要求您连接账户，请单击以连接。然后，您应该在“ACCOUNT”文本框中看到账户地址。
 
 在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 “ERC20PresetMinterPauser.sol”的合约。
-![Image for post](https://camo.githubusercontent.com/8bcd19936ebf99d4831d07dbce4f6d9973a1b5641810f0a5f34e3d398260be31/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3338332f312a73394c745a753468537550635677565a7377655a4a412e706e67)
 
-现在，在这里输入您的代币的名称和符号。命名为“test”，符号为“tst”。你可以给它一个，然后点击交易按钮。
 ![Image for post](https://camo.githubusercontent.com/53746b928ab261a39bb846643588a359e764a3899b062e6c0d182406c73fc875/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3539332f312a5a4b4445765f685f5071666433623750416f735851772e706e67)
 单击按钮后，将弹出一个窗口并确认它。
-## Deploy the Contract
 
-Open the second tab which is “SOLIDITY COMPILER” and select the solidity version that matches with the solidity version written in file as “pragma solidity …..”. The version should be equal to or higher than the file’s version. For example, in my file, “pragma solidity ^0.6.0” is written so the required version is 0.6.0 or higher. As shown, in the compiler the solidity version is 0.6.6, which is ok. After checking the solidity version click the compile button. If you did not change anything in the file, or the solidity version is not wrong, the contract should compile without any errors.
-
-![Image for post](https://miro.medium.com/max/1388/1*2jkDckFUJ4z3gMoLYZ_-PQ.png)
-
-Then, let’s jump to the third tab which is DEPLOY & RUN TRANSACTION. Here before deploying our contract, we should change the environment. Click to the environment and select “Injected Web3”. If a pop-up shows up and asks you to connect the account, click to connect. After, you should see the account address in the “ACCOUNT” textbox.
-
-The last thing before the deployment process is to set the contract that will be deployed as a token. Above the Deploy Button, there is a drop-down menu to select a contract. Select the contract named “ERC20PresetMinterPauser.sol”的合约。.
 
 ![Image for post](https://miro.medium.com/max/383/1*s9LtZu4hSuPcVwVZsweZJA.png)
 
-现在，在此输入您的代币的名称和标志。我将其命名为“test”，标志为“tst”。您可以给它并单击交易按钮。Now, here enter the name and symbol of your token. I will name it “test” and the symbol will be “tst”. You can give it a and click to transact button.
-
+现在，在这里输入您的代币的名称和符号。命名为“test”，符号为“tst”。你可以给它一个名称，然后点击交易按钮。
 ![Image for post](https://miro.medium.com/max/593/1*ZKDEv_h_Pqfd3b7PAosXQw.png)
 
 单击按钮后，会跳出一个弹窗，点击CAfter clicking the button, a pop-up will show up and just confirm即可。 it.
@@ -199,7 +188,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3NDExNjgyLDE4MDA2MTkyNDMsLTExMD
+eyJoaXN0b3J5IjpbLTE1MjQ3NTg3LDE4MDA2MTkyNDMsLTExMD
 k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
 MjQzXX0=
 -->
