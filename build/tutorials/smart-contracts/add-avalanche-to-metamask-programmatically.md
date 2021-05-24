@@ -13,9 +13,8 @@
 ## 数据结构
 
 要将Avalanche网络添加到Metamask，我们需要准备包含所有必要数据的数据结构。
-To add the Avalanche network to Metamask, we need to prepare the data structures that will be contain all the necessary data.
 
-Main network data:
+主要的网络数据:
 
 ```javascript
 export const AVALANCHE_MAINNET_PARAMS = {
@@ -31,7 +30,7 @@ export const AVALANCHE_MAINNET_PARAMS = {
 }
 ```
 
-Test network data:
+测试网数据:
 
 ```javascript
 export const AVALANCHE_TESTNET_PARAMS = {
@@ -47,8 +46,9 @@ export const AVALANCHE_TESTNET_PARAMS = {
 }
 ```
 
-## Adding the network
+## 添加到网络
 
+要将网络添加到MetaMask，我们需要调用`wallet_addEthereumChain` 方法，该方法由web3提供程序公开。
 To add the network to MetaMask, we need to call the `wallet_addEthereumChain` method, exposed by the web3 provider. 
 
 ```javascript
@@ -87,5 +87,5 @@ Dapps users are often not very technically sophisticated and onboarding them nee
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzMwNjA5N119
+eyJoaXN0b3J5IjpbMTI3MjgxOTA0MF19
 -->
