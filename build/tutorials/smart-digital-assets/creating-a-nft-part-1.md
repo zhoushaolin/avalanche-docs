@@ -37,15 +37,15 @@ avm.createNFTAsset({
 }
 ```
 
-### **Method**
+### **方法**
 
 * [`avm.createNFTAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createnftasset)
 
-**Parameters**
+**参数**
 
-* `name` is a human-readable name for our NFT family. Not necessarily unique. Between 0 and 128 characters.
-* `symbol` is a shorthand symbol for this NFT family. Between 0 and 4 characters. Not necessarily unique. May be omitted.
-* `minterSets` is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting operation.
+* `name` 是我们NFT家族的可读的名字。不一定是独一无二的。0到128个字符。
+* `symbol` 是这个非功能性语言家族的一个速记符号。0到4个字符之间。不一定是独一无二的。可以省略。
+* `minterSets` 是一个列表，其中每个元素指定' minters '中地址的' threshold '可以通过签名铸造操作一起铸造更多的资产。is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting operation.
 * Performing a transaction on the X-Chain requires a transaction fee paid in AVAX. `username` and `password` denote the user paying the fee.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to any of your addresses.
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Mjg5MTM3MV19
+eyJoaXN0b3J5IjpbLTE3NzI4NTc4MDhdfQ==
 -->
