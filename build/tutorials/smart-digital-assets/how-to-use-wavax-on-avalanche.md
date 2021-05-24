@@ -53,21 +53,11 @@
 
 如果你已经有些AVAX，你可以使用你的Avalanche钱包[Avalanche Wallet](https://wallet.avax.network/)，将其汇入你的MetaMask账户。通过选择钱包面板中“**show breakdown**, 可以看到你的资金在哪, 查看你的余额。如果你的C链中还没有资金，你需要进行一次交叉链转移[Cross Chain Transfer](../platform/transfer-avax-between-x-chain-and-c-chain.md)，以将你的AVAX从X链转入C链。
 
-你的C链中有资金后，在钱包面板的左边菜单中选择“**Send**”，然后将源链切换成在“After saving the changes, select the Avalanche network you just specified. You should see your AVAX balance, which will probably be 0.
-
-## Fund Your C-Chain Account
-
-You need to get some AVAX into your account.
-
-### **Using the Avalanche Wallet**
-
-If you already have some AVAX, you can transfer them to the Metamask account using your [Avalanche Wallet](https://wallet.avax.network/). You can see where your funds are by selecting **show breakdown** in the wallet panel showing your balance. If you don't have the funds on the C-Chain already, you need do a [Cross Chain Transfer](../platform/transfer-avax-between-x-chain-and-c-chain.md), to move your AVAX from X-Chain to C-Chain.
-
-After you have funds on the C-Chain, select **Send** on the left side menu in the Wallet, and then switch the source chain to **C Contract**”。在“. In the **To Address**”区，粘贴你的MetaMask地址。输入要发送的金额，点击“ field paste your Metamask address. Enter the amount to send and click **Confirm**”，然后点击“ and then **Send**”。.
+你的C链中有资金后，在钱包面板的左边菜单中选择“**Send**”，然后将源链切换成**C Contract**”。在**To Address**”字段，粘贴你的MetaMask地址。输入要发送的金额，点击**Confirm**”，然后点击 **Send**”。.
 
 ![Send to Metamask](../../../.gitbook/assets/wavax2avax-01-send-to-metamask.png)
 
-应该不久就能在你的Funds should soon be visible in your MetaMmask账户上看到资金。
+应该不久就能在你的MetaMmask账户上看到资金。
 
 ### **使用测试网络接口**
 
@@ -204,7 +194,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ2NTA3OTQsLTY5MTc3MjQ2NSwtMT
+eyJoaXN0b3J5IjpbLTEwNjEyNTQ0NDksLTY5MTc3MjQ2NSwtMT
 A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
 OTM2MDVdfQ==
 -->
