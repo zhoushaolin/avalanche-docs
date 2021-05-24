@@ -69,23 +69,18 @@
 
 ## 将WAVAX合约载入Remix
 
-Remix是一款流行的基于浏览器的编写、部署智能合约并与其交互的工具。浏览[Remix's website](https://remix.ethereum.org/)。向下滚动，直到你看见输入合约选项。 shortly.
+Remix是一款流行的基于浏览器的编写、部署智能合约并与其交互的工具。浏览[Remix's website](https://remix.ethereum.org/)。向下滚动，直到你看见输入合约选项。 
 
-## Load WAVAX contract into Remix
-
-Remix is a popular browser-based tool for writing, deploying, and interacting with smart contracts. Naviate to [Remix's website](https://remix.ethereum.org/). Scroll down until you see options for importing contracts.
 
 ![Import from GitHub](../../../.gitbook/assets/wavax2avax-03-remix-import.png)
 
-选择Select **GitHub**，在输入区粘贴, and in the input field paste `https://raw.githubusercontent.com/ava-labs/wrapped-assets/main/WAVAX.sol`，然后选择“**OK**”。这样就将合约载入 and select **OK**. That will load the contract into Remix了。.
+选择Select **GitHub**，在输入区粘贴`https://raw.githubusercontent.com/ava-labs/wrapped-assets/main/WAVAX.sol`，然后选择“**OK**”。这样就将合约载入Remix了。
 
 ![File Explorer](../../../.gitbook/assets/wavax2avax-04-contract.png)
 
 在左边切换至文件资源管理器标签，然后选择`WAVAX.sol`，即我们刚刚载入的合约。
 
-在左侧菜单中，切换到Switching to the File Explorer tab on the left and select `WAVAX.sol`, which is the contract we just loaded.
-
-On the left side menu, switch to Compile选项卡 tab:
+在左侧菜单中，切换到Compile选项卡:
 
 ![Compile](../../../.gitbook/assets/wavax2avax-05-compile.png)
 
@@ -186,7 +181,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAyMzg0MTcsLTY5MTc3MjQ2NSwtMT
-A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
-OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbMjE0NTYyNzM2MCwtNjkxNzcyNDY1LC0xMD
+U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
+MzYwNV19
 -->
