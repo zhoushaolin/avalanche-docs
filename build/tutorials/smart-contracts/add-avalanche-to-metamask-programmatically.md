@@ -6,12 +6,13 @@
 
 [EIP-3038](https://eips.ethereum.org/EIPS/eip-3085)是一个[以太坊改进提议](https://eips.ethereum.org/)，它定义了一个RPC方法，用于将以太坊兼容的链添加到钱包应用程序。
 
-Since March 2021 Metamask has implemented that EIP as part of their Metamask [Custom Networks API](https://consensys.net/blog/metamask/connect-users-to-layer-2-networks-with-the-metamask-custom-networks-api/).
+自2021年3月以来，Metamask已经实现将EIP作为其Metamask[自定义网络API](https://consensys.net/blog/metamask/connect-users-to-layer-2-networks-with-the-metamask-custom-networks-api/)的一部分。
 
-Let's see how it works.
+让我们看看它是如何工作的。
 
-## Data structures
+## 数据结构
 
+要将Avalanche网络添加到Metamask，我们需要准备包含所有必要数据的数据结构。
 To add the Avalanche network to Metamask, we need to prepare the data structures that will be contain all the necessary data.
 
 Main network data:
@@ -86,5 +87,5 @@ Dapps users are often not very technically sophisticated and onboarding them nee
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODQ3ODU4NV19
+eyJoaXN0b3J5IjpbMTgwMzMwNjA5N119
 -->
