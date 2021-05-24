@@ -65,7 +65,7 @@
 
 ![Faucet funding](../../../.gitbook/assets/wavax2avax-02-faucet.png)
 
-将该地址粘入“接口”区，证明你不是机器人，然后请求测试AVAX，应该很快就能在你的and paste your Ethereum address, which is shown below the account name in Metamask \(e.g.`0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57`\). When you click on the account name, it will copy the account to the clipboard.
+将该地址粘入“接口”区，证明你不是机器人，然后请求测试AVAX，应该很快就能在你的MetaMmask账户中看到。
 
 ![Faucet funding](../../../.gitbook/assets/wavax2avax-02-faucet.png)
 
@@ -190,7 +190,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTcyNTc5MSwtNjkxNzcyNDY1LC0xMD
-U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
-MzYwNV19
+eyJoaXN0b3J5IjpbLTE4NTc3NzQ3NzgsLTY5MTc3MjQ2NSwtMT
+A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
+OTM2MDVdfQ==
 -->
