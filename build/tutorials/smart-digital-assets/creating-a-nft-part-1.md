@@ -308,13 +308,13 @@ Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 
 * `assetID` 是我们正在发送的NFT的ID。
 * `to` 是将接收新生成的NFT的地址。
-* `groupID` is the NFT group from which to send the NFT.
-* `username` is the user that controls the NFT.
-* `password` is the valid password for `username`
+* `groupID` 是发送NFT的NFT组。
+* `username` 是控制NFT的用户。
+* `password` 是`username`的有效密码。
 
-**Response**
+**响应**
 
-* `txID` is the transaction ID.
+* `txID`是这个交易的ID。
 * `changeAddr` in the result is the address where any change was sent.
 
 ```cpp
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTA4MzQ5MCwtMTg5NDMzMzExMF19
+eyJoaXN0b3J5IjpbLTIzNDgyMzU3MywtMTg5NDMzMzExMF19
 -->
