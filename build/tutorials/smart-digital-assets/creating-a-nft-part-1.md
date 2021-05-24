@@ -1,7 +1,8 @@
-# Create an NFT \(Part 1\)
+# 创建NFT \(第1部分\)
 
-## Introduction
+## 简介
 
+在Avalanche上，数字商品用代币表示。有些代币是**可替换的**，这意味着一个令牌可以与任何其他令牌互换。例如，现实世界的货币是可替代的;一张5美元纸币被当作和其他5美元纸币一样对待。
 On Avalanche, digital goods are represented as tokens. Some tokens are **fungible**, which means that one token is interchangeable for any other one token. Real-world currency is fungible, for example; one $5 note is treated as being the same as any other $5 note.
 
 Avalanche also supports non-fungible tokens \(NFTs\). By definition, each NFT is unique and not perfectly interchangeable for any other NFT. For example, there could be an NFT that represents ownership of a real-world piece of art; each piece of art, like each NFT, is unique. NFTs represent digital scarcity and may prove to have even greater utility than traditional fungible tokens.
@@ -358,3 +359,6 @@ Blockchain technology and tokenomics represent a radical new way of representing
 
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3Mjg5MTQwNl19
+-->
