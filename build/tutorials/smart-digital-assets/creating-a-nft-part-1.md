@@ -45,7 +45,8 @@ avm.createNFTAsset({
 
 * `name` 是我们NFT家族的可读的名字。不一定是独一无二的。0到128个字符。
 * `symbol` 是这个非功能性语言家族的一个速记符号。0到4个字符之间。不一定是独一无二的。可以省略。
-* `minterSets` 是一个列表，其中每个元素指定' minters '中地址的' threshold '可以通过签名铸造操作一起铸造更多的资产。is a list where each element specifies that `threshold` of the addresses in `minters` may together mint more of the asset by signing a minting operation.
+* `minterSets` 是一个列表，其中每个元素指定`minters` 中地址的`threshold`可以通过签名铸造操作一起铸造更多的资产。
+* 在X链上进行交易需要用AVAX支付交易费用。`username`和`password`表示用户支付费用。
 * Performing a transaction on the X-Chain requires a transaction fee paid in AVAX. `username` and `password` denote the user paying the fee.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to any of your addresses.
@@ -359,5 +360,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI4NTc4MDhdfQ==
+eyJoaXN0b3J5IjpbMjAwNTE3NzY0OV19
 -->
