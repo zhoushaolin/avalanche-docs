@@ -148,7 +148,7 @@ curl -X POST --data '{
 }
 ```
 
-[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回2个UTXO。让我们看第一个UTXO, 解码并确认它是一个NFT 铸造输出[NFT Mint Output.](../../references/avm-transaction-serialization.md#nft-mint-output), 首先, 我们把从 [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回Base58Check编码的字符串转换为十六进制, 接着转换[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)字符串:
+[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回2个UTXO。让我们看第一个UTXO, 解码并确认它是一个NFT 铸造输出[NFT Mint Output.](../../references/avm-transaction-serialization.md#nft-mint-output), 首先, 我们把从 [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回Base58Check编码的字符串转换为十六进制, 接[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)字符串:
 
 ```cpp
 116VhGCxiSL4GrMPKHkk9Z92WCn2i4qk8qdN3gQkFz6FMEbHo82Lgg8nkMCPJcZgpVXZLQU6MfYuqRWfzHrojmcjKWbfwqzZoZZmvSjdD3KJFsW3PDs5oL3XpCHq4vkfFy3q1wxVY8qRc6VrTZaExfHKSQXX1KnC
@@ -265,8 +265,6 @@ curl -X POST --data '{
 
 首先，我们将从[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) 返回的Base58Check编码字符串转换为十六进制。以下CB58字符串:
 
-First, we convert the Base58Check encoded string which is returned from [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) in to hex. The following CB58 string:
-
 ```cpp
 11Do4RK6FchGXeoycKujR7atm3tvBz3qc64uoipCc5J74Sj1U4orM6vbBGSES8hnjgjZava9oPgmnbHxh2mBKjeXdvAqTRtYMHEacrveSzKgk7F8h8xi8JB9CddoiX8nbjZMYt1keGo5Rvpjh8dGymDWwRbV1FdnG5uDiiyU8uidc3P24
 ```
@@ -361,6 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4MzQwNTgsLTE4OTQzMzMxMTBdfQ
-==
+eyJoaXN0b3J5IjpbLTEyODA2MjM1MCwtMTg5NDMzMzExMF19
 -->
