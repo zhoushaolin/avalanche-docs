@@ -143,19 +143,11 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 在此，我们有一系列可用于与我们的代币合约互动的功能。您可以检查OpenZeppelin文档的所有此类方法，以了解如何使用它们。但是我们只会使用铸造法。
 
-点击铸造方法旁边的箭头，并阅读。The first one is my wallet address that creates token and the second address is my token contract address which is named “test”. Now, let’s mint some token to our own address.
-
-![Image for post](https://miro.medium.com/max/607/1*K9eBNTQFkvUYjjmvegDZtQ.png)
-
-Come back to the remix and after deploying, you should be able to see the contract in “Deployed Contracts” section.
-
-Here, we have a bunch of functions that we can use to interact with our token contract. You can check all these methods from OpenZeppelin documentation to learn how to use them. But we will only use the mint method.
-
-Click to arrow beside the mint method to read it.
+点击铸造方法旁边的箭头，并阅读。
 
 ![Image for post](https://miro.medium.com/max/577/1*GrxG6rsklrYN4xN1eF_ckw.png)
 
-输入您的地址和WEI中的金额。例如，我准备铸造Enter your address and an amount in WEI. For example, I will mint 1000 tst代币，所以我输入了 token so, I entered “1000000000000000000000”。
+输入您的地址和WEI中的金额。例如，我准备铸造1000 tst代币，所以我输入了 “1000000000000000000000”。
 
 ![Image for post](https://miro.medium.com/max/354/1*FM-PMUY7au61ejHJzBIsfg.png)
 
@@ -171,7 +163,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mjk3Mjg4NiwxODAwNjE5MjQzLC0xMT
+eyJoaXN0b3J5IjpbLTc1NjA5NDQxNSwxODAwNjE5MjQzLC0xMT
 A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
 NTI0M119
 -->
