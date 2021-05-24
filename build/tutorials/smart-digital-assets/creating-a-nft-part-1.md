@@ -177,19 +177,17 @@ Address Count: 00 00 00 01
 Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 ```
 
-注意`TypeID`是`00 00 00 0a`，这是NFT 铸造输出的正确类型ID。还要注意`GroupID`是`00 00 00 00`。这个`GroupID`是基于我传递给' avm.createNFTAsset '的' MinterSets '的数量创建的。
+注意`TypeID`是`00 00 00 0a`，这是NFT 铸造输出的正确类型ID。还要注意`GroupID`是`00 00 00 00`。这个`GroupID`是基于我传递给`avm.createNFTAsset`的`MinterSets`的数量创建的。
 
-Note that the `TypeID` is `00 00 00 0a` which is the correct type ID for an NFT Mint Output. Also note that the `GroupID` is `00 00 00 00`. This `GroupID` was created based on the number of `MinterSets` which I passed in to `avm.createNFTAsset`.
+## 铸造资产
 
-## Mint the Asset
+现在我们有了一个NFT家族和一个单独的`MinterSet`组，我们可以创建属于这个组的NFT。要做到这一点，我们要调用[`avm.mintNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-mintnft):
 
-Now that we have an NFT family and a group for the single `MinterSet` we’re able to create NFTs belonging to this group. To do that we call [`avm.mintNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-mintnft):
-
-### **Method**
+### **方法**
 
 * [`avm.mintNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-mintnft)
 
-### **Parameters**
+### **参数**
 
 * `assetID` is the ID of the NFT family.
 * `payload` is an arbitrary CB58 encoded payload of up to 1024 bytes. In Part 2 \(**COMING SOON**\) we’ll explore creating a protocol around the NFT payload. For this tutorial, the payload is the string “AVA Labs”.
@@ -361,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDUxOTQyXX0=
+eyJoaXN0b3J5IjpbMTEyMjM4OTk3MF19
 -->
