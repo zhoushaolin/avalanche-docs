@@ -97,7 +97,7 @@ curl -X POST --data '{
 你可能想知道为什么我们指定_sets_的地址，以创造更多的单位的资产，而不是一个单一的地址。原因如下:
 
 * **安全性:** 如果只有一个地址可以铸造更多的资产，并且该地址的私钥丢失了，那么就永远不能铸造更多资产了。同样，如果只有一个地址可以铸造更多的资产，那就没法阻止该地址的持有者单方面铸造他们想要的一切。
-* **灵活性:** 能够编码这样的逻辑是很好的，“Alice可以单方铸造这个资产的更多单位，或者2个Dinesh, Ellin和Jamie可以一起铸造更多。”
+* **灵活性:** 能够编码这样的逻辑是很好的，“小明可以单方铸造这个资产的更多单位，或者小华和Jamie可以一起铸造更多。”
 * it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
 
 ## Get UTXOs for NFT
@@ -360,5 +360,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzQ3NzIzOV19
+eyJoaXN0b3J5IjpbLTIwNjA0NzQ2MzBdfQ==
 -->
