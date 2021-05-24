@@ -6,12 +6,11 @@
 
 Avalanche还支持非同质化代币(NFT)。根据定义，每个 NFT都是唯一的，不能与其他 NFT完全互换。例如，可能存在代表现实世界艺术品的NFT;每一件艺术品，就像每一个NFT一样，都是独一无二的。NFT代表数字稀缺，可能被证明比传统的同质化代币具有更大的实用性。
 
-在本教程中，我们将使用AvalancheGo的API创建和发送nft。在未来的教程中，我们将使用[AvalancheJS](.. ./../tools/ AvalancheJS /)创建一个自定义NFT家族，并更详细地探索NFT。
-In this tutorial, we’ll create and send NFTs using AvalancheGo’s API. In a future tutorial, we’ll create a custom NFT family using [AvalancheJS](../../tools/avalanchejs/) and explore NFTs in more detail.
+在本教程中，我们将使用AvalancheGo的API创建和发送NFT。在未来的教程中，我们将使用[AvalancheJS](.. ./../tools/ AvalancheJS /)创建一个自定义NFT家族，并更详细地探索NFT。
 
-## Requirements
+## 要求
 
-You've completed [Run an Avalanche Node](../../get-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/). In this tutorial, we use [Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
+你已经完成节点运行[Run an Avalanche Node](../../get-started.md) 熟悉Avalanche架构[Avalanche's architecture](../../../learn/platform-overview/). In this tutorial, we use [Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
 
 ## Create the NFT Family
 
@@ -360,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI1ODM4MTNdfQ==
+eyJoaXN0b3J5IjpbLTkzOTUyNTg1Ml19
 -->
