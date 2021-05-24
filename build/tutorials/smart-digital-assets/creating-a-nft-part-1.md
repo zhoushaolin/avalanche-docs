@@ -148,7 +148,7 @@ curl -X POST --data '{
 }
 ```
 
-[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回2个UTXO。让我们看第一个UTXO, 解码并确认它是一个NFT 铸造输出[NFT Mint Output.](../../references/avm-transaction-serialization.md#nft-mint-output), 首先, 我们把从 [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回Base58Check编码的字符串转换为十六进制, 接[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)字符串:
+[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回2个UTXO。让我们看第一个UTXO, 解码并确认它是一个NFT 铸造输出[NFT Mint Output.](../../references/avm-transaction-serialization.md#nft-mint-output), 首先, 我们把从 [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回Base58Check编码的字符串转换为十六进制, 以下[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)字符串:
 
 ```cpp
 116VhGCxiSL4GrMPKHkk9Z92WCn2i4qk8qdN3gQkFz6FMEbHo82Lgg8nkMCPJcZgpVXZLQU6MfYuqRWfzHrojmcjKWbfwqzZoZZmvSjdD3KJFsW3PDs5oL3XpCHq4vkfFy3q1wxVY8qRc6VrTZaExfHKSQXX1KnC
@@ -269,7 +269,7 @@ curl -X POST --data '{
 11Do4RK6FchGXeoycKujR7atm3tvBz3qc64uoipCc5J74Sj1U4orM6vbBGSES8hnjgjZava9oPgmnbHxh2mBKjeXdvAqTRtYMHEacrveSzKgk7F8h8xi8JB9CddoiX8nbjZMYt1keGo5Rvpjh8dGymDWwRbV1FdnG5uDiiyU8uidc3P24
 ```
 
-is expressed in hexadecimal as:
+十六进制表示为:
 
 ```cpp
 00 00 7d 07 0d 1e fe a6 4e 45 09 05 c6 11 ee b1 cf 61 9f 21 22 eb 17 db aa ea 9a fe 2d ff 17 be 27 6b 00 00 00 01 04 78 f2 39 8d d2 16 3c 34 13 2c e7 af a3 1f 0a c5 03 01 7f 86 3b f4 db 87 ea 55 53 c5 2d 7b 57 00 00 00 0b 00 00 00 00 00 00 00 08 41 56 41 20 4c 61 62 73 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA2MjM1MCwtMTg5NDMzMzExMF19
+eyJoaXN0b3J5IjpbLTE5MDEyMjk3MSwtMTg5NDMzMzExMF19
 -->
