@@ -161,7 +161,6 @@ curl -X POST --data '{
 ```
 
 现在，我们可以通过引用[transaction serialization format](../../references/avm-transaction-serialization.md)将十六进制分解为UTXO的各个组件:
-Now, we can decompose the hex into the UTXO’s individual components by referring to the [transaction serialization format](../../references/avm-transaction-serialization.md):
 
 ```cpp
 NFT Mint Output
@@ -177,6 +176,8 @@ Threshold: 00 00 00 01
 Address Count: 00 00 00 01
 Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 ```
+
+注意`TypeID`是`00 00 00 0a`，这是NFT 铸造输出的正确类型ID。还要注意`GroupID`是`00 00 00 00`。这个`GroupID`是基于我传递给' avm.createNFTAsset '的' MinterSets '的数量创建的。
 
 Note that the `TypeID` is `00 00 00 0a` which is the correct type ID for an NFT Mint Output. Also note that the `GroupID` is `00 00 00 00`. This `GroupID` was created based on the number of `MinterSets` which I passed in to `avm.createNFTAsset`.
 
@@ -360,5 +361,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDQ4OTU4XX0=
+eyJoaXN0b3J5IjpbLTUxNDUxOTQyXX0=
 -->
