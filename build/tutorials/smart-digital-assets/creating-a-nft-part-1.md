@@ -192,13 +192,13 @@ Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 * `assetID` 是NFT家族的ID。
 * `payload` 是最多1024字节的任意CB58编码有效负载。在第2部分中，我们将探索围绕NFT有效负载创建协议。在本教程中，有效载荷是字符串“AVA Labs”。
 * `to` 是将接收新生成的NFT的地址。用你的用户控件的地址替换`to`，这样以后你就可以发送一些新创建的NFT。
-* `username` 必须是一个持有密钥的用户，允许它创造更多的非功能性测试。也就是说，它至少为上面指定的一个minter集控制_threshold_键。must be a user that holds keys giving it permission to mint more of this NFT. That is, it controls at least _threshold_ keys for one of the minter sets we specified above.
-* `password` is the valid password for `username`
+* `username` 必须是一个持有密钥的用户，允许它创造更多的NFT。也就是说，它至少为上面指定的一个minter集控制_threshold_密钥。
+* `password` 是 `username`的有效密码。
 
-### **Response**
+### **响应**
 
-* `txID` is the transaction ID.
-* `changeAddr` in the result is the address where any change was sent.
+* `txID`是交易的ID.
+* `changeAddr`是结果是发送任何更改的地址。
 
 ```cpp
 curl -X POST --data '{
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDI5MzM5OF19
+eyJoaXN0b3J5IjpbLTM5Nzc0MjU2Nl19
 -->
