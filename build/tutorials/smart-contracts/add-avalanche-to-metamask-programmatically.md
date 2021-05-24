@@ -66,10 +66,11 @@ export const AVALANCHE_TESTNET_PARAMS = {
 ```
 这里`injected`被初始化为`web3-react/injected-connector`，用于与MetaMask API接口。其他流行的web框架也有类似的用法。如果要添加测试网络，请将`AVALANCHE_MAINNET_PARAMS` 替换为`AVALANCHE_TESTNET_PARAMS`。
 
-典型的使用模式是，如果在试图建立到MetaMask的连接时出现`Wrong Network`或`Error connecting` 错误，则公开一个调用该方法的按钮。Typical usage pattern would be to expose a button calling that method if you get `Wrong Network` or `Error connecting` errors when attempting to establish a connection to MetaMask.
+典型的使用模式是，如果在试图建立到MetaMask的连接时出现`Wrong Network`或`Error connecting` 错误，则公开一个调用该方法的按钮。
 
-## User experience
+## 用户体验
 
+当用户第一次来到你的dapp网站，他们需要批准连接到MetaMask。之后，如果你没有检测到成功的web3网络连接，你可以给他们一个对话框，要求他们确认切换到一个新的网络:
 When users first come to your dapp's website they need to approve connection to MetaMask. After they do that, if you don't detect successful web3 network connection, you can present them with a dialog asking them to confirm switch to a new network:
 
 ![wrong network](../../../.github/add-avalanche-to-metamask-01-wrong-network.png)
@@ -86,5 +87,5 @@ Dapps users are often not very technically sophisticated and onboarding them nee
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDI1MjM3XX0=
+eyJoaXN0b3J5IjpbMTEwOTcwMzAwMV19
 -->
