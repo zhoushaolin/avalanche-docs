@@ -345,7 +345,7 @@ curl -X POST --data '{
 }
 ```
 
-你可以[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)的地址,你发送的非功能性测试和分解UTXO返回,将从CB58转换为十六进制后,确认有UTXO类型id ' 00 00 00 0 b在十六进制或十进制“11”。
+你可以调用[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)来获取你发送NFT的地址, 接着分解返回的UTXO, 将从CB58转换为十六进制后,确认有UTXO类型id ' 00 00 00 0 b在十六进制或十进制“11”。
 
 You can call [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) for the address which you sent the NFT to and decompose the returned UTXO, after converting from CB58 to hex, to confirm that there is a UTXO with type id `00 00 00 0b` in hex or `11` in decimal.
 
@@ -361,5 +361,6 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODI4MTM5MywtMTg5NDMzMzExMF19
+eyJoaXN0b3J5IjpbLTIwOTg2ODkxNjIsLTE4OTQzMzMxMTBdfQ
+==
 -->
