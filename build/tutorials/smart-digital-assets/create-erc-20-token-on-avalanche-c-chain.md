@@ -66,25 +66,18 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
 
 将地址复制粘贴至此后，点击请求20 AVAX。此测试接口代币无价值，仅供开发。
 
-然后请检查您的钱包余额，您的MAfter copy and paste the address here, click request 2.0000 C-AVAX. This test faucet token has no value, it is just for development purposes.
-
-Then check your wallet balance and you should have some test token in your metaMmask中应该已有一些测试代币。
+然后请检查您的钱包余额，您的metamask钱包中应该已有一些测试代币。
 
 ## 创建可铸造代币
 
-现在我们可以在Remix上创建我们的可铸造代币了。打开您的浏览器上的Remix，或访问此链接.
+现在我们可以在Remix上创建我们的可铸造代币了。打开您的浏览器上的Remix，或访问此链接[this link](https://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.6.6+commit.6c089d02.js)。
 
-## Create mintable token
-
-Now, we can create our mintable token on Remix. Open Remix on your browser or go to [this link](https://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.6.6+commit.6c089d02.js)。.
 
 ![Image for post](https://miro.medium.com/max/1910/1*FWHtbWNXr6FvjzPHH93wvw.png)
 
 您应该查看此页面。此页面上，首先，单击“Featured Plugins”中的“SOLIDITY”，然后单击“New File”按钮。当您单击New File按钮时，您会看到一个弹窗，要求填写文件名。您可以选择一个文件名或选择默认。
 
-由于我们将使用You should view this page. On this page, first, click “SOLIDITY” from “Featured Plugins” and then click the “New File” button. When you click the New File button, you will see a pop-up that requires a file name. You can choose a name or leave the default.
-
-Since we will use an ERC-20 contract from [OpenZeppelin](https://openzeppelin.com/contracts/)的ERC-20合约，因此只需粘贴此段至文件并保存即可。, just paste this line to the file and save.
+由于我们将使用 [OpenZeppelin](https://openzeppelin.com/contracts/)的ERC-20合约，因此只需粘贴此段至文件并保存即可。, just paste this line to the file and save.
 
 ```javascript
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol";
@@ -204,7 +197,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Mjg3OTQ4MiwxODAwNjE5MjQzLC0xMT
-A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
-NTI0M119
+eyJoaXN0b3J5IjpbNzc5ODY3MTE1LDE4MDA2MTkyNDMsLTExMD
+k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
+MjQzXX0=
 -->
