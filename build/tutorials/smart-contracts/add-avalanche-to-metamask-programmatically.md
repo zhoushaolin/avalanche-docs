@@ -82,10 +82,10 @@ export const AVALANCHE_TESTNET_PARAMS = {
 
 ## 结论
 
-Dapps用户通常在技术上不是很复杂，他们需要尽可能无缝和简单。手动添加一个新的网络到MetaMask是一个障碍，有一定比例的潜在用户将无法跨越。删除要求是一个简单的步骤，这将增强他们的体验，并使更多的用户真正使用你的dapp。
-Dapps users are often not very technically sophisticated and onboarding them needs to be as seamless and easy as possible. Manually adding a new network to MetaMask is a hurdle than a certain percentage of your potential users will not be able to clear. Removing that requirement is a simple step that will enhance their experience and enable more users to get to actually use your dapp.
+Dapps用户通常在技术上不是很复杂，他们需要尽可能无缝和简单。手动添加一个新的网络到MetaMask是一个障碍，有一定比例的潜在用户将无法跨越。删除要求是一个简单的步骤，这将提升他们的体验，并使更多的用户真正使用你的dapp。
 
-If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
+如果你有任何疑问、问题或关于如何改进的想法，或者只是想加入我们的开发者社区，你可以通过我们的[Discord](https://chat.avalabs.org/)服务器联系我们。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzE5ODIyMl19
+eyJoaXN0b3J5IjpbLTEyNzcwOTIwNDZdfQ==
 -->
