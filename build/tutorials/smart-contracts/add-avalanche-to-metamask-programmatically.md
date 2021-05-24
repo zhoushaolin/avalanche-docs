@@ -1,4 +1,4 @@
-# Programmatically add Avalanche network to Metamask
+# 以编程方式将Avalanche网络添加到Metamask
 
 Adding new networks to Metamask is not a trivial task for people that are not technically savvy, and it can be error prone. To help easier onboarding of users to your application it is useful to simplify that process as much as possible. This tutorial will show how to build a simple button in your front-end application that will automate the process of adding the Avalanche network to MetaMask.
 
@@ -85,3 +85,6 @@ If they approve, your app will be connected to the Avalanche network. Very easy,
 Dapps users are often not very technically sophisticated and onboarding them needs to be as seamless and easy as possible. Manually adding a new network to MetaMask is a hurdle than a certain percentage of your potential users will not be able to clear. Removing that requirement is a simple step that will enhance their experience and enable more users to get to actually use your dapp.
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyMjI3ODYwMzRdfQ==
+-->
