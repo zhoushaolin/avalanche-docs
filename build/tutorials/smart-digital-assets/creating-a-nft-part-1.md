@@ -4,9 +4,9 @@
 
 在Avalanche上，数字商品用代币表示。有些代币是**同质化的**，这意味着一个代币可以与任何其他代币进行互换。例如，现实世界的货币是可替代的;一张5美元纸币被当作和其他5美元纸币一样对待。
 
-Avalanche还支持非同质化代币(NFT)。根据定义，每个 NFT都是唯一的，不能与其他 NFT完全互换。例如，可能存在代表现实世界艺术品所有权的非功能性内容;每一件艺术品，就像每一件非功能性作品一样，都是独一无二的。nft代表数字稀缺，可能被证明比传统的可替代代币具有更大的实用性。
-Avalanche also supports non-fungible tokens \(NFTs\). By definition, each NFT is unique and not perfectly interchangeable for any other NFT. For example, there could be an NFT that represents ownership of a real-world piece of art; each piece of art, like each NFT, is unique. NFTs represent digital scarcity and may prove to have even greater utility than traditional fungible tokens.
+Avalanche还支持非同质化代币(NFT)。根据定义，每个 NFT都是唯一的，不能与其他 NFT完全互换。例如，可能存在代表现实世界艺术品的NFT;每一件艺术品，就像每一个NFT一样，都是独一无二的。NFT代表数字稀缺，可能被证明比传统的同质化代币具有更大的实用性。
 
+在本教程中，我们将使用AvalancheGo的API创建和发送nft。在未来的教程中，我们将使用[AvalancheJS](.. ./../tools/ AvalancheJS /)创建一个自定义NFT家族，并更详细地探索NFT。
 In this tutorial, we’ll create and send NFTs using AvalancheGo’s API. In a future tutorial, we’ll create a custom NFT family using [AvalancheJS](../../tools/avalanchejs/) and explore NFTs in more detail.
 
 ## Requirements
@@ -360,5 +360,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDk4ODc2MV19
+eyJoaXN0b3J5IjpbLTE4MzI1ODM4MTNdfQ==
 -->
