@@ -30,18 +30,18 @@
 ### Avalanche 主网设置:
 
 * **网络名**: Avalanche Mainnet C-Chain
-* **NRPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
-* **ChainID**: `0xa86a`
-* **标志Symbol**: `AVAX`
-* **浏览器Explorer**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
+* **新RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
+* **链ID**: `0xa86a`
+* **标志**: `AVAX`
+* **浏览器**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
 
-### 富士测试网设置：Fuji Testnet Settings:
+### 富士测试网设置：
 
-* **网络名Network Name**: Avalanche Fuji C-Chain
-* **New RPC URL**: [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
-* **ChainID**: `0xa869`
-* **标志Symbol**: `AVAX`
-* **浏览器Explorer**: [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
+* **网络名**: Avalanche Fuji C-Chain
+* **新 RPC URL**: [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc)
+* **链ID**: `0xa869`
+* **标志**: `AVAX`
+* **浏览器**: [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
 
 保存更改后，选择你刚刚指定的Avalanche网络。你应该会看到你的AVAX余额，它将可能是0。
 
@@ -204,7 +204,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NDUyOTY5LC02OTE3NzI0NjUsLTEwNT
-U3NzM1MzQsLTk0NTc0NTk1NSwtMTc4OTYzOTE1MSwxODE3NDkz
-NjA1XX0=
+eyJoaXN0b3J5IjpbLTE5MTQ2NTA3OTQsLTY5MTc3MjQ2NSwtMT
+A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
+OTM2MDVdfQ==
 -->
