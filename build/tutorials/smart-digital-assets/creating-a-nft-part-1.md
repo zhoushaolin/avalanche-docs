@@ -241,7 +241,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-这应当xian:
+这应当响应:
 
 ```cpp
 {
@@ -261,7 +261,9 @@ curl -X POST --data '{
 }
 ```
 
-As in the previous step, we can now decode the CB58 encoded UTXO to hexidecimal and then decompose it to its individual components to confirm that we have the correct UTXO and type.
+与上一步一样，我们现在可以将CB58编码的UTXO解码为十六进制，然后将其分解为单独的组件，以确认我们拥有正确的UTXO和类型。
+
+首先，我们将从[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) 返回的Base58Check编码字符串转换为十六进制。以下CB58字符串:
 
 First, we convert the Base58Check encoded string which is returned from [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) in to hex. The following CB58 string:
 
@@ -359,6 +361,6 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA5OTE1MTUsLTE4OTQzMzMxMTBdfQ
+eyJoaXN0b3J5IjpbLTEzMjU4MzQwNTgsLTE4OTQzMzMxMTBdfQ
 ==
 -->
