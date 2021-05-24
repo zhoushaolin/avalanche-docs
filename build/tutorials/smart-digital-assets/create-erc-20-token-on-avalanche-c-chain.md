@@ -13,21 +13,11 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
 
 ## 设置 Metamask
 
-我们首先应该设置一个Metamask钱包。Create an ERC-20 Token
-
-ERC-20 tokens are the most fundamental and essential concept in Ethereum. As the Avalanche community and the ecosystem are growing, new use cases and projects that are running on Ethereum or different chains would be implemented to Avalanche. The token standard that would be used for the projects is not specific and everyone can create their own standard and own token.
-
-Therefore, we will be creating our own mintable ERC-20 token and will mint it to any address we want. The token will be generated on Avalanche C-Chain and will be accessible on that chain.
-
-The thing we have to mainly consider is that we will deploy a smart contract written with Solidity to Avalanche. This is the feature that Avalanche provides us- to be able to deploy any smart contract to the chain and no requirement for a new language specific contract concept to interact. Let’s look at how to create an ERC-20 contract and deploy it to avalanche C-Chain.
-
-## Set up Metamask
-
-The first thing we should set is a metamask wallet.
+我们首先应该设置一个Metamask钱包。
 
 ![Image for post](https://miro.medium.com/max/408/0*0HGM4O_J5iF3943S)
 
-点击浏览器上的MClick to metaMmask图标，并选择网络下拉列表菜单。我们应连接到C链。点击 icon on the browser and select the network drop-down menu. Here we should connect to C-Chain. Click to “Custom RPC”。.
+点击浏览器上的MClick to metaMmask图标，并选择网络下拉列表菜单。我们应连接到C链。点击“Custom RPC”。
 
 ![Image for post](https://miro.medium.com/max/989/1*Y7O1bBeTWnuQBAqTnwmqUQ.png)
 
@@ -231,7 +221,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxNjA4NDY4LDE4MDA2MTkyNDMsLTExMD
-k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
-MjQzXX0=
+eyJoaXN0b3J5IjpbLTE2NzkwOTY3MTUsMTgwMDYxOTI0MywtMT
+EwOTU4NDM4MywtMTIzODYwNzI0LDE5NTE3NTgwOTIsLTE5Mjky
+MzUyNDNdfQ==
 -->
