@@ -94,10 +94,10 @@ curl -X POST --data '{
 
 需要注意以下几点: 首先，除了创建一个NFT家族，AvalancheGo的[`avm.createNFTAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createnftasset) 也为每个被传递进来的'`minterSets`创建一个组。例如，如果`minterSets`有3个元素，NFT家族就有3个组。其次，注意响应中返回的`assetID`。这是新创建的NFT家族的`assetID`，稍后您将需要它来发布NFT。
 
-你可能想知道为什么我们指定_sets_的地址，可以创造更多的单位的资产，而不是一个单一的地址。原因如下:
-You may be wondering why we specify _sets_ of addresses that can mint more units of the asset rather than a single address. Here's why:
+你可能想知道为什么我们指定_sets_的地址，以创造更多的单位的资产，而不是一个单一的地址。原因如下:
 
-* **Security:** if only one address can mint more of the asset, and the private key for that address is lost, no more units can ever be minted. Similarly, if only one address can mint more of the asset, nothing stops the holder of that address from unilaterally minting as much as they want.
+* **安全性:** 如果只有一个地址可以铸造更多的资产，并且该地址的私钥丢失了，那么就永远不能铸造更多资产了。同样，如果只有一个地址可以铸造更多的资产，那就没法没有什么能阻止该地址的持有者单方面铸造他们想要的。
+* if only one address can mint more of the asset, and the private key for that address is lost, no more units can ever be minted. Similarly, if only one address can mint more of the asset, nothing stops the holder of that address from unilaterally minting as much as they want.
 * **Flexibility:** it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
 
 ## Get UTXOs for NFT
@@ -360,5 +360,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE3MjM5MDBdfQ==
+eyJoaXN0b3J5IjpbOTIyOTM4NDI1XX0=
 -->
