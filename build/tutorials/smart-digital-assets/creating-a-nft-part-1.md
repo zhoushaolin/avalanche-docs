@@ -356,10 +356,9 @@ curl -X POST --data '{
 * 使用`getUTXOs`获取一个地址的UTXO。然后，我们将CB58编码的UTXO转换为十六进制，并将其分解为单独的组件。
 * 使用`sendNFT`在地址之间传输NFT。
 
-在本系列的第2部分中，我们将更深入地讨论使用AvalancheJS为我们的NFT有效负载创建协议，将其发布给多个组。
-In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
+在本系列的第2部分中，我们将更深入的讨论, 使用AvalancheJS为我们的NFT有效负载创建协议，并将其发布给多个组。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk3NzU0NzIsLTE4OTQzMzMxMTBdfQ
-==
+eyJoaXN0b3J5IjpbMTczNzUyNzk4LC0xODk0MzMzMTEwXX0=
 -->
