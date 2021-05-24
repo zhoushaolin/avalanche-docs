@@ -351,13 +351,13 @@ curl -X POST --data '{
 
 区块链技术和代币经济学代表了代表数字资产的一种全新方式。非同质化代币允许将稀缺资产代币化。在本教程中，我们:
 
-* Used `createNFTAsset` to create a non-fungible asset family and group.
-* Used `mintNFT` to mint units of an NFT to the group.
+* 使用`createNFTAsset`创建NFT资产家族和组。
+* 使用`mintNFT`来为zu铸造单位的一个非ft的集团。Used `mintNFT` to mint units of an NFT to the group.
 * Used `getUTXOs` to fetch UTXOs for an address. We then converted the CB58 encoded UTXO to hex and decomposed it to its individual components.
 * Used `sendNFT` to transfer NFTs between addresses.
 
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NDc0MjgzLC0xODk0MzMzMTEwXX0=
+eyJoaXN0b3J5IjpbODk0NTQwMDIzLC0xODk0MzMzMTEwXX0=
 -->
