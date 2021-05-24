@@ -61,11 +61,7 @@
 
 ### **使用测试网络接口**
 
-如果你连接的是测试网络，你可以使用测试网络接口充值你的 account.
-
-### **Using the Test Network Faucet**
-
-If you're connected to the test network, you can use its faucet to fund your MetaMmask账户。浏览 account. Navigate to [the faucet](https://faucet.avax-test.network/) ，然后粘贴你的以太坊地址（它显示在Metamask中账户名的下方, 如`0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57`）。当你点击账户名时，账户名会被复制到剪贴板。
+如果你连接的是测试网络，你可以使用测试网络接口充值你的账户。导航至 [the faucet](https://faucet.avax-test.network/) ，然后粘贴你的以太坊地址（它显示在Metamask中账户名的下方, 如`0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57`）。当你点击账户名时，账户名会被复制到剪贴板。
 
 ![Faucet funding](../../../.gitbook/assets/wavax2avax-02-faucet.png)
 
@@ -194,7 +190,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEyNTQ0NDksLTY5MTc3MjQ2NSwtMT
-A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
-OTM2MDVdfQ==
+eyJoaXN0b3J5IjpbMTAyOTcyNTc5MSwtNjkxNzcyNDY1LC0xMD
+U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
+MzYwNV19
 -->
