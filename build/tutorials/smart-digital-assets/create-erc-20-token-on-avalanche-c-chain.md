@@ -103,7 +103,8 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 “ERC20PresetMinterPauser.sol”的合约。
 ![Image for post](https://camo.githubusercontent.com/8bcd19936ebf99d4831d07dbce4f6d9973a1b5641810f0a5f34e3d398260be31/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3338332f312a73394c745a753468537550635677565a7377655a4a412e706e67)
-
+Now, here enter the name and symbol of your token. I will name it “test” and the symbol will be “tst”. You can give it a and click to transact button.
+现在，在这里输入您的代币的名称和符号。命名为“test”，符号为tst。你可以给它一个，然后点击交易按钮。
 ![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
 ## Deploy the Contract
@@ -198,7 +199,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5MTgxNjk1LDE4MDA2MTkyNDMsLTExMD
-k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
-MjQzXX0=
+eyJoaXN0b3J5IjpbMTg1Nzg4ODU5MiwxODAwNjE5MjQzLC0xMT
+A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
+NTI0M119
 -->
