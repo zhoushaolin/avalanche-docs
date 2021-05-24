@@ -70,22 +70,21 @@ export const AVALANCHE_TESTNET_PARAMS = {
 
 ## 用户体验
 
-当用户第一次来到你的dapp网站，他们需要批准连接到MetaMask。之后，如果你没有检测到成功的web3网络连接，你可以给他们一个对话框，要求他们确认切换到一个新的网络:
-When users first come to your dapp's website they need to approve connection to MetaMask. After they do that, if you don't detect successful web3 network connection, you can present them with a dialog asking them to confirm switch to a new network:
+当用户第一次来到你的dapp网站，他们需要批准连接到MetaMask。之后，如果你没有检测到成功的web3网络连接，你可以跟他们对话，要求他们确认切换到一个新的网络:
 
 ![wrong network](../../../.github/add-avalanche-to-metamask-01-wrong-network.png)
 
-If they press the button, they are shown a dialog from MetaMask asking for approval to add the new network:
+如果他们按下按钮，会看到一个来自MetaMask的对话框，请求批准添加新的网络:
 
 ![add a network](../../../.github/add-avalanche-to-metamask-02-add-network.png)
 
-If they approve, your app will be connected to the Avalanche network. Very easy, no need for any data entry, no chance of wrong data entry. And that's it, users are ready to interacy with your dapp!
+如果他们批准，你的应用程序将连接到Avalanche网络。非常简单，不需要任何数据输入，没有错误数据输入的机会。就这样，用户已经准备好与您的dapp交互了!
 
-## Conclusion
+## 结论
 
 Dapps users are often not very technically sophisticated and onboarding them needs to be as seamless and easy as possible. Manually adding a new network to MetaMask is a hurdle than a certain percentage of your potential users will not be able to clear. Removing that requirement is a simple step that will enhance their experience and enable more users to get to actually use your dapp.
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTcwMzAwMV19
+eyJoaXN0b3J5IjpbMTczNDc3MDgxM119
 -->
