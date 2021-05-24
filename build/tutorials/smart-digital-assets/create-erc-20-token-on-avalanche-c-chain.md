@@ -54,19 +54,8 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
 
 ### 使用测试网接口
 
-如需为测试网充值，您还可以使用测试网接口。导航至[https://faucet.avax-test.network/](https://faucet.avax-test.network/)，并粘贴您的C-AVAX地址。您只需要添加一个“C-”前缀，接口就会从AVAX切换为 refers to C-chain and we have to get some C-AVAX to interact with the network.
+如需为测试网充值，您还可以使用测试网接口。导航至[https://faucet.avax-test.network/](https://faucet.avax-test.network/)，并粘贴您的C-AVAX地址。
 
-## Fund your C-Chain address
-
-Depending on the network used, there are three ways to get funds to your C-Chain address.
-
-### **Using Avalanche Wallet**
-
-On the main net, you can use the [Avalanche Wallet](https://wallet.avax.network/) to transfer funds from the X-Chain to your C-Chain address. The process is simple, as explained in this [tutorial](../platform/transfer-avax-between-x-chain-and-c-chain.md). Wallet can be used on test and local networks, too.
-
-### **Using Test Network Faucet**
-
-For funding on the test network, you can also use the Test Network Faucet. Navigate to [https://faucet.avax-test.network/](https://faucet.avax-test.network/) and paste your C-AVAX address. All you need to do is add a “C-” prefix and the faucet will switch from AVAX to C-AVAX。.
 
 ### 为本地测试网充值
 
@@ -220,7 +209,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg4ODk3MjYsMTgwMDYxOTI0MywtMT
-EwOTU4NDM4MywtMTIzODYwNzI0LDE5NTE3NTgwOTIsLTE5Mjky
-MzUyNDNdfQ==
+eyJoaXN0b3J5IjpbLTYyMzYzMDgxNywxODAwNjE5MjQzLC0xMT
+A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
+NTI0M119
 -->
