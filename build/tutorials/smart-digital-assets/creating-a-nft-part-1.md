@@ -148,21 +148,19 @@ curl -X POST --data '{
 }
 ```
 
-[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回2个UTXO。让我们看第一个UTXO, 解码并确认它是一个NFT 铸造输出[NFT Mint Output.](../../references/avm-transaction-serialization.md#nft-mint-output), 首先, 我们把从 [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回Base58Check编码的字符串转换为十六进制
-以下是[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)字符串:
-
-First, we convert the Base58Check encoded string which is returned from [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) in to hex. The following [CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58) string:
+[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回2个UTXO。让我们看第一个UTXO, 解码并确认它是一个NFT 铸造输出[NFT Mint Output.](../../references/avm-transaction-serialization.md#nft-mint-output), 首先, 我们把从 [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)返回Base58Check编码的字符串转换为十六进制, 接着转换[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)字符串:
 
 ```cpp
 116VhGCxiSL4GrMPKHkk9Z92WCn2i4qk8qdN3gQkFz6FMEbHo82Lgg8nkMCPJcZgpVXZLQU6MfYuqRWfzHrojmcjKWbfwqzZoZZmvSjdD3KJFsW3PDs5oL3XpCHq4vkfFy3q1wxVY8qRc6VrTZaExfHKSQXX1KnC
 ```
 
-is expressed in hexadecimal as:
+十六进制表示为:
 
 ```cpp
 00 00 04 78 f2 39 8d d2 16 3c 34 13 2c e7 af a3 1f 0a c5 03 01 7f 86 3b f4 db 87 ea 55 53 c5 2d 7b 57 00 00 00 01 04 78 f2 39 8d d2 16 3c 34 13 2c e7 af a3 1f 0a c5 03 01 7f 86 3b f4 db 87 ea 55 53 c5 2d 7b 57 00 00 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 ```
 
+现在，我们可以通过引用[transaction serialization format](../../references/avm-transaction-serialization.md)将十六进制分解为UTXO的各个组件:
 Now, we can decompose the hex into the UTXO’s individual components by referring to the [transaction serialization format](../../references/avm-transaction-serialization.md):
 
 ```cpp
@@ -362,5 +360,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUxMTk2XX0=
+eyJoaXN0b3J5IjpbMjEwNDQ4OTU4XX0=
 -->
