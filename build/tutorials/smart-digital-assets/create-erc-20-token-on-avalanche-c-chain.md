@@ -1,6 +1,6 @@
 ---
-描述: 由社区成员description: 'Provided by Community member: Murat Çeliktepe提供
-'
+描述: 由社区成员Murat Çeliktepe提供
+
 ---
 
 # 创建ERC-20代币
@@ -231,6 +231,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDYxOTI0MywtMTEwOTU4NDM4MywtMT
-IzODYwNzI0LDE5NTE3NTgwOTIsLTE5MjkyMzUyNDNdfQ==
+eyJoaXN0b3J5IjpbMjYxNjA4NDY4LDE4MDA2MTkyNDMsLTExMD
+k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
+MjQzXX0=
 -->
