@@ -111,7 +111,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 单击按钮后，会跳出一个弹窗，点击 confirm即可。
 ![Image for post](https://miro.medium.com/max/353/1*yOOQYZvESjSKx2qec5pYgA.png)
 
-然后会出现另一个弹窗，metaMmask确认出现。点击Confirm即可。
+然后会出现另一个弹窗，出现metaMmask确认。点击Confirm即可。
 
 确认所有此类弹窗后，我们就把代币部署到avalanche C链了。所以我们能够开始与它互动。
 
@@ -123,27 +123,15 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ![Image for post](https://miro.medium.com/max/1469/1*WTHSIfrDe9R_hk-C5GNq0g.png)
 
-部署完合同后，我们应看到Remix控制台中的日志。当您单击箭头并展开它时，一个交易队列就会出现。复制它。 confirmation, appears. Confirm it.
-
-After confirming all these pop-ups we have deployed our token to avalanche C-Chain. So we can start to interact with it.
-
-## Interact with Token
-
-We can see our transaction that deployed on avalanche C-Chain via this [c-chain explorer](https://cchain.explorer.avax-test.network/).
-
-But firstly, let’s see our transaction hash from the remix console.
-
-![Image for post](https://miro.medium.com/max/1469/1*WTHSIfrDe9R_hk-C5GNq0g.png)
-
-After deploying the contract, we should see a log in remix console. When you click to arrow and expand it, a transaction hash will come up. Copy it.
+部署完合同后，我们应看到Remix控制台中的日志。当您单击箭头并展开它时，一个交易队列就会出现。复制它。
 
 ![Image for post](https://miro.medium.com/max/1909/1*NBXgtkYv2VfBkZx1OsBm7A.png)
 
-将交易队列粘贴至我上文分享的浏览器Just paste the transaction hash to the [explorer](https://cchain.explorer.avax-test.network/)，并按输入键。 I shared above and press enter.
+将交易队列粘贴至我上文分享的浏览器[explorer](https://cchain.explorer.avax-test.network/)，并按输入键。 
 
 ![Image for post](https://miro.medium.com/max/1907/1*6GhQaa_UaDvtk3Kvimi3aA.png)
 
-在此我们可以看到交易和代币合约的所有详情。Here we can see all details about the transaction and token contract.
+在此我们可以看到交易和代币合约的所有详情。
 
 ![Image for post](https://miro.medium.com/max/764/1*tTFQUn3fStbv-TW9kExyUg.png)
 
@@ -183,7 +171,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Mzg4ODEyLDE4MDA2MTkyNDMsLTExMD
-k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
-MjQzXX0=
+eyJoaXN0b3J5IjpbLTc0Mjk3Mjg4NiwxODAwNjE5MjQzLC0xMT
+A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
+NTI0M119
 -->
