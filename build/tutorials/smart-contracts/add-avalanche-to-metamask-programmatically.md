@@ -1,10 +1,10 @@
 # 以编程方式将Avalanche网络添加到Metamask
 
-Adding new networks to Metamask is not a trivial task for people that are not technically savvy, and it can be error prone. To help easier onboarding of users to your application it is useful to simplify that process as much as possible. This tutorial will show how to build a simple button in your front-end application that will automate the process of adding the Avalanche network to MetaMask.
+对于技术不熟练的人来说，向Metamask添加新网络并不是一项简单的任务，而且很容易出错。为了帮助用户更容易地使用您的应用程序，尽可能地简化这个过程是很有用的。本教程将展示如何在前端应用程序中构建一个简单的按钮，该按钮将自动将Avalanche网络添加到MetaMask。
 
 ## EIP-3038 & MetaMask
 
-[EIP-3038](https://eips.ethereum.org/EIPS/eip-3085) is an [Ethereum Improvement Proposal](https://eips.ethereum.org/) that defines an RPC method for adding Ethereum-compatible chains to wallet applications.
+[EIP-3038](https://eips.ethereum.org/EIPS/eip-3085)是一个[以太坊改进提议](https://eips.ethereum.org/)，它定义了一个RPC方法，用于将以太坊兼容的链添加到钱包应用程序。
 
 Since March 2021 Metamask has implemented that EIP as part of their Metamask [Custom Networks API](https://consensys.net/blog/metamask/connect-users-to-layer-2-networks-with-the-metamask-custom-networks-api/).
 
@@ -86,5 +86,5 @@ Dapps users are often not very technically sophisticated and onboarding them nee
 
 If you have any questions, problems, or ideas on how to improve, or simply want to join our developer community, you can contact us on our [Discord](https://chat.avalabs.org/) server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI3ODYwMzRdfQ==
+eyJoaXN0b3J5IjpbLTQzODQ3ODU4NV19
 -->
