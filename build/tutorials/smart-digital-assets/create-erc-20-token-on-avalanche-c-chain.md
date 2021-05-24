@@ -89,7 +89,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ![Image for post](https://miro.medium.com/max/1364/1*6pmdpKWiKj4RW-OcvMSijA.png)
 
-我们在预设中ERC20PresetMinterPauser.sol文件。该文件由OpenZeppelin根据附铸造功能的ERC20标准编写。部署此文件后，我们将成为合约所有者，进而有权限和能力来铸造代币。
+我们在预设中包含有ERC20PresetMinterPauser.sol文件。该文件由OpenZeppelin根据附铸造功能的ERC20标准编写。部署此文件后，我们将成为合约所有者，进而有权限和能力来铸造代币。
 
 ![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
@@ -101,7 +101,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 然后，跳到第三个选项，即DEPLOY & RUN TRANSACTION。部署我们的合约之前，我们应更改环境。单击ENVIROMENT，并选择“Injected Web3”。如果跳出一个弹窗，要求您连接账户，请单击以连接。然后，您应该在“ACCOUNT”文本框中看到账户地址。
 
-在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 file in the presets. This file is written by OpenZeppelin according to ERC20 standards with minter functionality. After deploying this file, we will be the owner of the contract and thus have the authority and ability to mint the tokens.
+在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 “ERC20PresetMinterPauser.sol”的合约。
 
 ![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
@@ -197,7 +197,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEyMzU4OTAsMTgwMDYxOTI0MywtMT
-EwOTU4NDM4MywtMTIzODYwNzI0LDE5NTE3NTgwOTIsLTE5Mjky
-MzUyNDNdfQ==
+eyJoaXN0b3J5IjpbODkzNjA5Nzg0LDE4MDA2MTkyNDMsLTExMD
+k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
+MjQzXX0=
 -->
