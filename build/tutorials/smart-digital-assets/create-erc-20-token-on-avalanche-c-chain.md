@@ -102,6 +102,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 然后，跳到第三个选项，即DEPLOY & RUN TRANSACTION。部署我们的合约之前，我们应更改环境。单击ENVIROMENT，并选择“Injected Web3”。如果跳出一个弹窗，要求您连接账户，请单击以连接。然后，您应该在“ACCOUNT”文本框中看到账户地址。
 
 在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 “ERC20PresetMinterPauser.sol”的合约。
+![Image for post](https://camo.githubusercontent.com/8bcd19936ebf99d4831d07dbce4f6d9973a1b5641810f0a5f34e3d398260be31/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3338332f312a73394c745a753468537550635677565a7377655a4a412e706e67)
 
 ![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
@@ -197,7 +198,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNjA5Nzg0LDE4MDA2MTkyNDMsLTExMD
+eyJoaXN0b3J5IjpbNTY5MTgxNjk1LDE4MDA2MTkyNDMsLTExMD
 k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
 MjQzXX0=
 -->
