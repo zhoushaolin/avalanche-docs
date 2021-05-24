@@ -56,14 +56,11 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
 
 如需为测试网充值，您还可以使用测试网接口。导航至[https://faucet.avax-test.network/](https://faucet.avax-test.network/)，并粘贴您的C-AVAX地址。
 
-
 ### 为本地测试网充值
 
-在本地网上，通过部署您自己的接口，您可以轻松地为您的地址充值。教程Funding on local testnet
+在本地网上，通过部署您自己的接口，您可以轻松地为您的地址充值。教程[Tutorial](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
 
-On a local network, you can easily fund your addresses by deploying your own faucet. [Tutorial](https://medium.com/avalabs/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146)
-
-访问Let’s go to [avax faucet](https://faucet.avax-test.network/) 并粘贴我们的地址，附上前缀and paste our address with prefix “C-”。.
+访问[avax faucet](https://faucet.avax-test.network/) 并粘贴我们的C链地址，附上前缀and paste our address with prefix “C-”。.
 
 例如，我的地址是For example my address is “0xfe8886bec537252040Dff36448C0F104Be635650”, 我需要把我的账户地址粘贴为I need to paste my account address as “C-0xfe8886bec537252040Dff36448C0F104Be635650”
 
@@ -209,7 +206,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzYzMDgxNywxODAwNjE5MjQzLC0xMT
+eyJoaXN0b3J5IjpbMTEwOTU4NTg0NiwxODAwNjE5MjQzLC0xMT
 A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
 NTI0M119
 -->
