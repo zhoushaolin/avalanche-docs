@@ -141,19 +141,14 @@ Remix应该能找到所部署的合约：
 
 ![Withdraw](../../../.gitbook/assets/wavax2avax-09-withdraw.png)
 
-但是，取回区是以wei计价的，因此在取回金额中，10个单位的AVAX被表示为`10000000000000000000` \(10^19\) 。长按**Transact**，会先触发Remix的确认，然后触发MetaMmask的确认。你的AVAX应该fan回到账户里，减去手续费金额。
+但是，取回区是以wei计价的，因此在取回金额中，10个单位的AVAX被表示为`10000000000000000000` \(10^19\) 。长按**Transact**，会先触发Remix的确认，然后触发MetaMmask的确认。你的AVAX应该返回到账户里，减去手续费金额。
 
-## 总结
+## 结论
 
 你现在可以用WAVAX（ERC-20版本的AVAX）在Avalanche的C链上与智能合约交互了。之后，有了钱包和交易的内置支持，AVAX和WAVAX之间的转化会明显容易得多，但与此同时，你仍可以访问Avalanche平台上的DEX、桥梁和其他基于Solidity的合约。
-. Your AVAX should be back in the account, minus the fee amount.
-
-## Conclusion
-
-You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMjAwNDExLC02OTE3NzI0NjUsLTEwNT
-U3NzM1MzQsLTk0NTc0NTk1NSwtMTc4OTYzOTE1MSwxODE3NDkz
-NjA1XX0=
+eyJoaXN0b3J5IjpbLTg1NTc5MDQyMywtNjkxNzcyNDY1LC0xMD
+U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
+MzYwNV19
 -->
