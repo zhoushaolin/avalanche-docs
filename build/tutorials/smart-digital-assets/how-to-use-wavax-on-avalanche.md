@@ -2,7 +2,7 @@
 
 ## 什么是WAVAX?
 
-[AVAX](../../../#avalanche-avax-token)是Avalanche平台 is the native token on the [Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链. Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的AVAX \(WAVAX\)。
+[AVAX](../../../#avalanche-avax-token)是Avalanche平台[Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链[Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的AVAX \(WAVAX\)。
 
 ## 概述
 
@@ -148,7 +148,7 @@ Remix应该能找到所部署的合约：
 你现在可以用WAVAX（ERC-20版本的AVAX）在Avalanche的C链上与智能合约交互了。之后，有了钱包和交易的内置支持，AVAX和WAVAX之间的转化会明显容易得多，但与此同时，你仍可以访问Avalanche平台上的DEX、桥梁和其他基于Solidity的合约。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTc5MDQyMywtNjkxNzcyNDY1LC0xMD
+eyJoaXN0b3J5IjpbLTk4MTEwOTgyMSwtNjkxNzcyNDY1LC0xMD
 U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
 MzYwNV19
 -->
