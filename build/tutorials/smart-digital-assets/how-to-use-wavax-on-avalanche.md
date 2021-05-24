@@ -1,6 +1,4 @@
-# 在Avalanche上使用包装过的AVAX代币（ \(WAVAX）
-
-## 什么是\) on Avalanche
+# 在Avalanche上使用包装过的AVAX\(WAVAX\) 
 
 ## What is WAVAX？?
 
@@ -220,6 +218,6 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU2MjEwOTgsLTEwNTU3NzM1MzQsLT
+eyJoaXN0b3J5IjpbLTE3OTk4NzY0MDgsLTEwNTU3NzM1MzQsLT
 k0NTc0NTk1NSwtMTc4OTYzOTE1MSwxODE3NDkzNjA1XX0=
 -->
