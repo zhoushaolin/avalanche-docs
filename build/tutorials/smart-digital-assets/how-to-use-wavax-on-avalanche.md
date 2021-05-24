@@ -8,24 +8,18 @@
 
 若要将AVAX转化为WAVAX，你需将AVAX存入一个智能合约，它会锁住该AVAX然后发给你WAVAX。若要将WAVAX转化为AVAX，你需将该WAVAX归还给该智能合约，该智能合约会销毁WAVAX，并返还你的AVAX。
 
-在这一教程中，你需要：
+在这一教程中，你将：
 
-* 将In this tutorial, you will:
-
-* Connect MetaMmask连接到 to Avalanche 上
-* 充值你的Fund your MetaMmask账户 
+* MetaMmask连接到Avalanche上
+* 充值你的MetaMmask账户 
 * 将WAVAX合约上传至Remix
 * 连接到预部署的WAVAX合约
 * 将AVAX转化为WAVAX，再转回
-* 将WAVAX作为一个自定义代币添加至 account  
-* Load the WAVAX contract into Remix
-* Connect to the pre-deployed WAVAX contract
-* Convert AVAX to WAVAX and back
-* Add WAVAX as a custom token to MetaMmask
+* 将WAVAX作为一个自定义代币添加至MetaMmask
 
-## 连接Connect Metamask
+## 连接Metamask
 
-[Metamask](https://metamask.io/)是一款流行的浏览器扩展插件，有了它，可以快捷地与以太坊和兼容的区块链（比如 Avalanche 的C链）交互。设置 is a popular web browser extension that makes it easy to interact with Ethereum and compatible blockchains, such as Avalanche's C-Chain. Setting up MetaMmask并在其上创建一个账户不在本教程的范围内，但是网上有许多相关资源。
+[Metamask](https://metamask.io/)是一款流行的浏览器扩展插件，有了它，可以快捷地与以太坊和兼容的区块链（比如 Avalanche 的C链）交互。设置MetaMmask并在其上创建一个账户不在本教程的范围内，但是网上有许多相关资源。
 
 登录你的 and creating an account on it is beyond the scope of this tutorial, but there are a number of resources on the internet to walk you through that.
 
@@ -214,6 +208,6 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzQyMDM0LC0xMDU1NzczNTM0LC05ND
-U3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5MzYwNV19
+eyJoaXN0b3J5IjpbMTg0NTIxMTQ1NiwtMTA1NTc3MzUzNCwtOT
+Q1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0OTM2MDVdfQ==
 -->
