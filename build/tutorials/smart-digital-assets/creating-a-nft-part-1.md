@@ -53,9 +53,9 @@ avm.createNFTAsset({
 ### **响应**
 
 * `assetID` 是我们将要创建的新资产的ID。
-* `changeAddr` in the result is the address where any change was sent.
+* `changeAddr` 结果是发送任何更改的地址。
 
-Later in this example, we’ll mint an NFT, so be sure to replace at least 1 address in the minter set with an address which your user controls.
+在本例的后面，我们将创建一个NFT，因此一定要用用户控制的地址替换铸造器集中的至少一个地址。
 
 ```cpp
 curl -X POST --data '{
@@ -79,7 +79,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should look like this:
+这个响应当如下:
 
 ```cpp
 {
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM1NDIwMjddfQ==
+eyJoaXN0b3J5IjpbNTc0NDgxMDQ5XX0=
 -->
