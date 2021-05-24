@@ -14,11 +14,9 @@ Avalanche还支持非同质化代币(NFT)。根据定义，每个 NFT都是唯�
 
 ## 创建NFT家族
 
-每个NFT都归属一个**家族**，这个家族有名称和符号。每个家族由许多的**组**构成。家族中的组数量在创建家族时指定。我们的NFT将存在于X-Chain上，因此要创建我们的NFT家族，我们将调用[' avm.createNFTAsset '](.. ./雪崩- API /exchange-chain- API .md#avm-createnftasset)，这是[X-Chain的API](.. ./雪崩- API /exchange-chain-x-chain-api.md)的一个方法。
+每个NFT都归属一个**家族**，这个家族有名称和符号。每个家族由许多的**组**构成。家族中的组数量在创建家族时已经指定。我们的NFT将存在于X链上，因此要创建我们的NFT家族，我们将调用[`avm.createNFTAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createnftasset)，这是[X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md)的一个方法。
 
-Each NFT belongs to a **family**, which has a name and a symbol. Each family is composed of **groups**. The number of groups in a family is specified when the family is created. Our NFT will exist on the X-Chain, so to create our NFT family we’ll call [`avm.createNFTAsset`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createnftasset), which is a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md).
-
-The signature for this method is:
+这个方法的签名是:
 
 ```cpp
 avm.createNFTAsset({
@@ -361,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTM1Mzg1MV19
+eyJoaXN0b3J5IjpbLTM4Mjg5MTM3MV19
 -->
