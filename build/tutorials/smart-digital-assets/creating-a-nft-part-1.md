@@ -101,15 +101,13 @@ curl -X POST --data '{
 
 ## 为NFT获取UTXO
 
-NFT输出不显示在调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) 或[`avm.getAllBalances`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getallbalances)中。要查看您的NFT，您必须调用[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) ，然后解析utxo以检查类型ID。NFT Mint Outputs有一个类型id `00 00 00 0a`在十六进制\(`10`在十进制\)和NFT Transfer Outputs有一个类型id ' 00 00 00 0b '在十六进制\(' 11 '在十进制\)。
+NFT输出不显示在调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) 或[`avm.getAllBalances`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getallbalances)中。要查看您的NFT，您必须调用[`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) ，然后解析utxo以检查类型ID。NFT 铸造输出有一个类型id `00 00 00 0a`十六进制\(`10`十进制\)和NFT 传输输出有一个类型id `00 00 00 0b`十六进制\(`11`十进制\)。
 
- NFT Mint Outputs have a type id of `00 00 00 0a` in hexidecimal \(`10` in decimal\) and NFT Transfer Outputs have a type id of `00 00 00 0b` in hexdecimal \(`11` in decimal\).
-
-### **Method**
+### **方法**
 
 * [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)
 
-### **Parameters**
+### **参数**
 
 * `addresses` are the addresses to fetch UTXOs for.
 
@@ -361,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODI3NTU2XX0=
+eyJoaXN0b3J5IjpbMTUyOTEyMzE1Ml19
 -->
