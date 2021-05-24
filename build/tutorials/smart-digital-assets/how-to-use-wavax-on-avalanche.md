@@ -1,8 +1,8 @@
 # 在Avalanche上使用包装过的AVAX\(WAVAX\) 
 
-## What is WAVAX？?
+## 什么是WAVAX?
 
-[AVAX](../../../#avalanche-avax-token)是Avalanche平台 is the native token on the [Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链. Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的, which is an instance of the Ethereum Virtual Machine, are designed to work with Ethereum's ERC-20 tokens. In order to use AVAX in such contracts, you must use wrapped AVAX（ \(WAVAX）。
+[AVAX](../../../#avalanche-avax-token)是Avalanche平台 is the native token on the [Avalanche platform](../../../learn/platform-overview/)上的本地代币。合约链C链. Many smart contracts on the [Contract Chain \(C-Chain\)](../../../learn/platform-overview/#contract-chain-c-chain)上的很多智能约（即以太坊虚拟机实例）的设计目的是与以太坊ERC-20代币协作。为了在此类合约中使用AVAX，您必须使用与ERC-20兼容的包装过的AVAX（ \(WAVAX）。
 
 ## 概述
 
@@ -218,6 +218,6 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk4NzY0MDgsLTEwNTU3NzM1MzQsLT
-k0NTc0NTk1NSwtMTc4OTYzOTE1MSwxODE3NDkzNjA1XX0=
+eyJoaXN0b3J5IjpbLTYwNjQwOTg1NywtMTA1NTc3MzUzNCwtOT
+Q1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0OTM2MDVdfQ==
 -->
