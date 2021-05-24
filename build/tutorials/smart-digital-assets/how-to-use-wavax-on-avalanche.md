@@ -94,11 +94,9 @@ Remix是一款流行的基于浏览器的编写、部署智能合约并与其交
 
 确保你已经登录了你的MetaMmask账户。在**Environment**”的下拉菜单中，选择`Injected Web3`。MetaMask会突然弹出，让你选择账户。选择Avalanche，并允许连接。这将预填满“**Account**”字段。确保“**Contract**”字段是 `WAVAX`合约。现在我们可以连接在Avalanche上发布了的合约。在“**At Address**”编辑区，复制：
 * 主网：
-mask will pop up and ask you to select the account. Choose the one connected to Avalanche and allow it to connect. This will pre-fill the **Account** field. Make sure the **Contract** field is set to the `WAVAX` contract. Now we can connect to the contract, which has already published on Avalanche. In the **At Address** edit field, copy:
+`0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
 
-* For Mainnet: `0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
-
-* 富士测试网：For Fuji Testnet: `0xd00ae08403B9bbb9124bB305C09058E32C39A48c`
+* 富士测试网：`0xd00ae08403B9bbb9124bB305C09058E32C39A48c`
 
 粘贴好地址后，长按“**At Address**”按钮。
 
@@ -113,19 +111,7 @@ Remix应该能找到所部署的合约：
 
 让我们一起来打包AVAX吧！
 
-因为ETH以10^18个小单位(wei\)计价，而AVAX以10^9计价，将值选择器从After pasting the address, press the **At Address** button.
-
-Remix should find the deployed contract:
-
-![Connect](../../../.gitbook/assets/wavax2avax-07-avalanche-contract.png)
-
-We are now ready to interact with the contract. Open the contract interface by pressing the highlighted arrow.
-
-## Issue Commands to the WAVAX Contract
-
-Let's wrap some AVAX!
-
-Since ETH is denominated in 10^18 smaller units \(wei\), and AVAX is denominated in 10^9, switch the value selector from `wei`切换到 to `gwei` \(gigawei\)。. 1 gwei = 10^9 wei = 1 nAVAX。.
+因为ETH以10^18个小单位(wei\)计价，而AVAX以10^9计价，将值选择器从`wei`切换到`gwei` \(gigawei\)。1 gwei = 10^9 wei = 1 nAVAX。
 
 ![Interaction](../../../.gitbook/assets/wavax2avax-08-interact.png)
 
@@ -177,7 +163,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDUyNjEwMSwtNjkxNzcyNDY1LC0xMD
-U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
-MzYwNV19
+eyJoaXN0b3J5IjpbLTEzNjg1MTE4MDcsLTY5MTc3MjQ2NSwtMT
+A1NTc3MzUzNCwtOTQ1NzQ1OTU1LC0xNzg5NjM5MTUxLDE4MTc0
+OTM2MDVdfQ==
 -->
