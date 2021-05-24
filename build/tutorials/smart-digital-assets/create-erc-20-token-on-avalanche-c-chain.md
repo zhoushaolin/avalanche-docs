@@ -103,10 +103,10 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 在进行部署过程前, 最后一件事是设置将部署为代币的合约。部署按钮(Deploy)上方有一个下拉菜单，您可以选择合约。选择名为 “ERC20PresetMinterPauser.sol”的合约。
 ![Image for post](https://camo.githubusercontent.com/8bcd19936ebf99d4831d07dbce4f6d9973a1b5641810f0a5f34e3d398260be31/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3338332f312a73394c745a753468537550635677565a7377655a4a412e706e67)
-Now, here enter the name and symbol of your token. I will name it “test” and the symbol will be “tst”. You can give it a and click to transact button.
-现在，在这里输入您的代币的名称和符号。命名为“test”，符号为tst。你可以给它一个，然后点击交易按钮。
-![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
+现在，在这里输入您的代币的名称和符号。命名为“test”，符号为“tst”。你可以给它一个，然后点击交易按钮。
+![Image for post](https://camo.githubusercontent.com/53746b928ab261a39bb846643588a359e764a3899b062e6c0d182406c73fc875/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3539332f312a5a4b4445765f685f5071666433623750416f735851772e706e67)
+单击按钮后，将弹出一个窗口并确认它。
 ## Deploy the Contract
 
 Open the second tab which is “SOLIDITY COMPILER” and select the solidity version that matches with the solidity version written in file as “pragma solidity …..”. The version should be equal to or higher than the file’s version. For example, in my file, “pragma solidity ^0.6.0” is written so the required version is 0.6.0 or higher. As shown, in the compiler the solidity version is 0.6.6, which is ok. After checking the solidity version click the compile button. If you did not change anything in the file, or the solidity version is not wrong, the contract should compile without any errors.
@@ -199,7 +199,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Nzg4ODU5MiwxODAwNjE5MjQzLC0xMT
-A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
-NTI0M119
+eyJoaXN0b3J5IjpbMzY3NDExNjgyLDE4MDA2MTkyNDMsLTExMD
+k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
+MjQzXX0=
 -->
