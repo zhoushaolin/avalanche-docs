@@ -77,7 +77,7 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
 
 您应该查看此页面。此页面上，首先，单击“Featured Plugins”中的“SOLIDITY”，然后单击“New File”按钮。当您单击New File按钮时，您会看到一个弹窗，要求填写文件名。您可以选择一个文件名或选择默认。
 
-由于我们将使用 [OpenZeppelin](https://openzeppelin.com/contracts/)的ERC-20合约，因此只需粘贴此段至文件并保存即可。, just paste this line to the file and save.
+由于我们将使用 [OpenZeppelin](https://openzeppelin.com/contracts/)的ERC-20合约，因此只需粘贴此段至文件并保存即可。
 
 ```javascript
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol";
@@ -85,11 +85,11 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ![Image for post](https://miro.medium.com/max/1408/1*y1wpcCeB8PypnPfs-zhyBg.png)
 
-保存文件后，我们会看到一堆导入到Remix的文件。通过该Remix特征，我们可以仅通过提供URL链接将GitHub合同库导入到Remix中。附导入说明。After saving the file, we will see a bunch of files that are imported to remix. This is a remix feature that allows us to import a GitHub contract repository to remix by just giving the URL-Link. with an import statement.
+保存文件后，我们会看到一堆导入到Remix的文件。通过该Remix特征，我们可以仅通过提供URL链接将GitHub合同库导入到Remix中。附导入说明。
 
 ![Image for post](https://miro.medium.com/max/1364/1*6pmdpKWiKj4RW-OcvMSijA.png)
 
-我们在预设中拥有We have ERC20PresetMinterPauser.sol文件。该文件由OpenZeppelin根据附铸造功能的ERC20标准编写。部署此文件后，我们将成为合约所有者，进而有权限和能力来铸造代币。
+我们在预设中ERC20PresetMinterPauser.sol文件。该文件由OpenZeppelin根据附铸造功能的ERC20标准编写。部署此文件后，我们将成为合约所有者，进而有权限和能力来铸造代币。
 
 ![Image for post](https://miro.medium.com/max/1398/1*5UcrRfoSwjpD29NyuMrrbA.png)
 
@@ -197,7 +197,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5ODY3MTE1LDE4MDA2MTkyNDMsLTExMD
-k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
-MjQzXX0=
+eyJoaXN0b3J5IjpbLTE0MTEyMzU4OTAsMTgwMDYxOTI0MywtMT
+EwOTU4NDM4MywtMTIzODYwNzI0LDE5NTE3NTgwOTIsLTE5Mjky
+MzUyNDNdfQ==
 -->
