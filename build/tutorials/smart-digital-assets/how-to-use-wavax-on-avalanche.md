@@ -121,11 +121,11 @@ Remix应该能找到所部署的合约：
 
 ## 在Metamask中添加WAVAX
 
-要查看你的WAVAX余额，你必须将WAVAX作为自定义代币添加到Metamask。在. In Metamask中，选择帐户名称旁边的三个点，并选择`Expand View`。这将打开一个新的浏览器选项卡。向下滚动并选择**Add token**。切换到, select the three dots next to your account name and select `Expand View`. This opens a new browser tab. Scroll down and select **Add token**. Switch to the **Custom Token**选项。 tab.
+要查看你的WAVAX余额，你必须将WAVAX作为自定义代币添加到Metamask。在Metamask中，选择帐户名称旁边的三个点，并选择`Expand View`。这将打开一个新的浏览器选项卡。向下滚动并选择**Add token**。切换到**Custom Token**选项。 
 
 ![Custom Token](../../../.gitbook/assets/wavax2avax-10-add-token.png)
 
-在“In the **Token Contract Address**”区粘贴前面使用过的合约地址：
+在**Token Contract Address**”区粘贴前面使用过的合约地址：
 
 * 主网 paste the same contract address we used before:
 
@@ -133,11 +133,9 @@ Remix应该能找到所部署的合约：
 `0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
 * 富士测试网For Fuji test net: `0xd00ae08403B9bbb9124bB305C09058E32C39A48c`
 
-点击Click **Next** 以及and **Add Tokens**。你的WAVAX现在应该出现在. Your WAVAX should now be visible in under your account in MetMmask中你的账户下。
+点击Click **Next** 以及and **Add Tokens**。你的WAVAX现在应该出现在MetMmask中你的账户下。
 
-### 解压.
-
-### Unwrap WAVAX, 恢复 to AVAX
+### 解压WAVAX, 恢复 to AVAX
 
 要解压WAVAX，请展开“To unwrap WAVAX, expand the arrow next to **Withdraw**”按钮旁的箭头： button:
 
@@ -155,7 +153,7 @@ Remix应该能找到所部署的合约：
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDQ1NDAzNCwtNjkxNzcyNDY1LC0xMD
+eyJoaXN0b3J5IjpbMTcxNzA0OTU3NSwtNjkxNzcyNDY1LC0xMD
 U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
 MzYwNV19
 -->
