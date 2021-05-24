@@ -34,15 +34,15 @@ ERC-20代币是以太坊中最基础和必要的概念。随着Avalanche社区�
   * **主网:** `0xa86a` 
   * **富士测试网:** `0xa869` 
   * **本地测试网:** `0xa868` 
-* **标志Symbol**: C-AVAX
-* **浏览器Explorer**:
-  * **主网Mainnet:** [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network/) 
-  * **富士测试网Fuji Testnet:** [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
-  * **本地网Localnet:** n/a 
+* **标志**: C-AVAX
+* **浏览器**:
+  * **主网:** [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network/) 
+  * **富士测试网:** [https://cchain.explorer.avax-test.network](https://cchain.explorer.avax-test.network/)
+  * **本地网:** n/a 
 
 ![Image for post](https://miro.medium.com/max/358/1*q0HIWcI3okakwYV2glos0A.png)
 
-正确设置好所有参数后，我们应看到此页面。目前，我们拥有0个After setting up all the parameters correctly, we should see this page. For now, we have 0 C-AVAX。. “C”是指C链，我们需要获得一些C-AVAX来与网络互动。
+正确设置好所有参数后，我们应看到此页面。目前，我们拥有0个AVAX。
 
 ## 为您的C链地址充值
 
@@ -220,7 +220,7 @@ Here enter the token address that you can see from explorer as I showed above. C
 .
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTExNTI0OCwxODAwNjE5MjQzLC0xMT
-A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
-NTI0M119
+eyJoaXN0b3J5IjpbLTE5NTg4ODk3MjYsMTgwMDYxOTI0MywtMT
+EwOTU4NDM4MywtMTIzODYwNzI0LDE5NTE3NTgwOTIsLTE5Mjky
+MzUyNDNdfQ==
 -->
