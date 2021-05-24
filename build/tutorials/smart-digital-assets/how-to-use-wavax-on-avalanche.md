@@ -117,7 +117,7 @@ Remix应该能找到所部署的合约：
 
 ### 包装AVAX，创建WAVAX
 
-在“**Value**”字段输入`10000000000（` \(10^10）\) gwei，以打包10个单位（gwei）的AVAX。点击“**存放（****Deposit****）**”，开始打包。你将看到Remix立刻提示你确认交易。当你长按“**确认（****Confirm****）**”时，MetaMask会突然弹出，并也要求你确认。请也长按MetaMask中的“**确认（****Confirm****）**”。你应该注意到你的AVAX余额减少了10个单位，加上费用金额。跳到下一步，查看你在 in the **Value** field. To initiate the wrapping, click **Deposit**. You will be presented with a prompt by Remix to confirm the transaction. When you press **Confirm** MetaMmask中的WAVAX。
+在“**Value**”字段输入`10000000000` (10^10) gwei，打包10点击“**Deposit**”，开始打包。你将看到Remix立刻提示你确认交易。当你长按“**确认（****Confirm****）**”时，MetaMask会突然弹出，并也要求你确认。请也长按MetaMask中的“**确认（****Confirm****）**”。你应该注意到你的AVAX余额减少了10个单位，加上费用金额。跳到下一步，查看你在 in the **Value** field. To initiate the wrapping, click **Deposit**. You will be presented with a prompt by Remix to confirm the transaction. When you press **Confirm** MetaMmask中的WAVAX。
 
 要封装10个AVAX，需在**Value**字段中输入`10000000000` \(10^10\) gwei。要启动包装，单击**Deposi**。Remix会提示您确认交易。当您按 will pop up, also asking for confirmation. Press **Confirm**时， in Metamask将弹出，也要求确认。在Metamask中也按**Confirm**。你应该注意到你的AVAX余额降低了10，外加手续费金额。跳到下一节去看你的Metamask中的WAVAX。
 
@@ -161,7 +161,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NzM1ODc4LC02OTE3NzI0NjUsLTEwNT
-U3NzM1MzQsLTk0NTc0NTk1NSwtMTc4OTYzOTE1MSwxODE3NDkz
-NjA1XX0=
+eyJoaXN0b3J5IjpbLTUyNzE5OTIxNCwtNjkxNzcyNDY1LC0xMD
+U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
+MzYwNV19
 -->
