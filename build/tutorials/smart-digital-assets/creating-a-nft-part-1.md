@@ -300,14 +300,14 @@ Addresses[0]: 3c b7 d3 84 2e 8c ee 6a 0e bd 09 f1 fe 88 4f 68 61 e1 b2 9c
 
 现在，你可以把NFT发送给任何人。要做到这一点，使用AvalancheGo的[`avm.sendNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-sendnft) API方法。
 
-**Method**
+**方法**
 
 * [`avm.sendNFT`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-sendnft)
 
-**Parameters**
+**参数**
 
-* `assetID` is the ID of the NFT we’re sending.
-* `to` is the address that will receive the newly minted NFT.
+* `assetID` 是我们正在发送的NFT的ID。
+* `to` 是将接收新生成的NFT的地址。
 * `groupID` is the NFT group from which to send the NFT.
 * `username` is the user that controls the NFT.
 * `password` is the valid password for `username`
@@ -359,5 +359,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mzc3NDk5NiwtMTg5NDMzMzExMF19
+eyJoaXN0b3J5IjpbMjExMTA4MzQ5MCwtMTg5NDMzMzExMF19
 -->
