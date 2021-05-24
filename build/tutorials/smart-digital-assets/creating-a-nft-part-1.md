@@ -97,10 +97,11 @@ curl -X POST --data '{
 你可能想知道为什么我们指定_sets_的地址，以创造更多的单位的资产，而不是一个单一的地址。原因如下:
 
 * **安全性:** 如果只有一个地址可以铸造更多的资产，并且该地址的私钥丢失了，那么就永远不能铸造更多资产了。同样，如果只有一个地址可以铸造更多的资产，那就没法阻止该地址的持有者单方面铸造他们想要的一切。
-* **灵活性:** 能够编码这样的逻辑是很好的，“小明可以单方铸造这个资产的更多单位，或者小华和Jamie可以一起铸造更多。”
-* it’s nice to be able to encode logic like, “Alice can unilaterally mint more units of this asset, or 2 of Dinesh, Ellin, and Jamie can together mint more.”
+* **灵活性:** 能够编码这样的逻辑是很好的，“小明可以单方铸造这个资产的更多单位，或者小华和小李一起可以铸造更多。”
 
-## Get UTXOs for NFT
+## 为NFT获取UTXO
+
+NFT输出不显示在调用[`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) 或[`avm.getAllBalances`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getallbalances)中。要查看您的nft，您必须调用[' avm.getUTXOs '](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos)，然后解析utxo以检查类型ID。NFT Mint Outputs有一个类型id ' 00 00 00 0a '在十六进制\(' 10 '在十进制\)和NFT Transfer Outputs有一个类型id ' 00 00 00 0b '在十六进制\(' 11 '在十进制\)。
 
 NFT outputs don’t show up in calls to [`avm.getBalance`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getbalance) or [`avm.getAllBalances`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getallbalances). To see your NFTs, you have to call [`avm.getUTXOs`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-getutxos) and then parse the utxo to check for the type ID. NFT Mint Outputs have a type id of `00 00 00 0a` in hexidecimal \(`10` in decimal\) and NFT Transfer Outputs have a type id of `00 00 00 0b` in hexdecimal \(`11` in decimal\).
 
@@ -360,5 +361,5 @@ Blockchain technology and tokenomics represent a radical new way of representing
 In Part 2 of this series, we’ll go more in-depth by using AvalancheJS to create a protocol for our NFT payload by issuing it to multiple groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA0NzQ2MzBdfQ==
+eyJoaXN0b3J5IjpbLTE4MDc3MTQ2OTVdfQ==
 -->
