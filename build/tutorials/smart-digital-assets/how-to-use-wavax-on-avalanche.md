@@ -88,15 +88,11 @@ Remix是一款流行的基于浏览器的编写、部署智能合约并与其交
 
 ## 连接WAVAX合约
 
-在左边切换至“*Check that the compiler version is compatible with the contract, as shown. Press **Compile WAVAX.sol**, and check that WAVAX contract has appeared in the `CONTRACT` field below. Now you're ready to connect to the WAVAX contract, which has already been deployed on the Avalanche network.
-
-## Connect to the WAVAX contract
-
-Switch to the **Deploy & Run Tranasactions**”标签。 tab on the left side.
+在左边切换至**Deploy & Run Tranasactions**”标签。 
 
 ![Connect](../../../.gitbook/assets/wavax2avax-06-deploy.png)
 
-确保你已经登录了你的Make sure you're logged in to your MetaMmask账户。在“. In the **Environment**”的下拉菜单中，选择 dropdown menu, select `Injected Web3`。. MetaMask会突然弹出，让你选择账户。选择Avalanche，并允许连接。这将预填满“**Account**”字段。确保“**Contract**”字段是 `WAVAX`合约。现在我们可以连接在Avalanche上发布了的合约。在“**At Address**”编辑区，复制：
+确保你已经登录了你的MetaMmask账户。在**Environment**”的下拉菜单中，选择`Injected Web3`。MetaMask会突然弹出，让你选择账户。选择Avalanche，并允许连接。这将预填满“**Account**”字段。确保“**Contract**”字段是 `WAVAX`合约。现在我们可以连接在Avalanche上发布了的合约。在“**At Address**”编辑区，复制：
 * 主网：
 mask will pop up and ask you to select the account. Choose the one connected to Avalanche and allow it to connect. This will pre-fill the **Account** field. Make sure the **Contract** field is set to the `WAVAX` contract. Now we can connect to the contract, which has already published on Avalanche. In the **At Address** edit field, copy:
 
@@ -181,7 +177,7 @@ To see your WAVAX balance, you must add WAVAX as a custom token to Metamask。�
 You can now interact with smart contracts on Avalanche's C-Chain with WAVAX, the ERC-20 version of AVAX. In the future, converting between AVAX and WAVAX will be significantly simpler, with built-in support from the Wallet and exchanges, but in the meantime, you can still access DEXes, bridges and other Solidity-based contracts on the Avalanche Platform.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTYyNzM2MCwtNjkxNzcyNDY1LC0xMD
+eyJoaXN0b3J5IjpbLTczNDUyNjEwMSwtNjkxNzcyNDY1LC0xMD
 U1NzczNTM0LC05NDU3NDU5NTUsLTE3ODk2MzkxNTEsMTgxNzQ5
 MzYwNV19
 -->
