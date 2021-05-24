@@ -153,17 +153,13 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 ## 将代币添加至Metamask
 
-现在，我们为合约铸造了1000个代币，但是您应该无法看到您的MetaMask钱包中的代币。为了查看我们自己的代币，我们必须添加它。在MAdd Token to Metamask
+现在，我们为合约铸造了1000个代币，但是您应该无法看到您的MetaMask钱包中的代币。为了查看我们自己的代币，我们必须添加它。在metaMmask上，单击“Add Token”按钮并选择“Custom Token”选项。
 
-Now we minted 1000 token to our contract, but you should not be able to see the tokens in your metamask wallet. In order to see our own token, we have to add it. On metaMmask上，单击“Add Token”按钮并选择“Custom Token”选项。
+在此输入您可以从浏览器中看到的代币地址，如上所示。将其复制并粘贴于此。然后单击下一步(Next)按钮，您应该在您的MetaMask钱包中看到您命名的1000个代币。同样，您可以通过Remix或metaMmask将其发送到另一个账户。
 
-在此输入您可以从浏览器中看到的代币地址，如上所示。将其复制并粘贴于此。然后单击下一步(Next)按钮，您应该在您的MetaMask钱包中看到您命名的1000个代币。同样，您可以通过Remix或M, click to “Add Token” button and select “Custom Token” tab.
-
-Here enter the token address that you can see from explorer as I showed above. Copy and paste it here. Then click on the Next button, you should see 1000 token that you named in your metamask wallet. Also, you can send it to another account via either remix or metaMmask将其发送到另一个账户。
-.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjA5NDQxNSwxODAwNjE5MjQzLC0xMT
-A5NTg0MzgzLC0xMjM4NjA3MjQsMTk1MTc1ODA5MiwtMTkyOTIz
-NTI0M119
+eyJoaXN0b3J5IjpbNjE3MDM4MTkxLDE4MDA2MTkyNDMsLTExMD
+k1ODQzODMsLTEyMzg2MDcyNCwxOTUxNzU4MDkyLC0xOTI5MjM1
+MjQzXX0=
 -->
