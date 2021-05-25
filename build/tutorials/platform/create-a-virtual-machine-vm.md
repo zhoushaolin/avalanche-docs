@@ -12,8 +12,7 @@ Avalanche的核心特征之一是创建新的自定义区块链，这些区块�
 
 在讨论虚拟机的实现之前，我们先来看一下虚拟机为与平台的Avalanche共识引擎兼容而必须实现的接口。我们将展示并解释代码片段中的所有代码。如果您想查看完整代码，而非代码片段，可参阅[GitHub repository](https://github.com/ava-labs/avalanchego/tree/master/vms/timestampvm)。
 
-## `snowman.VM` Interface
-
+## `snowman.VM` 接口
 为了就线性区块链\(相对于DAG区块链而言\)达成共识，Avalanche采用Snowman共识协议。为了与Snowman兼容，定义区块链的虚拟机必须实现`snowman.VM`接口，我们在[`github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go`](https://github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go)的声明中包含了这个接口。
 
 接口很多，但是不用担心，我们将对每种方法进行解释并观看一个实现示例。您没必要了解每一个细节。
@@ -717,6 +716,6 @@ curl -X POST --data '{
 * `core.SnowmanVM`和`core.Block` 库型, 提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTc5MjA1MSwtNTQ3MDI5MTAsNTU0Mj
-k0OTI5XX0=
+eyJoaXN0b3J5IjpbMTI1OTI2MjcxMiwyMDUxNzkyMDUxLC01ND
+cwMjkxMCw1NTQyOTQ5MjldfQ==
 -->
