@@ -64,9 +64,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**OkCoin**](https://www.okcoin.com/spot/trade/avax-usd): 在美国44个州获得许可，总部位于旧金山的全球加密货币交易所。它使184个国家的用户可以轻松地在加密货币和法定货币之间转换。
 
 \*\*\*\*[**Pangolin**](https://pangolin.exchange/): 一个社区驱动的去中心化的Avalanche和以太坊资产交易所，具有快速结算、低交易费用和民主分配——由Avalanche提供动力。穿山甲为您带来最佳的交易机会，以发现和最大化您的收益。
-A community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution–powered by Avalanche. Pangolin brings you the best trading opportunities to find and maximize your yield.
 
-\*\*\*\*[**Reef**](https://reef.finance/): a smart liquidity aggregator and yield engine that enables trading with access to liquidity from both CEXs and DEXs.
+\*\*\*\*[**Reef**](https://reef.finance/): 一个智能的流动性集成商和收益引擎，使交易能够获得来自CEX和DEX的流动性。
 
 \*\*\*\*[**Voyager**](https://www.investvoyager.com): the United States' \#1 commission-free crypto broker.
 
@@ -197,7 +196,8 @@ A community-driven decentralized exchange for Avalanche and Ethereum assets with
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzk4NTc0MCwtMzkxNDg2NTgxLC01Nj
-ExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUz
-LC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTE0OTY5MTMxNzAsLTM5MTQ4NjU4MSwtNT
+YxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1
+MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ
+==
 -->
