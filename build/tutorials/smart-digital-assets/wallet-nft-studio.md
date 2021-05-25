@@ -38,15 +38,7 @@
 
 ![Mint a Collectible](../../../.gitbook/assets/nft-studio-04-mint.png)
 
-默认情况下，系统会选择一种**Generic**类型的藏品。这是包含 you will be presented with a list of all the Collectible families that still have Collectible groups that have not been created yet.
-
-![Select a family](../../../.gitbook/assets/nft-studio-03-select-family.png)
-
-Select the family we have just created. You will be presented with a form to fill out with the parameters of the new collectible:
-
-![Mint a Collectible](../../../.gitbook/assets/nft-studio-04-mint.png)
-
-By default, a **Generic** type of collectible will be selected. That is an NFT that has a **Title**、图像, **URL**和**Description**的NFT。请输入所需数据和**数量**，以决定将创建多少份藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的藏品是什么样子。
+默认情况下，系统会选择一种**Generic**类型的藏品。这是包含**标题**、**URL**图像和**描述**的NFT。请输入所需数据和**数量**，以决定将创建多少份藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的藏品是什么样子。
 
 如果您想拥有图片藏品以外的其他内容，请选择 for the image, and a **Description**. Enter the required data, as well as the **Quantity**, which will determine how many copies of the collectible will be created, and therefore, how many of them you will be able to send. As before, enter the data carefully, you won't be able to change anything once collectibles are minted. You will see a preview of the data where you can check how your collectible will look like.
 
@@ -129,7 +121,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) 联系我们。server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTAxODU3NDIsMTQwNjY1NjE5NiwtMT
+eyJoaXN0b3J5IjpbLTEwMzQ5NDkxNzMsMTQwNjY1NjE5NiwtMT
 U2NTU3ODU1MiwtNjA1NjgwMzcxLC00NjE3ODE4NDQsLTQ0MjQ5
 NzMwOCwxODY1NTQwMzI3LC0xNjI1OTU2MjQzLC04MzU5MjQzMj
 YsMTY3ODIxNzYxN119
