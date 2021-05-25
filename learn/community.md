@@ -57,7 +57,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Fulcrum**](https://fulcrum.trade/): 
 一个强大的代币化借贷和保证金交易的DeFi平台。
 
-\*\*\*\*[**Injective Protocol**](https://injectiveprotocol.com/): is the first layer-2 decentralized exchange protocol that unlocks the full potential of decentralized derivatives and borderless DeFi. Injective Protocol enables fully decentralized trading without any restrictions, allowing individuals to trade on any derivative market of their choosing.
+\*\*\*\*[**Injective 协议**](https://injectiveprotocol.com/): 是第二层去中心化交换协议，它释放了去中心化衍生品和无边界定义的全部潜力。Injective协议允许完全去中心化交易，不受任何限制，允许个人在他们选择的任何衍生品市场上交易。
 
 [**JellySwap**](https://jelly.market/): a decentralized application for cross-chain swaps allowing value transfer between different networks.
 
@@ -196,7 +196,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTQ4NjU4MSwtNTYxMTk2MzU0LC00Nz
-k4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMzk5OTIxNDE3
-LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
+eyJoaXN0b3J5IjpbLTU5ODU4OTMyOCwtMzkxNDg2NTgxLC01Nj
+ExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUz
+LC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
