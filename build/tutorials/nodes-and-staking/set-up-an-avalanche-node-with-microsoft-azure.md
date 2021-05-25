@@ -69,7 +69,7 @@
 
 ![Image for post](https://miro.medium.com/max/756/1*zWWiYhloPdnKEXGhZJA3dQ.png)
 
-选择“Select size”来更改虚拟机大小，然后选择D-Series v4选项下的D2s\_v4\(这个大小有2个内核，8GB内存，并启用Premium SSDs\)。您也可以使用F2s\_v2实例，它有2个内核、4 GB内存，并启用Premium SSDs，但对于目前采用spot instance价格的更大型的VM来说，价格实际上更便宜。您可以点击[this link](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)查看不同地区的价格。
+选择“Select size”来更改虚拟机大小，然后选择D-Series v4选项下的D2s\_v4\(这个大小有2个内核，8GB内存，并启用Premium SSDs\)。您也可以使用F2s\_v2实例，它有2个内核、4 GB内存，并启用Premium SSDs，但对于目前采用点实例价格的更大型的VM来说，价格实际上更便宜。您可以点击[this link](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)查看不同地区的价格。
 
 ![Image for post](https://miro.medium.com/max/957/1*JzebwGho6qDFbzlqCJSN9w.png)
 
@@ -77,7 +77,7 @@
 
 ![Image for post](https://miro.medium.com/max/763/1*UQYmhtL8JMhrOkaWk8cloA.png)
 
-在本文撰写之时，北欧D2s\_v4的spot instance定价为每小时0.07975美元，每年大约698.61美元。采用spot instance定价，价格降至每小时0.01295美元，约合每年113.44美元，**节省83.76%！**
+在本文撰写之时，北欧D2s\_v4的点实例定价为每小时0.07975美元，每年大约698.61美元。采用点实例定价，价格降至每小时0.01295美元，约合每年113.44美元，**节省83.76%！**
 
 有些地区甚至更便宜，例如东美每小时0.01060美元，每年大约92.86美元！
 
@@ -322,7 +322,7 @@ scp -i C:\Avalanche\avalanche_key.pem -r ubuntu@EnterYourAzureIPHere:/home/ubunt
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg3OTc1NjAsMzQ4MzA5MzE3LC01ND
-ExMjUzOTksLTE3MTQ3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEw
-OSwxNTk2OTA0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbMTAwODg2OTk3LDM0ODMwOTMxNywtNTQxMT
+I1Mzk5LC0xNzE0Nzg2NzU2LDEyNTYwMDE0ODIsLTIxODAxMDks
+MTU5NjkwNDc3MiwxMjM0NTEyOTEwLC04NTgwNzUwMjFdfQ==
 -->
