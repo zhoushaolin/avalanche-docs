@@ -40,9 +40,7 @@
 
 默认情况下，系统会选择一种**Generic**类型的藏品。这是包含**标题**、**URL**图像和**描述**的NFT。请输入所需数据和**数量**，以决定将创建多少份藏品，并因此能够发送多少份。与之前一样，请谨慎输入数据，一旦铸造了藏品，您将无法进行任何更改。您会看到一份数据预览，其中您可以查看您的藏品是什么样子。
 
-如果您想拥有图片藏品以外的其他内容，请选择 for the image, and a **Description**. Enter the required data, as well as the **Quantity**, which will determine how many copies of the collectible will be created, and therefore, how many of them you will be able to send. As before, enter the data carefully, you won't be able to change anything once collectibles are minted. You will see a preview of the data where you can check how your collectible will look like.
-
-If you would like to have something else besides a picture collectible, select **Custom**。.
+如果您想拥有图片藏品以外的其他内容，请选择**Custom**。
 
 ![Custom Collectible](../../../.gitbook/assets/nft-studio-05-custom.png)
 
@@ -66,28 +64,7 @@ If you would like to have something else besides a picture collectible, select *
 
 如果您单击选中一个藏品，您会看到它所属的组、数量以及**Send**发送按钮。
 
-
-## 发送A custom collectible can contain an **UTF-8** encoded string, an **URL**, or a **JSON** payload. Size of the data cannot exceed 1024 characters.
-
-After you enter and check the data, press **Mint** to create the collectible. Transaction fees will be deducted from your wallet, and a newly created collectible will be placed in your wallet.
-
-### See your collectibles
-
-An overview of your collectibles is always visible in the top of the screen, along with your balances.
-
-![Overview](../../../.gitbook/assets/nft-studio-06-overview.png)
-
-To see your collectibles in more detail, select **Portfolio** from the left-hand side menu. You will be presented with a screen showing all of your assets, with tokens selected by default. Change the selection to **Collectibles** by clicking the corresponding tab.
-
-![Collectibles list](../../../.gitbook/assets/nft-studio-07-collectibles.png)
-
-For each Generic collectible, a picture will be shown, along with the title, and the number indicating how many copies of the collectible are in your portfolio. Hovering over the collectible with your pointer will show the detailed description:
-
-![Collectible details](../../../.gitbook/assets/nft-studio-08-detail.png)
-
-If you select a collectible by clicking on it, you will see which group it belongs to, its quantity, along with the **Send** button.
-
-## Send NFTs
+## 发送NFT
 
 如需将您的收集品发送给某人，您可以点击组合中所选收集品的**Send**按钮，或导航至左侧菜单的**Send**选项并单击To send your collectible to someone, either click the **Send** button on the selected collectible in the Portfolio, or navigate to **Send** tab on the left-hand side menu, and click **Add Collectible**：:
 
@@ -121,7 +98,7 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) 联系我们。server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ5NDkxNzMsMTQwNjY1NjE5NiwtMT
+eyJoaXN0b3J5IjpbLTIxMzgyNDYyODIsMTQwNjY1NjE5NiwtMT
 U2NTU3ODU1MiwtNjA1NjgwMzcxLC00NjE3ODE4NDQsLTQ0MjQ5
 NzMwOCwxODY1NTQwMzI3LC0xNjI1OTU2MjQzLC04MzU5MjQzMj
 YsMTY3ODIxNzYxN119
