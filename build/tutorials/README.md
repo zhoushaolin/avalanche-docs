@@ -1,5 +1,7 @@
 # 教程
 
+检查所有的教程，将帮助你在Avalanche上进行构建。如果你愿意为我们的[GitHub](https://github.com/ava-labs)做出贡献，或者在[Discord](https://chat.avax.network)上提出关于教程的建议，我们将非常高兴!
+
 Check out all of the tutorials that will help you build on Avalanche. We would be thrilled if you would like to contribute to our [GitHub](https://github.com/ava-labs) or suggest a tutorial on [Discord](https://chat.avax.network)!
 
 {% page-ref page="platform/" %}
@@ -13,5 +15,5 @@ Check out all of the tutorials that will help you build on Avalanche. We would b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDM0NDQ5M119
+eyJoaXN0b3J5IjpbLTgzNTc4NzcwOV19
 -->
