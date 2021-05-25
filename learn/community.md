@@ -59,11 +59,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**Injective 协议**](https://injectiveprotocol.com/): 是第二层去中心化交换协议，它释放了去中心化衍生品和无边界定义的全部潜力。Injective协议允许完全去中心化交易，不受任何限制，允许个人在他们选择的任何衍生品市场上交易。
 
-[**JellySwap**](https://jelly.market/): a decentralized application for cross-chain swaps allowing value transfer between different networks.
+[**JellySwap**](https://jelly.market/): 跨链交换的去中心化应用程序，允许不同网络之间的价值转移。
 
-[**OkCoin**](https://www.okcoin.com/spot/trade/avax-usd): a global cryptocurrency exchange licensed in 44 U.S states and based out of San Francisco. It enables users across 184 countries to easily transition between crypto and fiat currencies.
+[**OkCoin**](https://www.okcoin.com/spot/trade/avax-usd): 在美国44个州获得许可，总部位于旧金山的全球加密货币交易所。它使184个国家的用户可以轻松地在加密货币和法定货币之间转换。
 
-\*\*\*\*[**Pangolin**](https://pangolin.exchange/): A community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution–powered by Avalanche. Pangolin brings you the best trading opportunities to find and maximize your yield.
+\*\*\*\*[**Pangolin**](https://pangolin.exchange/): 一个社区驱动的去中心化的Avalanche和以太坊资产交易所，具有快速结算、低交易费用和民主分配——由Avalanche提供动力。穿山甲为您带来最佳的交易机会，以发现和最大化您的收益。
+A community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution–powered by Avalanche. Pangolin brings you the best trading opportunities to find and maximize your yield.
 
 \*\*\*\*[**Reef**](https://reef.finance/): a smart liquidity aggregator and yield engine that enables trading with access to liquidity from both CEXs and DEXs.
 
@@ -196,7 +197,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODU4OTMyOCwtMzkxNDg2NTgxLC01Nj
+eyJoaXN0b3J5IjpbLTIzMzk4NTc0MCwtMzkxNDg2NTgxLC01Nj
 ExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUz
 LC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
