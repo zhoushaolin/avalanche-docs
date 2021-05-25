@@ -35,7 +35,7 @@
 
 ![Image for post](https://miro.medium.com/max/374/1*Lw3HklSSC8NDN2ftQEVgYA.png)
 
-如果您想使用点shiVM现货定价\(这个价格会便宜很多\)，您不能使用免费试用账户\(验证时会收到错误\)，所以**务必选择现收现付Pay-As-You-Go。**
+如果您想使用点实例VM\(这个价格会便宜很多\)，您不能使用免费试用账户\(验证时会收到错误\)，所以**务必选择现收现付Pay-As-You-Go。**
 
 ![Image for post](https://miro.medium.com/max/789/1*TO5Uh07OkH_QdwludEgapg.png)
 
@@ -53,7 +53,7 @@
 
 ![Image for post](https://miro.medium.com/max/605/1*Y0iZEZExC36c7FXqPlrPuw.png)
 
-接下来将进入创建虚拟机Create a virtual machine页面，如下所示：
+接下来将进入创建虚拟机页面，如下所示：
 
 ![Image for post](https://miro.medium.com/max/775/1*cv0z0mt6Uavx5MkiazpiUA.png)
 
@@ -63,7 +63,7 @@
 
 ![Image for post](https://miro.medium.com/max/769/1*XOpa22qSdNI-0PW5oIyUhQ.png)
 
-您可以选择使用Spot instance(点实例)定价来节省大量的运行成本。Spot instance采用供求市场价格结构。随着实例需求的增加，Spot instance的价格也会随之上涨。如果产能不足，那么您的虚拟机将被关闭。这种情况发生的可能性非常低，特别是如果您选择了Capacity only(仅产能)选项。即使在极少数情况下，它确实被暂时关闭了，您只需要保证在线时间达到60%就可以获得质押报酬，并且在Avalanche中不会出现削减。
+您可以选择使用Spot instance(点实例)定价来节省大量的运行成本。点实例采用供求市场价格结构。随着实例需求的增加，点实例的价格也会随之上涨。如果产能不足，那么您的虚拟机将被关闭。这种情况发生的可能性非常低，特别是如果您选择了Capacity only(仅产能)选项。即使在极少数情况下，它确实被暂时关闭了，您只需要保证在线时间达到60%就可以获得质押报酬，并且在Avalanche中不会出现削减。
 
 在Azure Spot instance选项选择“Yes”，将“Eviction type”选择为“Capacity Only”，并**确保将逐出策略设置为“Stop / Deallocate”——这点非常重要，否则VM将被删除**。
 
@@ -322,7 +322,7 @@ scp -i C:\Avalanche\avalanche_key.pem -r ubuntu@EnterYourAzureIPHere:/home/ubunt
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjA0Nzk2NiwzNDgzMDkzMTcsLTU0MT
-EyNTM5OSwtMTcxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5
-LDE1OTY5MDQ3NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
+eyJoaXN0b3J5IjpbLTE3Nzg3OTc1NjAsMzQ4MzA5MzE3LC01ND
+ExMjUzOTksLTE3MTQ3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEw
+OSwxNTk2OTA0NzcyLDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
 -->
