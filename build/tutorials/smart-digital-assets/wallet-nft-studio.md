@@ -14,7 +14,7 @@
 
 ![NFT Studio](../../../.gitbook/assets/nft-studio-01-select.png)
 
-打开NFT工作室, 然后会有两个选项：**New Family**——创建新NFT，**Mint Collectible**——在现有藏品中创建新NFT资产。如果需要创建我们的首个NFT族，请点击This will open the NFT Studio. There you have two options: **New Family**, for the creation of a new family of NFTs, and **Mint Collectible** for creating new assets in existing families. We need to create our first family of NFTs, so click **New Family**。.
+打开NFT工作室, 然后会有两个选项：**New Family**——创建新NFT，**Mint Collectible**——在现有藏品中创建新NFT资产。如果需要创建我们的首个NFT族，请点击**New Family**。
 
 ### 创建NFT家族
 
@@ -26,21 +26,11 @@
 
 当您决定名称、股票代码和组的数量时，请按下**Create**，以实际创建藏品家族。交易费用将从您的钱包余额中扣除。完成创建，您会看到交易ID（TxID）和藏品家族的参数。您可以使用TxID在浏览器[the explorer](https://explorer.avax.network/)中查找交易，但无需将之写下来。
 
-请按下**Back to Studio**返回，我们已经准备好创建首个藏品了。请按下Create NFT Family
+请按下**Back to Studio**返回，我们已经准备好创建首个藏品了。请按下**Mint Collectible**。.
 
-There you will be asked to enter the name of your collectible family, as well as a symbol \(ticker\). Names do not have to be unique.
+### 铸造NFT
 
-![Create new family](../../../.gitbook/assets/nft-studio-02-family.png)
-
-Besides the name and the ticker, you will need to enter **Number of Groups**, that is, how many distinct collectibles will the newly created family hold. Choose carefully, because once created, the parameters of the collectible family cannot be changed.
-
-When you decided upon the name, ticker, and number of groups, press **Create** to actually create the collectible family. The transaction fee will be deducted from your wallet's balance. When the family is created, you will see the transaction ID \(TxID\), as well as parameters for the family. You can use the TxID to look up the transaction in [the explorer](https://explorer.avax.network/), but it is not necessary to write it down.
-
-Press **Back to Studio** to return, and we're ready to create our first collectibles. Press **Mint Collectible**。.
-
-### 铸造Mint NFTs
-
-按下After pressing **Mint Collectible**后，您会看到一份所有藏品家族的清单，其中包括尚未创建的藏品组。
+按**Mint Collectible**后，您会看到一份所有藏品家族的清单，其中包括尚未创建的藏品组。
 
 ![Select a family](../../../.gitbook/assets/nft-studio-03-select-family.png)
 
@@ -139,8 +129,8 @@ Now, you should know how to create NFT families, mint NFT groups, and send them 
 If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) 联系我们。server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjE3NTgxMSwxNDA2NjU2MTk2LC0xNT
-Y1NTc4NTUyLC02MDU2ODAzNzEsLTQ2MTc4MTg0NCwtNDQyNDk3
-MzA4LDE4NjU1NDAzMjcsLTE2MjU5NTYyNDMsLTgzNTkyNDMyNi
-wxNjc4MjE3NjE3XX0=
+eyJoaXN0b3J5IjpbLTE1NTAxODU3NDIsMTQwNjY1NjE5NiwtMT
+U2NTU3ODU1MiwtNjA1NjgwMzcxLC00NjE3ODE4NDQsLTQ0MjQ5
+NzMwOCwxODY1NTQwMzI3LC0xNjI1OTU2MjQzLC04MzU5MjQzMj
+YsMTY3ODIxNzYxN119
 -->
