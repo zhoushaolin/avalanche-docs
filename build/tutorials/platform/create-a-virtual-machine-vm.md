@@ -619,11 +619,11 @@ func (s *Service) GetBlock(_ *http.Request, args *GetBlockArgs, reply *GetBlockR
 
 由此产生的应用程序编程接口有以下方法：
 
-**timestamp.getBlock**
+**时间戳获取区块**
 
 通过区块的ID获取区块。如果无法获取ID，则获取最新的区块。
 
-**Signature**
+**签名**
 
 ```cpp
 timestamp.getBlock({id: string}) ->
@@ -640,7 +640,7 @@ timestamp.getBlock({id: string}) ->
 * `timestamp`是这个区块创建时的Unix时间戳。
 * `parentID` 是这个区块的上一个区块
 
-**Example Call**
+**调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -653,7 +653,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/timestamp
 ```
 
-**Example Response**
+**响应示例**
 
 ```cpp
 {
@@ -668,11 +668,11 @@ curl -X POST --data '{
 }
 ```
 
-**timestamp.proposeBlock**
+**时间戳提议区块**
 
 提出创建一个新区块。
 
-**Signature**
+**签名**
 
 ```cpp
 timestamp.proposeBlock({data: string}) -> {success: bool}
@@ -680,7 +680,7 @@ timestamp.proposeBlock({data: string}) -> {success: bool}
 
 * `data` 是该区块32字节有效负载的Base58\（借助校验和\）表示形式。
 
-**Example Call**
+**调用示例**
 
 ```cpp
 curl -X POST --data '{
@@ -716,6 +716,6 @@ curl -X POST --data '{
 * `core.SnowmanVM`和`core.Block` 库型, 提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzU2MDQ0OSwxODg5OTg2MDA0LDIwNT
-E3OTIwNTEsLTU0NzAyOTEwLDU1NDI5NDkyOV19
+eyJoaXN0b3J5IjpbLTg0MDU1ODE3LDE4ODk5ODYwMDQsMjA1MT
+c5MjA1MSwtNTQ3MDI5MTAsNTU0Mjk0OTI5XX0=
 -->
