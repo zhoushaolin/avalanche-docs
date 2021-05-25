@@ -66,39 +66,30 @@
 
 ## 发送NFT
 
-如需将您的收集品发送给某人，您可以点击组合中所选收集品的**Send**按钮，或导航至左侧菜单的**Send**选项并单击To send your collectible to someone, either click the **Send** button on the selected collectible in the Portfolio, or navigate to **Send** tab on the left-hand side menu, and click **Add Collectible**：:
+如需将您的收集品发送给某人，您可以点击组合中所选收集品的**Send**按钮，或导航至左侧菜单的**Send**选项并单击**Add Collectible**：
 
 ![Choosing the collectibles](../../../.gitbook/assets/nft-studio-09-send.png)
 
-您会看到一个菜单，可以从中选择您想要发送的收集品。You will be presented with a menu to select a collectible you wish to send.
+您会看到一个菜单，可以从中选择您想要发送的收集品。
 
 ![Multiple collectibles](../../../.gitbook/assets/nft-studio-10-multiple.png)
 
 您可以在单次交易中发送多个藏品。单击藏品上的标签，您可以编辑您想要发送的复制品数量。您可以在单次交易中发送多个藏品家族和藏品类型。
 
 当你输入了目的地址，并选择输入了备忘录文本，按**Confirm**启动交易。
-You can send multiple collectibles in a single transaction. Clicking the label on the collectible will let you edit the number of copies you wish to send. You can send multiple families and collectible types in a single transaction.
-
-When you have entered the destination address, and optionally entered the memo text, press **Confirm** to initiate the transaction.
 
 ![Transaction](../../../.gitbook/assets/nft-studio-11-send-transaction.png)
 
-按下After pressing **Send Transaction**后，网络上会公布该交易，交易费用会从您的余额中扣除。不久后收集品会保存至目标地址。
+按下**Send Transaction**后，网络上会公布该交易，交易费用会从您的余额中扣除。不久后收集品会保存至目标地址。
 
 ## 总结
 
 现在，您应该已经知道如何创建NFT藏品家族、铸造NFT组并将其发送至其他地址了。请务必在我们的社交媒体频道[social media channels](https://www.avalabs.org/social)上与我们分享您的作品！
 
-如果您想了解NFT在Avalanche网络上工作的技术背景，或者想要使用NFT来创建产品，请查阅NFT教程[NFT tutorial](creating-a-nft-part-1.md)。如果您有任何技术问题，请通过Discord平台 it will be published on the network, and the transaction fee will be deducted from your balance. Collectibles will be deposited into the destination address shortly after.
-
-## Summary
-
-Now, you should know how to create NFT families, mint NFT groups, and send them to other addresses. Have fun with it! Make sure to share your creations with us on our [social media channels](https://www.avalabs.org/social)!
-
-If you would like to know the technical background of how NFTs work on the Avalanche network or would like to build products using NFTs, please check out the [NFT tutorial](creating-a-nft-part-1.md). If you have technical questions, reach out to us on our [Discord](https://chat.avalabs.org/) 联系我们。server.
+如果您想了解NFT在Avalanche网络上工作的技术背景，或者想要使用NFT来创建产品，请查阅NFT教程[NFT tutorial](creating-a-nft-part-1.md)。如果您有任何技术问题，请通过Discord平台[Discord](https://chat.avalabs.org/) 联系我们。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgyNDYyODIsMTQwNjY1NjE5NiwtMT
+eyJoaXN0b3J5IjpbLTEyMjM3NTM4MzcsMTQwNjY1NjE5NiwtMT
 U2NTU3ODU1MiwtNjA1NjgwMzcxLC00NjE3ODE4NDQsLTQ0MjQ5
 NzMwOCwxODY1NTQwMzI3LC0xNjI1OTU2MjQzLC04MzU5MjQzMj
 YsMTY3ODIxNzYxN119
