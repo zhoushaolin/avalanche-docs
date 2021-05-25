@@ -35,7 +35,7 @@
 
 ![Image for post](https://miro.medium.com/max/374/1*Lw3HklSSC8NDN2ftQEVgYA.png)
 
-如果您想使用Spot Instance VM现货定价\(这个价格会便宜很多\)，您不能使用免费试用账户Free Trial account\(验证时会收到错误\)，所以**务必选择现收现付Pay-As-You-Go。**
+如果您想使用点shiVM现货定价\(这个价格会便宜很多\)，您不能使用免费试用账户\(验证时会收到错误\)，所以**务必选择现收现付Pay-As-You-Go。**
 
 ![Image for post](https://miro.medium.com/max/789/1*TO5Uh07OkH_QdwludEgapg.png)
 
@@ -322,7 +322,7 @@ scp -i C:\Avalanche\avalanche_key.pem -r ubuntu@EnterYourAzureIPHere:/home/ubunt
 ![Image for post](https://miro.medium.com/max/358/1*nqsjJAv2fkcLKPri5idN-Q.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MzA5MzE3LC01NDExMjUzOTksLTE3MT
-Q3ODY3NTYsMTI1NjAwMTQ4MiwtMjE4MDEwOSwxNTk2OTA0Nzcy
-LDEyMzQ1MTI5MTAsLTg1ODA3NTAyMV19
+eyJoaXN0b3J5IjpbLTUyNjA0Nzk2NiwzNDgzMDkzMTcsLTU0MT
+EyNTM5OSwtMTcxNDc4Njc1NiwxMjU2MDAxNDgyLC0yMTgwMTA5
+LDE1OTY5MDQ3NzIsMTIzNDUxMjkxMCwtODU4MDc1MDIxXX0=
 -->
