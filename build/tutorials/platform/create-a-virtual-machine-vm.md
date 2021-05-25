@@ -479,7 +479,7 @@ func (vm *VM) BuildBlock() (snowman.Block, error) {
 }
 ```
 
-#### **CreateHandlers**
+#### **创建应对办法**
 
 ```cpp
 // CreateHandlers returns a map where:
@@ -513,7 +513,7 @@ type Service struct{ vm *VM }
 
 对于每个应用程序编程接口方法，都有：\*一个定义方法参数的结构体\*一个定义方法返回值的结构体\*一个实现应用程序编程接口方法并在上述2个结构体上进行了参数化的方法。
 
-#### **ProposeBlock**
+#### **提议区块**
 
 此应用程序编程接口方法允许客户端向区块链添加区块。
 
@@ -552,7 +552,7 @@ func (s *Service) ProposeBlock(_ *http.Request, args *ProposeBlockArgs, reply *P
 }
 ```
 
-#### **GetBlock**
+#### **获取区块**
 
 此应用程序编程接口方法允许客户端通过ID获取区块。
 
@@ -716,6 +716,6 @@ curl -X POST --data '{
 * `core.SnowmanVM`和`core.Block` 库型, 提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzAxMDgxMCwxODg5OTg2MDA0LDIwNT
+eyJoaXN0b3J5IjpbLTY1MzU2MDQ0OSwxODg5OTg2MDA0LDIwNT
 E3OTIwNTEsLTU0NzAyOTEwLDU1NDI5NDkyOV19
 -->
