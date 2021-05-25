@@ -98,7 +98,7 @@ type ChainVM interface {
 }
 ```
 
-## Snowman.Block接口
+## Snowman.区块接口
 
 您可能已经注意到了`snowman.VM`接口中引用的`snowman.Block`类型。它描述了一个区块要成为线性\(Snowman\)链中的一个区块而必须实现的方法。
 
@@ -168,7 +168,7 @@ type Block interface {
 
 在我们的实例中，我们使用了下面两种库型，并且我们建议您也使用它们。
 
-### core.SnowmanVM
+### 核心SnowmanVM
 
 这个类型是一个结构体，包含所有`snowman.ChainVM`接口实现所共有的方法和字段。
 
@@ -193,7 +193,7 @@ type Block interface {
 * `toEngine`: 向驱动区块链共识协议发送信息的通道
 * `State`: 用于持久化数据，如区块\(可以用来放置/获取任何字节\)
 
-### core.Block
+### 核心区块
 
 这个类型是一个结构体，包含所有`snowman.Block`接口实现所共有的方法和字段。
 
@@ -716,6 +716,6 @@ curl -X POST --data '{
 * `core.SnowmanVM`和`core.Block` 库型, 提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTI2MjcxMiwyMDUxNzkyMDUxLC01ND
+eyJoaXN0b3J5IjpbMTg4OTk4NjAwNCwyMDUxNzkyMDUxLC01ND
 cwMjkxMCw1NTQyOTQ5MjldfQ==
 -->
