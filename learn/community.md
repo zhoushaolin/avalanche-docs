@@ -31,13 +31,13 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**区块链研究院 \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
 
-\*\*\*\*[**Congress of the Mexican State of Quintana Roo**](http://comunicacion.congresoqroo.gob.mx/20210301/congreso-de-quintana-roo-primero-en-utilizar-tecnologia-blockchain/): ****
+\*\*\*\*[**墨西哥Quintana Roo州国会**](http://comunicacion.congresoqroo.gob.mx/20210301/congreso-de-quintana-roo-primero-en-utilizar-tecnologia-blockchain/): ****
 成为第一个使用Avalanche对其立法文件进行数字认证的国会，该文件通过通信和文件管理系统工作。
 
-[**LACChain Alliance**](https://www.lacchain.net/home#/alliance): 
+[**LAC链联盟**](https://www.lacchain.net/home#/alliance): 
 推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
 
-### Education
+### 教程
 
 [**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 社区成员制作的 "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" 视频教程, 关于如何在家运行Avalanche。
 
@@ -196,7 +196,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04OD
-UxNjYzNiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4
-LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbLTM5MTQ4NjU4MSwtNTYxMTk2MzU0LC00Nz
+k4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMzk5OTIxNDE3
+LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
 -->
