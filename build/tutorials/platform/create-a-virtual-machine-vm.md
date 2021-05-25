@@ -383,7 +383,7 @@ func (vm *VM) Initialize(
 }
 ```
 
-#### **proposeBlock**
+#### **提议区块**
 
 这种方法会将一段数据添加到内存池，并通知区块链的共识层一个新的区块已经准备好建立和投票。它的调用我们将在后面讲到。
 
@@ -398,7 +398,7 @@ func (vm *VM) proposeBlock(data [dataLen]byte) {
 }
 ```
 
-#### **ParseBlock**
+#### **解析区块**
 
 ```cpp
 // ParseBlock parses [bytes] to a snowman.Block
@@ -419,7 +419,7 @@ func (vm *VM) ParseBlock(bytes []byte) (snowman.Block, error) {
 }
 ```
 
-#### **NewBlock**
+#### **新区块**
 
 ```cpp
 // NewBlock returns a new Block where:
@@ -448,9 +448,9 @@ func (vm *VM) NewBlock(parentID ids.ID, data [dataLen]byte, timestamp time.Time)
 }
 ```
 
-#### **BuildBlock**
+#### **构建区块**
 
-当应用程序层指示共识层已准备好要构建新区块之后（即调用`vm.NotifyConsensus()`），共识层就会调用这个方法。
+当应用程序层指示共识层已准备好要构建新区块之后(即调用`vm.NotifyConsensus()`), 共识层就会调用这个方法。
 
 ```cpp
 // BuildBlock returns a block that this VM wants to add to consensus
@@ -716,6 +716,6 @@ curl -X POST --data '{
 * `core.SnowmanVM`和`core.Block` 库型, 提升了虚拟机的定义速度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTk4NjAwNCwyMDUxNzkyMDUxLC01ND
-cwMjkxMCw1NTQyOTQ5MjldfQ==
+eyJoaXN0b3J5IjpbMjEzNzAxMDgxMCwxODg5OTg2MDA0LDIwNT
+E3OTIwNTEsLTU0NzAyOTEwLDU1NDI5NDkyOV19
 -->
