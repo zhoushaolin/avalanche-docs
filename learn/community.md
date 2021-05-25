@@ -67,11 +67,11 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**Reef**](https://reef.finance/): 一个智能的流动性集成商和收益引擎，使交易能够获得来自CEX和DEX的流动性。
 
-\*\*\*\*[**Voyager**](https://www.investvoyager.com): the United States' \#1 commission-free crypto broker.
+\*\*\*\*[**Voyager**](https://www.investvoyager.com): 美国首屈一指的免佣金加密经纪商。
 
-### Explorers
+### 浏览器
 
-[**Avalanche Explorer**](https://explorer.avax.network): an analytics tool that enables people to search the Avalanche platform for transactions, addresses, and other platform activities.
+[**Avalanche 浏览器**](https://explorer.avax.network): an analytics tool that enables people to search the Avalanche platform for transactions, addresses, and other platform activities.
 
 [**Avascan**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.avascan.info): an independent blockchain explorer that enables users to browse blockchains, transactions, validators, delegators, assets, and smart contracts on Avalanche. Also features an Asset Detail Validation Program to add rich data to assets on Avascan.
 
@@ -196,8 +196,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY5MTMxNzAsLTM5MTQ4NjU4MSwtNT
-YxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1
-MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ
-==
+eyJoaXN0b3J5IjpbLTQ5OTkwOTc4MiwtMzkxNDg2NTgxLC01Nj
+ExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUz
+LC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
