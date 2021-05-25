@@ -20,16 +20,16 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Avalanche Hub**](https://community.avax.network/accounts/login/?next=/): 
 构建Avalanche全方位包容性环境的社区成长平台。从拓展到开源开发，成员们都直接参与了重要研究、教育和工程计划，以赚取AVAX代币。
 
-[**This Week in Avalanche周报**](https://weavax.substack.com/): 由一名社区成员制作每周资讯，对Avalanche新闻、事件和事态发展进行回顾。
+[**Avalanche周报**](https://weavax.substack.com/): 由一名社区成员制作每周资讯，对Avalanche新闻、事件和事态发展进行回顾。
 
 ### 生态系统合作伙伴
 
-[**Blockchain Academy Chile**](https://www.blockchainacademy.cl/): 为技术开发人员和商业企业家学习区块链技术提供的培训和教育平台。
+[**智利区块链学会**](https://www.blockchainacademy.cl/): 为技术开发人员和商业企业家学习区块链技术提供的培训和教育平台。
 
-[**Blockchain Game Alliance**](https://blockchaingamealliance.org/): 
+[**区块链游戏联盟（BGA）**](https://blockchaingamealliance.org/): 
 致力于在游戏行业内推广区块链的组织。BGA还为个人和公司提供了一个开放性论坛，以分享知识和合作、建立共同标准并确立最佳范例和网络。
 
-[**Blockchain Research Institute \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
+[**区块链研究院 \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
 
 \*\*\*\*[**Congress of the Mexican State of Quintana Roo**](http://comunicacion.congresoqroo.gob.mx/20210301/congreso-de-quintana-roo-primero-en-utilizar-tecnologia-blockchain/): ****
 成为第一个使用Avalanche对其立法文件进行数字认证的国会，该文件通过通信和文件管理系统工作。
@@ -196,7 +196,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjczNjY3NTYsLTQ3OTg1NzcyMCwtOD
-g1MTY2MzYsMjA4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEz
-OCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04OD
+UxNjYzNiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4
+LC0xODEyNzQ1MTk4XX0=
 -->
