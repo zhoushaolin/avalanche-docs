@@ -100,11 +100,11 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Securitize**](https://www.securitize.io/): 行业领先的数字证券(证券型代币)一级发行和合规平台，以及在SEC注册的转账代理。
 
-### 稳定bi
+### 稳定币
 
-[**BiLira**](https://www.bilira.co): a stable cryptocurrency that is backed by the Turkish Lira.
+[**BiLira**](https://www.bilira.co): 一种由土耳其里拉支持的稳定加密货币。
 
-\*\*\*\*[**e-Money**](https://e-money.com/): a leading issuer of transparent, interest-bearing, currency-backed stablecoins.
+\*\*\*\*[**e-Money**](https://e-money.com/): 透明、有息、有货币支持的稳定币的主要发行者。a leading issuer of transparent, interest-bearing, currency-backed stablecoins.
 
 \*\*\*\*[**OIN Finance**](https://oin.finance/): a cross-chain decentralized stablecoin issuance platform.
 
@@ -195,7 +195,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTc5MjIxNywtNDk5OTA5NzgyLC0zOT
+eyJoaXN0b3J5IjpbLTcwNDg3OTE3OCwtNDk5OTA5NzgyLC0zOT
 E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
 NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
 EyNzQ1MTk4XX0=
