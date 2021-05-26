@@ -170,13 +170,13 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Torus**](https://tor.us/): DirectAuth SDK简化了登录，允许用户用他们现有的谷歌帐户创建一个Avalanche钱包，并允许一键登录到Avalanche应用程序。用户可以定制自己的钱包，以获得私钥的所有权，因为他们对这项技术感到更舒服。
 
-### Staking Services
+### 质押服务
 
-[**ablock**](https://ablock.io/avalanche): delegated staking services.
+[**ablock**](https://ablock.io/avalanche): 委托质押服务。
 
-[**Avascan**](https://blog.avascan.info/2020-10-14-avascan-validators-october-2020.html): delegated staking services offered by independent blockchain explorer.
+[**Avascan**](https://blog.avascan.info/2020-10-14-avascan-validators-october-2020.html): 由独立区块链开发者提供的委托质押服务。
 
-[**Figment**](https://figment.io/): simple and secure staking as a service.
+[**Figment**](https://figment.io/): 简单而安全的作为服务的锁定。simple and secure staking as a service.
 
 \*\*\*\*[**MyCointainer**](https://www.mycointainer.com/): is an online automatic staking and masternode staking platform.
 
@@ -195,9 +195,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzgxNTg0NSwtMTI5NzY0NTUyMiwtMj
-QwNjExNTI5LC0yMDgzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4
-NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LD
-IwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3
-NDUxOThdfQ==
+eyJoaXN0b3J5IjpbLTE0MjUzNjMzNDAsLTEyOTc2NDU1MjIsLT
+I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
+ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
+wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
+NzQ1MTk4XX0=
 -->
