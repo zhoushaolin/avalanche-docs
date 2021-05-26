@@ -190,12 +190,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Kurtosis**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.kurtosistech.com): 完整的端到端测试平台，致力于帮助开发人员在Avalanche上构建抗脆弱技术。
 
-[**Quantstamp**](https://quantstamp.com/): 区块链安全公司，为智能合约、链下应用、网络和前端接口提供审计和咨询，以增强去中心化应用的安全性。blockchain security firm offering audits and consulting for smart contracts, off-chain applications, networking, and front-end interfaces to enhance the security of decentralized applications.
+[**Quantstamp**](https://quantstamp.com/): 区块链安全公司，为智能合约、链下应用、网络和前端接口提供审计和咨询，以增强去中心化应用的安全性。
 
-[**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
+[**Whiteblock**](https://whiteblock.io/)**:** “Genesis平台”帮助开发人员自动化Web3系统的实际性能和安全测试。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ0MzUwODQsLTEyOTc2NDU1MjIsLT
+eyJoaXN0b3J5IjpbLTEwNDQwNDI1NTksLTEyOTc2NDU1MjIsLT
 I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
 ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
 wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
