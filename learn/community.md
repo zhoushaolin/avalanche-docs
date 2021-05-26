@@ -71,9 +71,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### 浏览器
 
-[**Avalanche 浏览器**](https://explorer.avax.network): an analytics tool that enables people to search the Avalanche platform for transactions, addresses, and other platform activities.
+[**Avalanche 浏览器**](https://explorer.avax.network): 让人们能够在Avalanche平台上搜索交易、地址和其他平台活动的分析工具。
 
-[**Avascan**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.avascan.info): an independent blockchain explorer that enables users to browse blockchains, transactions, validators, delegators, assets, and smart contracts on Avalanche. Also features an Asset Detail Validation Program to add rich data to assets on Avascan.
+[**Avascan**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.avascan.info): 允许用户在Avalanche上浏览区块链、交易、验证程序、委托人、资产和智能合约的独立区块链浏览器。该浏览器还提供了一个资产详情验证程序，从而为Avascan上的资产添加丰富数据。an independent blockchain explorer that enables users to browse blockchains, transactions, validators, delegators, assets, and smart contracts on Avalanche. Also features an Asset Detail Validation Program to add rich data to assets on Avascan.
 
 [**Vscout**](https://vscout.io): an analytics tool for exploring Avalanche subnets, staking, and validators.
 
@@ -196,7 +196,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTkwOTc4MiwtMzkxNDg2NTgxLC01Nj
-ExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUz
-LC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTI2Njc1MDIzMCwtNDk5OTA5NzgyLC0zOT
+E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
+NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
+EyNzQ1MTk4XX0=
 -->
