@@ -147,9 +147,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Bloq**](https://www.bloq.com): 在区块链网络上构建的管理基础设施。在多个区块链网络上构建企业级基础设施服务时，只需要一个接口。
 
 \*\*\*\*[**Cartesi**](https://cartesi.io/): 通过实现乐观上滚的变体来解决可伸缩性和高费用的紧急问题。最值得注意的是，Cartesi正在革新智能合约编程，允许开发人员使用主流软件堆栈进行编码。Noether是Cartesi的侧链，它针对短暂数据进行了优化，为DApps提供了低成本的数据可用性。
-Cartesi is solving the urgent problem of scalability and high fees by implementing a variant of optimistic roll-ups. Most notably, Cartesi is revolutionizing smart contract programming by allowing developers to code with mainstream software stacks. Noether is Cartesi’s side-chain that’s optimized for ephemeral data, providing low-cost data availability to DApps.
 
-[**Copper**](https://copper.co/): provides a gateway into the cryptoasset space for institutional investors by offering custody, prime brokerage, and settlements across 150 digital assets and more than 25 exchanges. It is committed to providing flexible solutions for institutional investors that can adapt to the changing cryptoasset space, while enabling far greater transparency and control for asset managers.
+[**Copper**](https://copper.co/): 通过为150个数字资产和超过25个交易所提供托管、大宗经纪和结算，为机构投资者提供进入加密资产空间的门户。它致力于为机构投资者提供灵活的解决方案，以适应不断变化的加密资产空间，同时为资产管理公司提供更大的透明度和控制权。
 
 [**Covalent**](https://www.covalenthq.com): provides a unified API to bring full transparency and visibility to assets across all blockchain networks.
 
@@ -196,8 +195,9 @@ Cartesi is solving the urgent problem of scalability and high fees by implementi
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc2NDU1MjIsLTI0MDYxMTUyOSwtMj
-A4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5
-NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNiwyMDg1MTM4NTMsLT
-M5OTkyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbNjUxNTQxNzU5LC0xMjk3NjQ1NTIyLC0yND
+A2MTE1MjksLTIwODM0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2
+NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMj
+A4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0
+NTE5OF19
 -->
