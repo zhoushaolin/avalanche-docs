@@ -150,11 +150,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Copper**](https://copper.co/): 通过为150个数字资产和超过25个交易所提供托管、大宗经纪和结算，为机构投资者提供进入加密资产空间的门户。它致力于为机构投资者提供灵活的解决方案，以适应不断变化的加密资产空间，同时为资产管理公司提供更大的透明度和控制权。
 
-[**Covalent**](https://www.covalenthq.com): provides a unified API to bring full transparency and visibility to assets across all blockchain networks.
+[**Covalent**](https://www.covalenthq.com): 提供一个统一的API，使所有区块链网络的资产完全透明可见。
 
-[**DataHub by Figment**](https://figment.io/datahub/avalanche/): with DataHub, Avalanche developers no longer have to worry about managing infrastructure as we offer direct access to Avalanche’s APIs via our highly available full node infrastructure.
+[**DataHub by Figment**](https://figment.io/datahub/avalanche/): 有了DataHub, Avalanche开发人员不再需要担心管理基础设施，因为我们通过高度可用的全节点基础设施直接访问Avalanche的API。
 
-\*\*\*\*[**DSLA Protocol**](https://stacktical.com/): a risk management framework that enables developers and infrastructure operators to reduce their users’ exposure to service delays, interruptions, and financial losses, using self-executing service level agreements, bonus-malus insurance policies, and crowdfunded liquidity pools.
+\*\*\*\*[**DSLA Protocol**](https://stacktical.com/): 一个风险管理框架，通过使用自动执行的服务水平协议、奖惩保险政策和众筹流动性池，使开发人员和基础设施运营商能够减少他们的用户面临的服务延迟、中断和财务损失。
+
 
 \*\*\*\*[**Router**](http://routerprotocol.com/): connects multiple Layer-1 and Layer-2 blockchains and opens up avenues for smart order routing across chains for any trade. Router users can seamlessly deploy liquidity to any automated market makers \(AMMs\) on Avalanche and across any other blockchain platforms integrating with Router.
 
@@ -195,9 +196,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNTQxNzU5LC0xMjk3NjQ1NTIyLC0yND
-A2MTE1MjksLTIwODM0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2
-NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMj
-A4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0
-NTE5OF19
+eyJoaXN0b3J5IjpbLTE2MTAyOTkzMjYsLTEyOTc2NDU1MjIsLT
+I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
+ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
+wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
+NzQ1MTk4XX0=
 -->
