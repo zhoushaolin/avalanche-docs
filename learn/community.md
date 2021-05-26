@@ -146,7 +146,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Bloq**](https://www.bloq.com): 在区块链网络上构建的管理基础设施。在多个区块链网络上构建企业级基础设施服务时，只需要一个接口。
 
-\*\*\*\*[**Cartesi**](https://cartesi.io/): 通过实现乐观上滚的变体来解决可伸缩性和高费用的紧急问题。最值得注意的是，Cartesi正在革新智能合约编程，允许开发人员使用主流软件堆栈进行编码。Noether是Cartesi的侧链，它针对短暂数据进行了优化，为DApps提供了低成本的数据可用性。
+\*\*\*\*[**Cartesi**](https://cartesi.io/): 通过实现Optimistic 合约的变体来解决可伸缩性和高费用的紧急问题。最值得注意的是，Cartesi正在革新智能合约编程，允许开发人员使用主流软件堆栈进行编码。Noether是Cartesi的侧链，它针对短暂数据进行了优化，为DApps提供了低成本的数据可用性。
 
 [**Copper**](https://copper.co/): 通过为150个数字资产和超过25个交易所提供托管、大宗经纪和结算，为机构投资者提供进入加密资产空间的门户。它致力于为机构投资者提供灵活的解决方案，以适应不断变化的加密资产空间，同时为资产管理公司提供更大的透明度和控制权。
 
@@ -195,9 +195,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** “Genesis平台”帮助开发人员自动化Web3系统的实际性能和安全测试。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQwNDI1NTksLTEyOTc2NDU1MjIsLT
-I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
-ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
-wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
-NzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbLTEwMjk1MzI2NzgsLTEwNDQwNDI1NTksLT
+EyOTc2NDU1MjIsLTI0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5
+OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3Nz
+IwLC04ODUxNjYzNiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEy
+ODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
