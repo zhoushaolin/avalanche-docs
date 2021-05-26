@@ -136,7 +136,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Aleph.im**](https://aleph.im/): 一个跨区块链的第二层网络，专门关注去中心化的应用程序及其相关的基础设施(存储、计算服务器、安全)。
 
-[**Allnodes**](https://www.allnodes.com): 用于托管主节点和完整节点以及完整托管服务的非托管平台。a non-custodial platform for hosting masternodes and full nodes, as well as full staking services.
+[**Allnodes**](https://www.allnodes.com): 用于托管主节点和完整节点以及完整质押服务的非托管平台。
 
 \*\*\*\*[**Ankr**](https://www.ankr.com): Web3 insfrastructure for all
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYxMjg4ODMsLTI0MDYxMTUyOSwtMj
-A4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5
-NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNiwyMDg1MTM4NTMsLT
-M5OTkyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMTUwMjIwODUzMSwtMjQwNjExNTI5LC0yMD
+gzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4NjU4MSwtNTYxMTk2
+MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMz
+k5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
 -->
