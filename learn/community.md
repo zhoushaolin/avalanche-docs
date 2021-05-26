@@ -98,10 +98,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### 安全代币
 
-[**Securitize**](https://www.securitize.io/): 行业领先的数字证券(证券型通证)一级发行和合规平台，以及在sec注册的转账代理。
-the industry-leading primary issuance and compliance platform for digital securities \(security tokens\) and a SEC-registered transfer agent.
+[**Securitize**](https://www.securitize.io/): 行业领先的数字证券(证券型代币)一级发行和合规平台，以及在SEC注册的转账代理。
 
-### Stablecoins
+### 稳定bi
 
 [**BiLira**](https://www.bilira.co): a stable cryptocurrency that is backed by the Turkish Lira.
 
@@ -196,8 +195,8 @@ the industry-leading primary issuance and compliance platform for digital securi
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0OTYyNjc3LC00OTk5MDk3ODIsLTM5MT
-Q4NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2
-LDIwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MT
-I3NDUxOThdfQ==
+eyJoaXN0b3J5IjpbLTQ0MTc5MjIxNywtNDk5OTA5NzgyLC0zOT
+E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
+NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
+EyNzQ1MTk4XX0=
 -->
