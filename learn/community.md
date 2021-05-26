@@ -182,11 +182,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**P2P**](https://p2p.org/avalanche): 委托质押服务。
 
-[**Staking Rewards**](https://www.stakingrewards.com/earn/avalanche): staking calculator for Avalanche.
+[**Staking Rewards**](https://www.stakingrewards.com/earn/avalanche): Avalanche的质押计算器。
 
-### Testing Tools and Frameworks
+### 测试工具和框架
 
-[**Halborn**](https://halborn.com/): an award-winning team of ethical hackers that work with blockchain projects to defend against cyber attacks. The team at Halborn enhanced the security of the Avalanche Wallet, and also offers smart contract auditing.
+[**Halborn**](https://halborn.com/): 一个获奖的道德黑客团队，与区块链项目一起抵御网络攻击。Halborn的团队增强了雪崩钱包的安全性，还提供了智能合约审计。
+an award-winning team of ethical hackers that work with blockchain projects to defend against cyber attacks. The team at Halborn enhanced the security of the Avalanche Wallet, and also offers smart contract auditing.
 
 [**Kurtosis**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.kurtosistech.com): complete, end-to-end testing platform dedicated to helping developers build anti-fragile technologies on Avalanche.
 
@@ -195,9 +196,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE0MTU3NCwtMTI5NzY0NTUyMiwtMj
-QwNjExNTI5LC0yMDgzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4
-NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LD
-IwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3
-NDUxOThdfQ==
+eyJoaXN0b3J5IjpbLTE3OTg0Njg0OTAsLTEyOTc2NDU1MjIsLT
+I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
+ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
+wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
+NzQ1MTk4XX0=
 -->
