@@ -138,9 +138,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Allnodes**](https://www.allnodes.com): 用于托管主节点和完整节点以及完整质押服务的非托管平台。
 
-\*\*\*\*[**Ankr**](https://www.ankr.com): Web3 insfrastructure for all
+\*\*\*\*[**Ankr**](https://www.ankr.com): 所有项目的Web3基础设施
 
-[**AVADO**](https://ava.do/)**:** plug and play hardware blockchain nodes that enable individuals and developers to easily and privately access Web3 applications, participate in staking, and run incentivized Dapps to earn crypto.
+[**AVADO**](https://ava.do/)**:** 即插即用硬件区块链节点，使个人和开发人员可以方便地私下访问Web3应用程序，参与下注，并运行激励Dapps赚取加密货币。plug and play hardware blockchain nodes that enable individuals and developers to easily and privately access Web3 applications, participate in staking, and run incentivized Dapps to earn crypto.
 
 \*\*\*\*[**Axelar**](https://axelar.network/): a decentralized network and tools that help connect dApp builders with multiple blockchain ecosystems, applications, and users for frictionless cross-chain communication. Axelar consists of a protocol suite, tools, and APIs, designed to break down the barriers to cross-chain communication.
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjIwODUzMSwtMjQwNjExNTI5LC0yMD
-gzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4NjU4MSwtNTYxMTk2
-MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMz
-k5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
+eyJoaXN0b3J5IjpbMTM2MTQxMjQsLTI0MDYxMTUyOSwtMjA4Mz
+Q4MDkxNywtNDk5OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5NjM1
+NCwtNDc5ODU3NzIwLC04ODUxNjYzNiwyMDg1MTM4NTMsLTM5OT
+kyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
