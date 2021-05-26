@@ -76,17 +76,18 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Avascan**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.avascan.info): 允许用户在Avalanche上浏览区块链、交易、验证程序、委托人、资产和智能合约的独立区块链浏览器。该浏览器还提供了一个资产详情验证程序，从而为Avascan上的资产添加丰富数据。
 [**Vscout**](https://vscout.io): 浏览Avalanche子网、质押和验证程序的分析工具。
 
-### Insurance
+### 保险
 
 [**Union**](https://www.unn.finance/): 将捆绑保护和具有多代币模型的流动性二级市场相结合的技术平台。DeFi参与者在一个可扩展的系统中通过智能合约和协议管理他们的多层风险。
 
-### Lending
+### 贷款
 
-[**Torque**](https://torque.loans/): a powerful DeFi platform for borrowing assets with indefinite-term loans and fixed interest rates. Get an instant, crypto-backed loan with no KYC or credit checks.
+[**Torque**](https://torque.loans/): 一个强大的DeFi平台，提供无期限贷款和固定利率的资产借贷。获得无需KYC或信用检查的即时加密担保贷款。
 
-### Miscellaneous
+### 杂项
 
-[**AVAXAlert**](https://avaxalert.com): Receive notifications directly into your email address when transactions occur on your AVAX wallet.
+[**AVAXAlert**](https://avaxalert.com): 当交易发生在您的AVAX钱包时，直接接收通知到您的电子邮件地址。
+Receive notifications directly into your email address when transactions occur on your AVAX wallet.
 
 ### Non-Fungible Tokens \(NFTs\)
 
@@ -195,8 +196,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjUzNzI3NiwtNDk5OTA5NzgyLC0zOT
-E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
-NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
-EyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMzYxNDUxODEsLTQ5OTkwOTc4MiwtMzkxND
+g2NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYs
+MjA4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMj
+c0NTE5OF19
 -->
