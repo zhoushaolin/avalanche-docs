@@ -156,8 +156,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**DSLA Protocol**](https://stacktical.com/): 一个风险管理框架，通过使用自动执行的服务水平协议、奖惩保险政策和众筹流动性池，使开发人员和基础设施运营商能够减少他们的用户面临的服务延迟、中断和财务损失。
 
-
-\*\*\*\*[**Router**](http://routerprotocol.com/): connects multiple Layer-1 and Layer-2 blockchains and opens up avenues for smart order routing across chains for any trade. Router users can seamlessly deploy liquidity to any automated market makers \(AMMs\) on Avalanche and across any other blockchain platforms integrating with Router.
+\*\*\*\*[**Router**](http://routerprotocol.com/): 连接多个第一层和第二层区块链，为任一交易的链间智能订单开辟道路。路由器用户可以无缝地将流动性部署到Avalanche上的任何自动做市商(AMMs)上，也可以跨任何其他与路由器集成的区块链平台。
 
 \*\*\*\*[**SIMBA Chain**](https://simbachain.com/): ****a ****cloud-based, Smart Contract as a Service \(SCaaS\) platform that enables industry and governments to quickly develop and deploy Web 3.0 distributed applications \(dApps\) for many blockchains and across many platforms.
 
@@ -196,9 +195,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTAyOTkzMjYsLTEyOTc2NDU1MjIsLT
-I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
-ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
-wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
-NzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMTE0MzAzMTQxNCwtMTI5NzY0NTUyMiwtMj
+QwNjExNTI5LC0yMDgzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4
+NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LD
+IwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3
+NDUxOThdfQ==
 -->
