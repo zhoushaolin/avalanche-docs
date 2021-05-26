@@ -164,9 +164,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Chainlink**](https://chain.link/): 市场领先的价格和去中心化应用的数据预言机，并将现实世界的资产迁移到Avalanche上。
 
-### Software Development Kits \(SDKs\)
+### 软件开发工具包\(SDKs\)
 
-[**Magic \(formerly Fortmatic\)**](https://magic.link/): passwordless logins and more user-friendly key management in crypto securing over 20 million user authentications per month. Used by over 6,500 developers since launch, including established DeFi organizations like Uniswap, Aave, Augur, Bancor, and Zerion.
+[**Magic \(formerly Fortmatic\)**](https://magic.link/): 无密码登录和更友好的密钥管理，确保每月超过2000万用户的身份验证。自发布以来，已被超过6500名开发人员使用，包括已建立的DeFi组织，如Uniswap、Aave、Augur、Bancor和Zerion。passwordless logins and more user-friendly key management in crypto securing over 20 million user authentications per month. Used by over 6,500 developers since launch, including established DeFi organizations like Uniswap, Aave, Augur, Bancor, and Zerion.
 
 [**Torus**](https://tor.us/): DirectAuth SDK simplifies onboarding by enabling users to create an Avalanche Wallet with their existing Google accounts, and enables one-click logins to Avalanche applications. Users can customize their wallets to take ownership of private keys as they feel more comfortable with the technology.
 
@@ -195,9 +195,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3MjAxMTQyLC0xMjk3NjQ1NTIyLC0yND
-A2MTE1MjksLTIwODM0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2
-NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMj
-A4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0
-NTE5OF19
+eyJoaXN0b3J5IjpbMTk3ODMyMTUwNywtMTI5NzY0NTUyMiwtMj
+QwNjExNTI5LC0yMDgzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4
+NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LD
+IwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3
+NDUxOThdfQ==
 -->
