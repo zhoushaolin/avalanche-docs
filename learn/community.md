@@ -128,15 +128,15 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Frontier**](https://frontier.xyz/): 一个与链无关的DeFi聚合器，使用户能够在一个安全、简单的门户中管理他们的所有DeFi应用程序和资产。
 
-\*\*\*\*[**Yield**](https://www.yield.app/): ****该应用程序可以持续监测和评估DeFi生态系统中策略的盈利能力，包括流动性挖掘、套利、清算、保证金和抵押贷款以及其他创收策略。the app can constantly monitor and evaluate the profitability of strategies across the DeFi ecosystem, including liquidity mining, arbitrage, liquidations, margin & collateralized lending, and other income-producing strategies.
+\*\*\*\*[**Yield**](https://www.yield.app/): ****该应用程序可以持续监测和评估DeFi生态系统中策略的盈利能力，包括流动性挖掘、套利、清算、保证金和抵押贷款以及其他创收策略。
 
-## Developer Tools
+## 开发人员工具
 
-### Blockchain Infrastructure and Node Services
+### 区块链基础设施和节点服务
 
-[**Aleph.im**](https://aleph.im/): a cross-blockchain layer-2 network specifically focused on decentralized applications and their related infrastructure \(storage, computing servers, security\).
+[**Aleph.im**](https://aleph.im/): 一个跨区块链的第二层网络，专门关注去中心化的应用程序及其相关的基础设施(存储、计算服务器、安全)。
 
-[**Allnodes**](https://www.allnodes.com): a non-custodial platform for hosting masternodes and full nodes, as well as full staking services.
+[**Allnodes**](https://www.allnodes.com): 用于托管主节点和完整节点以及完整托管服务的非托管平台。a non-custodial platform for hosting masternodes and full nodes, as well as full staking services.
 
 \*\*\*\*[**Ankr**](https://www.ankr.com): Web3 insfrastructure for all
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwNTg2NjI0LC0yNDA2MTE1MjksLTIwOD
-M0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2NTgxLC01NjExOTYz
-NTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUzLC0zOT
-k5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
+eyJoaXN0b3J5IjpbLTEzMzYxMjg4ODMsLTI0MDYxMTUyOSwtMj
+A4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5
+NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNiwyMDg1MTM4NTMsLT
+M5OTkyMTQxNywtNTEyODQzMTM4LC0xODEyNzQ1MTk4XX0=
 -->
