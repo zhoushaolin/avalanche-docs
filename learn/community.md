@@ -78,7 +78,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### Insurance
 
-[**Union**](https://www.unn.finance/): 一种技术平台，将捆绑保护和具有多代币模型的流动性二级市场相结合。DeFi参与者在一个可扩展的系统中通过智能合约和协议管理他们的多层风险。a technology platform that combines bundled protection and a liquid secondary market with a multi-token model. DeFi participants manage their multi-layer risks across smart contracts and protocols in one scalable system.
+[**Union**](https://www.unn.finance/): 将捆绑保护和具有多代币模型的流动性二级市场相结合的技术平台。DeFi参与者在一个可扩展的系统中通过智能合约和协议管理他们的多层风险。
 
 ### Lending
 
@@ -195,7 +195,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjUyODgyMCwtNDk5OTA5NzgyLC0zOT
+eyJoaXN0b3J5IjpbMTI1NjUzNzI3NiwtNDk5OTA5NzgyLC0zOT
 E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
 NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
 EyNzQ1MTk4XX0=
