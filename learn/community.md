@@ -122,9 +122,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**Coin98**](https://coin98.app/): ****是一个非托管钱包，用于存储，发送和接收多链，多源数字资产。Coin98钱包同时拥有移动应用和扩展版本，成为连接用户与DeFi世界的通道。
 
-[**Ledger Nano S**](https://shop.ledger.com/products/ledger-nano-s)**:** the original hardware wallet made by Ledger. Easily start your crypto journey: buy crypto, secure your assets, and manage them in one single app.
+[**Ledger Nano S**](https://shop.ledger.com/products/ledger-nano-s)**:**  Ledger制作的原始硬件钱包。轻松开始您的加密之旅:购买加密货币，保护您的资产，并在应用程序中管理它们。
 
-### **Wealth Management**
+### **财富管理**
 
 [**Frontier**](https://frontier.xyz/): a chain-agnostic DeFi aggregator that enables users to manage all of their DeFi applications and assets in a safe, simple portal.
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDYxMTUyOSwtMjA4MzQ4MDkxNywtND
-k5OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3
-NzIwLC04ODUxNjYzNiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNT
-EyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMTI0MTM2MzYwOCwtMjQwNjExNTI5LC0yMD
+gzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4NjU4MSwtNTYxMTk2
+MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMz
+k5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
 -->
