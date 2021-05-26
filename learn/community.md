@@ -108,7 +108,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**OIN Finance**](https://oin.finance/): 跨链去中心化稳定币发行平台。
 
-\*\*\*\*[**TrueUSD**](https://www.trusttoken.com): 第一个也是唯一一个完全支持的稳定币，经过独立生活和链上验证。the first and only fully-backed stablecoin attested independently live and on-chain.
+\*\*\*\*[**TrueUSD**](https://www.trusttoken.com): 第一个也是唯一一个完全支持的稳定币，经过独立和链上验证。the first and only fully-backed stablecoin attested independently live and on-chain.
 
 ### Trading Bots
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTY0MTQxMCwtMjA4MzQ4MDkxNywtND
-k5OTA5NzgyLC0zOTE0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3
-NzIwLC04ODUxNjYzNiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNT
-EyODQzMTM4LC0xODEyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMzM0MDQxMzM4LC0yMDgzNDgwOTE3LC00OT
+k5MDk3ODIsLTM5MTQ4NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3
+MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMzk5OTIxNDE3LC01MT
+I4NDMxMzgsLTE4MTI3NDUxOThdfQ==
 -->
