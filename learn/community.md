@@ -110,11 +110,11 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 \*\*\*\*[**TrueUSD**](https://www.trusttoken.com): 第一个也是唯一一个完全支持的稳定币，经过独立生存和链上验证。
 
-### Trading Bots
+### 交易机器人
 
-[**Hummingbot**](https://hummingbot.io/)**:** a community-driven, open-source project that aims to democratize algorithmic trading by making sophisticated high-frequency trading strategies freely available to everyone in the world.
+[**Hummingbot**](https://hummingbot.io/)**:** 这是一个社区驱动的开源项目，旨在通过让世界上的每个人都可以免费获得复杂的高频交易策略，使算法交易民主化。
 
-\*\*\*\*[**Velox**](https://www.velox.global/): a fully scalable, automated trading assistant for ERC20 tokens. This “trading bot” allows you to define buy/sell parameters, activate Velox, and allow the bot to execute the trade on your behalf.
+\*\*\*\*[**Velox**](https://www.velox.global/): 一个完全可扩展的、自动的ERC20代币交易助手。这个“交易机器人”允许你定义买卖参数，激活Velox，并允许机器人代表你执行交易。a fully scalable, automated trading assistant for ERC20 tokens. This “trading bot” allows you to define buy/sell parameters, activate Velox, and allow the bot to execute the trade on your behalf.
 
 ### Wallets
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MTAzMjc1LC0yMDgzNDgwOTE3LC00OT
-k5MDk3ODIsLTM5MTQ4NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3
-MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMzk5OTIxNDE3LC01MT
-I4NDMxMzgsLTE4MTI3NDUxOThdfQ==
+eyJoaXN0b3J5IjpbLTE2NDgxMTc4MDYsLTIwODM0ODA5MTcsLT
+Q5OTkwOTc4MiwtMzkxNDg2NTgxLC01NjExOTYzNTQsLTQ3OTg1
+NzcyMCwtODg1MTY2MzYsMjA4NTEzODUzLC0zOTk5MjE0MTcsLT
+UxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
