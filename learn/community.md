@@ -104,7 +104,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 [**BiLira**](https://www.bilira.co): 一种由土耳其里拉支持的稳定加密货币。
 
-\*\*\*\*[**e-Money**](https://e-money.com/): 透明、有息、有货币支持的稳定币的主要发行者。a leading issuer of transparent, interest-bearing, currency-backed stablecoins.
+\*\*\*\*[**e-Money**](https://e-money.com/): 透明、有息、有货币支持的稳定币的主要发行者。
 
 \*\*\*\*[**OIN Finance**](https://oin.finance/): a cross-chain decentralized stablecoin issuance platform.
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDg3OTE3OCwtNDk5OTA5NzgyLC0zOT
-E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
-NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
-EyNzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbLTIwODM0ODA5MTcsLTQ5OTkwOTc4MiwtMz
+kxNDg2NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2
+MzYsMjA4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMT
+gxMjc0NTE5OF19
 -->
