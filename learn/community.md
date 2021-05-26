@@ -162,7 +162,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### 预言机
 
-[**Chainlink**](https://chain.link/): 市场领先的价格和去中心化应用的数据yu yan ji，以及将真实世界的资产迁移到Avalanche上。market-leading price and data oracles for decentralized applications and the migration of real-world assets onto Avalanche.
+[**Chainlink**](https://chain.link/): 市场领先的价格和去中心化应用的数据预言机，并将现实世界的资产迁移到Avalanche上。
 
 ### Software Development Kits \(SDKs\)
 
@@ -195,9 +195,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDIyMDczMywtMTI5NzY0NTUyMiwtMj
-QwNjExNTI5LC0yMDgzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4
-NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LD
-IwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3
-NDUxOThdfQ==
+eyJoaXN0b3J5IjpbOTg3MjAxMTQyLC0xMjk3NjQ1NTIyLC0yND
+A2MTE1MjksLTIwODM0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2
+NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMj
+A4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0
+NTE5OF19
 -->
