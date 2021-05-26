@@ -90,11 +90,12 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### 非同质化代币 \(NFT\)
 
-[**Polyient Games**](https://www.polyient.games): an investment firm focused on the non-fungible token \(NFT\) and blockchain gaming industries. They invest in startups that are building the infrastructure and applications that will scale the NFT asset class.
+[**Polyient Games**](https://www.polyient.games): 专注于非同质化代币(NFT)和区块链游戏产业的投资公司。他们投资于那些正在构建基础设施和应用程序的初创公司，这些基础设施和应用程序将扩展NFT资产类别。
 
-### **Prediction Markets**
+### **预测市场**
 
-\*\*\*\*[**Prosper**](https://prosper.so/)**:** a non-custodial, cross-chain prediction market and hedging platform. Prosper is developing a unique technology of on-chain liquidity aggregation to solve problems of prediction markets.
+\*\*\*\*[**Prosper**](https://prosper.so/)**:** 一个非托管、跨链预测市场和套期保值平台。Prosper正在开发一种独特的链上流动性聚集技术来解决预测市场的问题。
+a non-custodial, cross-chain prediction market and hedging platform. Prosper is developing a unique technology of on-chain liquidity aggregation to solve problems of prediction markets.
 
 ### Security Tokens
 
@@ -195,8 +196,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMzk0MjAsLTQ5OTkwOTc4MiwtMzkxND
-g2NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYs
-MjA4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMj
-c0NTE5OF19
+eyJoaXN0b3J5IjpbMTM1NTk1MjQ3NywtNDk5OTA5NzgyLC0zOT
+E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
+NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
+EyNzQ1MTk4XX0=
 -->
