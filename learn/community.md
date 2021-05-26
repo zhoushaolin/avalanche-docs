@@ -87,9 +87,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 ### 杂项
 
 [**AVAXAlert**](https://avaxalert.com): 当交易发生在您的AVAX钱包时，直接接收通知到您的电子邮件地址。
-Receive notifications directly into your email address when transactions occur on your AVAX wallet.
 
-### Non-Fungible Tokens \(NFTs\)
+### 非同质化代币 \(NFT\)
 
 [**Polyient Games**](https://www.polyient.games): an investment firm focused on the non-fungible token \(NFT\) and blockchain gaming industries. They invest in startups that are building the infrastructure and applications that will scale the NFT asset class.
 
@@ -196,7 +195,7 @@ Receive notifications directly into your email address when transactions occur o
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNDUxODEsLTQ5OTkwOTc4MiwtMzkxND
+eyJoaXN0b3J5IjpbNzEyMzk0MjAsLTQ5OTkwOTc4MiwtMzkxND
 g2NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYs
 MjA4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMj
 c0NTE5OF19
