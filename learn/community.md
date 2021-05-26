@@ -166,9 +166,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### 软件开发工具包\(SDKs\)
 
-[**Magic \(formerly Fortmatic\)**](https://magic.link/): 加密shi无密码登录和更友好的密钥管理，确保每月超过2000万用户的身份验证。自发布以来，已被超过6500名开发人员使用，包括已建立的DeFi组织，如Uniswap、Aave、Augur、Bancor和Zerion。passwordless logins and more user-friendly key management in crypto securing over 20 million user authentications per month. Used by over 6,500 developers since launch, including established DeFi organizations like Uniswap, Aave, Augur, Bancor, and Zerion.
+[**Magic \(formerly Fortmatic\)**](https://magic.link/): 加密世界的无密码登录和更友好的密钥管理，确保每月超过2000万用户的身份验证。自发布以来，已被超过6500名开发人员使用，包括已建立的DeFi组织，如Uniswap、Aave、Augur、Bancor和Zerion。
 
-[**Torus**](https://tor.us/): DirectAuth SDK simplifies onboarding by enabling users to create an Avalanche Wallet with their existing Google accounts, and enables one-click logins to Avalanche applications. Users can customize their wallets to take ownership of private keys as they feel more comfortable with the technology.
+[**Torus**](https://tor.us/): DirectAuth SDK简化了登录，允许用户用他们现有的谷歌帐户创建一个Avalanche钱包，并允许一键登录到Avalanche应用程序。用户可以定制自己的钱包，以获得私钥的所有权，因为他们对这项技术感到更舒服。
 
 ### Staking Services
 
@@ -195,9 +195,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk1NjkzNzEsLTEyOTc2NDU1MjIsLT
-I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
-ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
-wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
-NzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMTIzMzgxNTg0NSwtMTI5NzY0NTUyMiwtMj
+QwNjExNTI5LC0yMDgzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4
+NjU4MSwtNTYxMTk2MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LD
+IwODUxMzg1MywtMzk5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3
+NDUxOThdfQ==
 -->
