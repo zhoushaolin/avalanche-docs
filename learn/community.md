@@ -95,9 +95,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 ### **预测市场**
 
 \*\*\*\*[**Prosper**](https://prosper.so/)**:** 一个非托管、跨链预测市场和套期保值平台。Prosper正在开发一种独特的链上流动性聚集技术来解决预测市场的问题。
-a non-custodial, cross-chain prediction market and hedging platform. Prosper is developing a unique technology of on-chain liquidity aggregation to solve problems of prediction markets.
 
-### Security Tokens
+### 安全代币
 
 [**Securitize**](https://www.securitize.io/): the industry-leading primary issuance and compliance platform for digital securities \(security tokens\) and a SEC-registered transfer agent.
 
@@ -196,7 +195,7 @@ a non-custodial, cross-chain prediction market and hedging platform. Prosper is 
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTk1MjQ3NywtNDk5OTA5NzgyLC0zOT
+eyJoaXN0b3J5IjpbMTU5NjUzODk3OSwtNDk5OTA5NzgyLC0zOT
 E0ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYz
 NiwyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xOD
 EyNzQ1MTk4XX0=
