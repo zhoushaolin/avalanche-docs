@@ -126,9 +126,9 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### **财富管理**
 
-[**Frontier**](https://frontier.xyz/): a chain-agnostic DeFi aggregator that enables users to manage all of their DeFi applications and assets in a safe, simple portal.
+[**Frontier**](https://frontier.xyz/): 一个与链无关的DeFi聚合器，使用户能够在一个安全、简单的门户中管理他们的所有DeFi应用程序和资产。
 
-\*\*\*\*[**Yield**](https://www.yield.app/): ****the app can constantly monitor and evaluate the profitability of strategies across the DeFi ecosystem, including liquidity mining, arbitrage, liquidations, margin & collateralized lending, and other income-producing strategies.
+\*\*\*\*[**Yield**](https://www.yield.app/): ****该应用程序可以持续监测和评估DeFi生态系统中策略的盈利能力，包括流动性挖掘、套利、清算、保证金和抵押贷款以及其他创收策略。the app can constantly monitor and evaluate the profitability of strategies across the DeFi ecosystem, including liquidity mining, arbitrage, liquidations, margin & collateralized lending, and other income-producing strategies.
 
 ## Developer Tools
 
@@ -195,8 +195,8 @@ Avalanche及其社区相关技术讨论的官方论坛。
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTM2MzYwOCwtMjQwNjExNTI5LC0yMD
-gzNDgwOTE3LC00OTk5MDk3ODIsLTM5MTQ4NjU4MSwtNTYxMTk2
-MzU0LC00Nzk4NTc3MjAsLTg4NTE2NjM2LDIwODUxMzg1MywtMz
-k5OTIxNDE3LC01MTI4NDMxMzgsLTE4MTI3NDUxOThdfQ==
+eyJoaXN0b3J5IjpbNDcwNTg2NjI0LC0yNDA2MTE1MjksLTIwOD
+M0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2NTgxLC01NjExOTYz
+NTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMjA4NTEzODUzLC0zOT
+k5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0NTE5OF19
 -->
