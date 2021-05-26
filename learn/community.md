@@ -186,7 +186,7 @@ Avalanche及其社区相关技术讨论的官方论坛。
 
 ### 测试工具和框架
 
-[**Halborn**](https://halborn.com/): 一个获奖的道德黑客团队，与区块链项目一起抵御网络攻击。Halborn的团队增强了雪崩钱包的安全性，还提供了智能合约审计。
+[**Halborn**](https://halborn.com/): 一个获奖的文明黑客团队，与区块链项目一起抵御网络攻击。Halborn的团队增强了雪崩钱包的安全性，还提供了智能合约审计。
 an award-winning team of ethical hackers that work with blockchain projects to defend against cyber attacks. The team at Halborn enhanced the security of the Avalanche Wallet, and also offers smart contract auditing.
 
 [**Kurtosis**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.kurtosistech.com): complete, end-to-end testing platform dedicated to helping developers build anti-fragile technologies on Avalanche.
@@ -196,9 +196,9 @@ an award-winning team of ethical hackers that work with blockchain projects to d
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg0Njg0OTAsLTEyOTc2NDU1MjIsLT
-I0MDYxMTUyOSwtMjA4MzQ4MDkxNywtNDk5OTA5NzgyLC0zOTE0
-ODY1ODEsLTU2MTE5NjM1NCwtNDc5ODU3NzIwLC04ODUxNjYzNi
-wyMDg1MTM4NTMsLTM5OTkyMTQxNywtNTEyODQzMTM4LC0xODEy
-NzQ1MTk4XX0=
+eyJoaXN0b3J5IjpbMjIxMTMwNDU3LC0xMjk3NjQ1NTIyLC0yND
+A2MTE1MjksLTIwODM0ODA5MTcsLTQ5OTkwOTc4MiwtMzkxNDg2
+NTgxLC01NjExOTYzNTQsLTQ3OTg1NzcyMCwtODg1MTY2MzYsMj
+A4NTEzODUzLC0zOTk5MjE0MTcsLTUxMjg0MzEzOCwtMTgxMjc0
+NTE5OF19
 -->
