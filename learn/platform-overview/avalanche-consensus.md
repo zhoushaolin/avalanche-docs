@@ -20,12 +20,12 @@
 
 ## Snowball
 
-上面的直觉概述了雪球算法，它是Avalanche共识的一个构建区块。让我们回顾一下斯诺鲍算法。The intuition above outlines the Snowball Algorithm, which is a building block of Avalanche consensus. Let's review the Snowball algorithm.
+上面的直觉概述了雪球算法，它是Avalanche共识的一个构建区块。让我们回顾一下雪球算法。
 
-### Parameters
+### 参数
 
-* _n_: number of participants
-* _k_ \(sample size\): between 1 and _n_
+* _n_: 参与人数
+* _k_ \(样本大小\): 1 到 _n_
 * α \(quorum size\): between 1 and _k_
 * β \(decision threshold\): &gt;= 1
 
@@ -181,6 +181,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjMwNjk4NywtNTQwNjEzOTIxLC01OT
-Y0NTA2MzBdfQ==
+eyJoaXN0b3J5IjpbLTEzODQwNDc0MTgsLTU0MDYxMzkyMSwtNT
+k2NDUwNjMwXX0=
 -->
