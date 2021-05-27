@@ -14,7 +14,7 @@
 
 首先，让我们对协议建立一个直观的认识。想象一屋子人试图就午餐吃什么达成一致。假设披萨和烧烤二选一。有些人一开始可能更喜欢披萨，而有些人一开始更喜欢烧烤。不过，最终每个人的目标都是达成**共识**。
 
-每个人都随机询问房间里的一组人他们对午餐的偏好。如果超过一半的人说披萨，这个人就会想，“好吧，看起来他们更倾向于披萨。”我现在更喜欢吃披萨。”也就是说，他们采纳了大多数人的偏好。同样，如果大多数人说烧烤，那么这个人就会选择烧烤。Everyone asks a random subset of the people in the room what their lunch preference is. If more than half say pizza, the person thinks, "Ok, looks like things are leaning toward pizza. I prefer pizza now." That is, they adopt the _preference_ of the majority. Similarly, if a majority say barbecue, the person adopts barbecue as their preference.
+每个人都随机询问房间里的一组人他们对午餐的偏好。如果超过一半的人说披萨，这个人就会想，“好吧，看起来他们更倾向于披萨, 我现在更喜欢吃披萨。”也就是说，他们采纳了大多数人的_preference_。同样，如果大多数人说烧烤，那么这个人就会选择烧烤。Everyone asks a random subset of the people in the room what their lunch preference is. If more than half say pizza, the person thinks, "Ok, looks like things are leaning toward pizza. I prefer pizza now." That is, they adopt the _preference_ of the majority. Similarly, if a majority say barbecue, the person adopts barbecue as their preference.
 
 Everyone repeats this process. Each round, more and more people have the same preference. This is because the more people that prefer an option, the more likely someone is to receive a majority reply and adopt that option as their preference. After enough rounds, they reach consensus and decide on one option, which everyone prefers.
 
@@ -181,6 +181,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1MjEwNzk1LC01NDA2MTM5MjEsLTU5Nj
-Q1MDYzMF19
+eyJoaXN0b3J5IjpbLTI3MDI3NTg0NSwtNTQwNjEzOTIxLC01OT
+Y0NTA2MzBdfQ==
 -->
