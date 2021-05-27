@@ -26,10 +26,10 @@
 
 * _n_: 参与人数
 * _k_ \(样本大小\): 1 到 _n_
-* α \(quorum size\): between 1 and _k_
-* β \(decision threshold\): &gt;= 1
+* α \(quorum大小\): 1 到 _k_
+* β \(决定阈值\): &gt;= 1
 
-### Algorithm
+### 算法
 
 ```text
 preference := pizza
@@ -181,6 +181,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQwNDc0MTgsLTU0MDYxMzkyMSwtNT
-k2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbMTk1OTQyNzUyOSwtNTQwNjEzOTIxLC01OT
+Y0NTA2MzBdfQ==
 -->
