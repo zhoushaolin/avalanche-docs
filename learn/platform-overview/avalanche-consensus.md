@@ -16,11 +16,11 @@
 
 每个人都随机询问房间里的一组人他们对午餐的偏好。如果超过一半的人说披萨，这个人就会想，“好吧，看起来他们更倾向于披萨, 我现在更喜欢吃披萨。”也就是说，他们采纳了大多数人的偏好。同样，如果大多数人说烧烤，那么这个人就会选择烧烤。
 
-Everyone repeats this process. Each round, more and more people have the same preference. This is because the more people that prefer an option, the more likely someone is to receive a majority reply and adopt that option as their preference. After enough rounds, they reach consensus and decide on one option, which everyone prefers.
+每个人都重复这个过程。每一轮，越来越多的人有相同的偏好。这是因为人们越喜欢某个选项，就越有可能收到多数人的回复，并将该选项作为自己的偏好。经过足够多的回合后，他们达成共识，并决定一个选项，每个人都喜欢。
 
 ## Snowball
 
-The intuition above outlines the Snowball Algorithm, which is a building block of Avalanche consensus. Let's review the Snowball algorithm.
+上面的直觉概述了雪球算法，它是Avalanche共识的一个构建区块。让我们回顾一下斯诺鲍算法。The intuition above outlines the Snowball Algorithm, which is a building block of Avalanche consensus. Let's review the Snowball algorithm.
 
 ### Parameters
 
@@ -181,6 +181,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzOTg4MTEyLC01NDA2MTM5MjEsLTU5Nj
-Q1MDYzMF19
+eyJoaXN0b3J5IjpbMjEyMjMwNjk4NywtNTQwNjEzOTIxLC01OT
+Y0NTA2MzBdfQ==
 -->
