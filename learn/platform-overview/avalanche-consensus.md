@@ -63,7 +63,7 @@ while not decided:
 
 活性和安全阈值是可参数化的。随着群体数量α的增加，安全阈值增加，活性阈值降低。这意味着网络可以容忍更多错综复杂的节点，并保持安全，这意味着所有节点最终都会同意接受或拒绝某些内容。活跃阈值是指在协议无法进展之前，可以容忍的恶意参与者的数量。
 
-这些值是常量，在雪崩网络上非常小。样本量_k_为' 20 '。因此，当一个节点询问一组节点的意见时，它只询问整个网络中的“20个”节点。quorum大小α为' 14 '。因此，如果“14”或更多节点给出相同的响应，则该响应将作为查询节点的首选。决策阈值β为“20”。节点在收到“20”连续仲裁(α多数)响应后决定选择。
+这些值是常量，在雪崩网络上非常小。样本量_k_为`20`。因此，当一个节点询问一组节点的意见时，它只询问整个网络中的 `20`个节点。quorum大小α为' 14 '。因此，如果“14”或更多节点给出相同的响应，则该响应将作为查询节点的首选。决策阈值β为“20”。节点在收到“20”连续仲裁(α多数)响应后决定选择。
 These values, which are constants, are quite small on the Avalanche Network. The sample size, _k_, is `20`. So when a node asks a group of nodes their opinion, it only queries `20` nodes out of the whole network. The quorum size, α, is `14`. So if `14` or more nodes give the same response, that response is adopted as the querying node's preference. The decision threshold, β, is `20`. A node decides on choice after receiving `20` consecutive quorum \(α majority\) responses.
 
 Snowball is very scalable as the number of nodes on the network, _n_, increases. Regardless of the number of participants in the network, the number of consensus messages sent remains the same because in a given query, a node only queries `20` nodes, even if there are thousands of nodes in the network.
@@ -181,7 +181,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzkzODI1MjMsLTE0MjE3NTI1NTcsMj
-EwNzIyNDk5NCwxMzY5MzczNTk1LC01NDA2MTM5MjEsLTU5NjQ1
-MDYzMF19
+eyJoaXN0b3J5IjpbLTIxMjc3NTczNCwtMTQyMTc1MjU1NywyMT
+A3MjI0OTk0LDEzNjkzNzM1OTUsLTU0MDYxMzkyMSwtNTk2NDUw
+NjMwXX0=
 -->
