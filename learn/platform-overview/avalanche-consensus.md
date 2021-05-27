@@ -57,10 +57,9 @@ while not decided:
 由随机抽样引起的随机偏好变化，会导致网络对某一选择的偏好，这就会导致更多的网络对该选择的偏好，直到它变得不可逆，然后节点就可以做出决定。
 
 {% hint style="info" %}
-为了更好的可视化，请查看这个演示[this demo](https://tedyin.com/archive/snow-bft-demo/#/snow) 从Ava Labs的联合创始人Ted Yin。
-For a great visualization, check out [this demo](https://tedyin.com/archive/snow-bft-demo/#/snow) from Ava Labs' Co-Founder Ted Yin.
-{% endhint %}
+为了更好的可视化，请查看Ava Labs的联合创始人Ted Yin的这个演示[this demo](https://tedyin.com/archive/snow-bft-demo/#/snow)。
 
+在我们的例子中，在披萨和烧烤之间有一个二选一的选择，但是斯诺鲍可以适应在许多可能的选择中达成决策共识。
 In our example, there is a binary choice between pizza or barbecue, but Snowball can be adapted to achieve consensus on decisions with many possible choices.
 
 The liveness and safety thresholds are parameterizable. As the quorum size, α, increases, the safety threshold increases, and the liveness threshold decreases. This means the network can tolerate more byzantine \(deliberately incorrect, malicious\) nodes and remain safe, meaning all nodes will eventually agree whether something is accepted or rejected. The liveness threshold is the number of malicious participants that can be tolerated before the protocol is unable to make progress.
@@ -182,6 +181,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTA4NDk5NCwxMzY5MzczNTk1LC01ND
-A2MTM5MjEsLTU5NjQ1MDYzMF19
+eyJoaXN0b3J5IjpbLTE4MDgxNzE5NDYsMTM2OTM3MzU5NSwtNT
+QwNjEzOTIxLC01OTY0NTA2MzBdfQ==
 -->
