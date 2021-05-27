@@ -4,7 +4,7 @@
 
 # Avalanche共识
 
-共识就是让一组计算机就一个决定达成一致。计算机可以通过一系列被称为共识协议的步骤来达成共识。Avalanche是一种新的共识协议，具有可扩展性、健壮性和去中心化。它具有低延迟和高吞吐量。它是节能的，不需要特殊的计算机硬件。它在对抗性条件下表现良好，对“51%的攻击”具有弹性。本文档解释雪崩共识协议。白皮书在这里。(https://www.avalabs.org/whitepapers)
+共识就是让一组计算机就一个决定达成一致。计算机可以通过一系列被称为共识协议的步骤来达成共识。Avalanche是一种新的共识协议，具有可扩展性、健壮性和去中心化。它具有低延迟和高吞吐量, 高效节能的，不需要特殊的计算机硬件。它在对抗性条件下表现良好，对“51%的攻击”具有弹性。本文档解释雪崩共识协议。白皮书在这里。(https://www.avalabs.org/whitepapers)
 Consensus is the task of getting a group of computers to come to an agreement on a decision. Computers can reach a consensus by following a set of steps called a consensus protocol. Avalanche is a new consensus protocol that is scalable, robust, and decentralized. It has low latency and high throughput. It is energy efficient and does not require special computer hardware. It performs well in adversarial conditions and is resilient to "51% attacks." This document explains the Avalanche consensus protocol. The whitepaper is [here.](https://www.avalabs.org/whitepapers)
 
 ## Video
@@ -182,5 +182,5 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU0OTU2MDZdfQ==
+eyJoaXN0b3J5IjpbLTE1NjA3NzQxNDhdfQ==
 -->
