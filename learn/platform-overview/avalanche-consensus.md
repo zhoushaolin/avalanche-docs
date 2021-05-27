@@ -1,5 +1,5 @@
 ---
-description: A deep dive into the Avalanche consensus protocol
+描述:深入雪崩共识协议
 ---
 
 # Avalanche Consensus
@@ -180,3 +180,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3NDg2MTc1MDZdfQ==
+-->
