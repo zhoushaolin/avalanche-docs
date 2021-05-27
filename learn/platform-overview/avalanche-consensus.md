@@ -54,9 +54,10 @@ while not decided:
 
 每个人都重复这个过程，直到他们连续β次得到相同的响应的法定人数。如果一个人决定吃披萨，那么其他所有遵循该协议的人最终也会决定吃披萨。
 
-由随机抽样引起的随机偏好变化，会导致网络对某一选择的偏好，这就会导致更多的网络对该选择的偏好，直到它变得不可逆，然后节点就可以做出决定。Random changes in preference, caused by random sampling, cause a network preference for one choice, which begets more network preference for that choice until it becomes irreversible and then the nodes can decide.
+由随机抽样引起的随机偏好变化，会导致网络对某一选择的偏好，这就会导致更多的网络对该选择的偏好，直到它变得不可逆，然后节点就可以做出决定。
 
 {% hint style="info" %}
+为了更好的可视化，请查看这个演示[this demo](https://tedyin.com/archive/snow-bft-demo/#/snow) 从Ava Labs的联合创始人Ted Yin。
 For a great visualization, check out [this demo](https://tedyin.com/archive/snow-bft-demo/#/snow) from Ava Labs' Co-Founder Ted Yin.
 {% endhint %}
 
@@ -181,6 +182,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzMjQzNzAwLDEzNjkzNzM1OTUsLTU0MD
-YxMzkyMSwtNTk2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbLTU3MTA4NDk5NCwxMzY5MzczNTk1LC01ND
+A2MTM5MjEsLTU5NjQ1MDYzMF19
 -->
