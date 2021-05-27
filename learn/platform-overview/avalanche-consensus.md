@@ -50,7 +50,7 @@ while not decided:
 
 ### 算法的解释
 
-每个人最初都偏爱披萨或烧烤。在某人做出决定之前，他们会询问人们_k_(样本量)，问他们喜欢什么。如果α或更多的人给出相同的反应，这个反应被采纳为新的偏好。α被称为quorum size_。如果新首选项与旧首选项相同，' consecutivessucces '计数器将递增。如果新的首选项与旧的不同，' consecutivessucces '计数器将变为' 1 '。如果没有响应获得quorum(相同响应的α多数)，则' consecutivessucces '计数器设置为' 0 '。
+每个人最初都偏爱披萨或烧烤。在某人做出决定之前，他们会询问人们_k_(样本量)，问他们喜欢什么。如果α或更多的人给出相同的反应，这个反应被采纳为新的偏好。α被称为quorum size_。如果新偏好与旧偏好相同，`consecutiveSuccesses` 计数器将递增。如果新的偏好与旧的不同，`consecutiveSuccesses` 计数器将变为`1`。如果没有响应获得quorum(相同响应的α多数)，则' consecutivessucces '计数器设置为' 0 '。
 Everyone has an initial preference for pizza or barbecue. Until someone has _decided_, they query _k_ people \(the sample size\) and ask them what they prefer. If α or more people give the same response, that response is adopted as the new preference. α is called the _quorum size_. If the new preference is the same as the old preference, the `consecutiveSuccesses` counter is incremented. If the new preference is different then the old preference, the `consecutiveSucccesses` counter to `1`. If no response gets a quorum \(an α majority of the same response\) then the `consecutiveSuccesses` counter is set to `0`.
 
 Everyone repeats this until they get a quorum for the same response β times in a row. If one person decides pizza, then every other person following the protocol will eventually also decide on pizza.
@@ -182,6 +182,6 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQwMjY0MDQsMTM2OTM3MzU5NSwtNT
-QwNjEzOTIxLC01OTY0NTA2MzBdfQ==
+eyJoaXN0b3J5IjpbMjUxMzkzNzYsMTM2OTM3MzU5NSwtNTQwNj
+EzOTIxLC01OTY0NTA2MzBdfQ==
 -->
