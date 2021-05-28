@@ -68,12 +68,9 @@ while not decided:
 随着网络节点数量_n_的增加，Snowball的可扩展性非常强。无论网络中有多少参与者，发送的共识消息的数量都是相同的，因为在一个给定的查询中，即使网络中有数千个节点，一个节点也只访问`20`个节点。
 
 
-## DAGs \(**D**irected **A**cyclic **G**raphs\)
+## DAGs \(有向无环图\)
 
-现在让我们介绍一种称为DAG或有向无环图(Directed Acyclic Graph)的数据结构。DAG给出决策的**部分排序**。例如,检查
-
-在这个图表中找出DAG:
-Now let's introduce a data structure called a DAG or Directed Acyclic Graph. A DAG gives a **partial ordering** of decisions. For example, check out the DAG in this diagram:
+现在让我们介绍一种称为DAG或有向无环图(Directed Acyclic Graph)的数据结构。DAG给出决策的**部分排序**。例如, 找出这个图表中的DAG:
 
 ![Basic DAG](../../.gitbook/assets/basic-dag.png)
 
@@ -184,7 +181,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDEyNjgxMywtNzg3NjI3NTAyLDc4Nj
-g2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1
-OTUsLTU0MDYxMzkyMSwtNTk2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbLTEzNjA5NDE4MzAsLTc4NzYyNzUwMiw3OD
+Y4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5Mzcz
+NTk1LC01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
 -->
