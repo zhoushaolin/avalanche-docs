@@ -65,8 +65,8 @@ while not decided:
 
 这些值是常量，在雪崩网络上非常小。样本量_k_为`20`。因此，当一个节点询问一组节点的意见时，它只询问整个网络中的 `20`个节点。quorum大小α为`14` 。因此，如果`14`或更多节点给出相同的响应，则该响应将作为查询节点的首选。决策阈值β为`20`。节点在收到`20`连续仲裁(α多数)响应后决定选择。
 
-随着网络节点数量_n_的增加，Snowball的可扩展性非常强。无论网络中有多少参与者，发送的共识消息的数量都是相同的，因为在一个给定的查询中，即使网络中有数千个节点，一个节点也只查询`20`个节点。
-Snowball is very scalable as the number of nodes on the network, _n_, increases. Regardless of the number of participants in the network, the number of consensus messages sent remains the same because in a given query, a node only queries `20` nodes, even if there are thousands of nodes in the network.
+随着网络节点数量_n_的增加，Snowball的可扩展性非常强。无论网络中有多少参与者，发送的共识消息的数量都是相同的，因为在一个给定的查询中，即使网络中有数千个节点，一个节点也只访问`20`个节点。
+
 
 ## DAGs \(**D**irected **A**cyclic **G**raphs\)
 
@@ -181,7 +181,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDY5MDg4MSw3ODY4NjU0NTcsLTE0Mj
+eyJoaXN0b3J5IjpbLTc4NzYyNzUwMiw3ODY4NjU0NTcsLTE0Mj
 E3NTI1NTcsMjEwNzIyNDk5NCwxMzY5MzczNTk1LC01NDA2MTM5
 MjEsLTU5NjQ1MDYzMF19
 -->
