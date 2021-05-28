@@ -90,10 +90,9 @@ while not decided:
 
 一个节点发现一个新的事务**Y**。 根据上述参数查询网络。 它查询_k_ \(`4` \)验证器并询问，“您喜欢这个事务吗?” 它会得到回应，其中三个说**是**，一个说**否**。 quorum大小α是`3`，所以有α多数(quorum)回答是。 现在我们更新节点的DAG。 
 
-A node finds out about a new transaction **Y**. It queries the network based on the above parameters. It queries _k_ \(`4`\) validators and asks, "Do you prefer this transaction?" It gets back responses—three of them say **yes** and one of them says **no**. The quorum size, α, is `3` so there is an α majority \(quorum\) of yes responses. Now we the node updates its DAG.
-
 ![Working example 2](../../.gitbook/assets/example-2.png)
 
+如果一个节点对一个交易得到α多数响应，那么你给这个交易一个**chit**，这是一个布尔值，表示“当我向网络查询这个交易时，α多数表示他们更喜欢它。” 在我们的示例中，事务Y获得一张票据。 
 If a node gets an α majority response for a transaction then you give that transaction a **chit**, which is a boolean that says, "When I queried the network about this transaction, an α majority said that they preferred it." In our example, transaction Y gets a chit.
 
 There is also a notion of **confidence**, which is the sum of a vertex's chit plus the sum of its descendants' chits. For example, transaction **V** has a chit. It also has three descendants which have a chit so its confidence is increased from `3` to `4`. Similarly, transactions **W** and **X** both have a chit and they both have a descendant with a chit, so they each have confidence `2`. Transaction Y has confidence `1`.
@@ -183,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc2NDgxODcsNzEwODk1ODk1LDExMz
+eyJoaXN0b3J5IjpbLTEzNDY4MTE3MjIsNzEwODk1ODk1LDExMz
 c3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0
 NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLT
 c4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIy
