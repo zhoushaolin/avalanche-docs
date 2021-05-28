@@ -84,7 +84,8 @@ while not decided:
 
 ## 工作示例 
 
-假设我们有一个使用以下参数运行的Avalanche网络。 样本大小_k_为' 4 '。 quorum大小α为' 3 '。 连续成功的次数β是' 4 '。 Suppose we have an Avalanche network running with the following parameters. The sample size, _k_, is `4`. The quorum size, α, is `3`. The number of consecutive success, β, is `4`.
+假设我们有一个使用以下参数运行的Avalanche网络。 样本大小_k_为' 4 '。 quorum大小α为' 3 '。 连续成功的次数β是' 4 '。 
+Suppose we have an Avalanche network running with the following parameters. The sample size, _k_, is `4`. The quorum size, α, is `3`. The number of consecutive success, β, is `4`.
 
 ![Working example 1](../../.gitbook/assets/example-1.png)
 
@@ -181,9 +182,9 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NT
-c3MzcwOSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4
-MCwtMTMwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMT
-QyMTc1MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1OTUsLTU0MDYx
-MzkyMSwtNTk2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NT
+IxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0
+LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3OD
+Y4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5Mzcz
+NTk1LC01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
 -->
