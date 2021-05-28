@@ -84,10 +84,11 @@ while not decided:
 
 ## 工作示例 
 
-假设我们有一个使用以下参数运行的Avalanche网络。 样本大小_k_为' 4 '。 quorum大小α为' 3 '。 连续成功的次数β是' 4 '。 
-Suppose we have an Avalanche network running with the following parameters. The sample size, _k_, is `4`. The quorum size, α, is `3`. The number of consecutive success, β, is `4`.
+假设我们有一个使用以下参数运行的Avalanche网络。 样本大小_k_为 `4`。 quorum大小α为`3`。 连续成功的次数β是`4`。 
 
 ![Working example 1](../../.gitbook/assets/example-1.png)
+
+一个节点发现一个新的事务**Y**。 根据上述参数查询网络。 它查询_k_ \(`4` \)验证器并询问，“您喜欢这个事务吗?” 它会得到回应，其中三个说“是”，一个说“否”。 quorum大小α是' 3 '，所以有α多数(quorum)的是。 现在我们更新节点的DAG。 
 
 A node finds out about a new transaction **Y**. It queries the network based on the above parameters. It queries _k_ \(`4`\) validators and asks, "Do you prefer this transaction?" It gets back responses—three of them say **yes** and one of them says **no**. The quorum size, α, is `3` so there is an α majority \(quorum\) of yes responses. Now we the node updates its DAG.
 
@@ -182,9 +183,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NT
-IxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0
-LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3OD
-Y4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5Mzcz
-NTk1LC01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
+eyJoaXN0b3J5IjpbMTMzMjYxOTcwMyw3MTA4OTU4OTUsMTEzNz
+c3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMDg3ODU5NTQ3
+LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOTQ2NjE4NSwtNz
+g3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0
+OTk0LDEzNjkzNzM1OTUsLTU0MDYxMzkyMSwtNTk2NDUwNjMwXX
+0=
 -->
