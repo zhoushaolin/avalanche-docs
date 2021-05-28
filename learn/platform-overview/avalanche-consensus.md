@@ -96,7 +96,7 @@ while not decided:
 
 还有一个**置信度**的概念，它是一个顶点的话单加上它的后代话单的和。 例如，交易**V**有一个凭证。 它也有三个后代有一个单张，因此它的信心从`3`增加到`4`。 类似地，交易**W**和**X**都有一个凭证，它们都有一个凭证的后代，所以它们都有信心`2`, 交易Y有信心`1`。 
 
-**连续成功**在雪球里都相同。 它是一个交易或交易的后代接收到成功的α多数查询响应的次数。 之前，事务V有“3”连续成功，它自己和它的两个子事务，现在它有“4”连续成功的事务y。 
+**连续成功**在雪球里都相同。 它是一个交易或交易的后代接收到成功的α多数查询响应的次数。 之前，交易V有`3`次连续成功，它自己和它的两个子交易，现在它有`4`次连续成功的事务Y, 类似的的还有
 **Consecutive successes** are the same as in Snowball. It's the number of times that a transaction, or a descendant of the transaction, received a successful α majority query response. Previously, transaction V had `3` consecutive successes, itself and its two children, and now it has `4` consecutive successes with transaction Y. Similarly for transactions W and X.
 
 ![Working example 3](../../.gitbook/assets/example-3.png)
@@ -182,10 +182,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA0OTY2NTIsMTY1NDYxNTg5Myw3MT
-A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
-OSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMT
-MwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1
-MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1OTUsLTU0MDYxMzkyMS
-wtNTk2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbMTU0Njk5OTk5MCwxNjU0NjE1ODkzLDcxMD
+g5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5NTMsODY1NzczNzA5
+LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMzI0ODM1NDgwLC0xMz
+A5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1NDU3LC0xNDIxNzUy
+NTU3LDIxMDcyMjQ5OTQsMTM2OTM3MzU5NSwtNTQwNjEzOTIxLC
+01OTY0NTA2MzBdfQ==
 -->
