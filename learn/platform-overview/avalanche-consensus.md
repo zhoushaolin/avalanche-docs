@@ -79,7 +79,6 @@ while not decided:
 另外两个DAG相关的概念是**祖先**和**后代**。祖先节点是DAG中可以与之连线的任何节点。例如,**d**的祖先是**a**, **b**和**c**。**e**的祖先是 **a**, **b**, **c**, 和**d**。后代与祖先相反。 **a**的后代 **b**, **c**, **d**, 和 **e**。**b**的后代是**d**和**e**。
 
 例如，比特币和以太坊都有一个线性链，每个区块都有一个父区块和一个子区块。Avalanche使用DAG来存储数据，而不是线性链。DAG的每个元素可以有多个父元素。DAG中的父子关系并不意味着应用程序级依赖。
-Both Bitcoin and Ethereum, for example, have a linear chain where every block has one parent and one child. Avalanche uses a DAG to store data rather than a linear chain. Each element of the DAG may have multiple parents. The parent-child relationship in the DAG does not imply an application-level dependency.
 
 In a consensus protocol, the name of the game is to prevent the inclusion of **conflicting transactions** into the DAG. Conflicts are application-defined. Different applications will have different notions about what it means for two transactions to conflict. For example, in a P2P payment system, transactions that consume the same UTXO \([Unspent Transaction Output](https://en.wikipedia.org/wiki/Unspent_transaction_output)\) would conflict. In Avalanche every transaction belongs to a **conflict set** which consists of conflicting transactions. Only one transaction in a conflict set can be included in the DAG. Each node **prefers** one transaction in a conflict set.
 
@@ -182,8 +181,8 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUyMzQ4NDgsLTEzMDk0NjYxODUsLT
-c4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIy
-NDk5NCwxMzY5MzczNTk1LC01NDA2MTM5MjEsLTU5NjQ1MDYzMF
-19
+eyJoaXN0b3J5IjpbMTMyNDgzNTQ4MCwtMTMwOTQ2NjE4NSwtNz
+g3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0
+OTk0LDEzNjkzNzM1OTUsLTU0MDYxMzkyMSwtNTk2NDUwNjMwXX
+0=
 -->
