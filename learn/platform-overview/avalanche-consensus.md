@@ -80,7 +80,7 @@ while not decided:
 
 例如，比特币和以太坊都有一个线性链，每个区块都有一个父区块和一个子区块。Avalanche使用DAG来存储数据，而不是线性链。DAG的每个元素可以有多个父元素。DAG中的父子关系并不意味着应用程序级依赖。
 
-在共识协议中，关键在于防止将**冲突交易**纳入DAG。 冲突是应用程序定义的, 不同的应用程序对于两个事务冲突的含义有不同的概念。 例如，在P2P支付系统中，使用相同UTXO的事务([未使用的事务输出](https://en.wikipedia.org/wiki/Unspent_transaction_output)\)会发生冲突。 在Avalanche中，每个事务都属于一个由冲突事务组成的**冲突集。 DAG中只能包含冲突集中的一个事务。 每个节点
+在共识协议中，关键在于防止将**冲突交易**纳入DAG。 冲突是应用程序定义的, 不同的应用程序对于两个事务冲突的含义有不同的概念。 例如，在P2P支付系统中，使用相同UTXO的交易([未使用的事务输出](https://en.wikipedia.org/wiki/Unspent_transaction_output)\)会发生冲突。 在Avalanche中，每个事务都属于一个由冲突事务组成的**冲突集。 DAG中只能包含冲突集中的一个事务。 每个节点
 
 **偏好**冲突集中的一个事务。 
 In a consensus protocol, the name of the game is to prevent the inclusion of **conflicting transactions** into the DAG. Conflicts are application-defined. Different applications will have different notions about what it means for two transactions to conflict. For example, in a P2P payment system, transactions that consume the same UTXO \([Unspent Transaction Output](https://en.wikipedia.org/wiki/Unspent_transaction_output)\) would conflict. In Avalanche every transaction belongs to a **conflict set** which consists of conflicting transactions. Only one transaction in a conflict set can be included in the DAG. Each node **prefers** one transaction in a conflict set.
@@ -184,7 +184,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTQ0NTQwNiwtNjI2NzQ0ODg0LDEzMj
+eyJoaXN0b3J5IjpbMTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMj
 Q4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0
 NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5MzczNTk1LC
 01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
