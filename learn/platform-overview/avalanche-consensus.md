@@ -94,9 +94,8 @@ while not decided:
 
 如果一个节点对一个交易得到α多数响应，那么你给这个交易一张**票据**，这是一个布尔值，表示“当我向网络查询这个交易时，α多数表示他们更喜欢它。” 在我们的示例中，交易Y获得一张票据。 
 
-还有一个**置信度**的概念，它是一个顶点的话单加上它的后代话单的和。 例如，交易**V**有一个凭证。 它也有三个后代有一个单张，因此它的信心从`3`增加到`4`。 类似地，交易**W**和**X**都有一个凭证，它们都有一个凭证的后代，所以它们都有信心`2`, 事务Y有信心`1`。 
+还有一个**置信度**的概念，它是一个顶点的话单加上它的后代话单的和。 例如，交易**V**有一个凭证。 它也有三个后代有一个单张，因此它的信心从`3`增加到`4`。 类似地，交易**W**和**X**都有一个凭证，它们都有一个凭证的后代，所以它们都有信心`2`, 交易Y有信心`1`。 
 
-There is also a notion of **confidence**, which is the sum of a vertex's chit plus the sum of its descendants' chits. For example, transaction **V** has a chit. It also has three descendants which have a chit so its confidence is increased from `3` to `4`. Similarly, transactions **W** and **X** both have a chit and they both have a descendant with a chit, so they each have confidence `2`. Transaction Y has confidence `1`.
 
 **Consecutive successes** are the same as in Snowball. It's the number of times that a transaction, or a descendant of the transaction, received a successful α majority query response. Previously, transaction V had `3` consecutive successes, itself and its two children, and now it has `4` consecutive successes with transaction Y. Similarly for transactions W and X.
 
@@ -183,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODE3MzAyNSw3MTA4OTU4OTUsMTEzNz
+eyJoaXN0b3J5IjpbMTY1NDYxNTg5Myw3MTA4OTU4OTUsMTEzNz
 c3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMDg3ODU5NTQ3
 LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOTQ2NjE4NSwtNz
 g3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0
