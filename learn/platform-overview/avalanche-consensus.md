@@ -105,10 +105,10 @@ while not decided:
 ![Working example 4](../../.gitbook/assets/example-4.png)
 
 现在假设节点知道交易**Y'**与交易Y冲突。它遵循前面的步骤，并对_k_ \(`4`\)验证器进行子采样，并询问它们是否喜欢事务Y'。 在这个例子中，两个人说他们更喜欢Y'，另外两个人说他们不喜欢Y'。 这一次没有α多数回应，DAG也相应更新。 
-Now suppose the node learns about transaction **Y'** which conflicts with transaction Y. It follows the same steps as before and subsamples _k_ \(`4`\) validators and asks if they prefer transaction Y'. In this case, two of them say that they prefer Y' and two of them say that they do not prefer Y'. This time there is no α majority response, and the DAG is updated accordingly.
 
 ![Working example 5](../../.gitbook/assets/example-5.png)
 
+交易Y和交易Y'在冲突集中; 他们中只有一个最终会被接受。 交易Y'没有得到，因为它没有得到α多数反应。 它有信心' 0 '因为它没有单据它也没有任何有单据的后代。 它有“0”连续成功，因为之前的查询没有得到α多数响应。 W的连续成功计数器从' 2 '到' 0 '。 它的信心仍然是' 2 '。 
 Transactions Y and Y' are in a conflict set; only one of them can ultimately get accepted. Transaction Y' doesn't get a chit because it didn't get an α majority response. It has confidence `0` because it doesn't have a chit and it doesn't have any descendants with a chit. It has `0` consecutive successes because the previous query didn't get an α majority response. W's consecutive success counter goes from `2` to `0`. Its confidence is still `2`.
 
 When a node is asked whether it prefers a given transaction, it replies yes if that transaction has the highest confidence of any transaction in the transaction's conflict set. In this example, transaction Y has confidence `1` and transaction Y' has confidence `0` so the node prefer transaction Y to transaction Y'.
@@ -182,10 +182,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI1OTQ1NjIsMTY1NDYxNTg5Myw3MT
-A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
-OSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMT
-MwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1
-MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1OTUsLTU0MDYxMzkyMS
-wtNTk2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbMTE3MDIyNjIzLDE2NTQ2MTU4OTMsNzEwOD
+k1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDks
+MTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMD
+k0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1
+NTcsMjEwNzIyNDk5NCwxMzY5MzczNTk1LC01NDA2MTM5MjEsLT
+U5NjQ1MDYzMF19
 -->
