@@ -88,7 +88,7 @@ while not decided:
 
 ![Working example 1](../../.gitbook/assets/example-1.png)
 
-一个节点发现一个新的事务**Y**。 根据上述参数查询网络。 它查询_k_ \(`4` \)验证器并询问，“您喜欢这个事务吗?” 它会得到回应，其中三个说“是”，一个说“否”。 quorum大小α是' 3 '，所以有α多数(quorum)的是。 现在我们更新节点的DAG。 
+一个节点发现一个新的事务**Y**。 根据上述参数查询网络。 它查询_k_ \(`4` \)验证器并询问，“您喜欢这个事务吗?” 它会得到回应，其中三个说**是**，一个说**否**。 quorum大小α是`3`，所以有α多数(quorum)回答是。 现在我们更新节点的DAG。 
 
 A node finds out about a new transaction **Y**. It queries the network based on the above parameters. It queries _k_ \(`4`\) validators and asks, "Do you prefer this transaction?" It gets back responses—three of them say **yes** and one of them says **no**. The quorum size, α, is `3` so there is an α majority \(quorum\) of yes responses. Now we the node updates its DAG.
 
@@ -183,10 +183,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjYxOTcwMyw3MTA4OTU4OTUsMTEzNz
-c3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMDg3ODU5NTQ3
-LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOTQ2NjE4NSwtNz
-g3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0
-OTk0LDEzNjkzNzM1OTUsLTU0MDYxMzkyMSwtNTk2NDUwNjMwXX
-0=
+eyJoaXN0b3J5IjpbLTE3Njc2NDgxODcsNzEwODk1ODk1LDExMz
+c3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0
+NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLT
+c4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIy
+NDk5NCwxMzY5MzczNTk1LC01NDA2MTM5MjEsLTU5NjQ1MDYzMF
+19
 -->
