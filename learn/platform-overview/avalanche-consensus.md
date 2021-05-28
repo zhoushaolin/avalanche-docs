@@ -74,8 +74,9 @@ while not decided:
 
 ![Basic DAG](../../.gitbook/assets/basic-dag.png)
 
-**a**在**b**之前。**b**在**d**之前。**d**在**e**之前。及物时，我们可以说**a**出现在**e**之前。但是，由于这是部分排序: 对于某些元素，没有定义排序。例如，**b**和**c**都在**a**后面，但是**b**是在**c**之前还是在**c**之后没有概念。
-**a** is before **b**. **b** is before **d**. **d** is before **e**. Transitively, we can say that **a** comes before **e**. However, since this is a partial ordering: for some elements, ordering is not defined. For example, both **b** and **c** are after **a** but there is no notion of whether **b** is before or after **c**.
+**a**在**b**之前。**b**在**d**之前。**d**在**e**之前。同样，我们可以说**a**出现在**e**之前。但是，由于这是部分排序: 对于某些元素，没有定义排序。例如，**b**和**c**都在**a**后面，但是**b**是在**c**之前还是在**c**之后没有概念。
+
+另外两个DAG相关的概念是**祖先**和**后代**。祖先节点是DAG中可以与之连线的任何节点。例如,* *的祖先d * * * * * *, * * b * *, * * * *。的祖先* * e * * * * * *, * * * *, * * c * *, * * * *。后代与祖先相反。的后裔b * * * *是* * * *,* * c * *, * * d * *, * * * *。**b**的后代是**d**和**e**。
 
 Two additional DAG related concepts are **ancestors** and **descendants**. Ancestors are any nodes in the DAG which you can draw a line up to. For example, the ancestors of **d** are **a**, **b**, and **c**. The ancestors of **e** are **a**, **b**, **c**, and **d**. Descendants are the opposite of ancestors. The descendants of **a** are **b**, **c**, **d**, and **e**. The descendants of **b** are **d** and **e**.
 
@@ -182,7 +183,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDg0MTAyMSwtNzg3NjI3NTAyLDc4Nj
-g2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1
-OTUsLTU0MDYxMzkyMSwtNTk2NDUwNjMwXX0=
+eyJoaXN0b3J5IjpbLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3OD
+Y4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5Mzcz
+NTk1LC01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
 -->
