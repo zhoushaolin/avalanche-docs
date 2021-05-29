@@ -128,7 +128,7 @@ while not decided:
 
 ## Finality
 
-雪崩共识协议在概率上是安全的，这取决于一个安全阈值。 也就是说，通过调整系统参数，一个正确节点接受另一个正确节点拒绝的事务的概率可以任意降低。 在中本聪共识协议中(例如，在比特币和以太坊中使用的)，一个区块可能被包含在链中，但随后会被移除，而不会最终出现在规范链中。 这意味着要等待一个小时才能进行交易结算。 在Avalanche中，接受/拒绝是**最终且不可逆转的**，需要几秒钟的时间。 
+雪崩共识协议在概率上是安全的，这取决于一个安全阈值。 也就是说，通过调整系统参数，一个正确节点接受另一个正确节点拒绝的事务的概率可以任意降低。 在中本聪共识协议中(例如，在比特币和以太坊的应用中)，一个区块可能被包含在链中，但随后会被移除，而不会最终出现在规范链中。 这意味着要等待一个小时才能进行交易结算。 在Avalanche中，接受/拒绝是**最终且不可逆转的**，需要几秒钟的时间。 
 Avalanche consensus is probabilistically safe up to a safety threshold. That is, the probability that a correct node accepts a transaction that another correct node rejects can be made arbitrarily low by adjusting system parameters. In Nakamoto consensus protocol \(as used in Bitcoin and Ethereum, for example\), a block may be included in the chain but then be removed and not end up in the canonical chain. This means waiting an hour for transaction settlement. In Avalanche, acceptance/rejection are **final and irreversible** and take a few seconds.
 
 ## Optimizations
@@ -182,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDc3NzU1NSwxOTY5MjY0NzM3LC04Mj
+eyJoaXN0b3J5IjpbMTE5NzI1MzYxMiwxOTY5MjY0NzM3LC04Mj
 c1MjY4ODAsMTQwNjE0Mzk4MywxNTE5Mjg3MTQzLDE2NTQ2MTU4
 OTMsNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4Nj
 U3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0
