@@ -122,9 +122,9 @@ while not decided:
 
 ## 顶点 
 
-到目前为止所讨论的一切都是[Avalanche白皮书](https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)对Avalanche的描述。 Ava Labs \(即AvalancheGo\)实现的Avalanche共识协议对延迟和吞吐量进行了一些优化。 最重要的优化是**顶点的使用。 顶点就像线性区块链中的块。 它包含其父节点的哈希值，并包含一个事务列表。 顶点允许对交易进行批处理和分组投票，而不是逐个投票。 DAG由顶点组成，协议的工作原理与上面描述的非常相似。 
-Everything discussed to this point is how Avalanche is described in [the Avalanche whitepaper](https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf). The implementation of the Avalanche consensus protocol by Ava Labs \(namely in AvalancheGo\) has some optimizations for latency and throughput. The most important optimization is the use of **vertices**. A vertex is like a block in a linear blockchain. It contains the hashes of its parents, and it contains a list of transactions. Vertices allow transactions to be batched and voted on in groups rather than one by one. The DAG is composed of vertices, and the protocol works very similar to how it's described above.
+到目前为止所讨论的一切都是[Avalanche白皮书](https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)对Avalanche的描述。 Ava Labs \(即AvalancheGo\)实现的Avalanche共识协议对延迟和吞吐量进行了一些优化。 最重要的优化是**顶点**的使用。 顶点就像线性区块链中的块。 它包含其父节点的哈希值，并包含一个事务列表。 顶点允许对交易进行批处理和分组投票，而不是逐个投票。 DAG由顶点组成，协议的工作原理与上面描述的非常相似。 
 
+如果一个节点收到一个顶点的投票，它将算作一个顶点中所有事务的投票，并且投票向上传递应用。 当顶点中的所有事务都被接受时，这个顶点就被接受了。 如果一个顶点包含一个被拒绝的事务，那么它将被拒绝，它的所有后代也将被拒绝。 如果一个顶点被拒绝，任何有效的事务将重新发布到一个不是被拒绝顶点的子顶点的新顶点中。 
 If a node receives a vote for a vertex, it counts as a vote for all the transactions in a vertex, and votes are applied transitively upward. A vertex is accepted when all the transactions which are in it are accepted. If a vertex contains a rejected transaction then it is rejected and all of its descendants are rejected. If a vertex is rejected, any valid transactions are re-issued into a new vertex which is not the child of a rejected vertex. New vertices are appended to preferred vertices.
 
 ## Finality
@@ -182,10 +182,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQwNjQyODcsMTUxOTI4NzE0MywxNj
-U0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5
-NTMsODY1NzczNzA5LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMz
-I0ODM1NDgwLC0xMzA5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1
-NDU3LC0xNDIxNzUyNTU3LDIxMDcyMjQ5OTQsMTM2OTM3MzU5NS
-wtNTQwNjEzOTIxLC01OTY0NTA2MzBdfQ==
+eyJoaXN0b3J5IjpbMTQwNjE0Mzk4MywxNTE5Mjg3MTQzLDE2NT
+Q2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1
+Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMj
+Q4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0
+NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5MzczNTk1LC
+01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
 -->
