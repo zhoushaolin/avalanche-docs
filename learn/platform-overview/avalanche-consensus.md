@@ -124,7 +124,7 @@ while not decided:
 
 到目前为止所讨论的一切都是[Avalanche白皮书](https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)对Avalanche的描述。 Ava Labs \(即AvalancheGo\)实现的Avalanche共识协议对延迟和吞吐量进行了一些优化。 最重要的优化是**顶点**的使用。 顶点就像线性区块链中的块。 它包含其父节点的哈希值，并包含一个事务列表。 顶点允许对交易进行批处理和分组投票，而不是逐个投票。 DAG由顶点组成，协议的工作原理与上面描述的非常相似。 
 
-如果一个节点收到一个投给某个顶点的票，它当作是对一个顶点中所有事务的投票，并且投票向上传递应用。 当顶点中的所有事务都被接受时，这个顶点就被接受了。 如果一个顶点包含一个被拒绝的事务，那么它也将被拒绝，它的所有后代也将被拒绝。 如果一个顶点被拒绝，任何有效的事务将重新发布到一个不是被拒绝顶点的子顶点的新顶点中。 
+如果一个节点收到一个投给某个顶点的票，它当作是对一个顶点中所有事务的投票，并且投票向上传递应用。 当顶点中的所有事务都被接受时，这个顶点就被接受了。 如果一个顶点包含一个被拒绝的事务，那么它也将被拒绝，它的所有后代也将被拒绝。 如果一个顶点被拒绝，所有有效的事务将重新发布到一个没被拒绝顶点的子顶点的新顶点中。 
 If a node receives a vote for a vertex, it counts as a vote for all the transactions in a vertex, and votes are applied transitively upward. A vertex is accepted when all the transactions which are in it are accepted. If a vertex contains a rejected transaction then it is rejected and all of its descendants are rejected. If a vertex is rejected, any valid transactions are re-issued into a new vertex which is not the child of a rejected vertex. New vertices are appended to preferred vertices.
 
 ## Finality
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjUyMjE3NywtODI3NTI2ODgwLDE0MD
-YxNDM5ODMsMTUxOTI4NzE0MywxNjU0NjE1ODkzLDcxMDg5NTg5
-NSwxMTM3Nzc1Njg1LDExODUyMTM5NTMsODY1NzczNzA5LDEwOD
-c4NTk1NDcsLTYyNjc0NDg4NCwxMzI0ODM1NDgwLC0xMzA5NDY2
-MTg1LC03ODc2Mjc1MDIsNzg2ODY1NDU3LC0xNDIxNzUyNTU3LD
-IxMDcyMjQ5OTQsMTM2OTM3MzU5NSwtNTQwNjEzOTIxLC01OTY0
-NTA2MzBdfQ==
+eyJoaXN0b3J5IjpbOTcxMjAzODI5LC04Mjc1MjY4ODAsMTQwNj
+E0Mzk4MywxNTE5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwODk1ODk1
+LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDksMTA4Nz
+g1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMDk0NjYx
+ODUsLTc4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1NTcsMj
+EwNzIyNDk5NCwxMzY5MzczNTk1LC01NDA2MTM5MjEsLTU5NjQ1
+MDYzMF19
 -->
