@@ -115,10 +115,10 @@ while not decided:
 ![Working example 6](../../.gitbook/assets/example-6.png)
 
 现在节点学习一个新的事务，**Z**，并执行与之前相同的操作。 它查询_k_节点，得到α多数响应，并更新DAG。 
-Now the node learns about a new transaction, **Z**, and it does the same thing as before. It queries _k_ nodes, gets back an α majority response, and updates the DAG.
 
 ![Working example 7](../../.gitbook/assets/example-7.png)
 
+交易Z得到一张单据。 它的zhi xin也有“1”和“1”连续成功的信心。 处理祖先也被更新。 没有“4”连续成功的事务，因此不接受祖先。 
 Transaction Z gets a chit. It also has a confidence of `1` and `1` consecutive success. The processing ancestors are updated, too. No transactions have `4` consecutive successes so no ancestors are accepted.
 
 ## Vertices
@@ -182,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA0ODk2NjcsMTUxOTI4NzE0MywxNj
+eyJoaXN0b3J5IjpbLTEzOTU2NDAzNjUsMTUxOTI4NzE0MywxNj
 U0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5
 NTMsODY1NzczNzA5LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMz
 I0ODM1NDgwLC0xMzA5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1
