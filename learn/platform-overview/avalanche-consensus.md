@@ -126,10 +126,9 @@ while not decided:
 
 如果一个节点收到一个投给某个顶点的票，它当作是对一个顶点中所有事务的投票，并且投票向上传递应用。 当顶点中的所有事务都被接受时，这个顶点就被接受了。 如果一个顶点包含一个被拒绝的事务，那么它也将被拒绝，它的所有后代也将被拒绝。 如果一个顶点被拒绝，所有有效的事务将重新发布到一个的新顶点中, 这个定点不是被拒绝的顶点的子顶点。新顶点被附加到首选顶点。  
 
-## Finality
+## 出块时间
 
-雪崩共识协议在概率上是安全的，这取决于一个安全阈值。 也就是说，通过调整系统参数，一个正确节点接受另一个正确节点拒绝的事务的概率可以任意降低。 在中本聪共识协议中(例如，在比特币和以太坊的应用中)，一个区块可能被包含在链中，但随后会被移除，而不会最终出现在规范链中。 这意味着要等待一个小时才能进行交易结算。 在Avalanche中，接受/拒绝是**最终且不可逆转的**，需要几秒钟的时间。 
-Avalanche consensus is probabilistically safe up to a safety threshold. That is, the probability that a correct node accepts a transaction that another correct node rejects can be made arbitrarily low by adjusting system parameters. In Nakamoto consensus protocol \(as used in Bitcoin and Ethereum, for example\), a block may be included in the chain but then be removed and not end up in the canonical chain. This means waiting an hour for transaction settlement. In Avalanche, acceptance/rejection are **final and irreversible** and take a few seconds.
+雪崩共识协议在概率上是安全的，这取决于一个安全阈值。 也就是说，通过调整系统参数，一个正确节点接受另一个正确节点拒绝的事务的概率可以任意降低。 在中本聪共识协议中(例如，在比特币和以太坊的应用中)，一个区块可能被包含在链中，但随后会被移除，而不会最终出现在规范链中。 这意味着要等待一个小时才能进行交易结算。 在Avalanche中，接受/拒绝是**最终且不可逆转的**，只需要几秒钟的时间。 
 
 ## Optimizations
 
@@ -182,11 +181,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzI1MzYxMiwxOTY5MjY0NzM3LC04Mj
-c1MjY4ODAsMTQwNjE0Mzk4MywxNTE5Mjg3MTQzLDE2NTQ2MTU4
-OTMsNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4Nj
-U3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0
-ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0NTcsLT
-E0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5MzczNTk1LC01NDA2
-MTM5MjFdfQ==
+eyJoaXN0b3J5IjpbOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNz
+UyNjg4MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5
+Myw3MTA4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NT
+c3MzcwOSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4
+MCwtMTMwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMT
+QyMTc1MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1OTUsLTU0MDYx
+MzkyMV19
 -->
