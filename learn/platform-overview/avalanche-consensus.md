@@ -110,7 +110,7 @@ while not decided:
 
 交易Y和交易Y'在冲突集中; 他们中只有一个最终会被接受。 交易Y'没有得到单据，因为它没有得到α多数反应。 它有信心`0`因为它没有单据它的后代也没有任何有单据。 它有 `0`次连续成功，因为之前的查询没有得到α多数响应。 W的连续成功计数器从`2`到`0`。 它的信心仍然是`2`。 
 
-当询问节点是否更喜欢给定的交易时，如果该交易在交易冲突集中的任何事务中拥有最高的置信度，则节点回答是。 在这个例子中，事务Y有信心' 1 '，事务Y'有信心' 0 '，所以节点更喜欢事务Y而不是事务Y'。 
+当询问节点是否更喜欢给定的交易时，如果该交易在交易冲突集中拥有最高的置信度，则节点回答是。 在这个例子中，交易Y置信度`1`，交易Y'有信心`0` ，所以节点更喜欢交易Y而不是交易Y'。 
 When a node is asked whether it prefers a given transaction, it replies yes if that transaction has the highest confidence of any transaction in the transaction's conflict set. In this example, transaction Y has confidence `1` and transaction Y' has confidence `0` so the node prefer transaction Y to transaction Y'.
 
 ![Working example 6](../../.gitbook/assets/example-6.png)
@@ -182,10 +182,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI2NTUyMDQsMTUxOTI4NzE0MywxNj
-U0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5
-NTMsODY1NzczNzA5LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMz
-I0ODM1NDgwLC0xMzA5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1
-NDU3LC0xNDIxNzUyNTU3LDIxMDcyMjQ5OTQsMTM2OTM3MzU5NS
-wtNTQwNjEzOTIxLC01OTY0NTA2MzBdfQ==
+eyJoaXN0b3J5IjpbNTM5NDE1ODIzLDE1MTkyODcxNDMsMTY1ND
+YxNTg5Myw3MTA4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUz
+LDg2NTc3MzcwOSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyND
+gzNTQ4MCwtMTMwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1
+NywtMTQyMTc1MjU1NywyMTA3MjI0OTk0LDEzNjkzNzM1OTUsLT
+U0MDYxMzkyMSwtNTk2NDUwNjMwXX0=
 -->
