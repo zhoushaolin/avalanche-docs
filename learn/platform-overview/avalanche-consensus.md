@@ -118,7 +118,7 @@ while not decided:
 
 ![Working example 7](../../.gitbook/assets/example-7.png)
 
-交易Z得到一张单据。 它的zhi xin也有“1”和“1”连续成功的信心。 处理祖先也被更新。 没有“4”连续成功的事务，因此不接受祖先。 
+交易Z得到一张单据。 它的置信度为`1`, 并且有`1`次连续成功。 处理祖先也被更新。 没有“4”连续成功的事务，因此不接受祖先。 
 Transaction Z gets a chit. It also has a confidence of `1` and `1` consecutive success. The processing ancestors are updated, too. No transactions have `4` consecutive successes so no ancestors are accepted.
 
 ## Vertices
@@ -182,10 +182,10 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU2NDAzNjUsMTUxOTI4NzE0MywxNj
-U0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5
-NTMsODY1NzczNzA5LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMz
-I0ODM1NDgwLC0xMzA5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1
-NDU3LC0xNDIxNzUyNTU3LDIxMDcyMjQ5OTQsMTM2OTM3MzU5NS
-wtNTQwNjEzOTIxLC01OTY0NTA2MzBdfQ==
+eyJoaXN0b3J5IjpbLTY0Mzk5MjQwNiwxNTE5Mjg3MTQzLDE2NT
+Q2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1
+Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMj
+Q4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0
+NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5MzczNTk1LC
+01NDA2MTM5MjEsLTU5NjQ1MDYzMF19
 -->
