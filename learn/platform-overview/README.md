@@ -81,8 +81,8 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过[X-Chain API](../../buil
 通过**C链**，使用 [C-Chain’s API](../../build/avalanchego-apis/contract-chain-c-chain-api.md)即可创建智能合约。
 
 
-C链是[Avalanche](../../)驱动下以太坊虚拟机的一个实例。.
+C链是[Avalanche](../../)驱动下以太坊虚拟机的一个实例。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjcwNDA3MSwtMTc4OTg4NTgzMl19
+eyJoaXN0b3J5IjpbLTU4NzY1NTk1OSwtMTc4OTg4NTgzMl19
 -->
