@@ -158,7 +158,7 @@ Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的�
 
 交易是由用户调用[AvalancheGo](https://github.com/ava-labs/avalanchego)完整节点上的API或使用[AvalancheJS](https://github.com/ava-labs/avalanchejs)等库创建的。 当节点大批量进入交易时，或者当来自一个被拒绝的顶点的交易被接受, 重新发布并添加到DAG时，顶点就创建起来了。 一个顶点的父结点是从良性边界中选择的，即DAG顶端没有冲突的节点。 建立在良性顶点上很重要因为如果我们建立在非良性顶点上节点被拒绝的可能性会更高, 这意味着它的祖先被拒绝的可能性更大我们的进展会更少。 
 
-## Other Observations
+## 其他观察
 
 冲突交易不能保证是实时的。 这不是一个真正的问题，因为如果你希望你的交易是实时的，那么就不要发布一个冲突的交易。 
 
@@ -166,10 +166,9 @@ Avalanche也适用于线性链。 协议与上面的基本相同，但是每个�
 
 如果没有未决定的交易，雪崩共识协议_保持静默_。 也就是说，如果没有工作要做，它什么也做不了。 雪崩共识协议比工作量证明(Proof-of-work)更具有可持续性，因为节点需要不断地工作。 
 
-雪崩没有领导。 任何节点都可以提出一笔交易，任何参与AVAX的节点都可以对每笔交易进行投票，这使得网络更加健壮和去中心化。 
-Avalanche has no leader. Any node can propose a transaction and any node that has staked AVAX can vote on every transaction, which makes the network more robust and decentralized.
+雪崩没有领导。 任何节点都可以提出一笔交易，任何质押AVAX的节点都可以对每笔交易进行投票，这使得网络更加健壮和去中心化。 
 
-## Why Do We Care?
+## 我们为什么在乎
 
 Avalanche is a general consensus engine. It doesn't matter what type of application is put on top of it. The protocol allows the decoupling of the application layer from the consensus layer. If you're building a Dapp on Avalanche then you just need to define a few things, like how conflicts are defined and what is in a transaction. You don't need to worry about how nodes come to an agreement. The consensus protocol is a black box that put something into it and it comes back as accepted or rejected.
 
@@ -182,7 +181,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Nzc3OTkzMywxNjc5NzYwMjIxLC0xND
+eyJoaXN0b3J5IjpbMTMwMzg2OTE3NSwxNjc5NzYwMjIxLC0xND
 QxMzM3MDUyLC0xNjkyNzc0NTIsNDAyOTA4NTkxLDkwNDg3Nzgz
 NywxOTY5MjY0NzM3LC04Mjc1MjY4ODAsMTQwNjE0Mzk4MywxNT
 E5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2
