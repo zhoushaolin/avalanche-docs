@@ -172,7 +172,7 @@ Avalanche也适用于线性链。 协议与上面的基本相同，但是每个�
 
 雪崩是一个通用的共识引擎。 什么类型的应用程序放在上面并不重要。 该协议允许应用层与共识层解耦。 如果你在Avalanche上构建一个Dapp，那么你只需要定义一些东西，比如如何定义冲突，交易中有什么。 您不需要担心节点如何达成协议。 共识协议是一个黑盒子，它将一些东西放入其中，然后返回为接受或拒绝。 
 
-Avalanche可以用于各种应用程序，而不仅仅是P2P支付网络。 Avalanche的主网络有一个以太坊虚拟机的实例，它向后兼容现有的以太坊Dapps和开发工具。 以太坊共识协议已被Avalanche共识取代，以实现更低的块延迟和更高的吞吐量。 
+Avalanche可以用于各种应用程序，而不仅仅是P2P支付网络。 Avalanche的主网络有一个以太坊虚拟机的实例，它兼容现有的以太坊Dapps和开发工具。 以太坊共识协议已被Avalanche共识取代，以实现更低的块延迟和更高的吞吐量。 
 Avalanche can be used for all kinds of applications, not just P2P payment networks. Avalanche's Primary Network has an instance of the Ethereum Virtual Machine, which is backward compatible with existing Ethereum Dapps and dev tooling. The Ethereum consensus protocol has been replaced with Avalanche consensus to enable lower block latency and higher throughput.
 
 Avalanche is very performant. It can process thousands of transactions per second with one to two second acceptance latency.
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjQ1OTkyNCwxMzAzODY5MTc1LDE2Nz
-k3NjAyMjEsLTE0NDEzMzcwNTIsLTE2OTI3NzQ1Miw0MDI5MDg1
-OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4MCwxND
-A2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MTA4OTU4
-OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMD
-g3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOTQ2
-NjE4NV19
+eyJoaXN0b3J5IjpbLTE4NjY0NjcwOTUsLTQyNjQ1OTkyNCwxMz
+AzODY5MTc1LDE2Nzk3NjAyMjEsLTE0NDEzMzcwNTIsLTE2OTI3
+NzQ1Miw0MDI5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLT
+gyNzUyNjg4MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYx
+NTg5Myw3MTA4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLD
+g2NTc3MzcwOSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgz
+NTQ4MF19
 -->
