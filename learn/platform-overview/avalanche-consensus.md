@@ -178,11 +178,11 @@ Avalanche可以用于各种应用程序，而不仅仅是P2P支付网络。 Aval
 
 ## 总结
 
-雪崩共识是分布式系统的一个重大突破。 它代表了与之前的经典协议和中本聪共识协议一样的巨大飞跃。 现在你对雪崩共识是如何工作的已经有了更好的理解，请在Avalanche上查看其他[文档](https://docs.avax.network), l构建改变游戏规则的Dapps和金融工具。 
-Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
+雪崩共识是分布式系统的一个重大突破。 它代表了与之前的经典协议和中本聪共识协议一样的巨大飞跃。 现在你对雪崩共识是如何工作的已经有了更好的理解，请在Avalanche上查看其他[文档](https://docs.avax.network), 了解构建改变游戏规则的Dapps和金融工具。 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDM5MjgwMiwtNDI2NDU5OTI0LDEzMD
+eyJoaXN0b3J5IjpbMTA3MzUxOTcyMCwtNDI2NDU5OTI0LDEzMD
 M4NjkxNzUsMTY3OTc2MDIyMSwtMTQ0MTMzNzA1MiwtMTY5Mjc3
 NDUyLDQwMjkwODU5MSw5MDQ4Nzc4MzcsMTk2OTI2NDczNywtOD
 I3NTI2ODgwLDE0MDYxNDM5ODMsMTUxOTI4NzE0MywxNjU0NjE1
