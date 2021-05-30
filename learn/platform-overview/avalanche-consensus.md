@@ -136,7 +136,7 @@ while not decided:
 
 节点不会只在听到一个新的交易时进行查询。他们重复查询，直到没有良性顶点处理。良性顶点是没有冲突的顶点。
 
-Nodes don't need to wait until they get all _k_ query responses before registering the outcome of a poll. If no transaction can get an α majority then there's no need to wait for the rest of the responses.
+在注册投票结果之前，节点不需要等待所有_k_查询响应。 如果没有一个交易可以获得α多大数，那么就不需要等待其他响应。
 
 ## Validators
 
@@ -181,11 +181,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyMjIyOTUwLDQwMjkwODU5MSw5MDQ4Nz
-c4MzcsMTk2OTI2NDczNywtODI3NTI2ODgwLDE0MDYxNDM5ODMs
-MTUxOTI4NzE0MywxNjU0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nz
-c1Njg1LDExODUyMTM5NTMsODY1NzczNzA5LDEwODc4NTk1NDcs
-LTYyNjc0NDg4NCwxMzI0ODM1NDgwLC0xMzA5NDY2MTg1LC03OD
-c2Mjc1MDIsNzg2ODY1NDU3LC0xNDIxNzUyNTU3LDIxMDcyMjQ5
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTU4ODA0NTg4MSw0MDI5MDg1OTEsOTA0OD
+c3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4MCwxNDA2MTQzOTgz
+LDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MTA4OTU4OTUsMTEzNz
+c3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMDg3ODU5NTQ3
+LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOTQ2NjE4NSwtNz
+g3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0
+OTk0XX0=
 -->
