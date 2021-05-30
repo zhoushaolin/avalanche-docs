@@ -6,9 +6,7 @@
 
 Avalanche有3个内置区块链: [**交换链 \(X-链\)**](./#exchange-chain-x-chain), [**平台链\(P-链\)**](./#platform-chain-p-chain), 和and [**合约链\(C-链**\)](./#contract-chain-c-chain)。这3个区块链均已验证[validated](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) 并受主网[**Primary Network**](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)保护。 主网是一个特殊的子网[subnet](http://support.avalabs.org/en/articles/4064861-what-is-a-subnetwork-subnet), 通过质押至少2,000个 AVAX，所有自定义子网的成员也必须是主网的成员。
 
-创建子网的教程.
-
-Here are tutorials on [creating a subnet](../../build/tutorials/platform/create-a-subnet.md), 向子网添加验证程序的教程 and [adding validators](../../build/tutorials/nodes-and-staking/add-a-validator.md)。 to a subnet.
+创建子网的教程[creating a subnet](../../build/tutorials/platform/create-a-subnet.md), 向子网添加验证程序的教程[adding validators](../../build/tutorials/nodes-and-staking/add-a-validator.md)。
 
 ![Primary network](../../.gitbook/assets/image%20%2821%29.png)
 
@@ -56,47 +54,7 @@ Here are tutorials on [creating a subnet](../../build/tutorials/platform/create-
 
 为了解决这一问题，以太坊（Ethereum）通过智能合约迈出了一步。开发人员不需要担心网络和共识问题，但是创建去中心化应用程序仍然十分困难。以太坊虚拟机性能不佳，并限制了智能合约的开发人员。大多数程序员都对Solidity语言和其他几种以太坊智能合约编写语言感到陌生。
 
-通过Subnets
-
-A **subnet**, or subnetwork, is a dynamic set of validators working together to achieve consensus on the state of a set of blockchains. Each blockchain is validated by exactly one subnet. A subnet can validate many blockchains. A node may be a member of many subnets.
-
-A subnet manages its own membership, and it may require that its constituent validators have certain properties. This is very useful, and we explore its ramifications in more depth below:
-
-### Compliance
-
-Avalanche’s subnet architecture makes regulatory compliance manageable. As mentioned above, a subnet may require validators to meet a set of requirements.
-
-Some examples include:
-
-* Validators must be located in a given country
-* Validators must pass a KYC/AML checks
-* Validators must hold a certain license
-
-### Support for Private Blockchains
-
-You can create a subnet where only certain pre-defined validators may join and create a private subnet where the contents of the blockchains would be visible only to those validators. This is ideal for organizations interested in keeping their information private.
-
-### Separation of Concerns
-
-In a heterogeneous network of blockchains, some validators will not want to validate certain blockchains because they simply have no interest in those blockchains. The subnet model allows validators to only concern themselves with blockchains that they care about. This reduces the burden on validators.
-
-### Application-Specific Requirements
-
-Different blockchain-based applications may require validators to have certain properties. Suppose there is an application that requires large amounts of RAM or CPU power. A Subnet could require that validators meet certain [hardware requirements](http://support.avalabs.org/en/articles/4064879-technical-requirements-for-running-a-validator-node-on-avalanche) so that the application doesn’t suffer from low performance due to slow validators.
-
-## Virtual Machines
-
-A **Virtual Machine** \(VM\) defines the application-level logic of a blockchain. In technical terms, it specifies the blockchain’s state, state transition function, transactions, and the API through which users can interact with the blockchain. Every blockchain on Avalanche is an instance of a VM.
-
-When you write a VM, you don't need to concern yourself with lower-level logic like networking, consensus, and the structure of the blockchain. Avalanche does this behind the scenes so you can focus on the thing you would like to build.
-
-Think of a VM as a blueprint for a blockchain; you can use the same VM to create many blockchains, each of which follows the same ruleset but is logically independent of other blockchains.
-
-### Why Virtual Machines?
-
-At first, blockchain networks had one Virtual Machine \(VM\) with a pre-defined, static set of functionality. This rigid, monolithic design limited what blockchain-based applications one could run on such networks.
-
-People who wanted custom decentralized applications had to create their own, entirely new blockchain network from scratch. Doing so required a great deal of time and effort, offered limited security, and generally resulted in a bespoke, fragile blockchain that never got off the ground.
+通过
 
 Ethereum made a step toward solving this problem with smart contracts. Developers didn’t need to worry about networking and consensus, but creating decentralized applications was still hard. The Ethereum VM has low performance and imposes restrictions on smart contract developers. Solidity and the other few languages for writing Ethereum smart contracts are unfamiliar to most programmers.
 
@@ -160,5 +118,5 @@ C链是.
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../)驱动下以太坊虚拟机的一个实例。.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODkyNzE4OCwtMTc4OTg4NTgzMl19
+eyJoaXN0b3J5IjpbLTc3ODQzODg5NCwtMTc4OTg4NTgzMl19
 -->
