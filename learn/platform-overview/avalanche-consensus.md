@@ -138,8 +138,9 @@ while not decided:
 
 在注册投票结果之前，节点不需要等待所有_k_查询响应。 如果没有一个交易可以获得α多大数，那么就不需要等待其他响应。
 
-## Validators
+## 验证器
 
+如果它可以自由地成为Avalanche网络上的一个验证器，那就会有问题，因为一个恶意的参与者可能会启动很多很多节点，这些节点会被频繁地查询。 恶意的参与者可能使节点行为不良，并导致安全性或活性故障。 验证器，作为共识的一部分被查询的节点，对网络有影响。 他们必须以现实世界的价值为这种影响力付出代价，以防止这种填塞选票的行为。 这种利用真实世界的价值来购买对网络的影响力的想法被称为权益证明。 
 If it were free to become a validator on the Avalanche network, that would be problematic because a malicious actor could start many, many nodes which would get queried very frequently. The malicious actor could make the node act badly and cause a safety or liveness failure. The validators, the nodes which are queried as part of consensus, have influence over the network. They have to pay for that influence with real-world value in order to prevent this kind of ballot stuffing. This idea of using real-world value to buy influence over the network is called Proof of Stake.
 
 To become a validator, a node must **bond** \(stake\) something valuable \(**AVAX**\). The more AVAX a node bonds, the more often that node is queried by other nodes. When a node samples the network it's not uniformly random. Rather, it's weighted by stake amount. Nodes are incentivized to be validators because they get a reward if, while they validate, they're sufficiently correct and responsive.
@@ -181,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODA0NTg4MSw0MDI5MDg1OTEsOTA0OD
+eyJoaXN0b3J5IjpbLTE2OTI3NzQ1Miw0MDI5MDg1OTEsOTA0OD
 c3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4MCwxNDA2MTQzOTgz
 LDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MTA4OTU4OTUsMTEzNz
 c3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMDg3ODU5NTQ3
