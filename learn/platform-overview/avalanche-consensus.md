@@ -168,8 +168,9 @@ Avalanche也适用于线性链。 协议与上面的基本相同，但是每个�
 
 雪崩没有领导。 任何节点都可以提出一笔交易，任何质押AVAX的节点都可以对每笔交易进行投票，这使得网络更加健壮和去中心化。 
 
-## 我们为什么在乎
+## 我们为什么在乎?
 
+雪崩是一个通用的共识引擎。 什么类型的应用程序放在上面并不重要。 该协议允许应用层与共识层解耦。 如果你在Avalanche上构建一个Dapp，那么你只需要定义一些东西，比如如何定义冲突，事务中有什么。 您不需要担心节点如何达成协议。 共识协议是一个黑盒，它将一些东西放入其中，然后返回为接受或拒绝。 
 Avalanche is a general consensus engine. It doesn't matter what type of application is put on top of it. The protocol allows the decoupling of the application layer from the consensus layer. If you're building a Dapp on Avalanche then you just need to define a few things, like how conflicts are defined and what is in a transaction. You don't need to worry about how nodes come to an agreement. The consensus protocol is a black box that put something into it and it comes back as accepted or rejected.
 
 Avalanche can be used for all kinds of applications, not just P2P payment networks. Avalanche's Primary Network has an instance of the Ethereum Virtual Machine, which is backward compatible with existing Ethereum Dapps and dev tooling. The Ethereum consensus protocol has been replaced with Avalanche consensus to enable lower block latency and higher throughput.
@@ -181,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzg2OTE3NSwxNjc5NzYwMjIxLC0xND
-QxMzM3MDUyLC0xNjkyNzc0NTIsNDAyOTA4NTkxLDkwNDg3Nzgz
-NywxOTY5MjY0NzM3LC04Mjc1MjY4ODAsMTQwNjE0Mzk4MywxNT
-E5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2
-ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNj
-I2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYy
-NzUwMl19
+eyJoaXN0b3J5IjpbLTE4NDY2MzI5OTMsMTMwMzg2OTE3NSwxNj
+c5NzYwMjIxLC0xNDQxMzM3MDUyLC0xNjkyNzc0NTIsNDAyOTA4
+NTkxLDkwNDg3NzgzNywxOTY5MjY0NzM3LC04Mjc1MjY4ODAsMT
+QwNjE0Mzk4MywxNTE5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwODk1
+ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDksMT
+A4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMDk0
+NjYxODVdfQ==
 -->
