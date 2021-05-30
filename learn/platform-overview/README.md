@@ -4,7 +4,7 @@
 
 # 平台概况
 
-Avalanche有3个内置区块链: [**交换链 \(X-链\)**](./#exchange-chain-x-chain), [**平台链\(P-链\)**](./#platform-chain-p-chain), 和and [**合约链\(C-链**\)](./#contract-chain-c-chain)。这3个区块链均已验证. All 3 blockchains are [validated](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) 并受主网and secured by the [**Primary Network**](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)保护。 主网是一个特殊的子网. The Primary Network is a special [subnet](http://support.avalabs.org/en/articles/4064861-what-is-a-subnetwork-subnet), 通过质押至少2and all members of all custom subnets must also be a member of the Primary Network by staking at least 2,000个 AVAX，所有自定义子网的成员也必须是主网的成员。
+Avalanche有3个内置区块链: [**交换链 \(X-链\)**](./#exchange-chain-x-chain), [**平台链\(P-链\)**](./#platform-chain-p-chain), 和and [**合约链\(C-链**\)](./#contract-chain-c-chain)。这3个区块链均已验证[validated](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) 并受主网[**Primary Network**](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)保护。 主网是一个特殊的子网[subnet](http://support.avalabs.org/en/articles/4064861-what-is-a-subnetwork-subnet), 通过质押至少2,000个 AVAX，所有自定义子网的成员也必须是主网的成员。
 
 创建子网的教程.
 
@@ -160,6 +160,5 @@ C链是.
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../)驱动下以太坊虚拟机的一个实例。.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQ0MzY4MDAsLTE3ODk4ODU4MzJdfQ
-==
+eyJoaXN0b3J5IjpbMTQxODkyNzE4OCwtMTc4OTg4NTgzMl19
 -->
