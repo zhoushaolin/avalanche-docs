@@ -157,11 +157,11 @@ Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的�
 ## Loose Ends
 
 交易是由用户调用[AvalancheGo](https://github.com/ava-labs/avalanchego)完整节点上的API或使用[AvalancheJS](https://github.com/ava-labs/avalanchejs)等库创建的。 当节点大批量进入交易时，或者当来自一个被拒绝的顶点的交易被接受, 重新发布并添加到DAG时，顶点就创建起来了。 一个顶点的父结点是从良性边界中选择的，即DAG顶端没有冲突的节点。 建立在良性顶点上很重要因为如果我们建立在非良性顶点上节点被拒绝的可能性会更高, 这意味着它的祖先被拒绝的可能性更大我们的进展会更少。 
-Transactions are created by users which call an API on the [AvalancheGo](https://github.com/ava-labs/avalanchego) full node or create them using a library such as [AvalancheJS](https://github.com/ava-labs/avalanchejs). Vertices are created when nodes batch incoming transactions together or when accepted transactions from a rejected vertex get reissued and added to the DAG. A vertex's parents are chosen from the virtuous frontier, which are the nodes at the tip of the DAG with no conflicts. It's important to build on virtuous vertices because if we built on non-virtuous vertices there would be a higher chance that the node would get rejected which means there's a higher chance it's ancestors get rejected and we would make less progress.
 
 ## Other Observations
 
 Conflicting transactions are not guaranteed to be live. That's not really a problem because if you don't want your transaction to not be live then don't issue a conflicting transaction.
+冲突事务不能保证是活性的。 这不是一个真正的问题，因为如果你希望你的交易是实时的，那么就不要发布一个冲突的事务。 
 
 Avalanche works for linear chains too. The protocol is largely the same as above, but each vertex has only have one parent. This gives a total ordering of vertices. This is useful for certain applications where one needs to know if a transaction came before another transaction, such as with smart contracts. Snowman is the name of Ava Labs' implementation of the Avalanche consensus protocol for linear chains.
 
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzQ0ODczMiwxNjc5NzYwMjIxLC0xND
-QxMzM3MDUyLC0xNjkyNzc0NTIsNDAyOTA4NTkxLDkwNDg3Nzgz
-NywxOTY5MjY0NzM3LC04Mjc1MjY4ODAsMTQwNjE0Mzk4MywxNT
-E5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2
-ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNj
-I2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYy
-NzUwMl19
+eyJoaXN0b3J5IjpbLTEzMjIwODU1NzksMTY3OTc2MDIyMSwtMT
+Q0MTMzNzA1MiwtMTY5Mjc3NDUyLDQwMjkwODU5MSw5MDQ4Nzc4
+MzcsMTk2OTI2NDczNywtODI3NTI2ODgwLDE0MDYxNDM5ODMsMT
+UxOTI4NzE0MywxNjU0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1
+Njg1LDExODUyMTM5NTMsODY1NzczNzA5LDEwODc4NTk1NDcsLT
+YyNjc0NDg4NCwxMzI0ODM1NDgwLC0xMzA5NDY2MTg1LC03ODc2
+Mjc1MDJdfQ==
 -->
