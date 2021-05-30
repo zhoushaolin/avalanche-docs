@@ -152,7 +152,7 @@ Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的�
 
 ![Working example 8](../../.gitbook/assets/example-8.png)
 
-传递性投票，即对一个顶点的投票就是对所有它的祖先的投票，有助于交易吞吐量。 每一票实际上是多票合一。 例如，在上图中，如果一个节点对顶点**D**进行投票，这意味着对它所有的祖先进行投票; 投票给* * D * *也是一个投票给* * * *,* * B * *, * * * *。 
+传递性投票，即对一个顶点的投票就是对所有它的祖先的投票，有助于交易吞吐量。 每一票实际上是多票合一。 例如，在上图中，如果一个节点对顶点**D**进行投票，这意味着对它所有的祖先进行投票; 投票给**D **, 也即是投票给**A**、 **B**和**C**。 
 Transitive voting, where a vote for a vertex is a vote for all it's ancestors, helps with transaction throughput. Each vote is actually many votes in one. For example, in the above diagram, if a node gets a vote for vertex **D**, that implies a vote for all it's ancestors; a vote for **D** is also a vote for **A**, **B**, and **C**.
 
 ## Loose Ends
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MTg3ODU0LC0xNjkyNzc0NTIsNDAyOT
-A4NTkxLDkwNDg3NzgzNywxOTY5MjY0NzM3LC04Mjc1MjY4ODAs
-MTQwNjE0Mzk4MywxNTE5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwOD
-k1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDks
-MTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMD
-k0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1
-NTddfQ==
+eyJoaXN0b3J5IjpbMTczNTIyOTM1MiwtMTY5Mjc3NDUyLDQwMj
+kwODU5MSw5MDQ4Nzc4MzcsMTk2OTI2NDczNywtODI3NTI2ODgw
+LDE0MDYxNDM5ODMsMTUxOTI4NzE0MywxNjU0NjE1ODkzLDcxMD
+g5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5NTMsODY1NzczNzA5
+LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMzI0ODM1NDgwLC0xMz
+A5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1NDU3LC0xNDIxNzUy
+NTU3XX0=
 -->
