@@ -156,7 +156,7 @@ Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的�
 
 ## Loose Ends
 
-交易是由用户调用[AvalancheGo](https://github.com/ava-labs/avalanchego)完整节点上的API或使用[AvalancheJS](https://github.com/ava-labs/avalanchejs)等库创建的。 当节点一起批处理进入的事务时，或者当从一个被拒绝的顶点接受的事务被重新发布并添加到DAG时，顶点被创建。 一个顶点的父结点是从良性边界中选择的，即DAG顶端没有冲突的节点。 建立在良性顶点上很重要因为如果我们建立在非良性顶点上节点被拒绝的可能性会更高这意味着它的祖先被拒绝的可能性更大我们的进展会更少。 
+交易是由用户调用[AvalancheGo](https://github.com/ava-labs/avalanchego)完整节点上的API或使用[AvalancheJS](https://github.com/ava-labs/avalanchejs)等库创建的。 当节点一起批处理进入的事务时，或者当从一个被拒绝的顶点接受的交易被重新发布并添加到DAG时，顶点被创建。 一个顶点的父结点是从良性边界中选择的，即DAG顶端没有冲突的节点。 建立在良性顶点上很重要因为如果我们建立在非良性顶点上节点被拒绝的可能性会更高这意味着它的祖先被拒绝的可能性更大我们的进展会更少。 
 Transactions are created by users which call an API on the [AvalancheGo](https://github.com/ava-labs/avalanchego) full node or create them using a library such as [AvalancheJS](https://github.com/ava-labs/avalanchejs). Vertices are created when nodes batch incoming transactions together or when accepted transactions from a rejected vertex get reissued and added to the DAG. A vertex's parents are chosen from the virtuous frontier, which are the nodes at the tip of the DAG with no conflicts. It's important to build on virtuous vertices because if we built on non-virtuous vertices there would be a higher chance that the node would get rejected which means there's a higher chance it's ancestors get rejected and we would make less progress.
 
 ## Other Observations
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEzMzcwNTIsLTE2OTI3NzQ1Miw0MD
-I5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4
-MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MT
-A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
-OSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMT
-MwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1
-MjU1N119
+eyJoaXN0b3J5IjpbMTY3OTc2MDIyMSwtMTQ0MTMzNzA1MiwtMT
+Y5Mjc3NDUyLDQwMjkwODU5MSw5MDQ4Nzc4MzcsMTk2OTI2NDcz
+NywtODI3NTI2ODgwLDE0MDYxNDM5ODMsMTUxOTI4NzE0MywxNj
+U0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5
+NTMsODY1NzczNzA5LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMz
+I0ODM1NDgwLC0xMzA5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1
+NDU3XX0=
 -->
