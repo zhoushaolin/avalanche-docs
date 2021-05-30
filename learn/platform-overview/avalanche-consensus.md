@@ -148,11 +148,11 @@ Avalanche没有削减功能。 如果一个节点在验证时表现不佳，比�
 
 ## 大概念
 
-Avalanche中的两大概念是子抽样和传递投票。 子采样的消息开销非常低廉。 不管是20个验证器还是2000个验证器; 查询期间，节点发送的共识消息数量保持不变。 
-Two big ideas in Avalanche are **subsampling** and **transitive voting**. Subsampling has low message overhead. It doesn't matter if there are twenty validators or two thousand validators; the number of consensus messages a node sends during a query remains constant.
+Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的消息开销非常低廉。 不管是20个验证器还是2000个验证器; 查询期间，节点发送的共识消息数量保持不变。 
 
 ![Working example 8](../../.gitbook/assets/example-8.png)
 
+传递性投票，即对一个顶点的投票就是对所有它的祖先的投票，有助于交易吞吐量。 每一票实际上是多票合一。 例如，在上图中，如果一个节点对顶点**D**进行投票，这意味着对它所有的祖先进行投票; 投票给* * D * *也是一个投票给* * * *,* * B * *, * * * *。 
 Transitive voting, where a vote for a vertex is a vote for all it's ancestors, helps with transaction throughput. Each vote is actually many votes in one. For example, in the above diagram, if a node gets a vote for vertex **D**, that implies a vote for all it's ancestors; a vote for **D** is also a vote for **A**, **B**, and **C**.
 
 ## Loose Ends
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzcxOTI2ODgsLTE2OTI3NzQ1Miw0MD
-I5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4
-MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MT
-A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
-OSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMT
-MwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1
-MjU1N119
+eyJoaXN0b3J5IjpbODg5MTg3ODU0LC0xNjkyNzc0NTIsNDAyOT
+A4NTkxLDkwNDg3NzgzNywxOTY5MjY0NzM3LC04Mjc1MjY4ODAs
+MTQwNjE0Mzk4MywxNTE5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwOD
+k1ODk1LDExMzc3NzU2ODUsMTE4NTIxMzk1Myw4NjU3NzM3MDks
+MTA4Nzg1OTU0NywtNjI2NzQ0ODg0LDEzMjQ4MzU0ODAsLTEzMD
+k0NjYxODUsLTc4NzYyNzUwMiw3ODY4NjU0NTcsLTE0MjE3NTI1
+NTddfQ==
 -->
