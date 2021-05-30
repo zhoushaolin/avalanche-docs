@@ -172,17 +172,17 @@ Avalanche也适用于线性链。 协议与上面的基本相同，但是每个�
 
 雪崩是一个通用的共识引擎。 什么类型的应用程序放在上面并不重要。 该协议允许应用层与共识层解耦。 如果你在Avalanche上构建一个Dapp，那么你只需要定义一些东西，比如如何定义冲突，交易中有什么。 您不需要担心节点如何达成协议。 共识协议是一个黑盒子，它将一些东西放入其中，然后返回为接受或拒绝。 
 
-Avalanche可以用于各种应用程序，而不仅仅是P2P支付网络。 Avalanche的主网络有一个以太坊虚拟机的实例，它兼容现有的以太坊Dapps和开发工具。 以太坊共识协议已被Avalanche共识取代，以实现更低的块延迟和更高的吞吐量。 
-Avalanche can be used for all kinds of applications, not just P2P payment networks. Avalanche's Primary Network has an instance of the Ethereum Virtual Machine, which is backward compatible with existing Ethereum Dapps and dev tooling. The Ethereum consensus protocol has been replaced with Avalanche consensus to enable lower block latency and higher throughput.
+Avalanche可以用于各种应用程序，而不仅仅是P2P支付网络。 Avalanche的主网络有一个以太坊虚拟机的实例，它兼容现有的以太坊Dapps和开发工具。 以太坊共识协议已被Avalanche共识取代，以实现更低的区块延迟和更高的吞吐量。 
 
-Avalanche is very performant. It can process thousands of transactions per second with one to two second acceptance latency.
+雪崩是非常出色的。 它每秒可以处理数千个事务，接受延迟为1到2秒。 
 
-## Summary
+## 总结
 
+雪崩共识是分布式系统的一个重大突破。 它代表了与之前的经典协议和中本共识协议一样的巨大飞跃。 现在你已经更好地理解了它是如何工作的，请查看其他[文档](https://docs.avax.network)在Avalanche上构建改变游戏规则的Dapps和金融工具。 
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY0NjcwOTUsLTQyNjQ1OTkyNCwxMz
+eyJoaXN0b3J5IjpbLTE0Mzc5NjUwNzcsLTQyNjQ1OTkyNCwxMz
 AzODY5MTc1LDE2Nzk3NjAyMjEsLTE0NDEzMzcwNTIsLTE2OTI3
 NzQ1Miw0MDI5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLT
 gyNzUyNjg4MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYx
