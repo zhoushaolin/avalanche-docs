@@ -54,7 +54,7 @@ Avalanche有3个内置区块链: [**交换链 \(X-链\)**](./#exchange-chain-x-c
 
 为了解决这一问题，以太坊（Ethereum）通过智能合约迈出了一步。开发人员不需要担心网络和共识问题，但是创建去中心化应用程序仍然十分困难。以太坊虚拟机性能不佳，并限制了智能合约的开发人员。大多数程序员都对Solidity语言和其他几种以太坊智能合约编写语言感到陌生。
 
-通过Avalanche虚拟机 VMs \(AVMs\)，使得定义基于区块链的去中心化应用程序变得十分简单。开发人员可以在 make it easy to define a blockchain-based decentralized application. Rather than new, limited languages like Solidity, developers can write VMs in Go \(以后将支持其他语言\)里编写VM，而无需使用像Solidity语言这样有限制的新语言。
+通过Avalanche虚拟机 VMs \(AVMs\)，使得定义基于区块链的去中心化应用程序变得十分简单。开发人员可以在Go \(以后将支持其他语言\)里编写VM，而无需使用像Solidity语言这样有局限的新语言。
 
 ### 创建您的区块链和虚拟机
 
@@ -72,31 +72,7 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过[X-Chain API](../../buil
 
 ## 平台链\(P链\)
 
-**P链**是Avalanche上的元数据区块链，它协调验证程序、追踪活跃子网并支持创建新子网。P链实现Snowman共识协议other languages will be supported in the future\).
-
-### Creating Your Blockchain and Virtual Machine
-
-Avalanche does not yet support the creation of new Virtual Machines \(VMs\). Presently, Avalanche only supports the creation of new instances of the Avalanche VM.
-
-{% page-ref page="../../build/tutorials/platform/create-a-new-blockchain.md" %}
-
-In the future, Avalanche will allow you to define and launch custom blockchains, and we’ll release SDKs to help you do so.
-
-{% page-ref page="../../build/tutorials/platform/create-a-virtual-machine-vm.md" %}
-
-## Exchange Chain \(X-Chain\)
-
-The **X-Chain** acts as a decentralized platform for creating and trading digital smart assets, a representation of a real-world resource \(e.g., equity, bonds\) with a set of rules that govern its behavior, like “can’t be traded until tomorrow” or “can only be sent to US citizens.”
-
-One asset traded on the X-Chain is AVAX. When you issue a transaction to a blockchain on Avalanche, you pay a fee denominated in AVAX.
-
-The X-Chain is an instance of the Avalanche Virtual Machine \(AVM\). The [X-Chain API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md) allows clients to create and trade assets on the X-Chain and other instances of the AVM.
-
-{% page-ref page="../../build/tutorials/smart-digital-assets/create-a-fix-cap-asset.md" %}
-
-## Platform Chain \(P-Chain\)
-
-The **P-Chain** is the metadata blockchain on Avalanche and coordinates validators, keeps track of active subnets, and enables the creation of new subnets. The P-Chain implements the [Snowman consensus protocol](../../#snowman-consensus-protocol)。.
+**P链**是Avalanche上的元数据区块链，它协调验证程序、追踪活跃子网并支持创建新子网。P链实现Snowman共识协议[Snowman consensus protocol](../../#snowman-consensus-protocol)。.
 
 通过The [P-Chain API](../../build/avalanchego-apis/platform-chain-p-chain-api.md)，客户能够创建子网、将验证程序添加进子网并创建区块链。
 
@@ -114,6 +90,5 @@ C链是.
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../)驱动下以太坊虚拟机的一个实例。.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI2NTA4NDUsLTE3ODk4ODU4MzJdfQ
-==
+eyJoaXN0b3J5IjpbMzAwNzA4NjM5LC0xNzg5ODg1ODMyXX0=
 -->
