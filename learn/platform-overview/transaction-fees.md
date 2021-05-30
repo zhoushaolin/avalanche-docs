@@ -12,7 +12,7 @@
 
 不同类型的交易需要支付不同的交易费用。交易费用安排如下表所示：
 
-C链[C-Chain](./#contract-chain-c-chain) 的燃料价格是225 nAVAX (225 GWei). C链燃气费上限是10e8 (100,000,000)
+C链[C-Chain](./#contract-chain-c-chain) 的gas价格是225 nAVAX (225 GWei). C的gas费上限是10e8 (100,000,000)
 
 ```cpp
 +----------+-------------------+------------------------+
@@ -43,5 +43,5 @@ C链[C-Chain](./#contract-chain-c-chain) 的燃料价格是225 nAVAX (225 GWei).
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NTkwNzc0XX0=
+eyJoaXN0b3J5IjpbMTI1NzM1OTgwMSw0Mjg1OTA3NzRdfQ==
 -->
