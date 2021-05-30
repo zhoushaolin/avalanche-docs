@@ -160,9 +160,9 @@ Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的�
 
 ## Other Observations
 
-Conflicting transactions are not guaranteed to be live. That's not really a problem because if you don't want your transaction to not be live then don't issue a conflicting transaction.
-冲突事务不能保证是活性的。 这不是一个真正的问题，因为如果你希望你的交易是实时的，那么就不要发布一个冲突的事务。 
+冲突交易不能保证是实时的。 这不是一个真正的问题，因为如果你希望你的交易是实时的，那么就不要发布一个冲突的交易。 
 
+Avalanche也适用于线性链。 协议与上面的基本相同，但是每个顶点只有一个父结点。 这给出了顶点的总体排序。 这对于某些需要知道一个事务是否先于另一个事务的应用程序非常有用，例如使用智能合约。 “雪人”是Ava Labs实现线性链雪崩共识协议的名称。 
 Avalanche works for linear chains too. The protocol is largely the same as above, but each vertex has only have one parent. This gives a total ordering of vertices. This is useful for certain applications where one needs to know if a transaction came before another transaction, such as with smart contracts. Snowman is the name of Ava Labs' implementation of the Avalanche consensus protocol for linear chains.
 
 If there are no undecided transactions, the Avalanche consensus protocol _quiesces_. That is, it does nothing if there is no work to be done. Avalanche is more sustainable than Proof-of-work where nodes need to constantly do work.
@@ -182,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjIwODU1NzksMTY3OTc2MDIyMSwtMT
+eyJoaXN0b3J5IjpbLTIwMDkwOTkwMjksMTY3OTc2MDIyMSwtMT
 Q0MTMzNzA1MiwtMTY5Mjc3NDUyLDQwMjkwODU5MSw5MDQ4Nzc4
 MzcsMTk2OTI2NDczNywtODI3NTI2ODgwLDE0MDYxNDM5ODMsMT
 UxOTI4NzE0MywxNjU0NjE1ODkzLDcxMDg5NTg5NSwxMTM3Nzc1
