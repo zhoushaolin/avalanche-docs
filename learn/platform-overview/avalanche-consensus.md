@@ -146,8 +146,9 @@ while not decided:
 
 Avalanche没有削减功能。 如果一个节点在验证时表现不佳，比如给出了不正确的响应，或者可能根本没有响应，它的质押仍然会全部返回，但没有任何奖励。 只要被绑定的AVAX有足够的一部分被正确的节点持有，那么网络就是安全的，并且是为良性交易而存在的。 
 
-## Big Ideas
+## 大概念
 
+Avalanche中的两大思想是子抽样和传递投票。 子采样具有低的消息开销。 不管是20个验证器还是2000个; 查询期间，节点发送的共识消息数量保持不变。 
 Two big ideas in Avalanche are **subsampling** and **transitive voting**. Subsampling has low message overhead. It doesn't matter if there are twenty validators or two thousand validators; the number of consensus messages a node sends during a query remains constant.
 
 ![Working example 8](../../.gitbook/assets/example-8.png)
@@ -181,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg4MzIyOTgsLTE2OTI3NzQ1Miw0MD
-I5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4
-MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MT
-A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
-OSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMT
-MwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1
-MjU1N119
+eyJoaXN0b3J5IjpbLTQyNDQyOTcxMywtMTY5Mjc3NDUyLDQwMj
+kwODU5MSw5MDQ4Nzc4MzcsMTk2OTI2NDczNywtODI3NTI2ODgw
+LDE0MDYxNDM5ODMsMTUxOTI4NzE0MywxNjU0NjE1ODkzLDcxMD
+g5NTg5NSwxMTM3Nzc1Njg1LDExODUyMTM5NTMsODY1NzczNzA5
+LDEwODc4NTk1NDcsLTYyNjc0NDg4NCwxMzI0ODM1NDgwLC0xMz
+A5NDY2MTg1LC03ODc2Mjc1MDIsNzg2ODY1NDU3LC0xNDIxNzUy
+NTU3XX0=
 -->
