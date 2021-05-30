@@ -133,7 +133,6 @@ while not decided:
 ## 优化 
 
 当节点查询验证器时，如果只问“您喜欢这个顶点吗?” 在Ava Labs的实现中，在一个查询过程中，节点会问:“如果这个顶点存在，您会选择哪个顶点?” 节点接收到的不是二进制的yes/no，而是另一个节点的首选顶点集。 
-It's not efficient for nodes to just ask, "Do you prefer this vertex?" when they query validators. In Ava Labs' implementation, during a query a node asks, "Given that this vertex exists, which vertices do you prefer?" Instead of getting back a binary yes/no, the node receives the other node's preferred vertex set.
 
 Nodes don't only query upon hearing of a new transaction. They repeatedly query until there are no virtuous vertices processing. A virtuous vertex is one that has no conflicts.
 
@@ -182,11 +181,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyOTA4NTkxLDkwNDg3NzgzNywxOTY5Mj
-Y0NzM3LC04Mjc1MjY4ODAsMTQwNjE0Mzk4MywxNTE5Mjg3MTQz
-LDE2NTQ2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2ODUsMTE4NT
-IxMzk1Myw4NjU3NzM3MDksMTA4Nzg1OTU0NywtNjI2NzQ0ODg0
-LDEzMjQ4MzU0ODAsLTEzMDk0NjYxODUsLTc4NzYyNzUwMiw3OD
-Y4NjU0NTcsLTE0MjE3NTI1NTcsMjEwNzIyNDk5NCwxMzY5Mzcz
-NTk1XX0=
+eyJoaXN0b3J5IjpbMTEzMzUzNDMzOCw0MDI5MDg1OTEsOTA0OD
+c3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4MCwxNDA2MTQzOTgz
+LDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MTA4OTU4OTUsMTEzNz
+c3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwxMDg3ODU5NTQ3
+LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOTQ2NjE4NSwtNz
+g3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1NywyMTA3MjI0
+OTk0XX0=
 -->
