@@ -144,8 +144,7 @@ while not decided:
 
 要成为验证器，节点必须**绑定**\(质押\)一些有价值的东西\(**AVAX**\)。 节点绑定的AVAX越多，该节点被其他节点查询的频率就越高。 当一个节点对网络进行抽样时，它并不是均匀随机的。 相反，它是根据质押数量加权的。 节点被激励成为验证者，因为如果它们在验证的同时足够正确和响应，它们就会获得奖励。 
 
-Avalanche没有功能。 如果一个节点在验证时表现不佳，比如给出了不正确的响应，或者可能根本没有响应，那么它的股份仍然会全部返回，但没有任何奖励。 
-Avalanche doesn't have slashing. If a node doesn't behave well while validating, such as giving incorrect responses or perhaps not responding at all, its stake is still returned in whole, but with no reward. As long as a sufficient portion of the bonded AVAX is held by correct nodes, then the network is safe, and is live for virtuous transactions.
+Avalanche没有削减功能。 如果一个节点在验证时表现不佳，比如给出了不正确的响应，或者可能根本没有响应，它的质押仍然会全部返回，但没有任何奖励。 只要被绑定的AVAX有足够的一部分被正确的节点持有，那么网络就是安全的，并且是为良性交易而存在的。 
 
 ## Big Ideas
 
@@ -182,7 +181,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMwODE3NDUsLTE2OTI3NzQ1Miw0MD
+eyJoaXN0b3J5IjpbLTE5Nzg4MzIyOTgsLTE2OTI3NzQ1Miw0MD
 I5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4
 MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MT
 A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
