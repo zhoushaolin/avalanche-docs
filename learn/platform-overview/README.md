@@ -4,7 +4,7 @@
 
 # 平台概况
 
-Avalanche有3个内置区块链description: Learn the core concepts and architecture of Avalanche
+Avalanche有3个内置区块链
 ---
 
 # Platform Overview
@@ -165,6 +165,5 @@ C链是.
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../)驱动下以太坊虚拟机的一个实例。.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkzOTEwNDksLTE3ODk4ODU4MzJdfQ
-==
+eyJoaXN0b3J5IjpbMTY0OTM1NzM4MCwtMTc4OTg4NTgzMl19
 -->
