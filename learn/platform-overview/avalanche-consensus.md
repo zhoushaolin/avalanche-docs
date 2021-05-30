@@ -142,9 +142,9 @@ while not decided:
 
 如果它可以自由地成为Avalanche网络上的一个验证器，那就会有问题，因为一个恶意的参与者可能会启动很多很多节点，这些节点会被频繁地查询。 恶意的参与者可能使节点行为不良，并导致安全性或活性故障。 验证器，作为共识的一部分被查询的节点，会对网络产生影响。 他们必须以现实世界的价值为这种影响力付出代价，以防止这种填塞选票的行为。 这种利用真实世界的价值来购买对网络的影响力的想法被称为权益证明(POS)。 
 
-要成为验证器，节点必须**绑定**\(质押\)一些有价值的东西\(**AVAX**\)。 节点绑定的AVAX越多，该节点被其他节点查询的频率就越高。 当一个节点对网络进行抽样时，它并不是均匀随机的。 相反，它是根据股份数量加权的。 节点被激励成为验证者，因为如果它们在验证的同时足够正确和响应，它们就会获得奖励。 
-To become a validator, a node must **bond** \(stake\) something valuable \(**AVAX**\). The more AVAX a node bonds, the more often that node is queried by other nodes. When a node samples the network it's not uniformly random. Rather, it's weighted by stake amount. Nodes are incentivized to be validators because they get a reward if, while they validate, they're sufficiently correct and responsive.
+要成为验证器，节点必须**绑定**\(质押\)一些有价值的东西\(**AVAX**\)。 节点绑定的AVAX越多，该节点被其他节点查询的频率就越高。 当一个节点对网络进行抽样时，它并不是均匀随机的。 相反，它是根据质押数量加权的。 节点被激励成为验证者，因为如果它们在验证的同时足够正确和响应，它们就会获得奖励。 
 
+Avalanche没有功能。 如果一个节点在验证时表现不佳，比如给出了不正确的响应，或者可能根本没有响应，那么它的股份仍然会全部返回，但没有任何奖励。 
 Avalanche doesn't have slashing. If a node doesn't behave well while validating, such as giving incorrect responses or perhaps not responding at all, its stake is still returned in whole, but with no reward. As long as a sufficient portion of the bonded AVAX is held by correct nodes, then the network is safe, and is live for virtuous transactions.
 
 ## Big Ideas
@@ -182,11 +182,11 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjU5NTQsLTE2OTI3NzQ1Miw0MDI5MD
-g1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4MCwx
-NDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MTA4OT
-U4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3MzcwOSwx
-MDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMTMwOT
-Q2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1MjU1
-N119
+eyJoaXN0b3J5IjpbLTExMzMwODE3NDUsLTE2OTI3NzQ1Miw0MD
+I5MDg1OTEsOTA0ODc3ODM3LDE5NjkyNjQ3MzcsLTgyNzUyNjg4
+MCwxNDA2MTQzOTgzLDE1MTkyODcxNDMsMTY1NDYxNTg5Myw3MT
+A4OTU4OTUsMTEzNzc3NTY4NSwxMTg1MjEzOTUzLDg2NTc3Mzcw
+OSwxMDg3ODU5NTQ3LC02MjY3NDQ4ODQsMTMyNDgzNTQ4MCwtMT
+MwOTQ2NjE4NSwtNzg3NjI3NTAyLDc4Njg2NTQ1NywtMTQyMTc1
+MjU1N119
 -->
