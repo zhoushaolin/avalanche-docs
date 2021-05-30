@@ -156,7 +156,7 @@ Avalanche中的两大概念是**子抽样**和**传递投票**。 子采样的�
 
 ## Loose Ends
 
-交易是由用户调用[AvalancheGo](https://github.com/ava-labs/avalanchego)完整节点上的API或使用[AvalancheJS](https://github.com/ava-labs/avalanchejs)等库创建的。 当节点大批量进入交易时，或者当来自一个被拒绝的顶点的交易被接受, 重新发布并添加到DAG时，顶点就创建起来了。 一个顶点的父结点是从良性边界中选择的，即DAG顶端没有冲突的节点。 建立在良性顶点上很重要因为如果我们建立在非良性顶点上节点被拒绝的可能性会更高这意味着它的祖先被拒绝的可能性更大我们的进展会更少。 
+交易是由用户调用[AvalancheGo](https://github.com/ava-labs/avalanchego)完整节点上的API或使用[AvalancheJS](https://github.com/ava-labs/avalanchejs)等库创建的。 当节点大批量进入交易时，或者当来自一个被拒绝的顶点的交易被接受, 重新发布并添加到DAG时，顶点就创建起来了。 一个顶点的父结点是从良性边界中选择的，即DAG顶端没有冲突的节点。 建立在良性顶点上很重要因为如果我们建立在非良性顶点上节点被拒绝的可能性会更高, 这意味着它的祖先被拒绝的可能性更大我们的进展会更少。 
 Transactions are created by users which call an API on the [AvalancheGo](https://github.com/ava-labs/avalanchego) full node or create them using a library such as [AvalancheJS](https://github.com/ava-labs/avalanchejs). Vertices are created when nodes batch incoming transactions together or when accepted transactions from a rejected vertex get reissued and added to the DAG. A vertex's parents are chosen from the virtuous frontier, which are the nodes at the tip of the DAG with no conflicts. It's important to build on virtuous vertices because if we built on non-virtuous vertices there would be a higher chance that the node would get rejected which means there's a higher chance it's ancestors get rejected and we would make less progress.
 
 ## Other Observations
@@ -182,7 +182,7 @@ Avalanche is very performant. It can process thousands of transactions per secon
 Avalanche consensus is a radical breakthrough in distributed systems. It represents as large a leap forward as the classical and Nakamoto consensus protocols that came before it. Now that you have a better understanding of how it works, check out other [documentation](https://docs.avax.network) for building game-changing Dapps and financial instruments on Avalanche.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTIwNTkwNCwxNjc5NzYwMjIxLC0xND
+eyJoaXN0b3J5IjpbMTIxMzQ0ODczMiwxNjc5NzYwMjIxLC0xND
 QxMzM3MDUyLC0xNjkyNzc0NTIsNDAyOTA4NTkxLDkwNDg3Nzgz
 NywxOTY5MjY0NzM3LC04Mjc1MjY4ODAsMTQwNjE0Mzk4MywxNT
 E5Mjg3MTQzLDE2NTQ2MTU4OTMsNzEwODk1ODk1LDExMzc3NzU2
