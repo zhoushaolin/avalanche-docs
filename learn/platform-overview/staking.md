@@ -50,9 +50,9 @@
 
 #### 允许API调用
 
-要从远程机器对您的节点进行API调用，允许API端口上的通信\(默认为' 9650 ' \)，并使用参数'——http-host= '运行您的节点 
-To make API calls to your node from remote machines, allow traffic on the API port \(`9650` by default\), and run your node with argument `--http-host=`
+要从远程机器对您的节点进行API调用，允许API端口上的通信\(默认为`9650` \)，并使用参数`--http-host=`运行您的节点。    
 
+您应该禁用所有不会通过命令行参数使用的api。 你应该将你的网络配置为只允许从受信任的机器访问API端口。 你的个人电脑。\) 
 You should disable all APIs you will not use via command-line arguments. You should configure your network to only allow access to the API port from trusted machines \(e.g., your personal computer.\)
 
 #### Why is my uptime low? <a id="why-is-my-uptime-low"></a>
@@ -99,7 +99,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDY1NzE4MiwtMTg2Njg5NjQ4OCwtND
+eyJoaXN0b3J5IjpbMTI5MjA4Njk4NCwtMTg2Njg5NjQ4OCwtND
 g1MTgwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4
 ODcxLDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNz
 Y5NTAxNjM4XX0=
