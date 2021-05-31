@@ -7,7 +7,7 @@
 
 ### 权益证明是如何工作的? 
 
-为了抵抗[sybil攻击](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack)，分散的网络必须要求用稀缺资源来支付网络影响力。 这使得攻击者要获得对网络的足够影响力以危害其安全的代价是不可行的。 在工作量证明系统中，稀缺资源是计算能力。 在Avalanche上，稀缺资源是原生令牌，[AVAX](.. ../../# Avalanche - AVAX -token)。 对于要验证(http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)雪崩上的区块链的节点，它必须持有AVAX。 
+为了抵抗[sybil攻击](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack)，去中心化的网络必须要求用稀缺资源来支付网络影响力。 这使得攻击者要获得对网络的足够影响力以危害其安全的代价是不可行的。 在工作量证明系统中，稀缺资源是计算能力。 在Avalanche上，稀缺资源是原生令牌，[AVAX](.. ../../# Avalanche - AVAX -token)。 对于要验证(http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)雪崩上的区块链的节点，它必须持有AVAX。 
 
 To resist [sybil attacks](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack), a decentralized network must require that network influence is paid with a scarce resource. This makes it infeasibly expensive for an attacker to gain enough influence over the network to compromise its security. In proof-of-work systems, the scarce resource is computing power. On Avalanche, the scarce resource is the native token, [AVAX](../../#avalanche-avax-token). For a node to [validate](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) a blockchain on Avalanche, it must stake AVAX.
 
@@ -105,5 +105,6 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTU1NTgzNCw3Njk1MDE2MzhdfQ==
+eyJoaXN0b3J5IjpbMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OT
+UwMTYzOF19
 -->
