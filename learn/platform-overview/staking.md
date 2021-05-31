@@ -42,8 +42,9 @@
 请注意，一旦发布交易以添加节点作为验证器，就无法更改参数。 **您不能提前移除您的质押或更改质押金额、节点ID或奖励地址。 **请确保您在下面的API调用中使用了正确的值。 如果你不确定，可以在[Discord](https://chat.avax.network)上寻求帮助，或者浏览我们的[开发者常见问题解答](http://support.avalabs.org/en/collections/2618154-developer-faq)。 
 
 
-### 运行yan zh<a id="running-a-validator"></a>
+### 运行验证器<a id="running-a-validator"></a>
 
+如果您正在运行一个验证器，那么确保您的节点是连接良好的，以确保您获得奖励是很重要的。 [这](http://support.avalabs.org/en/articles/4594192-networking-setup)。 
 If you’re running a validator, it’s important that your node is well connected to ensure that you receive a reward. See [here](http://support.avalabs.org/en/articles/4594192-networking-setup).
 
 When you issue the transaction to add a validator, the staked tokens and transaction fee are deducted from the addresses you control. When you are done validating, the staked funds are returned to the addresses they came from. If you earned a reward, it is sent to the address you specified when you added yourself as a validator.
@@ -98,7 +99,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjEyMDM0OTEsLTE4NjY4OTY0ODgsLT
+eyJoaXN0b3J5IjpbLTE0ODE0NjQ2OTAsLTE4NjY4OTY0ODgsLT
 Q4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQw
 ODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LD
 c2OTUwMTYzOF19
