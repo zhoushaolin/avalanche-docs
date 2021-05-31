@@ -18,8 +18,8 @@
 * 验证器必须质押的最小金额为2,000 AVAX 
 * 被委托者必须委托的最小数量是25 AVAX 
 * 质押资金进行验证的最短时间是2周
-* The maximum amount of time one can stake funds for validation is 1 year
-* The minimum amount of time one can stake funds for delegation is 2 weeks
+* 质押资金进行验证的最长时间是1年 
+* 委托质押投入资金的最短时间是2周 The minimum amount of time one can stake funds for delegation is 2 weeks
 * The maximum amount of time one can stake funds for delegation is 1 year
 * The minimum delegation fee rate is 2%
 * The maximum weight of a validator \(their own stake + stake delegated to them\) is the minimum of 3e6 AVAX and 5 times the amount the validator staked. For example, if you staked 2,000 AVAX to become a validator, only 8000 AVAX can be delegated to your node total \(not per delegator\)
@@ -101,7 +101,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYxODg3MjksMjAzOTA1NDIyMyw4Mz
+eyJoaXN0b3J5IjpbLTE2ODY4MzMxNDcsMjAzOTA1NDIyMyw4Mz
 Y0MDg4NzEsMTMxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgz
 NCw3Njk1MDE2MzhdfQ==
 -->
