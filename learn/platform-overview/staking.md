@@ -59,10 +59,10 @@
 Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间。 你可以通过调用`info.peers`来查看节点的连接, 以及每个连接的正常运行时间。 **这只是一个节点的观点**。 其他节点可能会以不同的方式感知您的节点的正常运行时间。 仅仅因为一个节点认为您的正常运行时间较低，并不意味着您不会获得质押奖励。 
 
 您的节点没有连接到另一个节点的可能原因是NAT穿越失败，并且您没有使用`--public-ip=[NODE'S PUBLIC IP]`启动您的节点。 将来，我们将添加更好的监控，以便更容易地验证您的节点是否连接良好。 
-The likely reason that your node is not connected to another node is that NAT traversal failed, and you did not start your node with `--public-ip=[NODE'S PUBLIC IP]`. In the future, we will add better monitoring to make it easier to verify that your node is well-connected.
 
-#### Secret Management <a id="secret-management"></a>
+#### 保密管理 
 
+您在验证节点上需要的唯一秘密是其锁定密钥，即确定节点ID的TLS密钥。 当你第一次启动一个节点时，锁定键被创建并放入' $HOME/.avalanchego/ stakes / Key '中。 你应该在安全的地方备份这个文件(和' staker.crt ')。 丢失密钥可能会危及您的验证奖励，因为您的节点将拥有一个新的ID。 
 The only secret that you need on your validating node is its Staking Key, the TLS key that determines your node’s ID. The first time you start a node, the Staking Key is created and put in `$HOME/.avalanchego/staking/staker.key`. You should back up this file \(and `staker.crt`\) somewhere secure. Losing your Staking Key could jeopardize your validation reward, as your node will have a new ID.
 
 You do not need to have AVAX funds on your validating node. In fact, it's best practice to **not** have a lot of funds on your node. Almost all of your funds should be in “cold" addresses whose private key is not on any computer.
@@ -99,7 +99,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTE2ODAxNywtMTYxNTY0MDY2OCwxOD
+eyJoaXN0b3J5IjpbMTE3NDEyMzE0NywtMTYxNTY0MDY2OCwxOD
 g3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4
 MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MS
 wxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUw
