@@ -13,10 +13,9 @@
 
 当验证器完成对[主网](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)的验证时，它将收到之前所质押的AVAX代币。 它可能会因为帮助保护网络而获得奖励。 验证器只有在验证期间响应充分且正确时才会收到[验证奖励](http://support.avalabs.org/en/articles/4587396-what-are-validator-staking-rewards)。 阅读[Avalanche 代币白皮书](https://files.avalabs.org/papers/token.pdf)来了解更多关于AVAX和质押机制。 
 
-**只要满足所有这些参数，锁定奖励就会在锁定期限结束时被发送到你的钱包地址。
-Staking rewards are sent to your wallet address at the end of the staking term **as long as all of these parameters are met**.
+**只要满足所有这些参数**，质押奖励就会在锁定期限结束时发送到你的钱包地址。
 
-* The minimum amount that a validator must stake is 2,000 AVAX
+* 验证必须质押的最小金额为2,000 AVAX 
 * The minimum amount that a delegator must delegate is 25 AVAX
 * The minimum amount of time one can stake funds for validation is 2 weeks
 * The maximum amount of time one can stake funds for validation is 1 year
@@ -102,6 +101,6 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODIyNzc0NiwxMzEwODIxNjgsMTQ1Nj
+eyJoaXN0b3J5IjpbLTY3NjM4MjU2NSwxMzEwODIxNjgsMTQ1Nj
 A4MTMyNiwtMzU1NTU1ODM0LDc2OTUwMTYzOF19
 -->
