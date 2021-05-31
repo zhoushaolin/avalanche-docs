@@ -75,11 +75,10 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 ## 委托人 
 
 委托者是代币持有者，他希望参与质押，但选择通过委托信任现有的验证节点。 
-A delegator is a token holder, who wants to participate in staking, but chooses to trust an existing validating node through delegation.
 
-When you delegate stake to a validator, you specify:
+当你委托质押到一个验证器时，你指定: 
 
-* The ID of the node you’re delegating to
+* 您正在委托的节点的ID 
 * When you want to start/stop delegating stake \(must be while the validator is validating\)
 * How many AVAX you are staking
 * The address to send any rewards to
@@ -99,9 +98,9 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDM1NzgzOSwtMTYxNTY0MDY2OCwxOD
-g3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4
-MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MS
-wxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUw
-MTYzOF19
+eyJoaXN0b3J5IjpbODUwMDU0MzksLTE2MTU2NDA2NjgsMTg4Nz
+YwODczMSwxMjkyMDg2OTg0LC0xODY2ODk2NDg4LC00ODUxODA4
+OTIsLTE4NjQwNTM5MzYsMjAzOTA1NDIyMyw4MzY0MDg4NzEsMT
+MxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgzNCw3Njk1MDE2
+MzhdfQ==
 -->
