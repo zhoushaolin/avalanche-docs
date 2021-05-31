@@ -3,9 +3,9 @@
 ---
 
 # 质押
-质押是锁定代币以支持网络的过程，同时获得回报(奖励可以增加网络效用，金钱补偿等)。 下注的概念是由Peercoin的Sunny King和Scott纳达尔[首次正式引入](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf)。 Staking is the process of locking up tokens to support a network while receiving a reward in return \(rewards can be increased network utility, monetary compensation, etc.\). The concept of staking was [first formally introduced](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf) by Sunny King and Scott Nadal of Peercoin.
+质押是锁定代币以支持网络的过程，同时获得回报(奖励可以增加网络效用，金钱补偿等)。 下注的概念是由Peercoin的Sunny King和Scott纳达尔[首次正式引入](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf)。 
 
-### How does proof-of-stake work?
+### 权益证明是如何工作的? 
 
 To resist [sybil attacks](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack), a decentralized network must require that network influence is paid with a scarce resource. This makes it infeasibly expensive for an attacker to gain enough influence over the network to compromise its security. In proof-of-work systems, the scarce resource is computing power. On Avalanche, the scarce resource is the native token, [AVAX](../../#avalanche-avax-token). For a node to [validate](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) a blockchain on Avalanche, it must stake AVAX.
 
@@ -103,5 +103,5 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MTk3MDI1LDc2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbLTgwNzQ3MjA3MCw3Njk1MDE2MzhdfQ==
 -->
