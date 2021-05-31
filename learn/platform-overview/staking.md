@@ -64,7 +64,7 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 
 您在验证节点上需要的唯一秘密是其质押密钥，即确定节点ID的TLS密钥。 当你第一次启动一个节点时，质押密钥就被创建并放入`$HOME/.avalanchego/staking/staker.key`中。 你应该在安全的地方备份这个文件\(和`staker.crt`\)。 丢失密钥可能会危及您的验证奖励，因为您的节点将拥有一个新的ID。 
 
-您不需要在验证节点上拥有AVAX资金。 事实上，最好不要在您的节点上**有太多资金。 几乎你所有的资金都应该在“冷”地址中，其私钥不在任何计算机上。 
+您不需要在验证节点上拥有AVAX资金。 事实上，最好**不要**在您的节点上有太多资金。 几乎你所有的资金都应该在“冷”地址中，其私钥不在任何计算机上。 
 
 You do not need to have AVAX funds on your validating node. In fact, it's best practice to **not** have a lot of funds on your node. Almost all of your funds should be in “cold" addresses whose private key is not on any computer.
 
@@ -100,7 +100,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDY5OTA3NCwtMTYxNTY0MDY2OCwxOD
+eyJoaXN0b3J5IjpbMTU5NzE3MjI4NiwtMTYxNTY0MDY2OCwxOD
 g3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4
 MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MS
 wxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUw
