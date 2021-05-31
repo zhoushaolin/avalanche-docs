@@ -46,6 +46,7 @@
 
 如果您正在运行一个验证器，那么确保您的节点连接良好，以确保您接收奖励是很重要的。 详见[这里](http://support.avalabs.org/en/articles/4594192-networking-setup)。 
 
+当您发布交易以添加验证器时，所持有的令牌和交易费用将从您控制的地址中扣除。 当您完成验证后，投资资金将返回到它们原来的地址。 如果您获得了奖励，它将被发送到您添加为验证者时指定的地址。 
 When you issue the transaction to add a validator, the staked tokens and transaction fee are deducted from the addresses you control. When you are done validating, the staked funds are returned to the addresses they came from. If you earned a reward, it is sent to the address you specified when you added yourself as a validator.
 
 #### Allow API calls <a id="allow-api-calls"></a>
@@ -98,8 +99,8 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkxODAyMzIsLTE4NjY4OTY0ODgsLT
-Q4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQw
-ODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LD
-c2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbLTExODEyOTgyNCwtMTg2Njg5NjQ4OCwtND
+g1MTgwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4
+ODcxLDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNz
+Y5NTAxNjM4XX0=
 -->
