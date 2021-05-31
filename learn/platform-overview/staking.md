@@ -15,8 +15,8 @@
 
 **只要满足所有这些参数**，质押奖励就会在锁定期限结束时发送到你的钱包地址。
 
-* 验证必须质押的最小金额为2,000 AVAX 
-* The minimum amount that a delegator must delegate is 25 AVAX
+* 验证器必须质押的最小金额为2,000 AVAX 
+* 被委托者必须委托的最小数量是25 AVAX The minimum amount that a delegator must delegate is 25 AVAX
 * The minimum amount of time one can stake funds for validation is 2 weeks
 * The maximum amount of time one can stake funds for validation is 1 year
 * The minimum amount of time one can stake funds for delegation is 2 weeks
@@ -101,6 +101,6 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjM4MjU2NSwxMzEwODIxNjgsMTQ1Nj
-A4MTMyNiwtMzU1NTU1ODM0LDc2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbODM2NDA4ODcxLDEzMTA4MjE2OCwxNDU2MD
+gxMzI2LC0zNTU1NTU4MzQsNzY5NTAxNjM4XX0=
 -->
