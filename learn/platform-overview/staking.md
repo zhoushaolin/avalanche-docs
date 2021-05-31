@@ -68,13 +68,13 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 
 #### 监测
 
-遵循本教程了解如何监测节点的正常运行时间、常规运行状况等。 
-Follow this tutorial to learn how to monitor your node's uptime, general health, etc.
+跟着本教程了解如何监测节点的正常运行时间、常规运行状况等。 
 
 {% page-ref page="../../build/tutorials/nodes-and-staking/setting-up-node-monitoring.md" %}
 
-## Delegators
+## 委托人 
 
+委托者是代币持有者，他希望参与质押，但选择通过委托信任现有的验证节点。 
 A delegator is a token holder, who wants to participate in staking, but chooses to trust an existing validating node through delegation.
 
 When you delegate stake to a validator, you specify:
@@ -99,9 +99,9 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwOTg2NzY1LC0xNjE1NjQwNjY4LDE4OD
-c2MDg3MzEsMTI5MjA4Njk4NCwtMTg2Njg5NjQ4OCwtNDg1MTgw
-ODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4ODcxLD
-EzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNzY5NTAx
-NjM4XX0=
+eyJoaXN0b3J5IjpbMjA1MDM1NzgzOSwtMTYxNTY0MDY2OCwxOD
+g3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4
+MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MS
+wxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUw
+MTYzOF19
 -->
