@@ -33,8 +33,8 @@
 
 * 你的节点的ID
 * 你想什么时候开始及停止验证
-* 你押了多少AVAX 
-* The address to send any rewards to
+* 质押多少AVAX 
+* 接收发送奖励的地址
 * Your delegation fee rate \(see below\)
 
 {% hint style="info" %}
@@ -101,8 +101,8 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODA3MTA2NCwtMTg2Njg5NjQ4OCwtND
-g1MTgwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4
-ODcxLDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNz
-Y5NTAxNjM4XX0=
+eyJoaXN0b3J5IjpbNjIyMTA5MzU1LC0xODY2ODk2NDg4LC00OD
+UxODA4OTIsLTE4NjQwNTM5MzYsMjAzOTA1NDIyMyw4MzY0MDg4
+NzEsMTMxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgzNCw3Nj
+k1MDE2MzhdfQ==
 -->
