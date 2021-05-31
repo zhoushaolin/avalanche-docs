@@ -52,10 +52,9 @@
 
 要从远程机器对您的节点进行API调用，允许API端口上的通信\(默认为`9650` \)，并使用参数`--http-host=`运行您的节点。    
 
-您应该禁用所有不会通过命令行参数使用的api。 你应该将你的网络配置为只允许从信任的机器访问API端口。 你的个人电脑。\) 
-You should disable all APIs you will not use via command-line arguments. You should configure your network to only allow access to the API port from trusted machines \(e.g., your personal computer.\)
+您应该禁用所有不会通过命令行参数使用的api。 你应该将你的网络配置为只允许从信任的机器访问API端口。 \(例如, 你的个人电脑。\) 
 
-#### Why is my uptime low? <a id="why-is-my-uptime-low"></a>
+#### 为什么我的正常运行时间很短?  <a id="why-is-my-uptime-low"></a>
 
 Every validator on Avalanche keeps track of the uptime of other validators. You can see the connections a node has by calling `info.peers`, as well as the uptime of each connection. **This is only one node’s point of view**. Other nodes may perceive the uptime of your node differently. Just because one node perceives your uptime as being low does not mean that you will not receive staking rewards.
 
@@ -99,8 +98,8 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwMzk1Njg1LDEyOTIwODY5ODQsLTE4Nj
-Y4OTY0ODgsLTQ4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0
-MjIzLDgzNjQwODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMz
-U1NTU1ODM0LDc2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbMjA2NTg4NDM0MiwxMjkyMDg2OTg0LC0xOD
+Y2ODk2NDg4LC00ODUxODA4OTIsLTE4NjQwNTM5MzYsMjAzOTA1
+NDIyMyw4MzY0MDg4NzEsMTMxMDgyMTY4LDE0NTYwODEzMjYsLT
+M1NTU1NTgzNCw3Njk1MDE2MzhdfQ==
 -->
