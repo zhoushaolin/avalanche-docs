@@ -66,10 +66,9 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 
 您不需要在验证节点上拥有AVAX资金。 事实上，最好**不要**在您的节点上有太多资金。 几乎你所有的资金都应该在“冷”地址中，其私钥不在任何计算机上。 
 
-You do not need to have AVAX funds on your validating node. In fact, it's best practice to **not** have a lot of funds on your node. Almost all of your funds should be in “cold" addresses whose private key is not on any computer.
+#### 监测
 
-#### Monitoring <a id="monitoring"></a>
-
+遵循本教程了解如何监测节点的正常运行时间、常规运行状况等。 
 Follow this tutorial to learn how to monitor your node's uptime, general health, etc.
 
 {% page-ref page="../../build/tutorials/nodes-and-staking/setting-up-node-monitoring.md" %}
@@ -100,9 +99,9 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzE3MjI4NiwtMTYxNTY0MDY2OCwxOD
-g3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4
-MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MS
-wxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUw
-MTYzOF19
+eyJoaXN0b3J5IjpbMzUwOTg2NzY1LC0xNjE1NjQwNjY4LDE4OD
+c2MDg3MzEsMTI5MjA4Njk4NCwtMTg2Njg5NjQ4OCwtNDg1MTgw
+ODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4ODcxLD
+EzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNzY5NTAx
+NjM4XX0=
 -->
