@@ -11,6 +11,7 @@
 
 ## Avalanche上的质押参数
 
+当验证器完成对[主要网络](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)的验证时，它将收到它所持有的AVAX令牌。 它可能会因为帮助保护网络而获得奖励。 验证器只有在验证期间响应充分且正确时才会收到[验证奖励](http://support.avalabs.org/en/articles/4587396-what-are-validator-staking-rewards)。 阅读[Avalanche token白皮书](https://files.avalabs.org/papers/token.pdf)来了解更多关于AVAX和绑架的机制。 
 When a validator is done validating the [Primary Network](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network), it receives back the AVAX tokens it staked. It may receive a reward for helping to secure the network. A validator only receives a [validation reward](http://support.avalabs.org/en/articles/4587396-what-are-validator-staking-rewards) if it is sufficiently responsive and correct during the time it validates. Read the [Avalanche token whitepaper](https://files.avalabs.org/papers/token.pdf) to learn more about AVAX and the mechanics of staking.
 
 {% hint style="warning" %}
@@ -103,6 +104,6 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk5NTI2MCwxNDU2MDgxMzI2LC0zNT
-U1NTU4MzQsNzY5NTAxNjM4XX0=
+eyJoaXN0b3J5IjpbLTE3MDQ2MjYzNTAsMTQ1NjA4MTMyNiwtMz
+U1NTU1ODM0LDc2OTUwMTYzOF19
 -->
