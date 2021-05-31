@@ -62,7 +62,7 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 
 #### 保密管理 
 
-您在验证节点上需要的唯一秘密是其锁定密钥，即确定节点ID的TLS密钥。 当你第一次启动一个节点时，锁定键被创建并放入' $HOME/.avalanchego/ stakes / Key '中。 你应该在安全的地方备份这个文件(和' staker.crt ')。 丢失密钥可能会危及您的验证奖励，因为您的节点将拥有一个新的ID。 
+您在验证节点上需要的唯一秘密是其质押密钥，即确定节点ID的TLS密钥。 当你第一次启动一个节点时，锁定键被创建并放入' $HOME/.avalanchego/ stakes / Key '中。 你应该在安全的地方备份这个文件(和' staker.crt ')。 丢失密钥可能会危及您的验证奖励，因为您的节点将拥有一个新的ID。 
 The only secret that you need on your validating node is its Staking Key, the TLS key that determines your node’s ID. The first time you start a node, the Staking Key is created and put in `$HOME/.avalanchego/staking/staker.key`. You should back up this file \(and `staker.crt`\) somewhere secure. Losing your Staking Key could jeopardize your validation reward, as your node will have a new ID.
 
 You do not need to have AVAX funds on your validating node. In fact, it's best practice to **not** have a lot of funds on your node. Almost all of your funds should be in “cold" addresses whose private key is not on any computer.
@@ -99,9 +99,9 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDEyMzE0NywtMTYxNTY0MDY2OCwxOD
-g3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4
-MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MS
-wxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUw
-MTYzOF19
+eyJoaXN0b3J5IjpbLTEzMzUwODAwOTAsLTE2MTU2NDA2NjgsMT
+g4NzYwODczMSwxMjkyMDg2OTg0LC0xODY2ODk2NDg4LC00ODUx
+ODA4OTIsLTE4NjQwNTM5MzYsMjAzOTA1NDIyMyw4MzY0MDg4Nz
+EsMTMxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgzNCw3Njk1
+MDE2MzhdfQ==
 -->
