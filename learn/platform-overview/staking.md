@@ -29,11 +29,11 @@
 
 **验证器** 确保雪崩的安全，创建新的块/顶点，并处理交易。 为了达成共识，验证者会反复对彼此进行抽样。 给定的验证者被采样的概率与其所质押的份额成正比。 
 
-当您将一个节点添加到验证器集时，您可以指定: When you add a node to the validator set, you specify:
+当您将一个节点添加到验证器集时，您可以指定: 
 
-* Your node’s ID
-* When you want to start and stop validating
-* How many AVAX you are staking
+* 你的节点的ID
+* 你想什么时候开始及停止验证
+* 你押了多少AVAX 
 * The address to send any rewards to
 * Your delegation fee rate \(see below\)
 
@@ -101,7 +101,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTY4NDA2MSwtMTg2Njg5NjQ4OCwtND
+eyJoaXN0b3J5IjpbMTg5ODA3MTA2NCwtMTg2Njg5NjQ4OCwtND
 g1MTgwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4
 ODcxLDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNz
 Y5NTAxNjM4XX0=
