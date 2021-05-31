@@ -37,11 +37,11 @@
 * 接收发送奖励的地址
 * 你的委托费率\(见下文\)
 
-The minimum amount that a validator must stake is 2,000 AVAX.
+验证器必须质押的最小金额为2,000 AVAX。 
 
 {% hint style="danger" %}
 Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, ask for help on [Discord](https://chat.avax.network) or browse our [Developer FAQs](http://support.avalabs.org/en/collections/2618154-developer-faq).
-{% endhint %}
+
 
 ### Running a Validator <a id="running-a-validator"></a>
 
@@ -99,8 +99,8 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQyMTMxODAsLTE4NjY4OTY0ODgsLT
-Q4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQw
-ODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LD
-c2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbNDc3Mzk1OTIsLTE4NjY4OTY0ODgsLTQ4NT
+E4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3
+MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OT
+UwMTYzOF19
 -->
