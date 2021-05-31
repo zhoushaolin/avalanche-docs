@@ -17,7 +17,7 @@
 
 * 验证器必须质押的最小金额为2,000 AVAX 
 * 被委托者必须委托的最小数量是25 AVAX 
-* The minimum amount of time one can stake funds for validation is 2 weeks
+* 一个人可以投入资金进行验证的最短时间是2周The minimum amount of time one can stake funds for validation is 2 weeks
 * The maximum amount of time one can stake funds for validation is 1 year
 * The minimum amount of time one can stake funds for delegation is 2 weeks
 * The maximum amount of time one can stake funds for delegation is 1 year
@@ -101,7 +101,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODY4MDAzNCw4MzY0MDg4NzEsMTMxMD
+eyJoaXN0b3J5IjpbMjAzOTA1NDIyMyw4MzY0MDg4NzEsMTMxMD
 gyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgzNCw3Njk1MDE2Mzhd
 fQ==
 -->
