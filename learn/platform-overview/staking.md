@@ -22,7 +22,7 @@
 * 委托质押资金的最短时间是2周 
 * 委托质押资金进行验证的最长时间是1年 
 * 最低的委托费率是2% 
-* 一个验证器(他们自己的质押+委托给他们的质押)的最大权重是最小的3e6 AVAX和5倍于验证器的权益。 例如，如果你用2000个AVAX作为验证器，那么只有8000个AVAX可以委托给你的节点。 The maximum weight of a validator \(their own stake + stake delegated to them\) is the minimum of 3e6 AVAX and 5 times the amount the validator staked. For example, if you staked 2,000 AVAX to become a validator, only 8000 AVAX can be delegated to your node total \(not per delegator\)
+* 一个验证器(他们自己的质押+委托给他们的质押)的最大权重是最小的3e6 AVAX, 5倍于验证器的质押金额。 例如，如果你质押2000个AVAX生成为一个验证器，那么只有8000个AVAX可以委托给你的节点。 The maximum weight of a validator \(their own stake + stake delegated to them\) is the minimum of 3e6 AVAX and 5 times the amount the validator staked. For example, if you staked 2,000 AVAX to become a validator, only 8000 AVAX can be delegated to your node total \(not per delegator\)
 * The minimum percentage of the time a validator must be correct and online in order to receive a reward is 60%
 
 ## Validators
@@ -101,7 +101,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMD
-M5MDU0MjIzLDgzNjQwODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMy
-NiwtMzU1NTU1ODM0LDc2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbLTE4NjY4OTY0ODgsLTQ4NTE4MDg5MiwtMT
+g2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MSwxMzEwODIx
+NjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUwMTYzOF19
 -->
