@@ -3,7 +3,7 @@
 ---
 
 # 质押
-锁定是锁定令牌以支持网络的过程，同时获得回报(奖励可以增加网络效用，金钱补偿等)。 下注的概念是由Peercoin的Sunny King和Scott纳达尔[首次正式引入](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf)。 Staking is the process of locking up tokens to support a network while receiving a reward in return \(rewards can be increased network utility, monetary compensation, etc.\). The concept of staking was [first formally introduced](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf) by Sunny King and Scott Nadal of Peercoin.
+质押是锁定令牌以支持网络的过程，同时获得回报(奖励可以增加网络效用，金钱补偿等)。 下注的概念是由Peercoin的Sunny King和Scott纳达尔[首次正式引入](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf)。 Staking is the process of locking up tokens to support a network while receiving a reward in return \(rewards can be increased network utility, monetary compensation, etc.\). The concept of staking was [first formally introduced](https://web.archive.org/web/20160306084128/https://peercoin.net/assets/paper/peercoin-paper.pdf) by Sunny King and Scott Nadal of Peercoin.
 
 ### How does proof-of-stake work?
 
@@ -103,5 +103,5 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NTAxNjM4XX0=
+eyJoaXN0b3J5IjpbNTEzNjQxMDk5LDc2OTUwMTYzOF19
 -->
