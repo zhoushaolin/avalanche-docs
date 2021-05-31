@@ -54,8 +54,9 @@
 
 您应该禁用所有不会通过命令行参数使用的api。 你应该将你的网络配置为只允许从信任的机器访问API端口。 \(例如, 你的个人电脑。\) 
 
-#### 为什么我的正常运行时间很短?  <a id="why-is-my-uptime-low"></a>
+#### 为什么我的正常运行时间很短?  
 
+Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间。 你可以通过调用' info '来查看节点的连接。 以及每个连接的正常运行时间。 **这只是一个节点的观点**。 其他节点可能会以不同的方式感知您的节点的正常运行时间。 仅仅因为一个节点认为您的正常运行时间较低，并不意味着您将不会获得锁定奖励。 
 Every validator on Avalanche keeps track of the uptime of other validators. You can see the connections a node has by calling `info.peers`, as well as the uptime of each connection. **This is only one node’s point of view**. Other nodes may perceive the uptime of your node differently. Just because one node perceives your uptime as being low does not mean that you will not receive staking rewards.
 
 The likely reason that your node is not connected to another node is that NAT traversal failed, and you did not start your node with `--public-ip=[NODE'S PUBLIC IP]`. In the future, we will add better monitoring to make it easier to verify that your node is well-connected.
@@ -98,7 +99,7 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTg4NDM0MiwxMjkyMDg2OTg0LC0xOD
+eyJoaXN0b3J5IjpbMTg4NzYwODczMSwxMjkyMDg2OTg0LC0xOD
 Y2ODk2NDg4LC00ODUxODA4OTIsLTE4NjQwNTM5MzYsMjAzOTA1
 NDIyMyw4MzY0MDg4NzEsMTMxMDgyMTY4LDE0NTYwODEzMjYsLT
 M1NTU1NTgzNCw3Njk1MDE2MzhdfQ==
