@@ -7,11 +7,9 @@
 
 ### 权益证明是如何工作的? 
 
-为了抵抗[sybil攻击](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack)，去中心化的网络必须要求用稀缺资源来支付网络影响力。 这使得攻击者要获得对网络的足够影响力, 以危害其安全的代价是非常昂贵的。 在工作量证明系统中，稀缺资源是计算能力。 在Avalanche上，稀缺资源是原生代币[AVAX](.. ../../# Avalanche - AVAX -token)。 对于要验证(http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)雪崩上的区块链的节点，它必须持有AVAX。 
+为了抵抗[sybil攻击](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack)，去中心化的网络必须要求用稀缺资源来支付网络影响力。 这使得攻击者要获得对网络的足够影响力, 以危害其安全的代价是非常昂贵的。 在工作量证明系统中，稀缺资源是计算能力。 在Avalanche上，稀缺资源是原生代币[AVAX](.. ../../# Avalanche - AVAX -token)。 要[validate](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)雪崩上的区块链, 必须质押AVAX。 
 
-To resist [sybil attacks](https://support.avalabs.org/en/articles/4064853-what-is-a-sybil-attack), a decentralized network must require that network influence is paid with a scarce resource. This makes it infeasibly expensive for an attacker to gain enough influence over the network to compromise its security. In proof-of-work systems, the scarce resource is computing power. On Avalanche, the scarce resource is the native token, [AVAX](../../#avalanche-avax-token). For a node to [validate](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) a blockchain on Avalanche, it must stake AVAX.
-
-## Staking Parameters on Avalanche
+## Avalanche上的质押参数
 
 When a validator is done validating the [Primary Network](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network), it receives back the AVAX tokens it staked. It may receive a reward for helping to secure the network. A validator only receives a [validation reward](http://support.avalabs.org/en/articles/4587396-what-are-validator-staking-rewards) if it is sufficiently responsive and correct during the time it validates. Read the [Avalanche token whitepaper](https://files.avalabs.org/papers/token.pdf) to learn more about AVAX and the mechanics of staking.
 
@@ -105,6 +103,6 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ2NTkwNzksMTQ1NjA4MTMyNiwtMz
-U1NTU1ODM0LDc2OTUwMTYzOF19
+eyJoaXN0b3J5IjpbLTE5OTk5NTI2MCwxNDU2MDgxMzI2LC0zNT
+U1NTU4MzQsNzY5NTAxNjM4XX0=
 -->
