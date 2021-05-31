@@ -23,7 +23,7 @@
 * 委托质押资金进行验证的最长时间是1年 
 * 最低的委托费率是2% 
 * 一个验证器(他们自己的质押+委托给他们的质押)的最大权重是最小的3e6 AVAX, 5倍于验证器的质押金额。 例如，如果你质押2000个AVAX生成为一个验证器，那么只有8000个AVAX可以委托给你的节点\(不是每个委托者都可以委托这么多\)。 
-* 为了获得奖励，验证者必须在线的最短的时间内是正确的并且是 The minimum percentage of the time a validator must be correct and online in order to receive a reward is 60%
+* 为了获得奖励，验证者必须正确且在线的最短的时间是60%
 
 ## Validators
 
@@ -101,8 +101,8 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNzIzMSwtMTg2Njg5NjQ4OCwtNDg1MT
-gwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4ODcx
-LDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNzY5NT
-AxNjM4XX0=
+eyJoaXN0b3J5IjpbMTU5NjY1OTY1MywtMTg2Njg5NjQ4OCwtND
+g1MTgwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4
+ODcxLDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNz
+Y5NTAxNjM4XX0=
 -->
