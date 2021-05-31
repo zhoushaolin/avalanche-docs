@@ -39,10 +39,10 @@
 
 验证器必须质押的最小金额为2,000 AVAX。 
 
-请注意，一旦发布交易以添加节点作为验证器，就无法更改参数。 **您不能提前删除您的股权或更改股权金额、节点ID或奖励地址。 **请确保您在下面的API调用中使用了正确的值。 如果你不确定，可以在[Discord](https://chat.avax.network)上寻求帮助，或者浏览我们的[开发者常见问题解答](http://support.avalabs.org/en/collections/2618154-developer-faq)。 Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, ask for help on [Discord](https://chat.avax.network) or browse our [Developer FAQs](http://support.avalabs.org/en/collections/2618154-developer-faq).
+请注意，一旦发布交易以添加节点作为验证器，就无法更改参数。 **您不能提前移除您的质押或更改质押金额、节点ID或奖励地址。 **请确保您在下面的API调用中使用了正确的值。 如果你不确定，可以在[Discord](https://chat.avax.network)上寻求帮助，或者浏览我们的[开发者常见问题解答](http://support.avalabs.org/en/collections/2618154-developer-faq)。 
 
 
-### Running a Validator <a id="running-a-validator"></a>
+### 运行yan zh<a id="running-a-validator"></a>
 
 If you’re running a validator, it’s important that your node is well connected to ensure that you receive a reward. See [here](http://support.avalabs.org/en/articles/4594192-networking-setup).
 
@@ -98,8 +98,8 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1MDc3Njk1LC0xODY2ODk2NDg4LC00OD
-UxODA4OTIsLTE4NjQwNTM5MzYsMjAzOTA1NDIyMyw4MzY0MDg4
-NzEsMTMxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgzNCw3Nj
-k1MDE2MzhdfQ==
+eyJoaXN0b3J5IjpbLTExNjEyMDM0OTEsLTE4NjY4OTY0ODgsLT
+Q4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQw
+ODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LD
+c2OTUwMTYzOF19
 -->
