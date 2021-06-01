@@ -22,9 +22,9 @@
 
 ```text
 +----------+----------+-------------------------+
-| 资产_id : [32]字节 |                32 bytes |
+| 资产_id : [32]字节 |                32 字节 |
 +----------+----------+-------------------------+
-| output   : Output   |      size(output) bytes |
+| 输出   : 输出   |      size(output) bytes |
 +----------+----------+-------------------------+
                       | 32 + size(output) bytes |
                       +-------------------------+
@@ -1913,5 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDgyNjY5MSwtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbNzE0NjM0NTcxLC0xNTE2NTA2MzQ3XX0=
 -->
