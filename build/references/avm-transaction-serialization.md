@@ -16,7 +16,7 @@
 可转移的输出包含一个`AssetID`和一个[`Output`](avm-transaction-serialization.md#outputs)。 
 
 * **`AssetID`** 是一个32字节数组，它定义了该输出引用的资产。
-* **`Output`** 是一个输出, 定义如下[below](avm-transaction-serialization.md#outputs). For example, this can be a [SECP256K1 transfer output](avm-transaction-serialization.md#secp256k1-transfer-output).
+* **`Output`** 是一个输出, 定义如下[below](avm-transaction-serialization.md#outputs)。例如, 这个可以是一个this can be a [SECP256K1 transfer output](avm-transaction-serialization.md#secp256k1-transfer-output).
 
 ### Gantt Transferable Output Specification
 
@@ -1913,5 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTQ3MTQwNCwtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbMTczNDM0ODk1MiwtMTUxNjUwNjM0N119
 -->
