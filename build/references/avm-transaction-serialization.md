@@ -41,7 +41,7 @@ message TransferableOutput {
 
 ### 可传输的输出示例
 
-我们来做一个可传输输出:
+我们来进行一个可传输输出:
 
 * `AssetID`: `0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f`
 * `Output`: `"Example SECP256K1 Transfer Output from below"`
@@ -101,7 +101,7 @@ message TransferableOutput {
                         +------------------------+
 ```
 
-### Proto Transferable Input Specification
+### Proto 可传输输入规范 
 
 ```text
 message TransferableInput {
@@ -112,9 +112,9 @@ message TransferableInput {
 }
 ```
 
-### Transferable Input Example
+### 可传输输入示例
 
-Let’s make a transferable input:
+我们来进行一个可传输输入:
 
 * `TxID`: `0xf1e1d1c1b1a191817161514131211101f0e0d0c0b0a090807060504030201000`
 * `UTXOIndex`: `5`
@@ -1914,7 +1914,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU5MzQ5ODgsLTE2MzM1OTUwNzIsMT
-A1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcx
-NjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTk4Nzk2NjU5MiwtMTYzMzU5NTA3MiwxMD
+U1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2
+Mjg0NywtMTUxNjUwNjM0N119
 -->
