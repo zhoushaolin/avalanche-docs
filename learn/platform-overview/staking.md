@@ -86,17 +86,15 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 委托者必须委托的最小数量是25 AVAX。 
 
 请注意，一旦您发布交易将您的质押添加到一个委托者，就不能再更改参数。 **您不能提前移除您的质押或更改质押金额、节点ID或奖励地址。**如果你不确定，可以在[Discord](https://chat.avax.network)上寻求帮助，或者浏览我们的[开发者常见问题解答](http://support.avalabs.org/en/collections/2618154-developer-faq)。 
-Note that once you issue the transaction to add your stake to a delegator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** If you’re not sure, ask for help on [Discord](https://chat.avax.network) or browse our [Developer FAQs](http://support.avalabs.org/en/collections/2618154-developer-faq).
-{% endhint %}
 
-### Delegator rewards <a id="delegator-rewards"></a>
+### 委托奖励 
 
 If the validator that you delegate tokens to is sufficiently correct and responsive, you will receive a reward when you are done delegating. Delegators are rewarded according to the same function as validators. However, the validator that you delegate to keeps a portion of your reward–specified by the validator’s delegation fee rate.
 
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM1ODg2ODYsLTE3MjIzNTE3MTEsOD
+eyJoaXN0b3J5IjpbLTIwMDQzOTQzNDEsLTE3MjIzNTE3MTEsOD
 UwMDU0MzksLTE2MTU2NDA2NjgsMTg4NzYwODczMSwxMjkyMDg2
 OTg0LC0xODY2ODk2NDg4LC00ODUxODA4OTIsLTE4NjQwNTM5Mz
 YsMjAzOTA1NDIyMyw4MzY0MDg4NzEsMTMxMDgyMTY4LDE0NTYw
