@@ -83,9 +83,8 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 * 你质押多少AVAX 
 * 接收发送奖励的地址 
 
-{% hint style="info" %}
+被委托者必须委托的最小数量是25 AVAX。 
 The minimum amount that a delegator must delegate is 25 AVAX.
-{% endhint %}
 
 {% hint style="danger" %}
 Note that once you issue the transaction to add your stake to a delegator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** If you’re not sure, ask for help on [Discord](https://chat.avax.network) or browse our [Developer FAQs](http://support.avalabs.org/en/collections/2618154-developer-faq).
@@ -98,9 +97,9 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU1MTIyOTAsODUwMDU0MzksLTE2MT
-U2NDA2NjgsMTg4NzYwODczMSwxMjkyMDg2OTg0LC0xODY2ODk2
-NDg4LC00ODUxODA4OTIsLTE4NjQwNTM5MzYsMjAzOTA1NDIyMy
-w4MzY0MDg4NzEsMTMxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1
-NTgzNCw3Njk1MDE2MzhdfQ==
+eyJoaXN0b3J5IjpbMTk4NDI5ODE0MSw4NTAwNTQzOSwtMTYxNT
+Y0MDY2OCwxODg3NjA4NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0
+ODgsLTQ4NTE4MDg5MiwtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLD
+gzNjQwODg3MSwxMzEwODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1
+ODM0LDc2OTUwMTYzOF19
 -->
