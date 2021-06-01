@@ -152,7 +152,6 @@ message TransferableInput {
 ## 可传输 Op
 
 可传输操作用一个提供的可传输操作描述了一组UTXO。 每个操作只能引用一个资产ID。 
-Transferable operations describe a set of UTXOs with a provided transfer operation. Only one Asset ID is able to be referenced per operation.
 
 ### What Transferable Op Contains
 
@@ -1915,7 +1914,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEyNzE1MjksMTgyNDc0MDk3MSwtMT
-YzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQz
-OTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbOTg0Njk0MDEwLDE4MjQ3NDA5NzEsLTE2Mz
+M1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2
+NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
 -->
