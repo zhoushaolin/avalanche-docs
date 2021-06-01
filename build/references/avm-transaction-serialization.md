@@ -71,13 +71,13 @@ message TransferableOutput {
 ]
 ```
 
-## 可转移的输入 
+## 可传输的输入 
 
-可转移输入用一个提供的传输输入描述一个特定的UTXO。 
+可传输输入用一个提供的传输输入描述一个特定的UTXO。 
 
 ### 可传输输出包含什么  
 
-一个可转移的输入包含' TxID '， ' UTXOIndex ' ' AssetID '和一个' input '。
+一个可传输的输入包含`TxID`，`UTXOIndex` `AssetID` AssetID '和一个' input '。
 A transferable input contains a `TxID`, `UTXOIndex` `AssetID` and an `Input`.
 
 * **`TxID`** is a 32-byte array that defines which transaction this input is consuming an output from.
@@ -1914,6 +1914,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk3MDQ5MCwtMjY3MTYyODQ3LC0xNT
+eyJoaXN0b3J5IjpbMTI0MTIyNjUzNCwtMjY3MTYyODQ3LC0xNT
 E2NTA2MzQ3XX0=
 -->
