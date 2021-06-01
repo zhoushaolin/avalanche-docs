@@ -77,10 +77,9 @@ message TransferableOutput {
 
 ### 可传输输出包含什么  
 
-一个可传输的输入包含`TxID`，`UTXOIndex` `AssetID` AssetID '和一个' input '。
-A transferable input contains a `TxID`, `UTXOIndex` `AssetID` and an `Input`.
+一个可传输的输入包含`TxID`、`UTXOIndex`、 `AssetID`和一个`Input`。
 
-* **`TxID`** is a 32-byte array that defines which transaction this input is consuming an output from.
+* **`TxID`** 是一个32字节的数组，它定义了该输入从哪个事务中消费输出。  is a 32-byte array that defines which transaction this input is consuming an output from.
 * **`UTXOIndex`** is an int that defines which utxo this input is consuming in the specified transaction.
 * **`AssetID`** is a 32-byte array that defines which asset this input references.
 * **`Input`** is an input, as defined below. This can currently only be a [SECP256K1 transfer input](avm-transaction-serialization.md#secp256k1-transfer-input)
@@ -1914,6 +1913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTIyNjUzNCwtMjY3MTYyODQ3LC0xNT
+eyJoaXN0b3J5IjpbMTA1MjE3NzkxMywtMjY3MTYyODQ3LC0xNT
 E2NTA2MzQ3XX0=
 -->
