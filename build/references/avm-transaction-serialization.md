@@ -71,9 +71,9 @@ message TransferableOutput {
 ]
 ```
 
-## Transferable Input
+## 可转移的输入 
 
-Transferable inputs describe a specific UTXO with a provided transfer input.
+可转移输入描述具有提供的传输输入的特定UTXO。 Transferable inputs describe a specific UTXO with a provided transfer input.
 
 ### What Transferable Input Contains
 
@@ -1913,5 +1913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbLTEwNTA1Mjk2NjIsLTI2NzE2Mjg0NywtMT
+UxNjUwNjM0N119
 -->
