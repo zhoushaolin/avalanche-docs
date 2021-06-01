@@ -5,6 +5,7 @@
 
 ## 编解码器  ID
 
+一些数据前面有一个编解码器ID \(unt16\)，它表示应该如何反序列化数据。 现在，唯一有效的编解码器ID是0 \(' 0x00 0x00 ' \)。 
 Some data is prepended with a codec ID \(unt16\) that denotes how the data should be deserialized. Right now, the only valid codec ID is 0 \(`0x00 0x00`\).
 
 ## Transferable Output
@@ -1913,5 +1914,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY1MDQ2NTFdfQ==
+eyJoaXN0b3J5IjpbLTE1MTY1MDYzNDddfQ==
 -->
