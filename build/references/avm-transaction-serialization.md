@@ -39,9 +39,9 @@ message TransferableOutput {
 }
 ```
 
-### Transferable Output Example
+### 可传输的输出示例
 
-Let’s make a transferable output:
+我们来做一个可传输输出:
 
 * `AssetID`: `0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f`
 * `Output`: `"Example SECP256K1 Transfer Output from below"`
@@ -1913,5 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NzQ2NTQ0LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
 -->
