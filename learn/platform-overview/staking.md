@@ -79,7 +79,7 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 当你委托质押到一个验证器时，你指定: 
 
 * 您正在委托的节点的ID 
-* When you want to start/stop delegating stake \(must be while the validator is validating\)
+* 当你想开始/停止委托质押时(必须在验证器正在验证的时候) 
 * How many AVAX you are staking
 * The address to send any rewards to
 
@@ -98,9 +98,9 @@ If the validator that you delegate tokens to is sufficiently correct and respons
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMDU0MzksLTE2MTU2NDA2NjgsMTg4Nz
-YwODczMSwxMjkyMDg2OTg0LC0xODY2ODk2NDg4LC00ODUxODA4
-OTIsLTE4NjQwNTM5MzYsMjAzOTA1NDIyMyw4MzY0MDg4NzEsMT
-MxMDgyMTY4LDE0NTYwODEzMjYsLTM1NTU1NTgzNCw3Njk1MDE2
-MzhdfQ==
+eyJoaXN0b3J5IjpbNTYwNjIwMjMzLDg1MDA1NDM5LC0xNjE1Nj
+QwNjY4LDE4ODc2MDg3MzEsMTI5MjA4Njk4NCwtMTg2Njg5NjQ4
+OCwtNDg1MTgwODkyLC0xODY0MDUzOTM2LDIwMzkwNTQyMjMsOD
+M2NDA4ODcxLDEzMTA4MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4
+MzQsNzY5NTAxNjM4XX0=
 -->
