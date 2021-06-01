@@ -85,7 +85,7 @@ message TransferableOutput {
 * **`Input`** 是输入，定义如下。 目前只能是[SECP256K1 transfer input](avm-transaction-serialization.md#secp256k1-transfer-input) 
 
 
-### Gantt Transferable Input Specification
+### Gantt 可传输的输入规范 
 
 ```text
 +------------+----------+------------------------+
@@ -1914,6 +1914,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMj
-Y3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNT
+E0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
 -->
