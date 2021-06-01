@@ -90,15 +90,15 @@ Avalanche上的每个验证器都会跟踪其他验证器的正常运行时间�
 ### 委托奖励 
 
 如果您委托代币的验证器足够正确且响应迅速，那么您将在完成委托时获得奖励。 委托者根据与验证者相同的功能获得奖励。 但是，您委托的验证者将保留您的部分奖励——由验证者的委托费率指定。 
-If the validator that you delegate tokens to is sufficiently correct and responsive, you will receive a reward when you are done delegating. Delegators are rewarded according to the same function as validators. However, the validator that you delegate to keeps a portion of your reward–specified by the validator’s delegation fee rate.
+
 
 When you issue the transaction to delegate tokens, the staked tokens and transaction fee are deducted from the addresses you control. When you are done delegating, the staked tokens are returned to your address. If you earned a reward, it is sent to the address you specified when you delegated tokens.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDEzNTAxLC0xNjM1NzAzMzcwLC0xNz
-IyMzUxNzExLDg1MDA1NDM5LC0xNjE1NjQwNjY4LDE4ODc2MDg3
-MzEsMTI5MjA4Njk4NCwtMTg2Njg5NjQ4OCwtNDg1MTgwODkyLC
-0xODY0MDUzOTM2LDIwMzkwNTQyMjMsODM2NDA4ODcxLDEzMTA4
-MjE2OCwxNDU2MDgxMzI2LC0zNTU1NTU4MzQsNzY5NTAxNjM4XX
-0=
+eyJoaXN0b3J5IjpbMTk2ODg0NTc0MCwtMTYzNTcwMzM3MCwtMT
+cyMjM1MTcxMSw4NTAwNTQzOSwtMTYxNTY0MDY2OCwxODg3NjA4
+NzMxLDEyOTIwODY5ODQsLTE4NjY4OTY0ODgsLTQ4NTE4MDg5Mi
+wtMTg2NDA1MzkzNiwyMDM5MDU0MjIzLDgzNjQwODg3MSwxMzEw
+ODIxNjgsMTQ1NjA4MTMyNiwtMzU1NTU1ODM0LDc2OTUwMTYzOF
+19
 -->
