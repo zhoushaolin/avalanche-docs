@@ -24,13 +24,13 @@
 +----------+----------+-------------------------+
 | 资产_id : [32]字节 |                32 字节 |
 +----------+----------+-------------------------+
-| 输出   : 输出   |      字节 大小(输出)  |
+| 输出   : 输出   |       大小(输出) 字节 |
 +----------+----------+-------------------------+
-                      | 32 + 大小(输出) bytes |
+                      | 32 + 大小(输出) 字节 |
                       +-------------------------+
 ```
 
-### Proto Transferable Output Specification
+### Proto 可传输的输出规范 
 
 ```text
 message TransferableOutput {
@@ -1913,5 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTA2MTI1LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbODk5NzQ2NTQ0LC0xNTE2NTA2MzQ3XX0=
 -->
