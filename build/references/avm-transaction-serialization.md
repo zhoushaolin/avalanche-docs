@@ -95,9 +95,9 @@ message TransferableOutput {
 +------------+----------+------------------------+
 | asset_id   : [32]字节 |               32 字节  |
 +------------+----------+------------------------+
-| input      : Input    |      size(input) bytes |
+| 输入        : 输入     |      大小(输入) 字节 |
 +------------+----------+------------------------+
-                        | 68 + size(input) bytes |
+                        | 68 + 大小(输入) 字节 |
                         +------------------------+
 ```
 
@@ -1914,7 +1914,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtND
-kwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1
-MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTE1NzU5MzQ5ODgsLTE2MzM1OTUwNzIsMT
+A1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcx
+NjI4NDcsLTE1MTY1MDYzNDddfQ==
 -->
