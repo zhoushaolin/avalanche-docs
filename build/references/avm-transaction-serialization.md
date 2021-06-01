@@ -1,9 +1,9 @@
 # AVM 交易格式 
 
 这个文件是我们如何在雪崩虚拟机(AVM)中序列化交易的唯一来源。 本文档使用[primitive serialization](serialization-primitives.md)格式进行打包，使用[secp256k1](cryptoic -primitives.md#secp256k1-addresses)格式进行加密用户标识。 
-This file is meant to be the single source of truth for how we serialize transactions in the Avalanche Virtual Machine \(AVM\). This document uses the [primitive serialization](serialization-primitives.md) format for packing and [secp256k1](cryptographic-primitives.md#secp256k1-addresses) for cryptographic user identification.
 
-## Codec ID
+
+## 编解码器  ID
 
 Some data is prepended with a codec ID \(unt16\) that denotes how the data should be deserialized. Right now, the only valid codec ID is 0 \(`0x00 0x00`\).
 
@@ -1913,5 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDgxMzIxM119
+eyJoaXN0b3J5IjpbLTE5MzY1MDQ2NTFdfQ==
 -->
