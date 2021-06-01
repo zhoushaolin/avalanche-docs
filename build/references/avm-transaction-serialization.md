@@ -89,11 +89,11 @@ message TransferableOutput {
 
 ```text
 +------------+----------+------------------------+
-| tx_id      : [32]byte |               32 bytes |
+| tx_id      : [32]字节 |               32 字节 |
 +------------+----------+------------------------+
-| utxo_index : int      |               04 bytes |
+| utxo_index : int      |               04 字节 |
 +------------+----------+------------------------+
-| asset_id   : [32]byte |               32 bytes |
+| asset_id   : [32]字节 |               32 字节  |
 +------------+----------+------------------------+
 | input      : Input    |      size(input) bytes |
 +------------+----------+------------------------+
@@ -1914,6 +1914,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNT
-E0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtND
+kwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1
+MDYzNDddfQ==
 -->
