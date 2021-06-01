@@ -7,11 +7,11 @@
 
 一些数据前面有一个编解码器ID \(unt16\)，它表示应该如何反序列化数据。 现在，唯一有效的编解码器ID是0 \(`0x00 0x00`\)。 
 
-## 可chuan的输出 
+## 可转移的输出 
 
-Transferable outputs wrap an output with an asset ID.
+可转移输出用资产ID包装输出。 
 
-### What Transferable Output Contains
+### 可转移输出包含什么  
 
 A transferable output contains an `AssetID` and an [`Output`](avm-transaction-serialization.md#outputs).
 
@@ -1913,6 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM0NTI5NzQsLTE1MTY1MDYzNDddfQ
-==
+eyJoaXN0b3J5IjpbMTU0MTU3MjcyMywtMTUxNjUwNjM0N119
 -->
