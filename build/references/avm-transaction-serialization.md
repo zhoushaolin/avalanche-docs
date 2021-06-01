@@ -81,8 +81,9 @@ message TransferableOutput {
 
 * **`TxID`** 是一个32字节的数组，它定义了该输入从哪个交易中消费输出。
 * **`UTXOIndex`** 是一个int，定义该输入在指定交易中使用哪个utxo。
-* **`AssetID`** is a 32-byte array that defines which asset this input references.
-* **`Input`** is an input, as defined below. This can currently only be a [SECP256K1 transfer input](avm-transaction-serialization.md#secp256k1-transfer-input)
+* **`AssetID`** 是一个32字节数组，它定义了该输入引用的资产。
+* **`Input`** 是输入，定义如下。 目前只能是[SECP256K1传输输入](avm-transaction-serialization.md# SECP256K1 -transfer-input) 
+* is an input, as defined below. This can currently only be a [SECP256K1 transfer input](avm-transaction-serialization.md#secp256k1-transfer-input)
 
 ### Gantt Transferable Input Specification
 
@@ -1913,6 +1914,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMT
-UxNjUwNjM0N119
+eyJoaXN0b3J5IjpbLTEzNDI4NTE5MzksLTE1MTQzOTY0MzQsLT
+I2NzE2Mjg0NywtMTUxNjUwNjM0N119
 -->
