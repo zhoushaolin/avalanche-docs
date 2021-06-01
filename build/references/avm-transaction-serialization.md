@@ -7,22 +7,22 @@
 
 一些数据前面有一个编解码器ID \(unt16\)，它表示应该如何反序列化数据。 现在，唯一有效的编解码器ID是0 \(`0x00 0x00`\)。 
 
-## 可转移的输出 
+## 可传输的输出 
 
-可转移输出用资产ID包装输出。 
+可传输输出用资产ID包装输出。 
 
-### 可转移输出包含什么  
+### 可传输输出包含什么  
 
-可转移的输出包含一个`AssetID`和一个[`Output`](avm-transaction-serialization.md#outputs)。 
+可传输的输出包含一个`AssetID`和一个[`Output`](avm-transaction-serialization.md#outputs)。 
 
 * **`AssetID`** 是一个32字节数组，它定义了该输出引用的资产。
-* **`Output`** 是一个输出, 定义如下[below](avm-transaction-serialization.md#outputs)。例如, 这个可以是一个this can be a [SECP256K1 transfer output](avm-transaction-serialization.md#secp256k1-transfer-output).
+* **`Output`** 是一个输出, 定义如下[below](avm-transaction-serialization.md#outputs)。例如, 这个可以是一个[SECP256K1 传输输出](avm-transaction-serialization.md#secp256k1-transfer-output).
 
-### Gantt Transferable Output Specification
+### Gantt 可传输输出规范 
 
 ```text
 +----------+----------+-------------------------+
-| asset_id : [32]byte |                32 bytes |
+| 资产_id : [32]字节 |                32 bytes |
 +----------+----------+-------------------------+
 | output   : Output   |      size(output) bytes |
 +----------+----------+-------------------------+
@@ -1913,5 +1913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDM0ODk1MiwtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbLTQ5MDgyNjY5MSwtMTUxNjUwNjM0N119
 -->
