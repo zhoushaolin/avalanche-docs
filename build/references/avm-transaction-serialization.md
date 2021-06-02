@@ -161,18 +161,18 @@ message TransferableInput {
 * **`UTXOIDs`** 是TxID-OutputIndex元组的数组, 这个数组必须按字典序排序。
 * **`TransferOp`** 是[可转移的操作对象] (avm-transaction-serialization.md#operations)。
 
-### Gantt Transferable Op Specification
+### Gantt 可转移的Op规范 
 
 ```text
 +-------------+------------+------------------------------+
-| asset_id    : [32]byte   |                     32 bytes |
+| asset_id    : [32]字节   |                     32 字节 |
 +-------------+------------+------------------------------+
-| utxo_ids    : []UTXOID   | 4 + 36 * len(utxo_ids) bytes |
+| utxo_ids    : []UTXOID   | 4 + 36 * len(utxo_ids) 字节 |
 +-------------+------------+------------------------------+
-| transfer_op : TransferOp |      size(transfer_op) bytes |
+| transfer_op : TransferOp |      大小(transfer_op) 字节 |
 +-------------+------------+------------------------------+
                            |   36 + 36 * len(utxo_ids)    |
-                           |    + size(transfer_op) bytes |
+                           |    + 大小(transfer_op) 字节 |
                            +------------------------------+
 ```
 
@@ -1914,7 +1914,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MDY0MTMzLC0yMDgyNDI5NDk2LDE4Mj
+eyJoaXN0b3J5IjpbNTI4OTA3Mzk1LC0yMDgyNDI5NDk2LDE4Mj
 Q3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjcz
 NzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzND
 ddfQ==
