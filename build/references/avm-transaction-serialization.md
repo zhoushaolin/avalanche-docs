@@ -250,10 +250,10 @@ message TransferableOp {
 
 
 一个[secp256k1](cryptographics -primitives.md#secp-256-k1-addresses)传输输出允许在指定的unix时间后将一定数量的资产发送到地址集合。 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer output allows for sending a quantity of an asset to a collection of addresses after a specified unix time.
 
-### **What SECP256K1 Transfer Output Contains**
+### **SECP256K1 转移输出包含什么**
 
+secp256k1传输输出包含`TypeID`、' Amount '、' Locktime '、' Threshold '和' Addresses '。 
 A secp256k1 transfer output contains a `TypeID`, `Amount`, `Locktime`, `Threshold`, and `Addresses`.
 
 * **`TypeID`** is the ID for this output type. It is `0x00000007`.
@@ -1916,8 +1916,8 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDU1NTAyMywtMjA4MjQyOTQ5NiwxOD
-I0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3
-Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2Mz
-Q3XX0=
+eyJoaXN0b3J5IjpbLTEwMDM1OTc0ODQsLTIwODI0Mjk0OTYsMT
+gyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2
+NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNj
+M0N119
 -->
