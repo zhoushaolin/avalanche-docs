@@ -244,10 +244,12 @@ message TransferableOp {
 
 ## 输出
 
-输出有四种可能的类型 : [`SECP256K1TransferOutput`](avm-transaction-serialization.md#secp256k1-transfer-output), [`SECP256K1MintOutput`](avm-transaction-serialization.md#secp256k1-mint-output), [`NFTTransferOutput`](avm-transaction-serialization.md#nft-transfer-output) and [`NFTMintOutput`](avm-transaction-serialization.md#nft-mint-output).
+输出有四种可能的类型 : [`SECP256K1TransferOutput`](avm-transaction-serialization.md#secp256k1-transfer-output), [`SECP256K1MintOutput`](avm-transaction-serialization.md#secp256k1-mint-output), [`NFTTransferOutput`](avm-transaction-serialization.md#nft-transfer-output) 和 [`NFTMintOutput`](avm-transaction-serialization.md#nft-mint-output)。
 
-## SECP256K1 Transfer Output
+## SECP256K1 转移输出 
 
+
+一个[secp256k1](cryptographics -primitives.md#secp-256-k1-addresses)传输输出允许在指定的unix时间后将一定数量的资产发送到地址集合。 
 A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer output allows for sending a quantity of an asset to a collection of addresses after a specified unix time.
 
 ### **What SECP256K1 Transfer Output Contains**
@@ -1914,7 +1916,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDY5NTY0OSwtMjA4MjQyOTQ5NiwxOD
+eyJoaXN0b3J5IjpbLTIyNDU1NTAyMywtMjA4MjQyOTQ5NiwxOD
 I0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3
 Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2Mz
 Q3XX0=
