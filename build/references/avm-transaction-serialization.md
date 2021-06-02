@@ -155,7 +155,7 @@ message TransferableInput {
 
 ### 可传输Op包含什么
 
-A transferable operation contains an `AssetID`, `UTXOIDs`, and `TransferOp`.
+一个可传输的操作包含`AssetID`， `UTXOIDs`和`TransferOp`。 
 
 * **`AssetID`** is a 32-byte array that defines which asset this operation changes.
 * **`UTXOIDs`** is an array of TxID-OutputIndex tuples. This array must be sorted in lexicographical order.
@@ -1914,7 +1914,8 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMT
-YzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQz
-OTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbNDQ2MDg3MzQ1LC0yMDgyNDI5NDk2LDE4Mj
+Q3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjcz
+NzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzND
+ddfQ==
 -->
