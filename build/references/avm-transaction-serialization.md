@@ -258,7 +258,7 @@ secp256k1传输输出包含`TypeID`、`Amount`、`Locktime`、`Threshold`和`Add
 * **`TypeID`** 是此输出类型的ID, 这是`0x00000007`。
 * **`Amount`** 是指定此输出拥有的资产数量的长值。 必须是积极的。
 * **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。 unix时间戳是特定于秒的。
-* **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
+* **`Threshold`** 是一个int，用于指定花费输出所需的唯一签名的数量。 必须小于或等于** ' Addresses ' **的长度。 如果** ' Addresses ' **为空，则必须为0。 is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
 * **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
 
 ### **Gantt SECP256K1 Transfer Output Specification**
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg2MDk2NTEsNDE3MTI1MjA2LC0yMD
+eyJoaXN0b3J5IjpbLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMD
 gyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAz
 Nzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4ND
 csLTE1MTY1MDYzNDddfQ==
