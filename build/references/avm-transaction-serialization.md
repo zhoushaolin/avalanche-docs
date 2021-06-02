@@ -157,8 +157,8 @@ message TransferableInput {
 
 一个可传输的操作包含`AssetID`， `UTXOIDs`和`TransferOp`。 
 
-* **`AssetID`** is a 32-byte array that defines which asset this operation changes.
-* **`UTXOIDs`** is an array of TxID-OutputIndex tuples. This array must be sorted in lexicographical order.
+* **`AssetID`** 是一个32字节的数组，它定义了该操作更改的资产。
+* **`UTXOIDs`** 是TxID-OutputIndex元组的数组。 这个数组必须按字典序排序。 is an array of TxID-OutputIndex tuples. This array must be sorted in lexicographical order.
 * **`TransferOp`** is a [transferable operation object](avm-transaction-serialization.md#operations).
 
 ### Gantt Transferable Op Specification
@@ -1914,8 +1914,8 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MDg3MzQ1LC0yMDgyNDI5NDk2LDE4Mj
-Q3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjcz
-NzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzND
-ddfQ==
+eyJoaXN0b3J5IjpbMTAyMDg0NDA0MiwtMjA4MjQyOTQ5NiwxOD
+I0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3
+Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2Mz
+Q3XX0=
 -->
