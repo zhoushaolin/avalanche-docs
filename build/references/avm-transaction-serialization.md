@@ -253,10 +253,9 @@ message TransferableOp {
 
 ### **SECP256K1 转移输出包含什么**
 
-secp256k1传输输出包含`TypeID`、`Amount`、`Locktime`、`Threshold`和' Addresses '。 
-A secp256k1 transfer output contains a `TypeID`, `Amount`, `Locktime`, `Threshold`, and `Addresses`.
+secp256k1传输输出包含`TypeID`、`Amount`、`Locktime`、`Threshold`和`Addresses`。 
 
-* **`TypeID`** is the ID for this output type. It is `0x00000007`.
+* **`TypeID`** 是此输出类型的ID。 这是“0 x00000007”。 is the ID for this output type. It is `0x00000007`.
 * **`Amount`** is a long that specifies the quantity of the asset that this output owns. Must be positive.
 * **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
 * **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
@@ -1916,8 +1915,8 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk3OTE3OTIsLTIwODI0Mjk0OTYsMT
-gyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2
-NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNj
-M0N119
+eyJoaXN0b3J5IjpbMTAwMzQzODY3MywtMjA4MjQyOTQ5NiwxOD
+I0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3
+Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2Mz
+Q3XX0=
 -->
