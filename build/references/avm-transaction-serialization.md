@@ -253,7 +253,7 @@ message TransferableOp {
 
 ### **SECP256K1 转移输出包含什么**
 
-secp256k1传输输出包含`TypeID`、' Amount '、' Locktime '、' Threshold '和' Addresses '。 
+secp256k1传输输出包含`TypeID`、`Amount`、`Locktime`、`Threshold`和' Addresses '。 
 A secp256k1 transfer output contains a `TypeID`, `Amount`, `Locktime`, `Threshold`, and `Addresses`.
 
 * **`TypeID`** is the ID for this output type. It is `0x00000007`.
@@ -1916,7 +1916,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM1OTc0ODQsLTIwODI0Mjk0OTYsMT
+eyJoaXN0b3J5IjpbLTEzOTk3OTE3OTIsLTIwODI0Mjk0OTYsMT
 gyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2
 NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNj
 M0N119
