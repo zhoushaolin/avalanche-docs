@@ -176,7 +176,7 @@ message TransferableInput {
                            +------------------------------+
 ```
 
-### Proto Transferable Op Specification
+### Proto 可转移的Op规范
 
 ```text
 message UTXOID {
@@ -190,9 +190,9 @@ message TransferableOp {
 }
 ```
 
-### Transferable Op Example
+### 可转移的Op示例
 
-Let’s make a transferable operation:
+我们来进行一个可转移操作:
 
 * `AssetID`: `0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f`
 * `UTXOIDs`:
@@ -242,9 +242,9 @@ Let’s make a transferable operation:
 ]
 ```
 
-## Outputs
+## 输出
 
-Outputs have four possible types: [`SECP256K1TransferOutput`](avm-transaction-serialization.md#secp256k1-transfer-output), [`SECP256K1MintOutput`](avm-transaction-serialization.md#secp256k1-mint-output), [`NFTTransferOutput`](avm-transaction-serialization.md#nft-transfer-output) and [`NFTMintOutput`](avm-transaction-serialization.md#nft-mint-output).
+输出有四种可能的类型 : [`SECP256K1TransferOutput`](avm-transaction-serialization.md#secp256k1-transfer-output), [`SECP256K1MintOutput`](avm-transaction-serialization.md#secp256k1-mint-output), [`NFTTransferOutput`](avm-transaction-serialization.md#nft-transfer-output) and [`NFTMintOutput`](avm-transaction-serialization.md#nft-mint-output).
 
 ## SECP256K1 Transfer Output
 
@@ -1914,8 +1914,8 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4OTA3Mzk1LC0yMDgyNDI5NDk2LDE4Mj
-Q3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjcz
-NzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzND
-ddfQ==
+eyJoaXN0b3J5IjpbLTM4MDY5NTY0OSwtMjA4MjQyOTQ5NiwxOD
+I0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3
+Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2Mz
+Q3XX0=
 -->
