@@ -455,7 +455,7 @@ NFT 转移输出包含 `TypeID`, `GroupID`, `Payload`, `Locktime`, `Threshold` �
                          +-------------------------------+
 ```
 
-### **Proto NFT Transfer Output Specification**
+### **Proto NFT 转移输出规范**
 
 ```text
 message NFTTransferOutput {
@@ -468,9 +468,9 @@ message NFTTransferOutput {
 }
 ```
 
-### **NFT Transfer Output Example**
+### **NFT 转移输出示例**
 
-Let’s make an NFT transfer output with:
+我们进行一个NFT传输输出:
 
 * **`TypeID`**: `11`
 * **`GroupID`**: `12345`
@@ -520,7 +520,7 @@ Let’s make an NFT transfer output with:
 ]
 ```
 
-## NFT Mint Output
+## NFT 铸造输出
 
 An NFT mint output is an NFT that is owned by a collection of addresses.
 
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMDU1MDMxLC0xMDQ5NzE2MTEzLC01ND
-g3NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUy
-MDYsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Mi
-wxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2
-NzE2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbLTEwMTIzNTI0NjQsLTEwNDk3MTYxMTMsLT
+U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
+NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
+cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
+MjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
