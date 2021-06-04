@@ -936,7 +936,7 @@ message NFTTransferOp {
 
 ### **NFT 传输操作示例**
 
-Let’s make an NFT transfer operation with:
+我们进行一个NFT传输操作:
 
 * **`TypeID`**: `13`
 * **`AddressIndices`**:
@@ -999,8 +999,9 @@ Let’s make an NFT transfer operation with:
 ]
 ```
 
-## Initial State
+## 初始状态
 
+初始状态描述创建资产时的初始状态。它包含资产使用的特性扩展的ID，以及一个可变长度的输出数组，该输出数组表示资产的起源UTXO集。
 Initial state describes the initial state of an asset when it is created. It contains the ID of the feature extension that the asset uses, and a variable length array of outputs that denote the genesis UTXO set of the asset.
 
 ### What Initial State Contains
@@ -1915,7 +1916,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzE0MDY4NCwxMDQ3NjY4MzM2LC0xMj
+eyJoaXN0b3J5IjpbMTA2MzYyODIyMywxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
 OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
 wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
