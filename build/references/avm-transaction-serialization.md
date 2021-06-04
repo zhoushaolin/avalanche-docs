@@ -347,8 +347,8 @@ secp256k1 铸造输出包含 `TypeID`、`Locktime`、`Threshold`和 `Addresses`�
 
 * **`TypeID`** 是这个输出类型的ID, 它是`0x00000006`。
 * **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。
-* **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
-* **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
+* **`Threshold`** 是一个int，用于指定花费输出所需的唯一签名的数量。必须小于或等于** `Addresses` **的长度。如果** `Addresses`**为空，则必须为0。
+* **`Addresses`** 是与可用于使用此输出的私钥对应的唯一地址列表。地址必须按字典顺序排序。
 
 ### **Gantt SECP256K1 Mint Output Specification**
 
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODc1OTQxMCwtNDIzODI0NzU3LC0xMD
-gxNzIwNTYwLDQxNzEyNTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQw
-OTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1Ny
-wtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
-
+eyJoaXN0b3J5IjpbLTE2MzkyNDU5NTYsLTU0ODc1OTQxMCwtND
+IzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNiwtMjA4MjQy
+OTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3Nz
+gsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0x
+NTE2NTA2MzQ3XX0=
 -->
