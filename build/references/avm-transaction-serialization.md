@@ -616,13 +616,13 @@ message NFTMintOutput {
 
 ## SECP256K1 转移输入
 
-[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 传输输入允许花费一个未使用过的secp256k1传输输出。transfer input allows for spending an unspent secp256k1 transfer output.
+[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 传输输入允许花费未使用过的secp256k1传输输出。
 
-### **What SECP256K1 Transfer Input Contains**
+### **SECP256K1转移输入包含什么**
 
-A secp256k1 transfer input contains an `Amount` and `AddressIndices`.
+secp256k1转移输入包含`Amount` 和`AddressIndices`。
 
-* **`TypeID`** is the ID for this input type. It is `0x00000005`.
+* **`TypeID`**是此类型的ID, 它是`0x00000005`。
 * **`Amount`** is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
 * **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU0NTE3NTcsLTEwNDk3MTYxMTMsLT
+eyJoaXN0b3J5IjpbLTEyMzM2NTA0NjAsLTEwNDk3MTYxMTMsLT
 U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
 NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
 cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
