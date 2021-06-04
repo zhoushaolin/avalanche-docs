@@ -421,11 +421,11 @@ message SECP256K1MintOutput {
 
 ## NFT 转移输出
 
-NFT传输输出是一组地址所拥有的NFT。An NFT transfer output is an NFT that is owned by a collection of addresses.
+NFT传输输出的是一组地址所拥有的NFT。
 
-### **What NFT Transfer Output Contains**
+### **NFT 转移输出包含什么**
 
-An NFT transfer output contains a `TypeID`, `GroupID`, `Payload`, `Locktime`, `Threshold`, and `Addresses`.
+NFT 转移输出包含 `TypeID`, `GroupID`, `Payload`, `Locktime`, `Threshold` 和`Addresses`。
 
 * **`TypeID`** is the ID for this output type. It is `0x0000000b`.
 * **`GroupID`** is an int that specifies the group this NFT was issued with.
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzI1Mjk5MSwtNTQ4NzU5NDEwLC00Mj
+eyJoaXN0b3J5IjpbMTcxNTY5NTEyNSwtNTQ4NzU5NDEwLC00Mj
 M4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5
 NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OC
 wtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1
