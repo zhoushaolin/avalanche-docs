@@ -890,9 +890,9 @@ NFT传输操作将未使用的NFT传输输出发送给一组新的所有者。
 
 ### **NFT 传输操作包含什么**
 
-一个NFT传输操作包含' TypeID '， ' addressinices '和一个非类型化的' NFTTransferOutput '。An NFT transfer operation 一个NFT传输操作包含 `TypeID`, `AddressIndices` 和一个非类型化的`NFTTransferOutput`.
+一个NFT传输操作包含 `TypeID`, `AddressIndices` 和一个非类型化的`NFTTransferOutput`。
 
-* **`TypeID`** is the ID for this output type. It is `0x0000000d`.
+* **`TypeID`** 是此输出类型的ID, 它是 `0x0000000d`。
 * **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 * **`NFTTransferOutput`** is the output of this operation and must be an [NFT Transfer Output](avm-transaction-serialization.md#nft-transfer-output). This output doesn’t have the **`TypeId`**, because the type is known by the context of being in this operation.
 
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0Mzk2ODM5LDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
-I4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTE4MDE2MzI0MjYsMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2Nz
+E2Mjg0NywtMTUxNjUwNjM0N119
 -->
