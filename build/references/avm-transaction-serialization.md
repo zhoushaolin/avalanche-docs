@@ -350,7 +350,7 @@ secp256k1 铸造输出包含 `TypeID`、`Locktime`、`Threshold`和 `Addresses`�
 * **`Threshold`** 是一个int，用于指定花费输出所需的唯一签名的数量。必须小于或等于** `Addresses` **的长度。如果** `Addresses`**为空，则必须为0。
 * **`Addresses`** 是与可用于使用此输出的私钥对应的唯一地址列表。地址必须按字典顺序排序。
 
-### **Gantt SECP256K1 Mint Output Specification**
+### **Gantt SECP256K1 铸造输出规范**
 
 ```text
 +-----------+------------+--------------------------------+
@@ -366,7 +366,7 @@ secp256k1 铸造输出包含 `TypeID`、`Locktime`、`Threshold`和 `Addresses`�
                          +--------------------------------+
 ```
 
-### **Proto SECP256K1 Mint Output Specification**
+### **Proto SECP256K1 铸造输出规范**
 
 ```text
 message SECP256K1MintOutput {
@@ -377,7 +377,7 @@ message SECP256K1MintOutput {
 }
 ```
 
-### **SECP256K1 Mint Output Example**
+### **SECP256K1  Example**
 
 Let’s make a SECP256K1 mint output with:
 
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkyNDU5NTYsLTU0ODc1OTQxMCwtND
-IzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNiwtMjA4MjQy
-OTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3Nz
-gsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0x
-NTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbMTIxOTcwMzg3NSwtNTQ4NzU5NDEwLC00Mj
+M4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5
+NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OC
+wtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1
+MTY1MDYzNDddfQ==
 -->
