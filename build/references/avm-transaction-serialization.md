@@ -781,10 +781,10 @@ NFT铸币操作使用NFT铸币输出，并将未使用的输出发送给一组�
 
 ### **NFT铸造操作包含什么**
 
-NFT铸造操作包含`TypeID`, `AddressIndices`, `GroupID`, `Payload`, and `Output` of addresses.
+NFT铸造操作包含`TypeID`, `AddressIndices`, `GroupID`, `Payload`和`Output` 的地址。
 
-* **`TypeID`** is the ID for this operation type. It is `0x0000000c`.
-* **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
+* **`TypeID`** 是此操作类型的ID, 它是`0x0000000c`。
+* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
 * **`GroupID`** is an int that specifies the group this NFT is issued to.
 * **`Payload`** is an arbitrary string of bytes no longer than 1024 bytes.
 * **`Output`** is not a `TransferableOutput`, but rather is a locktime, threshold, and an array of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzY2ODMzNiwtMTI5NjcwNjUwNywyMD
-Q1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgy
-NDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OT
-YsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00
-OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNj
-UwNjM0N119
+eyJoaXN0b3J5IjpbLTIwNjkyNTg5MjksMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2Nz
+E2Mjg0NywtMTUxNjUwNjM0N119
 -->
