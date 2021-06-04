@@ -343,9 +343,9 @@ message SECP256K1TransferOutput {
 
 ### **SECP256K1铸造输出包含什么**
 
-secp256k1 铸造输出包含 `TypeID`、`Locktime`、`Threshold`, and `Addresses`.
+secp256k1 铸造输出包含 `TypeID`、`Locktime`、`Threshold`和 `Addresses`。
 
-* **`TypeID`** is the ID for this output type. It is `0x00000006`.
+* **`TypeID`** 是这个输出类型的ID, 它是`0x00000006`。
 * **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
 * **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
 * **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjc0Mjc3MSwtMTA4MTcyMDU2MCw0MT
+eyJoaXN0b3J5IjpbLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MT
 cxMjUyMDYsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5
 NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0Mz
 QsLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
