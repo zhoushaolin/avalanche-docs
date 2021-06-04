@@ -1145,6 +1145,8 @@ message SECP256K1Credential {
 ```
 
 ## NFT 凭据
+NFT凭据与[secp256k1凭据](avm-transaction-serialization.md#secp256k1-credential)相同，但具有不同的类型id。NFT凭据的TypeID是' 0x0000000e '。
+
 An NFT credential is the same as an [secp256k1 credential](avm-transaction-serialization.md#secp256k1-credential) with a different TypeID. The TypeID for an NFT credential is `0x0000000e`.
 
 ## Unsigned Transactions
@@ -1914,10 +1916,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
-I4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3Nj
+Y4MzM2LC0xMjk2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYx
+MTMsLTU0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLD
+QxNzEyNTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMz
+NTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5Nj
+QzNCwtMjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
