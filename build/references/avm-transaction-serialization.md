@@ -522,13 +522,13 @@ message NFTTransferOutput {
 
 ## NFT 铸造输出
 
-An NFT mint output is an NFT that is owned by a collection of addresses.
+一个NFT 铸造输出是一个由地址集合拥有的NFT。
 
-### **What NFT Mint Output Contains**
+### **NFT铸造输出包含什么**
 
-An NFT Mint output contains a `TypeID`, `GroupID`, `Locktime`, `Threshold`, and `Addresses`.
+NFT 铸造输出包含`TypeID`, `GroupID`, `Locktime`, `Threshold`和 `Addresses`。
 
-* **`TypeID`** is the ID for this output type. It is `0x0000000a`.
+* **`TypeID`** 是此类型的is the ID for this output type. It is `0x0000000a`.
 * **`GroupID`** is an int that specifies the group this NFT is issued to.
 * **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
 * **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIzNTI0NjQsLTEwNDk3MTYxMTMsLT
-U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
-NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
-cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
-MjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbMjA5OTE0Njg2NSwtMTA0OTcxNjExMywtNT
+Q4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1
+MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNz
+IsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0y
+NjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
 -->
