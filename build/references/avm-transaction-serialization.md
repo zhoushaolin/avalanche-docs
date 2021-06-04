@@ -685,7 +685,7 @@ message SECP256K1TransferInput {
 
 ## **SECP256K1 铸造操作**
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) mint操作消耗一个SECP256K1 mint输出，创建一个新的mint输出，并向一组新的所有者发送一个传输输出。mint operation consumes a SECP256K1 mint output, creates a new mint output and sends a transfer output to a new set of owners.
+[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 铸造操作消耗一个SECP256K1 mint输出，创建一个新的mint输出，并向一组新的所有者发送一个传输输出。mint operation consumes a SECP256K1 mint output, creates a new mint output and sends a transfer output to a new set of owners.
 
 ### **What SECP256K1 Mint Operation Contains**
 
@@ -1915,9 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY3MDY1MDcsMjA0NTYwNDA3MywtMT
-A0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3
-MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5Nz
-EsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0x
-NTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbOTI2NzE0ODQyLC0xMjk2NzA2NTA3LDIwND
+U2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1OTQxMCwtNDIzODI0
+NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNiwtMjA4MjQyOTQ5Ni
+wxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5
+MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NT
+A2MzQ3XX0=
 -->
