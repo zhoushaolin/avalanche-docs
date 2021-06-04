@@ -1064,13 +1064,13 @@ message InitialState {
 ]
 ```
 
-## Credentials
+## 凭据
 
-Credentials have two possible types: `SECP256K1Credential`, and `NFTCredential`. Each credential is paired with an Input or Operation. The order of the credentials match the order of the inputs or operations.
+凭据有两种可能的类型:`SECP256K1Credential`和`NFTCredential`。每个凭据都与输入或操作配对。凭据的顺序与输入或操作的顺序相匹配。
 
-## SECP256K1 Credential
+## SECP256K1 凭据
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) credential contains a list of 65-byte recoverable signatures.
+一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 凭据 contains a list of 65-byte recoverable signatures.
 
 ### **What SECP256K1 Credential Contains**
 
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NjM1Mzk5LDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
-I4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTgwMDk2MzY0MCwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MT
+YyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
