@@ -1007,7 +1007,7 @@ message NFTTransferOp {
 
 初始状态包含 `FxID` 和一个数组。
 
-* **`FxID`** 是一个证书，定义此状态属于哪个特性扩展。对于SECP256K1资产，这是“0x00000000”。对于非ft资产，这是' 0x00000001 '。is an int that defines which feature extension this state is part of. For SECP256K1 assets, this is `0x00000000`. For NFT assets, this is `0x00000001`.
+* **`FxID`** 是一个整数，定义此状态属于哪个特性扩展。对于SECP256K1资产，它是`0x00000000`。对于NFT 资产，它是`0x00000001`。
 * **`Outputs`** is a variable length array of [outputs](avm-transaction-serialization.md#outputs), as defined above.
 
 ### Gantt Initial State Specification
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzIxMTU2ODcsMTA0NzY2ODMzNiwtMT
-I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
-NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
-YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
-MDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2Nz
-E2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbMjA5MTA2NjgsMTA0NzY2ODMzNiwtMTI5Nj
+cwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0
+MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLT
+IwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1
+MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mj
+g0NywtMTUxNjUwNjM0N119
 -->
