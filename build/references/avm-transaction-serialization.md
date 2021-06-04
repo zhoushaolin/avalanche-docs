@@ -566,7 +566,7 @@ message NFTMintOutput {
 
 ### **NFT 铸造输出示例**
 
-我们来进行一个NFT mint output with:
+我们来进行一个NFT铸造输出:
 
 * **`TypeID`**: `10`
 * **`GroupID`**: `12345`
@@ -610,13 +610,13 @@ message NFTMintOutput {
 ]
 ```
 
-## Inputs
+## 输入
 
-Inputs have one possible type: `SECP256K1TransferInput`.
+输入有一种可能的类型: `SECP256K1TransferInput`.
 
-## SECP256K1 Transfer Input
+## SECP256K1 转移输入
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer input allows for spending an unspent secp256k1 transfer output.
+[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 传输输入允许花费一个未使用过的secp256k1传输输出。transfer input allows for spending an unspent secp256k1 transfer output.
 
 ### **What SECP256K1 Transfer Input Contains**
 
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDM3MzI1MywtMTA0OTcxNjExMywtNT
-Q4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1
-MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNz
-IsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0y
-NjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTE4NTU0NTE3NTcsLTEwNDk3MTYxMTMsLT
+U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
+NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
+cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
+MjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
