@@ -1008,9 +1008,9 @@ message NFTTransferOp {
 初始状态包含 `FxID` 和一个数组。
 
 * **`FxID`** 是一个整数，定义此状态属于哪个特性扩展。对于SECP256K1资产，它是`0x00000000`。对于NFT 资产，它是`0x00000001`。
-* **`Outputs`** is a variable length array of [outputs](avm-transaction-serialization.md#outputs), as defined above.
+* **`Outputs`** 是一个可变长度的[outputs]数组(avm-transaction-serialization.md#outputs)，如上所定义。
 
-### Gantt Initial State Specification
+### Gantt 初始状态规范
 
 ```text
 +---------------+----------+-------------------------------+
@@ -1022,7 +1022,7 @@ message NFTTransferOp {
                            +-------------------------------+
 ```
 
-### Proto Initial State Specification
+### Proto 初始状态规范
 
 ```text
 message InitialState {
@@ -1031,9 +1031,9 @@ message InitialState {
 }
 ```
 
-### Initial State Example
+### 初始状态示例
 
-Let’s make an initial state:
+我们来进行一个初始状态:
 
 * `FxID`: `0x00000000`
 * `InitialState`: `["Example SECP256K1 Transfer Output from above"]`
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTA2NjgsMTA0NzY2ODMzNiwtMTI5Nj
-cwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0
-MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLT
-IwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1
-MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mj
-g0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbNjg1NjM1Mzk5LDEwNDc2NjgzMzYsLTEyOT
+Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
+NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
+0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
+NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
+I4NDcsLTE1MTY1MDYzNDddfQ==
 -->
