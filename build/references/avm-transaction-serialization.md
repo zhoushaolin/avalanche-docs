@@ -1147,8 +1147,9 @@ message SECP256K1Credential {
 ## NFT 凭据
 NFT凭据与[secp256k1凭据](avm-transaction-serialization.md#secp256k1-credential)相同，但具有不同的TypeID。NFT凭据的TypeID是`0x0000000e`。
 
-## Unsigned Transactions
+## 未签名的交易
 
+未签名的交易包含交易的全部内容，只缺少签名。无签名事务有四种可能的类型:[' CreateAssetTx '] (avm-transaction-serialization.md # what-unsigned-create-asset-tx-contains)(“OperationTx”)(avm-transaction-serialization.md # what-unsigned-operation-tx-contains)(“ImportTx”)(avm-transaction-serialization.md # what-unsigned-import-tx-contains)和(“ExportTx”)(avm-transaction-serialization.md # what-unsigned-export-tx-contains)。它们都嵌入[' BaseTx '](avm-transaction-serialization.md#what-base-tx-contains)，其中包含常见字段和操作。
 Unsigned transactions contain the full content of a transaction with only the signatures missing. Unsigned transactions have four possible types: [`CreateAssetTx`](avm-transaction-serialization.md#what-unsigned-create-asset-tx-contains), [`OperationTx`](avm-transaction-serialization.md#what-unsigned-operation-tx-contains), [`ImportTx`](avm-transaction-serialization.md#what-unsigned-import-tx-contains), and [`ExportTx`](avm-transaction-serialization.md#what-unsigned-export-tx-contains). They all embed [`BaseTx`](avm-transaction-serialization.md#what-base-tx-contains), which contains common fields and operations.
 
 ### What Base Tx Contains
@@ -1914,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjMxMDM5NjIsNjY3MTQ0NzE1LDcwOD
-YzNDg1MiwxMDQ3NjY4MzM2LC0xMjk2NzA2NTA3LDIwNDU2MDQw
-NzMsLTEwNDk3MTYxMTMsLTU0ODc1OTQxMCwtNDIzODI0NzU3LC
-0xMDgxNzIwNTYwLDQxNzEyNTIwNiwtMjA4MjQyOTQ5NiwxODI0
-NzQwOTcxLC0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3Mz
-c1NywtMTUxNDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2MzQ3
-XX0=
+eyJoaXN0b3J5IjpbMTU3MjkyNTQ4NSw2NjcxNDQ3MTUsNzA4Nj
+M0ODUyLDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMjA0NTYwNDA3
+MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4MjQ3NTcsLT
+EwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5NDk2LDE4MjQ3
+NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNz
+U3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDdd
+fQ==
 -->
