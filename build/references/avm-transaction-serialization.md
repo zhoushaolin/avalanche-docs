@@ -377,9 +377,9 @@ message SECP256K1MintOutput {
 }
 ```
 
-### **SECP256K1  Example**
+### **SECP256K1 铸造输出示例**
 
-Let’s make a SECP256K1 mint output with:
+我们来进行一个SECP256K1铸造输出:
 
 * **`TypeID`**: `6`
 * **`Locktime`**: `54321`
@@ -419,9 +419,9 @@ Let’s make a SECP256K1 mint output with:
 ]
 ```
 
-## NFT Transfer Output
+## NFT 转移输出
 
-An NFT transfer output is an NFT that is owned by a collection of addresses.
+NFT传输输出是一组地址所拥有的NFT。An NFT transfer output is an NFT that is owned by a collection of addresses.
 
 ### **What NFT Transfer Output Contains**
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTcwMzg3NSwtNTQ4NzU5NDEwLC00Mj
+eyJoaXN0b3J5IjpbLTIyMzI1Mjk5MSwtNTQ4NzU5NDEwLC00Mj
 M4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5
 NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OC
 wtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1
