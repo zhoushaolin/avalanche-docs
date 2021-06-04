@@ -1070,12 +1070,12 @@ message InitialState {
 
 ## SECP256K1 凭据
 
-一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 凭据包含一个65字节的可恢复签名的列表。 
+一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 凭据包含一个65个字节的可恢复签名的列表。 
 
 ### **SECP256K1凭据包含什么**
 
 * **`TypeID`** 是此类型的ID, 它是 `0x00000009`。
-* **`Signatures`** is an array of 65-byte recoverable signatures. The order of the signatures must match the input’s signature indices.
+* **`Signatures`** 是一个65个字节的可恢复签名的数组。签名的顺序必须与输入的签名索引匹配。
 
 ### **Gantt SECP256K1 Credential Specification**
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzE3OTYxMywxMDQ3NjY4MzM2LC0xMj
+eyJoaXN0b3J5IjpbMjA4OTAyNDMxNywxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
 OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
 wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
