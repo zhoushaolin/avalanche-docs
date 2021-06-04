@@ -624,9 +624,9 @@ secp256k1转移输入包含`Amount` 和`AddressIndices`。
 
 * **`TypeID`**是此类型的ID, 它是`0x00000005`。
 * **`Amount`** 是一个长值，它指定该输入应该从UTXO消耗的数量。必须是积极的。必须等于UTXO中指定的数量。
-* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个int表示该地址数组中将签名该事务的索引。数组必须从低到高排序。is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
+* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个int表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
 
-### **Gantt SECP256K1 Transfer Input Specification**
+### **Gantt SECP256K1 转移输入规范 **
 
 ```text
 +-------------------------+-------------------------------------+
@@ -640,7 +640,7 @@ secp256k1转移输入包含`Amount` 和`AddressIndices`。
                           +-------------------------------------+
 ```
 
-### **Proto SECP256K1 Transfer Input Specification**
+### **Proto SECP256K1  转移输入规范**
 
 ```text
 message SECP256K1TransferInput {
@@ -650,9 +650,9 @@ message SECP256K1TransferInput {
 }
 ```
 
-### **SECP256K1 Transfer Input Example**
+### **SECP256K1  转移输入示例**
 
-Let’s make a payment input with:
+让我们进行一个支付输入:Let’s make a payment input with:
 
 * **`TypeId`**: `5`
 * **`Amount`**: `123456789`
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNT
-Q4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1
-MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNz
-IsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0y
-NjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbMTM2OTY5Mjc1MywyMDQ1NjA0MDczLC0xMD
+Q5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcy
+MDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MS
+wtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1
+MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
 -->
