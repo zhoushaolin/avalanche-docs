@@ -692,9 +692,9 @@ message SECP256K1TransferInput {
 secp256k1铸造操作包含`TypeID`, `AddressIndices`, `MintOutput`和 `TransferOutput`。
 
 * **`TypeID`**是此类型的ID, 它是`0x00000008`。
-* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于使用[UTXO](avm-transaction-serialization.md# UTXO)的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个int表示该地址数组中将签名该事务的索引。数组必须从低到高排序。 is a list of unique ints that define the private keys that are being used to spend the [UTXO](avm-transaction-serialization.md#utxo). Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
-* **`MintOutput`** is a [SECP256K1 Mint output](avm-transaction-serialization.md#secp256k1-mint-output).
-* **`TransferOutput`** is a [SECP256K1 Transfer output](avm-transaction-serialization.md#secp256k1-transfer-output).
+* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于使用[UTXO](avm-transaction-serialization.md# UTXO)的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
+* **`MintOutput`** 是一个 [SECP256K1 铸造输出](avm-transaction-serialization.md#secp256k1-mint-output)。
+* **`TransferOutput`** 是一个[SECP256K1 转移输出](avm-transaction-serialization.md#secp256k1-transfer-output)。
 
 ### **Gantt SECP256K1 Mint Operation Specification**
 
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODAwNzc0MCwtMTI5NjcwNjUwNywyMD
-Q1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgy
-NDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OT
-YsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00
-OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNj
-UwNjM0N119
+eyJoaXN0b3J5IjpbLTEyMzAzMzQ1MTUsLTEyOTY3MDY1MDcsMj
+A0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4
+MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5ND
+k2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwt
+NDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MT
+Y1MDYzNDddfQ==
 -->
