@@ -528,9 +528,9 @@ message NFTTransferOutput {
 
 NFT 铸造输出包含`TypeID`, `GroupID`, `Locktime`, `Threshold`和 `Addresses`。
 
-* **`TypeID`** 是此类型的is the ID for this output type. It is `0x0000000a`.
-* **`GroupID`** is an int that specifies the group this NFT is issued to.
-* **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
+* **`TypeID`** 是此类型的ID, 它是 `0x0000000a`。
+* **`GroupID`** 是一个int，由它指定这个NFT被发给哪个组。
+* **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
 * **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
 * **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTE0Njg2NSwtMTA0OTcxNjExMywtNT
+eyJoaXN0b3J5IjpbLTEyODk3OTAxMywtMTA0OTcxNjExMywtNT
 Q4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1
 MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNz
 IsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0y
