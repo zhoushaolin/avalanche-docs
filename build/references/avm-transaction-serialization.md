@@ -1077,7 +1077,7 @@ message InitialState {
 * **`TypeID`** 是此类型的ID, 它是 `0x00000009`。
 * **`Signatures`** 是一个65个字节的可恢复签名的数组。签名的顺序必须与输入的签名索引匹配。
 
-### **Gantt SECP256K1 Credential Specification**
+### **Gantt SECP256K1 凭据规范**
 
 ```text
 +------------------------------+---------------------------------+
@@ -1089,7 +1089,7 @@ message InitialState {
                                +---------------------------------+
 ```
 
-### **Proto SECP256K1 Credential Specification**
+### **Proto SECP256K1 凭据规范**
 
 ```text
 message SECP256K1Credential {
@@ -1098,9 +1098,9 @@ message SECP256K1Credential {
 }
 ```
 
-### **SECP256K1 Credential Example**
+### **SECP256K1 凭据示例**
 
-Let’s make a payment input with:
+我们来进行一个支付输入:
 
 * **`TypeID`**: `9`
 * **`signatures`**:
@@ -1144,8 +1144,7 @@ Let’s make a payment input with:
 ]
 ```
 
-## NFT Credential
-
+## NFT 凭据
 An NFT credential is the same as an [secp256k1 credential](avm-transaction-serialization.md#secp256k1-credential) with a different TypeID. The TypeID for an NFT credential is `0x0000000e`.
 
 ## Unsigned Transactions
@@ -1915,10 +1914,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTAyNDMxNywxMDQ3NjY4MzM2LC0xMj
-k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
-OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
-wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
-NTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MT
-YyODQ3LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
+Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
+NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
+0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
+NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
+I4NDcsLTE1MTY1MDYzNDddfQ==
 -->
