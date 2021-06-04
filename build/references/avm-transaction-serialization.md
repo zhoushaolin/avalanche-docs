@@ -696,7 +696,7 @@ secp256k1铸造操作包含`TypeID`, `AddressIndices`, `MintOutput`和 `Transfer
 * **`MintOutput`** 是一个 [SECP256K1 铸造输出](avm-transaction-serialization.md#secp256k1-mint-output)。
 * **`TransferOutput`** 是一个[SECP256K1 转移输出](avm-transaction-serialization.md#secp256k1-transfer-output)。
 
-### **Gantt SECP256K1 Mint Operation Specification**
+### **Gantt SECP256K1 铸造操作规范**
 
 ```text
 +----------------------------------+------------------------------------+
@@ -714,7 +714,7 @@ secp256k1铸造操作包含`TypeID`, `AddressIndices`, `MintOutput`和 `Transfer
                                    +------------------------------------+
 ```
 
-### **Proto SECP256K1 Mint Operation Specification**
+### **Proto SECP256K1 铸造操作规范**
 
 ```text
 message SECP256K1MintOperation {
@@ -725,9 +725,9 @@ message SECP256K1MintOperation {
 }
 ```
 
-### **SECP256K1 Mint Operation Example**
+### **SECP256K1 铸造操作示例**
 
-Let’s make a [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) mint operation with:
+我们来进行一个 [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 铸造操作:
 
 * **`TypeId`**: `8`
 * **`AddressIndices`**:
@@ -775,13 +775,13 @@ Let’s make a [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) mi
 ]
 ```
 
-## NFT Mint Op
+## NFT 铸造操作
 
-An NFT mint operation consumes an NFT mint output and sends an unspent output to a new set of owners.
+NFT铸币操作使用NFT铸币输出，并将未使用的输出发送给一组新的所有者。
 
-### **What NFT Mint Op Contains**
+### **NFT铸造操作包含什么**
 
-An NFT mint operation contains a `TypeID`, `AddressIndices`, `GroupID`, `Payload`, and `Output` of addresses.
+NFT铸造操作包含`TypeID`, `AddressIndices`, `GroupID`, `Payload`, and `Output` of addresses.
 
 * **`TypeID`** is the ID for this operation type. It is `0x0000000c`.
 * **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAzMzQ1MTUsLTEyOTY3MDY1MDcsMj
-A0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4
-MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5ND
-k2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwt
-NDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcsLTE1MT
-Y1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbMTA0NzY2ODMzNiwtMTI5NjcwNjUwNywyMD
+Q1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgy
+NDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OT
+YsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00
+OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNj
+UwNjM0N119
 -->
