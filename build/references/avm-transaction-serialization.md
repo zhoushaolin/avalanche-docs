@@ -886,11 +886,11 @@ message NFTMintOp {
 
 ## NFT 传输操作
 
-NFT传输操作将未使用的NFT传输输出发送给一组新的所有者。An NFT transfer operation sends an unspent NFT transfer output to a new set of owners.
+NFT传输操作将未使用的NFT传输输出发送给一组新的所有者。
 
-### **What NFT Transfer Op Contains**
+### **NFT 传输操作包含什么**
 
-An NFT transfer operation contains a `TypeID`, `AddressIndices` and an untyped `NFTTransferOutput`.
+一个NFT传输操作包含' TypeID '， ' addressinices '和一个非类型化的' NFTTransferOutput '。An NFT transfer operation 一个NFT传输操作包含 `TypeID`, `AddressIndices` 和一个非类型化的`NFTTransferOutput`.
 
 * **`TypeID`** is the ID for this output type. It is `0x0000000d`.
 * **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Njc4NTM0MiwxMDQ3NjY4MzM2LC0xMj
-k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
-OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
-wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
-NTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MT
-YyODQ3LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbNTA0Mzk2ODM5LDEwNDc2NjgzMzYsLTEyOT
+Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
+NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
+0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
+NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
+I4NDcsLTE1MTY1MDYzNDddfQ==
 -->
