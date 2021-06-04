@@ -261,7 +261,7 @@ secp256k1传输输出包含`TypeID`、`Amount`、`Locktime`、`Threshold`和`Add
 * **`Threshold`** 是一个int，用于指定花费输出所需的唯一签名的数量。 必须小于或等于**`Addresses`**的长度。 如果** `Addresses`**为空，则必须为0。
 * **`Addresses`** 是与可用于使用此输出的私钥对应的唯一地址列表。 地址必须按字典顺序排序。 
 
-### **Gantt SECP256K1 Transfer Output Specification**
+### **Gantt SECP256K1 转移输出规范**
 
 ```text
 +-----------+------------+--------------------------------+
@@ -279,7 +279,7 @@ secp256k1传输输出包含`TypeID`、`Amount`、`Locktime`、`Threshold`和`Add
                          +--------------------------------+
 ```
 
-### **Proto SECP256K1 Transfer Output Specification**
+### **Proto SECP256K1 转移输出规范**
 
 ```text
 message SECP256K1TransferOutput {
@@ -291,9 +291,9 @@ message SECP256K1TransferOutput {
 }
 ```
 
-### **SECP256K1 Transfer Output Example**
+### **SECP256K1 转移输出示例**
 
-Let’s make a secp256k1 transfer output with:
+我们来进行一个 secp256k1 转移输出:
 
 * **`TypeID`**: `7`
 * **`Amount`**: `12345`
@@ -337,9 +337,9 @@ Let’s make a secp256k1 transfer output with:
 ]
 ```
 
-## SECP256K1 Mint Output
+## SECP256K1 铸造输出
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) mint output is an output that is owned by a collection of addresses.
+ [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 铸造输出是一个地址集所拥有的铸造输出mint output is an output that is owned by a collection of addresses.
 
 ### **What SECP256K1 Mint Output Contains**
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk0OTYzNDUsLTEwODE3MjA1NjAsND
+eyJoaXN0b3J5IjpbLTE3MDkwMjAwOTUsLTEwODE3MjA1NjAsND
 E3MTI1MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1
 OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2ND
 M0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
