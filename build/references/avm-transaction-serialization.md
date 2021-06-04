@@ -531,7 +531,7 @@ NFT 铸造输出包含`TypeID`, `GroupID`, `Locktime`, `Threshold`和 `Addresses
 * **`TypeID`** 是此类型的ID, 它是 `0x0000000a`。
 * **`GroupID`** 是一个int，由它指定这个NFT被发给哪个组。
 * **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。
-* **`Threshold`** 是一个int，用于指定花费输出所需的唯一签名的数量。必须小于或等于 **`Addresses` **的长度。如果** `Addresses`**为空，则必须为0。
+* **`Threshold`** 是一个int，用于指定花费输出所需的唯一签名的数量。必须小于或等于 **`Addresses`的长度。如果**`Addresses`为空，则必须为0。
 * **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
 
 ### **Gantt NFT Mint Output Specification**
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDMxMDc0MiwtMTA0OTcxNjExMywtNT
-Q4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1
-MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNz
-IsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0y
-NjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTE1MTYzNjY5MzYsLTEwNDk3MTYxMTMsLT
+U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
+NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
+cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
+MjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
