@@ -895,9 +895,8 @@ NFT传输操作将未使用的NFT传输输出发送给一组新的所有者。
 * **`TypeID`** 是此输出类型的ID, 它是 `0x0000000d`。
 * **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
 * **`NFTTransferOutput`** 是该操作的输出，必须是[NFT传输输出](avm-transaction-serialization.md# NFT - Transfer -output)。此输出没有** `TypeId` **，因为该类型是由该操作的上下文所知道的。
-* is the output of this operation and must be an [NFT Transfer Output](avm-transaction-serialization.md#nft-transfer-output). This output doesn’t have the **`TypeId`**, because the type is known by the context of being in this operation.
 
-### **Gantt NFT Transfer Op Specification**
+### **Gantt NFT 传输操作规范**
 
 ```text
 +------------------------------+------------------------------------+
@@ -921,7 +920,7 @@ NFT传输操作将未使用的NFT传输输出发送给一组新的所有者。
                                +------------------------------------+
 ```
 
-### **Proto NFT Transfer Op Specification**
+### **Proto NFT 传输操作规范**
 
 ```text
 message NFTTransferOp {
@@ -935,7 +934,7 @@ message NFTTransferOp {
 }
 ```
 
-### **NFT Transfer Op Example**
+### **NFT 传输操作示例**
 
 Let’s make an NFT transfer operation with:
 
@@ -1916,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjMzOTIwNCwxMDQ3NjY4MzM2LC0xMj
+eyJoaXN0b3J5IjpbMTE0NzE0MDY4NCwxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
 OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
 wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
