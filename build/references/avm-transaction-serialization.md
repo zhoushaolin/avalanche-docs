@@ -686,11 +686,12 @@ message SECP256K1TransferInput {
 ## **SECP256K1 铸造操作**
 
 一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 铸造操作消耗一个SECP256K1铸造输出，创建一个新的铸造输出，并向一组新的所有者发送一个传输输出。
+
 ### **SECP256K1 铸造操作包含什么**
 
-secp256k1 Mint operation contains a `TypeID`, `AddressIndices`, `MintOutput`, and `TransferOutput`.
+secp256k1铸造操作包含`TypeID`, `AddressIndices`, `MintOutput`和 `TransferOutput`。
 
-* **`TypeID`** is the ID for this output type. It is `0x00000008`.
+* **`TypeID`**是ci leiID for this output type. It is `0x00000008`.
 * **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the [UTXO](avm-transaction-serialization.md#utxo). Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 * **`MintOutput`** is a [SECP256K1 Mint output](avm-transaction-serialization.md#secp256k1-mint-output).
 * **`TransferOutput`** is a [SECP256K1 Transfer output](avm-transaction-serialization.md#secp256k1-transfer-output).
@@ -1914,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUyMzQ0ODUsLTEyOTY3MDY1MDcsMj
+eyJoaXN0b3J5IjpbLTE4MDAzNTQ1OTQsLTEyOTY3MDY1MDcsMj
 A0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4
 MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5ND
 k2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwt
