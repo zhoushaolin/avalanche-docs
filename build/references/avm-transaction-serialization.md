@@ -652,7 +652,7 @@ message SECP256K1TransferInput {
 
 ### **SECP256K1  转移输入示例**
 
-让我们进行一个支付输入:Let’s make a payment input with:
+让我们进行一个支付输入:
 
 * **`TypeId`**: `5`
 * **`Amount`**: `123456789`
@@ -679,11 +679,11 @@ message SECP256K1TransferInput {
 ]
 ```
 
-## Operations
+## 操作
 
-Operations have three possible types: `SECP256K1MintOperation`, `NFTMintOp`, and `NFTTransferOp`.
+操作有三种可能的类型:: `SECP256K1MintOperation`, `NFTMintOp`和 `NFTTransferOp`。
 
-## **SECP256K1 Mint Operation**
+## **SECP256K1 铸造操作**
 
 A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) mint operation consumes a SECP256K1 mint output, creates a new mint output and sends a transfer output to a new set of owners.
 
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTY5Mjc1MywyMDQ1NjA0MDczLC0xMD
-Q5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcy
-MDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MS
-wtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1
-MTQzOTY0MzQsLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbMzIxMzQ5NDA1LDIwNDU2MDQwNzMsLTEwND
+k3MTYxMTMsLTU0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIw
+NTYwLDQxNzEyNTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC
+0xNjMzNTk1MDcyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUx
+NDM5NjQzNCwtMjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
