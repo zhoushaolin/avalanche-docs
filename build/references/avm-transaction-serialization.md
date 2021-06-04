@@ -339,11 +339,11 @@ message SECP256K1TransferOutput {
 
 ## SECP256K1 铸造输出
 
- [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 铸造输出是一个地址集所拥有的铸造输出mint output is an output that is owned by a collection of addresses.
+ [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) 铸造输出是一个地址集所拥有的输出。
 
-### **What SECP256K1 Mint Output Contains**
+### **SECP256K1铸造输出包含什么**
 
-A secp256k1 Mint output contains a `TypeID`, `Locktime`, `Threshold`, and `Addresses`.
+secp256k1 铸造输出包含 `TypeID`、`Locktime`、`Threshold`, and `Addresses`.
 
 * **`TypeID`** is the ID for this output type. It is `0x00000006`.
 * **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
@@ -1915,8 +1915,8 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkwMjAwOTUsLTEwODE3MjA1NjAsND
-E3MTI1MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1
-OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2ND
-M0LC0yNjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbMTUxNjc0Mjc3MSwtMTA4MTcyMDU2MCw0MT
+cxMjUyMDYsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5
+NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0Mz
+QsLTI2NzE2Mjg0NywtMTUxNjUwNjM0N119
 -->
