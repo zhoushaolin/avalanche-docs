@@ -623,8 +623,8 @@ message NFTMintOutput {
 secp256k1转移输入包含`Amount` 和`AddressIndices`。
 
 * **`TypeID`**是此类型的ID, 它是`0x00000005`。
-* **`Amount`** is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
-* **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
+* **`Amount`** 是一个长值，它指定该输入应该从UTXO消耗的数量。必须是积极的。必须等于UTXO中指定的数量。
+* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个int表示该地址数组中将签名该事务的索引。数组必须从低到高排序。is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 
 ### **Gantt SECP256K1 Transfer Input Specification**
 
@@ -1915,9 +1915,9 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM2NTA0NjAsLTEwNDk3MTYxMTMsLT
-U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
-NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
-cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
-MjY3MTYyODQ3LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNT
+Q4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1
+MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNz
+IsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0y
+NjcxNjI4NDcsLTE1MTY1MDYzNDddfQ==
 -->
