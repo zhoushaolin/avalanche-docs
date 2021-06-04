@@ -1002,13 +1002,12 @@ message NFTTransferOp {
 ## 初始状态
 
 初始状态描述创建资产时的初始状态。它包含资产使用的特性扩展的ID，以及一个可变长度的输出数组，该输出数组表示资产的起源UTXO集。
-Initial state describes the initial state of an asset when it is created. It contains the ID of the feature extension that the asset uses, and a variable length array of outputs that denote the genesis UTXO set of the asset.
 
-### What Initial State Contains
+### 初始状态包含什么
 
-Initial state contains a `FxID` and an array of `Output`.
+初始状态包含 `FxID` 和一个数组。
 
-* **`FxID`** is an int that defines which feature extension this state is part of. For SECP256K1 assets, this is `0x00000000`. For NFT assets, this is `0x00000001`.
+* **`FxID`** 是一个证书，定义此状态属于哪个特性扩展。对于SECP256K1资产，这是“0x00000000”。对于非ft资产，这是' 0x00000001 '。is an int that defines which feature extension this state is part of. For SECP256K1 assets, this is `0x00000000`. For NFT assets, this is `0x00000001`.
 * **`Outputs`** is a variable length array of [outputs](avm-transaction-serialization.md#outputs), as defined above.
 
 ### Gantt Initial State Specification
@@ -1916,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzYyODIyMywxMDQ3NjY4MzM2LC0xMj
-k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
-OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
-wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
-NTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MT
-YyODQ3LC0xNTE2NTA2MzQ3XX0=
+eyJoaXN0b3J5IjpbLTEwMzIxMTU2ODcsMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2Nz
+E2Mjg0NywtMTUxNjUwNjM0N119
 -->
