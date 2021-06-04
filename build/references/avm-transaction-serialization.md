@@ -785,9 +785,9 @@ NFT铸造操作包含`TypeID`, `AddressIndices`, `GroupID`, `Payload`和`Output`
 
 * **`TypeID`** 是此操作类型的ID, 它是`0x0000000c`。
 * **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
-* **`GroupID`** is an int that specifies the group this NFT is issued to.
-* **`Payload`** is an arbitrary string of bytes no longer than 1024 bytes.
-* **`Output`** is not a `TransferableOutput`, but rather is a locktime, threshold, and an array of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
+* **`GroupID`** 是一个整数，指定这个NFT是发给哪个组的。
+* **`Payload`** 是不超过1024字节的任意字节字符串。
+* **`Output`** 不是`TransferableOutput`，而是一个锁定时间、阈值和一组唯一地址，这些地址对应于私钥，私钥可用于使用该输出。地址必须按字典顺序排序。
 
 ### **Gantt NFT Mint Op Specification**
 
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkyNTg5MjksMTA0NzY2ODMzNiwtMT
-I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
-NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
-YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
-MDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2Nz
-E2Mjg0NywtMTUxNjUwNjM0N119
+eyJoaXN0b3J5IjpbMzEyNDA3MjkwLDEwNDc2NjgzMzYsLTEyOT
+Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
+NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
+0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
+NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
+I4NDcsLTE1MTY1MDYzNDddfQ==
 -->
