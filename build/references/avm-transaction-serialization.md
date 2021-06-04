@@ -789,7 +789,7 @@ NFT铸造操作包含`TypeID`, `AddressIndices`, `GroupID`, `Payload`和`Output`
 * **`Payload`** 是不超过1024字节的任意字节字符串。
 * **`Output`** 不是`TransferableOutput`，而是一个锁定时间、阈值和一组唯一地址，这些地址对应于私钥，私钥可用于使用该输出。地址必须按字典顺序排序。
 
-### **Gantt NFT Mint Op Specification**
+### **Gantt NFT 铸造操作规范**
 
 ```text
 +------------------------------+------------------------------------+
@@ -810,7 +810,7 @@ NFT铸造操作包含`TypeID`, `AddressIndices`, `GroupID`, `Payload`和`Output`
                                +------------------------------------+
 ```
 
-### **Proto NFT Mint Op Specification**
+### **Proto NFT 铸造操作规范**
 
 ```text
 message NFTMintOp {
@@ -822,9 +822,9 @@ message NFTMintOp {
 }
 ```
 
-### **NFT Mint Op Example**
+### **NFT 铸造操作示例**
 
-Let’s make an NFT mint operation with:
+我们来进行一个NFT 铸造操作:
 
 * **`TypeId`**: `12`
 * **`AddressIndices`**:
@@ -884,9 +884,9 @@ Let’s make an NFT mint operation with:
 ]
 ```
 
-## NFT Transfer Op
+## NFT 传输操作
 
-An NFT transfer operation sends an unspent NFT transfer output to a new set of owners.
+NFT传输操作将未使用的NFT传输输出发送给一组新的所有者。An NFT transfer operation sends an unspent NFT transfer output to a new set of owners.
 
 ### **What NFT Transfer Op Contains**
 
@@ -1915,10 +1915,10 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyNDA3MjkwLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNj
-I4NDcsLTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbMTM2Njc4NTM0MiwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwtMjY3MT
+YyODQ3LC0xNTE2NTA2MzQ3XX0=
 -->
