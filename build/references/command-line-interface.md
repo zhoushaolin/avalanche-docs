@@ -29,7 +29,7 @@ JSON配置文件示例:
 
 如果设置为`true`，API调用需要授权代币。如默认为`false`。查看[这里](../avalanchego-apis/auth-api.md)获取更多信息。
 
-If set to `true`, API calls require an authorization token. Defaults to `false`. See [here](../avalanchego-apis/auth-api.md) for more information.
+
 
 `--api-auth-password` \(string\):
 
@@ -500,5 +500,5 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjQ4MzI1Nl19
+eyJoaXN0b3J5IjpbLTEwNTcwMzEzNzJdfQ==
 -->
