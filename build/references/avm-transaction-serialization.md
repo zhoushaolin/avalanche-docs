@@ -1530,8 +1530,7 @@ message ImportTx {
 
 ### 未签名输入Tx 示例
 
-让我们进行一个导入tx，使用前面例子中的输入:
-Let’s make an unsigned import tx that uses the inputs from the previous examples:
+让我们进行一个未签名导入tx，使用前面例子中的输入:
 
 * `BaseTx`: `“Example BaseTx as defined above”`, but with `TypeID` set to `3`
 * `SourceChain`: `0x0000000000000000000000000000000000000000000000000000000000000000`
@@ -1606,9 +1605,9 @@ Let’s make an unsigned import tx that uses the inputs from the previous exampl
 ]
 ```
 
-### What Unsigned Export Tx Contains
+### 未签名输出Tx 包含什么
 
-An unsigned export tx contains a `BaseTx`, `DestinationChain`, and `Outs`. The `TypeID` for this type is `0x00000004`.
+未签名输出Tx 包含`BaseTx`, `DestinationChain`和 `Outs`, 这个类型的`TypeID` 是 `0x00000004`.
 
 * **`DestinationChain`** is the 32 byte ID of the chain where the funds are being exported to.
 * **`Outs`** is a variable length array of [Transferable Outputs](avm-transaction-serialization.md#transferable-output).
@@ -1916,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTE1NDgwMiwxMzA5OTA3OTM4LDE1ND
-A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
-ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
-k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
-OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
-wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
-NTUwMzc3NzhdfQ==
+eyJoaXN0b3J5IjpbMjE0NjYwMDUwLDEzMDk5MDc5MzgsMTU0MD
+k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
+NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
+Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
+NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
+0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
+NTAzNzc3OF19
 -->
