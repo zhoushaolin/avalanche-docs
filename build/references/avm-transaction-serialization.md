@@ -1272,12 +1272,11 @@ message BaseTx {
 
 ### 未签名创建资产Tx包含什么
 
-未签名创建资产Tx包含`BaseTx`, `Name`, `Symbol`, `Denomination`和`InitialStates`, 这个`TypeID` 是`0x00000001`.
+未签名创建资产Tx包含`BaseTx`, `Name`, `Symbol`, `Denomination`和`InitialStates`, 这个`TypeID` 是`0x00000001`。
 
 * **`BaseTx`**
-* **`Name`** 是一个人类可读的字符串，它定义了此事务将创建的资产的名称。名称不能保证是唯一的。名称必须只包含可打印的ASCII字符，且不能超过128个字符。
-is a human readable string that defines the name of the asset this transaction will create. The name is not guaranteed to be unique. The name must consist of only printable ASCII characters and must be no longer than 128 characters.
-* **`Symbol`** is a human readable string that defines the symbol of the asset this transaction will create. The symbol is not guaranteed to be unique. The symbol must consist of only printable ASCII characters and must be no longer than 4 characters.
+* **`Name`** 是一个可读的字符串，它定义了此交易将创建的资产的名称。名称不能保证是唯一的。名称必须只包含可打印的ASCII字符，且不能超过128个字符。
+* **`Symbol`** 是一个可读的字符串，它定义了此交易将创建的资产的符号。符号不能保证是唯一的。该符号必须仅由可打印的ASCII字符组成，且不能超过4个字符。is a human readable string that defines the symbol of the asset this transaction will create. The symbol is not guaranteed to be unique. The symbol must consist of only printable ASCII characters and must be no longer than 4 characters.
 * **`Denomination`** is a byte that defines the divisibility of the asset this transaction will create. For example, the AVAX token is divisible into billionths. Therefore, the denomination of the AVAX token is 9. The denomination must be no more than 32.
 * **`InitialStates`** is a variable length array that defines the feature extensions this asset supports, and the [initial state](avm-transaction-serialization.md#initial-state) of those feature extensions.
 
@@ -1915,11 +1914,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMzODkyODgsMTU0MDk1Mjk2OCw1Nj
-U5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4NSw2NjcxNDQ3
-MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMj
-A0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4
-MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5ND
-k2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwt
-NDkwNjczNzU3XX0=
+eyJoaXN0b3J5IjpbMTA2Njc0ODA3NiwxNTQwOTUyOTY4LDU2NT
+k4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1NDg1LDY2NzE0NDcx
+NSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMTI5NjcwNjUwNywyMD
+Q1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgy
+NDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OT
+YsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00
+OTA2NzM3NTddfQ==
 -->
