@@ -35,15 +35,15 @@ JSON配置文件示例:
 
 `--api-health-enabled` \(布尔\):
 
-如果设置为`true`，此节点将公开运行状况API。默认为“真正的”。查看[这里](../avalanchego-apis/health- apis .md)获得更多信息。
+如果设置为`true`，此节点将公开运行状况API。如默认为`true`。查看[这里](../avalanchego-apis/health- apis .md)获得更多信息。
 
-If set to `true`, this node will expose the Health API. Defaults to `true`. See [here](../avalanchego-apis/health-api.md) for more information.
+`--api-info-enabled` \(布尔\):
 
-`--api-info-enabled` \(boolean\):
+如果设置为`true`，该节点将公开Info API。默认为`true`。查看[这里](../avalanchego-apis/info-api.md)获取更多信息。
 
-If set to `true`, this node will expose the Info API. Defaults to `true`. See [here](../avalanchego-apis/info-api.md) for more information.
+`--api-ipcs-enabled` \(布尔\):
 
-`--api-ipcs-enabled` \(boolean\):
+如果设置为`true`，该节点将公开IPCs API。默认为“假”。查看[这里](../avalanchego-apis/ipc-api.md)获取更多信息。
 
 If set to `true`, this node will expose the IPCs API. Defaults to `false`. See [here](../avalanchego-apis/ipc-api.md) for more information.
 
@@ -500,5 +500,5 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjcyMzA1OTZdfQ==
+eyJoaXN0b3J5IjpbMTU4NzY3NDc3MF19
 -->
