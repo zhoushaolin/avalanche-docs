@@ -1607,10 +1607,10 @@ message ImportTx {
 
 ### 未签名输出Tx 包含什么
 
-未签名输出Tx 包含`BaseTx`, `DestinationChain`和 `Outs`, 这个类型的`TypeID` 是 `0x00000004`.
+未签名输出Tx 包含`BaseTx`, `DestinationChain`和 `Outs`, 这个类型的`TypeID` 是 `0x00000004`。
 
-* **`DestinationChain`** is the 32 byte ID of the chain where the funds are being exported to.
-* **`Outs`** is a variable length array of [Transferable Outputs](avm-transaction-serialization.md#transferable-output).
+* **`DestinationChain`** 是资金被导出到的32字节ID的链。
+* **`Outs`** 是一个可变长度的数组[Transferable Outputs](avm-transaction-serialization.md# Transferable -output)。 is a variable length array of [Transferable Outputs](avm-transaction-serialization.md#transferable-output).
 
 ### Gantt Unsigned Export Tx Specification
 
@@ -1915,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjYwMDUwLDEzMDk5MDc5MzgsMTU0MD
-k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
-NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OF19
+eyJoaXN0b3J5IjpbLTExNzU4MzQ4MTksMTMwOTkwNzkzOCwxNT
+QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
+NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4XX0=
 -->
