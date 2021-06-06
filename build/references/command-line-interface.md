@@ -43,13 +43,11 @@ JSON配置文件示例:
 
 `--api-ipcs-enabled` \(布尔\):
 
-如果设置为`true`，该节点将公开IPCs API。默认为“假”。查看[这里](../avalanchego-apis/ipc-api.md)获取更多信息。
+如果设置为`true`，该节点将公开IPCs API。默认为`false`。查看[这里](../avalanchego-apis/ipc-api.md)获取更多信息。
 
-If set to `true`, this node will expose the IPCs API. Defaults to `false`. See [here](../avalanchego-apis/ipc-api.md) for more information.
+`--api-keystore-enabled` \(布尔\):
 
-`--api-keystore-enabled` \(boolean\):
-
-If set to `false`, this node will not expose the Keystore API. Defaults to `true`. See [here](../avalanchego-apis/keystore-api.md) for more information.
+如果设置为`false`，此节点将不会公开密钥库API。默认为`true`。查看[这里](../avalanchego-apis/keystore-api.md)获得更多信息。
 
 `--api-metrics-enabled` \(boolean\):
 
@@ -500,5 +498,5 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzY3NDc3MF19
+eyJoaXN0b3J5IjpbMTk5MDk1MTI2NF19
 -->
