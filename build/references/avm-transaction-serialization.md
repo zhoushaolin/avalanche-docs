@@ -1275,7 +1275,8 @@ message BaseTx {
 未签名创建资产Tx包含`BaseTx`, `Name`, `Symbol`, `Denomination`和`InitialStates`, 这个`TypeID` 是`0x00000001`.
 
 * **`BaseTx`**
-* **`Name`** is a human readable string that defines the name of the asset this transaction will create. The name is not guaranteed to be unique. The name must consist of only printable ASCII characters and must be no longer than 128 characters.
+* **`Name`** 是一个人类可读的字符串，它定义了此事务将创建的资产的名称。名称不能保证是唯一的。名称必须只包含可打印的ASCII字符，且不能超过128个字符。
+is a human readable string that defines the name of the asset this transaction will create. The name is not guaranteed to be unique. The name must consist of only printable ASCII characters and must be no longer than 128 characters.
 * **`Symbol`** is a human readable string that defines the symbol of the asset this transaction will create. The symbol is not guaranteed to be unique. The symbol must consist of only printable ASCII characters and must be no longer than 4 characters.
 * **`Denomination`** is a byte that defines the divisibility of the asset this transaction will create. For example, the AVAX token is divisible into billionths. Therefore, the denomination of the AVAX token is 9. The denomination must be no more than 32.
 * **`InitialStates`** is a variable length array that defines the feature extensions this asset supports, and the [initial state](avm-transaction-serialization.md#initial-state) of those feature extensions.
@@ -1914,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA1MTU4MzgsMTU0MDk1Mjk2OCw1Nj
+eyJoaXN0b3J5IjpbLTEyNzMzODkyODgsMTU0MDk1Mjk2OCw1Nj
 U5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4NSw2NjcxNDQ3
 MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMj
 A0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4
