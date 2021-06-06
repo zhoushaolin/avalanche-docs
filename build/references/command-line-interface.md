@@ -59,15 +59,13 @@ JSON配置文件示例:
 
 当设置为`true`时，断言将在整个代码库的运行时执行。这是用于调试的，因为我们可能会得到一个更具体的错误消息。默认为`true`。
 
-### 辅助程序
+### Bootstrapping
 
 `--bootstrap-ids` \(字符串\):
 
-辅助程序ID是验证器ID的数组。这些ID将用于对引导对等体进行身份验证。这只需要在`--p2p-tls-enabled=true`时设置。该字段的设置示例是`--bootstrap-ids="NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg,NodeID-MFrZFVCXPv5iCn6M9K6XduxGTYp891xXZ"`。默认为空\(不尝试从其他节点引导。\)
+Bootstrap ID是验证器ID的数组。这些ID将用于对引导对等体进行身份验证。这只需要在`--p2p-tls-enabled=true`时设置。该字段的设置示例是`--bootstrap-ids="NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg,NodeID-MFrZFVCXPv5iCn6M9K6XduxGTYp891xXZ"`。默认为空\(不尝试从其他节点引导。\)
 
-Bootstrap IDs is an array of validator IDs. These IDs will be used to authenticate bootstrapping peers. This only needs to be set when `--p2p-tls-enabled=true`. An example setting of this field would be `--bootstrap-ids="NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg,NodeID-MFrZFVCXPv5iCn6M9K6XduxGTYp891xXZ"`. Defaults to empty \(does not attempt to bootstrap from other nodes.\)
-
-`--bootstrap-ips` \(string\):
+`--bootstrap-ips` \(字符串\):
 
 Bootstrap IPs is an array of IPv4:port pairs. These IP Addresses will be used to bootstrap the current Avalanche state. An example setting of this field would be `--bootstrap-ips="127.0.0.1:12345,1.2.3.4:5678"`. Defaults to empty \(does not attempt to bootstrap from other nodes.\)
 
@@ -500,6 +498,6 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTg3MzUzNCwxNDQxOTk3ODA4LC0yND
-g1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbLTEzMzUxOTQxNjYsMTQ0MTk5NzgwOCwtMj
+Q4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
