@@ -57,13 +57,13 @@ JSON配置文件示例:
 
 `--assertions-enabled` \(布尔\):
 
-当设置为`true`时，断言将在整个代码库的运行时执行。这是用于调试的，因为我们可能会得到一个更具体的错误消息。默认为“真正的”。
-
-When set to `true`, assertions will execute at runtime throughout the codebase. This is intended for use in debugging, as we may get a more specific error message. Defaults to `true`.
+当设置为`true`时，断言将在整个代码库的运行时执行。这是用于调试的，因为我们可能会得到一个更具体的错误消息。默认为`true`。
 
 ### Bootstrapping
 
-`--bootstrap-ids` \(string\):
+`--bootstrap-ids` \(字符串\):
+
+引导id是验证器id的数组。这些id将用于对引导对等体进行身份验证。这只需要在'——p2p-tls-enabled=true '时设置。该字段的设置示例是'——bootstrap-ids="NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg,NodeID-MFrZFVCXPv5iCn6M9K6XduxGTYp891xXZ" '。默认为空\(不尝试从其他节点引导。\)
 
 Bootstrap IDs is an array of validator IDs. These IDs will be used to authenticate bootstrapping peers. This only needs to be set when `--p2p-tls-enabled=true`. An example setting of this field would be `--bootstrap-ids="NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg,NodeID-MFrZFVCXPv5iCn6M9K6XduxGTYp891xXZ"`. Defaults to empty \(does not attempt to bootstrap from other nodes.\)
 
@@ -500,6 +500,6 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE4OTg5MDMsLTI0ODU1NzAzNCwxOT
-kwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMTE3ODAzOTEyNywtMjQ4NTU3MDM0LDE5OT
+A5NTEyNjRdfQ==
 -->
