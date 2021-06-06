@@ -1638,7 +1638,7 @@ message ExportTx {
 
 ### 未签名输出Tx示例
 
-Let’s make an unsigned export tx that uses the outputs from the previous examples:
+让我们做一个未签名导出tx，它使用前面例子中的输出:
 
 * `BaseTx`: `“Example BaseTx as defined above”`, but with `TypeID` set to `4`
 * `DestinationChain`: `0x0000000000000000000000000000000000000000000000000000000000000000`
@@ -1712,7 +1712,9 @@ Let’s make an unsigned export tx that uses the outputs from the previous examp
 ]
 ```
 
-## Signed Transaction
+## 签名的交易
+
+有签名的事务是添加了[credentials]数组的无签名事务(avm-transaction-serialization.md#credentials)。
 
 A signed transaction is an unsigned transaction with the addition of an array of [credentials](avm-transaction-serialization.md#credentials).
 
@@ -1915,7 +1917,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNjgxMzQ3LDEzMDk5MDc5MzgsMTU0MD
+eyJoaXN0b3J5IjpbMzQ4MjE4NjI0LDEzMDk5MDc5MzgsMTU0MD
 k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
 NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
 Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
