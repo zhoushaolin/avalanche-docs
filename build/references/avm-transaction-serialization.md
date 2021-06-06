@@ -1712,15 +1712,13 @@ message ExportTx {
 ]
 ```
 
-## 签名的交易
+## 签名交易
 
-有签名的事务是添加了[credentials]数组的无签名事务(avm-transaction-serialization.md#credentials)。
+签名的交易是添加了[credentials](avm-transaction-serialization.md#credentials)数组的未签名交易。
 
-A signed transaction is an unsigned transaction with the addition of an array of [credentials](avm-transaction-serialization.md#credentials).
+### 签名交易包含什么
 
-### What Signed Transaction Contains
-
-A signed transaction contains a `CodecID`, `UnsignedTx`, and `Credentials`.
+签名交易包含`CodecID`, `UnsignedTx`和`Credentials`.
 
 * **`CodecID`** The only current valid codec id is `00 00`.
 * **`UnsignedTx`** is an unsigned transaction, as described above.
@@ -1917,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MjE4NjI0LDEzMDk5MDc5MzgsMTU0MD
+eyJoaXN0b3J5IjpbMjM3NTYwNDgxLDEzMDk5MDc5MzgsMTU0MD
 k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
 NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
 Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
