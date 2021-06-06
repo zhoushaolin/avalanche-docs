@@ -1,16 +1,16 @@
-# Command Line Interface
+# 命令行接口
 
-When running a node, there are a variety of possible configurations that are supported.
+运行节点时，可能支持多种配置。
 
-## Arguments
+## 参数
 
-### Config File
+### 配置文件
 
 `--config-file` \(string\):
 
-Path to a JSON file that specifies this node's configuration. Command line arguments will override arguments set in the config file.
+指定此节点配置的JSON文件的路径。命令行参数将覆盖配置文件中设置的参数。
 
-Example JSON config file:
+JSON配置文件示例:
 
 ```javascript
 {
@@ -497,3 +497,6 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `debug-api-enabled` -&gt; Enables `debug_*` API.
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5OTkzNDU3OTJdfQ==
+-->
