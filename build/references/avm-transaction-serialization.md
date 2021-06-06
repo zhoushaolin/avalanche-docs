@@ -1836,9 +1836,8 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID`和`Output`。
 * **`UTXOIndex`** 是一个整数，它指定在交易中由** ' TxID ' **指定的输出创建了这个utxo。
 * **`AssetID`** 是一个32字节的数组，它定义了utxo引用的资产。
 * **`Output`** 是创建这个utxo的[output](avm-transaction-serialization.md#transferable-output)对象。上面定义了output的序列化。
-is the [output](avm-transaction-serialization.md#transferable-output) object that created this utxo. The serialization of Outputs was defined above.
 
-### Gantt UTXO Specification
+### Gantt UTXO规范
 
 ```text
 +--------------+----------+-------------------------+
@@ -1856,7 +1855,7 @@ is the [output](avm-transaction-serialization.md#transferable-output) object tha
                           +-------------------------+
 ```
 
-### Proto UTXO Specification
+### Proto UTXO规范
 
 ```text
 message Utxo {
@@ -1868,9 +1867,9 @@ message Utxo {
 }
 ```
 
-### UTXO Example
+### UTXO 示例
 
-Let’s make a UTXO from the signed transaction created above:
+让我们从上面创建的签名事务中创建一个UTXO:
 
 * **`CodecID`**: `0`
 * **`TxID`**: `0xf966750f438867c3c9828ddcdbe660e21ccdbb36a9276958f011ba472f75d4e7`
@@ -1916,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg1ODkxNSwxMzA5OTA3OTM4LDE1ND
-A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
-ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
-k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
-OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
-wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
-NTUwMzc3NzhdfQ==
+eyJoaXN0b3J5IjpbLTE3NDc1Mjc3MDEsMTMwOTkwNzkzOCwxNT
+QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
+NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4XX0=
 -->
