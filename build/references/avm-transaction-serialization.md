@@ -1612,7 +1612,7 @@ message ImportTx {
 * **`DestinationChain`** 是资金被导出到的32字节ID的链。
 * **`Outs`** 是一个可变长度的[可转移输出](avm-transaction-serialization.md#transferable-output)数组。
 
-### Gantt Unsigned Export Tx Specification
+### Gantt 未签名输出Tx规范
 
 ```text
 +-------------------+---------------+--------------------------------------+
@@ -1626,7 +1626,7 @@ message ImportTx {
                           +---------------------------------------+
 ```
 
-### Proto Unsigned Export Tx Specification
+### Proto 未签名输出Tx规范
 
 ```text
 message ExportTx {
@@ -1636,7 +1636,7 @@ message ExportTx {
 }
 ```
 
-### Unsigned Export Tx Example
+### 未签名输出Tx示例
 
 Let’s make an unsigned export tx that uses the outputs from the previous examples:
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjcyNzI1LDEzMDk5MDc5MzgsMTU0MD
+eyJoaXN0b3J5IjpbODQwNjgxMzQ3LDEzMDk5MDc5MzgsMTU0MD
 k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
 NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
 Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
