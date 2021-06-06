@@ -1159,7 +1159,8 @@ Base Tx 包含 `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs` 和`Me
 * **`NetworkID`** 是一个整数，它定义了这个交易要发送到哪个网络。这个值意味着支持交易路由，不是为防止反复攻击而设计的。
 * **`BlockchainID`** 是一个32字节的数组，它定义了这个交易被发送到哪个区块链。这用于防止可能跨网络或区块链有效的交易的反复攻击。 
 * **`Outputs`** 是一个[可转移输出对象](avm-transaction-serialization.md#transferable-output)的数组。输出必须根据它们的序列化表示按字典顺序排序。在这些产出中创造的资产总量必须小于或等于投入中消耗的每项资产的总量减去交易费用。
-* **`Inputs`** is an array of [transferable input objects](avm-transaction-serialization.md#transferable-input). Inputs must be sorted and unique. Inputs are sorted first lexicographically by their **`TxID`** and then by the **`UTXOIndex`** from low to high. If there are inputs that have the same **`TxID`** and **`UTXOIndex`**, then the transaction is invalid as this would result in a double spend.
+* **`Inputs`** 是一个[可转移输入对象](avm-transaction-serialization.md#transferable-input)的数组。输入必须是有序且唯一的。输入首先以** ' TxID ' **的字典顺序排序，然后按** ' UTXOIndex ' **从低到高排序。如果有相同的** ' TxID ' **和** ' UTXOIndex ' **的输入，则该事务无效，因为这将导致双花费。
+is an array of [transferable input objects](avm-transaction-serialization.md#transferable-input). Inputs must be sorted and unique. Inputs are sorted first lexicographically by their **`TxID`** and then by the **`UTXOIndex`** from low to high. If there are inputs that have the same **`TxID`** and **`UTXOIndex`**, then the transaction is invalid as this would result in a double spend.
 * **`Memo`** Memo field contains arbitrary bytes, up to 256 bytes.
 
 ### Gantt Base Tx Specification
@@ -1914,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTkwNjA3LDU2NTk4NzU4OCwtMTY0MD
-ExMTUwOCwxNTcyOTI1NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIs
-MTA0NzY2ODMzNiwtMTI5NjcwNjUwNywyMDQ1NjA0MDczLC0xMD
-Q5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcy
-MDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MS
-wtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00OTA2NzM3NTcsLTE1
-MTQzOTY0MzRdfQ==
+eyJoaXN0b3J5IjpbMTYwMjkxODg5NSw1NjU5ODc1ODgsLTE2ND
+AxMTE1MDgsMTU3MjkyNTQ4NSw2NjcxNDQ3MTUsNzA4NjM0ODUy
+LDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMjA0NTYwNDA3MywtMT
+A0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3
+MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5Nz
+EsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0x
+NTE0Mzk2NDM0XX0=
 -->
