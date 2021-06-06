@@ -1502,9 +1502,9 @@ message OperationTx {
 
 * **`BaseTx`**
 * **`SourceChain`** 是32字节的源区块链ID。
-* **`Ins`** 是一个可变长度的[Transferable Inputs](avm-transaction-serialization.md# Transferable -input)数组。is a variable length array of [Transferable Inputs](avm-transaction-serialization.md#transferable-input).
+* **`Ins`** 是一个可变长度的[可转移输入](avm-transaction-serialization.md#transferable-input)数组。
 
-### Gantt Unsigned Import Tx Specification
+### Gantt 未签名输入Tx 规范
 
 ```text
 +---------+----------------------+-----------------------------+
@@ -1518,7 +1518,7 @@ message OperationTx {
                         +--------------------------------------+
 ```
 
-### Proto Unsigned Import Tx Specification
+### Proto 未签名输入Tx 规范
 
 ```text
 message ImportTx {
@@ -1528,8 +1528,9 @@ message ImportTx {
 }
 ```
 
-### Unsigned Import Tx Example
+### 未签名输入Tx 示例
 
+让我们进行一个导入tx，使用前面例子中的输入:
 Let’s make an unsigned import tx that uses the inputs from the previous examples:
 
 * `BaseTx`: `“Example BaseTx as defined above”`, but with `TypeID` set to `3`
@@ -1915,7 +1916,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDgxMTkzMiwxMzA5OTA3OTM4LDE1ND
+eyJoaXN0b3J5IjpbLTUzOTE1NDgwMiwxMzA5OTA3OTM4LDE1ND
 A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
 ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
