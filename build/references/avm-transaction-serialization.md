@@ -1395,13 +1395,13 @@ message CreateAssetTx {
 
 ### 未签名操作Tx包含什么
 
-未签名操作Tx包含`BaseTx`和 `Ops`. The `TypeID` for this type is `0x00000002`.
+未签名操作Tx包含`BaseTx`和 `Ops`. 这个类型的 `TypeID`是 `0x00000002`。
 
 * **`BaseTx`**
-* **`Ops`** 是一个可变长度的[Transferable Ops]数组(avm-transaction-serialization.md# Transferable - Ops)。
-* is a variable-length array of [Transferable Ops](avm-transaction-serialization.md#transferable-ops).
+* **`Ops`** 是一个可变长度的 [Transferable Ops](avm-transaction-serialization.md#transferable-ops)数组。
 
-### Gantt Unsigned Operation Tx Specification
+
+### Gantt 未签名操作Tx 规范
 
 ```text
 +---------+--------------+-------------------------------------+
@@ -1915,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjEzMjM3NjksMTMwOTkwNzkzOCwxNT
-QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
-NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
-I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
-NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
-YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
-MDU1MDM3Nzc4XX0=
+eyJoaXN0b3J5IjpbMTg1NTkzNDM3MSwxMzA5OTA3OTM4LDE1ND
+A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
+ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzhdfQ==
 -->
