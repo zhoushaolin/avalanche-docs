@@ -1833,9 +1833,10 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID`和`Output`。
 
 * **`CodecID`**唯一有效的 `CodecID` 是`00 00`
 * **`TxID`** 是一个32字节的交易ID。通过使用已签名交易的sha256字节来计算交易ID。
-* **`UTXOIndex`** 是一个整数，它指定在交易中由** ' TxID ' **指定的输出创建了这个utxo。 is an int that specifies which output in the transaction specified by **`TxID`** that this utxo was created by.
-* **`AssetID`** is a 32-byte array that defines which asset this utxo references.
-* **`Output`** is the [output](avm-transaction-serialization.md#transferable-output) object that created this utxo. The serialization of Outputs was defined above.
+* **`UTXOIndex`** 是一个整数，它指定在交易中由** ' TxID ' **指定的输出创建了这个utxo。
+* **`AssetID`** 是一个32字节的数组，它定义了utxo引用的资产。
+* **`Output`** 是创建这个utxo的[output](avm-transaction-serialization.md#transferable-output)对象。上面定义了output的序列化。
+is the [output](avm-transaction-serialization.md#transferable-output) object that created this utxo. The serialization of Outputs was defined above.
 
 ### Gantt UTXO Specification
 
@@ -1915,11 +1916,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODgyNjQ3MDMsMTMwOTkwNzkzOCwxNT
-QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
-NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
-I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
-NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
-YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
-MDU1MDM3Nzc4XX0=
+eyJoaXN0b3J5IjpbLTE5ODg1ODkxNSwxMzA5OTA3OTM4LDE1ND
+A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
+ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzhdfQ==
 -->
