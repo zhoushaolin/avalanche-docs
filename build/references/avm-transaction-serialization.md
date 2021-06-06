@@ -1750,8 +1750,7 @@ message Tx {
 
 ### 签名交易示例
 
-让我们创建一个使用前面示例中的无签名交易和ping ju的签名事务。
-Let’s make a signed transaction that uses the unsigned transaction and credentials from the previous examples.
+让我们创建一个使用前面示例中的无签名交易和凭据的签名交易。
 
 * **`CodecID`**: `0`
 * **`UnsignedTx`**: `0x0000000100000004ffffffffeeeeeeeeddddddddccccccccbbbbbbbbaaaaaaaa999999998888888800000001000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f000000070000000000003039000000000000d431000000010000000251025c61fbcfc078f69334f834be6dd26d55a955c3344128e060128ede3523a24a461c8943ab085900000001f1e1d1c1b1a191817161514131211101f0e0d0c0b0a09080706050403020100000000005000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f0000000500000000075bcd150000000200000007000000030000000400010203`
@@ -1826,7 +1825,7 @@ Let’s make a signed transaction that uses the unsigned transaction and credent
 
 ## UTXO
 
-A UTXO is a standalone representation of a transaction output.
+UTXO是交易输出的独立呈现。
 
 ### What UTXO Contains
 
@@ -1916,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc1NzM2NywxMzA5OTA3OTM4LDE1ND
+eyJoaXN0b3J5IjpbLTUwNjg2MzQ1OCwxMzA5OTA3OTM4LDE1ND
 A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
 ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
