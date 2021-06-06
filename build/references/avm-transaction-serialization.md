@@ -1279,7 +1279,6 @@ message BaseTx {
 * **`Symbol`** 是一个可读的字符串，它定义了此交易将创建的资产的符号。符号不能保证是唯一的。该符号必须仅由可打印的ASCII字符组成，且不能超过4个字符。
 * **`Denomination`** 是一个字节，它定义了该交易将创建的资产的可整除性。例如，AVAX代币可分为十亿分之一。因此，AVAX代币的面额为9, 最多不能超过32。
 * **`InitialStates`** 是一个可变长度的数组，它定义了该资产支持的特性扩展，以及这些特性扩展的[初始状态](avm-transaction-serialization.md#initial-state)。
-is a variable length array that defines the feature extensions this asset supports, and the [initial state](avm-transaction-serialization.md#initial-state) of those feature extensions.
 
 ### Gantt Unsigned Create Asset Tx Specification
 
@@ -1300,7 +1299,7 @@ is a variable length array that defines the feature extensions this asset suppor
                                   +--------------------------------------+
 ```
 
-### Proto Unsigned Create Asset Tx Specification
+### Proto 未签名创建资产Tx 规范
 
 ```text
 message CreateAssetTx {
@@ -1312,8 +1311,9 @@ message CreateAssetTx {
 }
 ```
 
-### Unsigned Create Asset Tx Example
+### 未签名创建资产Tx示例
 
+让我们创建一个wei qian m基础tx，它使用前面例子中的输入和输出:
 Let’s make an unsigned base tx that uses the inputs and outputs from the previous examples:
 
 * `BaseTx`: `"Example BaseTx as defined above with ID set to 1"`
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4OTgyOTY2LDEzMDk5MDc5MzgsMTU0MD
+eyJoaXN0b3J5IjpbMzk3MTQxMTUxLDEzMDk5MDc5MzgsMTU0MD
 k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
 NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
 Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
