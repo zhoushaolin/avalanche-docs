@@ -1151,12 +1151,9 @@ NFT凭据与[secp256k1凭据](avm-transaction-serialization.md#secp256k1-credent
 
 未签名的交易包含交易的全部内容，只缺少签名。无签名交易有四种可能的类型:[`CreateAssetTx`](avm-transaction-serialization.md#what-unsigned-create-asset-tx-contains), [`OperationTx`](avm-transaction-serialization.md#what-unsigned-operation-tx-contains), [`ImportTx`](avm-transaction-serialization.md#what-unsigned-import-tx-contains)和[`ExportTx`](avm-transaction-serialization.md#what-unsigned-export-tx-contains), 它们都嵌入[' BaseTx '](avm-transaction-serialization.md#what-base-tx-contains)，其中包含常见字段和操作。
 
-[' CreateAssetTx '] (avm-transaction-serialization.md # what-unsigned-create-asset-tx-contains)(“OperationTx”)(avm-transaction-serialization.md # what-unsigned-operation-tx-contains)(“ImportTx”)(avm-transaction-serialization.md # what-unsigned-import-tx-contains)和(“ExportTx”)(avm-transaction-serialization.md # what-unsigned-export-tx-contains)。它们都嵌入[' BaseTx '](avm-transaction-serialization.md#what-base-tx-contains)，其中包含常见字段和操作。
-Unsigned transactions contain the full content of a transaction with only the signatures missing. Unsigned transactions have four possible types: [`CreateAssetTx`](avm-transaction-serialization.md#what-unsigned-create-asset-tx-contains), [`OperationTx`](avm-transaction-serialization.md#what-unsigned-operation-tx-contains), [`ImportTx`](avm-transaction-serialization.md#what-unsigned-import-tx-contains), and [`ExportTx`](avm-transaction-serialization.md#what-unsigned-export-tx-contains). They all embed [`BaseTx`](avm-transaction-serialization.md#what-base-tx-contains), which contains common fields and operations.
+### Base Tx 包含什么
 
-### What Base Tx Contains
-
-A base tx contains a `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs`, and `Memo`.
+Base Tx 包含 `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs` 和`Memo`.
 
 * **`TypeID`** is the ID for this type. It is `0x00000000`.
 * **`NetworkID`** is an int that defines which network this transaction is meant to be issued to. This value is meant to support transaction routing and is not designed for replay attack prevention.
@@ -1917,11 +1914,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ0NDQ2MzYsMTU3MjkyNTQ4NSw2Nj
-cxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOTY3MDY1
-MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC
-00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgy
-NDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNz
-c3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcs
-LTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbLTg2MzE2MTcwNCwxNTcyOTI1NDg1LDY2Nz
+E0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMTI5NjcwNjUw
+NywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0MTAsLT
+QyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLTIwODI0
+Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nz
+c4LC00OTA2NzM3NTcsLTE1MTQzOTY0MzQsLTI2NzE2Mjg0Nywt
+MTUxNjUwNjM0N119
 -->
