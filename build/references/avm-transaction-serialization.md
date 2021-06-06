@@ -1831,7 +1831,7 @@ UTXO是交易输出的独立呈现。
 
 UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID`和`Output`。
 
-* **`CodecID`** The only valid `CodecID` is `00 00`
+* **`CodecID`**唯一有效的 `CodecID` is `00 00`
 * **`TxID`** is a 32-byte transaction ID. Transaction IDs are calculated by taking sha256 of the bytes of the signed transaction.
 * **`UTXOIndex`** is an int that specifies which output in the transaction specified by **`TxID`** that this utxo was created by.
 * **`AssetID`** is a 32-byte array that defines which asset this utxo references.
@@ -1915,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDcxMzkzLDEzMDk5MDc5MzgsMTU0MD
-k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
-NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OF19
+eyJoaXN0b3J5IjpbLTExMzM0MzI5NjIsMTMwOTkwNzkzOCwxNT
+QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
+NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4XX0=
 -->
