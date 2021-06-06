@@ -1498,11 +1498,11 @@ message OperationTx {
 
 ### 未签名输入Tx 包含什么
 
-未签名输入Tx 包含 `BaseTx`, `SourceChain` 和`Ins`, 这个类型的 `TypeID`是`0x00000003`.
+未签名输入Tx 包含 `BaseTx`, `SourceChain` 和`Ins`, 这个类型的 `TypeID`是`0x00000003`。
 
 * **`BaseTx`**
-* **`SourceChain`** is a 32-byte source blockchain ID.
-* **`Ins`** is a variable length array of [Transferable Inputs](avm-transaction-serialization.md#transferable-input).
+* **`SourceChain`** 是32字节的源区块链ID。
+* **`Ins`** 是一个可变长度的[Transferable Inputs](avm-transaction-serialization.md# Transferable -input)数组。is a variable length array of [Transferable Inputs](avm-transaction-serialization.md#transferable-input).
 
 ### Gantt Unsigned Import Tx Specification
 
@@ -1915,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3OTY3ODUyLDEzMDk5MDc5MzgsMTU0MD
-k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
-NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OF19
+eyJoaXN0b3J5IjpbLTc5NDgxMTkzMiwxMzA5OTA3OTM4LDE1ND
+A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
+ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzhdfQ==
 -->
