@@ -1413,7 +1413,7 @@ message CreateAssetTx {
                          +-------------------------------------+
 ```
 
-### Proto Unsigned Operation Tx Specification
+### Proto 未签名操作Tx 规范
 
 ```text
 message OperationTx {
@@ -1422,9 +1422,9 @@ message OperationTx {
 }
 ```
 
-### Unsigned Operation Tx Example
+### 未签名操作Tx 示例
 
-Let’s make an unsigned operation tx that uses the inputs and outputs from the previous examples:
+让我们来进行一个未签名操作tx，它使用前面例子中的输入和输出:
 
 * `BaseTx`: `"Example BaseTx above" with TypeID set to 2`
 * **`Ops`**: \[`"Example Transfer Op as defined above"`\]
@@ -1496,7 +1496,7 @@ Let’s make an unsigned operation tx that uses the inputs and outputs from the 
 ]
 ```
 
-### What Unsigned Import Tx Contains
+### 未签名输入Tx 包含shen m
 
 An unsigned import tx contains a `BaseTx`, `SourceChain` and `Ins`. \* The `TypeID`for this type is `0x00000003`.
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTkzNDM3MSwxMzA5OTA3OTM4LDE1ND
+eyJoaXN0b3J5IjpbLTI0OTc2Mzc2MiwxMzA5OTA3OTM4LDE1ND
 A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
 ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
