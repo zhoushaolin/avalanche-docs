@@ -1197,7 +1197,7 @@ message BaseTx {
 
 ### Base Tx 示例
 
-Let’s make an base tx that uses the inputs and outputs from the previous examples:
+让我们创建一个base tx，它使用前面例子中的输入和输出:
 
 * **`TypeID`**: `0`
 * **`NetworkID`**: `4`
@@ -1914,7 +1914,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzU5MjI3OCw1NjU5ODc1ODgsLTE2ND
+eyJoaXN0b3J5IjpbMTU0MDk1Mjk2OCw1NjU5ODc1ODgsLTE2ND
 AxMTE1MDgsMTU3MjkyNTQ4NSw2NjcxNDQ3MTUsNzA4NjM0ODUy
 LDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMjA0NTYwNDA3MywtMT
 A0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3
