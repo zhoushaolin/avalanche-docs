@@ -1155,8 +1155,8 @@ NFT凭据与[secp256k1凭据](avm-transaction-serialization.md#secp256k1-credent
 
 Base Tx 包含 `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs` 和`Memo`。
 
-* **`TypeID`** is the ID for this type. It is `0x00000000`.
-* **`NetworkID`** is an int that defines which network this transaction is meant to be issued to. This value is meant to support transaction routing and is not designed for replay attack prevention.
+* **`TypeID`** 是此类型的ID, 它是 `0x00000000`。
+* **`NetworkID`** 是一个整数，它定义了这个交易要发送到哪个网络。这个值意味着支持事务路由，不是为防止重放攻击而设计的。is an int that defines which network this transaction is meant to be issued to. This value is meant to support transaction routing and is not designed for replay attack prevention.
 * **`BlockchainID`** is a 32-byte array that defines which blockchain this transaction was issued to. This is used for replay attack prevention for transactions that could potentially be valid across network or blockchain.
 * **`Outputs`** is an array of [transferable output objects](avm-transaction-serialization.md#transferable-output). Outputs must be sorted lexicographically by their serialized representation. The total quantity of the assets created in these outputs must be less than or equal to the total quantity of each asset consumed in the inputs minus the transaction fee.
 * **`Inputs`** is an array of [transferable input objects](avm-transaction-serialization.md#transferable-input). Inputs must be sorted and unique. Inputs are sorted first lexicographically by their **`TxID`** and then by the **`UTXOIndex`** from low to high. If there are inputs that have the same **`TxID`** and **`UTXOIndex`**, then the transaction is invalid as this would result in a double spend.
@@ -1914,11 +1914,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAxMTE1MDgsMTU3MjkyNTQ4NSw2Nj
-cxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOTY3MDY1
-MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC
-00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgy
-NDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNz
-c3OCwtNDkwNjczNzU3LC0xNTE0Mzk2NDM0LC0yNjcxNjI4NDcs
-LTE1MTY1MDYzNDddfQ==
+eyJoaXN0b3J5IjpbNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1Nz
+I5MjU0ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2
+LC0xMjk2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLT
+U0ODc1OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEy
+NTIwNiwtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MD
+cyLDEwNTUwMzc3NzgsLTQ5MDY3Mzc1NywtMTUxNDM5NjQzNCwt
+MjY3MTYyODQ3XX0=
 -->
