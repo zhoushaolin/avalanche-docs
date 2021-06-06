@@ -1718,11 +1718,12 @@ message ExportTx {
 
 ### 签名交易包含什么
 
-签名交易包含`CodecID`, `UnsignedTx`和`Credentials`.
+签名交易包含`CodecID`, `UnsignedTx`和`Credentials`。
 
-* **`CodecID`** The only current valid codec id is `00 00`.
-* **`UnsignedTx`** is an unsigned transaction, as described above.
-* **`Credentials`** is an array of [credentials](avm-transaction-serialization.md#credentials). Each credential will be paired with the input in the same index at this credential.
+* **`CodecID`** 当前唯一有效的编解码器id是`00 00`。
+* **`UnsignedTx`** 是一个无签名的交易，如上所述。
+* **`Credentials`** 是一个[credentials](avm-transaction-serialization.md#credentials)数组(avm-transaction-serialization.md#credentials)。每个凭据都将与该凭据的同一索引中的输入配对。
+is an array of [credentials](avm-transaction-serialization.md#credentials). Each credential will be paired with the input in the same index at this credential.
 
 ### Gantt Signed Transaction Specification
 
@@ -1915,11 +1916,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NTYwNDgxLDEzMDk5MDc5MzgsMTU0MD
-k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
-NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OF19
+eyJoaXN0b3J5IjpbMTM3MzA5NjgwNywxMzA5OTA3OTM4LDE1ND
+A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
+ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzhdfQ==
 -->
