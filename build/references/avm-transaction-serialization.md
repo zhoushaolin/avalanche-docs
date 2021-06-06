@@ -1270,9 +1270,9 @@ message BaseTx {
 ]
 ```
 
-### What Unsigned Create Asset Tx Contains
+### 未签名创建资产Tx包含什么
 
-An unsigned create asset tx contains a `BaseTx`, `Name`, `Symbol`, `Denomination`, and `InitialStates`. The `TypeID` is `0x00000001`.
+未签名创建资产Tx包含`BaseTx`, `Name`, `Symbol`, `Denomination`和`InitialStates`, 这个`TypeID` 是`0x00000001`.
 
 * **`BaseTx`**
 * **`Name`** is a human readable string that defines the name of the asset this transaction will create. The name is not guaranteed to be unique. The name must consist of only printable ASCII characters and must be no longer than 128 characters.
@@ -1914,11 +1914,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDk1Mjk2OCw1NjU5ODc1ODgsLTE2ND
-AxMTE1MDgsMTU3MjkyNTQ4NSw2NjcxNDQ3MTUsNzA4NjM0ODUy
-LDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMjA0NTYwNDA3MywtMT
-A0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4MjQ3NTcsLTEwODE3
-MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5NDk2LDE4MjQ3NDA5Nz
-EsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwtNDkwNjczNzU3LC0x
-NTE0Mzk2NDM0XX0=
+eyJoaXN0b3J5IjpbLTE3NDA1MTU4MzgsMTU0MDk1Mjk2OCw1Nj
+U5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4NSw2NjcxNDQ3
+MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOTY3MDY1MDcsMj
+A0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5NDEwLC00MjM4
+MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC0yMDgyNDI5ND
+k2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1NTAzNzc3OCwt
+NDkwNjczNzU3XX0=
 -->
