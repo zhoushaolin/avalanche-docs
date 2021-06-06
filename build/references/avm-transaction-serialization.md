@@ -1313,8 +1313,7 @@ message CreateAssetTx {
 
 ### 未签名创建资产Tx示例
 
-让我们创建一个wei qian m基础tx，它使用前面例子中的输入和输出:
-Let’s make an unsigned base tx that uses the inputs and outputs from the previous examples:
+让我们创建一个未签名base tx，它使用前面例子中的输入和输出:
 
 * `BaseTx`: `"Example BaseTx as defined above with ID set to 1"`
 * `Name`: `Volatility Index`
@@ -1394,12 +1393,13 @@ Let’s make an unsigned base tx that uses the inputs and outputs from the previ
 ]
 ```
 
-### What Unsigned Operation Tx Contains
+### 未签名操作Tx包含什么
 
-An unsigned operation tx contains a `BaseTx`, and `Ops`. The `TypeID` for this type is `0x00000002`.
+未签名操作Tx包含`BaseTx`和 `Ops`. The `TypeID` for this type is `0x00000002`.
 
 * **`BaseTx`**
-* **`Ops`** is a variable-length array of [Transferable Ops](avm-transaction-serialization.md#transferable-ops).
+* **`Ops`** 是一个可变长度的[Transferable Ops]数组(avm-transaction-serialization.md# Transferable - Ops)。
+* is a variable-length array of [Transferable Ops](avm-transaction-serialization.md#transferable-ops).
 
 ### Gantt Unsigned Operation Tx Specification
 
@@ -1915,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTQxMTUxLDEzMDk5MDc5MzgsMTU0MD
-k1Mjk2OCw1NjU5ODc1ODgsLTE2NDAxMTE1MDgsMTU3MjkyNTQ4
-NSw2NjcxNDQ3MTUsNzA4NjM0ODUyLDEwNDc2NjgzMzYsLTEyOT
-Y3MDY1MDcsMjA0NTYwNDA3MywtMTA0OTcxNjExMywtNTQ4NzU5
-NDEwLC00MjM4MjQ3NTcsLTEwODE3MjA1NjAsNDE3MTI1MjA2LC
-0yMDgyNDI5NDk2LDE4MjQ3NDA5NzEsLTE2MzM1OTUwNzIsMTA1
-NTAzNzc3OF19
+eyJoaXN0b3J5IjpbLTEyNjEzMjM3NjksMTMwOTkwNzkzOCwxNT
+QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
+NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
+I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
+NTk0MTAsLTQyMzgyNDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMD
+YsLTIwODI0Mjk0OTYsMTgyNDc0MDk3MSwtMTYzMzU5NTA3Miwx
+MDU1MDM3Nzc4XX0=
 -->
