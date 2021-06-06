@@ -1722,10 +1722,9 @@ message ExportTx {
 
 * **`CodecID`** 当前唯一有效的编解码器id是`00 00`。
 * **`UnsignedTx`** 是一个无签名的交易，如上所述。
-* **`Credentials`** 是一个[credentials](avm-transaction-serialization.md#credentials)数组(avm-transaction-serialization.md#credentials)。每个凭据都将与该凭据的同一索引中的输入配对。
-is an array of [credentials](avm-transaction-serialization.md#credentials). Each credential will be paired with the input in the same index at this credential.
+* **`Credentials`** 是一个[credentials](avm-transaction-serialization.md#credentials)数组。每个凭据都将与该凭据的同一索引中的输入配对。
 
-### Gantt Signed Transaction Specification
+### Gantt 签名交易规范
 
 ```text
 +---------------------+--------------+------------------------------------------------+
@@ -1739,7 +1738,7 @@ is an array of [credentials](avm-transaction-serialization.md#credentials). Each
                                      +------------------------------------------------+
 ```
 
-### Proto Signed Transaction Specification
+### Proto 签名交易规范
 
 ```text
 message Tx {
@@ -1749,8 +1748,9 @@ message Tx {
 }
 ```
 
-### Signed Transaction Example
+### 签名交易示例
 
+让我们创建一个使用前面示例中的无签名交易和ping ju的签名事务。
 Let’s make a signed transaction that uses the unsigned transaction and credentials from the previous examples.
 
 * **`CodecID`**: `0`
@@ -1916,7 +1916,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzA5NjgwNywxMzA5OTA3OTM4LDE1ND
+eyJoaXN0b3J5IjpbLTE3MTc1NzM2NywxMzA5OTA3OTM4LDE1ND
 A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
 ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
 k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
