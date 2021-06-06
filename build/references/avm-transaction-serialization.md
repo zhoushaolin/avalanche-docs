@@ -1277,7 +1277,8 @@ message BaseTx {
 * **`BaseTx`**
 * **`Name`** 是一个可读的字符串，它定义了此交易将创建的资产的名称。名称不能保证是唯一的。名称必须只包含可打印的ASCII字符，且不能超过128个字符。
 * **`Symbol`** 是一个可读的字符串，它定义了此交易将创建的资产的符号。符号不能保证是唯一的。该符号必须仅由可打印的ASCII字符组成，且不能超过4个字符。
-* **`Denomination`** is a byte that defines the divisibility of the asset this transaction will create. For example, the AVAX token is divisible into billionths. Therefore, the denomination of the AVAX token is 9. The denomination must be no more than 32.
+* **`Denomination`** 是一个字节，它定义了该交易将创建的资产的可整除性。例如，AVAX代币可分为十亿分之一。因此，AVAX令牌的命名为9。面额不能超过32。
+* is a byte that defines the divisibility of the asset this transaction will create. For example, the AVAX token is divisible into billionths. Therefore, the denomination of the AVAX token is 9. The denomination must be no more than 32.
 * **`InitialStates`** is a variable length array that defines the feature extensions this asset supports, and the [initial state](avm-transaction-serialization.md#initial-state) of those feature extensions.
 
 ### Gantt Unsigned Create Asset Tx Specification
@@ -1914,11 +1915,11 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTkwNzkzOCwxNTQwOTUyOTY4LDU2NT
-k4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1NDg1LDY2NzE0NDcx
-NSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMTI5NjcwNjUwNywyMD
-Q1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3NTk0MTAsLTQyMzgy
-NDc1NywtMTA4MTcyMDU2MCw0MTcxMjUyMDYsLTIwODI0Mjk0OT
-YsMTgyNDc0MDk3MSwtMTYzMzU5NTA3MiwxMDU1MDM3Nzc4LC00
-OTA2NzM3NTddfQ==
+eyJoaXN0b3J5IjpbLTM2OTUyNDc1NCwxMzA5OTA3OTM4LDE1ND
+A5NTI5NjgsNTY1OTg3NTg4LC0xNjQwMTExNTA4LDE1NzI5MjU0
+ODUsNjY3MTQ0NzE1LDcwODYzNDg1MiwxMDQ3NjY4MzM2LC0xMj
+k2NzA2NTA3LDIwNDU2MDQwNzMsLTEwNDk3MTYxMTMsLTU0ODc1
+OTQxMCwtNDIzODI0NzU3LC0xMDgxNzIwNTYwLDQxNzEyNTIwNi
+wtMjA4MjQyOTQ5NiwxODI0NzQwOTcxLC0xNjMzNTk1MDcyLDEw
+NTUwMzc3NzhdfQ==
 -->
