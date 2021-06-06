@@ -31,11 +31,11 @@ JSON配置文件示例:
 
 `--api-auth-password` \(字符串\):
 
-创建/撤销授权代币所需的密码。如果`--api-auth-required=true`，必须指定;否则忽略。查看[这里](../avalanchego-apis/auth-api.md)获取更多信息。
+创建/撤销授权代币所需的密码。如果`--api-auth-required=true`，必须指定; 否则忽略。查看[这里](../avalanchego-apis/auth-api.md)获取更多信息。
 
-The password needed to create/revoke authorization tokens. If `--api-auth-required=true`, must be specified; otherwise ignored. See [here](../avalanchego-apis/auth-api.md) for more information.
+`--api-health-enabled` \(布尔\):
 
-`--api-health-enabled` \(boolean\):
+如果设置为`true`，此节点将公开运行状况API。默认为“真正的”。查看[这里](../avalanchego-apis/health- apis .md)获得更多信息。
 
 If set to `true`, this node will expose the Health API. Defaults to `true`. See [here](../avalanchego-apis/health-api.md) for more information.
 
@@ -500,5 +500,5 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg4MDA5NV19
+eyJoaXN0b3J5IjpbLTEwMjcyMzA1OTZdfQ==
 -->
