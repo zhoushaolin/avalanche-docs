@@ -23,10 +23,11 @@ JSON配置文件示例:
 
 `--api-admin-enabled` \(布尔\):
 
-如果设置为`false`，此节点将不会公开管理API。默认为`false`。查看[这里](../avalanchego-apis/admin-api.md)获得更多信息。
-If set to `false`, this node will not expose the Admin API. Defaults to `false`. See [here](../avalanchego-apis/admin-api.md) for more information.
+如果设置为`false`，此节点将不会公开管理API。如默认为`false`。查看[这里](../avalanchego-apis/admin-api.md)获得更多信息。
 
-`--api-auth-required` \(boolean\):
+`--api-auth-required` \(布尔\):
+
+如果设置为`true`，API调用需要授权代币。如默认为`false`。查看[这里](../avalanchego-apis/auth-api.md)获取更多信息。
 
 If set to `true`, API calls require an authorization token. Defaults to `false`. See [here](../avalanchego-apis/auth-api.md) for more information.
 
@@ -499,5 +500,5 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg2ODU5MzldfQ==
+eyJoaXN0b3J5IjpbMjAxNjQ4MzI1Nl19
 -->
