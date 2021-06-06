@@ -1833,7 +1833,7 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID`和`Output`。
 
 * **`CodecID`**唯一有效的 `CodecID` 是`00 00`
 * **`TxID`** 是一个32字节的交易ID。通过使用已签名交易的sha256字节来计算交易ID。
-* **`UTXOIndex`** is an int that specifies which output in the transaction specified by **`TxID`** that this utxo was created by.
+* **`UTXOIndex`** 是一个整数，它指定在交易中由** ' TxID ' **指定的输出创建了这个utxo。 is an int that specifies which output in the transaction specified by **`TxID`** that this utxo was created by.
 * **`AssetID`** is a 32-byte array that defines which asset this utxo references.
 * **`Output`** is the [output](avm-transaction-serialization.md#transferable-output) object that created this utxo. The serialization of Outputs was defined above.
 
@@ -1915,7 +1915,7 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTEyOTU0MDgsMTMwOTkwNzkzOCwxNT
+eyJoaXN0b3J5IjpbLTE2ODgyNjQ3MDMsMTMwOTkwNzkzOCwxNT
 QwOTUyOTY4LDU2NTk4NzU4OCwtMTY0MDExMTUwOCwxNTcyOTI1
 NDg1LDY2NzE0NDcxNSw3MDg2MzQ4NTIsMTA0NzY2ODMzNiwtMT
 I5NjcwNjUwNywyMDQ1NjA0MDczLC0xMDQ5NzE2MTEzLC01NDg3
