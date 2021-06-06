@@ -53,9 +53,11 @@ JSON配置文件示例:
 
 如果设置为`false`，此节点将不会公开Metrics API。如默认为`true`。更多信息请参见[这里](../avalanchego-apis/metrics-api.md)。
 
-### Assertions
+### 断言
 
-`--assertions-enabled` \(boolean\):
+`--assertions-enabled` \(布尔\):
+
+当设置为`true`时，断言将在整个代码库的运行时执行。这是用于调试的，因为我们可能会得到一个更具体的错误消息。默认为“真正的”。
 
 When set to `true`, assertions will execute at runtime throughout the codebase. This is intended for use in debugging, as we may get a more specific error message. Defaults to `true`.
 
@@ -498,5 +500,6 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTEwMjE4OTg5MDMsLTI0ODU1NzAzNCwxOT
+kwOTUxMjY0XX0=
 -->
