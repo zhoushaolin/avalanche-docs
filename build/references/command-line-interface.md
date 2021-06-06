@@ -6,7 +6,7 @@
 
 ### 配置文件
 
-`--config-file` \(string\):
+`--config-file` \(字符串\):
 
 指定此节点配置的JSON文件的路径。命令行参数将覆盖配置文件中设置的参数。
 
@@ -19,10 +19,11 @@ JSON配置文件示例:
 }
 ```
 
-### APIs
+### API
 
-`--api-admin-enabled` \(boolean\):
+`--api-admin-enabled` \(布尔\):
 
+如果设置为`false`，此节点将不会公开管理API。默认为`false`。查看[这里](../avalanchego-apis/admin-api.md)获得更多信息。
 If set to `false`, this node will not expose the Admin API. Defaults to `false`. See [here](../avalanchego-apis/admin-api.md) for more information.
 
 `--api-auth-required` \(boolean\):
@@ -498,5 +499,5 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkzNDU3OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyOTg2ODU5MzldfQ==
 -->
