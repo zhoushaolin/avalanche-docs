@@ -403,10 +403,9 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--health-check-averager-halflife` \(持续时间\):
 
-运行状况检查中使用的平均值的半衰期\(例如，测量消息失败率\)较大值—>减少平均数的不稳定计算。默认为“10”。
-Halflife of averagers used in health checks \(to measure the rate of message failures, for example.\) Larger value --&gt; less volatile calculation of averages. Defaults to `10s`.
+运行状况检查中使用的平均值的半衰期\(例如，测量消息失败率\)较大值--&gt; 减少平均数的不稳定计算。默认为`10s`。
 
-### Throughput Server
+### 吞吐量fu
 
 `--xput-server-enabled` \[Deprecated\] \(boolean\):
 
@@ -501,10 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTkyNzY1MywyODI4MTM2NTEsMzQ0Nz
-E5NjE4LC0xMzU4NjkwODczLDEyMjUzMzQxMTUsMTc1ODY0NTUw
-MywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNz
-E4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4
-OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMj
-Q4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbMTUyODExODA4LC05NTE5Mjc2NTMsMjgyOD
+EzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3MywxMjI1MzM0MTE1
+LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5ND
+AyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1
+OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0ND
+E5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
