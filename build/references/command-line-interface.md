@@ -303,9 +303,9 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 雪人共识的DAG实现将`b`定义为一个顶点应该包含的交易数。从理论上讲，增加`b`将增加吞吐量，同时增加延迟。节点将最多等待1秒来收集一个批处理，然后将立即发出整个批处理。取值至少为`1`。默认为`30`。
 
-`--snow-avalanche-num-parents` \(int\):
+`--snow-avalanche-num-parents` \(整数\):
 
-DAG implementations of Snow consensus define `p` as the number of parents a vertex should include. Increasing `p` will improve the amortization of network queries. However, by increasing the connectivity of the graph, the complexity of the graph traversals is increased. The value must be at least `2`. Defaults to `5`.
+雪人共识的DAG实现将`p`定义为一个顶点应该包含的父结点的数量。增加`p`将改善网络查询的摊销。然而，通过增加图的连通性，图遍历的复杂性也会增加。取值至少为“2”。默认为“5”。DAG implementations of Snow consensus define `p` as the number of parents a vertex should include. Increasing `p` will improve the amortization of network queries. However, by increasing the connectivity of the graph, the complexity of the graph traversals is increased. The value must be at least `2`. Defaults to `5`.
 
 `--snow-concurrent-repolls` \(int\):
 
@@ -500,9 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg2OTA4NzMsMTIyNTMzNDExNSwxNz
-U4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQz
-NDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsND
-YyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3
-ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbMTMzODE1MjI5OSwtMTM1ODY5MDg3MywxMj
+I1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2
+MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLT
+Q5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0
+ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX
+0=
 -->
