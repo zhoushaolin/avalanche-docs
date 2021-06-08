@@ -226,12 +226,11 @@ message SECP256K1TransferInput {
 
 ## 输出
 
-Coreth原子交易的输出要么是一个`EVMOutput`被添加到这个链上的一个地址的余额，要么是一个`TransferableOutput`\(它包含一个' SECP256K1TransferOutput ' \)被移动到另一个链。
-Outputs to Coreth Atomic Transactions are either an `EVMOutput` to be added to the balance of an address on this chain or a `TransferableOutput` \(whcih contains a `SECP256K1TransferOutput`\) to be moved to another chain.
+Coreth原子交易的输出要么是一个`EVMOutput`被添加到这个链上的一个地址的余额，要么是一个`TransferableOutput`\(它包含一个`SECP256K1TransferOutput` \)被移动到另一个链。
 
-The EVM Output will be used in `ImportTx` to add funds to this chain, while the `TransferableOutput` will be used to export atomic UTXOs to another chain.
+EVM输出将在`ImportTx`中用于将资金添加到这个链中，而 `TransferableOutput`将用于将原子UTXO导出到另一个链中。
 
-### EVM Output
+### EVM 输出
 
 Output type specifying a state change to be applied to an EVM account as part of an `ImportTx`.
 
@@ -923,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcxMzg0Nl19
+eyJoaXN0b3J5IjpbLTE2NzExMjU4MjZdfQ==
 -->
