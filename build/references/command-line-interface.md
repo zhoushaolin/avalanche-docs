@@ -295,11 +295,13 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 最大持续质押时间，单位为小时。主网默认为`8760h`\(365天\)。
 
-`--max-validator-stake` \(int\):s
+`--max-validator-stake` \(整数\):s
+
+以nAVAX为单位的最大zhi ya，可以放置在主网络上的验证器上的最大股份。在主网上默认为' 3000000000000000 ' \(3,000,000 AVAX\)。这包括验证器和委托器向验证器提供的权益。
 
 The maximum stake, in nAVAX, that can be placed on a validator on the primary network. Defaults to `3000000000000000` \(3,000,000 AVAX\) on Main Net. This includes stake provided by both the validator and by delegators to the validator.
 
-`--snow-avalanche-batch-size` \(int\):
+`--snow-avalanche-batch-size` \(整数\):
 
 DAG implementations of Snow consensus define `b` as the number of transactions a vertex should include. Increasing `b` will, theoretically, increase throughput while increasing latency. The node will wait for at most 1 second to collect a batch, and will then issue the entire batch at once. The value must be at least `1`. Defaults to `30`.
 
@@ -500,7 +502,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5NjAzNzM2LDEyMjUzMzQxMTUsMTc1OD
+eyJoaXN0b3J5IjpbNTMyNzE1ODQxLDEyMjUzMzQxMTUsMTc1OD
 Y0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3
 LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2Mj
 Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
