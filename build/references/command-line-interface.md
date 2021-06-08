@@ -177,9 +177,9 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 * `--network-id=mainnet` -&gt; 连接到主网 \(默认\)。
 * `--network-id=fuji` -&gt; 连接到富士测试网。
-* `--network-id=testnet` -&gt; 连接到当前测试网。\(当下测试网为fu\)
-* `--network-id=local` -&gt; Connect to a local test-network.
-* `--network-id=network-{id}` -&gt; Connect to the network with the given ID. `id` must be in the range `[0, 2^32)`.
+* `--network-id=testnet` -&gt; 连接到当前测试网。\(当下为富士测试网\)
+* `--network-id=local` -&gt;连接到本地测试网。
+* `--network-id=network-{id}` -&gt; 连接到给定ID到网络。`id` must be in the range `[0, 2^32)`.
 
 ### Public IP
 
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzUyODAyNyw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbLTM4NjE1MDQ3MCw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
