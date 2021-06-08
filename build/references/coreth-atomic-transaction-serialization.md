@@ -256,7 +256,7 @@ EVM输出包含`address`, `amount`和`assetID`。
                       +-------------------------+
 ```
 
-#### Proto EVMshu
+#### Proto EVM输出规范
 ```text
 message  {
     bytes address = 1; // 20 bytes
@@ -265,9 +265,8 @@ message  {
 }
 ```
 
-#### EVM Output Example
-
-Let's make an EVM Output:
+#### EVM输出示例
+让我们创建一个EVM输出:
 
 * `Address: 0x0eb5ccb85c29009b6060decb353a38ea3b52cd20`
 * `Amount: 500000000000`
@@ -295,9 +294,9 @@ Let's make an EVM Output:
 ]
 ```
 
-### Transferable Output
+### 可转移输出
 
-Transferable outputs wrap a `SECP256K1TransferOutput` with an asset ID.
+可转移输出用一个资产ID打包`SECP256K1TransferOutput` with an asset ID.
 
 #### What Transferable Output Contains
 
@@ -921,5 +920,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3OTI4MzU5XX0=
+eyJoaXN0b3J5IjpbODA2Mjc3MTQzXX0=
 -->
