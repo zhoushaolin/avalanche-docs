@@ -145,12 +145,12 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--log-level` \(字符串 `{Off, Fatal, Error, Warn, Info, Debug, Verbo}`\):
 
-The log level determines which events to log. There are 7 different levels, in order from highest priority to lowest.
+日志级别决定了要记录哪些事件。有7个不同的级别，从最高优先级到最低优先级。
 
-* `Off`: No logs have this level of logging.
-* `Fatal`: Fatal errors that are not recoverable.
-* `Error`: Errors that the node encounters, these errors were able to be recovered.
-* `Warn`: A Warning that might be indicative of a spurious byzantine node, or potential future error.
+* `Off`: 没有日志具有此级别的日志记录。
+* `Fatal`: 不可恢复的致命错误。
+* `Error`: 当节点遇到错误时，这些错误可以被恢复。
+* `Warn`: 一个警告，可能表明存在虚假的拜占庭节点，或潜在的未来错误。A Warning that might be indicative of a spurious byzantine node, or potential future error.
 * `Info`: Useful descriptions of node status updates.
 * `Debug`: Debug logging is useful when attempting to understand possible bugs in the code. More information that would be typically desired for normal usage will be displayed.
 * `Verbo`: Tracks extensive amounts of information the node is processing. This includes message contents and binary dumps of data for extremely low level protocol analysis.
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjMwODg1OCw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbLTY3NzU4MzMwOSw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
