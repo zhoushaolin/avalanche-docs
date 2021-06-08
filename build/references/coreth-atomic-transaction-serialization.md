@@ -449,11 +449,11 @@ message SECP256K1TransferOutput {
 
 ### ExportTx
 
-ExportTx is a transaction to export funds from Coreth to a different chain.
+ExportTx是将资金从Coreth导出到另一个链的交易。
 
-#### What ExportTx Contains
+#### ExportTx 包含什么
 
-An ExportTx contains an `typeID`, `networkID`, `blockchainID`, `destinationChain`, `inputs`, and `exportedOutputs`.
+ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `inputs`和`exportedOutputs`。
 
 * **`typeID`** is an int that the type for an ExportTx. The typeID for an exportTx is 1.
 * **`networkID`** is an int that defines which Avalanche network this transaction is meant to be issued to. This could refer to mainnet, fuji, etc. and is different than the EVM's network ID.
@@ -920,6 +920,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc1NjYzMDMsMzUyMjc5ODE1LDEzOD
-UwNDkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTc4ODY3ODUxMSwzNTIyNzk4MTUsMTM4NT
+A0OTAwMV19
 -->
