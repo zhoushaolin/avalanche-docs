@@ -455,7 +455,7 @@ ExportTx是将资金从Coreth导出到另一个链的交易。
 
 ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `inputs`和`exportedOutputs`。
 
-* **`typeID`** is an int that the type for an ExportTx. The typeID for an exportTx is 1.
+* **`typeID`** ExportTx的类型是一个整数。exportTx的类型ID 为1。
 * **`networkID`** is an int that defines which Avalanche network this transaction is meant to be issued to. This could refer to mainnet, fuji, etc. and is different than the EVM's network ID.
 * **`blockchainID`** is a 32-byte array that defines which blockchain this transaction was issued to.
 * **`destinationChain`** is a 32-byte array that defines which blockchain this transaction exports funds to.
@@ -920,6 +920,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODY3ODUxMSwzNTIyNzk4MTUsMTM4NT
+eyJoaXN0b3J5IjpbMTA4Nzk0NDExNywzNTIyNzk4MTUsMTM4NT
 A0OTAwMV19
 -->
