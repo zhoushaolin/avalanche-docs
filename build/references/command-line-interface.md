@@ -357,14 +357,13 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-initial-timeout` \(持续时间\):
 
-自适应超时管理器的初始超时值，单位为纳秒。默认为“5 s”。
-Initial timeout value of the adaptive timeout manager, in nanoseconds. Defaults to `5s`.
+自适应超时管理器的初始超时值，单位为纳秒, 默认为`5s`。
 
-`--network-minimum-timeout` \(duration\):
+`--network-minimum-timeout` \(持续时间\):
 
-Minimum timeout value of the adaptive timeout manager, in nanoseconds. Defaults to `2s`.
+自适应超时管理器的最小超时值，单位为纳秒。默认为`2s`。
 
-`--network-maximum-timeout` \(duration\):
+`--network-maximum-timeout` \(持续时间\):
 
 Maximum timeout value of the adaptive timeout manager, in nanoseconds. Defaults to `10s`.
 
@@ -501,10 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg2MTc0NjAsMzQ0NzE5NjE4LC0xMz
-U4NjkwODczLDEyMjUzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0
-OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMT
-A1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMx
-OTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LD
-E5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbLTc5NTg4OTMxNCwzNDQ3MTk2MTgsLTEzNT
+g2OTA4NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5
+MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMD
+U2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5
+Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMT
+k5MDk1MTI2NF19
 -->
