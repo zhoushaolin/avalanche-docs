@@ -333,12 +333,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--tx-fee` \(整数\):
 
-交易有效需要烧掉的nAVAX金额, 该参数需要当前形式的网络协议。将此值从默认值改为仅应在专用网络上进行。每笔交易默认为“1000000”nAVAX。
+交易有效需要烧掉的nAVAX金额, 该参数需要当前形式的网络协议。将此值从默认值改为仅应在专用网络上进行。每笔交易默认为 `1000000`nAVAX。
 
-The required amount of nAVAX to be burned for a transaction to be valid. This parameter requires network agreement in its current form. Changing this value from the default should only be done on private networks. Defaults to `1000000` nAVAX per transaction.
+`--uptime-requirement` \(浮动\):
 
-`--uptime-requirement` \(float\):
-
+验证者必须在线接受奖励的时间。默认为“0.6”。
 Fraction of time a validator must be online to receive rewards. Defaults to `0.6`.
 
 ### Message Handling
@@ -502,10 +501,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNDc0NDk4LDM0NDcxOTYxOCwtMTM1OD
-Y5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDky
-MiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNT
-Y3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTky
-ODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOT
-kwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMTczMzM1NDg3MiwzNDQ3MTk2MTgsLTEzNT
+g2OTA4NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5
+MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMD
+U2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5
+Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMT
+k5MDk1MTI2NF19
 -->
