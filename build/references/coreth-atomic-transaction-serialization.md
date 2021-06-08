@@ -97,7 +97,7 @@ message  {
 * **`AssetID`** 是一个32字节数组，它定义了该输入引用的资产。
 * **`Input`** 是一个`SECP256K1TransferInput`, 定义如下。
 
-#### Gantt ke
+#### Gantt 可转移输入规范
 
 ```text
 +------------+----------+------------------------+
@@ -113,7 +113,7 @@ message  {
                         +------------------------+
 ```
 
-#### Proto Transferable Input Specification
+#### Proto 可转移输入规范
 
 ```text
 message TransferableInput {
@@ -124,9 +124,9 @@ message TransferableInput {
 }
 ```
 
-#### Transferable Input Example
+#### 可转移输入示例
 
-Let's make a transferable input:
+让我们创建一个可转移输入:
 
 * `TxID: 0x6613a40dcdd8d22ea4aa99a4c84349056317cf550b6685e045e459954f258e59`
 * `UTXOIndex: 1`
@@ -161,7 +161,7 @@ Let's make a transferable input:
 ]
 ```
 
-### SECP256K1 Transfer Input
+### SECP256K1 转移输入
 
 A [secp256k1](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/build/cryptographic-primitives/README.md#cryptography-in-the-avalanche-virtual-machine) transfer input allows for spending an unspent secp256k1 transfer output.
 
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY3NDYwNjhdfQ==
+eyJoaXN0b3J5IjpbMTM2ODgzNjM3OF19
 -->
