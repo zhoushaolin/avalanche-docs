@@ -86,13 +86,11 @@ message  {
 
 ### 可转移输入
 
-可转移输入包装`SECP256K1TransferInput`。可转移输入描述具有提供的传输输入的特定UTXO。
+可转移输入包装`SECP256K1TransferInput`。可转移输入用提供的可转移输入描述一个特定的UTXO。
 
-Transferable Input wraps a `SECP256K1TransferInput`. Transferable inputs describe a specific UTXO with a provided transfer input.
+#### 可转移输入包含什么
 
-#### What Transferable Input Contains
-
-A transferable input contains a `TxID`, `UTXOIndex` `AssetID` and an `Input`.
+可转移输入包含 `TxID`, `UTXOIndex` `AssetID` 和 `Input`。
 
 * **`TxID`** is a 32-byte array that defines which transaction this input is consuming an output from.
 * **`UTXOIndex`** is an int that defines which utxo this input is consuming in the specified transaction.
@@ -924,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTQ2MTQxMl19
+eyJoaXN0b3J5IjpbLTEwODc0NTQ2NTZdfQ==
 -->
