@@ -433,13 +433,13 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 如果`restart-on-disconnected`为`true`，节点将检查每一个`disconnected-check-frequency`，看看它是否与所有对等点失去了连接。如果节点因`disconnected-restart-timeout`而失去了与所有对等节点的连接，它将重新启动。
 
-如果`restart-on-disconnected`为' false '或' disconnected-check-frequency '或' disconnected-restart-timeout '为0，节点将不会重启。
-If `restart-on-disconnected` is `false` or either`disconnected-check-frequency` or`disconnected-restart-timeout` is 0, node will not restart.
+如果`restart-on-disconnected`为`false`或' `disconnected-check-frequency`或`disconnected-restart-timeout`为0，节点将不会重启。
 
-### Plugins
+### 插件
 
-`--plugin-dir` \(string, file path\):
+`--plugin-dir` \(字符串、文件路径\):
 
+指定`evm`插件保存的目录。默认为“$ HOME / .avalanchego /构建/插件”的。
 Specifies the directory in which the `evm` plugin is kept. Defaults to `"$HOME/.avalanchego/build/plugins"`.
 
 `--coreth-config` \(json\):
@@ -501,11 +501,11 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5ODQ1NzE0LC0xNjc0MTU0NTM4LC05NT
-E5Mjc2NTMsMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3
-MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNT
-I2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5
-NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMz
-Q4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUx
-MjY0XX0=
+eyJoaXN0b3J5IjpbLTE2NTI0NzU0MDYsLTE2NzQxNTQ1MzgsLT
+k1MTkyNzY1MywyODI4MTM2NTEsMzQ0NzE5NjE4LC0xMzU4Njkw
+ODczLDEyMjUzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLD
+E1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1Njcx
+MTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4Ny
+wzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5
+NTEyNjRdfQ==
 -->
