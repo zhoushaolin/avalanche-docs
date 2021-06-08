@@ -363,11 +363,11 @@ message TransferableOutput {
 
 一个[secp256k1](cryptographic-primitives.md#cryptography-in-the-avalanche-virtual-machine) 传输输出允许在指定的Unix时间之后将一定数量的资产发送到地址集合。
 
-#### What SECP256K1 Transfer Output Contains
+#### SECP256K1传输输出包含什么
 
-A secp256k1 transfer output contains a `TypeID`, `Amount`, `Locktime`, `Threshold`, and `Addresses`.
+一个secp256k1传输输出包含 `TypeID`, `Amount`, `Locktime`, `Threshold`和`Addresses`。
 
-* **`TypeID`** is the ID for this output type. It is `0x00000007`.
+* **`TypeID`** 是此类型的ID, 它是`0x00000007`。
 * **`Amount`** is a long that specifies the quantity of the asset that this output owns. Must be positive.
 * **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
 * **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
@@ -920,5 +920,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTA0OTAwMV19
+eyJoaXN0b3J5IjpbMTYwMDQ5ODU1MywxMzg1MDQ5MDAxXX0=
 -->
