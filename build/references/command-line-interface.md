@@ -226,13 +226,12 @@ Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高�
 `--staking-disabled-weight` \(整数\):
 
 当锁定被禁用时，提供给每个对等点的重量。默认为“1”。
-Weight to provide to each peer when staking is disabled. Defaults to `1`.
 
-### Version
+### 版本
 
-`--version` \(boolean\)
+`--version` \(布尔\)
 
-If this is `true`, print the version and quit. Defaults to `false`.
+如果这是`true`，打印版本并退出。默认为`false`。
 
 ## Advanced Options
 
@@ -499,9 +498,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMz
-EyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3
-NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMj
-EzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcw
-MzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbMTcwNTEzMDE2MCwxMjI1MzM0MTE1LDE3NT
+g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
+NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
+I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
+MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
