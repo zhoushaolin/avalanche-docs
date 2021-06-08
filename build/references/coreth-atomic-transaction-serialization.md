@@ -1,6 +1,7 @@
 # Coreth 原子交易格式
 
-This page is meant to be the single source of truth for how we serialize atomic transactions in `Coreth`. This document uses the [primitive serialization](serialization-primitives.md) format for packing and [secp256k1](cryptographic-primitives.md#cryptography-in-the-avalanche-virtual-machine) for cryptographic user identification.
+这个页面是我们如何在`Coreth`中序列化原子交易的唯一来源。本文档使用[原始的序列化](serialization-primitives.md)格式进行打包，并使用[secp256k1](cryptographic-primitives.md#cryptography-in-the-avalanche-virtual-machine) 格式进行加密用户识别。
+
 
 ## Codec ID
 
@@ -922,5 +923,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM1MjA2ODNdfQ==
+eyJoaXN0b3J5IjpbNzY1MDM1NzUzXX0=
 -->
