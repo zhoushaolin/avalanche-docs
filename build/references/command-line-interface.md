@@ -91,11 +91,11 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--db-dir` \(字符串,文件路径\):
 
-指定数据库持久化到的目录。默认为“$ HOME / .avalanchego / db”的。
-Specifies the directory to which the database is persisted. Defaults to `"$HOME/.avalanchego/db"`.
+指定数据库持久化到的目录。默认为`"$HOME/.avalanchego/db"`。
 
-`--db-enabled` \(boolean\):
+`--db-enabled` \(布尔\):
 
+如果设置为`false`，状态更新只对内存中的数据库执行，而不对永久存储进行任何更改。当设置为`true`时，状态更新将写入本地持久数据库。默认为“真正的”。
 If set to `false`, state updates are performed solely to an in-memory database, without making any changes on permanent storage. When set to `true`, state updates are written to a local persistent database. Defaults to `true`.
 
 ### Genesis
@@ -499,7 +499,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTEwOTUwNiwtNDk0ODEyNDU4LDQ2Mj
+eyJoaXN0b3J5IjpbMjA4MzMyNzQzMSwtNDk0ODEyNDU4LDQ2Mj
 Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
 OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
