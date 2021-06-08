@@ -234,12 +234,12 @@ EVM输出将在`ImportTx`中用于将资金添加到这个链中，而 `Transfer
 
 作为`ImportTx`的一部分, 输出类型指定应用到EVM帐户的状态更改。
 
-#### EVM Output Contains
+#### EVM输出包含什么
 
-An EVM Output contains an `address`, `amount`, and `assetID`.
+EVM输出包含`address`, `amount`和`assetID`。
 
-* **`Address`** is the EVM address that will receive the funds.
-* **`Amount`** is the amount of the asset to be transferred \(specified in nAVAX for AVAX and the smallest denomination for all other assets\).
+* **`Address`** 是用来接收资金的EVM地址。
+* **`Amount`** 是要转让的资产的数量(对其他所有资产, AVAX在nAVAX中指定，所有其他资产的最小面值)。is the amount of the asset to be transferred \(specified in nAVAX for AVAX and the smallest denomination for all other assets\).
 * **`AssetID`** is the ID of the asset to transfer.
 
 #### Gantt EVM Output Specification
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNDgzNDY0XX0=
+eyJoaXN0b3J5IjpbMTc1OTA0MjE5MV19
 -->
