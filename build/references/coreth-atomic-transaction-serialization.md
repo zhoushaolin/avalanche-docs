@@ -171,10 +171,9 @@ message TransferableInput {
 
 * **`TypeID`** 是此类型的ID, 它是 `0x00000005`。
 * **`Amount`** 是一个长值，它指定该输入应该从UTXO消耗的数量。必须是积极的。必须等于UTXO中指定的数量。
-* is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
-* **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
+* **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
 
-#### Gantt SECP256K1 Transfer Input Specification
+#### Gantt SECP256K1 输入规范
 
 ```text
 +-------------------------+-------------------------------------+
@@ -923,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTcwNjA5OTBdfQ==
+eyJoaXN0b3J5IjpbNDQ2MTc3MTQ1XX0=
 -->
