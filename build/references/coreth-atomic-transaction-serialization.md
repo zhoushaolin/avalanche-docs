@@ -405,7 +405,7 @@ message SECP256K1TransferOutput {
 
 #### SECP256K1 转移输出示例
 
-Let's make a secp256k1 transfer output with:
+我们创建一个secp256k1传输输出:
 
 * **`TypeID`**: 7
 * **`Amount`**: 1000000
@@ -920,5 +920,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg4NDkyMTEsMTM4NTA0OTAwMV19
+eyJoaXN0b3J5IjpbMzUyMjc5ODE1LDEzODUwNDkwMDFdfQ==
 -->
