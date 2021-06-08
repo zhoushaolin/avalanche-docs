@@ -73,7 +73,7 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 如果为true，将在引导失败时重试引导。
 
-`--bootstrap-retry-max-attempts` \(单元\):
+`--bootstrap-retry-max-attempts` \(uint\):
 
 失败后重试引导的最大次数。
 
@@ -373,8 +373,7 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-timeout-coefficient` \(持续时间\):
 
-对等点的请求将在\[`network-timeout-coefficient`\] \* \[平均请求延迟\] 后超时。默认为“2”。
-Requests to peers will time out after \[`network-timeout-coefficient`\] \* \[average request latency\]. Defaults to `2`.
+对等点的请求将在\[`network-timeout-coefficient`\] \* \[平均请求延迟\] 后超时, 默认为`2`。
 
 `--network-health-min-conn-peers` \(uint\):
 
@@ -501,10 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTc5ODU3NiwzNDQ3MTk2MTgsLTEzNT
-g2OTA4NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5
-MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMD
-U2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5
-Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMT
-k5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1OD
+Y5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDky
+MiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNT
+Y3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTky
+ODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOT
+kwOTUxMjY0XX0=
 -->
