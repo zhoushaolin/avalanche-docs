@@ -129,14 +129,13 @@ HTTP API监听的地址, 默认为`127.0.0.1`。这意味着默认情况下，�
 
 `--ipcs-chain-ids` \(字符串\)
 
-以逗号分隔的要连接的链id列表。缺省值:无。
-Comma separated list of chain ids to connect to. There is no default value.
+以逗号分隔的要连接的链ID列表。此处没有默认值。
 
-`--ipcs-path` \(string\)
+`--ipcs-path` \(字符串\)
 
-The directory \(Unix\) or named pipe prefix \(Windows\) for IPC sockets. Defaults to /tmp.
+IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
-### File Descriptor Limit
+### 文件描述符的限制
 
 `--fd-limit` \(int\)
 
@@ -499,8 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUyMzUyMTIsMTA1NjcxMTk2OCwtND
-k0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4
-NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ
-==
+eyJoaXN0b3J5IjpbMjA1NTc2MzY2NywxMDU2NzExOTY4LC00OT
+Q4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2
+OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
 -->
