@@ -421,16 +421,15 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 逗号分隔的子网列表，该节点将验证添加到其中的子网。默认为空\(只验证主网络\)。
 
-### Restart on Disconnect
+### 重启断开连接
 
 有些用户遇到过这样的问题，即当他们的节点失去互联网连接或IP地址更改时，他们的AvalancheGo节点进入不健康状态。为了帮助解决这个问题，有一些命令行标志会导致节点在与所有对等节点断开连接时重新启动。它们是:
-Some users have had an issue where their AvalancheGo node gets into an unhealthy state when their node loses internet connectivity or when their IP address changes. To help deal with this, there are command line flags that cause the node to restart if it disconnected from all peers. They are:
 
-`--restart-on-disconnected` \(boolean, defaults to `false`\)
+`--restart-on-disconnected` \(布尔, 默认为`false`\)
 
-`--disconnected-check-frequency` \(duration, defaults to `10s`\)
+`--disconnected-check-frequency` \(持续时间, 默认为`10s`\)
 
-`--disconnected-restart-timeout` \(duration, defaults to `1m`\)
+`--disconnected-restart-timeout` \(持续时间, 默认为`1m`\)
 
 If `restart-on-disconnected` is `true`, the node will check every `disconnected-check-frequency` to see whether it has lost connection to all peers. If the node has lost connection to all peers for `disconnected-restart-timeout`, it will restart.
 
@@ -501,11 +500,11 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTA1MDcwLC0xNjc0MTU0NTM4LC05NT
-E5Mjc2NTMsMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3
-MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNT
-I2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5
-NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMz
-Q4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUx
-MjY0XX0=
+eyJoaXN0b3J5IjpbLTEzNDc3Mjc2ODUsLTE2NzQxNTQ1MzgsLT
+k1MTkyNzY1MywyODI4MTM2NTEsMzQ0NzE5NjE4LC0xMzU4Njkw
+ODczLDEyMjUzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLD
+E1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1Njcx
+MTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4Ny
+wzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5
+NTEyNjRdfQ==
 -->
