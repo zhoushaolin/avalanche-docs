@@ -253,9 +253,9 @@ Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高�
 
 `--benchlist-min-failing-duration` \(持续时间\):
 
-Minimum amount of time messages to a peer must be failing before the peer is benched. Defaults to `5m`.
+在对对等体进行测试之前，发送到对等体的消息必须失败的最小时间量, 默认为`5m`。
 
-### Consensus Parameters
+### 共识的参数
 
 `--consensus-gossip-frequency` \(duration\):
 
@@ -498,9 +498,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk5OTExMTcsMTIyNTMzNDExNSwxNz
-U4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQz
-NDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsND
-YyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3
-ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbLTgzNTY4OTM3OCwxMjI1MzM0MTE1LDE3NT
+g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
+NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
+I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
+MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
