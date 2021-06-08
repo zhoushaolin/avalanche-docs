@@ -558,9 +558,9 @@ ImportTx是将资金从另一个链导入到Coreth的交易。
 
 #### ImportTx包含什么
 
-An ImportTx contains an `typeID`, `networkID`, `blockchainID`, `destinationChain`, `importedInputs`, and `Outs`.
+ImportTx包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `importedInputs`和`Outs`。
 
-* **`typeID`** is an int that the type for an ImportTx. The typeID for an `ImportTx` is 0.
+* **`typeID`** 是一个int类型的ImportTx。' ImportTx '的类型id为0。is an int that the type for an ImportTx. The typeID for an `ImportTx` is 0.
 * **`networkID`** is an int that defines which Avalanche network this transaction is meant to be issued to. This could refer to mainnet, fuji, etc. and is different than the EVM's network ID.
 * **`blockchainID`** is a 32-byte array that defines which blockchain this transaction was issued to.
 * **`sourceChain`** is a 32-byte array that defines which blockchain from which to import funds.
@@ -920,6 +920,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY5NzA5MDgsMzUyMjc5ODE1LDEzOD
+eyJoaXN0b3J5IjpbLTEyOTExMDI1NTUsMzUyMjc5ODE1LDEzOD
 UwNDkwMDFdfQ==
 -->
