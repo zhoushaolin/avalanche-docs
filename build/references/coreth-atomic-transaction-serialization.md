@@ -86,7 +86,8 @@ message  {
 
 ### 可转移输入
 
-Transferable Input包装' SECP256K1TransferInput '。可转移输入描述具有提供的传输输入的特定UTXO。
+可转移输入包装`SECP256K1TransferInput`。可转移输入描述具有提供的传输输入的特定UTXO。
+
 Transferable Input wraps a `SECP256K1TransferInput`. Transferable inputs describe a specific UTXO with a provided transfer input.
 
 #### What Transferable Input Contains
@@ -923,5 +924,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2Njk4NzM3XX0=
+eyJoaXN0b3J5IjpbMTI4NTQ2MTQxMl19
 -->
