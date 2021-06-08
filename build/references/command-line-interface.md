@@ -81,11 +81,11 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--conn-meter-max-conns` \(整数\):
 
-最多只能从每个`conn-meter-reset-duration`给定的IP升级`conn-meter-max-conns`连接。如果' conn-meter-reset-duration '为0，则传入连接不受速率限制。
-Upgrade at most `conn-meter-max-conns` connections from a given IP per `conn-meter-reset-duration`. If `conn-meter-reset-duration` is 0, incoming connections are not rate-limited.
+最多只能从每个`conn-meter-reset-duration`给定的IP升级`conn-meter-max-conns`连接。如果`conn-meter-reset-duration`为0，则传入连接不受速率限制。
 
-`--conn-meter-reset-duration` \(duration\):
+`--conn-meter-reset-duration` \(持续时间\):
 
+最多只能从每个每次“conn-meter-reset-duration”最多从给定IP升级“conn-meter-max-conn”连接。如果' conn-meter-reset-duration '为0，则传入连接不受速率限制。
 Upgrade at most `conn-meter-max-conns` connections from a given IP per `conn-meter-reset-duration`. If `conn-meter-reset-duration` is 0, incoming connections are not rate-limited.
 
 ### Database
@@ -499,7 +499,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0OD
-IyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2
-NF19
+eyJoaXN0b3J5IjpbMjU1ODU5MDgyLDQ2MjY2NDA4OCwtMTIxMz
+MxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0
+LDE5OTA5NTEyNjRdfQ==
 -->
