@@ -163,12 +163,12 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--log-display-highlight` \(字符串`{auto, plain, colors}`\):
 
-是否将日志着色/高亮显示。当输出是终端时，默认会高亮显示。否则，应该是“{auto, plain, colors}”之一
-Whether to color/highlight display logs. Default highlights when the output is a terminal. Otherwise, should be one of `{auto, plain, colors}`
+是否将日志着色/高亮显示。当输出是终端时，默认会高亮显示。否则，应该是这三种情况`{auto, plain, colors}`之一
 
-`--log-dir` \(string, file path\):
+`--log-dir` \(字符串、文件路径\):
 
-Specifies the directory in which system logs are kept. Defaults to `"$HOME/.avalanchego/logs"`.
+指定保存系统日志的目录。默认为`"$HOME/.avalanchego/logs"`。
+
 
 ### Network ID
 
@@ -499,7 +499,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODU3OTc1Miw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbLTI1MzAwODAwOSw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
