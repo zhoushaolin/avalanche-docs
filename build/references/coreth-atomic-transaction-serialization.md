@@ -167,10 +167,11 @@ message TransferableInput {
 
 #### SECP256K1 传输输入包含什么
 
-一个secp256k1 transfer input contains an `Amount` and `AddressIndices`.
+一个secp256k1 传输输入包含 `Amount` 和`AddressIndices`。
 
-* **`TypeID`** is the ID for this input type. It is `0x00000005`.
-* **`Amount`** is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
+* **`TypeID`** 是此类型的ID, 它是 `0x00000005`。
+* **`Amount`** 是一个长值，它指定该输入应该从UTXO消耗的数量。必须是积极的。必须等于UTXO中指定的数量。
+* is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
 * **`AddressIndices`** is a list of unique ints that define the private keys that are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 
 #### Gantt SECP256K1 Transfer Input Specification
@@ -922,5 +923,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1ODMwMjAyXX0=
+eyJoaXN0b3J5IjpbLTEwOTcwNjA5OTBdfQ==
 -->
