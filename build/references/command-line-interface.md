@@ -152,13 +152,14 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 * `Error`: 当节点遇到错误时，这些错误可以被恢复。
 * `Warn`: 一个警告，可能表明存在虚假复杂的节点，或潜在的未来错误。
 * `Info`: 对节点状态更新的有用描述。
-* `Debug`: 调试日志记录在试图理解代码中可能存在的漏洞时非常有用。将显示通常需要用于正常使用的更多信息。Debug logging is useful when attempting to understand possible bugs in the code. More information that would be typically desired for normal usage will be displayed.
-* `Verbo`: Tracks extensive amounts of information the node is processing. This includes message contents and binary dumps of data for extremely low level protocol analysis.
+* `Debug`: 调试日志记录在试图理解代码中可能存在的漏洞时非常有用。将显示通常需要用于正常使用的更多信息。
+* `Verbo`: 跟踪节点正在处理的大量信息。这包括用于极低级别协议分析的消息内容和数据二进制转储。
 
-When specifying a log level note that all logs with the specified priority or higher will be tracked. Defaults to `Info`.
+当指定日志级别时，请注意所有具有指定优先级或更高优先级的日志将被跟踪。默认为`Info`。
 
-`--log-display-level` \(string, `{Off, Fatal, Error, Warn, Info, Debug, Verbo}`\):
+`--log-display-level` \(字符串`{Off, Fatal, Error, Warn, Info, Debug, Verbo}`\):
 
+日志级别决定将哪些事件显示到屏幕上。如果留空，将默认为`--log-level`提供的值。
 The log level determines which events to display to the screen. If left blank, will default to the value provided to `--log-level`.
 
 `--log-display-highlight` \(string, `{auto, plain, colors}`\):
@@ -498,8 +499,8 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDAyOTM3NSw1OTQwMjQzNDcsMTM3MT
-gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
-LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
-g1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbMzg2NTIzNTYwLDU5NDAyNDM0NywxMzcxOD
+I2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgs
+LTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0OD
+U1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
