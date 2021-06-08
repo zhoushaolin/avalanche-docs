@@ -393,16 +393,15 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-health-max-send-fail-rate` \(浮动\):
 
-如果消息超过此部分发送失败，节点将报告不健康。必须在\[0,1\]中。默认为“0.25”。
-Node will report unhealthy if more than this portion of message sends fail. Must be in \[0,1\]. Defaults to `0.25`.
+如果超过此部分的消息发送失败，节点将报告不健康。必须在\[0,1\]中。默认为`0.25`。
 
-### Health
+### 健康
 
-`--health-check-frequency` \(duration\):
+`--health-check-frequency` \(持续时间\):
 
-Health check runs with this freqency. Defaults to `30s`.
+运行状况检查以此频率运行。默认为`30s`。
 
-`--health-check-averager-halflife` \(duration\):
+`--health-check-averager-halflife` \(持续时间\):
 
 Halflife of averagers used in health checks \(to measure the rate of message failures, for example.\) Larger value --&gt; less volatile calculation of averages. Defaults to `10s`.
 
@@ -501,10 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTM4NDU1OSwyODI4MTM2NTEsMzQ0Nz
-E5NjE4LC0xMzU4NjkwODczLDEyMjUzMzQxMTUsMTc1ODY0NTUw
-MywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNz
-E4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4
-OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMj
-Q4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbLTIwMjI4MzA2NTAsMjgyODEzNjUxLDM0ND
+cxOTYxOCwtMTM1ODY5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1
+MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMz
+cxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQw
+ODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLT
+I0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
