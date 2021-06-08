@@ -267,11 +267,11 @@ Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高�
 
 `--creation-tx-fee` \(整数\):
 
-以nAVAX来付用于创建新状态的交易费。默认为 `1000000`nAVAX \(.001每个事务AVAX \)。
-Transaction fee, in nAVAX, for transactions that create new state. Defaults to `1000000` nAVAX \(.001 AVAX\) per transaction.
+以nAVAX来付用于创建新状态的交易费。默认为每个交易需要 `1000000`nAVAX \(.001AVAX \)。
 
-`--min-delegator-stake` \(int\):
+`--min-delegator-stake` \(整数\):
 
+以nAVAX中最小的股份可以委托给主网络的验证者。
 The minimum stake, in nAVAX, that can be delegated to a validator of the Primary Network.
 
 Defaults to `25000000000` \(25 AVAX\) on Main Net. Defaults to `5000000` \(.005 AVAX\) on Test Net.
@@ -499,7 +499,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Nzc0NzEyMSwxMjI1MzM0MTE1LDE3NT
+eyJoaXN0b3J5IjpbLTI4NjMwNTAzMCwxMjI1MzM0MTE1LDE3NT
 g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
 NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
 I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
