@@ -296,11 +296,11 @@ message  {
 
 ### 可转移输出
 
-可转移输出用一个资产ID打包`SECP256K1TransferOutput` with an asset ID.
+可转移输出用一个资产ID打包`SECP256K1TransferOutput`。
 
-#### What Transferable Output Contains
+#### 可转移输出包含什么
 
-A transferable output contains an `AssetID` and an `Output` which is a `SECP256K1TransferOutput`.
+可转移输出包含`AssetID` 和 `Output` (which is a `SECP256K1TransferOutput`.
 
 * **`AssetID`** is a 32-byte array that defines which asset this output references.
 * **`Output`** is a `SECP256K1TransferOutput` as defined below.
@@ -920,5 +920,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2Mjc3MTQzXX0=
+eyJoaXN0b3J5IjpbMTU4NzQ4NjQ3NV19
 -->
