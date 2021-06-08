@@ -209,7 +209,7 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--p2p-tls-enabled` \(布尔\):
 
-Avalanche使用双向身份验证的TLS连接来安全地识别连接对的`stakingID`。但是，可以在测试时禁用此功能。当禁用TLS时，“stakingID”将从节点声称拥有的IP地址派生出来。这也将禁用节点间通信的加密。这应该只用于测试。默认为“真正的”。当'——staking-enabled=true '时，这必须为真。
+Avalanche使用双向身份验证的TLS连接来安全地识别连接对的`stakingID`。但是，可以在测试时禁用此功能。当禁用TLS时，`stakingID`将从节点拥有的IP地址派生出来。这也将禁用节点间通信的加密。这应该只用于测试。默认为“真正的”。当'——staking-enabled=true '时，这必须为真。
 Avalanche uses two-way authenticated TLS connections to securely identify the `stakingID` of connected peers. However, This can be disabled for testing. When TLS is disabled, the `stakingID` will be derived from the IP Address the node claims it owns. This will also disable encryption of inter-node communication. This should only be specified for testing. Defaults to `true`. This must be true when `--staking-enabled=true`.
 
 `--staking-enabled` \(boolean\):
@@ -499,8 +499,8 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MT
-gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
-LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
-g1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5ND
+AyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1
+OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0ND
+E5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
