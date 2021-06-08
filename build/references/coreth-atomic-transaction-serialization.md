@@ -482,9 +482,9 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
                                              +-------------------------------------------------+
 ```
 
-#### ExportTx Example
+#### ExportTx 示例
 
-Let's make an EVM Output:
+我们来创建一个EVM输出:
 
 * **`TypeID`**: `1`
 * **`NetworkID`**: `12345`
@@ -554,9 +554,9 @@ Let's make an EVM Output:
 
 ### ImportTx
 
-ImportTx is a transaction to import funds to Coreth from another chain.
+ImportTx是将资金从另一个链导入到Coreth的交易。
 
-#### What ImportTx Contains
+#### ImportTx包含什么
 
 An ImportTx contains an `typeID`, `networkID`, `blockchainID`, `destinationChain`, `importedInputs`, and `Outs`.
 
@@ -920,6 +920,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzUwNzU5OSwzNTIyNzk4MTUsMTM4NT
-A0OTAwMV19
+eyJoaXN0b3J5IjpbLTEwMDY5NzA5MDgsMzUyMjc5ODE1LDEzOD
+UwNDkwMDFdfQ==
 -->
