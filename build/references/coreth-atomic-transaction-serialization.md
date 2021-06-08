@@ -16,10 +16,10 @@ Coreth原子交易的输入要么是来自这个链的`EVMInput`，要么是来�
 
 #### EVM输入包含什么
 
-An EVM Input contains an `address`, `amount`, `assetID`, and `nonce`.
+EVM输入包含`address`, `amount`, `assetID`和`nonce`。
 
-* **`Address`** is the EVM address from which to transfer funds.
-* **`Amount`** is the amount of the asset to be transferred \(specified in nAVAX for AVAX and the smallest denomination for all other assets\).
+* **`Address`**是用来转移资金的EVM地址。
+* **`Amount`** 是要转让的资产的金额(指定使用AVAX在nAVAX中指定，所有其他资产的最小面值)。is the amount of the asset to be transferred \(specified in nAVAX for AVAX and the smallest denomination for all other assets\).
 * **`AssetID`** is the ID of the asset to transfer.
 * **`Nonce`** is the nonce of the EVM account exporting funds.
 
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzI4MTY4MF19
+eyJoaXN0b3J5IjpbLTE1NDA1MDQzNDBdfQ==
 -->
