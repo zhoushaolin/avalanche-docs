@@ -169,14 +169,13 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 指定保存系统日志的目录。默认为`"$HOME/.avalanchego/logs"`。
 
+### 网络ID
 
-### Network ID
+`--network-id` \(字符串\):
 
-`--network-id` \(string\):
+该节点应连接到的网络的标识。可以是:
 
-The identity of the network the node should connect to. Can be one of:
-
-* `--network-id=mainnet` -&gt; Connect to Main net \(default\).
+* `--network-id=mainnet` -&gt; 连接到主网 \(默认\).
 * `--network-id=fuji` -&gt; Connect to the Fuji test-network.
 * `--network-id=testnet` -&gt; Connect to the current test-network. \(Right now, this is Fuji.\)
 * `--network-id=local` -&gt; Connect to a local test-network.
@@ -499,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzAwODAwOSw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbMTk1MTc0NjczOSw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
