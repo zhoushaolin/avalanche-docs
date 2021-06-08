@@ -101,7 +101,7 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--genesis` \(字符串\):
 
-包含要使用的起源数据的JSON文件的路径。当运行标准网络时忽略\(主网, 测试网\)有关生成数据的JSON表示示例，请参见Path to a JSON file containing the genesis data to use. Ignored when running standard networks \(Mainnet, Testnet.\) If not given, uses default genesis data. For an example of a JSON representation of genesis data, see [here](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16).
+包含要使用的起源数据的JSON文件的路径。当运行标准网\(主网, 测试网\)络时忽略, 如果没有指定, 有关生成数据的JSON表示示例，请参见Path to a JSON file containing the genesis data to use. Ignored when running standard networks \(Mainnet, Testnet.\) If not given, uses default genesis data. For an example of a JSON representation of genesis data, see [here](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16).
 
 ### HTTP Server
 
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk3NDUzMzMsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbODY2NTQ5NTE2LC00OTQ4MTI0NTgsNDYyNj
+Y0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4
+LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
 -->
