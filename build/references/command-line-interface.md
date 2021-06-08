@@ -87,9 +87,9 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 最多只能从每个 `conn-meter-reset-duration`给定的IP升级`conn-meter-max-conns`连接。如果`conn-meter-reset-duration`为0，则传入连接不受速率限制。
 
-### Database
+### 数据库
 
-`--db-dir` \(string, file path\):
+`--db-dir` \(字符串,文件路径\):
 
 Specifies the directory to which the database is persisted. Defaults to `"$HOME/.avalanchego/db"`.
 
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjIwNTQ1NywtNDk0ODEyNDU4LDQ2Mj
-Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
-OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbLTE4NDUwNDY3MTQsLTQ5NDgxMjQ1OCw0Nj
+I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
+MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
