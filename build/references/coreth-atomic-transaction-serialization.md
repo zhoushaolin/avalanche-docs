@@ -234,7 +234,7 @@ EVM输出将在`ImportTx`中用于将资金添加到这个链中，而 `Transfer
 
 作为`ImportTx`的一部分, 输出类型指定应用到EVM帐户的状态更改。
 
-#### What EVM Output Contains
+#### EVM Output Contains
 
 An EVM Output contains an `address`, `amount`, and `assetID`.
 
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcyMTg2NTRdfQ==
+eyJoaXN0b3J5IjpbMzIzNDgzNDY0XX0=
 -->
