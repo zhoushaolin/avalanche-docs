@@ -381,13 +381,13 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-health-max-time-since-msg-received` \(持续时间\):
 
-Node will report unhealthy if it hasn't received a message for this amount of time. Defaults to `1m`.
+如果在此时间内未收到消息，节点将报告不健康。默认为`1m`。
 
-`--network-health-max-time-since-no-requests` \(duration\):
+`--network-health-max-time-since-no-requests` \(持续时间\):
 
-Node will report unhealthy if it hasn't received a message for this amount of time. Defaults to `1m`.
+如果在此时间内未收到消息，节点将报告不健康。默认为`1m`。
 
-`--network-health-max-portion-send-queue-full` \(float\):
+`--network-health-max-portion-send-queue-full` \(浮动\):
 
 Node will report unhealthy if its send queue is more than this portion full. Must be in \[0,1\]. Defaults to `0.9`.
 
@@ -500,7 +500,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzEyMzQwMTYsMjgyODEzNjUxLDM0ND
+eyJoaXN0b3J5IjpbLTE1ODI3MDc1MTgsMjgyODEzNjUxLDM0ND
 cxOTYxOCwtMTM1ODY5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1
 MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMz
 cxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQw
