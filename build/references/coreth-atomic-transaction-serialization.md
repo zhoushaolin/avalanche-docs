@@ -92,12 +92,12 @@ message  {
 
 可转移输入包含 `TxID`, `UTXOIndex` `AssetID` 和 `Input`。
 
-* **`TxID`** is a 32-byte array that defines which transaction this input is consuming an output from.
-* **`UTXOIndex`** is an int that defines which utxo this input is consuming in the specified transaction.
-* **`AssetID`** is a 32-byte array that defines which asset this input references.
-* **`Input`** is a `SECP256K1TransferInput`, as defined below.
+* **`TxID`** 是一个32字节的数组，它定义了该输入从哪个交易中消费输出。
+* **`UTXOIndex`** 是一个整数，定义该输入在指定事务中使用哪个utxo。
+* **`AssetID`** 是一个32字节数组，它定义了该输入引用的资产。
+* **`Input`** 是一个`SECP256K1TransferInput`, 定义如下。
 
-#### Gantt Transferable Input Specification
+#### Gantt ke
 
 ```text
 +------------+----------+------------------------+
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc0NTQ2NTZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODY3NDYwNjhdfQ==
 -->
