@@ -286,9 +286,9 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--min-validator-stake` \(整数\):
 
-The minimum stake, in nAVAX, required to validate the Primary Network.
+验证主网络所需的nAVAX最低质押。
 
-Defaults to `2000000000000` \(2,000 AVAX\) on Main Net. Defaults to `5000000` \(.005 AVAX\) on Test Net.
+在主网上, 默认为`2000000000000` \(2,000 AVAX\) 。在测试网上, Defaults to `5000000` \(.005 AVAX\) on Test Net.
 
 `--max-stake-duration` \(duration\):
 
@@ -499,9 +499,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODk5OTY0LDEyMjUzMzQxMTUsMTc1OD
-Y0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3
-LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2Mj
-Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
-OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbMTc5NTU2NDg2NSwxMjI1MzM0MTE1LDE3NT
+g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
+NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
+I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
+MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
