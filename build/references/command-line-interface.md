@@ -301,8 +301,7 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--snow-avalanche-batch-size` \(整数\):
 
-雪人共识的DAG实现将`b`定义为一个顶点应该包含的交易数。从理论上讲，增加`b`将增加吞吐量，同时增加延迟。节点将最多等待1秒来收集一个批处理，然后将立即发出整个批处理。取值至少为1。默认为“30”。
-DAG implementations of Snow consensus define `b` as the number of transactions a vertex should include. Increasing `b` will, theoretically, increase throughput while increasing latency. The node will wait for at most 1 second to collect a batch, and will then issue the entire batch at once. The value must be at least `1`. Defaults to `30`.
+雪人共识的DAG实现将`b`定义为一个顶点应该包含的交易数。从理论上讲，增加`b`将增加吞吐量，同时增加延迟。节点将最多等待1秒来收集一个批处理，然后将立即发出整个批处理。取值至少为`1`。默认为`30`。
 
 `--snow-avalanche-num-parents` \(int\):
 
@@ -501,9 +500,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTkzNTI5NSwxMjI1MzM0MTE1LDE3NT
-g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
-NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTEzNTg2OTA4NzMsMTIyNTMzNDExNSwxNz
+U4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQz
+NDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsND
+YyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3
+ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
 -->
