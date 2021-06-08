@@ -484,9 +484,9 @@ config.json:
 }
 ```
 
-Since the option `personal-api-enabled` is excluded, it will be set to false and disable the `personal_*` namespace.
+因为选项`personal-api-enabled`被排除了，它将被设置为false并禁用`personal_*`命名空间。
 
-The options specify parameters for Coreth \(the C Chain\) as follows:
+这些选项为Coreth \(C链\)指定如下参数:
 
 * `snowman-api-enabled` -&gt; Enables Snowman API.
 * `coreth-admin-apienabled` -&gt; Enables Admin API on Coreth plugin.
@@ -500,7 +500,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMDMyNTg0LC0xNjc0MTU0NTM4LC05NT
+eyJoaXN0b3J5IjpbLTYzODg5NzQxLC0xNjc0MTU0NTM4LC05NT
 E5Mjc2NTMsMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3
 MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNT
 I2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5
