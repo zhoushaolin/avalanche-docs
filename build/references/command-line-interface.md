@@ -288,11 +288,12 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 验证主网络所需的nAVAX最低质押。
 
-在主网上, 默认为`2000000000000` \(2,000 AVAX\) 。在测试网上, Defaults to `5000000` \(.005 AVAX\) on Test Net.
+在主网上, 默认为`2000000000000` \(2,000 AVAX\) 。
+在测试网上, 默认为`5000000` \(.005 AVAX\) 。
 
-`--max-stake-duration` \(duration\):
+`--max-stake-duration` \(持续时间\):
 
-The maximum staking duration, in hours. Defaults to `8760h` \(365 days\) on Main Net.
+最大持续质押时间，单位为小时。主网默认为`8760h`\(365天\)。
 
 `--max-validator-stake` \(int\):s
 
@@ -499,9 +500,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTU2NDg2NSwxMjI1MzM0MTE1LDE3NT
-g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
-NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMzU5NjAzNzM2LDEyMjUzMzQxMTUsMTc1OD
+Y0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3
+LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2Mj
+Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
+OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
