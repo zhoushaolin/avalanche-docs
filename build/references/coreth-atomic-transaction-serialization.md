@@ -8,12 +8,11 @@
 
 ## 输入
 
-Coreth原子交易的输入要么是来自这个链的`EVMInput`，要么是来自另一个链的`TransferableInput` \(包含一个 `SECP256K1TransferInput`\)。`EVMInput` 将被用于`ExportTx`中用于从这个链中花费资金，而' TransferableInput '将用于从另一个链中导入原子utxo。
-Inputs to Coreth Atomic Transactions are either an `EVMInput` from this chain or a `TransferableInput` \(which contains a `SECP256K1TransferInput`\) from another chain. The `EVMInput` will be used in `ExportTx` to spend funds from this chain, while the `TransferableInput` will be used to import atomic UTXOs from another chain.
+Coreth原子交易的输入要么是来自这个链的`EVMInput`，要么是来自另一个链的`TransferableInput` \(包含一个 `SECP256K1TransferInput`\)。`EVMInput` 将被用于`ExportTx`中, 从这个链中花费资金，而`TransferableInput`将用于从另一个链中导入原子UTXO。
 
-### EVM Input
+### EVM 输入
 
-Input type that specifies an EVM account to deduct the funds from as part of an `ExportTx`.
+作为`ExportTx`的一部分，指定要从其中扣除资金的EVM帐户的输入类型。Input type that specifies an EVM account to deduct the funds from as part of an `ExportTx`.
 
 #### What EVM Input Contains
 
@@ -923,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1NTM0MTg2XX0=
+eyJoaXN0b3J5IjpbLTE4ODYwODIwNV19
 -->
