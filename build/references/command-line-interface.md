@@ -159,11 +159,11 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--log-display-level` \(字符串`{Off, Fatal, Error, Warn, Info, Debug, Verbo}`\):
 
-日志级别决定将哪些事件显示到屏幕上。如果留空，将默认为`--log-level`提供的值。
-The log level determines which events to display to the screen. If left blank, will default to the value provided to `--log-level`.
+日志级别决定将哪些事件显示到屏幕上。如果留空，将默认为提供给`--log-level`的值。
 
-`--log-display-highlight` \(string, `{auto, plain, colors}`\):
+`--log-display-highlight` \(字符串`{auto, plain, colors}`\):
 
+是否将日志着色/高亮显示。当输出是终端时，默认会高亮显示。否则，应该是“{auto, plain, colors}”之一
 Whether to color/highlight display logs. Default highlights when the output is a terminal. Otherwise, should be one of `{auto, plain, colors}`
 
 `--log-dir` \(string, file path\):
@@ -499,8 +499,8 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NTIzNTYwLDU5NDAyNDM0NywxMzcxOD
-I2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgs
-LTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0OD
-U1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMTc0ODU3OTc1Miw1OTQwMjQzNDcsMTM3MT
+gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
+LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
+g1NTcwMzQsMTk5MDk1MTI2NF19
 -->
