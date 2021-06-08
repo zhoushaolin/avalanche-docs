@@ -209,11 +209,11 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--p2p-tls-enabled` \(布尔\):
 
-Avalanche使用双向身份验证的TLS连接来安全地识别连接对的`stakingID`。但是，可以在测试时禁用此功能。当禁用TLS时，`stakingID`将从节点拥有的IP地址派生出来。这也将禁用节点间通信的加密。这应该只用于测试。默认为“真正的”。当'——staking-enabled=true '时，这必须为真。
-Avalanche uses two-way authenticated TLS connections to securely identify the `stakingID` of connected peers. However, This can be disabled for testing. When TLS is disabled, the `stakingID` will be derived from the IP Address the node claims it owns. This will also disable encryption of inter-node communication. This should only be specified for testing. Defaults to `true`. This must be true when `--staking-enabled=true`.
+Avalanche使用双向身份验证的TLS连接来安全地识别连接对的`stakingID`。但是，可以在测试时禁用此功能。当禁用TLS时，`stakingID`将从节点拥有的IP地址派生出来。这也将禁用节点间通信的加密。这应该只用于测试。默认为 `true`。当`--staking-enabled=true`时，这必须为真。
 
-`--staking-enabled` \(boolean\):
+`--staking-enabled` \(布尔\):
 
+Avalanche使用权益证明(PoS)作为西比尔抵抗，使攻击网络的代价高昂。当这是' true '， '——P2P -tls-enabled '必须设置为' true '，以保护P2P通信。
 Avalanche uses Proof of Stake \(PoS\) as Sybil resistance to make it prohibitively expensive to attack the network. When this is `true`, `--p2p-tls-enabled` must be set to `true` in order to secure P2P communications.
 
 `--staking-tls-cert-file` \(string, file path\):
@@ -499,8 +499,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5ND
-AyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1
-OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0ND
-E5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMTc1ODY0NTUwMywtMzMxMjE0OTIyLDE1Mj
+YxMTYxNDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1NjcxMTk2
+OCwtNDk0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzND
+gyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEy
+NjRdfQ==
 -->
