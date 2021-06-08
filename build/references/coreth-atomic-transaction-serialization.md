@@ -317,7 +317,7 @@ message  {
                       +-------------------------+
 ```
 
-#### Proto Transferable Output Specification
+#### Proto 可转移输出规范
 
 ```text
 message TransferableOutput {
@@ -326,9 +326,9 @@ message TransferableOutput {
 }
 ```
 
-#### Transferable Output Example
+#### 可转移输出示例
 
-Let's make a transferable output:
+让我们创建一个可转移输出:
 
 * `AssetID: 0xdbcf890f77f49b96857648b72b77f9f82937f28a68704af05da0dc12ba53f2db`
 * `Output: "Example SECP256K1 Transfer Output from below"`
@@ -359,9 +359,9 @@ Let's make a transferable output:
 ]
 ```
 
-### SECP256K1 Transfer Output
+### SECP256K1 传输输出
 
-A [secp256k1](cryptographic-primitives.md#cryptography-in-the-avalanche-virtual-machine) transfer output allows for sending a quantity of an asset to a collection of addresses after a specified unix time.
+一个[secp256k1](cryptographic-primitives.md#cryptography-in-the-avalanche-virtual-machine) 传输输出允许在指定的Unix时间之后将一定数量的资产发送到地址集合。
 
 #### What SECP256K1 Transfer Output Contains
 
@@ -920,5 +920,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDg1NzA2MF19
+eyJoaXN0b3J5IjpbMTM4NTA0OTAwMV19
 -->
