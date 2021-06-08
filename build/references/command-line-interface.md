@@ -309,11 +309,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--snow-concurrent-repolls` \(整数\):
 
-雪人共识要求重新轮询在网络使用率较低时发出的交易。此参数允许定义客户端在完成这些未决交易时的积极程度。只有在仔细考虑了雪人共识的权衡之后，才应该改变这一点。取值至少为1，最多为——snow-rogue-commit-threshold。默认为“4”。
-Snow consensus requires repolling transactions that are issued during low time of network usage. This parameter lets one define how aggressive the client will be in finalizing these pending transactions. This should only be changed after careful consideration of the tradeoffs of Snow consensus. The value must be at least `1` and at most `--snow-rogue-commit-threshold`. Defaults to `4`.
+雪人共识要求重新轮询在网络使用率较低时发出的交易。此参数允许定义客户端在完成这些未决交易时的积极程度。只有在仔细考虑了雪人共识的权衡之后，才应该改变这一点。取值至少为`1`，最多为`--snow-rogue-commit-threshold`。默认为`4`。
 
-`--snow-sample-size` \(int\):
+`--snow-sample-size` \(整数\):
 
+雪人共识将`k`定义为在每次网络调查中抽样的验证者的数量。这个参数允许定义用于一致性的`k`值。只有在仔细考虑了Snow共识的权衡之后，才应该改变这一点。取值至少为1。默认为“20”。
 Snow consensus defines `k` as the number of validators that are sampled during each network poll. This parameter lets one define the `k` value used for consensus. This should only be changed after careful consideration of the tradeoffs of Snow consensus. The value must be at least `1`. Defaults to `20`.
 
 `--snow-quorum-size` \(int\):
@@ -501,10 +501,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjU0MzUzMSwtMTM1ODY5MDg3MywxMj
-I1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2
-MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLT
-Q5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0
-ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX
-0=
+eyJoaXN0b3J5IjpbNTE0NDQ0NzUyLC0xMzU4NjkwODczLDEyMj
+UzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYx
+NDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtND
+k0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4
+NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ
+==
 -->
