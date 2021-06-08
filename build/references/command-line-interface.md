@@ -189,11 +189,11 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--dynamic-public-ip` \(字符串\):
 
-如果参数存在，有效值为:`opendns`, `ifconfigco` 或 `ifconfigme`。这将覆盖`--public-ip`。如果设置了，将在每一个“——dynamic-update-duration”轮询远程服务，并更新节点的公共IP地址。
-Valid values if param is present: `opendns`, `ifconfigco` or `ifconfigme`. This overrides `--public-ip`. If set, will poll the remote service every `--dynamic-update-duration` and update the node’s public IP address.
+如果参数存在，有效值为:`opendns`, `ifconfigco` 或 `ifconfigme`。这将覆盖`--public-ip`。如果设置了，将在每一个`--dynamic-update-duration`轮询远程服务，并更新节点的公共IP地址。
 
-`--dynamic-update-duration` \(duration\):
+`--dynamic-update-duration` \(持续时间\):
 
+`--dynamic-public-ip`或NAT遍历轮询事件之间的时间。建议最短时间为1分钟。默认为`5m`。
 The time between poll events for `--dynamic-public-ip` or NAT traversal. The recommended minimum is 1 minute. Defaults to `5m`.
 
 ### Signature Verification
@@ -499,8 +499,8 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTkzNTcwMyw1OTQwMjQzNDcsMTM3MT
-gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
-LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
-g1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbNzUyOTA4NDczLDU5NDAyNDM0NywxMzcxOD
+I2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgs
+LTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0OD
+U1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
