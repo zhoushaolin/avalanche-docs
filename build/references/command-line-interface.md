@@ -439,12 +439,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--plugin-dir` \(字符串、文件路径\):
 
-指定`evm`插件保存的目录。默认为“$ HOME / .avalanchego /构建/插件”的。
-Specifies the directory in which the `evm` plugin is kept. Defaults to `"$HOME/.avalanchego/build/plugins"`.
+指定`evm`插件保存的目录。默认为`"$HOME/.avalanchego/build/plugins"`。
 
 `--coreth-config` \(json\):
 
-This allows you to specify a config to be passed into Coreth, the VM running the C Chain. The default values for this config are:
+这允许您指定要传递到Coreth(运行C链的VM)的配置。该配置的默认值是:
 
 ```cpp
 {
@@ -461,7 +460,7 @@ This allows you to specify a config to be passed into Coreth, the VM running the
 }
 ```
 
-Note: if a config is specified, all default options are overridden. For example:
+注意:如果指定了配置，所有默认选项都会被覆盖。例如:
 
 ```text
 ./build/avalanchego --config-file=config.json
@@ -501,11 +500,11 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI0NzU0MDYsLTE2NzQxNTQ1MzgsLT
-k1MTkyNzY1MywyODI4MTM2NTEsMzQ0NzE5NjE4LC0xMzU4Njkw
-ODczLDEyMjUzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLD
-E1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1Njcx
-MTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4Ny
-wzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5
-NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbOTExMDMyNTg0LC0xNjc0MTU0NTM4LC05NT
+E5Mjc2NTMsMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3
+MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNT
+I2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5
+NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMz
+Q4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUx
+MjY0XX0=
 -->
