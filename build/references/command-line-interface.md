@@ -185,7 +185,7 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 `--public-ip` \(字符串\):
 
-验证器必须知道它们的面向公共的IP地址，以便让其他节点知道如何连接它们。如果不提供此参数，节点将尝试执行NAT遍历以获得节点的公共IP。应设置为' 127.0.0.1 '以创建本地网络。如果没有设置，则尝试通过NAT穿越学习IP。
+验证器必须知道它们的面向大众的IP地址，以便让其他节点知道如何连接它们。如果不提供此参数，节点将尝试执行NAT遍历以获得节点的公共IP。应设置为`127.0.0.1`以创建本地网络。如果没有设置，则尝试通过NAT穿越学习IP。
 
 Validators must know their public facing IP addresses so they can let other nodes know how to connect to them. If this argument is not provided, the node will attempt to perform NAT traversal to get the node’s public IP. Should be set to `127.0.0.1` to create a local network. If not set, attempts to learn IP using NAT traversal.
 
@@ -500,7 +500,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ1ODA3NSw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbLTEwOTM3MDk4NCw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
