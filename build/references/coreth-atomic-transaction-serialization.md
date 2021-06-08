@@ -173,7 +173,7 @@ message TransferableInput {
 * **`Amount`** 是一个长值，它指定该输入应该从UTXO消耗的数量。必须是积极的。必须等于UTXO中指定的数量。
 * **`AddressIndices`** 是一个唯一的整数列表，它定义了用于花费UTXO的私钥。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
 
-#### Gantt SECP256K1 输入规范
+#### Gantt SECP256K1 传输输入规范
 
 ```text
 +-------------------------+-------------------------------------+
@@ -187,7 +187,7 @@ message TransferableInput {
                           +-------------------------------------+
 ```
 
-#### Proto SECP256K1 Transfer Input Specification
+#### Proto SECP256K1 传输输入规范
 
 ```text
 message SECP256K1TransferInput {
@@ -197,9 +197,9 @@ message SECP256K1TransferInput {
 }
 ```
 
-#### SECP256K1 Transfer Input Example
+#### SECP256K1 传输输入示例
 
-Let's make a payment input with:
+让我们使用以下输入进行支付: Let's make a payment input with:
 
 * **`TypeId`**: 5
 * **`Amount`**: 500000000000
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MTc3MTQ1XX0=
+eyJoaXN0b3J5IjpbLTExMjM5ODExOTRdfQ==
 -->
