@@ -443,9 +443,9 @@ message SECP256K1TransferOutput {
 ]
 ```
 
-## Atomic Transactions
+## 原子交易
 
-Atomic Transactions are used to move funds between chains. There are two types `ImportTx` and `ExportTx`.
+原子交易用于在链之间移动资金。有两种类型`ImportTx`和`ExportTx`。
 
 ### ExportTx
 
@@ -920,5 +920,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyMjc5ODE1LDEzODUwNDkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTEzMjc1NjYzMDMsMzUyMjc5ODE1LDEzOD
+UwNDkwMDFdfQ==
 -->
