@@ -107,11 +107,9 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--http-host` \(字符串\):
 
-HTTP API监听的地址。默认为“127.0.0.1”。这意味着默认情况下，您的节点只能处理来自同一台机器的API调用。要允许来自其他机器的API调用，请使用'——http-host= '。
+HTTP API监听的地址, 默认为`127.0.0.1`。这意味着默认情况下，您的节点只能处理来自同一台机器的API调用。要允许来自其他机器的API调用，请使用`--http-host=`。
 
-The address that HTTP APIs listen on. Defaults to `127.0.0.1`. This means that by default, your node can only handle API calls made from the same machine. To allow API calls from other machines, use `--http-host=`.
-
-`--http-port` \(int\):
+`--http-port` \(整数\):
 
 Each node runs an HTTP server that provides the APIs for interacting with the node and the Avalanche network. This argument specifies the port that the HTTP server will listen on. The default value is `9650`.
 
@@ -500,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODg0NDAzLC00OTQ4MTI0NTgsNDYyNj
-Y0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4
-LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2Mj
+Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
+OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
