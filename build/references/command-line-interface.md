@@ -194,12 +194,12 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 `--dynamic-update-duration` \(持续时间\):
 
 `--dynamic-public-ip`或NAT遍历轮询事件之间的时间。建议最短时间为1分钟。默认为`5m`。
-The time between poll events for `--dynamic-public-ip` or NAT traversal. The recommended minimum is 1 minute. Defaults to `5m`.
 
-### Signature Verification
+### 签名验证
 
-`--signature-verification-enabled` \(boolean\):
+`--signature-verification-enabled` \(布尔\):
 
+kai qi签名验证。当设置为`false`时，在允许禁用签名的虚拟机中将不检查签名。默认为`true`。
 Enables signature verification. When set to `false`, signatures won’t be checked in VMs that allow signatures to be disabled. Defaults to `true`.
 
 ### Staking
@@ -499,8 +499,8 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyOTA4NDczLDU5NDAyNDM0NywxMzcxOD
-I2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgs
-LTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0OD
-U1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTE4NzQ4NzkyNjgsNTk0MDI0MzQ3LDEzNz
+E4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4
+OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMj
+Q4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
