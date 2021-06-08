@@ -97,16 +97,17 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 如果设置为`false`，状态更新只对内存中的数据库执行，而不对永久存储进行任何更改。当设置为`true`时，状态更新将写入本地持久数据库。默认为`true`。
 
-### Genesis
+### 起源
 
 `--genesis` \(字符串\):
 
-包含要使用的起源数据的JSON文件的路径。当运行标准网\(主网, 测试网\)络时忽略, 如果没有指定, 则使用默认的起源数据, 有关JSON的起源数据的呈现示例，请参见[her](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16).
-Path to a JSON file containing the genesis data to use. Ignored when running standard networks \(Mainnet, Testnet.\) If not given, uses default genesis data. For an example of a JSON representation of genesis data, see [here](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16).
+包含要使用的起源数据的JSON文件的路径。当运行标准网\(主网, 测试网\)络时忽略, 如果没有指定, 则使用默认的起源数据, 有关JSON的起源数据的呈现示例，请参见[这里](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16)。
 
-### HTTP Server
+### HTTP 服务器
 
-`--http-host` \(string\):
+`--http-host` \(字符串\):
+
+HTTP API监听的地址。默认为“127.0.0.1”。这意味着默认情况下，您的节点只能处理来自同一台机器的API调用。要允许来自其他机器的API调用，请使用'——http-host= '。
 
 The address that HTTP APIs listen on. Defaults to `127.0.0.1`. This means that by default, your node can only handle API calls made from the same machine. To allow API calls from other machines, use `--http-host=`.
 
@@ -499,7 +500,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjY0NjUwMSwtNDk0ODEyNDU4LDQ2Mj
-Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
-OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbLTcwODg0NDAzLC00OTQ4MTI0NTgsNDYyNj
+Y0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4
+LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
 -->
