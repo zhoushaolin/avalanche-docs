@@ -329,10 +329,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--stake-minting-period` \(持续时间\):
 
-质押go的消耗周期，单位为小时。主网上的默认值是' 8760h ' \(365天\)。
-Consumption period of the staking function, in hours. The Default on Main Net is `8760h` \(365 days\).
+质押功能的消耗周期，单位为小时。主网上的默认值是`8760h` \(365天\)。
 
-`--tx-fee` \(int\):
+`--tx-fee` \(整数\):
+
+交易有效需要烧掉的nAVAX金额。该参数需要当前形式的网络协议。将此值从默认值改为仅应在专用网络上进行。每笔交易默认为“1000000”nAVAX。
 
 The required amount of nAVAX to be burned for a transaction to be valid. This parameter requires network agreement in its current form. Changing this value from the default should only be done on private networks. Defaults to `1000000` nAVAX per transaction.
 
@@ -501,10 +502,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEyNTYzNTMsLTEzNTg2OTA4NzMsMT
-IyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjEx
-NjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC
-00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIy
-NDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF
-19
+eyJoaXN0b3J5IjpbMzQ0NzE5NjE4LC0xMzU4NjkwODczLDEyMj
+UzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYx
+NDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtND
+k0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4
+NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ
+==
 -->
