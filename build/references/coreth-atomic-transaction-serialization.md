@@ -199,7 +199,7 @@ message SECP256K1TransferInput {
 
 #### SECP256K1 传输输入示例
 
-让我们使用以下输入进行支付: Let's make a payment input with:
+让我们创建一个支付输入:
 
 * **`TypeId`**: 5
 * **`Amount`**: 500000000000
@@ -224,8 +224,9 @@ message SECP256K1TransferInput {
 ]
 ```
 
-## Outputs
+## 输出
 
+Coreth原子交易的输出要么是一个`EVMOutput`被添加到这个链上的一个地址的余额，要么是一个`TransferableOutput`\(它包含一个' SECP256K1TransferOutput ' \)被移动到另一个链。
 Outputs to Coreth Atomic Transactions are either an `EVMOutput` to be added to the balance of an address on this chain or a `TransferableOutput` \(whcih contains a `SECP256K1TransferOutput`\) to be moved to another chain.
 
 The EVM Output will be used in `ImportTx` to add funds to this chain, while the `TransferableOutput` will be used to export atomic UTXOs to another chain.
@@ -922,5 +923,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM5ODExOTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MDcxMzg0Nl19
 -->
