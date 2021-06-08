@@ -491,7 +491,7 @@ config.json:
 * `snowman-api-enabled` -&gt; 启用雪人API
 * `coreth-admin-apienabled` -&gt; 在Coreth插件上启用管理API。
 * `net-api-enabled` -&gt; 启用`net_*` API。
-* `rpc-gas-cap` -&gt; Sets the maximum gas to be consumed by an RPC Call \(used in `eth_estimateGas`\)
+* `rpc-gas-cap` -&gt; 设置RPC调用消耗的最大gas\(在`eth_estimateGas`中使用)
 * `rpc-tx-fee-cap` -&gt; Sets the global transaction fee \(price \* gaslimit\) cap for send-transction variants. The unit is AVAX.
 * `eth-api-enabled` -&gt; Enables `eth_*` API.
 * `personal-api-enabled` -&gt; Enables `personal_*` API.
@@ -500,7 +500,7 @@ config.json:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDA2NDM2MywtMTY3NDE1NDUzOCwtOT
+eyJoaXN0b3J5IjpbMTIyMzA5NTExNiwtMTY3NDE1NDUzOCwtOT
 UxOTI3NjUzLDI4MjgxMzY1MSwzNDQ3MTk2MTgsLTEzNTg2OTA4
 NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5MjIsMT
 UyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMDU2NzEx
