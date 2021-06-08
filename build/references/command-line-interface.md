@@ -233,15 +233,15 @@ Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高�
 
 如果这是`true`，打印版本并退出。默认为`false`。
 
-## Advanced Options
+## 高级选项
 
-The following options affect the correctness of the platform. They may need to be changed network-wide, and as a result, an ordinary user should not change from the defaults.
+以下选项会影响平台的正确性。它们可能需要在整个网络范围内进行更改，因此，普通用户不应该更改缺省值。
 
 ### Benchlist
 
-`--benchlist-duration` \(duration\):
+`--benchlist-duration` \(持续时间\):
 
-Amount of time a peer is benchlisted after surpassing `--benchlist-fail-threshold`. Defaults to `1h`.
+在超过“——benchlist-fail-threshold”之后，一个同行被列入基准测试的时间。默认为“1 h”。Amount of time a peer is benchlisted after surpassing `--benchlist-fail-threshold`. Defaults to `1h`.
 
 `--benchlist-fail-threshold` \(int\):
 
@@ -498,9 +498,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTEzMDE2MCwxMjI1MzM0MTE1LDE3NT
-g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
-NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMjU3MTYzNTA5LDEyMjUzMzQxMTUsMTc1OD
+Y0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3
+LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2Mj
+Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
+OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
