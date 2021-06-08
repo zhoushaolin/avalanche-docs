@@ -280,13 +280,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 通过主网进行委托的最低费用，乘以`10,000`。必须在`[0, 1000000]`的范围内。主网默认为`20000`  \(2%\)。
 
-The minimum delegation fee that can be charged for delegation on the Primary Network, multiplied by `10,000` . Must be in the range `[0, 1000000]`. Defaults to `20000` \(2%\) on Main Net.
+`--min-stake-duration` \(持续时间\):
 
-`--min-stake-duration` \(duration\):
+最低质押时间。主网络上的默认是`336h`\(两周\)。
 
-Minimum staking duration. The Default on Main Net is `336h` \(two weeks.\)
-
-`--min-validator-stake` \(int\):
+`--min-validator-stake` \(整数\):
 
 The minimum stake, in nAVAX, required to validate the Primary Network.
 
@@ -501,9 +499,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjQ2NDY5NiwxMjI1MzM0MTE1LDE3NT
-g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
-NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbNjQxODk5OTY0LDEyMjUzMzQxMTUsMTc1OD
+Y0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3
+LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2Mj
+Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
+OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
