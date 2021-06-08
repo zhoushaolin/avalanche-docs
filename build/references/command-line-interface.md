@@ -393,6 +393,7 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-health-max-send-fail-rate` \(浮动\):
 
+如果消息超过此部分发送失败，节点将报告不健康。必须在\[0,1\]中。默认为“0.25”。
 Node will report unhealthy if more than this portion of message sends fail. Must be in \[0,1\]. Defaults to `0.25`.
 
 ### Health
@@ -500,10 +501,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk1MTYyODEsMjgyODEzNjUxLDM0ND
-cxOTYxOCwtMTM1ODY5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1
-MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMz
-cxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQw
-ODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLT
-I0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTcxNTM4NDU1OSwyODI4MTM2NTEsMzQ0Nz
+E5NjE4LC0xMzU4NjkwODczLDEyMjUzMzQxMTUsMTc1ODY0NTUw
+MywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNz
+E4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4
+OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMj
+Q4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
