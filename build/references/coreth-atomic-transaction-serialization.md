@@ -460,9 +460,9 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
 * **`blockchainID`** 是一个32字节的数组，它定义了这个交易被发送到哪个区块链。
 * **`destinationChain`** 是一个32字节的数组，它定义了该交易将资金导出到哪个区块链。
 * **`inputs`** 是为ExportTx提供资金的EVM输入数组。
-* **`exportedOutputs`** 是一个TransferableOutputs的数组，被转移到' destinationChain '。is an array of TransferableOutputs to be transferred to `destinationChain`.
+* **`exportedOutputs`** 是一个可转移输出的数组，将被转移到`destinationChain`。
 
-#### Gantt ExportTx Specification
+#### Gantt ExportTx 规范
 
 ```text
 +---------------------+----------------------+-------------------------------------------------+
@@ -920,6 +920,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA3MDQ2MDEsMzUyMjc5ODE1LDEzOD
-UwNDkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTM5NzUwNzU5OSwzNTIyNzk4MTUsMTM4NT
+A0OTAwMV19
 -->
