@@ -409,11 +409,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--xput-server-enabled` \[已弃用\] \(布尔\):
 
-An optional server helps run throughput tests by injecting load into the network on command. If enabled, this server is started up and listens for commands from a test coordinator. Defaults to `false`.
+一个可选的服务器通过命令将负载注入网络来帮助运行吞吐量测试。如果启用，该服务器将启动并侦听来自测试协调器的命令。默认为`false`。
 
-`--xput-server-port` \[Deprecated\] \(string\):
+`--xput-server-port` \[已弃用\] \(字符串\):
 
-This option lets one specify on which port the throughput server, if enabled, will listen. Defaults to `9652`.
+该选项允许指定吞吐量服务器(如果启用)将侦听的端口。默认为`9652`。This option lets one specify on which port the throughput server, if enabled, will listen. Defaults to `9652`.
 
 ### Subnet Whitelist
 
@@ -500,10 +500,11 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQxNTQ1MzgsLTk1MTkyNzY1MywyOD
-I4MTM2NTEsMzQ0NzE5NjE4LC0xMzU4NjkwODczLDEyMjUzMzQx
-MTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNT
-k0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEy
-NDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMT
-Q0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbMTkzMDIzODE0NiwtMTY3NDE1NDUzOCwtOT
+UxOTI3NjUzLDI4MjgxMzY1MSwzNDQ3MTk2MTgsLTEzNTg2OTA4
+NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5MjIsMT
+UyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMDU2NzEx
+OTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LD
+M0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1
+MTI2NF19
 -->
