@@ -117,11 +117,13 @@ HTTP API监听的地址, 默认为`127.0.0.1`。这意味着默认情况下，�
 
 此参数指定节点用于HTTPS服务器的TLS证书的位置。当`--http-tls-enabled=true`时必须指定。此处没有默认值。
 
-`--http-tls-enabled` \(boolean\):
+`--http-tls-enabled` \(布尔\):
 
-If set to `true`, this flag will attempt to upgrade the server to use HTTPS. Defaults to `false`.
+如果设置为`true`，该标志将尝试将服务器升级为使用HTTPS。默认为`false`。
 
-`--http-tls-key-file` \(string, file path\):
+`--http-tls-key-file` \(字符串、文件路径\):
+
+此参数指定节点用于HTTPS服务器的TLS私钥的位置。当'——http-tls-enabled=true '时必须指定。缺省值:无。
 
 This argument specifies the location of the TLS private key used by the node for the HTTPS server. This must be specified when `--http-tls-enabled=true`. There is no default value.
 
@@ -498,8 +500,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE3OTc3MTgsMTA1NjcxMTk2OCwtND
-k0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4
-NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ
-==
+eyJoaXN0b3J5IjpbLTkyNjkwMzcsMTA1NjcxMTk2OCwtNDk0OD
+EyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4Njgs
+MTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
