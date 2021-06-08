@@ -263,11 +263,11 @@ Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高�
 
 `--consensus-shutdown-timeout` \(持续时间\):
 
-在杀死一个没有反应的链之前超时。默认为“5 s”。
-Timeout before killing an unresponsive chain. Defaults to `5s`.
+在剔除一个没有反应的链之前超时, 默认为`5s`。
 
-`--creation-tx-fee` \(int\):
+`--creation-tx-fee` \(整数\):
 
+nAVAX中的交易费，用于创建新状态的交易。默认为' 1000000 ' nAVAX \(.001每个事务AVAX \)。
 Transaction fee, in nAVAX, for transactions that create new state. Defaults to `1000000` nAVAX \(.001 AVAX\) per transaction.
 
 `--min-delegator-stake` \(int\):
@@ -499,7 +499,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc5MTEwMjAsMTIyNTMzNDExNSwxNz
+eyJoaXN0b3J5IjpbLTE3NTA1MzQ2MjUsMTIyNTMzNDExNSwxNz
 U4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQz
 NDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsND
 YyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3
