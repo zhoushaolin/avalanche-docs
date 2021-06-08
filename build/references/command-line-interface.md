@@ -369,10 +369,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-timeout-halflife` \(持续时间\):
 
-计算平均网络延迟时使用的半衰期。更大的值 --&gt; geng易失性网络延迟计算。默认为5米。Halflife used when calculating average network latency. Larger value --&gt; less volatile network latency calculation. Defaults to `5m`.
+计算平均网络延迟时使用的半衰期。更大的值 --&gt; 更小的易失性网络延迟计算, 默认为`5m`。
 
-`--network-timeout-coefficient` \(duration\):
+`--network-timeout-coefficient` \(持续时间\):
 
+对等点的请求将在\[`network-timeout-coefficient`\] \* \[平均请求延迟\] 后超时。默认为“2”。
 Requests to peers will time out after \[`network-timeout-coefficient`\] \* \[average request latency\]. Defaults to `2`.
 
 `--network-health-min-conn-peers` \(uint\):
@@ -500,7 +501,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjU0MTM1NSwzNDQ3MTk2MTgsLTEzNT
+eyJoaXN0b3J5IjpbLTg0NTc5ODU3NiwzNDQ3MTk2MTgsLTEzNT
 g2OTA4NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5
 MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMD
 U2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5
