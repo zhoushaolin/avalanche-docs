@@ -337,13 +337,13 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--uptime-requirement` \(浮动\):
 
-验证者必须在线接受奖励的时间。默认为“0.6”。
-Fraction of time a validator must be online to receive rewards. Defaults to `0.6`.
+验证者必须在线接受奖励的时间, 默认为`0.6`。
 
-### Message Handling
+### 消息处理
 
-`--max-non-staker-pending-msgs` \(int\):
+`--max-non-staker-pending-msgs` \(整数\):
 
+非质押者允许挂起的最大消息数, 默认为`20`。
 Maximum number of messages a non-staker is allowed to have pending. Defaults to `20`.
 
 `--staker-msg-reserved` \(float\):
@@ -501,7 +501,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzM1NDg3MiwzNDQ3MTk2MTgsLTEzNT
+eyJoaXN0b3J5IjpbMTQ5MjUyOTMwNywzNDQ3MTk2MTgsLTEzNT
 g2OTA4NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5
 MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMD
 U2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5
