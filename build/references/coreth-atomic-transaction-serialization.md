@@ -2,13 +2,13 @@
 
 这个页面是我们如何在`Coreth`中序列化原子交易的唯一来源。本文档使用[原始的序列化](serialization-primitives.md)格式进行打包，并使用[secp256k1](cryptographic-primitives.md#cryptography-in-the-avalanche-virtual-machine) 格式进行加密用户识别。
 
+## 编解码器 ID
 
-## Codec ID
+一些数据前面有一个编解码器ID \(unt16\)，它表示应该如何反序列化数据。现在，唯一有效的编解码器ID是0 \(`0x00 0x00`\)。
 
-Some data is prepended with a codec ID \(unt16\) that denotes how the data should be deserialized. Right now, the only valid codec ID is 0 \(`0x00 0x00`\).
+## 输入
 
-## Inputs
-
+Coreth原子交易的输入要么是来自这个链的`EVMInput`，要么是来自另一个链的' TransferableInput ' \(包含一个' SECP256K1TransferInput ' \)。' EVMInput '将在' ExportTx '中用于从这个链中花费资金，而' TransferableInput '将用于从另一个链中导入原子utxo。
 Inputs to Coreth Atomic Transactions are either an `EVMInput` from this chain or a `TransferableInput` \(which contains a `SECP256K1TransferInput`\) from another chain. The `EVMInput` will be used in `ExportTx` to spend funds from this chain, while the `TransferableInput` will be used to import atomic UTXOs from another chain.
 
 ### EVM Input
@@ -923,5 +923,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MDM1NzUzXX0=
+eyJoaXN0b3J5IjpbNDEzNTExOTYxXX0=
 -->
