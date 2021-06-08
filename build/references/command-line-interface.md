@@ -405,9 +405,9 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 运行状况检查中使用的平均值的半衰期\(例如，测量消息失败率\)较大值--&gt; 减少平均数的不稳定计算。默认为`10s`。
 
-### 吞吐量fu
+### 吞吐量服务器
 
-`--xput-server-enabled` \[Deprecated\] \(boolean\):
+`--xput-server-enabled` \[已弃用\] \(布尔\):
 
 An optional server helps run throughput tests by injecting load into the network on command. If enabled, this server is started up and listens for commands from a test coordinator. Defaults to `false`.
 
@@ -500,10 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODExODA4LC05NTE5Mjc2NTMsMjgyOD
-EzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3MywxMjI1MzM0MTE1
-LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5ND
-AyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1
-OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0ND
-E5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTE2NzQxNTQ1MzgsLTk1MTkyNzY1MywyOD
+I4MTM2NTEsMzQ0NzE5NjE4LC0xMzU4NjkwODczLDEyMjUzMzQx
+MTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYxNDMsNT
+k0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtNDk0ODEy
+NDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMT
+Q0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
