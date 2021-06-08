@@ -95,14 +95,13 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--db-enabled` \(布尔\):
 
-如果设置为`false`，状态更新只对内存中的数据库执行，而不对永久存储进行任何更改。当设置为`true`时，状态更新将写入本地持久数据库。默认为“真正的”。
-If set to `false`, state updates are performed solely to an in-memory database, without making any changes on permanent storage. When set to `true`, state updates are written to a local persistent database. Defaults to `true`.
+如果设置为`false`，状态更新只对内存中的数据库执行，而不对永久存储进行任何更改。当设置为`true`时，状态更新将写入本地持久数据库。默认为`true`。
 
 ### Genesis
 
-`--genesis` \(string\):
+`--genesis` \(字符串\):
 
-Path to a JSON file containing the genesis data to use. Ignored when running standard networks \(Mainnet, Testnet.\) If not given, uses default genesis data. For an example of a JSON representation of genesis data, see [here](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16).
+包含要使用的起源数据的JSON文件的路径。当运行标准网络时忽略\(主网, 测试网\)有关生成数据的JSON表示示例，请参见Path to a JSON file containing the genesis data to use. Ignored when running standard networks \(Mainnet, Testnet.\) If not given, uses default genesis data. For an example of a JSON representation of genesis data, see [here](https://github.com/ava-labs/avalanchego/blob/master/genesis/genesis_local.go#L16).
 
 ### HTTP Server
 
@@ -499,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzMyNzQzMSwtNDk0ODEyNDU4LDQ2Mj
-Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
-OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbLTE0ODk3NDUzMzMsLTQ5NDgxMjQ1OCw0Nj
+I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
+MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
