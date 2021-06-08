@@ -313,11 +313,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--snow-sample-size` \(整数\):
 
-雪人共识将`k`定义为在每次网络调查中抽样的验证者的数量。这个参数允许定义用于一致性的`k`值。只有在仔细考虑了Snow共识的权衡之后，才应该改变这一点。取值至少为1。默认为“20”。
-Snow consensus defines `k` as the number of validators that are sampled during each network poll. This parameter lets one define the `k` value used for consensus. This should only be changed after careful consideration of the tradeoffs of Snow consensus. The value must be at least `1`. Defaults to `20`.
+雪人共识将`k`定义为在每次网络调查中抽样的验证者的数量。这个参数允许定义用于一致性的`k`值。只有在仔细考虑了雪人共识的权衡之后，才应该改变这一点。取值至少为`1`。默认为`20`。
 
-`--snow-quorum-size` \(int\):
+`--snow-quorum-size` \(整数\):
 
+雪人共识将`alpha`定义为在每次网络轮询期间必须选择某个事务以增加对该事务的信心的验证器的数量。这个参数让我们定义用于共识的“alpha”值。只有在仔细考虑了Snow共识的权衡之后，才应该改变这一点。该值必须大于' k/2 '。默认为“14”。
 Snow consensus defines `alpha` as the number of validators that must prefer a transaction during each network poll to increase the confidence in the transaction. This parameter lets us define the `alpha` value used for consensus. This should only be changed after careful consideration of the tradeoffs of Snow consensus. The value must be at greater than `k/2`. Defaults to `14`.
 
 `--snow-virtuous-commit-threshold` \(int\):
@@ -501,10 +501,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NDQ0NzUyLC0xMzU4NjkwODczLDEyMj
-UzMzQxMTUsMTc1ODY0NTUwMywtMzMxMjE0OTIyLDE1MjYxMTYx
-NDMsNTk0MDI0MzQ3LDEzNzE4MjY5NzYsMTA1NjcxMTk2OCwtND
-k0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4
-NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ
-==
+eyJoaXN0b3J5IjpbLTEzNDY0NDI1ODUsLTEzNTg2OTA4NzMsMT
+IyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjEx
+NjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC
+00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIy
+NDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF
+19
 -->
