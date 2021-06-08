@@ -232,7 +232,7 @@ EVM输出将在`ImportTx`中用于将资金添加到这个链中，而 `Transfer
 
 ### EVM 输出
 
-Output type specifying a state change to be applied to an EVM account as part of an `ImportTx`.
+作为' ImportTx '的一部分, 输出类型，应用到EVM帐户的状态更改。Output type specifying a state change to be applied to an EVM account as part of an `ImportTx`.
 
 #### What EVM Output Contains
 
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzExMjU4MjZdfQ==
+eyJoaXN0b3J5IjpbLTIxOTg4NjE1NV19
 -->
