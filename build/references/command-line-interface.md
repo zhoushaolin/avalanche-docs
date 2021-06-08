@@ -150,9 +150,9 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 * `Off`: 没有日志具有此级别的日志记录。
 * `Fatal`: 不可恢复的致命错误。
 * `Error`: 当节点遇到错误时，这些错误可以被恢复。
-* `Warn`: 一个警告，可能表明存在虚假的拜占庭节点，或潜在的未来错误。A Warning that might be indicative of a spurious byzantine node, or potential future error.
-* `Info`: Useful descriptions of node status updates.
-* `Debug`: Debug logging is useful when attempting to understand possible bugs in the code. More information that would be typically desired for normal usage will be displayed.
+* `Warn`: 一个警告，可能表明存在虚假复杂的节点，或潜在的未来错误。
+* `Info`: 对节点状态更新的有用描述。
+* `Debug`: 调试日志记录在试图理解代码中可能存在的漏洞时非常有用。将显示通常需要用于正常使用的更多信息。Debug logging is useful when attempting to understand possible bugs in the code. More information that would be typically desired for normal usage will be displayed.
 * `Verbo`: Tracks extensive amounts of information the node is processing. This includes message contents and binary dumps of data for extremely low level protocol analysis.
 
 When specifying a log level note that all logs with the specified priority or higher will be tracked. Defaults to `Info`.
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzU4MzMwOSw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbMTgzNDAyOTM3NSw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
