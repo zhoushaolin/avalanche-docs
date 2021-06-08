@@ -213,11 +213,11 @@ Avalanche使用双向身份验证的TLS连接来安全地识别连接对的`stak
 
 `--staking-enabled` \(布尔\):
 
-Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高昂。当这是' true '， '——P2P -tls-enabled '必须设置为' true '，以保护P2P通信。
-Avalanche uses Proof of Stake \(PoS\) as Sybil resistance to make it prohibitively expensive to attack the network. When this is `true`, `--p2p-tls-enabled` must be set to `true` in order to secure P2P communications.
+Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高昂。当这是`true`时，`--p2p-tls-enabled`必须设置为`true`，以保护P2P通信。
 
-`--staking-tls-cert-file` \(string, file path\):
+`--staking-tls-cert-file` \(字符串、文件路径\):
 
+当‘——p2p-tls-enabled=true’时，Avalanche使用双向认证TLS连接安全地识别连接对等体的‘stakingID’。此参数指定节点使用的TLS证书的位置。当'——p2p-tls-enabled=true '时必须指定。默认为“”“”。
 Avalanche uses two-way authenticated TLS connections to securely identify the `stakingID` of connected peers when `--p2p-tls-enabled=true`. This argument specifies the location of the TLS certificate used by the node. This must be specified when `--p2p-tls-enabled=true`. Defaults to `""`.
 
 `--staking-tls-key-file` \(string, file path\):
@@ -499,9 +499,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODg2MzU1MywxNzU4NjQ1NTAzLC0zMz
-EyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3
-NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMj
-EzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcw
-MzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbLTE4NzcwMjI1NTcsMTc1ODY0NTUwMywtMz
+MxMjE0OTIyLDE1MjYxMTYxNDMsNTk0MDI0MzQ3LDEzNzE4MjY5
+NzYsMTA1NjcxMTk2OCwtNDk0ODEyNDU4LDQ2MjY2NDA4OCwtMT
+IxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3
+MDM0LDE5OTA5NTEyNjRdfQ==
 -->
