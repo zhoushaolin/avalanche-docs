@@ -137,7 +137,7 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 ### 文件描述符的限制
 
-`--fd-limit` \(int\)
+`--fd-limit` \(整数\)
 
 Attempts to raise the process file descriptor limit to at least this value. Defaults to `32768`
 
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTc2MzY2NywxMDU2NzExOTY4LC00OT
+eyJoaXN0b3J5IjpbMTM3MTgyNjk3NiwxMDU2NzExOTY4LC00OT
 Q4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2
 OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
 -->
