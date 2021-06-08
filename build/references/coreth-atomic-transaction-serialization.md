@@ -12,9 +12,9 @@ Coreth原子交易的输入要么是来自这个链的`EVMInput`，要么是来�
 
 ### EVM 输入
 
-作为`ExportTx`的一部分，指定要从其中扣除资金的EVM帐户的输入类型。Input type that specifies an EVM account to deduct the funds from as part of an `ExportTx`.
+作为`ExportTx`的一部分，输入类型指定要从其中扣除资金的EVM帐户。
 
-#### What EVM Input Contains
+#### EVM输入包含什么
 
 An EVM Input contains an `address`, `amount`, `assetID`, and `nonce`.
 
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODYwODIwNV19
+eyJoaXN0b3J5IjpbLTMyNzI4MTY4MF19
 -->
