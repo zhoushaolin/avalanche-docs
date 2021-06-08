@@ -161,13 +161,13 @@ message TransferableInput {
 ]
 ```
 
-### SECP256K1 转移输入
+### SECP256K1 传输输入
 
-A [secp256k1](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/build/cryptographic-primitives/README.md#cryptography-in-the-avalanche-virtual-machine) transfer input allows for spending an unspent secp256k1 transfer output.
+一个[secp256k1](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/build/cryptographic-primitives/README.md#cryptography-in-the-avalanche-virtual-machine) 传输输入允许花费一个未使用的secp256k1传输输出。
 
-#### What SECP256K1 Transfer Input Contains
+#### SECP256K1 传输输入包含什么
 
-A secp256k1 transfer input contains an `Amount` and `AddressIndices`.
+一个secp256k1 transfer input contains an `Amount` and `AddressIndices`.
 
 * **`TypeID`** is the ID for this input type. It is `0x00000005`.
 * **`Amount`** is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
@@ -922,5 +922,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODgzNjM3OF19
+eyJoaXN0b3J5IjpbNDE1ODMwMjAyXX0=
 -->
