@@ -21,9 +21,9 @@ EVM输入包含`address`, `amount`, `assetID`和`nonce`。
 * **`Address`**是用来转移资金的EVM地址。
 * **`Amount`** 是要转让的资产的金额(对于其他所有资产, 指定使用AVAX的最小单位nAVAX)。
 * **`AssetID`**是要转移的资产的ID。
-* **`Nonce`** is the nonce of the EVM account exporting funds.
+* **`Nonce`** 是EVM账户输出资金的名词。
 
-#### Gantt EVM Input Specification
+#### Gantt EVM 输入规范
 
 ```text
 +----------+----------+-------------------------+
@@ -39,7 +39,7 @@ EVM输入包含`address`, `amount`, `assetID`和`nonce`。
                       +-------------------------+
 ```
 
-#### Proto EVM Input Specification
+#### Proto EVM 输入规范
 
 ```text
 message  {
@@ -50,9 +50,9 @@ message  {
 }
 ```
 
-#### EVM Input Example
+#### EVM 输入示例
 
-Let's make an EVM Input:
+让我们创建一个EVM输入:
 
 * `Address: 0x8db97c7cece249c2b98bdc0226cc4c2a57bf52fc`
 * `Amount: 2000000`
@@ -84,8 +84,9 @@ Let's make an EVM Input:
 ]
 ```
 
-### Transferable Input
+### 可转移输入
 
+Transferable Input包装' SECP256K1TransferInput '。可转移输入描述具有提供的传输输入的特定UTXO。
 Transferable Input wraps a `SECP256K1TransferInput`. Transferable inputs describe a specific UTXO with a provided transfer input.
 
 #### What Transferable Input Contains
@@ -922,5 +923,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDUxNDk4N119
+eyJoaXN0b3J5IjpbODI2Njk4NzM3XX0=
 -->
