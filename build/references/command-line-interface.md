@@ -75,11 +75,11 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--bootstrap-retry-max-attempts` \(单元\):
 
-Max number of times to retry bootstrapping after a failure.
+失败后重试引导的最大次数。
 
-### Connection Metering
+### 连接计量
 
-`--conn-meter-max-conns` \(int\):
+`--conn-meter-max-conns` \(整数\):
 
 Upgrade at most `conn-meter-max-conns` connections from a given IP per `conn-meter-reset-duration`. If `conn-meter-reset-duration` is 0, incoming connections are not rate-limited.
 
@@ -498,6 +498,6 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzkwNDA4OSwzNDgyMjQ4NjgsMTQ0MT
-k5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
+eyJoaXN0b3J5IjpbLTEyNjU4MzcxMjEsMzQ4MjI0ODY4LDE0ND
+E5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
