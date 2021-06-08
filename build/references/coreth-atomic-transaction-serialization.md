@@ -300,12 +300,12 @@ message  {
 
 #### 可转移输出包含什么
 
-可转移输出包含`AssetID` 和 `Output` (which is a `SECP256K1TransferOutput`.
+可转移输出包含`AssetID` 和 `Output` (即`SECP256K1TransferOutput`)。
 
-* **`AssetID`** is a 32-byte array that defines which asset this output references.
-* **`Output`** is a `SECP256K1TransferOutput` as defined below.
+* **`AssetID`** 是一个32字节数组，它定义了该输出引用的资产。
+* **`Output`** 是一个`SECP256K1TransferOutput` , 定义如下。
 
-#### Gantt Transferable Output Specification
+#### Gantt 可转移输出规范
 
 ```text
 +----------+----------+-------------------------+
@@ -920,5 +920,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzQ4NjQ3NV19
+eyJoaXN0b3J5IjpbMTc0MDg1NzA2MF19
 -->
