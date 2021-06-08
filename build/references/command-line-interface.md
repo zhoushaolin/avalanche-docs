@@ -321,10 +321,11 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--snow-virtuous-commit-threshold` \(整数\):
 
-Snow共识将“beta1”定义为一个良性交易必须增加信心才能被接受的连续民意调查的数量。这个参数让我们定义用于共识的“beta1”值。只有在仔细考虑了Snow共识的权衡之后，才应该改变这一点。取值至少为1。默认为“15”。Snow consensus defines `beta1` as the number of consecutive polls that a virtuous transaction must increase its confidence for it to be accepted. This parameter lets us define the `beta1` value used for consensus. This should only be changed after careful consideration of the tradeoffs of Snow consensus. The value must be at least `1`. Defaults to `15`.
+雪人共识将`beta1`定义为一个良性交易必须增加信心才能被接受的连续民意调查的数量。这个参数让我们定义用于共识的`beta1`值。只有在仔细考虑了雪人共识的权衡之后，才应该改变这一点。取值至少为`1`。默认为`15`。
 
-`--snow-rogue-commit-threshold` \(int\):
+`--snow-rogue-commit-threshold` \(整数\):
 
+雪人共识将“beta2”定义为一个流氓交易必须增加信心才能被接受的连续民意调查次数。这个参数让我们定义用于共识的“beta2”值。只有在仔细考虑了Snow共识的权衡之后，才应该改变这一点。该值至少为beta1。默认为“30”。
 Snow consensus defines `beta2` as the number of consecutive polls that a rogue transaction must increase its confidence for it to be accepted. This parameter lets us define the `beta2` value used for consensus. This should only be changed after careful consideration of the tradeoffs of Snow consensus. The value must be at least `beta1`. Defaults to `30`.
 
 `--stake-minting-period` \(duration\):
@@ -500,7 +501,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODYwNDQ2OCwtMTM1ODY5MDg3MywxMj
+eyJoaXN0b3J5IjpbMTAxODc5MTAxNCwtMTM1ODY5MDg3MywxMj
 I1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2
 MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLT
 Q5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0
