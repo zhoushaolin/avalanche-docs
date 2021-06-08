@@ -271,10 +271,10 @@ Avalanche使用权益证明(PoS)作为Sybil抵抗，使攻击网络的代价高�
 
 `--min-delegator-stake` \(整数\):
 
-以nAVAX中最小的股份可以委托给主网络的验证者。
-The minimum stake, in nAVAX, that can be delegated to a validator of the Primary Network.
+nAVAX的最小质押份额可以委托给主网络的验证者。
 
-Defaults to `25000000000` \(25 AVAX\) on Main Net. Defaults to `5000000` \(.005 AVAX\) on Test Net.
+在主网, 默认值是`25000000000` \(25 AVAX\) 。
+在测试网, 默认值是`5000000` \(.005 AVAX\) 。
 
 `--min-delegation-fee` \(int\):
 
@@ -499,9 +499,9 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjMwNTAzMCwxMjI1MzM0MTE1LDE3NT
-g2NDU1MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0
-NywxMzcxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTE2MTE1NTI0MTMsMTIyNTMzNDExNSwxNz
+U4NjQ1NTAzLC0zMzEyMTQ5MjIsMTUyNjExNjE0Myw1OTQwMjQz
+NDcsMTM3MTgyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsND
+YyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3
+ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
 -->
