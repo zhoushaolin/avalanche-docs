@@ -69,11 +69,11 @@ Bootstrap ID是验证器ID的数组。这些ID将用于对引导对等体进行�
 
 Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前的雪崩状态。该字段的设置示例是 `--bootstrap-ips="127.0.0.1:12345,1.2.3.4:5678"`。默认为空\(不尝试从其他节点引导。\)
 
-`--bootstrap-retry-enabled` \(boolean\):
+`--bootstrap-retry-enabled` \(布尔\):
 
-If true, will retry bootstrapping if it fails.
+如果为true，将在引导失败时重试引导。
 
-`--bootstrap-retry-max-attempts` \(uint\):
+`--bootstrap-retry-max-attempts` \(单元\):
 
 Max number of times to retry bootstrapping after a failure.
 
@@ -498,6 +498,6 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0OD
-U1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTYxMzkwNDA4OSwzNDgyMjQ4NjgsMTQ0MT
+k5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
