@@ -91,6 +91,7 @@ Bootstrap IP是一个IPv4:端口对数组。这些IP地址将用于引导当前�
 
 `--db-dir` \(字符串,文件路径\):
 
+指定数据库持久化到的目录。默认为“$ HOME / .avalanchego / db”的。
 Specifies the directory to which the database is persisted. Defaults to `"$HOME/.avalanchego/db"`.
 
 `--db-enabled` \(boolean\):
@@ -498,7 +499,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUwNDY3MTQsLTQ5NDgxMjQ1OCw0Nj
-I2NjQwODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4
-MDgsLTI0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbMTkzNTEwOTUwNiwtNDk0ODEyNDU4LDQ2Mj
+Y2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4NjgsMTQ0MTk5Nzgw
+OCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ==
 -->
