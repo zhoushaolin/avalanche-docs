@@ -493,18 +493,18 @@ config.json:
 * `net-api-enabled` -&gt; 启用`net_*` API。
 * `rpc-gas-cap` -&gt; 设置RPC调用消耗的最大gas\(在`eth_estimateGas`中使用)
 * `rpc-tx-fee-cap` -&gt; 设置发送-交易变量的全球交易费(价格/gas限制)上限。单位为AVAX。
-* `eth-api-enabled` -&gt; 启用`eth_*` API.
-* `personal-api-enabled` -&gt; 启用`personal_*` API.
-* `tx-pool-api-enabled` -&gt; 启用`txpool_*` API.
-* `debug-api-enabled` -&gt; 启用`debug_*` API.
-* `web3-api-enabled` -&gt; 启用`web3_*` API.
+* `eth-api-enabled` -&gt; 启用`eth_*` API。
+* `personal-api-enabled` -&gt; 启用`personal_*` API。
+* `tx-pool-api-enabled` -&gt; 启用`txpool_*` API。
+* `debug-api-enabled` -&gt; 启用`debug_*` API。
+* `web3-api-enabled` -&gt; 启用`web3_*` API。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDQ3NzA4MiwtMTY3NDE1NDUzOCwtOT
-UxOTI3NjUzLDI4MjgxMzY1MSwzNDQ3MTk2MTgsLTEzNTg2OTA4
-NzMsMTIyNTMzNDExNSwxNzU4NjQ1NTAzLC0zMzEyMTQ5MjIsMT
-UyNjExNjE0Myw1OTQwMjQzNDcsMTM3MTgyNjk3NiwxMDU2NzEx
-OTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LD
-M0ODIyNDg2OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1
-MTI2NF19
+eyJoaXN0b3J5IjpbNTk3Njc0NTE0LC0xNjc0MTU0NTM4LC05NT
+E5Mjc2NTMsMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1ODY5MDg3
+MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDkyMiwxNT
+I2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNTY3MTE5
+NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTkyODcsMz
+Q4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOTkwOTUx
+MjY0XX0=
 -->
