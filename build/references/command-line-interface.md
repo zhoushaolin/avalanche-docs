@@ -377,9 +377,9 @@ nAVAX的最小质押份额可以委托给主网络的验证者。
 
 `--network-health-min-conn-peers` \(uint\):
 
-Node will report unhealthy if connected to less than this many peers. Defaults to `1`.
+如果连接到的对等体少于这个数目，节点将报告不健康。默认为`1`。
 
-`--network-health-max-time-since-msg-received` \(duration\):
+`--network-health-max-time-since-msg-received` \(持续时间\):
 
 Node will report unhealthy if it hasn't received a message for this amount of time. Defaults to `1m`.
 
@@ -500,10 +500,10 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyODEzNjUxLDM0NDcxOTYxOCwtMTM1OD
-Y5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1MDMsLTMzMTIxNDky
-MiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMzcxODI2OTc2LDEwNT
-Y3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQwODgsLTEyMTMzMTky
-ODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLTI0ODU1NzAzNCwxOT
-kwOTUxMjY0XX0=
+eyJoaXN0b3J5IjpbLTE1NzEyMzQwMTYsMjgyODEzNjUxLDM0ND
+cxOTYxOCwtMTM1ODY5MDg3MywxMjI1MzM0MTE1LDE3NTg2NDU1
+MDMsLTMzMTIxNDkyMiwxNTI2MTE2MTQzLDU5NDAyNDM0NywxMz
+cxODI2OTc2LDEwNTY3MTE5NjgsLTQ5NDgxMjQ1OCw0NjI2NjQw
+ODgsLTEyMTMzMTkyODcsMzQ4MjI0ODY4LDE0NDE5OTc4MDgsLT
+I0ODU1NzAzNCwxOTkwOTUxMjY0XX0=
 -->
