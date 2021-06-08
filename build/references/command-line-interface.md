@@ -113,9 +113,9 @@ HTTP API监听的地址, 默认为`127.0.0.1`。这意味着默认情况下，�
 
 每个节点都运行一个HTTP服务器，该服务器提供与节点和Avalanche网络交互的API。此参数指定HTTP服务器将侦听的端口。默认值为`9650`。
 
-`--http-tls-cert-file` \(string, file path\):
+`--http-tls-cert-file` \(字符串、文件路径\):
 
-This argument specifies the location of the TLS certificate used by the node for the HTTPS server. This must be specified when `--http-tls-enabled=true`. There is no default value.
+此参数指定节点用于HTTPS服务器的TLS证书的位置。当`--http-tls-enabled=true`时必须指定。此处没有默认值。
 
 `--http-tls-enabled` \(boolean\):
 
@@ -498,7 +498,8 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTU5NzIxMiwxMDU2NzExOTY4LC00OT
-Q4MTI0NTgsNDYyNjY0MDg4LC0xMjEzMzE5Mjg3LDM0ODIyNDg2
-OCwxNDQxOTk3ODA4LC0yNDg1NTcwMzQsMTk5MDk1MTI2NF19
+eyJoaXN0b3J5IjpbLTEwMzE3OTc3MTgsMTA1NjcxMTk2OCwtND
+k0ODEyNDU4LDQ2MjY2NDA4OCwtMTIxMzMxOTI4NywzNDgyMjQ4
+NjgsMTQ0MTk5NzgwOCwtMjQ4NTU3MDM0LDE5OTA5NTEyNjRdfQ
+==
 -->
