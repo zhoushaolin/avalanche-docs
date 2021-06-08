@@ -141,9 +141,9 @@ IPC套接字的目录(Unix)或命名管道前缀(Windows)。默认为/ tmp。
 
 尝试将进程文件描述符限制提高到至少此值。默认为`32768`
 
-### Logging
+### 日志记录
 
-`--log-level` \(string, `{Off, Fatal, Error, Warn, Info, Debug, Verbo}`\):
+`--log-level` \(字符串 `{Off, Fatal, Error, Warn, Info, Debug, Verbo}`\):
 
 The log level determines which events to log. There are 7 different levels, in order from highest priority to lowest.
 
@@ -498,7 +498,7 @@ The options specify parameters for Coreth \(the C Chain\) as follows:
 * `web3-api-enabled` -&gt; Enables `web3_*` API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTQ5ODY4Niw1OTQwMjQzNDcsMTM3MT
+eyJoaXN0b3J5IjpbLTMzNjMwODg1OCw1OTQwMjQzNDcsMTM3MT
 gyNjk3NiwxMDU2NzExOTY4LC00OTQ4MTI0NTgsNDYyNjY0MDg4
 LC0xMjEzMzE5Mjg3LDM0ODIyNDg2OCwxNDQxOTk3ODA4LC0yND
 g1NTcwMzQsMTk5MDk1MTI2NF19
