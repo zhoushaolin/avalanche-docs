@@ -2,7 +2,7 @@
 
 雪崩网络定义了雪崩节点之间的核心通信格式。它使用[原始序列化](serialization-primitives.md)格式进行负载打包。
 
-`"Containers"`在说明书中被大量提及。容器只是块或顶点的通用术语，不需要指定一致算法是DAG还是Chain。`"Containers"` are mentioned extensively in the description. A Container is simply a generic term for blocks or vertices, without needing to specify whether the consensus algorithm is DAG or Chain.
+`"Containers"`在说明书中被大量提及。容器只是块或顶点的通用术语，不需要指定一致算法是DAG还是Chain。
 
 ## GetVersion
 
@@ -439,5 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbLTYwMTY5MTIyNCw4ODg0NTc5MDgsLTE1OD
+UwNzY1NTldfQ==
 -->
