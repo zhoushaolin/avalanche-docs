@@ -560,7 +560,7 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
 * **`importedInputs`** 是一个可转移输出的数组，用于充值ImportTx。
 * **`Outs`**是要导入到此链的EVM输出数组。
 
-#### Gantt ImportTx Specification
+#### Gantt ImportTx 规范
 
 ```text
 +---------------------+----------------------+-------------------------------------------------+
@@ -580,9 +580,9 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
                                              +-------------------------------------------------+
 ```
 
-#### ImportTx Example
+#### ImportTx 示例
 
-Let's make an ImportTx:
+我们来创建一个ImportTx:
 
 * **`TypeID`**: `0`
 * **`NetworkID`**: `12345`
@@ -650,7 +650,7 @@ Let's make an ImportTx:
 ]
 ```
 
-## Credentials
+## 凭据
 
 Credentials have one possible type: `SECP256K1Credential`. Each credential is paired with an Input. The order of the credentials match the order of the inputs.
 
@@ -913,5 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNDU1NDE0LC0xODA4NTExMzYxXX0=
+eyJoaXN0b3J5IjpbLTUzMTgwNTA3NSw3OTE0NTU0MTQsLTE4MD
+g1MTEzNjFdfQ==
 -->
