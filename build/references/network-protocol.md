@@ -45,13 +45,13 @@
 ]
 ```
 
-### How Version is handled
+### 如何处理版本
 
-If the versions are incompatible or the current times differ too much, the connection will be terminated.
+如果版本不兼容或当前时间相差太大，连接将被终止。
 
-### When Version is sent
+### 版本什么时候发送
 
-`Version` is sent in response to a `GetVersion` message.
+`Version`是响应' GetVersion '消息发送的。is sent in response to a `GetVersion` message.
 
 ### Version Example
 
@@ -439,6 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDgwMTUwNywtMjA3Nzc1NjUwNyw4OD
+eyJoaXN0b3J5IjpbMTA4NDUzNzk1MiwtMjA3Nzc1NjUwNyw4OD
 g0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
