@@ -73,7 +73,7 @@
 
 ## GetPeers
 
-### Overview
+### 概述
 
 `GetPeers` requests that a `Peers` message be sent as a response.
 
@@ -439,6 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsOD
-g4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLT
+IwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
 -->
