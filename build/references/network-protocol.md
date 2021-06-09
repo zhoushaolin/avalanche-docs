@@ -36,9 +36,7 @@
 
 `Version`包含节点的当前时间(Unix时间格式，以1970年01月01日开始的毫秒数表示)，以及描述节点正在运行的代码版本的版本字符串。
 
-`Version` contains the node’s current time in Unix time format in number of milliseconds since the beginning of the epoch in 01/01/1970, as well as a version string describing the version of the code that the node is running.
-
-Content:
+当前:
 
 ```text
 [
@@ -441,6 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzkzNjY1OCwtMjA3Nzc1NjUwNyw4OD
+eyJoaXN0b3J5IjpbLTcxNDgwMTUwNywtMjA3Nzc1NjUwNyw4OD
 g0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
