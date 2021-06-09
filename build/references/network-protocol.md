@@ -145,10 +145,9 @@
 
 ### 概述
 
+一个`Get`消息从一个节点请求一个容器，即块或顶点。
 
-一个“Get”消息从一个节点请求一个容器，即块或顶点。A `Get` message requests a container, that is, block or vertex, from a node.
-
-The OpCode used by `Get` messages is: `0x04`.
+' Get '消息使用的操作码是:' 0x04 '。The OpCode used by `Get` messages is: `0x04`.
 
 ### What Get contains
 
@@ -440,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTAxNjA1NywxNDkxMTU4NTU2LDM2Mz
+eyJoaXN0b3J5IjpbMTYzMzAyODI1NSwxNDkxMTU4NTU2LDM2Mz
 Y2NDgwOSw4MDA0OTQ4NzksLTI5Mzc3NTU2NiwtMTA0MDMwMzcy
 MSwtMjA5ODc0ODAzMCwtMjA3Nzc1NjUwNyw4ODg0NTc5MDgsLT
 E1ODUwNzY1NTldfQ==
