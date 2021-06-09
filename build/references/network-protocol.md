@@ -1,5 +1,6 @@
 # 网络协议
 
+雪崩网络定义了雪崩节点之间的核心通信格式。它使用[基元序列化](serialization-primitives.md)格式进行负载打包。
 Avalanche network defines the core communication format between Avalanche nodes. It uses the [primitive serialization](serialization-primitives.md) format for payload packing.
 
 `"Containers"` are mentioned extensively in the description. A Container is simply a generic term for blocks or vertices, without needing to specify whether the consensus algorithm is DAG or Chain.
@@ -439,5 +440,5 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbOTM3NTk5MTU4LC0xNTg1MDc2NTU5XX0=
 -->
