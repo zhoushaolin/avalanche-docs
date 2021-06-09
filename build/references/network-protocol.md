@@ -21,9 +21,8 @@
 ### GetVersion是如何处理的
 
 一个接收到`GetVersion` 消息的节点必须用包含当前时间和节点版本的`Version`消息进行响应。
-A node receiving a `GetVersion` message must respond with a `Version` message containing the current time and node version.
 
-### When GetVersion is sent
+### GetVersion什么时候发送
 
 `GetVersion` is sent when a node is connected to another node, but has not yet received a `Version` message. It may, however, be re-sent at any time.
 
@@ -440,6 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjQwODQ1LDg4ODQ1NzkwOCwtMTU4NT
-A3NjU1OV19
+eyJoaXN0b3J5IjpbLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNT
+g1MDc2NTU5XX0=
 -->
