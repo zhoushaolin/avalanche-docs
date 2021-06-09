@@ -4,7 +4,7 @@
 
 ## 网络层中的密码学
 
-Avalanche使用Transport Layer Security, TLS，来保护节点到节点的通信不被窃听。TLS结合了公钥密码体制的实用性和对称密钥密码体制的高效性。这导致TLS成为互联网通信的标准。虽然大多数经典的共识协议使用公钥密码技术来证明第三方接收到的消息，但是新的Snow共识家族不需要这样的证明。这使得Avalanche能够使用TLS来验证利益相关者，并消除了为签名网络消息而使用昂贵的公钥加密的需要。
+Avalanche使用Transport Layer Security(TLS)，来保护节点间的通信不被窃听。TLS结合了公钥密码体制的实用性和对称密钥密码学的高效性。这导致TLS成为互联网通信的标准。虽然大多数经典的共识协议使用公钥密码技术来证明第三方接收到的消息，但是新的Snow共识家族不需要这样的证明。这使得Avalanche能够使用TLS来验证利益相关者，并消除了为签名网络消息而使用昂贵的公钥加密的需要。
 Avalanche uses Transport Layer Security, TLS, to protect node-to-node communications from eavesdroppers. TLS combines the practicality of public-key cryptography with the efficiency of symmetric-key cryptography. This has resulted in TLS becoming the standard for internet communication. Whereas most classical consensus protocols employ public-key cryptography to prove receipt of messages to third parties, the novel Snow\* consensus family does not require such proofs. This enables Avalanche to employ TLS in authenticating stakers and eliminates the need for costly public-key cryptography for signing network messages.
 
 ### TLS Certificates
@@ -132,5 +132,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc1NDEzMjZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzg0MTIxNzFdfQ==
 -->
