@@ -830,8 +830,8 @@ UTXO是交易输出的独立表示。
 UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID` 和`Output`。
 
 * **`CodecID`** 唯一有效的`CodecID` 是`00 00`。
-* **`TxID`** 是一个32字节的交易ID。通过使用已签名的sha256字节来计算事务id。is a 32-byte transaction ID. Transaction IDs are calculated by taking sha256 of the bytes of the signed transaction.
-* **`UTXOIndex`** is an int that specifies which output in the transaction specified by **`TxID`** that this utxo was created by.
+* **`TxID`** 是一个32字节的交易ID。通过使用已签名交易的sha256字节来计算交易ID。
+* **`UTXOIndex`** 是一个整数，它指定在事务中由** `TxID` **指定的哪个输出创建了这个utxo。
 * **`AssetID`** is a 32-byte array that defines which asset this utxo references.
 * **`Output`** is the output object that created this utxo. The serialization of Outputs was defined above.
 
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3ODk3Mzc1LDc5MTQ1NTQxNCwtMTgwOD
-UxMTM2MV19
+eyJoaXN0b3J5IjpbLTE4NzIyOTIzMzEsNzkxNDU1NDE0LC0xOD
+A4NTExMzYxXX0=
 -->
