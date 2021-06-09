@@ -728,9 +728,9 @@ message SECP256K1Credential {
 
 * **`CodecID`** 当前唯一有效的编解码器id是`00 00`。
 * **`AtomicTx`** 是原子交易，如上所述。
-* **`Credentials`** 是凭据的数组。每个凭据都对应于AtomicTx中相同索引处的输入is an array of credentials. Each credential corresponds to the input at the same index in the AtomicTx
+* **`Credentials`** 是凭据的数组。每个凭据都对应于AtomicTx中相同索引处的输入。
 
-### Gantt Signed Transaction Specification
+### Gantt 签名的交易规范
 
 ```text
 +---------------------+--------------+------------------------------------------------+
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU2NTcxMjUsNzkxNDU1NDE0LC0xOD
-A4NTExMzYxXX0=
+eyJoaXN0b3J5IjpbLTkzNDQ5NjQyOSw3OTE0NTU0MTQsLTE4MD
+g1MTEzNjFdfQ==
 -->
