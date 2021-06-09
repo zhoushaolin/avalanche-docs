@@ -290,8 +290,9 @@
 
 节点应该尝试将容器添加到一致性。在容器被添加到共识之后，一个`Chits`消息应该被发送，并带有节点的当前首选项。
 
-### When PushQuery is sent
+### PushQuery什么时候发送
 
+如果一个节点想要了解这个节点的当前首选项，并且认为该节点可能还没有了解到`Container`，那么它应该发送一个`PushQuery`消息。当节点了解到一个新的容器或它有“一段时间”挂起的容器时，它将希望了解节点首选项。
 A node should send a `PushQuery` message if it wants to learn of this node’s current preferences and it feels that it is possible the node hasn’t learned of `Container` yet. The node will want to learn of nodes preferences when it learns of a new container or it has had pending containers for “awhile”.
 
 ### PushQuery Example
@@ -438,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2MjAyMDU0LDY4NDQ3MjkyMCw3NTk4ND
+eyJoaXN0b3J5IjpbODMwMzM5Mzk3LDY4NDQ3MjkyMCw3NTk4ND
 Y5MjIsMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0y
 OTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNz
 c3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
