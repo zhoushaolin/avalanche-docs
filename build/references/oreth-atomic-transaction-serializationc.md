@@ -744,7 +744,7 @@ message SECP256K1Credential {
                                      +------------------------------------------------+
 ```
 
-### Proto Signed Transaction Specification
+### Proto 签名的交易规范
 
 ```text
 message Tx {
@@ -754,9 +754,9 @@ message Tx {
 }
 ```
 
-### Signed Transaction Example
+### 签名的交易示例
 
-Let's make a signed transaction that uses the unsigned transaction and credential from the previous examples.
+让我们使用前面例子中的未签名交易和凭据来创建一个签名的交易。
 
 * **`CodecID`**: `0`
 * **`UnsignedTx`**: `0x000000000000303991060eabfb5a571720109b5896e5ff00010a1cfe6b103d585e6ebf27b97a1735d891ad56056d9c01f18f43f58b5c784ad07a4a49cf3d1f11623804b5cba2c6bf000000016613a40dcdd8d22ea4aa99a4c84349056317cf550b6685e045e459954f258e5900000001dbcf890f77f49b96857648b72b77f9f82937f28a68704af05da0dc12ba53f2db00000005000000746a5288000000000100000000000000010eb5ccb85c29009b6060decb353a38ea3b52cd20000000746a528800dbcf890f77f49b96857648b72b77f9f82937f28a68704af05da0dc12ba53f2db`
@@ -823,7 +823,7 @@ Let's make a signed transaction that uses the unsigned transaction and credentia
 
 ## UTXO
 
-A UTXO is a standalone representation of a transaction output.
+UTXO是交易输出的独立表示。
 
 ### What UTXO Contains
 
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDQ5NjQyOSw3OTE0NTU0MTQsLTE4MD
+eyJoaXN0b3J5IjpbMTY5OTEzNzE4Niw3OTE0NTU0MTQsLTE4MD
 g1MTEzNjFdfQ==
 -->
