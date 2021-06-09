@@ -107,7 +107,7 @@
 
 `Peers`包含该节点当前连接到的质押节点的IP地址。
 
-Content:
+内容:
 
 ```text
 [
@@ -115,11 +115,11 @@ Content:
 ]
 ```
 
-### How Peers is handled
+### 如何处理对等点
 
-On receiving a `Peers` message, a node should compare the nodes appearing in the message to its own list of neighbors, and forge connections to any new nodes.
+在接收到`Peers`消息时，节点应该将消息中出现的节点与它自己的邻居列表进行比较，并与所有新节点建立连接。
 
-### When Peers is sent
+### 对等点什么时候
 
 `Peers` messages do not need to be sent in response to a `GetPeers` message, and are sent periodically to announce newly arriving nodes. The default period for such push gossip is 60 seconds.
 
@@ -439,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA0MTAxNjksMzYzNjY0ODA5LDgwMD
-Q5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4
-MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV
-19
+eyJoaXN0b3J5IjpbMjMxODExMzQ2LDM2MzY2NDgwOSw4MDA0OT
+Q4NzksLTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAz
+MCwtMjA3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ
+==
 -->
