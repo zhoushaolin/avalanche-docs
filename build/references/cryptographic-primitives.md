@@ -26,7 +26,7 @@ Avalanche虚拟机使用椭圆曲线密码，特别是`secp256k1`，用于区块
 
 Avalanche没有规定寻址方案，而是选择将寻址留给每个区块链。
 
-x链和p链的寻址方案依赖于secp256k1。Avalanche采用了与比特币类似的方法，并对ECDSA公钥进行散列。33字节的公钥压缩表示用sha256 **一次**进行散列。然后用ripemd160对结果进行散列，得到一个20字节的地址。
+x链和p链的寻址方案依赖于secp256k1。Avalanche采用了与比特币类似的方法，并对ECDSA公钥进行哈希处理。33字节的公钥压缩表示用sha256 **一次**进行哈希处理。然后用ripemd160对结果进行哈希处理，得到一个20字节的地址。
 
 The addressing scheme of the X-Chain and the P-Chain relies on secp256k1. Avalanche follows a similar approach as Bitcoin and hashes the ECDSA public key. The 33-byte compressed representation of the public key is hashed with sha256 **once**. The result is then hashed with ripemd160 to yield a 20-byte address.
 
@@ -133,5 +133,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyNzYyMzBdfQ==
+eyJoaXN0b3J5IjpbMTUyMDY1ODU4OF19
 -->
