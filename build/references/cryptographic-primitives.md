@@ -124,14 +124,15 @@ sign(sha256(length(prefix) + prefix + length(message) + message))
 
 ## 以太坊虚拟机中的加密技术
 
-Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely duplicate all of the cryptographic constructs used in Ethereum. This includes the Keccak hash function and the other mechanisms used for cryptographic security in the EVM.
+Avalanche节点支持完整的以太坊虚拟机(EVM)，并精确复制以太坊中使用的所有加密结构。这包括Keccak散列函数和EVM中用于加密安全性的其他机制。
 
-## Cryptography in Other Virtual Machines
+## 其他虚拟机中的密码术
 
-Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
+由于Avalanche是一个可扩展的平台，我们希望随着时间的推移，人们会向系统添加额外的加密原语。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNDc5Mjk3LC0zMDY4MDI3MTksMTg3Nj
+eyJoaXN0b3J5IjpbODc2ODk2Mzg1LC0zMDY4MDI3MTksMTg3Nj
 IwNzIxNSwxMTkzNTc4MTYyLDE0ODA4ODk5MDEsMTkyOTg2MzQ1
 NSwxMzc3NTgwODkxLC0xMDIzMTIyMzk1LC0xMjUxMTM1MjIxXX
 0=
