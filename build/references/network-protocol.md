@@ -226,15 +226,14 @@
 ]
 ```
 
-### How Put is handled
+### 如何处理Put
 
-The node should attempt to add the container to consensus.
+节点应该尝试将容器添加到一致性。
 
-### When Put is sent
+### Put什么时候发送
+一个节点将发送一个`Put`消息来响应接收到的一个节点可以访问的容器的Get消息。
 
-A node will send a `Put` message in response to receiving a Get message for a container the node has access to.
-
-### Put Example
+### Put 示例
 
 ```text
 [
@@ -439,7 +438,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDg2MjkzOCw2ODQ0NzI5MjAsNzU5OD
+eyJoaXN0b3J5IjpbMTU0Njc5NTM0Nyw2ODQ0NzI5MjAsNzU5OD
 Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
 MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
 c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
