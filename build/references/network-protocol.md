@@ -273,9 +273,9 @@
 
 **`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。
 
-**`ContainerID`** 是此消息期望在发送响应之前已添加到共识的容器的标识符。is the identifier of the container this message expects to have been added to consensus before the response is sent.
+**`ContainerID`** 是此消息期望在发送响应之前已添加到共识的容器的标识符。
 
-**`Container`** is the bytes of the container with identifier `ContainerID`.
+**`Container`** 是容器的标识符`ContainerID`的字节
 
 ```text
 [
@@ -286,9 +286,9 @@
 ]
 ```
 
-### How PushQuery is handled
+### PushQuery是如何处理的
 
-The node should attempt to add the container to consensus. After the container is added to consensus, a `Chits` message should be sent with the current preference\(s\) of the node.
+节点应该尝试将容器添加到一致性。在容器被添加到共识之后，一个`Chits`消息应该被发送，并带有节点的当前首选项。
 
 ### When PushQuery is sent
 
@@ -438,8 +438,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE1MDM0MTEsNjg0NDcyOTIwLDc1OT
-g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
-LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
-A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbODE2MjAyMDU0LDY4NDQ3MjkyMCw3NTk4ND
+Y5MjIsMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0y
+OTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNz
+c3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
 -->
