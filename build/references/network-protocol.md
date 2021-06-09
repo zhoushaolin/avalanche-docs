@@ -261,10 +261,9 @@
 
 ### 概述
 
-在指定的`ContainerID`被添加到consensus之后，' PushQuery '消息从节点请求首选的ContainerID。如果' ContainerID '未知，则乐观地提供' Container '。
-A `PushQuery` message requests the preferred containerIDs from the node after the specified `ContainerID` has been added to consensus. If the `ContainerID` is not known, the `Container` is optimistically provided.
+在指定的`ContainerID`被添加到consensus之后，`PushQuery` 消息从节点请求首选的ContainerID。如果`ContainerID`未知，则乐观地提供`Container`。
 
-The OpCode used by `PushQuery` messages is: `0x06`.
+`PushQuery`消息使用的操作码是:`0x06`。
 
 ### What PushQuery contains
 
@@ -439,7 +438,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzExMjExNTcsNjg0NDcyOTIwLDc1OT
+eyJoaXN0b3J5IjpbLTE3MzMxODM5MjAsNjg0NDcyOTIwLDc1OT
 g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
 LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
 A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
