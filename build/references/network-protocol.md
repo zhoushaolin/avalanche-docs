@@ -55,9 +55,7 @@
 
 ### 版本示例
 
-发送时间`November 16th, 2008 at 12:00am (UTC)`和版本`avalanche/0.0.1`的版本信息
-
-Sending a `Version` message with the time `November 16th, 2008 at 12:00am (UTC)` and the version `avalanche/0.0.1`
+发送时间`November 16th, 2008 at 12:00am (UTC)`和版本为`avalanche/0.0.1`的`Version`信息
 
 ```text
 [
@@ -441,6 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxODUxNjQxLC0yMDc3NzU2NTA3LDg4OD
-Q1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsOD
+g4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
 -->
