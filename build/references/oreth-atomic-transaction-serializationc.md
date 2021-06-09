@@ -718,13 +718,13 @@ message SECP256K1Credential {
 ]
 ```
 
-## Signed Transaction
+## 签名的交易
 
-A signed transaction contains an unsigned `AtomicTx` and credentials.
+一个签名的交易包含一个未签名的`AtomicTx`和凭证。
 
-### What Signed Transaction Contains
+### 签名的交易包含什么
 
-A signed transaction contains a `CodecID`, `AtomicTx`, and `Credentials`.
+签名的交易包含CodecID`, `AtomicTx`, 以及`Credentials`。
 
 * **`CodecID`** The only current valid codec id is `00 00`.
 * **`AtomicTx`** is an atomic transaction, as described above.
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDMyMzQ0NCw3OTE0NTU0MTQsLTE4MD
-g1MTEzNjFdfQ==
+eyJoaXN0b3J5IjpbLTE2NTI3NzU5MjIsNzkxNDU1NDE0LC0xOD
+A4NTExMzYxXX0=
 -->
