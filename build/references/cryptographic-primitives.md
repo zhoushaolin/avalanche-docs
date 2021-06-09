@@ -51,12 +51,11 @@ X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中�
 
 ### Secp256k1 可恢复的签名
 
-可恢复签名存储为65字节的`[R || S || V]`**, 其中**`V`**是0或1，以允许快速恢复公钥。 `S`必须在可能范围的下半部分，以防止签名可锻性。在给消息签名之前，使用sha256对消息进行散列。
+可恢复签名存储为65字节的`[R || S || V]`**, 其中**`V`**是0或1，以允许快速恢复公钥。 `S`必须在可能范围的下半部分，以防止签名展延性。在给消息签名之前，使用sha256对消息进行哈希处理。
 
-Recoverable signatures are stored as the 65-byte **`[R || S || V]`** where **`V`** is 0 or 1 to allow quick public key recoverability. **`S`** must be in the lower half of the possible range to prevent signature malleability. Before signing a message, the message is hashed using sha256.
+### Secp256k1 示例
 
-### Secp256k1 Example
-
+假设瑞克和莫蒂正在建立一个安全的通信通道。Morty创建了一个新的公私密钥对。
 Suppose Rick and Morty are setting up a secure communication channel. Morty creates a new public-private key pair.
 
 Private Key: `0x98cb077f972feb0481f1d894f272c6a1e3c15e272a1658ff716444f465200070`
@@ -133,6 +132,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDg4OTkwMSwxOTI5ODYzNDU1LDEzNz
-c1ODA4OTEsLTEwMjMxMjIzOTUsLTEyNTExMzUyMjFdfQ==
+eyJoaXN0b3J5IjpbLTYzNjgzMDUwOSwxNDgwODg5OTAxLDE5Mj
+k4NjM0NTUsMTM3NzU4MDg5MSwtMTAyMzEyMjM5NSwtMTI1MTEz
+NTIyMV19
 -->
