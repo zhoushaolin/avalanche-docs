@@ -153,7 +153,7 @@
 
 `Get` 消息包含`SubnetID`, `RequestID`和`ContainerID`。
 
-**`SubnetID`** defines which subnet this message is destined for.
+**`SubnetID`** 定义此消息的目的地子网。
 
 **`RequestID`** is a counter that helps keep track of the messages sent by a node. Each time a node sends an un-prompted message, the node will create a new unique `RequestID` for the message.
 
@@ -439,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MDYwNDkzLDE0OTExNTg1NTYsMzYzNj
+eyJoaXN0b3J5IjpbNzU5ODQ2OTIyLDE0OTExNTg1NTYsMzYzNj
 Y0ODA5LDgwMDQ5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIx
 LC0yMDk4NzQ4MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMT
 U4NTA3NjU1OV19
