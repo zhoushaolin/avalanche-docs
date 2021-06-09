@@ -95,10 +95,11 @@
 
 一个节点在启动时发送`GetPeers`消息来发现网络中的参与者。它也可能定期发送`GetPeers`消息，以便在新节点到达网络时发现它们。
 
-## Peers
+## 对等体
 
-### Overview
+### 概述
 
+`Peers`消息包含以IP地址表示的对等体列表。IP地址同时包含IP和端口号，支持IPv4和IPv6两种格式。
 `Peers` message contains a list of peers, represented as IP Addresses. Note that an IP Address contains both the IP and the port number, and supports both IPv4 and IPv6 format.
 
 The OpCode used by `Peers` messages is: `0x03`.
@@ -439,8 +440,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTI2OTI5NCwzNjM2NjQ4MDksODAwND
-k0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgw
-MzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX
-0=
+eyJoaXN0b3J5IjpbNTYyOTExNDE2LDM2MzY2NDgwOSw4MDA0OT
+Q4NzksLTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAz
+MCwtMjA3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ
+==
 -->
