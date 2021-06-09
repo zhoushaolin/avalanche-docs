@@ -79,15 +79,15 @@
 
 `GetPeers` 消息使用的操作码是:`0x02`。
 
-### GetPeersba
+### GetPeers包含什么
 
-The payload of a `GetPeers` message is empty.
+`GetPeers`消息的有效负载为空。
 
 ```text
 []
 ```
 
-### How GetPeers is handled
+### 如何处理GetPeers
 
 A node receiving `GetPeers` request must respond with a `Peers` message containing the IP addresses of its connected, staking nodes.
 
@@ -439,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI4NTE4NDIsLTI5Mzc3NTU2NiwtMT
-A0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMjA3Nzc1NjUwNyw4ODg0
-NTc5MDgsLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbODAwNDk0ODc5LC0yOTM3NzU1NjYsLTEwND
+AzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsODg4NDU3
+OTA4LC0xNTg1MDc2NTU5XX0=
 -->
