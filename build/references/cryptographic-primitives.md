@@ -37,8 +37,9 @@ X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中�
 * 人可读的部分(HRP)。在主网上这是`avax`。
 * 数字`1`，将HRP与地址和纠错码分开。
 * 一个用base-32编码的字符串，表示20字节的地址。
-* A 6-character base-32 encoded error correction code.
+* 一个6个字符的base-32编码的纠错码。
 
+此外，Avalanche地址的前缀是它所在链的别名，后面是破折号。例如，X链地址前缀为“X-”。
 Additionally, an Avalanche address is prefixed with the alias of the chain it exists on, followed by a dash. For example, X-Chain addresses are prefixed with `X-`.
 
 The following regular expression matches addresses on the X-Chain, P-Chain and C-Chain for mainnet, fuji and localnet. Note that all valid Avalanche addresses will match this regular expression, but some strings that are not valid Avalanche addresses may match this regular expression.
@@ -131,5 +132,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNTY4NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyODcwOTQ3OTFdfQ==
 -->
