@@ -265,15 +265,15 @@
 
 `PushQuery`消息使用的操作码是:`0x06`。
 
-### What PushQuery contains
+### PushQuery包含什么
 
-A `Put` message contains a `SubnetID`, `RequestID`, `ContainerID`, and `Container`.
+`Put` 消息包含`SubnetID`, `RequestID`, `ContainerID`, 和`Container`。
 
-**`SubnetID`** defines which subnet this message is destined for.
+**`SubnetID`** 定义此消息的目的地子网。
 
-**`RequestID`** is a counter that helps keep track of the messages sent by a node.
+**`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。
 
-**`ContainerID`** is the identifier of the container this message expects to have been added to consensus before the response is sent.
+**`ContainerID`** 是此消息期望在发送响应之前已添加到共识的容器的标识符。is the identifier of the container this message expects to have been added to consensus before the response is sent.
 
 **`Container`** is the bytes of the container with identifier `ContainerID`.
 
@@ -438,7 +438,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMxODM5MjAsNjg0NDcyOTIwLDc1OT
+eyJoaXN0b3J5IjpbLTE2NzE1MDM0MTEsNjg0NDcyOTIwLDc1OT
 g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
 LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
 A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
