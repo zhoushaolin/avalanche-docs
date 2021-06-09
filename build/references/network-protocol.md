@@ -30,11 +30,11 @@
 
 `Version`确保我们所连接的节点运行的是兼容版本的Avalanche，并且至少在当前时间上大致一致。
 
-`Version` ensures that the nodes we are connected to are running compatible versions of Avalanche, and at least loosely agree on the current time.
+`Version`消息使用的操作码是:`0x01`。
 
-The OpCode used by `Version` messages is: `0x01`.
+### 版本包含什么
 
-### What Version contains
+`Version`包含节点的当前时间(Unix时间格式，以1970年01月01日开始的毫秒数表示)，以及描述节点正在运行的代码版本的版本字符串。
 
 `Version` contains the node’s current time in Unix time format in number of milliseconds since the beginning of the epoch in 01/01/1970, as well as a version string describing the version of the code that the node is running.
 
@@ -441,6 +441,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY0ODMzMDAsLTIwNzc3NTY1MDcsOD
-g4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbMTE2MzkzNjY1OCwtMjA3Nzc1NjUwNyw4OD
+g0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
