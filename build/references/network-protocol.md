@@ -100,13 +100,12 @@
 ### 概述
 
 `Peers`消息包含以IP地址表示的对等体列表。注意, IP地址同时包含IP和端口号，支持IPv4和IPv6两种格式。
-`Peers` message contains a list of peers, represented as IP Addresses. Note that an IP Address contains both the IP and the port number, and supports both IPv4 and IPv6 format.
 
-The OpCode used by `Peers` messages is: `0x03`.
+`Peers`消息使用的操作码是:`0x03`。
 
-### What Peers contains
+### 对等体包含什么
 
-`Peers` contains the IP addresses of the staking nodes this node is currently connected to.
+`Peers`包含该节点当前连接到的质押节点的IP地址。
 
 Content:
 
@@ -440,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzYzOTgwNSwzNjM2NjQ4MDksODAwND
-k0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgw
-MzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX
-0=
+eyJoaXN0b3J5IjpbLTE2MDA0MTAxNjksMzYzNjY0ODA5LDgwMD
+Q5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4
+MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV
+19
 -->
