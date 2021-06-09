@@ -293,9 +293,8 @@
 ### PushQuery什么时候发送
 
 如果一个节点想要了解这个节点的当前首选项，并且认为该节点可能还没有了解到`Container`，那么它应该发送一个`PushQuery`消息。当节点了解到一个新的容器或它有“一段时间”挂起的容器时，它将希望了解节点首选项。
-A node should send a `PushQuery` message if it wants to learn of this node’s current preferences and it feels that it is possible the node hasn’t learned of `Container` yet. The node will want to learn of nodes preferences when it learns of a new container or it has had pending containers for “awhile”.
 
-### PushQuery Example
+### PushQuery示例
 
 ```text
 [
@@ -321,7 +320,7 @@ A node should send a `PushQuery` message if it wants to learn of this node’s c
 
 ## PullQuery
 
-### Overview
+### 概述
 
 A `PullQuery` message requests the preferred containerIDs from the node after the specified `ContainerID` has been added to consensus.
 
@@ -439,8 +438,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwMzM5Mzk3LDY4NDQ3MjkyMCw3NTk4ND
-Y5MjIsMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0y
-OTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNz
-c3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbLTE0NzEwMTkwMjksNjg0NDcyOTIwLDc1OT
+g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
+LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
+A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
