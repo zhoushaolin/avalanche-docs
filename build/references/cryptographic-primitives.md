@@ -14,17 +14,17 @@ Avalanche不依赖于任何中心化的第三方，特别是它不使用第三�
 
 为了避免将完整的TLS证书发送到平台链，首先对证书进行哈希处理。为了一致性，Avalanche为TLS证书采用了与比特币中使用的相同的哈希机制。即，使用sha256对证书的DER表示进行哈希处理，然后使用ripemd160对结果进行散列，为质押者生成一个20字节的标识符。
 
-这个20字节的标识符由“NodeID-”表示，后面跟着数据的[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)编码字符串。
+这个20字节的标识符由“NodeID-”后面跟着数据的[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)编码字符串表示。
 
 ## 雪崩虚拟机中的密码学
 
 Avalanche虚拟机使用椭圆曲线密码，特别是`secp256k1`，用于区块链上的签名。
 
 这个32字节的标识符由“PrivateKey-”后跟数据的[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)编码字符串表示。
-This 32-byte identifier is represented by “PrivateKey-” followed by the data’s [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) encoded string.
 
-### Secp256k1 Addresses
+### Secp256k1 地址
 
+Avalanche没有规定地址方案，而是选择将寻址留给每个区块链。
 Avalanche is not prescriptive about addressing schemes, choosing to instead leave addressing up to each blockchain.
 
 The addressing scheme of the X-Chain and the P-Chain relies on secp256k1. Avalanche follows a similar approach as Bitcoin and hashes the ECDSA public key. The 33-byte compressed representation of the public key is hashed with sha256 **once**. The result is then hashed with ripemd160 to yield a 20-byte address.
@@ -132,5 +132,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTcwODEzMl19
+eyJoaXN0b3J5IjpbLTEyNDU0OTE4NThdfQ==
 -->
