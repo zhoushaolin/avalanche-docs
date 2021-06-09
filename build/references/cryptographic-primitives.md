@@ -89,7 +89,7 @@ sign(sha256(length(prefix) + prefix + length(message) + message))
 
 前缀是字符串`\x1AAvalanche Signed Message:\n`，其中`0x1A`是前缀文本的长度，`length(message)` 是消息大小的一个[整数](serialization-primitives.md#integer)。
 
-### Gantt 原像规范
+### Gantt 预图像规范
 
 ```text
 +---------------+-----------+------------------------------+
@@ -105,8 +105,7 @@ sign(sha256(length(prefix) + prefix + length(message) + message))
 
 ### 示例
 
-作为一个例子，我们将签署信息"通过共识到星星"
-As an example we will sign the message "Through consensus to the stars"
+作为一个例子，我们将"通过共识到星星"签署信息
 
 ```text
 // prefix size: 26 bytes
@@ -118,6 +117,8 @@ As an example we will sign the message "Through consensus to the stars"
 // msg: Through consensus to the stars
 54 68 72 6f 75 67 68 20 63 6f 6e 73 65 6e 73 75 73 20 74 6f 20 74 68 65 20 73 74 61 72 73
 ```
+
+在使用`sha256`哈希并对预图像进行签名后，我们返回编码好的值[cb58](https://support.avalabs.org/en/articles/4587395-what-is-cb58): ' 4Eb2zAHF4JjZFJmp4usSokTGqq9mEGwVMY2WZzzCmu657SNFZhndsiS8TvL32n3bexd8emUwiXs8XqKjhqzvoRFvghnvSN '。下面是使用[Avalanche Web Wallet](https://wallet.avax.network/wallet/advanced)的一个例子。
 
 After hashing with `sha256` and signing the pre-image we return the value [cb58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) encoded: `4Eb2zAHF4JjZFJmp4usSokTGqq9mEGwVMY2WZzzCmu657SNFZhndsiS8TvL32n3bexd8emUwiXs8XqKjhqzvoRFvghnvSN`. Here's an example using the [Avalanche Web Wallet](https://wallet.avax.network/wallet/advanced).
 
@@ -132,8 +133,8 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY1MjIwMzEsLTMwNjgwMjcxOSwxOD
-c2MjA3MjE1LDExOTM1NzgxNjIsMTQ4MDg4OTkwMSwxOTI5ODYz
-NDU1LDEzNzc1ODA4OTEsLTEwMjMxMjIzOTUsLTEyNTExMzUyMj
-FdfQ==
+eyJoaXN0b3J5IjpbLTY4OTY4NzI2OSwtMzA2ODAyNzE5LDE4Nz
+YyMDcyMTUsMTE5MzU3ODE2MiwxNDgwODg5OTAxLDE5Mjk4NjM0
+NTUsMTM3NzU4MDg5MSwtMTAyMzEyMjM5NSwtMTI1MTEzNTIyMV
+19
 -->
