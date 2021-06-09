@@ -12,7 +12,7 @@ Avalanche不依赖于任何中心化的第三方，特别是它不使用第三�
 
 ### TLS 地址
 
-为了避免将完整的TLS证书发送到平台链，首先对证书进行散列处理。为了一致性，Avalanche为TLS证书采用了与比特币中使用的相同的散列机制。即，使用sha256对证书的DER表示进行散列，然后使用ripemd160对结果进行散列，为参与者生成一个20字节的标识符。
+为了避免将完整的TLS证书发送到平台链，首先对证书进行哈希处理。为了一致性，Avalanche为TLS证书采用了与比特币中使用的相同的哈希机制。即，使用sha256对证书的DER表示进行哈希处理，然后使用ripemd160对结果进行散列，为参与者生成一个20字节的标识符。
 To avoid posting the full TLS certificate to the Platform chain, the certificate is first hashed. For consistency, Avalanche employs the same hashing mechanism for the TLS certificates as is used in Bitcoin. Namely, the DER representation of the certificate is hashed with sha256, and the result is then hashed with ripemd160 to yield a 20-byte identifier for stakers.
 
 This 20-byte identifier is represented by “NodeID-” followed by the data’s [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) encoded string.
@@ -132,5 +132,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjMwMDk1MF19
+eyJoaXN0b3J5IjpbLTExNjM3ODAyMjBdfQ==
 -->
