@@ -75,7 +75,7 @@
 
 ### 概述
 
-`GetPeers` requests that a `Peers` message be sent as a response.
+`GetPeers` 请求将`Peers`消息作为响应发送。
 
 The OpCode used by `GetPeers` messages is: `0x02`.
 
@@ -439,6 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLT
-IwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbLTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMj
+A5ODc0ODAzMCwtMjA3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUw
+NzY1NTldfQ==
 -->
