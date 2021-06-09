@@ -382,15 +382,15 @@
 
 `Chits`消息使用的操作码是:`0x08`。
 
-### What Chits contains
+### 单据包含什么
 
-A `Chits` message contains a `SubnetID`, `RequestID`, and `Preferences`.
+`Chits` 消息单据SubnetID`, `RequestID`, 和`Preferences`。
 
-**`SubnetID`** defines which subnet this message is destined for.
+**`SubnetID`** 定义此消息的目的地子网。
 
-**`RequestID`** is a counter that helps keep track of the messages sent by a node.
+**`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。
 
-**`Preferences`** is the list of containerIDs that fully describe the node’s preferences.
+**`Preferences`** 是完整描述节点首选项的containerid列表。is the list of containerIDs that fully describe the node’s preferences.
 
 ```text
 [
@@ -438,8 +438,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzE4NDM0Myw2ODQ0NzI5MjAsNzU5OD
-Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
-MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
-c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbNjA3OTg4NjYyLDY4NDQ3MjkyMCw3NTk4ND
+Y5MjIsMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0y
+OTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNz
+c3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
 -->
