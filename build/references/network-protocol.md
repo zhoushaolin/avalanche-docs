@@ -89,10 +89,9 @@
 
 ### 如何处理GetPeers
 
-一个接收' GetPeers '请求的节点必须响应一个' Peers '消息，该消息包含其连接的、锁定节点的IP地址。
-A node receiving `GetPeers` request must respond with a `Peers` message containing the IP addresses of its connected, staking nodes.
+一个接收`GetPeers`请求的节点必须响应一个`Peers` 消息，该消息包含其连接的、质押节点的IP地址。
 
-### When GetPeers is sent
+### When GetPeers什么时候
 
 A node sends `GetPeers` messages upon startup to discover the participants in the network. It may also periodically send `GetPeers` messages in order to discover new nodes as they arrive in the network.
 
@@ -440,7 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNjY0ODA5LDgwMDQ5NDg3OSwtMjkzNz
-c1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMDc3NzU2
-NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbMTM2ODc5Nzg5OSwzNjM2NjQ4MDksODAwND
+k0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgw
+MzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX
+0=
 -->
