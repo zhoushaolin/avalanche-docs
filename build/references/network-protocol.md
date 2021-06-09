@@ -151,7 +151,7 @@
 
 ### Get包含什么
 
-A `Get` message contains a `SubnetID`, `RequestID`, and `ContainerID`.
+`Get` 消息包含`SubnetID`, `RequestID`和`ContainerID`。
 
 **`SubnetID`** defines which subnet this message is destined for.
 
@@ -439,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUyNDQyNzksMTQ5MTE1ODU1NiwzNj
-M2NjQ4MDksODAwNDk0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3
-MjEsLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC
-0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbNDg0MDYwNDkzLDE0OTExNTg1NTYsMzYzNj
+Y0ODA5LDgwMDQ5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIx
+LC0yMDk4NzQ4MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMT
+U4NTA3NjU1OV19
 -->
