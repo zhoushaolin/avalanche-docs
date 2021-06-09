@@ -557,8 +557,8 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
 * **`networkID`** 是一个整数，它定义了这个交易要发送到哪个Avalanche网络。这可能是主网、富士网等，与EVM的网络ID不同。
 * **`blockchainID`** 是一个32字节的数组，它定义了这个交易被发送到哪个区块链。
 * **`sourceChain`** 是一个32字节的数组，定义从哪个区块链导入资金。
-* **`importedInputs`** 是一个可转移输出的数组，用于资助ImportTx。is an array of TransferableInputs to fund the ImportTx.
-* **`Outs`** is an array of EVM Outputs to be imported to this chain.
+* **`importedInputs`** 是一个可转移输出的数组，用于充值ImportTx。
+* **`Outs`**是要导入到此链的EVM输出数组。
 
 #### Gantt ImportTx Specification
 
@@ -913,5 +913,5 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjYzMzk4LC0xODA4NTExMzYxXX0=
+eyJoaXN0b3J5IjpbNzkxNDU1NDE0LC0xODA4NTExMzYxXX0=
 -->
