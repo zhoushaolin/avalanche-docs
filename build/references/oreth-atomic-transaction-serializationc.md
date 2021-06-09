@@ -661,9 +661,9 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
 #### SECP256K1 凭据包含什么
 
 * **`TypeID`** 是此类型的ID, 它是`0x00000009`。
-* **`Signatures`** is an array of 65-byte recoverable signatures. The order of the signatures must match the input's signature indices.
-
-#### Gantt SECP256K1 Credential Specification
+* **`Signatures`** 是一个65字节可恢复签名的数组。签名的顺序必须与输入的签名索引匹配。
+* 
+#### Gantt SECP256K1 凭据规范
 
 ```text
 +------------------------------+---------------------------------+
@@ -675,7 +675,7 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
                                +---------------------------------+
 ```
 
-#### Proto SECP256K1 Credential Specification
+#### Proto SECP256K1 凭据规范
 
 ```text
 message SECP256K1Credential {
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODc4MjQ5OSw3OTE0NTU0MTQsLTE4MD
-g1MTEzNjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzcyNDQ2MDUsNzkxNDU1NDE0LC0xOD
+A4NTExMzYxXX0=
 -->
