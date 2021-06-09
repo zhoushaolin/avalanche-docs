@@ -322,13 +322,13 @@
 
 ### 概述
 
-A `PullQuery` message requests the preferred containerIDs from the node after the specified `ContainerID` has been added to consensus.
+一个`PullQuery`消息在指定的`ContainerID`被添加到consensus之后从节点请求首选的ContainerID。
 
-The OpCode used by `PullQuery` messages is: `0x07`.
+`PullQuery`消息使用的操作码是:`0x07`。
 
-### What PullQuery contains
+### PullQuery包含什么
 
-A `Put` message contains a `SubnetID`, `RequestID`, and `ContainerID`.
+A `Put` 消息包含`SubnetID`, `RequestID`和`ContainerID`.
 
 **`SubnetID`** defines which subnet this message is destined for.
 
@@ -438,8 +438,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEwMTkwMjksNjg0NDcyOTIwLDc1OT
-g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
-LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
-A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbLTY1Njc1NzcxMSw2ODQ0NzI5MjAsNzU5OD
+Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
+MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
+c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
 -->
