@@ -87,6 +87,8 @@ Morty再也没有出现过。
 sign(sha256(length(prefix) + prefix + length(message) + message))
 ```
 
+前缀是字符串`\x1AAvalanche Signed Message:\n`，其中`0x1A`是前缀文本的长度，`length(message)` 是消息大小的一个[integer](serialization-primitives.md#integer)。
+
 The prefix is simply the string `\x1AAvalanche Signed Message:\n`, where `0x1A` is the length of the prefix text and `length(message)` is an [integer](serialization-primitives.md#integer) of the message size.
 
 ### Gantt Pre-image Specification
@@ -131,7 +133,8 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjgwMjcxOSwxODc2MjA3MjE1LDExOT
-M1NzgxNjIsMTQ4MDg4OTkwMSwxOTI5ODYzNDU1LDEzNzc1ODA4
-OTEsLTEwMjMxMjIzOTUsLTEyNTExMzUyMjFdfQ==
+eyJoaXN0b3J5IjpbLTE4MjQ5MzU0NjMsLTMwNjgwMjcxOSwxOD
+c2MjA3MjE1LDExOTM1NzgxNjIsMTQ4MDg4OTkwMSwxOTI5ODYz
+NDU1LDEzNzc1ODA4OTEsLTEwMjMxMjIzOTUsLTEyNTExMzUyMj
+FdfQ==
 -->
