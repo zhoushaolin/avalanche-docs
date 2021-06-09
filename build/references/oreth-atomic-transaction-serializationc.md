@@ -686,7 +686,7 @@ message SECP256K1Credential {
 
 #### SECP256K1 凭据示例
 
-Let's make a payment input with:
+我们来创建一个支付输入:
 
 * **`TypeID`**: 9
 * **`signatures`**:
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDU5NDkyNCw3OTE0NTU0MTQsLTE4MD
+eyJoaXN0b3J5IjpbMTI5NDMyMzQ0NCw3OTE0NTU0MTQsLTE4MD
 g1MTEzNjFdfQ==
 -->
