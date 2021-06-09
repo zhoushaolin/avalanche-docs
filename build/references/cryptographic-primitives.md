@@ -28,12 +28,11 @@ Avalanche没有规定寻址方案，而是选择将寻址留给每个区块链�
 
 x链和p链的寻址方案依赖于secp256k1。Avalanche采用了与比特币类似的方法，并对ECDSA公钥进行哈希处理。33字节的公钥压缩表示用sha256 **一次**进行哈希处理。然后用ripemd160对结果进行哈希处理，得到一个20字节的地址。
 
-The addressing scheme of the X-Chain and the P-Chain relies on secp256k1. Avalanche follows a similar approach as Bitcoin and hashes the ECDSA public key. The 33-byte compressed representation of the public key is hashed with sha256 **once**. The result is then hashed with ripemd160 to yield a 20-byte address.
-
-Avalanche uses the convention `chainID-address` to specify which chain an address exists on. `chainID` may be replaced with an alias of the chain. When transmitting information through external applications, the CB58 convention is required.
+Avalanche使用约定`chainID-address`来指定地址存在于哪个链上。`chainID`可以被替换为链的别名。通过外部应用传输信息时，需要遵循CB58约定。
 
 ### Bech32
 
+x链和p链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中概述的[Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32)标准。Bech32地址方案有四个部分。按外观排列:
 Addresses on the X-Chain and P-Chain use the [Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32) standard outlined in [BIP 0173](https://en.bitcoin.it/wiki/BIP_0173). There are four parts to a Bech32 address scheme. In order of appearance:
 
 * A human-readable part \(HRP\). On mainnet this is `avax`.
@@ -133,5 +132,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDY1ODU4OF19
+eyJoaXN0b3J5IjpbMTE5MDUxNzUyNF19
 -->
