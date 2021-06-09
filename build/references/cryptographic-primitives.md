@@ -59,8 +59,9 @@ X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中�
 
 密钥: `0x98cb077f972feb0481f1d894f272c6a1e3c15e272a1658ff716444f465200070`
 
-公钥\(33-byte compressed\): `0x02b33c917f2f6103448d7feb42614037d05928433cb25e78f01a825aa829bb3c27`
+公钥\(33字节 压缩\): `0x02b33c917f2f6103448d7feb42614037d05928433cb25e78f01a825aa829bb3c27`
 
+因为小明的无限智慧，他不相信自己会随身携带小红的公钥，所以他只问了莫蒂的地址。莫蒂按照指令，SHA256是他的公钥，然后用160来生成地址。
 Because of Rick’s infinite wisdom, he doesn’t trust himself with carrying around Morty’s public key, so he only asks for Morty’s address. Morty follows the instructions, SHA256’s his public key, and then ripemd160’s that result to produce an address.
 
 SHA256\(Public Key\): `0x28d7670d71667e93ff586f664937f52828e6290068fa2a37782045bffa7b0d2f`
@@ -131,7 +132,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQwMjgxOCwxNDgwODg5OTAxLDE5Mj
+eyJoaXN0b3J5IjpbMTY3MDU2NTk4OCwxNDgwODg5OTAxLDE5Mj
 k4NjM0NTUsMTM3NzU4MDg5MSwtMTAyMzEyMjM5NSwtMTI1MTEz
 NTIyMV19
 -->
