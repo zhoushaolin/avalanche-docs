@@ -69,13 +69,13 @@ SHA256\(公钥\): `0x28d7670d71667e93ff586f664937f52828e6290068fa2a37782045bffa7
 
 Morty很困惑，因为公开密钥应该是安全的。Rick打了个嗝并解释说，对公钥进行散列可以保护私钥所有者免受椭圆曲线密码术中未来可能出现的安全缺陷的伤害。如果密码系统被破坏，私钥可以从公钥中获得，用户可以将他们的资金转移到以前从未签署过交易的地址，从而防止他们的资金被攻击者破坏。这使硬币所有者能够在整个客户端升级加密时受到保护。
 
-Later, once Morty has learned more about Rick’s backstory, Morty attempts to send Rick a message. Morty knows that Rick will only read the message if he can verify it was from him, so he signs the message with his private key.
+后来，当Morty了解到更多关于Rick的背景故事后，Morty试图给Rick发一条信息。Morty知道，如果Rick能证实消息是他写的，他才会读消息，所以他用自己的私钥签署了消息。
 
-Message: `0x68656c702049276d207472617070656420696e206120636f6d7075746572`
+消息: `0x68656c702049276d207472617070656420696e206120636f6d7075746572`
 
-Message Hash: `0x912800c29d554fb9cdce579c0abba991165bbbc8bfec9622481d01e0b3e4b7da`
+消息散列: `0x912800c29d554fb9cdce579c0abba991165bbbc8bfec9622481d01e0b3e4b7da`
 
-Message Signature: `0xb52aa0535c5c48268d843bd65395623d2462016325a86f09420c81f142578e121d11bd368b88ca6de4179a007e6abe0e8d0be1a6a4485def8f9e02957d3d72da01`
+消息签名: `0xb52aa0535c5c48268d843bd65395623d2462016325a86f09420c81f142578e121d11bd368b88ca6de4179a007e6abe0e8d0be1a6a4485def8f9e02957d3d72da01`
 
 Morty was never seen again.
 
@@ -131,7 +131,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTEzNjc0OCwxMTkzNTc4MTYyLDE0OD
+eyJoaXN0b3J5IjpbMTg3NjIwNzIxNSwxMTkzNTc4MTYyLDE0OD
 A4ODk5MDEsMTkyOTg2MzQ1NSwxMzc3NTgwODkxLC0xMDIzMTIy
 Mzk1LC0xMjUxMTM1MjIxXX0=
 -->
