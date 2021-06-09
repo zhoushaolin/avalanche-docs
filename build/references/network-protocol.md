@@ -347,11 +347,10 @@
 ### 如何处理PullQuery
 
 如果节点没有添加`ContainerID`，它应该尝试将容器添加到一致性。在容器被添加到共识之后，一个`Chits` 消息应该被发送，并带有节点的当前首选项。
-If the node hasn’t added `ContainerID`, it should attempt to add the container to consensus. After the container is added to consensus, a `Chits` message should be sent with the current preference\(s\) of the node.
 
-### When PullQuery is sent
+### PullQuery什么时候发送
 
-A node should send a `PullQuery` message if it wants to learn of this node’s current preferences and it feels that it quite likely the node has already learned of `Container`. The node will want to learn of nodes preferences when it learns of a new container or it has had pending containers for “awhile”.
+如果一个节点想要了解该节点当前的首选项，并且它认为该节点很可能已经了解了`Container`，那么它应该发送一个' PullQuery '消息。当节点了解到一个新的容器或它有“一段时间”挂起的容器时，它将希望了解节点首选项。A node should send a `PullQuery` message if it wants to learn of this node’s current preferences and it feels that it quite likely the node has already learned of `Container`. The node will want to learn of nodes preferences when it learns of a new container or it has had pending containers for “awhile”.
 
 ### PullQuery Example
 
@@ -439,8 +438,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUxMTMyMTUsNjg0NDcyOTIwLDc1OT
-g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
-LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
-A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbLTU4OTExNTI5Nyw2ODQ0NzI5MjAsNzU5OD
+Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
+MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
+c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
 -->
