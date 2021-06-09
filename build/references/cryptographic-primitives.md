@@ -2,7 +2,7 @@
 
 [Avalanche](../../#avalanche) 为其不同的功能使用了多种加密原语。这个文件总结了在网络层和区块链层中使用的密码学的类型和种类。
 
-## 网络层中的密码学
+## 网络层中的密码术
 
 Avalanche使用Transport Layer Security(TLS)，来保护节点间的通信不被窃听。TLS结合了公钥密码体制的实用性和对称密钥密码学的高效性。这导致TLS成为互联网通信的标准。虽然大多数经典的共识协议使用公钥密码技术来证明第三方接收到的消息，但是新的雪人共识家族不需要这样的证明。这使得Avalanche能够使用TLS来验证利益相关者，并消除了为签名网络消息而使用昂贵的公钥加密的需要。
 
@@ -16,7 +16,7 @@ Avalanche不依赖于任何中心化的第三方，特别是它不使用第三�
 
 这个20字节的标识符由“NodeID-”后面跟着数据的[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)编码字符串表示。
 
-## 雪崩虚拟机中的密码学
+## 雪崩虚拟机中的密码术
 
 Avalanche虚拟机使用椭圆曲线密码，特别是`secp256k1`，用于区块链上的签名。
 
@@ -132,7 +132,7 @@ Avalanche节点支持完整的以太坊虚拟机(EVM)，并精确复制以太坊
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2ODk2Mzg1LC0zMDY4MDI3MTksMTg3Nj
+eyJoaXN0b3J5IjpbNzYxMDcxNzkxLC0zMDY4MDI3MTksMTg3Nj
 IwNzIxNSwxMTkzNTc4MTYyLDE0ODA4ODk5MDEsMTkyOTg2MzQ1
 NSwxMzc3NTgwODkxLC0xMDIzMTIyMzk1LC0xMjUxMTM1MjIxXX
 0=
