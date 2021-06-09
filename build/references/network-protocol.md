@@ -12,14 +12,15 @@
 
 ### GetVersion包含什么
 
-The payload of a `GetVersion` message is empty.
+`GetVersion`消息的有效负载为空。 
 
 ```text
 []
 ```
 
-### How GetVersion is handled
+### GetVersion是如何处理的
 
+一个接收到`GetVersion` 消息的节点必须用包含当前时间和节点版本的`Version`消息进行响应。
 A node receiving a `GetVersion` message must respond with a `Version` message containing the current time and node version.
 
 ### When GetVersion is sent
@@ -439,6 +440,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU5OTc3ODcsODg4NDU3OTA4LC0xNT
-g1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbLTg4MjQwODQ1LDg4ODQ1NzkwOCwtMTU4NT
+A3NjU1OV19
 -->
