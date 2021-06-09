@@ -51,9 +51,11 @@
 
 ### 版本什么时候发送
 
-`Version`是响应' GetVersion '消息发送的。is sent in response to a `GetVersion` message.
+`Version`是响应`GetVersion`消息发送的。
 
-### Version Example
+### 版本示例
+
+发送时间`November 16th, 2008 at 12:00am (UTC)`和版本`avalanche/0.0.1`的版本信息
 
 Sending a `Version` message with the time `November 16th, 2008 at 12:00am (UTC)` and the version `avalanche/0.0.1`
 
@@ -439,6 +441,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDUzNzk1MiwtMjA3Nzc1NjUwNyw4OD
-g0NTc5MDgsLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbMjIxODUxNjQxLC0yMDc3NzU2NTA3LDg4OD
+Q1NzkwOCwtMTU4NTA3NjU1OV19
 -->
