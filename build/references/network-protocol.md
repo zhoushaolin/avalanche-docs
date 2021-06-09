@@ -155,9 +155,9 @@
 
 **`SubnetID`** 定义此消息的目的地子网。
 
-**`RequestID`** is a counter that helps keep track of the messages sent by a node. Each time a node sends an un-prompted message, the node will create a new unique `RequestID` for the message.
+**`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。每当一个节点发送一条非提示消息时，该节点将为该消息创建一个新的惟一的`RequestID`。
 
-**`ContainerID`** is the identifier of the requested container.
+**`ContainerID`** 被请求容器的标识符。
 
 ```text
 [
@@ -439,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5ODQ2OTIyLDE0OTExNTg1NTYsMzYzNj
-Y0ODA5LDgwMDQ5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIx
-LC0yMDk4NzQ4MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMT
-U4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTgxNTA0MjAwNSw3NTk4NDY5MjIsMTQ5MT
+E1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0yOTM3NzU1NjYs
+LTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsOD
+g4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
 -->
