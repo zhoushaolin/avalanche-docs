@@ -390,7 +390,7 @@
 
 **`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。
 
-**`Preferences`** 是完整描述节点首选项的containerid列表。is the list of containerIDs that fully describe the node’s preferences.
+**`Preferences`** 是完整描述节点首选项的containerID列表。
 
 ```text
 [
@@ -400,9 +400,9 @@
 ]
 ```
 
-### How Chits is handled
+### 单据如何处理
 
-The node should attempt to add any referenced containers to consensus. If the referenced containers can’t be added, the node can ignore the missing containers and apply the remaining chits to the poll. Once a poll is completed, container confidences should be updated appropriately.
+节点应该尝试将任何被引用的容器添加到一致性。如果不能添加引用的容器，节点可以忽略缺失的容器，并将剩余的单据应用于轮询。一旦poll完成，应该适当地更新容器机密。The node should attempt to add any referenced containers to consensus. If the referenced containers can’t be added, the node can ignore the missing containers and apply the remaining chits to the poll. Once a poll is completed, container confidences should be updated appropriately.
 
 ### When Chits is sent
 
@@ -438,8 +438,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3OTg4NjYyLDY4NDQ3MjkyMCw3NTk4ND
-Y5MjIsMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0y
-OTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNz
-c3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbLTExNTA1MTc5NSw2ODQ0NzI5MjAsNzU5OD
+Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
+MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
+c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
 -->
