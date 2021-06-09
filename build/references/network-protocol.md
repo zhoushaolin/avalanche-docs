@@ -6,11 +6,11 @@
 
 ## GetVersion
 
-`GetVersion` requests for a `Version` message to be sent as a response.
+`GetVersion`请求一个`Version`消息作为响应发送。
 
-The OpCode used by `GetVersion` messages is: `0x00`.
+`GetVersion` 消息使用的操作码是: `0x00`.
 
-### What GetVersion contains
+### GetVersion包含什么
 
 The payload of a `GetVersion` message is empty.
 
@@ -439,6 +439,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTY5MTIyNCw4ODg0NTc5MDgsLTE1OD
-UwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbLTIwMTU5OTc3ODcsODg4NDU3OTA4LC0xNT
+g1MDc2NTU5XX0=
 -->
