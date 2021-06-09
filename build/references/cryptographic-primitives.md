@@ -49,7 +49,9 @@ X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中�
 
 阅读更多关于Avalanche的信息[addressing scheme](https://support.avalabs.org/en/articles/4596397-what-is-an-address)。
 
-### Secp256k1 Recoverable Signatures
+### Secp256k1 可恢复的签名
+
+可恢复签名存储为65字节** ' [R || S || V] ' **其中** ' V ' **是0或1，以允许快速公钥恢复。** ' S ' **必须在可能范围的下半部分，以防止签名可锻性。在给消息签名之前，使用sha256对消息进行散列。
 
 Recoverable signatures are stored as the 65-byte **`[R || S || V]`** where **`V`** is 0 or 1 to allow quick public key recoverability. **`S`** must be in the lower half of the possible range to prevent signature malleability. Before signing a message, the message is hashed using sha256.
 
@@ -131,6 +133,6 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg1MDUwMiwtMTAyMzEyMjM5NSwtMT
+eyJoaXN0b3J5IjpbMTM3NzU4MDg5MSwtMTAyMzEyMjM5NSwtMT
 I1MTEzNTIyMV19
 -->
