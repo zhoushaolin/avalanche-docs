@@ -832,10 +832,10 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID` 和`Output`。
 * **`CodecID`** 唯一有效的`CodecID` 是`00 00`。
 * **`TxID`** 是一个32字节的交易ID。通过使用已签名交易的sha256字节来计算交易ID。
 * **`UTXOIndex`** 是一个整数，它指定在事务中由** `TxID` **指定的哪个输出创建了这个utxo。
-* **`AssetID`** is a 32-byte array that defines which asset this utxo references.
-* **`Output`** is the output object that created this utxo. The serialization of Outputs was defined above.
+* **`AssetID`** 是一个32字节的数组，它定义了utxo引用的资产。
+* **`Output`** 是创建这个utxo的输出对象。上面定义了输出的序列化。
 
-### Gantt UTXO Specification
+### Gantt UTXO 规范
 
 ```text
 +--------------+----------+-------------------------+
@@ -853,7 +853,7 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`, `AssetID` 和`Output`。
                           +-------------------------+
 ```
 
-### Proto UTXO Specification
+### Proto UTXO 规范
 
 ```text
 message Utxo {
@@ -865,9 +865,9 @@ message Utxo {
 }
 ```
 
-### UTXO Example
+### UTXO 示例
 
-Let’s make a UTXO from the signed transaction created above:
+让我们从上面创建的签名交易中创建一个UTXO:
 
 * **`CodecID`**: `0`
 * **`TxID`**: `0xf966750f438867c3c9828ddcdbe660e21ccdbb36a9276958f011ba472f75d4e7`
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIyOTIzMzEsNzkxNDU1NDE0LC0xOD
-A4NTExMzYxXX0=
+eyJoaXN0b3J5IjpbMTYwOTQzMTcwOSw3OTE0NTU0MTQsLTE4MD
+g1MTEzNjFdfQ==
 -->
