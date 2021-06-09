@@ -406,10 +406,9 @@
 
 ### 单据什么时候发送
 
-节点将发送一个`Chits`消息来响应接收一个“PullQuery”或“PushQuery”消息的容器节点已经添加到共识。
-A node will send a `Chits` message in response to receiving a `PullQuery` or `PushQuery` message for a container the node has added to consensus.
+节点将发送一个`Chits`消息来响应接收一个`PullQuery`或`PushQuery`消息的容器节点已经添加到共识。
 
-### Chits Example
+### 单据示例
 
 ```text
 [
@@ -439,7 +438,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEwOTk1NDQsNjg0NDcyOTIwLDc1OT
+eyJoaXN0b3J5IjpbLTE0NDQ2ODAzMTIsNjg0NDcyOTIwLDc1OT
 g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
 LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
 A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
