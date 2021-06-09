@@ -656,11 +656,11 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
 
 ### SECP256K1 凭据
 
-A [secp256k1](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/build/cryptographic-primitives/README.md#cryptography-in-the-avalanche-virtual-machine) 凭据包含一个65字节可恢复签名的列表。credential contains a list of 65-byte recoverable signatures.
+一个[secp256k1](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/build/cryptographic-primitives/README.md#cryptography-in-the-avalanche-virtual-machine) 凭据包含一个65字节可恢复签名的列表。
 
-#### What SECP256K1 Credential Contains
+#### SECP256K1 凭据包含什么
 
-* **`TypeID`** is the ID for this type. It is `0x00000009`.
+* **`TypeID`** 是此类型的ID, 它是`0x00000009`。
 * **`Signatures`** is an array of 65-byte recoverable signatures. The order of the signatures must match the input's signature indices.
 
 #### Gantt SECP256K1 Credential Specification
@@ -913,6 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzk0MTA4OCw3OTE0NTU0MTQsLTE4MD
+eyJoaXN0b3J5IjpbMTU4ODc4MjQ5OSw3OTE0NTU0MTQsLTE4MD
 g1MTEzNjFdfQ==
 -->
