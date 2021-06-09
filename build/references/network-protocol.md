@@ -93,7 +93,7 @@
 
 ### GetPeers什么时候发送
 
-A node sends `GetPeers` messages upon startup to discover the participants in the network. It may also periodically send `GetPeers` messages in order to discover new nodes as they arrive in the network.
+一个节点在启动时发送`GetPeers`消息来发现网络中的参与者。它也可能定期发送`GetPeers`消息，以便在新节点到达网络时发现它们。
 
 ## Peers
 
@@ -439,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg2NTc1MywzNjM2NjQ4MDksODAwND
+eyJoaXN0b3J5IjpbMTY2OTI2OTI5NCwzNjM2NjQ4MDksODAwND
 k0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgw
 MzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX
 0=
