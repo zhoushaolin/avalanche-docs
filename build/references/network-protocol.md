@@ -89,6 +89,7 @@
 
 ### 如何处理GetPeers
 
+一个接收' GetPeers '请求的节点必须响应一个' Peers '消息，该消息包含其连接的、锁定节点的IP地址。
 A node receiving `GetPeers` request must respond with a `Peers` message containing the IP addresses of its connected, staking nodes.
 
 ### When GetPeers is sent
@@ -439,7 +440,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNDk0ODc5LC0yOTM3NzU1NjYsLTEwND
-AzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsODg4NDU3
-OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbMzYzNjY0ODA5LDgwMDQ5NDg3OSwtMjkzNz
+c1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMDc3NzU2
+NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
 -->
