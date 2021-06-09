@@ -118,13 +118,11 @@ sign(sha256(length(prefix) + prefix + length(message) + message))
 54 68 72 6f 75 67 68 20 63 6f 6e 73 65 6e 73 75 73 20 74 6f 20 74 68 65 20 73 74 61 72 73
 ```
 
-在使用`sha256`哈希并对预图像进行签名后，我们返回编码好的值[cb58](https://support.avalabs.org/en/articles/4587395-what-is-cb58): ' 4Eb2zAHF4JjZFJmp4usSokTGqq9mEGwVMY2WZzzCmu657SNFZhndsiS8TvL32n3bexd8emUwiXs8XqKjhqzvoRFvghnvSN '。下面是使用[Avalanche Web Wallet](https://wallet.avax.network/wallet/advanced)的一个例子。
-
-After hashing with `sha256` and signing the pre-image we return the value [cb58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) encoded: `4Eb2zAHF4JjZFJmp4usSokTGqq9mEGwVMY2WZzzCmu657SNFZhndsiS8TvL32n3bexd8emUwiXs8XqKjhqzvoRFvghnvSN`. Here's an example using the [Avalanche Web Wallet](https://wallet.avax.network/wallet/advanced).
+在使用`sha256`哈希并对预图像进行签名后，我们返回编码好的[cb58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)值: `4Eb2zAHF4JjZFJmp4usSokTGqq9mEGwVMY2WZzzCmu657SNFZhndsiS8TvL32n3bexd8emUwiXs8XqKjhqzvoRFvghnvSN`。下面是使用[Avalanche 网络钱包](https://wallet.avax.network/wallet/advanced)的一个例子。
 
 ![Sign message](../../.gitbook/assets/sign-message.png)
 
-## Cryptography in Ethereum Virtual Machine
+## 以太坊虚拟机中的加密技术
 
 Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely duplicate all of the cryptographic constructs used in Ethereum. This includes the Keccak hash function and the other mechanisms used for cryptographic security in the EVM.
 
@@ -133,8 +131,8 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTY4NzI2OSwtMzA2ODAyNzE5LDE4Nz
-YyMDcyMTUsMTE5MzU3ODE2MiwxNDgwODg5OTAxLDE5Mjk4NjM0
-NTUsMTM3NzU4MDg5MSwtMTAyMzEyMjM5NSwtMTI1MTEzNTIyMV
-19
+eyJoaXN0b3J5IjpbNjQwNDc5Mjk3LC0zMDY4MDI3MTksMTg3Nj
+IwNzIxNSwxMTkzNTc4MTYyLDE0ODA4ODk5MDEsMTkyOTg2MzQ1
+NSwxMzc3NTgwODkxLC0xMDIzMTIyMzk1LC0xMjUxMTM1MjIxXX
+0=
 -->
