@@ -167,7 +167,7 @@
 ]
 ```
 
-### How Get is handled
+### 如何处理Get
 
 The node should reply with a `Put` message with the same `SubnetID`, `RequestID`, and `ContainerID` along with the `Container` with the specified identifier. Under correct situations, a node should only be asked for a container that it has. Therefore, if the node does not have the specified container, the `Get` message can safely be dropped.
 
@@ -439,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTA0MjAwNSw3NTk4NDY5MjIsMTQ5MT
-E1ODU1NiwzNjM2NjQ4MDksODAwNDk0ODc5LC0yOTM3NzU1NjYs
-LTEwNDAzMDM3MjEsLTIwOTg3NDgwMzAsLTIwNzc3NTY1MDcsOD
-g4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
+eyJoaXN0b3J5IjpbODE3MTc2NTY2LDc1OTg0NjkyMiwxNDkxMT
+U4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4NzksLTI5Mzc3NTU2Niwt
+MTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMjA3Nzc1NjUwNyw4OD
+g0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
