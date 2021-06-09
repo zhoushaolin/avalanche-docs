@@ -121,7 +121,7 @@
 
 ### 对等点什么时候发送
 
-`Peers` messages do not need to be sent in response to a `GetPeers` message, and are sent periodically to announce newly arriving nodes. The default period for such push gossip is 60 seconds.
+`Peers`消息不需要响应`GetPeers`消息，而是定期发送，以宣布新到达的节点。这种推送八卦的默认时间是60秒。
 
 ### Peers Example
 
@@ -439,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjEwNjMwNiwzNjM2NjQ4MDksODAwND
+eyJoaXN0b3J5IjpbMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwND
 k0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgw
 MzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX
 0=
