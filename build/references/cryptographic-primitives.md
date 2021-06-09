@@ -67,8 +67,7 @@ SHA256\(公钥\): `0x28d7670d71667e93ff586f664937f52828e6290068fa2a37782045bffa7
 
 地址: `0xe8777f38c88ca153a6fdc25942176d2bf5491b89`
 
-莫蒂很困惑，因为公开密钥应该是安全的。Rick打了个嗝并解释说，对公钥进行散列可以保护私钥所有者免受椭圆曲线密码术中未来可能出现的安全缺陷的伤害。如果密码系统被破坏，私钥可以从公钥中获得，用户可以将他们的资金转移到以前从未签署过交易的地址，从而防止他们的资金被攻击者破坏。这使硬币所有者能够在整个客户端升级加密时受到保护。
-Morty is quite confused because a public key should be safe to be public knowledge. Rick belches and explains that hashing the public key protects the private key owner from potential future security flaws in elliptic curve cryptography. In the event cryptography is broken and a private key can be derived from a public key, users can transfer their funds to an address that has never signed a transaction before, preventing their funds from being compromised by an attacker. This enables coin owners to be protected while the cryptography is upgraded across the clients.
+Morty很困惑，因为公开密钥应该是安全的。Rick打了个嗝并解释说，对公钥进行散列可以保护私钥所有者免受椭圆曲线密码术中未来可能出现的安全缺陷的伤害。如果密码系统被破坏，私钥可以从公钥中获得，用户可以将他们的资金转移到以前从未签署过交易的地址，从而防止他们的资金被攻击者破坏。这使硬币所有者能够在整个客户端升级加密时受到保护。
 
 Later, once Morty has learned more about Rick’s backstory, Morty attempts to send Rick a message. Morty knows that Rick will only read the message if he can verify it was from him, so he signs the message with his private key.
 
@@ -132,7 +131,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE1MDUyNDYsMTE5MzU3ODE2MiwxND
-gwODg5OTAxLDE5Mjk4NjM0NTUsMTM3NzU4MDg5MSwtMTAyMzEy
-MjM5NSwtMTI1MTEzNTIyMV19
+eyJoaXN0b3J5IjpbLTUxOTEzNjc0OCwxMTkzNTc4MTYyLDE0OD
+A4ODk5MDEsMTkyOTg2MzQ1NSwxMzc3NTgwODkxLC0xMDIzMTIy
+Mzk1LC0xMjUxMTM1MjIxXX0=
 -->
