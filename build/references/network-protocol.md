@@ -123,7 +123,7 @@
 
 `Peers`消息不需要响应`GetPeers`消息，而是定期发送，以宣布新到达的节点。这种推送八卦的默认时间是60秒。
 
-### Peers Example
+### dui deng
 
 Sending a `Peers` message with the IP addresses `"127.0.0.1:9650"` and `"[2001:0db8:ac10:fe01::]:12345"`
 
@@ -439,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTE1ODU1NiwzNjM2NjQ4MDksODAwND
-k0ODc5LC0yOTM3NzU1NjYsLTEwNDAzMDM3MjEsLTIwOTg3NDgw
-MzAsLTIwNzc3NTY1MDcsODg4NDU3OTA4LC0xNTg1MDc2NTU5XX
-0=
+eyJoaXN0b3J5IjpbNjk0NDgwMTAzLDE0OTExNTg1NTYsMzYzNj
+Y0ODA5LDgwMDQ5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIx
+LC0yMDk4NzQ4MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMT
+U4NTA3NjU1OV19
 -->
