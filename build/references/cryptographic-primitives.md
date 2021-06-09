@@ -47,7 +47,7 @@ X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中�
 ^([XPC]|[a-km-zA-HJ-NP-Z1-9]{36,72})-[a-zA-Z]{1,83}1[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{38}$
 ```
 
-Read more about Avalanche's [addressing scheme](https://support.avalabs.org/en/articles/4596397-what-is-an-address).
+阅读更多关于Avalanche的信息[addressing scheme](https://support.avalabs.org/en/articles/4596397-what-is-an-address)。
 
 ### Secp256k1 Recoverable Signatures
 
@@ -131,6 +131,6 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMxMjIzOTUsLTEyNTExMzUyMjFdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MDg1MDUwMiwtMTAyMzEyMjM5NSwtMT
+I1MTEzNTIyMV19
 -->
