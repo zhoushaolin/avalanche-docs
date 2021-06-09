@@ -328,13 +328,13 @@
 
 ### PullQuery包含什么
 
-A `Put` 消息包含`SubnetID`, `RequestID`和`ContainerID`.
+ `Put` 消息包含`SubnetID`, `RequestID`和`ContainerID`。
 
-**`SubnetID`** defines which subnet this message is destined for.
+**`SubnetID`** 定义此消息的目的地子网。
 
-**`RequestID`** is a counter that helps keep track of the messages sent by a node.
+**`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。
 
-**`ContainerID`** is the identifier of the container this message expects to have been added to consensus before the response is sent.
+**`ContainerID`** 是此消息期望在发送响应之前已添加到共识的容器的标识符。
 
 ```text
 [
@@ -344,8 +344,9 @@ A `Put` 消息包含`SubnetID`, `RequestID`和`ContainerID`.
 ]
 ```
 
-### How PullQuery is handled
+### 如何处理PullQuery
 
+如果节点没有添加`ContainerID`，它应该尝试将容器添加到一致性。在容器被添加到共识之后，一个`Chits` 消息应该被发送，并带有节点的当前首选项。
 If the node hasn’t added `ContainerID`, it should attempt to add the container to consensus. After the container is added to consensus, a `Chits` message should be sent with the current preference\(s\) of the node.
 
 ### When PullQuery is sent
@@ -438,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Njc1NzcxMSw2ODQ0NzI5MjAsNzU5OD
-Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
-MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
-c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTEzMzUxMTMyMTUsNjg0NDcyOTIwLDc1OT
+g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
+LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
+A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
