@@ -81,7 +81,7 @@ Morty再也没有出现过。
 
 ## 签署消息
 
-A standard for interoperable generic signed messages based on the Bitcoin Script format and Ethereum format.
+基于比特币脚本格式和以太坊格式的可互操作通用签名消息标准。
 
 ```text
 sign(sha256(length(prefix) + prefix + length(message) + message))
@@ -131,7 +131,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjQ2MzgzOSwxODc2MjA3MjE1LDExOT
+eyJoaXN0b3J5IjpbLTMwNjgwMjcxOSwxODc2MjA3MjE1LDExOT
 M1NzgxNjIsMTQ4MDg4OTkwMSwxOTI5ODYzNDU1LDEzNzc1ODA4
 OTEsLTEwMjMxMjIzOTUsLTEyNTExMzUyMjFdfQ==
 -->
