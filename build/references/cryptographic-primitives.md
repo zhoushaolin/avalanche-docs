@@ -18,8 +18,9 @@ Avalanche不依赖于任何中心化的第三方，特别是它不使用第三�
 
 ## 雪崩虚拟机中的密码学
 
-The Avalanche virtual machine uses elliptic curve cryptography, specifically `secp256k1`, for its signatures on the blockchain.
+Avalanche虚拟机使用椭圆曲线密码，特别是`secp256k1`，用于区块链上的签名。
 
+这个32字节的标识符由“PrivateKey-”后跟数据的[CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58)编码字符串表示。
 This 32-byte identifier is represented by “PrivateKey-” followed by the data’s [CB58](https://support.avalabs.org/en/articles/4587395-what-is-cb58) encoded string.
 
 ### Secp256k1 Addresses
@@ -131,5 +132,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA0MDc2OTJdfQ==
+eyJoaXN0b3J5IjpbMTQxOTcwODEzMl19
 -->
