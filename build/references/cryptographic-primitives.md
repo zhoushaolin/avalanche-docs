@@ -55,12 +55,11 @@ X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中�
 
 ### Secp256k1 示例
 
-假设瑞克和莫蒂正在建立一个安全的通信通道。Morty创建了一个新的公私密钥对。
-Suppose Rick and Morty are setting up a secure communication channel. Morty creates a new public-private key pair.
+假设小明和小红正在建立一个安全的通信通道。小明创建了一个新的公私密钥对。
 
-Private Key: `0x98cb077f972feb0481f1d894f272c6a1e3c15e272a1658ff716444f465200070`
+密钥: `0x98cb077f972feb0481f1d894f272c6a1e3c15e272a1658ff716444f465200070`
 
-Public Key \(33-byte compressed\): `0x02b33c917f2f6103448d7feb42614037d05928433cb25e78f01a825aa829bb3c27`
+公钥\(33-byte compressed\): `0x02b33c917f2f6103448d7feb42614037d05928433cb25e78f01a825aa829bb3c27`
 
 Because of Rick’s infinite wisdom, he doesn’t trust himself with carrying around Morty’s public key, so he only asks for Morty’s address. Morty follows the instructions, SHA256’s his public key, and then ripemd160’s that result to produce an address.
 
@@ -132,7 +131,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjgzMDUwOSwxNDgwODg5OTAxLDE5Mj
+eyJoaXN0b3J5IjpbLTE0NzQwMjgxOCwxNDgwODg5OTAxLDE5Mj
 k4NjM0NTUsMTM3NzU4MDg5MSwtMTAyMzEyMjM5NSwtMTI1MTEz
 NTIyMV19
 -->
