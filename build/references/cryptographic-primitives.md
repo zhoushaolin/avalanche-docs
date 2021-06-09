@@ -77,9 +77,9 @@ Morty很困惑，因为公开密钥应该是安全的。Rick打了个嗝并解�
 
 消息签名: `0xb52aa0535c5c48268d843bd65395623d2462016325a86f09420c81f142578e121d11bd368b88ca6de4179a007e6abe0e8d0be1a6a4485def8f9e02957d3d72da01`
 
-Morty was never seen again.
+Morty再也没有出现过。
 
-## Signed Messages
+## 签署消息
 
 A standard for interoperable generic signed messages based on the Bitcoin Script format and Ethereum format.
 
@@ -131,7 +131,7 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjIwNzIxNSwxMTkzNTc4MTYyLDE0OD
-A4ODk5MDEsMTkyOTg2MzQ1NSwxMzc3NTgwODkxLC0xMDIzMTIy
-Mzk1LC0xMjUxMTM1MjIxXX0=
+eyJoaXN0b3J5IjpbLTY1NjQ2MzgzOSwxODc2MjA3MjE1LDExOT
+M1NzgxNjIsMTQ4MDg4OTkwMSwxOTI5ODYzNDU1LDEzNzc1ODA4
+OTEsLTEwMjMxMjIzOTUsLTEyNTExMzUyMjFdfQ==
 -->
