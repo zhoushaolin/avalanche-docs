@@ -199,15 +199,15 @@
 
 ## Put
 
-### Overview
+### 概述
 
-A `Put` message provides a requested container to a node.
+`Put`消息将请求的容器提供给节点。
 
-The OpCode used by `Put` messages is: `0x05`.
+`Put`消息使用的操作码是:`0x05`。
 
-### What Put contains
+### Put 包含什么
 
-A `Put` message contains a `SubnetID`, `RequestID`, `ContainerID`, and `Container`.
+`Put` 消息包含`SubnetID`, `RequestID`, `ContainerID`, and `Container`.
 
 **`SubnetID`** defines which subnet this message is destined for.
 
@@ -439,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI4Mzc3OTIsNjg0NDcyOTIwLDc1OT
-g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
-LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
-A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
+eyJoaXN0b3J5IjpbLTI4ODI4Mzc1MSw2ODQ0NzI5MjAsNzU5OD
+Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
+MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
+c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
 -->
