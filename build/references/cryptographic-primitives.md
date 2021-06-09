@@ -32,11 +32,10 @@ Avalanche使用约定`chainID-address`来指定地址存在于哪个链上。`ch
 
 ### Bech32
 
-x链和p链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中概述的[Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32)标准。Bech32地址方案有四个部分。按外观排列:
-Addresses on the X-Chain and P-Chain use the [Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32) standard outlined in [BIP 0173](https://en.bitcoin.it/wiki/BIP_0173). There are four parts to a Bech32 address scheme. In order of appearance:
+X链和P链上的地址使用[BIP 0173](https://en.bitcoin.it/wiki/BIP_0173)中概述的[Bech32](http://support.avalabs.org/en/articles/4587392-what-is-bech32)标准。Bech32地址方案有四个部分。按外观排列:
 
-* A human-readable part \(HRP\). On mainnet this is `avax`.
-* The number `1`, which separates the HRP from the address and error correction code.
+* 人可读的部分(HRP)。在主网上这是`avax`。
+* 数字“1”，与地址、纠错码分开。The number `1`, which separates the HRP from the address and error correction code.
 * A base-32 encoded string representing the 20 byte address.
 * A 6-character base-32 encoded error correction code.
 
@@ -132,5 +131,5 @@ Avalanche nodes support the full Ethereum Virtual Machine \(EVM\) and precisely 
 Since Avalanche is an extensible platform, we expect that people will add additional cryptographic primitives to the system over time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDUxNzUyNF19
+eyJoaXN0b3J5IjpbMTI0NTU3OTE5OV19
 -->
