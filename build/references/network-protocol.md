@@ -207,15 +207,15 @@
 
 ### Put 包含什么
 
-`Put` 消息包含`SubnetID`, `RequestID`, `ContainerID`, and `Container`.
+`Put` 消息包含`SubnetID`, `RequestID`, `ContainerID`和`Container`。
 
-**`SubnetID`** defines which subnet this message is destined for.
+**`SubnetID`** 定义此消息的目的地子网。
 
-**`RequestID`** is a counter that helps keep track of the messages sent by a node.
+**`RequestID`** 是一个计数器，用于帮助跟踪节点发送的消息。
 
-**`ContainerID`** is the identifier of the container this message is sending.
+**`ContainerID`** 此消息正在发送的容器的标识符。
 
-**`Container`** is the bytes of the container this message is sending.
+**`Container`** 是此消息正在发送的容器的字节。
 
 ```text
 [
@@ -439,7 +439,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODI4Mzc1MSw2ODQ0NzI5MjAsNzU5OD
+eyJoaXN0b3J5IjpbLTI0MDg2MjkzOCw2ODQ0NzI5MjAsNzU5OD
 Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
 MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
 c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
