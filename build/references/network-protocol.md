@@ -123,9 +123,9 @@
 
 `Peers`消息不需要响应`GetPeers`消息，而是定期发送，以宣布新到达的节点。这种推送八卦的默认时间是60秒。
 
-### dui deng
+### 对等体示例
 
-Sending a `Peers` message with the IP addresses `"127.0.0.1:9650"` and `"[2001:0db8:ac10:fe01::]:12345"`
+发送一个`Peers`消息与IP地址`"127.0.0.1:9650"`和`"[2001:0db8:ac10:fe01::]:12345"`
 
 ```text
 [
@@ -143,9 +143,10 @@ Sending a `Peers` message with the IP addresses `"127.0.0.1:9650"` and `"[2001:0
 
 ## Get
 
-### Overview
+### 概述
 
-A `Get` message requests a container, that is, block or vertex, from a node.
+
+一个“Get”消息从一个节点请求一个容器，即块或顶点。A `Get` message requests a container, that is, block or vertex, from a node.
 
 The OpCode used by `Get` messages is: `0x04`.
 
@@ -439,8 +440,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0NDgwMTAzLDE0OTExNTg1NTYsMzYzNj
-Y0ODA5LDgwMDQ5NDg3OSwtMjkzNzc1NTY2LC0xMDQwMzAzNzIx
-LC0yMDk4NzQ4MDMwLC0yMDc3NzU2NTA3LDg4ODQ1NzkwOCwtMT
-U4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTUyNTAxNjA1NywxNDkxMTU4NTU2LDM2Mz
+Y2NDgwOSw4MDA0OTQ4NzksLTI5Mzc3NTU2NiwtMTA0MDMwMzcy
+MSwtMjA5ODc0ODAzMCwtMjA3Nzc1NjUwNyw4ODg0NTc5MDgsLT
+E1ODUwNzY1NTldfQ==
 -->
