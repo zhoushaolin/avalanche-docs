@@ -402,10 +402,11 @@
 
 ### 单据如何处理
 
-节点应该尝试将任何被引用的容器添加到一致性。如果不能添加引用的容器，节点可以忽略缺失的容器，并将剩余的单据应用于轮询。一旦poll完成，应该适当地更新容器机密。The node should attempt to add any referenced containers to consensus. If the referenced containers can’t be added, the node can ignore the missing containers and apply the remaining chits to the poll. Once a poll is completed, container confidences should be updated appropriately.
+节点应该尝试将任何被引用的容器添加到一致性。如果不能添加引用的容器，节点可以忽略缺失的容器，并将剩余的单据应用于轮询。一旦轮询完成，应该适当地更新容器机密。
 
-### When Chits is sent
+### 单据什么时候发送
 
+节点将发送一个`Chits`消息来响应接收一个“PullQuery”或“PushQuery”消息的容器节点已经添加到共识。
 A node will send a `Chits` message in response to receiving a `PullQuery` or `PushQuery` message for a container the node has added to consensus.
 
 ### Chits Example
@@ -438,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1MTc5NSw2ODQ0NzI5MjAsNzU5OD
-Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
-MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
-c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTE2MzEwOTk1NDQsNjg0NDcyOTIwLDc1OT
+g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
+LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
+A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
