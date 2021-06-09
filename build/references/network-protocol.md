@@ -173,10 +173,9 @@
 
 ### Get什么时候发送
 
-一个节点将发送一个`Get`消息给另一个节点，告诉我们容器的存在。例如，假设我们有两个节点:瑞克和莫蒂。如果Rick发送一个包含ContainerID的' PullQuery '消息，而Morty没有对应的容器，那么Morty将发送一个包含缺少的' ContainerID '的Get消息。
-A node will send a `Get` message to a node that tells us about the existence of a container. For example, suppose we have two nodes: Rick and Morty. If Rick sends a `PullQuery` message that contains a `ContainerID`, that Morty doesn’t have the container for, then Morty will send a Get message containing the missing `ContainerID`.
+一个节点将发送一个`Get`消息给另一个节点，告诉我们容器的存在。例如，假设我们有两个节点: Rick和Morty, 如果Rick发送一个包含`ContainerID`的`PullQuery`消息，而Morty没有对应的容器，那么Morty将发送一个包含缺少的`ContainerID`的Get消息。
 
-### Get Example
+### Get 示例
 
 ```text
 [
@@ -440,8 +439,8 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODUwNDU4NSw2ODQ0NzI5MjAsNzU5OD
-Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
-MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
-c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTIwNDI4Mzc3OTIsNjg0NDcyOTIwLDc1OT
+g0NjkyMiwxNDkxMTU4NTU2LDM2MzY2NDgwOSw4MDA0OTQ4Nzks
+LTI5Mzc3NTU2NiwtMTA0MDMwMzcyMSwtMjA5ODc0ODAzMCwtMj
+A3Nzc1NjUwNyw4ODg0NTc5MDgsLTE1ODUwNzY1NTldfQ==
 -->
