@@ -554,7 +554,7 @@ ExportTx 包含`typeID`, `networkID`, `blockchainID`, `destinationChain`, `input
 
 ### ImportTxx
 * **`typeID`** 是一个ImportTx的整数类型。`ImportTx`的类型ID为0。
-* **`networkID`** is an int that defines which Avalanche network this transaction is meant to be issued to. This could refer to mainnet, fuji, etc. and is different than the EVM's network ID.
+* **`networkID`** 是一个整数，它定义了这个交易要发送到哪个Avalanche网络。这可能是指mainnet, fuji等，与EVM的网络ID不同。is an int that defines which Avalanche network this transaction is meant to be issued to. This could refer to mainnet, fuji, etc. and is different than the EVM's network ID.
 * **`blockchainID`** is a 32-byte array that defines which blockchain this transaction was issued to.
 * **`sourceChain`** is a 32-byte array that defines which blockchain from which to import funds.
 * **`importedInputs`** is an array of TransferableInputs to fund the ImportTx.
@@ -913,5 +913,6 @@ Let’s make a UTXO from the signed transaction created above:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDI3MzI2MCwtMTgwODUxMTM2MV19
+eyJoaXN0b3J5IjpbLTE5MjczNjc3OTUsLTE4MDg1MTEzNjFdfQ
+==
 -->
