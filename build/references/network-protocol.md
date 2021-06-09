@@ -24,10 +24,11 @@
 
 ### GetVersion什么时候发送
 
-当一个节点连接到另一个节点，`GetVersion`被发送出来, 但还没有收到一个' Version '消息时，。但是，它可以在任何时候重新发送。
-`GetVersion` is sent when a node is connected to another node, but has not yet received a `Version` message. It may, however, be re-sent at any time.
+当一个节点连接到另一个节点，`GetVersion`被发送出来, 但还没有收到`Version`消息。那么, 它可能在任何时候重新发送。
 
-## Version
+## 版本
+
+`Version`确保我们所连接的节点运行的是兼容版本的Avalanche，并且至少在当前时间上大致一致。
 
 `Version` ensures that the nodes we are connected to are running compatible versions of Avalanche, and at least loosely agree on the current time.
 
@@ -440,6 +441,6 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1NzExODA4LC0yMDc3NzU2NTA3LDg4OD
-Q1NzkwOCwtMTU4NTA3NjU1OV19
+eyJoaXN0b3J5IjpbLTE3NjY0ODMzMDAsLTIwNzc3NTY1MDcsOD
+g4NDU3OTA4LC0xNTg1MDc2NTU5XX0=
 -->
