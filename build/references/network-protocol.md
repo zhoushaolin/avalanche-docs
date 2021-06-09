@@ -350,9 +350,9 @@
 
 ### PullQuery什么时候发送
 
-如果一个节点想要了解该节点当前的首选项，并且它认为该节点很可能已经了解了`Container`，那么它应该发送一个' PullQuery '消息。当节点了解到一个新的容器或它有“一段时间”挂起的容器时，它将希望了解节点首选项。A node should send a `PullQuery` message if it wants to learn of this node’s current preferences and it feels that it quite likely the node has already learned of `Container`. The node will want to learn of nodes preferences when it learns of a new container or it has had pending containers for “awhile”.
+如果一个节点想要了解该节点当前的首选项，并且它认为该节点很可能已经了解了`Container`，那么它应该发送一个`PullQuery`消息。当节点了解到一个新的容器或它有“一段时间”挂起的容器时，它将希望了解节点首选项。
 
-### PullQuery Example
+### PullQuery示例
 
 ```text
 [
@@ -374,13 +374,13 @@
 ]
 ```
 
-## Chits
+## 单据
 
-### Overview
+### 概述
 
-A `Chits` message provides a requested set of preferred container\(s\) to a node.
+一个`Chits`消息为节点提供了一组被请求的首选容器。
 
-The OpCode used by `Chits` messages is: `0x08`.
+`Chits`消息使用的操作码是:`0x08`。
 
 ### What Chits contains
 
@@ -438,7 +438,7 @@ A node will send a `Chits` message in response to receiving a `PullQuery` or `Pu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTExNTI5Nyw2ODQ0NzI5MjAsNzU5OD
+eyJoaXN0b3J5IjpbLTU3NzE4NDM0Myw2ODQ0NzI5MjAsNzU5OD
 Q2OTIyLDE0OTExNTg1NTYsMzYzNjY0ODA5LDgwMDQ5NDg3OSwt
 MjkzNzc1NTY2LC0xMDQwMzAzNzIxLC0yMDk4NzQ4MDMwLC0yMD
 c3NzU2NTA3LDg4ODQ1NzkwOCwtMTU4NTA3NjU1OV19
