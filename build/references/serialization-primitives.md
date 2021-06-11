@@ -84,9 +84,9 @@ Results in:
     ]
 ```
 
-## Fixed-Length Array
+## 固定长度的数组
 
-Fixed-length arrays, whose length is known ahead of time and by context, are packed in order.
+固定长度的数组，其长度提前已知，并通过上下文，按顺序打包。
 
 Byte array example:
 
@@ -142,5 +142,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTE5NzM2MF19
+eyJoaXN0b3J5IjpbLTk2MDE2MDgwN119
 -->
