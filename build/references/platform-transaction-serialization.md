@@ -154,7 +154,7 @@ message TransferableInput {
 
 ### **SECP256K1 转移输出包含什么**
 
-A secp256k1 transfer output contains a `TypeID`, `Amount`, `Locktime`, `Threshold`, and `Addresses`.
+SECP256K1 转移输出包含`TypeID`, `Amount`, `Locktime`, `Threshold`和 `Addresses`。
 
 * **`TypeID`** is the ID for this output type. It is `0x00000007`.
 * **`Amount`** is a long that specifies the quantity of the asset that this output owns. Must be positive.
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjAyNjY3MCwtODk0NjgzMTcwLC05Mz
+eyJoaXN0b3J5IjpbLTEyMjU4Mjg4MCwtODk0NjgzMTcwLC05Mz
 Q3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
