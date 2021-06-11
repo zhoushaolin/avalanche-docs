@@ -14,8 +14,8 @@
 
 一个可转移的输出包含一个`AssetID`和一个`Output`。
 
-* **`AssetID`** is a 32-byte array that defines which asset this output references. The only valid `AssetID` is the AVAX `AssetID`.
-* **`Output`** is an output, as defined below. For example, this can be a SECP256K1 transfer output.
+* **`AssetID`** 是一个32字节数组，它定义了该输出引用的资产。唯一有效的`AssetID`是AVAX `AssetID`。
+* **`Output`** 是一个输出，如下所定义。例如，这可以是一个SECP256K1传输输出。is an output, as defined below. For example, this can be a SECP256K1 transfer output.
 
 ### Gantt Transferable Output Specification
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Njg1MzU4NiwxNzM1NjYxOTM5LDI5MT
+eyJoaXN0b3J5IjpbLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MT
 Y5NTNdfQ==
 -->
