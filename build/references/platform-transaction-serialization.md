@@ -1,6 +1,6 @@
 # 平台交易格式
 
-这个文件是关于我们如何在Avalanche的平台虚拟机(又名“平台链”或“P-Chain”)中序列化事务的唯一真相来源。本文档使用[primitive serialization](serialization-primitives.md)格式进行打包，使用[secp256k1](cryptoic -primitives.md#secp-256-k1-addresses)进行加密用户标识。
+这个文件是关于我们如何在Avalanche的平台虚拟机(又名`Platform Chain`或`P-Chain`)中序列化交易的唯一真相来源。本文档使用[primitive serialization](serialization-primitives.md)格式进行打包，使用[secp256k1](cryptoic -primitives.md#secp-256-k1-addresses)进行加密用户标识。
 This file is meant to be the single source of truth for how we serialize transactions in Avalanche’s Platform Virtual Machine, aka the `Platform Chain` or `P-Chain`. This document uses the [primitive serialization](serialization-primitives.md) format for packing and [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) for cryptographic user identification.
 
 ## Codec ID
@@ -1605,5 +1605,5 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTYxNzQ3OTY5NywyOTE2OTUzXX0=
 -->
