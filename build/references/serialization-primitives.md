@@ -56,10 +56,9 @@ Results in:
 
 ## IP 地址
 
-IP地址表示为16字节的IPv6格式，端口作为Short附加到消息有效负载中。IPv4地址以12字节的0x00s开头填充。
-IP addresses are represented as 16-byte IPv6 format, with the port appended into the message payload as a Short. IPv4 addresses are padded with 12 bytes of leading 0x00s.
+IP地址表示为16字节的IPv6格式，端口作为短消息附加到消息有效负载中。IPv4地址以12字节的0x00s开头填充。
 
-IPv4 example:
+IPv4 示例:
 
 ```text
 Packing:
@@ -72,7 +71,7 @@ Results in:
     ]
 ```
 
-IPv6 example:
+IPv6 示例:
 
 ```text
 Packing:
@@ -143,5 +142,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNTg4NjY1XX0=
+eyJoaXN0b3J5IjpbLTQzOTE5NzM2MF19
 -->
