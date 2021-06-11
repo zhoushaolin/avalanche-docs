@@ -146,13 +146,13 @@ message TransferableInput {
 
 ## 输出
 
-输出有两种可能类型: `SECP256K1TransferOutput`, `SECP256K1OutputOwners`.
+输出有两种可能类型: `SECP256K1TransferOutput`, `SECP256K1OutputOwners`。
 
-## SECP256K1 Transfer Output
+## SECP256K1 转移输出
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer output allows for sending a quantity of an asset to a collection of addresses after a specified unix time. The only valid asset is AVAX.
+一个[secp256k1](cryptographics -primitives.md#secp-256-k1-addresses)传输输出允许在指定的unix时间后将一定数量的资产发送到地址集合。唯一有效的资产是AVAX。
 
-### **What SECP256K1 Transfer Output Contains**
+### **SECP256K1 转移输出包含什么**
 
 A secp256k1 transfer output contains a `TypeID`, `Amount`, `Locktime`, `Threshold`, and `Addresses`.
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzQ2NzcwNiwtODk0NjgzMTcwLC05Mz
+eyJoaXN0b3J5IjpbMTYyMjAyNjY3MCwtODk0NjgzMTcwLC05Mz
 Q3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
