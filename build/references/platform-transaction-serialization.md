@@ -15,9 +15,9 @@
 一个可转移的输出包含一个`AssetID`和一个`Output`。
 
 * **`AssetID`** 是一个32字节数组，它定义了该输出引用的资产。唯一有效的`AssetID`是AVAX `AssetID`。
-* **`Output`** 是一个输出，如下所定义。例如，这可以是一个SECP256K1传输输出。is an output, as defined below. For example, this can be a SECP256K1 transfer output.
+* **`Output`** 是一个输出，如下所定义。例如，这可以是一个SECP256K1传输输出。
 
-### Gantt Transferable Output Specification
+### Gantt 可转移输出规范
 
 ```text
 +----------+----------+-------------------------+
@@ -29,7 +29,7 @@
                       +-------------------------+
 ```
 
-### Proto Transferable Output Specification
+### Proto 可转移输出规范
 
 ```text
 message TransferableOutput {
@@ -38,9 +38,9 @@ message TransferableOutput {
 }
 ```
 
-### Transferable Output Example
+### 可转移输出示例
 
-Let’s make a transferable output:
+我们创建一个可转移输出:
 
 * `AssetID: 0x6870b7d66ac32540311379e5b5dbad28ec7eb8ddbfc8f4d67299ebb48475907a`
 * `Output: "Example SECP256K1 Transfer Output from below"`
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MT
-Y5NTNdfQ==
+eyJoaXN0b3J5IjpbLTEwNTE1MjkyNTYsLTkzNDc2ODMxNiwxNz
+M1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
