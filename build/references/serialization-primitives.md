@@ -88,7 +88,7 @@ Results in:
 
 固定长度的数组，其长度提前已知，并通过上下文，按顺序打包。
 
-Byte array example:
+字节数组示例:
 
 ```text
 Packing:
@@ -97,7 +97,7 @@ Results in:
     [0x01, 0x02]
 ```
 
-Integer array example:
+整数数组示例:
 
 ```text
 Packing:
@@ -106,8 +106,9 @@ Results in:
     [0x03, 0x04, 0x05, 0x06]
 ```
 
-## Variable Length Array
+## 可变长度数组
 
+数组的长度以整数形式开头，数组内容以固定长度数组形式打包。
 The length of the array is prefixed in Integer format, followed by the packing of the array contents in Fixed Length Array format.
 
 Byte array example:
@@ -142,5 +143,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDE2MDgwN119
+eyJoaXN0b3J5IjpbLTExMTkyNjEyNjldfQ==
 -->
