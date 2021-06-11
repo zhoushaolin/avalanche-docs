@@ -32,7 +32,7 @@ Results in:
 
 整数是32位值，以BigEndian格式打包到消息有效负载中。
 
-Example:
+示例:
 
 ```text
 Packing:
@@ -41,11 +41,11 @@ Results in:
     [0x01, 0x02, 0x03, 0x04]
 ```
 
-## Long Integers
+## 长整数
 
-Long integers are 64-bit values packed in BigEndian format into the message payload.
+长整数是以BigEndian格式打包到消息有效负载中的64位值。
 
-Example:
+示例:
 
 ```text
 Packing:
@@ -54,8 +54,9 @@ Results in:
     [0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08]
 ```
 
-## IP Addresses
+## IP 地址
 
+IP地址表示为16字节的IPv6格式，端口作为Short附加到消息有效负载中。IPv4地址以12字节的0x00s开头填充。
 IP addresses are represented as 16-byte IPv6 format, with the port appended into the message payload as a Short. IPv4 addresses are padded with 12 bytes of leading 0x00s.
 
 IPv4 example:
@@ -142,5 +143,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDI5NTczOV19
+eyJoaXN0b3J5IjpbNzcyNTg4NjY1XX0=
 -->
