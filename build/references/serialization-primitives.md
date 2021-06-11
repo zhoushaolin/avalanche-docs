@@ -15,11 +15,11 @@ Results in:
     [0x01]
 ```
 
-## Short
+## 短消息
 
-Shorts are packed in BigEndian format into the message payload.
+短消息以BigEndian格式打包到消息有效负载中。
 
-Example:
+示例:
 
 ```text
 Packing:
@@ -28,9 +28,9 @@ Results in:
     [0x01, 0x02]
 ```
 
-## Integer
+## 整数
 
-Integers are 32-bit values packed in BigEndian format into the message payload.
+整数是32位值，以BigEndian格式打包到消息有效负载中。
 
 Example:
 
@@ -142,5 +142,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDIwMTE4Ml19
+eyJoaXN0b3J5IjpbLTk4MDI5NTczOV19
 -->
