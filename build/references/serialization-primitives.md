@@ -1,12 +1,12 @@
 # 序列化原语
 
-[Avalanche](.. ./../# Avalanche)对所有内部数据使用简单、统一、简洁的表示。本文档描述了如何在Avalanche平台上编码基元类型。所有交易都是按照这些基本基本类型编码的。[Avalanche](../../#avalanche) uses a simple, uniform, and elegant representation for all internal data. This document describes how primitive types are encoded on the Avalanche platform. Transactions are encoded in terms of these basic primitive types.
+[Avalanche](../../#avalanche) 对所有内部数据使用简单、统一、简洁的表示。本文档描述了如何在Avalanche平台上编码基元类型。所有交易都是按照这些基本基元类型编码的。
 
-## Byte
+## 字节
 
-Bytes are packed as-is into the message payload.
+字节按原样打包到消息有效负载中。
 
-Example:
+示例:
 
 ```text
 Packing:
@@ -142,5 +142,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjUyMjg2NF19
+eyJoaXN0b3J5IjpbMTY2NDIwMTE4Ml19
 -->
