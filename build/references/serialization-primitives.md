@@ -130,10 +130,9 @@ Results in:
 
 ## 字符串
 
-字符串的打包类似于可变长度字节数组。但是，长度前缀是短消息而不是int。字符串以UTF-8格式编码。
-A String is packed similarly to a variable-length byte array. However, the length prefix is a short rather than an int. Strings are encoded in UTF-8 format.
+字符串的打包类似于可变长度字节数组。但是，长度前缀是短消息而不是整数。字符串以UTF-8格式编码。
 
-Example:
+示例:
 
 ```text
 Packing:
@@ -143,6 +142,6 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAyNjQ5MSwtMTE5ODQxNTA5Nyw3Nz
-M0NjcwODcsLTExMTkyNjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTIwMTE4NTg1MTAsLTExOTg0MTUwOTcsNz
+czNDY3MDg3LC0xMTE5MjYxMjY5XX0=
 -->
