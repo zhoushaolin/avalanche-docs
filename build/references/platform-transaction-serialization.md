@@ -67,9 +67,9 @@ message TransferableOutput {
 ]
 ```
 
-## Transferable Input
+## 可转移输入
 
-Transferable inputs describe a specific UTXO with a provided transfer input.
+可转移输入用传输输入描述具特定UTXO。Transferable inputs describe a specific UTXO with a provided transfer input.
 
 ### What Transferable Input Contains
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE1MjkyNTYsLTkzNDc2ODMxNiwxNz
-M1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTgyODU5MDA4MSwtOTM0NzY4MzE2LDE3Mz
+U2NjE5MzksMjkxNjk1M119
 -->
