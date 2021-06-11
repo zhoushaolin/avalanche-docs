@@ -159,8 +159,8 @@ SECP256K1 转移输出包含`TypeID`, `Amount`, `Locktime`, `Threshold`和 `Addr
 * **`TypeID`** 是此类型的, 它是`0x00000007`。
 * **`Amount`** 指定此输出拥有的资产数量的长值。必须是积极的。
 * **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。
-* **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
-* **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
+* **`Threshold`** 是一个整数，用于指定花费输出所需的唯一签名的数量。必须小于或等于**`Addresses` **的长度。如果**`Addresses`**为空，则必须为0。
+* **`Addresses`** 是与可用于使用此输出的私钥对应的唯一地址列表。地址必须按字典顺序排序。is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
 
 ### **Gantt SECP256K1 Transfer Output Specification**
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTE5MDg2MCwtODk0NjgzMTcwLC05Mz
-Q3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTIzMDg3ODg3LC04OTQ2ODMxNzAsLTkzND
+c2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
