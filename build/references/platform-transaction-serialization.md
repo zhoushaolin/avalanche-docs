@@ -96,7 +96,7 @@ message TransferableOutput {
                         +------------------------+
 ```
 
-### Proto Transferable Input Specification
+### Proto 可转移输入规范
 
 ```text
 message TransferableInput {
@@ -107,9 +107,9 @@ message TransferableInput {
 }
 ```
 
-### Transferable Input Example
+### 可转移输入示例
 
-Let’s make a transferable input:
+让我们创建一个可转移的输入:
 
 * **`TxID`**: `0x0dfafbdf5c81f635c9257824ff21c8e3e6f7b632ac306e11446ee540d34711a15`
 * **`UTXOIndex`**: `0`
@@ -144,9 +144,9 @@ Let’s make a transferable input:
 ]
 ```
 
-## Outputs
+## 输出
 
-Outputs have two possible type: `SECP256K1TransferOutput`, `SECP256K1OutputOwners`.
+输出有两种可能类型: `SECP256K1TransferOutput`, `SECP256K1OutputOwners`.
 
 ## SECP256K1 Transfer Output
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgxOTYyNjIsLTg5NDY4MzE3MCwtOT
-M0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTgwNzQ2NzcwNiwtODk0NjgzMTcwLC05Mz
+Q3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
