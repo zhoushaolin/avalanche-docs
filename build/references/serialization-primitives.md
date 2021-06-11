@@ -110,7 +110,6 @@ Results in:
 
 数组的长度以整数形式开头，数组内容以固定长度数组形式打包。
 
-
 Byte array example:
 
 ```text
@@ -143,5 +142,6 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNDY3MDg3LC0xMTE5MjYxMjY5XX0=
+eyJoaXN0b3J5IjpbMTI5MzczNjM4MSw3NzM0NjcwODcsLTExMT
+kyNjEyNjldfQ==
 -->
