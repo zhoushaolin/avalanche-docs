@@ -158,7 +158,7 @@ SECP256K1 转移输出包含`TypeID`, `Amount`, `Locktime`, `Threshold`和 `Addr
 
 * **`TypeID`** 是此类型的, 它是`0x00000007`。
 * **`Amount`** 指定此输出拥有的资产数量的长值。必须是积极的。
-* **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
+* **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。
 * **`Threshold`** is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
 * **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzc1NDE3NjAsLTg5NDY4MzE3MCwtOT
-M0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTc1MTE5MDg2MCwtODk0NjgzMTcwLC05Mz
+Q3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
