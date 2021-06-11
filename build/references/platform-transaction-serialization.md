@@ -1,10 +1,10 @@
 # 平台交易格式
 
-这个文件是关于我们如何在Avalanche的平台虚拟机(又名`Platform Chain`或`P-Chain`)中序列化交易的唯一真相来源。本文档使用[primitive serialization](serialization-primitives.md)格式进行打包，使用[secp256k1](cryptoic -primitives.md#secp-256-k1-addresses)进行加密用户标识。
-This file is meant to be the single source of truth for how we serialize transactions in Avalanche’s Platform Virtual Machine, aka the `Platform Chain` or `P-Chain`. This document uses the [primitive serialization](serialization-primitives.md) format for packing and [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) for cryptographic user identification.
+这个文件是关于我们如何在Avalanche的平台虚拟机(又名`Platform Chain`或`P-Chain`)中序列化交易的唯一真相来源。本文档使用[原始的序列化](serialization-primitives.md) 格式进行打包，使用[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses)进行加密用户标识。
 
-## Codec ID
+## 编解码器 ID
 
+一些数据前面有一个编解码器ID \(unt16\)，它表示应该如何反序列化数据。现在，唯一有效的编解码器ID是0 \(`0x00 0x00`\)。
 Some data is prepended with a codec ID \(unt16\) that denotes how the data should be deserialized. Right now, the only valid codec ID is 0 \(`0x00 0x00`\).
 
 ## Transferable Output
@@ -1605,5 +1605,5 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzQ3OTY5NywyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTkyMjk5ODQ0LDI5MTY5NTNdfQ==
 -->
