@@ -109,7 +109,7 @@ Results in:
 ## 可变长度数组
 
 数组的长度以整数形式开头，数组内容以固定长度数组形式打包。
-The length of the array is prefixed in Integer format, followed by the packing of the array contents in Fixed Length Array format.
+
 
 Byte array example:
 
@@ -143,5 +143,5 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTkyNjEyNjldfQ==
+eyJoaXN0b3J5IjpbNzczNDY3MDg3LC0xMTE5MjYxMjY5XX0=
 -->
