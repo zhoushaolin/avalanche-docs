@@ -73,11 +73,11 @@ message TransferableOutput {
 
 ### 可转移输入包含什么
 
-一个可转移的输入包含`TxID`，`UTXOIndex` `AssetID` 和 `Input`。A transferable input contains a `TxID`, `UTXOIndex` `AssetID` and an `Input`.
+一个可转移的输入包含`TxID`，`UTXOIndex` `AssetID` 和 `Input`。
 
-* **`TxID`** is a 32-byte array that defines which transaction this input is consuming an output from.
-* **`UTXOIndex`** is an int that defines which utxo this input is consuming the specified transaction.
-* **`AssetID`** is a 32-byte array that defines which asset this input references. The only valid `AssetID` is the AVAX `AssetID`.
+* **`TxID`** 是一个32字节的数组，它定义了该输入从哪个交易中消费输出。
+* **`UTXOIndex`** 是一个整数，定义该输入使用哪个utxo消费指定的交易。
+* **`AssetID`** 是一个32字节数组，它定义了该输入引用的资产。唯一有效的' AssetID '是AVAX ' AssetID '。is a 32-byte array that defines which asset this input references. The only valid `AssetID` is the AVAX `AssetID`.
 * **`Input`** is a transferable input object.
 
 ### Gantt Transferable Input Specification
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MDg1NzQyLC04OTQ2ODMxNzAsLTkzND
+eyJoaXN0b3J5IjpbNTQxOTk0NDI3LC04OTQ2ODMxNzAsLTkzND
 c2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
