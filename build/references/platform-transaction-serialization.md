@@ -5,9 +5,8 @@
 ## 编解码器 ID
 
 一些数据前面有一个编解码器ID \(unt16\)，它表示应该如何反序列化数据。现在，唯一有效的编解码器ID是0 \(`0x00 0x00`\)。
-Some data is prepended with a codec ID \(unt16\) that denotes how the data should be deserialized. Right now, the only valid codec ID is 0 \(`0x00 0x00`\).
 
-## Transferable Output
+## 可转移输出
 
 Transferable outputs wrap an output with an asset ID.
 
@@ -1605,5 +1604,5 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjk5ODQ0LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
