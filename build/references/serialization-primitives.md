@@ -110,7 +110,7 @@ Results in:
 
 数组的长度以整数形式开头，数组内容以固定长度数组形式打包。
 
-Byte array example:
+字节数组示例:
 
 ```text
 Packing:
@@ -119,7 +119,7 @@ Results in:
     [0x00, 0x00, 0x00, 0x02, 0x01, 0x02]
 ```
 
-Int array example:
+整数数组示例:
 
 ```text
 Packing:
@@ -128,7 +128,7 @@ Results in:
     [0x00, 0x00, 0x00, 0x01, 0x03, 0x04, 0x05, 0x06]
 ```
 
-## String
+## 字符串
 
 A String is packed similarly to a variable-length byte array. However, the length prefix is a short rather than an int. Strings are encoded in UTF-8 format.
 
@@ -142,6 +142,6 @@ Results in:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzczNjM4MSw3NzM0NjcwODcsLTExMT
-kyNjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTExOTg0MTUwOTcsNzczNDY3MDg3LC0xMT
+E5MjYxMjY5XX0=
 -->
