@@ -71,7 +71,7 @@ message TransferableOutput {
 
 可转移输入用传输输入描述具特定UTXO。
 
-### What Transferable Input Contains
+### 可转移输入
 
 A transferable input contains a `TxID`, `UTXOIndex` `AssetID` and an `Input`.
 
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3Mz
-U2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTE5MjQ1MTExMTIsLTg5NDY4MzE3MCwtOT
+M0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
