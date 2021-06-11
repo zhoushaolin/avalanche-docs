@@ -12,7 +12,7 @@
 
 ### 可转移输出包含什么
 
-A transferable output contains an `AssetID` and an `Output`.
+一个可转移的输出包含一个`AssetID`和一个`Output`。
 
 * **`AssetID`** is a 32-byte array that defines which asset this output references. The only valid `AssetID` is the AVAX `AssetID`.
 * **`Output`** is an output, as defined below. For example, this can be a SECP256K1 transfer output.
@@ -1604,6 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODYxMjQ1NiwxNzM1NjYxOTM5LDI5MT
+eyJoaXN0b3J5IjpbMTk1Njg1MzU4NiwxNzM1NjYxOTM5LDI5MT
 Y5NTNdfQ==
 -->
