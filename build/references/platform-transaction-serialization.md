@@ -8,9 +8,9 @@
 
 ## 可转移输出
 
-Transferable outputs wrap an output with an asset ID.
+可转移输出用资产ID包装输出。
 
-### What Transferable Output Contains
+### 可转移输出包含什么
 
 A transferable output contains an `AssetID` and an `Output`.
 
@@ -1604,5 +1604,6 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbMTE5ODYxMjQ1NiwxNzM1NjYxOTM5LDI5MT
+Y5NTNdfQ==
 -->
