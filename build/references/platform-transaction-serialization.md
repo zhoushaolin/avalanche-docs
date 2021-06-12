@@ -312,15 +312,15 @@ message SECP256K1OutputOwnersOutput {
 
 输入有一个可能的类型: `SECP256K1TransferInput`。
 
-## SECP256K1 Transfer Input
+## SECP256K1 转移输入
 
-一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses)传输输入允许花费一个未使用的secp256k1传输输出。A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer input allows for spending an unspent secp256k1 transfer output.
+一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses)传输输入允许花费一个未使用的secp256k1传输输出。
 
-### **What SECP256K1 Transfer Input Contains**
+### **SECP256K1转移输入包含什么**
 
-A secp256k1 transfer input contains an `Amount` and `AddressIndices`.
+一个secp256k1转移输入包含 `Amount` 和`AddressIndices`。
 
-* **`TypeID`** is the ID for this output type. It is `0x00000005`.
+* **`TypeID`** 是此类型的ID, 它是 `0x00000005`.
 * **`Amount`** is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
 * **`AddressIndices`** is a list of unique ints that define the private keys are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTgxMzQ0NCwxNjY2Mjk3ODA4LC0yMD
+eyJoaXN0b3J5IjpbMTQ1NjExOTcyOSwxNjY2Mjk3ODA4LC0yMD
 UwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5
 MzksMjkxNjk1M119
 -->
