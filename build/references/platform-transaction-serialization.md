@@ -320,7 +320,7 @@ message SECP256K1OutputOwnersOutput {
 
 一个secp256k1转移输入包含 `Amount` 和`AddressIndices`。
 
-* **`TypeID`** 是此类型的ID, 它是 `0x00000005`.
+* **`TypeID`** 是此类型的ID, 它是 `0x00000005`。
 * **`Amount`** is a long that specifies the quantity that this input should be consuming from the UTXO. Must be positive. Must be equal to the amount specified in the UTXO.
 * **`AddressIndices`** is a list of unique ints that define the private keys are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjExOTcyOSwxNjY2Mjk3ODA4LC0yMD
-UwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5
-MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNT
+AwMTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkz
+OSwyOTE2OTUzXX0=
 -->
