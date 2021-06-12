@@ -322,9 +322,9 @@ message SECP256K1OutputOwnersOutput {
 
 * **`TypeID`** 是此类型的ID, 它是 `0x00000005`。
 * **`Amount`** 是一个长值，它指定该输入应该从UTXO消耗的数量。必须是积极的。必须等于UTXO中指定的数量。
-* **`AddressIndices`** 是定义用于花费UTXO的私钥的唯一整数列表。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。is a list of unique ints that define the private keys are being used to spend the UTXO. Each UTXO has an array of addresses that can spend the UTXO. Each int represents the index in this address array that will sign this transaction. The array must be sorted low to high.
+* **`AddressIndices`** 是定义用于花费UTXO的私钥的唯一整数列表。每个UTXO都有一个可以使用UTXO的地址数组。每个整数表示该地址数组中将签名该交易的索引。数组必须从低到高排序。
 
-### **Gantt SECP256K1 Transfer Input Specification**
+### **Gantt SECP256K1 转移输入规范**
 
 ```text
 +-------------------------+-------------------------------------+
@@ -338,7 +338,7 @@ message SECP256K1OutputOwnersOutput {
                           +-------------------------------------+
 ```
 
-**Proto SECP256K1 Transfer Input Specification**
+**Proto SECP256K1 转移输入规范**
 
 ```text
 message SECP256K1TransferInput {
@@ -348,9 +348,9 @@ message SECP256K1TransferInput {
 }
 ```
 
-### **SECP256K1 Transfer Input Example**
+### **SECP256K1 转移输入示例**
 
-Let’s make a payment input with:
+我们创建一个支付输入:
 
 * **`TypeID`**: 5
 * **`Amount`**: 4000000000
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzczNDE1MywtMzk5ODU1NzEsMTY2Nj
-I5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMx
-NiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE2NTc4MDEyMjIsLTM5OTg1NTcxLDE2Nj
+YyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3Njgz
+MTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
