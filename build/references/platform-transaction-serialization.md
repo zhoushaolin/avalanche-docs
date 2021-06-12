@@ -493,7 +493,7 @@ message BaseTx {
 ]
 ```
 
-## Unsigned Add Validator Tx
+## wei qian mingTx
 
 ### **What Unsigned Add Validator Tx Contains**
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mj
-k3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2
-LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbNTE1MzE3MjE3LDQ2NDIyMDY2MCwtMzk5OD
+U1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAs
+LTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
