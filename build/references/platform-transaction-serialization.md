@@ -508,7 +508,7 @@ message BaseTx {
 * **`Stake`** 质押有`LockedOuts`
   * **`LockedOuts`** 可转移输出的数组，在质押期间内被锁定。在质押期结束时，这些输出被返回到它们各自的地址。
 * **`RewardsOwner`** 一个`SECP256K1OutputOwners`
-* **`Shares`** 1万倍于委派者的奖励 10,000 times percentage of reward taken from delegators
+* **`Shares`** 1万倍于委派者的奖励 
 
 ### **Gantt Unsigned Add Validator Tx Specification**
 
@@ -1604,8 +1604,8 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc3MTc0NDQsMjA2MTc5Mzk1NywtMT
-U3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4
-MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMT
-czNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNT
+cxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5Nzgw
+OCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNz
+M1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
