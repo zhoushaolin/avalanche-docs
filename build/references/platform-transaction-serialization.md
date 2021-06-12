@@ -386,8 +386,8 @@ message SECP256K1TransferInput {
 一个Base Tx包含 `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs`和`Memo`。
 
 * **`TypeID`** 是此类型的ID, 它是`0x00000000`。
-* **`NetworkID`** 是一个整数，它定义了这个要发送到哪个网络。这个值意味着支持事务路由，不是为防止重放攻击而设计的。
-* **`BlockchainID`** is a 32-byte array that defines which blockchain this transaction was issued to. This is used for replay attack prevention for transactions that could potentially be valid across network or blockchain.
+* **`NetworkID`** 是一个整数，它定义了这个交易要发送到哪个网络。这个值意味着支持交易路由，不是为防止重放攻击而设计的。
+* **`BlockchainID`** 是一个32字节的数组，它定义了这个交易被发送到哪个区块链。这用于防止可能跨网络或区块链有效的交易的重放攻击。
 * **`Outputs`** is an array of transferable output objects. Outputs must be sorted lexicographically by their serialized representation. The total quantity of the assets created in these outputs must be less than or equal to the total quantity of each asset consumed in the inputs minus the transaction fee.
 * **`Inputs`** is an array of transferable input objects. Inputs must be sorted and unique. Inputs are sorted first lexicographically by their **`TxID`** and then by the **`UTXOIndex`** from low to high. If there are inputs that have the same **`TxID`** and **`UTXOIndex`**, then the transaction is invalid as this would result in a double spend.
 * **`Memo`** Memo field contains arbitrary bytes, up to 256 bytes.
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTYyNjY1MywtMzk5ODU1NzEsMTY2Nj
-I5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMx
-NiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbNDk4NTY0MTA2LC0zOTk4NTU3MSwxNjY2Mj
+k3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2
+LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
