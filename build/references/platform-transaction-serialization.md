@@ -232,13 +232,13 @@ message SECP256K1TransferOutput {
 ]
 ```
 
-## SECP256K1 Output Owners 输出
+## SECP256K1 输出所有者的输出
 
-当质押周期结束时，输出所有者的输出将会收到锁定奖励。A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) output owners output will recieve the staking rewards when the lock up period ends.
+当质押周期结束时，[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses)输出所有者的输出将会收到锁定奖励。
 
-### **What SECP256K1 Output Owners Output Contains**
+### **SECP256K1 输出所有者的输出包含什么**
 
-A secp256k1 output owners output contains a `TypeID`, `Locktime`, `Threshold`, and `Addresses`.
+一个secp256k1输出所有者的输出包含`TypeID`, `Locktime`, `Threshold`, an `Addresses`.
 
 * **`TypeID`** is the ID for this output type. It is `0x0000000b`.
 * **`Locktime`** is a long that contains the unix timestamp that this output can be spent after. The unix timestamp is specific to the second.
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDk3NDI3MiwxNjY2Mjk3ODA4LC0yMD
-UwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5
-MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbODM2OTMzMDAyLDE2NjYyOTc4MDgsLTIwNT
+AwMTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkz
+OSwyOTE2OTUzXX0=
 -->
