@@ -493,11 +493,11 @@ message BaseTx {
 ]
 ```
 
-## wei qian mingTx
+## 未签名添加验证器Tx
 
-### **What Unsigned Add Validator Tx Contains**
+### **未签名添加验证器Tx包含什么**
 
-An unsigned add validator tx contains a `BaseTx`, `Validator`, `Stake`, `RewardsOwner`, and `Shares`. The `TypeID` for this type is `0x0000000c`.
+一个未签名添加验证器Tx包含`BaseTx`, `Validator`, `Stake`, `RewardsOwner`和`Shares`, 这个类型的`TypeID` 是`0x0000000c`.
 
 * **`BaseTx`**
 * **`Validator`** Validator has a `NodeID`, `StartTime`, `EndTime`, and `Weight`
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MzE3MjE3LDQ2NDIyMDY2MCwtMzk5OD
-U1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAs
-LTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE3OTE3MDg1NTYsNDY0MjIwNjYwLC0zOT
+k4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3
+MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
