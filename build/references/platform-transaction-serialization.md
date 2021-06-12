@@ -375,8 +375,9 @@ message SECP256K1TransferInput {
 ]
 ```
 
-## Unsigned Transactions
+## 未签名交易
 
+未签名的交易包含交易的全部内容，只缺少签名。Unsigned事务有六种可能的类型:' AddValidatorTx '， ' AddSubnetValidatorTx '， ' AddDelegatorTx '， ' CreateSubnetTx '， ' ImportTx '和' ExportTx '。它们嵌入' BaseTx '，其中包含常用字段和操作。
 Unsigned transactions contain the full content of a transaction with only the signatures missing. Unsigned transactions have six possible types: `AddValidatorTx`, `AddSubnetValidatorTx`, `AddDelegatorTx`, `CreateSubnetTx`, `ImportTx`, and `ExportTx`. They embed `BaseTx`, which contains common fields and operations.
 
 ## Unsigned BaseTx
@@ -1604,7 +1605,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc4MDEyMjIsLTM5OTg1NTcxLDE2Nj
-YyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3Njgz
-MTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbMTI4MDEzMTI2MSwtMzk5ODU1NzEsMTY2Nj
+I5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMx
+NiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
