@@ -192,9 +192,9 @@ message SECP256K1TransferOutput {
 }
 ```
 
-### **SECP256K1 Transfer Output Example**
+### **SECP256K1 转移输出示例**
 
-Let’s make a secp256k1 transfer output with:
+我们创建一个secp256k1传输输出:
 
 * **`TypeID`**: 7
 * **`Amount`**: 3999000000
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk3NTUyMzksLTIwNTAwMTMwNSwtOD
-k0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUz
-XX0=
+eyJoaXN0b3J5IjpbMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OT
+Q2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNd
+fQ==
 -->
