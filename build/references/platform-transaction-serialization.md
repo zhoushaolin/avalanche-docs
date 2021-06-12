@@ -232,9 +232,9 @@ message SECP256K1TransferOutput {
 ]
 ```
 
-## SECP256K1 Output Owners Output
+## SECP256K1 Output Owners 输出
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) output owners output will recieve the staking rewards when the lock up period ends.
+当质押周期结束时，输出所有者的输出将会收到锁定奖励。A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) output owners output will recieve the staking rewards when the lock up period ends.
 
 ### **What SECP256K1 Output Owners Output Contains**
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OT
-Q2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNd
-fQ==
+eyJoaXN0b3J5IjpbMjA0MDk3NDI3MiwxNjY2Mjk3ODA4LC0yMD
+UwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5
+MzksMjkxNjk1M119
 -->
