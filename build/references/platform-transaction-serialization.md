@@ -502,8 +502,8 @@ message BaseTx {
 * **`BaseTx`**
 * **`Validator`** 验证器有`NodeID`, `StartTime`, `EndTime`和`Weight`
   * **`NodeID`** 是20个字节，这是验证器的节点ID。
-  * **`StartTime`** 是一个很长的Unix时间，当验证器开始验证时。is a long which is the Unix time when the validator starts validating.
-  * **`EndTime`** is a long which is the Unix time when the validator stops validating.
+  * **`StartTime`** 是一个当验证器开始验证时的Unix时间的长值。
+  * **`EndTime`** 是一个当验证器开始验证时的Unix时间的长值。
   * **`Weight`** is a long which is the amount the validator stakes
 * **`Stake`** Stake has `LockedOuts`
   * **`LockedOuts`** An array of Transferable Outputs that are locked for the duration of the staking period. At the end of the staking period, these outputs are refunded to their respective addresses.
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTI4NzkxNSw0NjQyMjA2NjAsLTM5OT
-g1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcw
-LC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTEzMTU4MDkwODUsNDY0MjIwNjYwLC0zOT
+k4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3
+MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
