@@ -504,7 +504,7 @@ message BaseTx {
   * **`NodeID`** 是20个字节，这是验证器的节点ID。
   * **`StartTime`** 是一个当验证器开始验证时的Unix时间的长值。
   * **`EndTime`** 是一个当验证器停止验证时的Unix时间的长值。
-  * **`Weight`** 是验证器质押is a long which is the amount the validator stakes
+  * **`Weight`** 是验证器质押数量的长值
 * **`Stake`** Stake has `LockedOuts`
   * **`LockedOuts`** An array of Transferable Outputs that are locked for the duration of the staking period. At the end of the staking period, these outputs are refunded to their respective addresses.
 * **`RewardsOwner`** A `SECP256K1OutputOwners`
@@ -1604,7 +1604,8 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOT
-k4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3
-MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTk5Mzk4NTU5OSwtMTU3MTM3MzY5Niw0Nj
+QyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMw
+NSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOT
+E2OTUzXX0=
 -->
