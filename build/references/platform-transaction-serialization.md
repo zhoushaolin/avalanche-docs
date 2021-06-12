@@ -379,14 +379,14 @@ message SECP256K1TransferInput {
 
 未签名的交易包含交易的全部内容，只缺少签名。未签名交易包含六种可能的类型:`AddValidatorTx`, `AddSubnetValidatorTx`, `AddDelegatorTx`, `CreateSubnetTx`, `ImportTx`和 `ExportTx`。它们嵌入`BaseTx`，其中包含常用字段和操作。
 
-## Unsigned BaseTx
+## 未签名 BaseTx
 
-### **What Base Tx Contains**
+### **Base Tx包含什么**
 
-A base tx contains a `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs`, and `Memo`.
+一个Base Tx包含 `TypeID`, `NetworkID`, `BlockchainID`, `Outputs`, `Inputs`和`Memo`。
 
-* **`TypeID`** is the ID for this type. It is `0x00000000`.
-* **`NetworkID`** is an int that defines which network this transaction is meant to be issued to. This value is meant to support transaction routing and is not designed for replay attack prevention.
+* **`TypeID`** 是此类型的ID, 它是`0x00000000`。
+* **`NetworkID`** 是一个整数，它定义了这个要发送到哪个网络。这个值意味着支持事务路由，不是为防止重放攻击而设计的。
 * **`BlockchainID`** is a 32-byte array that defines which blockchain this transaction was issued to. This is used for replay attack prevention for transactions that could potentially be valid across network or blockchain.
 * **`Outputs`** is an array of transferable output objects. Outputs must be sorted lexicographically by their serialized representation. The total quantity of the assets created in these outputs must be less than or equal to the total quantity of each asset consumed in the inputs minus the transaction fee.
 * **`Inputs`** is an array of transferable input objects. Inputs must be sorted and unique. Inputs are sorted first lexicographically by their **`TxID`** and then by the **`UTXOIndex`** from low to high. If there are inputs that have the same **`TxID`** and **`UTXOIndex`**, then the transaction is invalid as this would result in a double spend.
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc5NTc4MDUsLTM5OTg1NTcxLDE2Nj
-YyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3Njgz
-MTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTk3OTYyNjY1MywtMzk5ODU1NzEsMTY2Nj
+I5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMx
+NiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
