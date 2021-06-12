@@ -497,12 +497,12 @@ message BaseTx {
 
 ### **未签名添加验证器Tx包含什么**
 
-一个未签名添加验证器Tx包含`BaseTx`, `Validator`, `Stake`, `RewardsOwner`和`Shares`, 这个类型的`TypeID` 是`0x0000000c`.
+一个未签名添加验证器Tx包含`BaseTx`, `Validator`, `Stake`, `RewardsOwner`和`Shares`, 这个类型的`TypeID` 是`0x0000000c`。
 
 * **`BaseTx`**
-* **`Validator`** Validator has a `NodeID`, `StartTime`, `EndTime`, and `Weight`
-  * **`NodeID`** is 20 bytes which is the node ID of the validator.
-  * **`StartTime`** is a long which is the Unix time when the validator starts validating.
+* **`Validator`** 验证器有`NodeID`, `StartTime`, `EndTime`和`Weight`
+  * **`NodeID`** 是20个字节，这是验证器的节点ID。
+  * **`StartTime`** 是一个很长的Unix时间，当验证器开始验证时。is a long which is the Unix time when the validator starts validating.
   * **`EndTime`** is a long which is the Unix time when the validator stops validating.
   * **`Weight`** is a long which is the amount the validator stakes
 * **`Stake`** Stake has `LockedOuts`
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE3MDg1NTYsNDY0MjIwNjYwLC0zOT
-k4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3
-MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbMTA3MTI4NzkxNSw0NjQyMjA2NjAsLTM5OT
+g1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcw
+LC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
