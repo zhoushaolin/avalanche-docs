@@ -389,10 +389,10 @@ message SECP256K1TransferInput {
 * **`NetworkID`** 是一个整数，它定义了这个交易要发送到哪个网络。这个值意味着支持交易路由，不是为防止重放攻击而设计的。
 * **`BlockchainID`** 是一个32字节的数组，它定义了这个交易被发送到哪个区块链。这用于防止可能跨网络或区块链有效的交易的重放攻击。
 * **`Outputs`** 是可转移输出对象的数组。输出必须根据它们的序列化表示按字典顺序排序。在这些产出中创造的资产总量必须小于或等于投入中消耗的每项资产的总量减去交易费用。
-* **`Inputs`** 是可转移输入对象的数组。输入必须是有序且唯一的。输入首先按其**`TxID`**按字典顺序排序，然后按** ' UTXOIndex ' **从低到高排序。如果有相同的** ' TxID ' **和** ' UTXOIndex ' **的输入，则该事务无效，因为这将导致双花费。is an array of transferable input objects. Inputs must be sorted and unique. Inputs are sorted first lexicographically by their **`TxID`** and then by the **`UTXOIndex`** from low to high. If there are inputs that have the same **`TxID`** and **`UTXOIndex`**, then the transaction is invalid as this would result in a double spend.
-* **`Memo`** Memo field contains arbitrary bytes, up to 256 bytes.
+* **`Inputs`** 是可转移输入对象的数组。输入必须是有序且唯一的。输入首先按其**`TxID`**的字典顺序排序，然后按**`UTXOIndex`**从低到高排序。如果有相同的** `TxID`**和**`UTXOIndex`**的输入，则该交易无效，因为这将导致双重花费。
+* **`Memo`** 备注字段包含任意字节，最多256字节。
 
-### **Gantt Base Tx Specification**
+### **Gantt Base Tx 规范**
 
 ```text
 +---------------+----------------------+-----------------------------------------+
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTU0Mjk3LC0zOTk4NTU3MSwxNjY2Mj
-k3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2
-LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTE2ODA1NDgwMjksLTM5OTg1NTcxLDE2Nj
+YyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3Njgz
+MTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
