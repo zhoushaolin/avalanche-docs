@@ -242,10 +242,10 @@ message SECP256K1TransferOutput {
 
 * **`TypeID`** 是此类型的ID, 它是`0x0000000b`。
 * **`Locktime`** 包含Unix时间戳的长字符串，该时间戳可以在此输出之后使用。unix时间戳是特定于秒的。
-* **`Threshold`** 是一个整数，用于指定花费输出所需的唯一签名的数量。必须小于或等于** `Addresses`**的长度。如果** `Addresses` **为空，则必须为0。is an int that names the number of unique signatures required to spend the output. Must be less than or equal to the length of **`Addresses`**. If **`Addresses`** is empty, must be 0.
-* **`Addresses`** is a list of unique addresses that correspond to the private keys that can be used to spend this output. Addresses must be sorted lexicographically.
+* **`Threshold`** 是一个整数，用于指定花费输出所需的唯一签名的数量。必须小于或等于** `Addresses`**的长度。如果** `Addresses` **为空，则必须为0。
+* **`Addresses`** 是与可用于使用此输出的私钥对应的唯一地址列表。地址必须按字典顺序排序。
 
-### **Gantt SECP256K1 Output Owners Output Specification**
+### **Gantt SECP256K1输出所有者的输出规范**
 
 ```text
 +-----------+------------+--------------------------------+
@@ -261,7 +261,7 @@ message SECP256K1TransferOutput {
                          +--------------------------------+
 ```
 
-### **Proto SECP256K1 Output Owners Output Specification**
+### **Proto SECP256K1 输出所有者的输出规范**
 
 ```text
 message SECP256K1OutputOwnersOutput {
@@ -272,9 +272,9 @@ message SECP256K1OutputOwnersOutput {
 }
 ```
 
-### **SECP256K1 Output Owners Output Example**
+### **SECP256K1输出所有者的输出示例**
 
-Let’s make a secp256k1 output owners output with:
+我们创建一个secp256k1输出所有者的输出:
 
 * **`TypeID`**: 11
 * **`Locktime`**: 0
@@ -308,13 +308,13 @@ Let’s make a secp256k1 output owners output with:
 ]
 ```
 
-## Inputs
+## 输入
 
-Inputs have one possible type: `SECP256K1TransferInput`.
+输入有一个可能的类型: `SECP256K1TransferInput`。
 
 ## SECP256K1 Transfer Input
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer input allows for spending an unspent secp256k1 transfer output.
+一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses)传输输入允许花费一个未使用的secp256k1传输输出。A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) transfer input allows for spending an unspent secp256k1 transfer output.
 
 ### **What SECP256K1 Transfer Input Contains**
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODIzMDMzOSwxNjY2Mjk3ODA4LC0yMD
+eyJoaXN0b3J5IjpbLTk5OTgxMzQ0NCwxNjY2Mjk3ODA4LC0yMD
 UwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5
 MzksMjkxNjk1M119
 -->
