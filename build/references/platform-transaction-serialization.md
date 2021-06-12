@@ -505,8 +505,8 @@ message BaseTx {
   * **`StartTime`** 是一个当验证器开始验证时的Unix时间的长值。
   * **`EndTime`** 是一个当验证器停止验证时的Unix时间的长值。
   * **`Weight`** 是验证器质押数量的长值
-* **`Stake`** Stake has `LockedOuts`
-  * **`LockedOuts`** An array of Transferable Outputs that are locked for the duration of the staking period. At the end of the staking period, these outputs are refunded to their respective addresses.
+* **`Stake`** 质押有`LockedOuts`
+  * **`LockedOuts`** 可转移输出的数组，在锁定期间内被锁定。在锁定期结束时，这些输出被返回到它们各自的地址。An array of Transferable Outputs that are locked for the duration of the staking period. At the end of the staking period, these outputs are refunded to their respective addresses.
 * **`RewardsOwner`** A `SECP256K1OutputOwners`
 * **`Shares`** 10,000 times percentage of reward taken from delegators
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mzk4NTU5OSwtMTU3MTM3MzY5Niw0Nj
+eyJoaXN0b3J5IjpbMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0Nj
 QyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMw
 NSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOT
 E2OTUzXX0=
