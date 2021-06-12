@@ -412,7 +412,7 @@ message SECP256K1TransferInput {
                           +------------------------------------------------------+
 ```
 
-### **Proto Base Tx Specification**
+### **Proto Base Tx 规范**
 
 ```text
 message BaseTx {
@@ -425,9 +425,9 @@ message BaseTx {
 }
 ```
 
-### **Base Tx Example**
+### **Base Tx 示例**
 
-Let’s make a base tx that uses the inputs and outputs from the previous examples:
+让我们创建一个base tx，它使用前面例子中的输入和输出:
 
 * **`TypeID`**: `0`
 * **`NetworkID`**: `12345`
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA1NDgwMjksLTM5OTg1NTcxLDE2Nj
-YyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3Njgz
-MTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbNDY0MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mj
+k3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2
+LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
