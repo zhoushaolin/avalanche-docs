@@ -162,7 +162,7 @@ SECP256K1 转移输出包含`TypeID`, `Amount`, `Locktime`, `Threshold`和 `Addr
 * **`Threshold`** 是一个整数，用于指定花费输出所需的唯一签名的数量。必须小于或等于**`Addresses` **的长度。如果**`Addresses`**为空，则必须为0。
 * **`Addresses`** 是与可用于使用此输出的私钥对应的唯一地址列表。地址必须按字典顺序排序。
 
-### **Gantt SECP256K1 Transfer Output Specification**
+### **Gantt SECP256K1 转移输出规范**
 
 ```text
 +-----------+------------+--------------------------------+
@@ -180,7 +180,7 @@ SECP256K1 转移输出包含`TypeID`, `Amount`, `Locktime`, `Threshold`和 `Addr
                          +--------------------------------+
 ```
 
-### **Proto SECP256K1 Transfer Output Specification**
+### **Proto SECP256K1转移输出规范**
 
 ```text
 message SECP256K1TransferOutput {
@@ -1604,6 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05Mz
-Q3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTExMDk3NTUyMzksLTIwNTAwMTMwNSwtOD
+k0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUz
+XX0=
 -->
