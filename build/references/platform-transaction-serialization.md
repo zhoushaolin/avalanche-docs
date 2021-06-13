@@ -544,7 +544,7 @@ message AddValidatorTx {
 
 我们创建一个未签名添加验证器tx，它使用前面示例中的输入和输出:
 
-* **`BaseTx`**: `"BaseTx示例如上所定义 as defined above with ID set to 0c"`
+* **`BaseTx`**: `"BaseTx示例如上所定义,ID设置为0c"`
 * **`Validator`** 验证器拥有`NodeID`, `StartTime`, `EndTime`和 `Weight`。
   * **`NodeID`** 是20字节的验证器的节点ID。 is 20 bytes which is the node ID of the validator.
   * **`StartTime`** 是一个Unix时间的长值，当验证器开始验证时。
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDg3OTU4MywtMTU5MDkwMDk2MCwtNT
+eyJoaXN0b3J5IjpbLTYxNzU3MTYxMCwtMTU5MDkwMDk2MCwtNT
 A1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIw
 NjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLT
 g5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1
