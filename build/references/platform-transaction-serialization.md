@@ -549,7 +549,7 @@ message AddValidatorTx {
   * **`NodeID`** 是20字节的验证器的节点ID。 is 20 bytes which is the node ID of the validator.
   * **`StartTime`** 是一个验证器开始验证的Unix时间的长值。
   * **`EndTime`** 是一个验证器停止验证的Unix时间的长值。
-  * **`Weight`** is a long which is the amount the validator stakes
+  * **`Weight`** 是验证器质押的数量的长值is a long which is the amount the validator stakes
 * **`Stake`**: `0x0000000139c33a499ce4c33a3b09cdd2cfa01ae70dbf2d18b2d7d168524440e55d55008800000007000001d1a94a2000000000000000000000000001000000013cb7d3842e8cee6a0ebd09f1fe884f6861e1b29c`
 * **`RewardsOwner`**: `0x0000000b00000000000000000000000100000001da2bee01be82ecc00c34f361eda8eb30fb5a715c`
 * **`Shares`**: `0x00000064`
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTI3OTYxOCwtMTU5MDkwMDk2MCwtNT
+eyJoaXN0b3J5IjpbLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNT
 A1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIw
 NjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLT
 g5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1
