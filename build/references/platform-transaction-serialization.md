@@ -528,7 +528,7 @@ message BaseTx {
                   +--------------------------------------------------------------+
 ```
 
-### **Proto Unsigned Add Validator Tx Specification**
+### **Proto未签名添加验证器Tx规范**
 
 ```text
 message AddValidatorTx {
@@ -1604,8 +1604,8 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDgxOTg0NywtNTA1NDM3OTc0LDIwNj
-E3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3
-MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOT
-M0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMD
+YxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1
+NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLT
+kzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
