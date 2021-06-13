@@ -510,7 +510,7 @@ message BaseTx {
 * **`RewardsOwner`** 一个`SECP256K1OutputOwners`
 * **`Shares`** 1万倍于委派者的奖励 
 
-### **Gantt Unsigned Add Validator Tx规范 Specification**
+### **Gantt Unsigned添加验证器Tx规范**
 
 ```text
 +---------------+-----------------------+-----------------------------------------+
@@ -1604,8 +1604,8 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAxNTU2NzEsLTUwNTQzNzk3NCwyMD
-YxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1
-NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLT
-kzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbMTEyNDgxOTg0NywtNTA1NDM3OTc0LDIwNj
+E3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3
+MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOT
+M0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
