@@ -540,9 +540,9 @@ message AddValidatorTx {
 }
 ```
 
-### **Unsigned Add Validator Tx Example**
+### **未签名添加验证器Tx示例**
 
-Let’s make an unsigned add validator tx that uses the inputs and outputs from the previous examples:
+我们创建一个unsigned add验证器tx，它使用前面示例中的输入和输出Let’s make an unsigned add validator tx that uses the inputs and outputs from the previous examples:
 
 * **`BaseTx`**: `"Example BaseTx as defined above with ID set to 0c"`
 * **`Validator`** Validator has a `NodeID`, `StartTime`, `EndTime`, and `Weight`
@@ -1604,8 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMD
-YxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1
-NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLT
-kzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbNDkwMDM1OTQzLC0xNTkwOTAwOTYwLC01MD
+U0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2
+NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNSwtOD
+k0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUz
+XX0=
 -->
