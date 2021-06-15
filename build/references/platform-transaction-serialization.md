@@ -642,9 +642,9 @@ message AddValidatorTx {
 * **`BaseTx`**
 * **`Validator`** 验证器有`NodeID`, `StartTime`, `EndTime`和`Weight`
   * **`NodeID`** 是20个字节的验证器节点ID。
-  * **`StartTime`** is a long which is the Unix time when the validator starts validating.
-  * **`EndTime`** is a long which is the Unix time when the validator stops validating.
-  * **`Weight`** is a long which is the amount the validator stakes
+  * **`StartTime`** 是一个验证器开始验证时的Unix时间的长值。
+  * **`EndTime`** 是一个验证器停止验证时的Unix时间的长值。
+  * **`Weight`** 是yan zhis a long which is the amount the validator stakes
 * **`SubnetID`** a 32 byte subnet id
 * **`SubnetAuth`** contains `SigIndices` and has a type id of `0x0000000a`. `SigIndices` is a list of unique ints that define the addresses signing the control signature to add a validator to a subnet. The array must be sorted low to high.
 
@@ -1604,9 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzE2MzM3NiwxOTQ2ODQ3NDQyLC01MT
-A4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkz
-OTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMT
-Y2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2
-ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbNTU1OTQ3NjI2LDE5NDY4NDc0NDIsLTUxMD
+gyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5
+NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNj
+Y2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4
+MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
