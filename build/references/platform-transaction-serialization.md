@@ -1260,7 +1260,7 @@ message SECP256K1Credential {
 
 ## 签名交易
 
-A signed transaction is an unsigned transaction with the addition of an array of credentials.
+签名交易是添加了一组凭据的无签名交易。
 
 ### What Signed Transaction Contains
 
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDUxNTgyMCwtNzEyODk0NDg4LDEyMj
-U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
-NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
-IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
-NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MC
-wtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTEyMjM2NzY5MDMsLTcxMjg5NDQ4OCwxMj
+I1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0MSwxOTQ2ODQ3
+NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NC
+wyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5
+ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNz
+AsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
 -->
