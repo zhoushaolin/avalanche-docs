@@ -633,9 +633,9 @@ message AddValidatorTx {
 ]
 ```
 
-## 未Unsigned Add Subnet Validator Tx
+## 未签名添加子网验证器Tx
 
-### **What Unsigned Add Subnet Validator Tx Contains**
+### **未签名添加子网验证器Tx包含什么**
 
 An unsigned add subnet validator tx contains a `BaseTx`, `Validator`, `SubnetID`, and `SubnetAuth`. The `TypeID` for this type is `0x0000000d`.
 
@@ -1604,9 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ4MjE4MTcsLTUxMDgyODM2MCwtMT
-U5MDkwMDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEz
-NzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC
-0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2
-NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNT
+kwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3
+MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLT
+IwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2
+MTkzOSwyOTE2OTUzXX0=
 -->
