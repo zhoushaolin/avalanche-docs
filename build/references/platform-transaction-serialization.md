@@ -769,9 +769,9 @@ message AddSubnetValidatorTx {
 * **`Validator`** 委托器有`NodeID`, `StartTime`, `EndTime`和`Weight`
   * **`NodeID`** 是20个字节的被委托者的节点ID。
   * **`StartTime`** 是一个委托者开始委托的Unix时间的长值。
-  * **`EndTime`** is a long which is the Unix time when the delegator stops delegating \(and staked AVAX is returned\).
-  * **`Weight`** is a long which is the amount the delegator stakes
-* **`Stake`** Stake has `LockedOuts`
+  * **`EndTime`** 是一个委托者停止委托的Unix时间的长值。\(并且质押的AVAX被返还\)
+  * **`Weight`** 是委托者质押数量的长值
+* **`Stake`** 质押`LockedOuts`
   * **`LockedOuts`** An array of Transferable Outputs that are locked for the duration of the staking period. At the end of the staking period, these outputs are refunded to their respective addresses.
 * **`RewardsOwner`** An `SECP256K1OutputOwners`
 
@@ -1604,9 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzIxODM3OCwxOTQ2ODQ3NDQyLC01MT
-A4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkz
-OTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMT
-Y2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2
-ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE3OTE1MDYwOTksMTk0Njg0NzQ0MiwtNT
+EwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5
+Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLD
+E2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3
+NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
