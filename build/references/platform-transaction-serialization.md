@@ -982,7 +982,7 @@ message CreateSubnetTx {
 未签名导入Tx包含 `BaseTx`, `SourceChain`和`Ins`, 这个类型的 `TypeID`是 `0x00000011`.
 
 * **`BaseTx`**
-* **`SourceChain`** is a 32-byte source blockchain ID.
+* **`SourceChain`** 是一个32字节 source blockchain ID.
 * **`Ins`** is a variable length array of Transferable Inputs.
 
 ### **Gantt Unsigned Import Tx Specification**
@@ -1604,9 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5ND
-Y4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3
-OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC
-0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4
-MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbMTg2NTkzNzI3OCw3NDM4ODkwNzQsLTE1MD
+I3Mzc5NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAw
+OTYwLC01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Ni
+w0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAw
+MTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOS
+wyOTE2OTUzXX0=
 -->
