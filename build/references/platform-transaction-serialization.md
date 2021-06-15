@@ -892,12 +892,12 @@ message AddDelegatorTx {
 
 ### **未签名创建子网Tx包含什么**
 
-未签名创建子网Tx包含`BaseTx`和`RewardsOwner`, 此类型的`TypeID` for this type is `0x00000010`.
+未签名创建子网Tx包含`BaseTx`和`RewardsOwner`, 此类型的`TypeID`是`0x00000010`
 
 * **`BaseTx`**
-* **`RewardsOwner`** A `SECP256K1OutputOwners`
+* **`RewardsOwner`** 一个 `SECP256K1OutputOwners`
 
-### **Gantt Unsigned Create Subnet Tx Specification**
+### **Gantt 未签名创建子网Tx 规范**
 
 ```text
 +-----------------+-----------------------|---------------------------------+
@@ -909,7 +909,7 @@ message AddDelegatorTx {
                                 +-------------------------------------------+
 ```
 
-### **Proto Unsigned Create Subnet Tx Specification**
+### **Proto 未签名创建子网Tx 规范**
 
 ```text
 message CreateSubnetTx {
@@ -918,9 +918,9 @@ message CreateSubnetTx {
 }
 ```
 
-### **Unsigned Create Subnet Tx Example**
+### **未签名创建子网Tx 示例**
 
-Let’s make an unsigned create subnet tx that uses the inputs from the previous examples:
+我们创建一个无的创建子网tx，它使用前面例子中的输入:  Let’s make an unsigned create subnet tx that uses the inputs from the previous examples:
 
 * **`BaseTx`**: “Example BaseTx as defined above but with TypeID set to 16”
 * **`RewardsOwner`**:
@@ -1604,10 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzA3NzA0NiwtMTUwMjczNzk0MSwxOT
-Q2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQz
-Nzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MC
-wtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2
-ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ
-==
+eyJoaXN0b3J5IjpbNTIxMTI0NDU4LC0xNTAyNzM3OTQxLDE5ND
+Y4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3
+OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC
+0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4
+MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
