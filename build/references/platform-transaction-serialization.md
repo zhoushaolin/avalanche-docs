@@ -1264,7 +1264,7 @@ message SECP256K1Credential {
 
 ### 签名交易包含什么
 
-A signed transaction contains a `CodecID`, `UnsignedTx`, and `Credentials`.
+签名交易包含`CodecID`, `UnsignedTx`和`Credentials`。
 
 * **`CodecID`** The only current valid codec id is `00 00`.
 * **`UnsignedTx`** is an unsigned transaction, as described above.
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU5MTQ5MTYsLTcxMjg5NDQ4OCwxMj
+eyJoaXN0b3J5IjpbLTIwMDE2ODM0NjgsLTcxMjg5NDQ4OCwxMj
 I1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0MSwxOTQ2ODQ3
 NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NC
 wyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5
