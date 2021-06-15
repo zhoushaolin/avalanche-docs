@@ -633,7 +633,7 @@ message AddValidatorTx {
 ]
 ```
 
-## Unsigned Add Subnet Validator Tx
+## 未Unsigned Add Subnet Validator Tx
 
 ### **What Unsigned Add Subnet Validator Tx Contains**
 
@@ -1604,9 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNzQ2NzMzLC01MTA4MjgzNjAsLTE1OT
-A5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcxMzcz
-Njk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMj
-A1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYx
-OTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE2NDQ4MjE4MTcsLTUxMDgyODM2MCwtMT
+U5MDkwMDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEz
+NzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC
+0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2
+NjE5MzksMjkxNjk1M119
 -->
