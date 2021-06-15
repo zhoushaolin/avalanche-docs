@@ -1073,11 +1073,11 @@ message ImportTx {
 
 ## 未签名导出Tx
 
-### **What Unsigned Export Tx Contains**
+### **未签名导出Tx 包含什么**
 
-An unsigned export tx contains a `BaseTx`, `DestinationChain`, and `Outs`. The `TypeID` for this type is `0x00000012`.
+未签名导出Tx 包含`BaseTx`, `DestinationChain`和`Outs`, 此类型的`TypeID`是 `0x00000012`。
 
-* **`DestinationChain`** is the 32 byte ID of the chain where the funds are being exported to.
+* **`DestinationChain`** 是资金被导出到的链的32字节ID。is the 32 byte ID of the chain where the funds are being exported to.
 * **`Outs`** is a variable length array of Transferable Outputs.
 
 ### **Gantt Unsigned Export Tx Specification**
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MD
-I3Mzc5NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAw
-OTYwLC01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Ni
-w0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAw
-MTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOS
-wyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTE5NjU2Mzk1NzcsMTIyNTc5Mzg0MSw3ND
+M4ODkwNzQsLTE1MDI3Mzc5NDEsMTk0Njg0NzQ0MiwtNTEwODI4
+MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5Mzk1Ny
+wtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYy
+OTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMT
+YsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
