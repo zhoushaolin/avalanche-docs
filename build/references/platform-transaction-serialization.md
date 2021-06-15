@@ -759,11 +759,11 @@ message AddSubnetValidatorTx {
 ]
 ```
 
-## Unsigned Add Delegator Tx
+## 未签名添加委托器 Tx
 
-### **What Unsigned Add Delegator Tx Contains**
+### **未签名添加委托器 Tx包含什么**
 
-An unsigned add delegator tx contains a `BaseTx`, `Validator`, `Stake`, and `RewardsOwner`. The `TypeID` for this type is `0x0000000e`.
+未签名添加委托器 Tx包含`BaseTx`, `Validator`, `Stake`和`RewardsOwner`, 这个类型的`TypeID` for this type is `0x0000000e`.
 
 * **`BaseTx`**
 * **`Validator`** Validator has a `NodeID`, `StartTime`, `EndTime`, and `Weight`
@@ -1604,9 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzcwNTE3NCwxOTQ2ODQ3NDQyLC01MT
-A4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkz
-OTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMT
-Y2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2
-ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTExMjMzMjQ3ODYsMTk0Njg0NzQ0MiwtNT
+EwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5
+Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLD
+E2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3
+NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
