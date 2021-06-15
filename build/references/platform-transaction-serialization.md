@@ -979,7 +979,7 @@ message CreateSubnetTx {
 
 ### **未签名导入Tx包含什么**
 
-未签名导入Tx包含 `BaseTx`, `SourceChain`和`Ins`, The `TypeID` for this type is `0x00000011`.
+未签名导入Tx包含 `BaseTx`, `SourceChain`和`Ins`, 这个类型的 `TypeID`是 `0x00000011`.
 
 * **`BaseTx`**
 * **`SourceChain`** is a 32-byte source blockchain ID.
@@ -1604,10 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTI5NjE0NiwtMTUwMjczNzk0MSwxOT
-Q2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQz
-Nzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MC
-wtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2
-ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ
-==
+eyJoaXN0b3J5IjpbNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5ND
+Y4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3
+OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC
+0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4
+MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
