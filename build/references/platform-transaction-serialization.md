@@ -763,11 +763,11 @@ message AddSubnetValidatorTx {
 
 ### **未签名添加委托器 Tx包含什么**
 
-未签名添加委托器 Tx包含`BaseTx`, `Validator`, `Stake`和`RewardsOwner`, 这个类型的`TypeID` for this type is `0x0000000e`.
+未签名添加委托器 Tx包含`BaseTx`, `Validator`, `Stake`和`RewardsOwner`, 这个类型的`TypeID` 是`0x0000000e`。
 
 * **`BaseTx`**
-* **`Validator`** Validator has a `NodeID`, `StartTime`, `EndTime`, and `Weight`
-  * **`NodeID`** is 20 bytes which is the node ID of the delegatee.
+* **`Validator`** 委托器有`NodeID`, `StartTime`, `EndTime`和`Weight`
+  * **`NodeID`** 是20个字节，是被委托者的节点ID。is 20 bytes which is the node ID of the delegatee.
   * **`StartTime`** is a long which is the Unix time when the delegator starts delegating.
   * **`EndTime`** is a long which is the Unix time when the delegator stops delegating \(and staked AVAX is returned\).
   * **`Weight`** is a long which is the amount the delegator stakes
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMzMjQ3ODYsMTk0Njg0NzQ0MiwtNT
+eyJoaXN0b3J5IjpbLTE4NDcxNTkyMTQsMTk0Njg0NzQ0MiwtNT
 EwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5
 Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLD
 E2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3
