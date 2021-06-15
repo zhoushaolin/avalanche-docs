@@ -1468,9 +1468,9 @@ stakableelockin是一个质押并被锁定的输入。在锁定解除之前，st
 
 StakeableLockIn包含`TypeID`, `Locktime` 和`TransferableIn`。
 
-* **`TypeID`** 是此类型的ID, 它是 `0x00000015`.
-* **`Locktime`** is a long that contains the unix timestamp before which the input can be consumed only to stake. The unix timestamp is specific to the second.
-* **`TransferableIn`** is a transferable input object.
+* **`TypeID`** 是此类型的ID, 它是 `0x00000015`。
+* **`Locktime`** 是一个包含Unix时间戳的长字符串，在此之前的输入只能被用于质押。unix时间戳是特定于秒的。
+* **`TransferableIn`** 是一个可移的输入 object.
 
 ### **Gantt StakeableLockIn Specification**
 
@@ -1604,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjA2MjQ2OSwtNTY3NTEzMjU4LC03MT
-I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
-NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
-01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
-MjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNS
-wtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2
-OTUzXX0=
+eyJoaXN0b3J5IjpbOTc0NTg3ODg5LC01Njc1MTMyNTgsLTcxMj
+g5NDQ4OCwxMjI1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0
+MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLT
+UwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIy
+MDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC
+04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5
+NTNdfQ==
 -->
