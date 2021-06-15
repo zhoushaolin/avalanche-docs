@@ -920,9 +920,9 @@ message CreateSubnetTx {
 
 ### **未签名创建子网Tx 示例**
 
-我们创建一个无的创建子网tx，它使用前面例子中的输入:  Let’s make an unsigned create subnet tx that uses the inputs from the previous examples:
+我们创建一个未签名创建子网tx，它使用前面例子中的输入:  
 
-* **`BaseTx`**: “Example BaseTx as defined above but with TypeID set to 16”
+* **`BaseTx`**: “BaseTx示例定义如上, 但TypeID设置为16 ”
 * **`RewardsOwner`**:
   * **`TypeId`**: 11
   * **`Locktime`**: 0
@@ -1604,9 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxMTI0NDU4LC0xNTAyNzM3OTQxLDE5ND
-Y4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3
-OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC
-0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4
-MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbLTE3MTE3NjA4NTUsLTE1MDI3Mzc5NDEsMT
+k0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0
+Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2Nj
+AsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0
+NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX
+0=
 -->
