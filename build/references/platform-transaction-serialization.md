@@ -678,9 +678,8 @@ message AddSubnetValidatorTx {
 ### **未签名添加子网验证器 Tx 示例**
 
 我们创建一个未签名添加子网验证器tx，它使用前面例子中的输入和输出:
-Let’s make an unsigned add subnet validator tx that uses the inputs and outputs from the previous examples:
 
-* **`BaseTx`**: `"Example BaseTx as defined above with ID set to 0d"`
+* **`BaseTx`**: `"BaseTx示例如上定义, ID设置为0d"`
 * **`NodeID`**: `0xe9094f73698002fd52c90819b457b9fbc866ab80`
 * **`StarTime`**: `0x000000005f21f31d`
 * **`EndTime`**: `0x000000005f497dc6`
@@ -1605,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTg0NDYwOSwxOTQ2ODQ3NDQyLC01MT
+eyJoaXN0b3J5IjpbLTgyMzcwNTE3NCwxOTQ2ODQ3NDQyLC01MT
 A4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkz
 OTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMT
 Y2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2
