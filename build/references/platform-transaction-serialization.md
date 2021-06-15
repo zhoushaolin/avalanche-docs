@@ -1462,14 +1462,13 @@ message Utxo {
 
 ## StakeableLockIn
 
-stakableelockin是一个质押并被锁定的输入。在锁定解除之前，stakablelockin只能为拥有相同地址的stakablelockouts提供资金。
-A StakeableLockIn is a staked and locked input. The StakeableLockIn can only fund StakeableLockOuts with the same address until its locktime has passed.
+stakableelockin是一个质押并被锁定的输入。在锁定解除之前，stakablelockin只能为拥有相同地址的stakablelockouts充值。
 
-### **What StakeableLockIn Contains**
+### **StakeableLockIn包含什么**
 
-A StakeableLockIn contains a `TypeID`, `Locktime` and `TransferableIn`.
+StakeableLockIn包含`TypeID`, `Locktime` 和`TransferableIn`。
 
-* **`TypeID`** is the ID for this output type. It is `0x00000015`.
+* **`TypeID`** 是此类型的ID, 它是 `0x00000015`.
 * **`Locktime`** is a long that contains the unix timestamp before which the input can be consumed only to stake. The unix timestamp is specific to the second.
 * **`TransferableIn`** is a transferable input object.
 
@@ -1605,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUxMzM0NDIsLTU2NzUxMzI1OCwtNz
-EyODk0NDg4LDEyMjU3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3
-OTQxLDE5NDY4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MC
-wtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0
-MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMD
-UsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkx
-Njk1M119
+eyJoaXN0b3J5IjpbMjAyMjA2MjQ2OSwtNTY3NTEzMjU4LC03MT
+I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
+NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
+01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
+MjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNS
+wtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2
+OTUzXX0=
 -->
