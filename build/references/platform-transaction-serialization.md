@@ -775,7 +775,7 @@ message AddSubnetValidatorTx {
   * **`LockedOuts`** 可转移输出的数组，在质押期间内被锁定。在质押期结束时，这些输出被返回到它们各自的地址。
 * **`RewardsOwner`** 一个 `SECP256K1OutputOwners`
 
-### **Gantt Unsigned Add Delegator Tx Specification**
+### **Gantt 未签名添加委托器Tx规范**
 
 ```text
 +---------------+-----------------------+-----------------------------------------+
@@ -791,7 +791,7 @@ message AddSubnetValidatorTx {
                   +--------------------------------------------------------------+
 ```
 
-### **Proto Unsigned Add Delegator Tx Specification**
+### **Proto 未签名添加委托器Tx规范**
 
 ```text
 message AddDelegatorTx {
@@ -802,9 +802,8 @@ message AddDelegatorTx {
 }
 ```
 
-### **Unsigned Add Delegator Tx Example**
-
-Let’s make an unsigned add delegator tx that uses the inputs and outputs from the previous examples:
+### **未签名添加委托器Tx示例**
+我们创建一个未签名添加委托器Tx，它使用前面例子中的输入和输出:  Let’s make an unsigned add delegator tx that uses the inputs and outputs from the previous examples:
 
 * **`BaseTx`**: `"Example BaseTx as defined above with ID set to 0e"`
 * **`NodeID`**: `0xe9094f73698002fd52c90819b457b9fbc866ab80`
@@ -1604,9 +1603,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3Mzc5NDEsMTk0Njg0NzQ0MiwtNT
-EwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5
-Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLD
-E2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3
-NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTk5NjMzOTgzMSwtMTUwMjczNzk0MSwxOT
+Q2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQz
+Nzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MC
+wtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2
+ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ
+==
 -->
