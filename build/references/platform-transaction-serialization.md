@@ -1536,7 +1536,7 @@ message StakeableLockIn {
 
 ## StakeableLockOut
 
-stakablelockout是一个在锁定时间之前被锁定的输出，但在此期间可以被锁定。A StakeableLockOut is an output that is locked until its locktime, but can be staked in the meantime.
+stakablelockout是一个在锁定时间之前被锁定的输出，但在此期间也可以被锁定。A StakeableLockOut is an output that is locked until its locktime, but can be staked in the meantime.
 
 ### **What StakeableLockOut Contains**
 
@@ -1604,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg4NDI5ODYsLTU2NzUxMzI1OCwtNz
-EyODk0NDg4LDEyMjU3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3
-OTQxLDE5NDY4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MC
-wtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0
-MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMD
-UsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkx
-Njk1M119
+eyJoaXN0b3J5IjpbLTExMDUyMzg3OSwtNTY3NTEzMjU4LC03MT
+I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
+NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
+01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
+MjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNS
+wtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2
+OTUzXX0=
 -->
