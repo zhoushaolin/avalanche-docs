@@ -999,7 +999,7 @@ message CreateSubnetTx {
                             +--------------------------------------+
 ```
 
-### **Proto Unsigned Import Tx Specification**
+### **Proto 未签名导入Tx 规范**
 
 ```text
 message ImportTx {
@@ -1009,11 +1009,11 @@ message ImportTx {
 }
 ```
 
-### **Unsigned Import Tx Example**
+### **未签名导入Tx 示例**
 
-Let’s make an unsigned import tx that uses the inputs from the previous examples:
+让我们创建一个未签名导入tx，使用前面例子中的输入:
 
-* **`BaseTx`**: “Example BaseTx as defined above with TypeID set to 17”
+* **`BaseTx`**: “上面定义的BaseTx实例，TypeID设置为17”
 * **`SourceChain`**:
 * **`Ins`**: “Example SECP256K1 Transfer Input as defined above”
 
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI0Mjg5OTQsNzQzODg5MDc0LC0xNT
-AyNzM3OTQxLDE5NDY4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkw
-MDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OT
-YsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUw
-MDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5Mz
-ksMjkxNjk1M119
+eyJoaXN0b3J5IjpbOTQwNzM4NjExLDc0Mzg4OTA3NCwtMTUwMj
+czNzk0MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5
+NjAsLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LD
+Q2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAx
+MzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LD
+I5MTY5NTNdfQ==
 -->
