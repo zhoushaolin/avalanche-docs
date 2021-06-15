@@ -1536,13 +1536,13 @@ message StakeableLockIn {
 
 ## StakeableLockOut
 
-stakablelockout是一个在锁定时间之前被锁定的输出，但在此期间也可以被锁定。A StakeableLockOut is an output that is locked until its locktime, but can be staked in the meantime.
+stakablelockout是一个在锁定时间之前被锁定的输出，但在此期间也可以进行质押。
 
-### **What StakeableLockOut Contains**
+### **StakeableLockOut包含什么**
 
-A StakeableLockOut contains a `TypeID`, `Locktime` and `TransferableOut`.
+StakeableLockOut包含`TypeID`, `Locktime` 和`TransferableOut`。
 
-* **`TypeID`** is the ID for this output type. It is `0x00000016`.
+* **`TypeID`** 是此输出的ID, 它是`0x00000016`.
 * **`Locktime`** is a long that contains the unix timestamp before which the output can be consumed only to stake. The unix timestamp is specific to the second.
 * **`transferableout`**: “Example SECP256K1 Transfer Output as defined above”
 
@@ -1604,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDUyMzg3OSwtNTY3NTEzMjU4LC03MT
-I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
-NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
-01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
-MjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNS
-wtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2
-OTUzXX0=
+eyJoaXN0b3J5IjpbNjA4Mjk4NTkwLC01Njc1MTMyNTgsLTcxMj
+g5NDQ4OCwxMjI1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0
+MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLT
+UwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIy
+MDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC
+04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5
+NTNdfQ==
 -->
