@@ -1015,7 +1015,7 @@ message ImportTx {
 
 * **`BaseTx`**: “上面定义的BaseTx实例，TypeID设置为17”
 * **`SourceChain`**:
-* **`Ins`**: “Example SECP256K1 Transfer Input as defined above”
+* **`Ins`**: “示例SECP256K1传输输入如上定义”
 
 ```text
 [
@@ -1071,7 +1071,7 @@ message ImportTx {
 ]
 ```
 
-## Unsigned Export Tx
+## 未签名导出Tx
 
 ### **What Unsigned Export Tx Contains**
 
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNzM4NjExLDc0Mzg4OTA3NCwtMTUwMj
-czNzk0MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5
-NjAsLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LD
-Q2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAx
-MzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LD
-I5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MD
+I3Mzc5NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAw
+OTYwLC01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Ni
+w0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAw
+MTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOS
+wyOTE2OTUzXX0=
 -->
