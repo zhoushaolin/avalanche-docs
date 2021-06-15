@@ -1094,7 +1094,7 @@ message ImportTx {
                           +---------------------------------------+
 ```
 
-### **Proto Unsigned Export Tx Specification**
+### **Proto 未签名导出Tx 规范**
 
 ```text
 message ExportTx {
@@ -1104,13 +1104,13 @@ message ExportTx {
 }
 ```
 
-### **Unsigned Export Tx Example**
+### **未签名导出Tx示例**
 
-Let’s make an unsigned export tx that uses the outputs from the previous examples:
+我们创建一个未签名导出tx，它使用前面例子中的输出:
 
-* `BaseTx`: “Example BaseTx as defined above” with `TypeID` set to 18
+* `BaseTx`: “上面定义的BaseTx示例”，将“TypeID”设置为18Example BaseTx as defined above” with `TypeID` set to 18
 * `DestinationChain`: `0x0000000000000000000000000000000000000000000000000000000000000000`
-* `Outs`: “Example SECP256K1 Transfer Output as defined above”
+* `Outs`: “示例SECP256K1传输输出如上定义”
 
 ```text
 [
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjg5NDQ4OCwxMjI1NzkzODQxLDc0Mz
-g4OTA3NCwtMTUwMjczNzk0MSwxOTQ2ODQ3NDQyLC01MTA4Mjgz
-NjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC
-0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5
-NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNi
-wxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTI3OTA3MzI2MywtNzEyODk0NDg4LDEyMj
+U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
+NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
+IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
+NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MC
+wtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
