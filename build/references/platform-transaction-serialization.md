@@ -1108,7 +1108,7 @@ message ExportTx {
 
 我们创建一个未签名导出tx，它使用前面例子中的输出:
 
-* `BaseTx`: “上面定义的BaseTx示例”，将“TypeID”设置为18Example BaseTx as defined above” with `TypeID` set to 18
+* `BaseTx`: “上面定义的BaseTx示例”，将`TypeID`设置为18
 * `DestinationChain`: `0x0000000000000000000000000000000000000000000000000000000000000000`
 * `Outs`: “示例SECP256K1传输输出如上定义”
 
@@ -1180,11 +1180,11 @@ message ExportTx {
 ]
 ```
 
-## Credentials
+## 凭据
 
-Credentials have one possible types: `SECP256K1Credential`. Each credential is paired with an Input or Operation. The order of the credentials match the order of the inputs or operations.
+凭据有一种可能的类型:`SECP256K1Credential`。每个凭据都与输入或操作配对。凭据的顺序与输入或操作的顺序相匹配。
 
-## SECP256K1 Credential
+## SECP256K1 凭据
 
 A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) credential contains a list of 65-byte recoverable signatures.
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTA3MzI2MywtNzEyODk0NDg4LDEyMj
+eyJoaXN0b3J5IjpbLTM3OTA3NjI4OCwtNzEyODk0NDg4LDEyMj
 U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
 NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
 IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
