@@ -1262,7 +1262,7 @@ message SECP256K1Credential {
 
 签名交易是添加了一组凭据的无签名交易。
 
-### What Signed Transaction Contains
+### 签名交易包含什么
 
 A signed transaction contains a `CodecID`, `UnsignedTx`, and `Credentials`.
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM2NzY5MDMsLTcxMjg5NDQ4OCwxMj
+eyJoaXN0b3J5IjpbLTExMjU5MTQ5MTYsLTcxMjg5NDQ4OCwxMj
 I1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0MSwxOTQ2ODQ3
 NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NC
 wyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5
