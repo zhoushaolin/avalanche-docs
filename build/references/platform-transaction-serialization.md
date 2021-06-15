@@ -1284,7 +1284,7 @@ message SECP256K1Credential {
                                      +------------------------------------------------+
 ```
 
-### Proto Signed Transaction Specification
+### Proto 签名交易规范
 
 ```text
 message Tx {
@@ -1294,9 +1294,9 @@ message Tx {
 }
 ```
 
-### Signed Transaction Example
+### 签名交易示例
 
-Let’s make a signed transaction that uses the unsigned transaction and credential from the previous examples.
+让我们使用前面例子中的未签名事务和凭据来创建一个签名交易。
 
 * **`CodecID`**: `0`
 * **`UnsignedTx`**: `0x0000000100000003ffffffffeeeeeeeeddddddddccccccccbbbbbbbbaaaaaaaa999999998888888800000001000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f000000070000000000003039000000000000d431000000010000000251025c61fbcfc078f69334f834be6dd26d55a955c3344128e060128ede3523a24a461c8943ab085900000001f1e1d1c1b1a191817161514131211101f0e0d0c0b0a09080706050403020100000000005000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f0000000500000000075bcd150000000200000003000000070000000400010203`
@@ -1371,11 +1371,11 @@ Let’s make a signed transaction that uses the unsigned transaction and credent
 
 ## UTXO
 
-A UTXO is a standalone representation of a transaction output.
+UTXO是交易输出的独立表示。
 
-### What UTXO Contains
+### UTXO包含什么
 
-A UTXO contains a `CodecID`, `TxID`, `UTXOIndex`, and `Output`.
+UTXO包含`CodecID`, `TxID`, `UTXOIndex`和`Output`.
 
 * **`CodecID`** The only current valid codec id is `00 00`.
 * **`TxID`** is a 32-byte transaction ID. Transaction IDs are calculated by taking sha256 of the bytes of the signed transaction.
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg0NjI0NDUsLTcxMjg5NDQ4OCwxMj
-I1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0MSwxOTQ2ODQ3
-NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NC
-wyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5
-ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNz
-AsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTYzNDA3NCwtNzEyODk0NDg4LDEyMj
+U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
+NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
+IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
+NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MC
+wtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
