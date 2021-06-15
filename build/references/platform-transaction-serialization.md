@@ -1380,8 +1380,8 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`和`Output`。
 * **`CodecID`** 当前唯一有效的编解码器id是`00 00`。
 * **`TxID`** 是一个32字节的交易ID。通过使用已签名交易的sha256字节来计算交易id。
 * **`UTXOIndex`** 是一个整数，它指定在交易中由**`TxID`**指定的哪个输出创建了这个utxo。
-* **`AssetID`** is a 32-byte array that defines which asset this utxo references.
-* **`Output`** is the output object that created this utxo. The serialization of Outputs was defined above.
+* **`AssetID`** 是一个32字节的数组，它定义了utxo引用的资产。
+* **`Output`** 是创建这个utxo的输出对象。上面定义了输出的序列化。
 
 #### Gantt UTXO Specification <a id="gantt-utxo-specification"></a>
 
@@ -1604,10 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzUxMzI1OCwtNzEyODk0NDg4LDEyMj
-U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
-NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
-IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
-NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MC
-wtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
+eyJoaXN0b3J5IjpbMTY4MjExMzAyOCwtNTY3NTEzMjU4LC03MT
+I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
+NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
+01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
+MjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNS
+wtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2
+OTUzXX0=
 -->
