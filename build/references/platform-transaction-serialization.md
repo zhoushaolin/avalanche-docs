@@ -637,11 +637,11 @@ message AddValidatorTx {
 
 ### **未签名添加子网验证器Tx包含什么**
 
-An unsigned add subnet validator tx contains a `BaseTx`, `Validator`, `SubnetID`, and `SubnetAuth`. The `TypeID` for this type is `0x0000000d`.
+未签名添加子网验证器Tx包含`BaseTx`, `Validator`, `SubnetID`和 `SubnetAuth`, 这个类型的`TypeID` 是 `0x0000000d`。
 
 * **`BaseTx`**
 * **`Validator`** Validator has a `NodeID`, `StartTime`, `EndTime`, and `Weight`
-  * **`NodeID`** is 20 bytes which is the node ID of the validator.
+  * **`NodeID`** 是20个字节，这是验证器的节点ID。is 20 bytes which is the node ID of the validator.
   * **`StartTime`** is a long which is the Unix time when the validator starts validating.
   * **`EndTime`** is a long which is the Unix time when the validator stops validating.
   * **`Weight`** is a long which is the amount the validator stakes
@@ -1604,9 +1604,9 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNT
-kwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3
-MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLT
-IwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2
-MTkzOSwyOTE2OTUzXX0=
+eyJoaXN0b3J5IjpbLTc1NzI4OTI0LDE5NDY4NDc0NDIsLTUxMD
+gyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5
+NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNj
+Y2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4
+MzE2LDE3MzU2NjE5MzksMjkxNjk1M119
 -->
