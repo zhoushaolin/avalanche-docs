@@ -1191,9 +1191,9 @@ message ExportTx {
 ### **SECP256K1凭据包含什么**
 
 * **`TypeID`** 是此类型的ID, 它是`0x00000009`。
-* **`Signatures`** 是一个由65字节可恢复签名组成的数组。签名的顺序必须与输入的签名索引匹配。is an array of 65-byte recoverable signatures. The order of the signatures must match the input’s signature indices.
+* **`Signatures`** 是一个由65字节可恢复签名组成的数组。签名的顺序必须与输入的签名索引匹配。
 
-### **Gantt SECP256K1 Credential Specification**
+### **Gantt SECP256K1凭据规范**
 
 ```text
 +------------------------------+---------------------------------+
@@ -1205,7 +1205,7 @@ message ExportTx {
                                +---------------------------------+
 ```
 
-### **Proto SECP256K1 Credential Specification**
+### **Proto SECP256K1 凭据规范**
 
 ```text
 message SECP256K1Credential {
@@ -1214,9 +1214,9 @@ message SECP256K1Credential {
 }
 ```
 
-### **SECP256K1 Credential Example**
+### **SECP256K1凭据示例**
 
-Let’s make a payment input with:
+我们来创建一个支付输入:
 
 * **`signatures`**:
 * `0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1e1d1f202122232425262728292a2b2c2e2d2f303132333435363738393a3b3c3d3e3f00`
@@ -1258,7 +1258,7 @@ Let’s make a payment input with:
 ]
 ```
 
-## Signed Transaction
+## 签名交易
 
 A signed transaction is an unsigned transaction with the addition of an array of credentials.
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTk2MzIyMSwtNzEyODk0NDg4LDEyMj
+eyJoaXN0b3J5IjpbMTcyNDUxNTgyMCwtNzEyODk0NDg4LDEyMj
 U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
 NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
 IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
