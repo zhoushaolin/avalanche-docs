@@ -1383,7 +1383,7 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`和`Output`。
 * **`AssetID`** 是一个32字节的数组，它定义了utxo引用的资产。
 * **`Output`** 是创建这个utxo的输出对象。上面定义了输出的序列化。
 
-#### Gantt UTXO Specification <a id="gantt-utxo-specification"></a>
+#### Gantt UTXO 规范
 
 ```text
 +--------------+----------+-------------------------+
@@ -1401,7 +1401,7 @@ UTXO包含`CodecID`, `TxID`, `UTXOIndex`和`Output`。
                           +-------------------------+
 ```
 
-### Proto UTXO Specification
+### Proto UTXO 规范
 
 ```text
 message Utxo {
@@ -1413,7 +1413,7 @@ message Utxo {
 }
 ```
 
-### UTXO Example
+### UTXO 示例
 
 Let’s make a UTXO from the signed transaction created above:
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjExMzAyOCwtNTY3NTEzMjU4LC03MT
+eyJoaXN0b3J5IjpbMTAxMjM4NjQ3NSwtNTY3NTEzMjU4LC03MT
 I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
 NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
 01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
