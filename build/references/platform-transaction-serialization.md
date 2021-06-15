@@ -1543,10 +1543,10 @@ stakablelockout是一个在锁定时间之前被锁定的输出，但在此期�
 StakeableLockOut包含`TypeID`, `Locktime` 和`TransferableOut`。
 
 * **`TypeID`** 是此输出的ID, 它是`0x00000016`。
-* **`Locktime`**是一个包含Unix时间戳的长字符串，在此之前输出只能被用于stake。unix时间戳是特定于秒的。 is a long that contains the unix timestamp before which the output can be consumed only to stake. The unix timestamp is specific to the second.
-* **`transferableout`**: “Example SECP256K1 Transfer Output as defined above”
+* **`Locktime`**是一个包含Unix时间戳的长字符串，在此之前输出只能被用于stake。unix时间戳是特定于秒的。
+* **`transferableout`**: “示例SECP256K1传输输出如上定义”
 
-### **Gantt StakeableLockOut Specification**
+### **Gantt StakeableLockOut 规范**
 
 ```text
 +------------------+--------------------+--------------------------------+
@@ -1560,7 +1560,7 @@ StakeableLockOut包含`TypeID`, `Locktime` 和`TransferableOut`。
                                      +-----------------------------------+
 ```
 
-### **Proto StakeableLockOut Specification**
+### **Proto StakeableLockOut 规范**
 
 ```text
 message StakeableLockOut {
@@ -1570,7 +1570,7 @@ message StakeableLockOut {
 }
 ```
 
-### **StakeableLockOut Example**
+### **StakeableLockOut 示例**
 
 Let’s make a stakeablelockout with:
 
@@ -1604,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDgxMzQ0OCwtNTY3NTEzMjU4LC03MT
-I4OTQ0ODgsMTIyNTc5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5
-NDEsMTk0Njg0NzQ0MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC
-01MDU0Mzc5NzQsMjA2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQy
-MjA2NjAsLTM5OTg1NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNS
-wtODk0NjgzMTcwLC05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2
-OTUzXX0=
+eyJoaXN0b3J5IjpbMTczNDg0NjQ2NiwxNzU0ODEzNDQ4LC01Nj
+c1MTMyNTgsLTcxMjg5NDQ4OCwxMjI1NzkzODQxLDc0Mzg4OTA3
+NCwtMTUwMjczNzk0MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLT
+E1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcx
+MzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOC
+wtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1
+NjYxOTM5XX0=
 -->
