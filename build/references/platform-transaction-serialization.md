@@ -1266,8 +1266,8 @@ message SECP256K1Credential {
 
 签名交易包含`CodecID`, `UnsignedTx`和`Credentials`。
 
-* **`CodecID`** The only current valid codec id is `00 00`.
-* **`UnsignedTx`** is an unsigned transaction, as described above.
+* **`CodecID`** 当前唯一有效的编解码器id是 `00 00`。
+* **`UnsignedTx`** 是一个无签名的交易，如上所述。
 * **`Credentials`** is an array of credentials. Each credential will be paired with the input in the same index at this credential.
 
 ### Gantt Signed Transaction Specification
@@ -1604,10 +1604,10 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE2ODM0NjgsLTcxMjg5NDQ4OCwxMj
-I1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0MSwxOTQ2ODQ3
-NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQzNzk3NC
-wyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MCwtMzk5
-ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2ODMxNz
-AsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5NTNdfQ==
+eyJoaXN0b3J5IjpbMjM5MjE0MTkyLC03MTI4OTQ0ODgsMTIyNT
+c5Mzg0MSw3NDM4ODkwNzQsLTE1MDI3Mzc5NDEsMTk0Njg0NzQ0
+MiwtNTEwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMj
+A2MTc5Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1
+NTcxLDE2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC
+05MzQ3NjgzMTYsMTczNTY2MTkzOSwyOTE2OTUzXX0=
 -->
