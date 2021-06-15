@@ -771,9 +771,9 @@ message AddSubnetValidatorTx {
   * **`StartTime`** 是一个委托者开始委托的Unix时间的长值。
   * **`EndTime`** 是一个委托者停止委托的Unix时间的长值。\(并且质押的AVAX被返还\)
   * **`Weight`** 是委托者质押数量的长值
-* **`Stake`** 质押`LockedOuts`
-  * **`LockedOuts`** An array of Transferable Outputs that are locked for the duration of the staking period. At the end of the staking period, these outputs are refunded to their respective addresses.
-* **`RewardsOwner`** An `SECP256K1OutputOwners`
+* **`Stake`** 质押有`LockedOuts`
+  * **`LockedOuts`** 可转移输出的数组，在质押期间内被锁定。在质押期结束时，这些输出被返回到它们各自的地址。
+* **`RewardsOwner`** 一个 `SECP256K1OutputOwners`
 
 ### **Gantt Unsigned Add Delegator Tx Specification**
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE1MDYwOTksMTk0Njg0NzQ0MiwtNT
+eyJoaXN0b3J5IjpbLTE1MDI3Mzc5NDEsMTk0Njg0NzQ0MiwtNT
 EwODI4MzYwLC0xNTkwOTAwOTYwLC01MDU0Mzc5NzQsMjA2MTc5
 Mzk1NywtMTU3MTM3MzY5Niw0NjQyMjA2NjAsLTM5OTg1NTcxLD
 E2NjYyOTc4MDgsLTIwNTAwMTMwNSwtODk0NjgzMTcwLC05MzQ3
