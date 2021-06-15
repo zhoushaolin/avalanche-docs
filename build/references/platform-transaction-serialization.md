@@ -1572,11 +1572,11 @@ message StakeableLockOut {
 
 ### **StakeableLockOut 示例**
 
-Let’s make a stakeablelockout with:
+我们创建一个stakeablelockout:
 
 * **`TypeID`**: 22
 * **`Locktime`**: 54321
-* **`TransferableOutput`**: `"Example SECP256K1 Transfer Output from above"`
+* **`TransferableOutput`**: `"示例SECP256K1传输输出"`
 
 ```text
 [
@@ -1604,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDg0NjQ2NiwxNzU0ODEzNDQ4LC01Nj
-c1MTMyNTgsLTcxMjg5NDQ4OCwxMjI1NzkzODQxLDc0Mzg4OTA3
-NCwtMTUwMjczNzk0MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLT
-E1OTA5MDA5NjAsLTUwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcx
-MzczNjk2LDQ2NDIyMDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOC
-wtMjA1MDAxMzA1LC04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1
-NjYxOTM5XX0=
+eyJoaXN0b3J5IjpbOTg0NzA0NjI0LDE3NTQ4MTM0NDgsLTU2Nz
+UxMzI1OCwtNzEyODk0NDg4LDEyMjU3OTM4NDEsNzQzODg5MDc0
+LC0xNTAyNzM3OTQxLDE5NDY4NDc0NDIsLTUxMDgyODM2MCwtMT
+U5MDkwMDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEz
+NzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC
+0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2
+NjE5MzldfQ==
 -->
