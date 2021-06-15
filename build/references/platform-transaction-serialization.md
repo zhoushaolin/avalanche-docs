@@ -1462,6 +1462,7 @@ message Utxo {
 
 ## StakeableLockIn
 
+stakableelockin是一个质押并被锁定的输入。在锁定解除之前，stakablelockin只能为拥有相同地址的stakablelockouts提供资金。
 A StakeableLockIn is a staked and locked input. The StakeableLockIn can only fund StakeableLockOuts with the same address until its locktime has passed.
 
 ### **What StakeableLockIn Contains**
@@ -1604,7 +1605,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE3NjE3MjQsLTU2NzUxMzI1OCwtNz
+eyJoaXN0b3J5IjpbLTEwMDUxMzM0NDIsLTU2NzUxMzI1OCwtNz
 EyODk0NDg4LDEyMjU3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3
 OTQxLDE5NDY4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MC
 wtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0
