@@ -803,7 +803,8 @@ message AddDelegatorTx {
 ```
 
 ### **未签名添加委托器Tx示例**
-我们创建一个未签名添加委托器Tx，它使用前面例子中的输入和输出:  Let’s make an unsigned add delegator tx that uses the inputs and outputs from the previous examples:
+
+我们创建一个未签名添加委托器Tx，它使用前面例子中的输入和输出: 
 
 * **`BaseTx`**: `"Example BaseTx as defined above with ID set to 0e"`
 * **`NodeID`**: `0xe9094f73698002fd52c90819b457b9fbc866ab80`
@@ -887,11 +888,11 @@ message AddDelegatorTx {
 ]
 ```
 
-## Unsigned Create Subnet Tx
+## 未签名创建子网 Tx
 
-### **What Unsigned Create Subnet Tx Contains**
+### **未签名创建子网Tx包含什么**
 
-An unsigned create subnet tx contains a `BaseTx`, and `RewardsOwner`. The `TypeID` for this type is `0x00000010`.
+未签名创建子网Tx包含`BaseTx`和`RewardsOwner`, 此类型的`TypeID` for this type is `0x00000010`.
 
 * **`BaseTx`**
 * **`RewardsOwner`** A `SECP256K1OutputOwners`
@@ -1603,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjMzOTgzMSwtMTUwMjczNzk0MSwxOT
+eyJoaXN0b3J5IjpbLTc1NzA3NzA0NiwtMTUwMjczNzk0MSwxOT
 Q2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLTUwNTQz
 Nzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIyMDY2MC
 wtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC04OTQ2
