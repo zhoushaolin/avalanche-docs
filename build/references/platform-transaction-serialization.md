@@ -1470,9 +1470,9 @@ StakeableLockIn包含`TypeID`, `Locktime` 和`TransferableIn`。
 
 * **`TypeID`** 是此类型的ID, 它是 `0x00000015`。
 * **`Locktime`** 是一个包含Unix时间戳的长字符串，在此之前的输入只能被用于质押。unix时间戳是特定于秒的。
-* **`TransferableIn`** 是一个可移的输入 object.
+* **`TransferableIn`** 是一个可移的输入对象。
 
-### **Gantt StakeableLockIn Specification**
+### **Gantt StakeableLockIn规范**
 
 ```text
 +-----------------+-------------------+--------------------------------+
@@ -1486,7 +1486,7 @@ StakeableLockIn包含`TypeID`, `Locktime` 和`TransferableIn`。
                                     +----------------------------------+
 ```
 
-### **Proto StakeableLockIn Specification**
+### **Proto StakeableLockIn规范**
 
 ```text
 message StakeableLockIn {
@@ -1496,13 +1496,13 @@ message StakeableLockIn {
 }
 ```
 
-### **StakeableLockIn Example**
+### **StakeableLockIn 示例**
 
-Let’s make a StakeableLockIn with:
+我们来创建一个StakeableLockIn:
 
 * **`TypeID`**: 21
 * **`Locktime`**: 54321
-* **`TransferableIn`**: “Example SECP256K1 Transfer Input as defined above”
+* **`TransferableIn`**: “示例SECP256K1传输输入如上定义”
 
 ```text
 [
@@ -1536,7 +1536,7 @@ Let’s make a StakeableLockIn with:
 
 ## StakeableLockOut
 
-A StakeableLockOut is an output that is locked until its locktime, but can be staked in the meantime.
+stakablelockout是一个在锁定时间之前被锁定的输出，但在此期间可以被锁定。A StakeableLockOut is an output that is locked until its locktime, but can be staked in the meantime.
 
 ### **What StakeableLockOut Contains**
 
@@ -1604,11 +1604,11 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NTg3ODg5LC01Njc1MTMyNTgsLTcxMj
-g5NDQ4OCwxMjI1NzkzODQxLDc0Mzg4OTA3NCwtMTUwMjczNzk0
-MSwxOTQ2ODQ3NDQyLC01MTA4MjgzNjAsLTE1OTA5MDA5NjAsLT
-UwNTQzNzk3NCwyMDYxNzkzOTU3LC0xNTcxMzczNjk2LDQ2NDIy
-MDY2MCwtMzk5ODU1NzEsMTY2NjI5NzgwOCwtMjA1MDAxMzA1LC
-04OTQ2ODMxNzAsLTkzNDc2ODMxNiwxNzM1NjYxOTM5LDI5MTY5
-NTNdfQ==
+eyJoaXN0b3J5IjpbLTEwNjg4NDI5ODYsLTU2NzUxMzI1OCwtNz
+EyODk0NDg4LDEyMjU3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3
+OTQxLDE5NDY4NDc0NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MC
+wtNTA1NDM3OTc0LDIwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0
+MjIwNjYwLC0zOTk4NTU3MSwxNjY2Mjk3ODA4LC0yMDUwMDEzMD
+UsLTg5NDY4MzE3MCwtOTM0NzY4MzE2LDE3MzU2NjE5MzksMjkx
+Njk1M119
 -->
