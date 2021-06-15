@@ -644,9 +644,9 @@ message AddValidatorTx {
   * **`NodeID`** 是20个字节的验证器节点ID。
   * **`StartTime`** 是一个验证器开始验证时的Unix时间的长值。
   * **`EndTime`** 是一个验证器停止验证时的Unix时间的长值。
-  * **`Weight`** 是yan zhis a long which is the amount the validator stakes
-* **`SubnetID`** a 32 byte subnet id
-* **`SubnetAuth`** contains `SigIndices` and has a type id of `0x0000000a`. `SigIndices` is a list of unique ints that define the addresses signing the control signature to add a validator to a subnet. The array must be sorted low to high.
+  * **`Weight`** 是验证器质押数量的长值。
+* **`SubnetID`** 一个32字节的子网ID。 
+* **`SubnetAuth`** 包含`SigIndices`，类型id ' 0x0000000a '。' SigIndices '是一个唯一的整数列表，它定义了用于向子网添加验证器的控制签名地址。数组必须从低到高排序。contains `SigIndices` and has a type id of `0x0000000a`. `SigIndices` is a list of unique ints that define the addresses signing the control signature to add a validator to a subnet. The array must be sorted low to high.
 
 ### **Gantt Unsigned Add Subnet Validator Tx Specification**
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1OTQ3NjI2LDE5NDY4NDc0NDIsLTUxMD
+eyJoaXN0b3J5IjpbODU3MTE1ODE4LDE5NDY4NDc0NDIsLTUxMD
 gyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LDIwNjE3OTM5
 NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4NTU3MSwxNj
 Y2Mjk3ODA4LC0yMDUwMDEzMDUsLTg5NDY4MzE3MCwtOTM0NzY4
