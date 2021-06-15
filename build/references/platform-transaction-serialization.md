@@ -1186,12 +1186,12 @@ message ExportTx {
 
 ## SECP256K1 凭据
 
-A [secp256k1](cryptographic-primitives.md#secp-256-k1-addresses) credential contains a list of 65-byte recoverable signatures.
+一个[secp256k1](cryptographic-primitives.md#secp-256-k1-addresses)凭据包含一个65字节可恢复签名列表。
 
-### **What SECP256K1 Credential Contains**
+### **SECP256K1凭据包含什么**
 
-* **`TypeID`** is the ID for this type. It is `0x00000009`.
-* **`Signatures`** is an array of 65-byte recoverable signatures. The order of the signatures must match the input’s signature indices.
+* **`TypeID`** 是此类型的ID, 它是`0x00000009`。
+* **`Signatures`** 是一个由65字节可恢复签名组成的数组。签名的顺序必须与输入的签名索引匹配。is an array of 65-byte recoverable signatures. The order of the signatures must match the input’s signature indices.
 
 ### **Gantt SECP256K1 Credential Specification**
 
@@ -1604,7 +1604,7 @@ Let’s make a stakeablelockout with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTA3NjI4OCwtNzEyODk0NDg4LDEyMj
+eyJoaXN0b3J5IjpbMjA4NTk2MzIyMSwtNzEyODk0NDg4LDEyMj
 U3OTM4NDEsNzQzODg5MDc0LC0xNTAyNzM3OTQxLDE5NDY4NDc0
 NDIsLTUxMDgyODM2MCwtMTU5MDkwMDk2MCwtNTA1NDM3OTc0LD
 IwNjE3OTM5NTcsLTE1NzEzNzM2OTYsNDY0MjIwNjYwLC0zOTk4
