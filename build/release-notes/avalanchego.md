@@ -58,9 +58,9 @@
 这个更新是向后兼容的。这是可选的，但受到鼓励。该补丁包括稳定性和监控方面的改进。
 
 * 更新自述文件以纠正存储要求。
-* 在引导期间xiAvalancheTx验证添加了额外的错误处理。Added additional error handling to Avalanche Tx verification during bootstrapping.
-* Updated numerous metrics, including adding numerous new metrics relating to node health and database usage, removing unused and invalid metrics, and fixing some metric names.
-* Added additional logging to CI.
+* 在引导期间向AvalancheTx验证添加了额外的错误处理。
+* 更新了许多指标，包括添加与节点运行状况和数据库使用有关的许多新指标，删除未使用的和无效的指标，并修复一些指标名称。
+* 向CI添加额外的日志记录。
 * Added the C-chain to the list of critical chains.
 
 ## **v1.2.3 AvalancheGo Release Notes \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.3-signed)**\)**
@@ -331,7 +331,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTg2MjE3MCwyMzMzODc4NzAsLTI0ND
+eyJoaXN0b3J5IjpbMTUxNjMyMTc4MCwyMzMzODc4NzAsLTI0ND
 g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
 NTgxXX0=
 -->
