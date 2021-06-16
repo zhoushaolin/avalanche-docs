@@ -136,9 +136,7 @@
 
 ## v1.2.0 AvalancheGo发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/tree/v1.2.0)\)
 
-{% hint style="danger" %}
 **Please note that this patch is not backwards compatible with previous releases. This upgrade fixes performance issues related to interchange transfers between X, C, and P chains. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected. Also, note that nodes may take several extra minutes to connect after the upgrade and the process should be allowed to complete uninterrupted.**
-{% endhint %}
 
 The primary components to this upgrade include:
 
@@ -325,7 +323,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMz
-MzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3
-MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMT
+Q3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3
+OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
 -->
