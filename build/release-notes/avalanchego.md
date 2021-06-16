@@ -105,7 +105,7 @@
 * 切换网络超时计算器以使用观察到的网络延迟的EWMA。
 * 从网络延迟计算中删除了\`Get\`请求。
 * 清理了基准列表算法。
-* Cleaned up handling of dropped messages on send.
+* 清除了发送时丢弃消息的处理。
 * Cleaned up outstanding request and timeout logic.
 * Generalized performance tracking to allow for prefixing of profile names.
 * Added additional caching to the Avalanche bootstrapping traversal.
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTYzNjk4NiwyMzMzODc4NzAsLTI0ND
-g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
-NTgxXX0=
+eyJoaXN0b3J5IjpbLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yND
+Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
+NDU4MV19
 -->
