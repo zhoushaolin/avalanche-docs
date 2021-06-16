@@ -14,7 +14,7 @@
 * 在网络节流中增加了额外的指标。
 * 各种代码清理。
 
-**Added command line arguments:**
+**添加命令行参数:**
 
 * `network-health-max-outstanding-request-duration`
 
@@ -335,6 +335,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ
-==
+eyJoaXN0b3J5IjpbLTE4NTg1ODU1NDMsLTIwNTYxMzcxOTgsLT
+EzNTYxNzQ1ODFdfQ==
 -->
