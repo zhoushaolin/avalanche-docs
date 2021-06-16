@@ -1,11 +1,9 @@
 # AvalancheGo 发布说明
 
 
-## v1.3.1 AvalancheGo 发布说明 \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.1)\)
+## v1.3.1 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.1)\)
 
-{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability, monitoring improvements, and minor bug fixes.
-{% endhint %}
 
 **The primary components to this upgrade include:**
 
@@ -337,5 +335,5 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNzE3MTk4XX0=
+eyJoaXN0b3J5IjpbLTE3MTQ1OTkyMTBdfQ==
 -->
