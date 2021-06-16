@@ -112,7 +112,7 @@
 * 修复 ansible。
 * 新增的命令行参数主要包括健康检查的配置。此外，修改后的网络延迟计算更改了一些命令行参数的名称。
 
-增加了命令行参数: Added command line arguments:
+增加了命令行参数: 
 
 * \`network-timeout-halflife\`
 * \`network-timeout-coefficient\`
@@ -129,12 +129,12 @@
 * \`bootstrap-retry-enabled\`
 * \`bootstrap-retry-max-attempts\`
 
-Removed command line arguments:
+删除命令行参数:
 
 * \`network-timeout-increase\`
 * \`network-timeout-reduction\`
 
-## v1.2.0 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/tree/v1.2.0)\)
+## v1.2.0 AvalancheGo发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/tree/v1.2.0)\)
 
 {% hint style="danger" %}
 **Please note that this patch is not backwards compatible with previous releases. This upgrade fixes performance issues related to interchange transfers between X, C, and P chains. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected. Also, note that nodes may take several extra minutes to connect after the upgrade and the process should be allowed to complete uninterrupted.**
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE0OTk2MzksLTE0NzY0NzY3NjksMj
-MzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEz
-NzE5OCwtMTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMz
+MzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3
+MTk4LC0xMzU2MTc0NTgxXX0=
 -->
