@@ -150,13 +150,11 @@
 * 更新了网络超时默认值和基准测试列表设置 
 * 初始网络不稳定后验证无安全违规
 
-## v1.1.5 AvalancheGo 发布shuo m \([View on GitHub](https://github.com/ava-labs/avalanchego/tree/v1.1.5)\)
+## v1.1.5 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/tree/v1.1.5)\)
 
-{% hint style="danger" %}
-This update is backwards compatible. It is optional but encouraged. The patch includes stability improvements.
-{% endhint %}
+这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性改进。
 
-* Fixed a potential deadlock when registering new chains that could cause the P-chain and http\(s\) endpoint to block.
+* 修正了注册新链时可能导致p链和http端点阻塞的潜在死锁。Fixed a potential deadlock when registering new chains that could cause the P-chain and http\(s\) endpoint to block.
 * Repairs TxID -&gt; Block Height indexing in the C-chain.
 * Added graceful handling of empty contract deployments in the debug\_traceTransaction API in the C-chain.
 * Improved error handling in the C-chain.
@@ -323,7 +321,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTQ5MTkwNiwtMTI3NDI1MjY3OCwtNT
+eyJoaXN0b3J5IjpbMTQ5MDE1OTA0MywtMTI3NDI1MjY3OCwtNT
 I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
 NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
 FdfQ==
