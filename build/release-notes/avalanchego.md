@@ -106,9 +106,9 @@
 * 从网络延迟计算中删除了\`Get\`请求。
 * 清理了基准列表算法。
 * 清除了发送时丢弃消息的处理。
-* Cleaned up outstanding request and timeout logic.
-* Generalized performance tracking to allow for prefixing of profile names.
-* Added additional caching to the Avalanche bootstrapping traversal.
+* 清理未完成的请求和超时逻辑。
+* 通用性能跟踪，允许配置文件名称的前缀。
+* 为Avalanche引导遍历添加了额外的缓存。
 * Fixed ansible linting.
 * The added command line arguments mainly consist of configurations of health checks. Additionally, the modified network latency calculations changed the name of some command line args.
 
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yND
-Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
-NDU4MV19
+eyJoaXN0b3J5IjpbODgzOTAxOTI5LC0xNDc2NDc2NzY5LDIzMz
+M4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcx
+OTgsLTEzNTYxNzQ1ODFdfQ==
 -->
