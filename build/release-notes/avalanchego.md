@@ -77,9 +77,9 @@
 * 在网络库中添加IP别名，以避免重复的`SYN` 调用。
 * 修正了从自己引导时的引导消息处理。
 * 简化了`AdvanceTimeTx` 发行。
-* Added new consensus health checks.
-* Adding node health logging.
-* Added health responses to health `GET` requests.
+* 增加了新的共识健康检查。
+* 添加节点运行状况日志记录。
+* 向运行状况`GET`请求添加运行状况响应。
 * Consolidated incoming message logs.
 * Added error logging to the `LevelDB` wrapper.
 * Added error codes to the `rpcdb` to avoid string parsing.
@@ -327,7 +327,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIwNzAwODIsMjMzMzg3ODcwLC0yND
-Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
-NDU4MV19
+eyJoaXN0b3J5IjpbMTc5NDU2MzE5NSwyMzMzODc4NzAsLTI0ND
+g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
+NTgxXX0=
 -->
