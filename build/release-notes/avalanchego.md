@@ -72,9 +72,9 @@
 
 ## **v1.2.2 AvalancheGo 发布说明 \(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.2)**\)**
 
-This update is backwards compatible. It is optional, but encouraged. The patch includes stability, performance, and monitoring improvements.
+这个更新是向后兼容的, 它是可选的，但受到鼓励, 该补丁包括稳定性、性能和监控方面的改进。
 
-* Added IP aliases in the network library to avoid repeated `SYN` calls.
+* 在网络库中添加IP别名，以避免重复的`SYN` 调用。
 * Fixed bootstrap message handling when bootstrapping from yourself.
 * Simplified `AdvanceTimeTx` issuance.
 * Added new consensus health checks.
@@ -327,7 +327,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3MTM4NjQsMjMzMzg3ODcwLC0yNDQ4OT
-M3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4
-MV19
+eyJoaXN0b3J5IjpbLTE1MzQxOTkwNDgsMjMzMzg3ODcwLC0yND
+Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
+NDU4MV19
 -->
