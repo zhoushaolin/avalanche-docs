@@ -33,9 +33,9 @@
 
 **本次升级的主要组件包括:**
 
-* Reduced C-chain gas cost from 470 nAVAX to 225 nAVAX.
-* Removed C-chain gas refunds. This change adopts [EIP-3298](https://eips.ethereum.org/EIPS/eip-3298).
-* Refactored C-chain verification to be cleaner when performing network upgrades.
+* C链gas成本从470 nAVAX降低到225 nAVAX。
+* 取消C链gas退款。这一变化采用[EIP-3298](https://eips.ethereum.org/EIPS/eip-3298)。
+* 重构c链验证，使其在执行网络升级时更干净。Refactored C-chain verification to be cleaner when performing network upgrades.
 * Fixed the Auth API to properly enforce revoked tokens.
 * Strengthened the Auth API to ensure the expected signature format is used.
 * Removed the Auth API's password from the CLI arguments.
@@ -333,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzk3MTc1MiwtMTc5NTQ3OTYyLC0yMD
-U2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbLTc5OTk1NTEsLTE3OTU0Nzk2MiwtMjA1Nj
+EzNzE5OCwtMTM1NjE3NDU4MV19
 -->
