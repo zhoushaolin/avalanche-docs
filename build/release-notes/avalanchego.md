@@ -92,10 +92,10 @@
 
 请注意，此更新删除了\`network-timeout-increase\`和\' network-timeout-reduction\'作为命令行参数。
 
-Change Summary:
+更改摘要:
 
-* Added \`UTXO\`s to the \`platformvm.getStake\` response.
-* Added benchlist reporting to the \`info.peers\` response.
+* 添加了\`UTXO\`到\`platformvm.getStake\`响应。
+* 增加了benchlist报告到 \`info.peers\` 响应。
 * Added additional health checks into the networking layer.
 * Added \`percent of stake connected\` as a reported metric.
 * Added bootstrapping restart logic to ensure the node has caught up to the current tip, even during times of high throughput.
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTc1NzU5OSwyMzMzODc4NzAsLTI0ND
+eyJoaXN0b3J5IjpbMTUxNTIyMzUxMCwyMzMzODc4NzAsLTI0ND
 g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
 NTgxXX0=
 -->
