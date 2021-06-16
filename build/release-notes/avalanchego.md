@@ -53,14 +53,12 @@
 
 * `api-auth-password`
 
-## **v1.2.4 AvalancheGo 发布说明 \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.4)**\)**
+## **v1.2.4 AvalancheGo 发布说明 \(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.4)**\)**
 
-{% hint style="danger" %}
-This update is backwards compatible. It is optional, but encouraged. The patch includes stability and monitoring improvements.
-{% endhint %}
+这个更新是向后兼容的。这是可选的，但受到鼓励。该补丁包括稳定性和监控方面的改进。
 
-* Updated readme to correct storage requirements.
-* Added additional error handling to Avalanche Tx verification during bootstrapping.
+* 更新自述文件以纠正存储要求。
+* 添加了额外的错误处理AvalancheTx验证在引导期间。Added additional error handling to Avalanche Tx verification during bootstrapping.
 * Updated numerous metrics, including adding numerous new metrics relating to node health and database usage, removing unused and invalid metrics, and fixing some metric names.
 * Added additional logging to CI.
 * Added the C-chain to the list of critical chains.
@@ -333,7 +331,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODY5MzIwMywyMzMzODc4NzAsLTI0ND
-g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
-NTgxXX0=
+eyJoaXN0b3J5IjpbMzk3MTYyMzMxLDIzMzM4Nzg3MCwtMjQ0OD
+kzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1
+ODFdfQ==
 -->
