@@ -37,9 +37,9 @@
 * 取消C链gas退款。这一变化采用[EIP-3298](https://eips.ethereum.org/EIPS/eip-3298)。
 * 重构C链验证，使其在执行网络升级时更干净。
 * 修正了Auth API以正确地执行被撤销的代币。
-* 加强了Auth API，以确保使用了预期的签名格式。Strengthened the Auth API to ensure the expected signature format is used.
-* Removed the Auth API's password from the CLI arguments.
-* Added more strict file permissions checks.
+* 加强了Auth API，以确保使用了预期的签名格式。
+* 从CLI参数中删除了Auth API的密码。
+* 增加了更严格的文件权限检查。
 * Added some minor additional error handling.
 * Sanitized log writes before being written to disk.
 * Added configurable origins to the HTTP endpoint.
@@ -333,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc5NzAyOCwtMTc5NTQ3OTYyLC0yMD
-U2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbLTE3MDgyODQ5MzYsLTE3OTU0Nzk2MiwtMj
+A1NjEzNzE5OCwtMTM1NjE3NDU4MV19
 -->
