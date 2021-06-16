@@ -3,7 +3,7 @@
 
 ## v1.3.1 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.1)\)
 
-这个更新是向后兼容的, 是可选的，但受到鼓励, 该补丁包括稳定性、监控改进和小错误修复。
+这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性、监控改进和小错误修复。
 
 **本次升级的主要组件包括:**
 
@@ -55,7 +55,7 @@
 
 ## **v1.2.4 AvalancheGo 发布说明 \(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.4)**\)**
 
-这个更新是向后兼容的, 它是可选的，但受到鼓励, 该补丁包括稳定性和监控方面的改进。
+这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性和监控方面的改进。
 
 * 更新自述文件以纠正存储要求。
 * 在引导期间向AvalancheTx验证添加了额外的错误处理。
@@ -65,14 +65,14 @@
 
 ## **v1.2.3 AvalancheGo 发布说明\(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.3-signed)**\)**
 
-这个更新是向后兼容的, 它可选的，但受到鼓励, 该补丁包括稳定性和监控方面的改进。
+这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性和监控方面的改进。
 
 * 调整`[network, router, consensus]`健康检查参数，以删除薄片健康检查。
 * 简化C链块处理。
 
 ## **v1.2.2 AvalancheGo 发布说明 \(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.2)**\)**
 
-这个更新是向后兼容的, 它是可选的，但受到鼓励, 该补丁包括稳定性、性能和监控方面的改进。
+这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性、性能和监控方面的改进。
 
 * 在网络库中添加IP别名，以避免重复的`SYN` 调用。
 * 修正了从自己引导时的引导消息处理。
@@ -89,8 +89,9 @@
 ## **v1.2.1 AvalancheGo 发布说明\(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/tree/v1.2.1)**\)**
 
 这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性、性能和监控方面的改进。
+
+请注意，此更新删除了\ ' network-timeout-increase\ '和' network-timeout-reduction\ '作为命令行参数。
 Please note that this update removes \`network-timeout-increase\` and ‘network-timeout-reduction\` as command line arguments.
-{% endhint %}
 
 Change Summary:
 
@@ -325,7 +326,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUyMjQzNjMsMjMzMzg3ODcwLC0yND
-Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
-NDU4MV19
+eyJoaXN0b3J5IjpbNjg4NTQzNzE5LDIzMzM4Nzg3MCwtMjQ0OD
+kzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1
+ODFdfQ==
 -->
