@@ -99,8 +99,8 @@
 * 向网络层添加了额外的健康检查。
 * 增加了\`percent of stake connected\`作为报告指标。
 * 添加了引导重启逻辑，以确保节点跟上当前提示，即使在高吞吐量时期也是如此。
-* 增加了子网范围内的引导，以确保一个链不会因另一个链的引导而落后。Added subnet-wide bootstrapping to ensure that a chain won't fall behind due to another chain bootstrapping.
-* Prevented verification of rejected blocks to avoid unnecessary computation.
+* 增加了子网范围内的引导，以确保一个链不会因另一个链的引导而落后。
+* 防止被拒绝块的验证，以避免不必要的计算。
 * Removed gossiping of non-preferred blocks to the network.
 * Switched the network timeout calculator to use an EWMA of the observed network latency.
 * Removed \`Get\` requests from the network latency calculations.
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwOTk3NDYxLDIzMzM4Nzg3MCwtMjQ0OD
-kzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTY5NTIyNzQyMywyMzMzODc4NzAsLTI0ND
+g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
+NTgxXX0=
 -->
