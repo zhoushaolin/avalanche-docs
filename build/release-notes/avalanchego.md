@@ -18,14 +18,13 @@
 
 * `network-health-max-outstanding-request-duration`
 
-**Removed command line arguments:**
+**删除命令行参数:**
 
 * `network-health-max-time-since-no-requests`
 
 
-## v1.3.0 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.0)\)
+## v1.3.0 AvalancheGo 发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.0)\)
 
-{% hint style="danger" %}
 Please note that this change is not backwards compatible with previous releases.  
 ****  
 This upgrade reduces C-chain gas fees, removes C-chain gas refunds, and includes various security improvements. We urge everyone in the community to update as soon as possible in order to ensure that their nodes remain healthy.
@@ -335,6 +334,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg1ODU1NDMsLTIwNTYxMzcxOTgsLT
-EzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbLTc3MjAwMTg5LC0yMDU2MTM3MTk4LC0xMz
+U2MTc0NTgxXX0=
 -->
