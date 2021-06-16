@@ -145,8 +145,8 @@
 * 如果发出重复删除，将快速故障逻辑添加到共享内存中
 * 修正了雪人中由于未能清除请求而导致投票停滞的问题
 * 修复了未知祖先造成的坏块问题
-* Fixed a race condition in the repair canonical chain script in coreth
-* Limited number of processing blocks in Snowman and processing txs in Avalanche
+* 修正了在核心修复规范链脚本中的竞争条件
+* xian zhi l有限的处理块在雪人和处理txs在雪崩Limited number of processing blocks in Snowman and processing txs in Avalanche
 * Updated networking timeout default values and benchlist settings
 * Verified there was no safety violation after the initial network instability
 
@@ -323,8 +323,8 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyNTU5NTAsLTEyNzQyNTI2NzgsLT
-UyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5
-Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NT
-gxXX0=
+eyJoaXN0b3J5IjpbMTM3OTc0NzgzMCwtMTI3NDI1MjY3OCwtNT
+I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
+NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
+FdfQ==
 -->
