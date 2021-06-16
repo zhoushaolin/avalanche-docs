@@ -163,7 +163,7 @@
 
 这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括CLI升级、API bug修复、稳定性改进和性能改进。
 
-* Fixed an issue where C-chain block indexes could map to unaccepted blocks at a given height.
+* 修正了一个问题，C链块索引可以映射到不接受的块在给定的高度。Fixed an issue where C-chain block indexes could map to unaccepted blocks at a given height.
 * Fixed VM crash when the RPCChainVM experienced high API loads.
 * Fixed optimistic vote bubbling in the Avalanche Engine to correctly pass votes through processing vertices.
 * Added field IncludePartial to the AVM's GetBalance and GetAllBalances API methods. This changes the default behavior to only return the balances of spendable and uniquely owned assets.
@@ -319,8 +319,8 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLT
-UyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5
-Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NT
-gxXX0=
+eyJoaXN0b3J5IjpbMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMT
+I3NDI1MjY3OCwtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4
+Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOT
+gsLTEzNTYxNzQ1ODFdfQ==
 -->
