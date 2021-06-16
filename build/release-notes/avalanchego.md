@@ -27,11 +27,11 @@
 
 请注意，此更改与以前的版本不向后兼容。
 ****  
-这次升级降低了C链的gas费用，取消了C链的gas退款，并包括各种安全改进。我们敦促社区中的每个人尽快更新，以确保他们的节点保持健康。This upgrade reduces C-chain gas fees, removes C-chain gas refunds, and includes various security improvements. We urge everyone in the community to update as soon as possible in order to ensure that their nodes remain healthy.
+这次升级降低了C链的gas费用，取消了C链的gas退款，并包括各种安全改进。我们敦促社区中的每个人尽快更新，以确保他们的节点保持健康。
 
-The changes in the upgrade go into effect at 10 AM EST, March 25th 2021 on the Fuji testnet and 10 AM EST, March 31st 2021 on mainnet.
+升级的改变将于2021年3月25日东部时间上午10点在富士测试网和2021年3月31日东部时间上午10点在主网生效。
 
-**The primary components to this upgrade include:**
+**本次升级的主要组件包括:**
 
 * Reduced C-chain gas cost from 470 nAVAX to 225 nAVAX.
 * Removed C-chain gas refunds. This change adopts [EIP-3298](https://eips.ethereum.org/EIPS/eip-3298).
@@ -333,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDEzMTAyMCwtMTc5NTQ3OTYyLC0yMD
+eyJoaXN0b3J5IjpbLTM0Mzk3MTc1MiwtMTc5NTQ3OTYyLC0yMD
 U2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
 -->
