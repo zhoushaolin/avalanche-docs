@@ -7,7 +7,7 @@
 
 **本次升级的主要组件包括:**
 
-* Fixed C-chain segfault when performing compression on arm64 CPUs.
+* 修正了在arm64 CPU上执行压缩时C链段错误。
 * Added group permissions to local files to enable complex node monitoring.
 * Stripped white space from Auth passwords passed through the api-auth-password-file flag.
 * Removed timeSinceNoOutstandingRequests as it was replaced by longestRunningRequest.
@@ -335,5 +335,5 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDA5MDkwOF19
+eyJoaXN0b3J5IjpbLTEzNTYxNzQ1ODFdfQ==
 -->
