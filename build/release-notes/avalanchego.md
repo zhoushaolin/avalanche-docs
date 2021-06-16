@@ -136,9 +136,9 @@
 
 ## v1.2.0 AvalancheGo发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/tree/v1.2.0)\)
 
-**Please note that this patch is not backwards compatible with previous releases. This upgrade fixes performance issues related to interchange transfers between X, C, and P chains. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected. Also, note that nodes may take several extra minutes to connect after the upgrade and the process should be allowed to complete uninterrupted.**
+**请注意，此补丁与以前的版本不向后兼容。此升级修复了与X、C和P链之间交换传输相关的性能问题。我们敦促社区的每个人尽快升级，以确保他们的节点不受影响。此外，请注意，升级后节点可能需要多花几分钟来连接，应该允许该过程不间断地完成。**
 
-The primary components to this upgrade include:
+本次升级的主要组件包括:
 
 * Fixed atomic import validation on C-Chain
 * Added rule exception logic to allow atomic bonus blocks
@@ -323,7 +323,8 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMT
-Q3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3
-OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbLTY0MTI0NTcwOSwtMTI3NDI1MjY3OCwtNT
+I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
+NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
+FdfQ==
 -->
