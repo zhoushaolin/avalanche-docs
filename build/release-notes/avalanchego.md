@@ -95,16 +95,16 @@
 更改摘要:
 
 * 添加了\`UTXO\`到\`platformvm.getStake\`响应。
-* 增加了benchlist报告到 \`info.peers\` 响应。
+* 增加了基准列表报告到 \`info.peers\` 响应。
 * 向网络层添加了额外的健康检查。
 * 增加了\`percent of stake connected\`作为报告指标。
 * 添加了引导重启逻辑，以确保节点跟上当前提示，即使在高吞吐量时期也是如此。
 * 增加了子网范围内的引导，以确保一个链不会因另一个链的引导而落后。
 * 防止被拒绝块的验证，以避免不必要的计算。
 * 移除了闲言碎语的非首选块到网络。
-* 切换网络超时计算器以使用观察到的网络延迟的EWMA。Switched the network timeout calculator to use an EWMA of the observed network latency.
-* Removed \`Get\` requests from the network latency calculations.
-* Cleaned up the benchlisting algorithm.
+* 切换网络超时计算器以使用观察到的网络延迟的EWMA。
+* 从网络延迟计算中删除了\`Get\`请求。
+* 清理了基准列表算法。
 * Cleaned up handling of dropped messages on send.
 * Cleaned up outstanding request and timeout logic.
 * Generalized performance tracking to allow for prefixing of profile names.
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI1OTc2OTksMjMzMzg3ODcwLC0yND
-Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
-NDU4MV19
+eyJoaXN0b3J5IjpbMTUwMTYzNjk4NiwyMzMzODc4NzAsLTI0ND
+g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
+NTgxXX0=
 -->
