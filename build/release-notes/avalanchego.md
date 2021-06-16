@@ -154,8 +154,8 @@
 
 这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性改进。
 
-* 修正了注册新链时可能导致p链和http端点阻塞的潜在死锁。Fixed a potential deadlock when registering new chains that could cause the P-chain and http\(s\) endpoint to block.
-* Repairs TxID -&gt; Block Height indexing in the C-chain.
+* 修正了注册新链时可能导致P链和http端点阻塞的潜在死锁。
+* 修复 TxID -&gt; C链中的块高度索引。Block Height indexing in the C-chain.
 * Added graceful handling of empty contract deployments in the debug\_traceTransaction API in the C-chain.
 * Improved error handling in the C-chain.
 
@@ -321,7 +321,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDE1OTA0MywtMTI3NDI1MjY3OCwtNT
+eyJoaXN0b3J5IjpbMTM1MzA2NzgyNSwtMTI3NDI1MjY3OCwtNT
 I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
 NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
 FdfQ==
