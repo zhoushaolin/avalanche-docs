@@ -10,7 +10,7 @@
 * 修正了在arm64 CPU上执行压缩时C链段错误。
 * 为本地文件添加组权限，以启用复杂的节点监控。
 * 通过api-auth-password-file标志从Auth密码中剥离空白。
-* Removed timeSinceNoOutstandingRequests as it was replaced by longestRunningRequest.
+* 删除timeSinceNoOutstandingRequests, 因为它被longestRunningRequest取代。
 * Added additional metrics in network throttling.
 * Various code cleanup.
 
@@ -335,5 +335,5 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzYyMTgxMCwtMTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbNjQzODY4OTgwLC0xMzU2MTc0NTgxXX0=
 -->
