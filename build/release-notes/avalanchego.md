@@ -80,10 +80,10 @@
 * 增加了新的共识健康检查。
 * 添加节点运行状况日志记录。
 * 向运行状况`GET`请求添加运行状况响应。
-* Consolidated incoming message logs.
-* Added error logging to the `LevelDB` wrapper.
-* Added error codes to the `rpcdb` to avoid string parsing.
-* Improved C-chain handling of canonical chain to reduce the number of reorgs.
+* 合并传入消息日志。
+* 添加错误日志到`LevelDB`包装器。
+* 向`rpcdb`添加错误代码以避免字符串解析。
+* 改进了规范链的c链处理，减少了reorg的数量。Improved C-chain handling of canonical chain to reduce the number of reorgs.
 * Improved C-chain handling of mock calls performed on the `pending` block.
 
 ## **v1.2.1 AvalancheGo Release Notes \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/tree/v1.2.1)**\)**
@@ -327,7 +327,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDU2MzE5NSwyMzMzODc4NzAsLTI0ND
-g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
-NTgxXX0=
+eyJoaXN0b3J5IjpbNTM5MTE4MzI1LDIzMzM4Nzg3MCwtMjQ0OD
+kzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1
+ODFdfQ==
 -->
