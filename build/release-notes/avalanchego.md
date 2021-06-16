@@ -84,13 +84,11 @@
 * 添加错误日志到`LevelDB`包装器。
 * 向`rpcdb`添加错误代码以避免字符串解析。
 * 改进了规范链的C链处理，减少了重整的数量。
-* 改进了对`pending`块执行的模拟调用的C链处理。Improved C-chain handling of mock calls performed on the `pending` block.
+* 改进了对`pending`块执行的模拟调用的C链处理。
 
-## **v1.2.1 AvalancheGo Release Notes \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/tree/v1.2.1)**\)**
+## **v1.2.1 AvalancheGo 发布说明\(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/tree/v1.2.1)**\)**
 
-{% hint style="danger" %}
-This update is backwards compatible. It is optional, but encouraged. The patch includes stability, performance, and monitoring improvements. 
-
+这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性、性能和监控方面的改进。
 Please note that this update removes \`network-timeout-increase\` and ‘network-timeout-reduction\` as command line arguments.
 {% endhint %}
 
@@ -327,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTU0MTM5MywyMzMzODc4NzAsLTI0ND
-g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
-NTgxXX0=
+eyJoaXN0b3J5IjpbLTEzOTUyMjQzNjMsMjMzMzg3ODcwLC0yND
+Q4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3
+NDU4MV19
 -->
