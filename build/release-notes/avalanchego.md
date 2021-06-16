@@ -25,10 +25,9 @@
 
 ## v1.3.0 AvalancheGo 发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.0)\)
 
-请注意，此更改与以前的版本不向后兼容。Please note that this change is not backwards compatible with previous releases.  
+请注意，此更改与以前的版本不向后兼容。
 ****  
-This upgrade reduces C-chain gas fees, removes C-chain gas refunds, and includes various security improvements. We urge everyone in the community to update as soon as possible in order to ensure that their nodes remain healthy.
-{% endhint %}
+这次升级降低了C-chain gas费用，取消了C-chain gas退款，并包括各种安全改进。我们敦促社区中的每个人尽快更新，以确保他们的节点保持健康。This upgrade reduces C-chain gas fees, removes C-chain gas refunds, and includes various security improvements. We urge everyone in the community to update as soon as possible in order to ensure that their nodes remain healthy.
 
 The changes in the upgrade go into effect at 10 AM EST, March 25th 2021 on the Fuji testnet and 10 AM EST, March 31st 2021 on mainnet.
 
@@ -334,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI1MTIxODksLTIwNTYxMzcxOTgsLT
-EzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMT
+M1NjE3NDU4MV19
 -->
