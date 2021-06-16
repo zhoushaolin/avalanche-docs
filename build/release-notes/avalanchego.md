@@ -58,7 +58,7 @@
 这个更新是向后兼容的。这是可选的，但受到鼓励。该补丁包括稳定性和监控方面的改进。
 
 * 更新自述文件以纠正存储要求。
-* 添加了额外的错误处理AvalancheTx验证在引导期间。Added additional error handling to Avalanche Tx verification during bootstrapping.
+* 在引导期间xiAvalancheTx验证添加了额外的错误处理。Added additional error handling to Avalanche Tx verification during bootstrapping.
 * Updated numerous metrics, including adding numerous new metrics relating to node health and database usage, removing unused and invalid metrics, and fixing some metric names.
 * Added additional logging to CI.
 * Added the C-chain to the list of critical chains.
@@ -331,7 +331,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTYyMzMxLDIzMzM4Nzg3MCwtMjQ0OD
-kzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1
-ODFdfQ==
+eyJoaXN0b3J5IjpbMTQ5MTg2MjE3MCwyMzMzODc4NzAsLTI0ND
+g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
+NTgxXX0=
 -->
