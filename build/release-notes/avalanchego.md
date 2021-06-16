@@ -40,8 +40,8 @@
 * 加强了Auth API，以确保使用了预期的签名格式。
 * 从CLI参数中删除了Auth API的密码。
 * 增加了更严格的文件权限检查。
-* Added some minor additional error handling.
-* Sanitized log writes before being written to disk.
+* 添加了一些次要的附加错误处理。
+* 在写到磁盘之前，经过消毒的日志写操作。Sanitized log writes before being written to disk.
 * Added configurable origins to the HTTP endpoint.
 * Removed attempted HTTPs to HTTP fail over on startup. Now the node will close on startup if upgrading the HTTP endpoint to HTTPs fails.
 
@@ -333,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgyODQ5MzYsLTE3OTU0Nzk2MiwtMj
+eyJoaXN0b3J5IjpbLTE4NDkxODk5ODMsLTE3OTU0Nzk2MiwtMj
 A1NjEzNzE5OCwtMTM1NjE3NDU4MV19
 -->
