@@ -3,9 +3,9 @@
 
 ## v1.3.1 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.3.1)\)
 
-这个更新是向后兼容的。是可选的，但受到鼓励。该补丁包括稳定性、监控改进和小错误修复。This update is backwards compatible. It is optional, but encouraged. The patch includes stability, monitoring improvements, and minor bug fixes.
+这个更新是向后兼容的。是可选的，但受到鼓励。该补丁包括稳定性、监控改进和小错误修复。
 
-**The primary components to this upgrade include:**
+**本次升级的主要组件包括:**
 
 * Fixed C-chain segfault when performing compression on arm64 CPUs.
 * Added group permissions to local files to enable complex node monitoring.
@@ -335,5 +335,5 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzUyMTIwMV19
+eyJoaXN0b3J5IjpbLTg4NDA5MDkwOF19
 -->
