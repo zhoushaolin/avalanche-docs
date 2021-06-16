@@ -61,13 +61,11 @@
 * 在引导期间向AvalancheTx验证添加了额外的错误处理。
 * 更新了许多指标，包括添加与节点运行状况和数据库使用有关的许多新指标，删除未使用的和无效的指标，并修复一些指标名称。
 * 向CI添加额外的日志记录。
-* Added the C-chain to the list of critical chains.
+* 将C链添加到关键链列表中。
 
-## **v1.2.3 AvalancheGo Release Notes \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.3-signed)**\)**
+## **v1.2.3 AvalancheGo 发布说明\(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.3-signed)**\)**
 
-{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability and monitoring improvements.
-{% endhint %}
 
 * Adjusted `[network, router, consensus]` health check parameters to remove flaky health checks.
 * Simplified C-chain block handling.
@@ -331,7 +329,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjMyMTc4MCwyMzMzODc4NzAsLTI0ND
+eyJoaXN0b3J5IjpbMTU1ODAxNzAzNSwyMzMzODc4NzAsLTI0ND
 g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
 NTgxXX0=
 -->
