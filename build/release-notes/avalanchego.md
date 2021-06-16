@@ -67,14 +67,12 @@
 
 这个更新是向后兼容的, 它可选的，但受到鼓励, 该补丁包括稳定性和监控方面的改进。
 
-* 调整`[network, router, consensus]`健康检查参数，以删除薄片健康检查。Adjusted `[network, router, consensus]` health check parameters to remove flaky health checks.
-* Simplified C-chain block handling.
+* 调整`[network, router, consensus]`健康检查参数，以删除薄片健康检查。
+* 简化C链块处理。
 
-## **v1.2.2 AvalancheGo Release Notes \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.2)**\)**
+## **v1.2.2 AvalancheGo 发布说明 \(**[**在GitHub上查看**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.2)**\)**
 
-{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability, performance, and monitoring improvements.
-{% endhint %}
 
 * Added IP aliases in the network library to avoid repeated `SYN` calls.
 * Fixed bootstrap message handling when bootstrapping from yourself.
@@ -329,7 +327,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjMzNzI1OCwyMzMzODc4NzAsLTI0ND
-g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
-NTgxXX0=
+eyJoaXN0b3J5IjpbNDM3MTM4NjQsMjMzMzg3ODcwLC0yNDQ4OT
+M3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4
+MV19
 -->
