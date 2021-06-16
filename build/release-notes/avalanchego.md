@@ -109,8 +109,8 @@
 * 清理未完成的请求和超时逻辑。
 * 通用性能跟踪，允许配置文件名称的前缀。
 * 为Avalanche引导遍历添加了额外的缓存。
-* Fixed ansible linting.
-* The added command line arguments mainly consist of configurations of health checks. Additionally, the modified network latency calculations changed the name of some command line args.
+* 修复 ansible。
+* 新增的命令行参数主要包括健康检查的配置。此外，修改后的网络延迟计算更改了一些命令行参数的名称。The added command line arguments mainly consist of configurations of health checks. Additionally, the modified network latency calculations changed the name of some command line args.
 
 Added command line arguments:
 
@@ -325,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzOTAxOTI5LC0xNDc2NDc2NzY5LDIzMz
-M4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcx
-OTgsLTEzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODU4MDk5NDgsLTE0NzY0NzY3NjksMj
+MzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEz
+NzE5OCwtMTM1NjE3NDU4MV19
 -->
