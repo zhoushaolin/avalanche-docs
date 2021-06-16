@@ -146,8 +146,8 @@
 * 修正了雪人中由于未能清除请求而导致投票停滞的问题
 * 修复了未知祖先造成的坏块问题
 * 修正了在核心修复规范链脚本中的竞争条件
-* xian zhi l有限的处理块在雪人和处理txs在雪崩Limited number of processing blocks in Snowman and processing txs in Avalanche
-* Updated networking timeout default values and benchlist settings
+* 限制了在雪人和 Avalanche中的处理块和处理txs的数量
+* 更新了网络超时默认值和基准测试列表设置 Updated networking timeout default values and benchlist settings
 * Verified there was no safety violation after the initial network instability
 
 ## v1.1.5 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/tree/v1.1.5)\)
@@ -323,8 +323,8 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTc0NzgzMCwtMTI3NDI1MjY3OCwtNT
-I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
-NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
-FdfQ==
+eyJoaXN0b3J5IjpbOTc1MzU5MzA5LC0xMjc0MjUyNjc4LC01Mj
+kwMjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3
+NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV
+19
 -->
