@@ -45,15 +45,15 @@
 * 向HTTP端点添加可配置的源。
 * 删除启动时尝试的HTTPs到HTTP的故障转移。现在，如果将HTTP端点升级为HTTPs失败，该节点将在启动时关闭。
 
-**Added command line arguments:**
+**添加命令行参数:**
 
-* `api-auth-password-file` specifies the file to read the Auth API's password from.
+* `api-auth-password-file` 指定从哪个文件中读取Auth API的密码。
 
-**Removed command line arguments:**
+**删除命令行参数:**
 
 * `api-auth-password`
 
-## **v1.2.4 AvalancheGo Release Notes \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.4)**\)**
+## **v1.2.4 AvalancheGo 发布说明 \(**[**View on GitHub**](https://github.com/ava-labs/avalanchego/releases/tag/v1.2.4)**\)**
 
 {% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability and monitoring improvements.
@@ -333,6 +333,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OT
-U0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbLTkxODY5MzIwMywyMzMzODc4NzAsLTI0ND
+g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
+NTgxXX0=
 -->
