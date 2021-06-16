@@ -43,7 +43,7 @@
 * 添加了一些次要的附加错误处理。
 * 在写到磁盘之前，经过消毒的日志写操作。
 * 向HTTP端点添加可配置的源。
-* 删除启动时尝试的HTTPs到HTTP的故障转移。现在，如果将HTTP端点升级为HTTPs失败，该节点将在启动时关闭。Removed attempted HTTPs to HTTP fail over on startup. Now the node will close on startup if upgrading the HTTP endpoint to HTTPs fails.
+* 删除启动时尝试的HTTPs到HTTP的故障转移。现在，如果将HTTP端点升级为HTTPs失败，该节点将在启动时关闭。
 
 **Added command line arguments:**
 
@@ -333,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDg5Mzc0NCwtMTc5NTQ3OTYyLC0yMD
-U2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OT
+U0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
 -->
