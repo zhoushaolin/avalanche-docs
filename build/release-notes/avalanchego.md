@@ -12,7 +12,7 @@
 * 通过api-auth-password-file标志从Auth密码中剥离空白。
 * 删除timeSinceNoOutstandingRequests, 因为它被longestRunningRequest取代。
 * 在网络节流中增加了额外的指标。
-* 各种代码清理。Various code cleanup.
+* 各种代码清理。
 
 **Added command line arguments:**
 
@@ -335,5 +335,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0ODY2MTM2LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ
+==
 -->
