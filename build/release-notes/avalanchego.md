@@ -142,9 +142,9 @@
 
 * 修正了C链上的原子导入验证
 * 增加了允许原子奖励块的规则异常逻辑
-* 如果发出重复删除，将快速故障逻辑添加到共享内存中Added fail-fast logic into Shared Memory if duplicated deletes are issued
-* Fixed issue where polls could stall in snowman because of a failure to clear requests
-* Fixed BAD BLOCK issue in coreth due to unknown ancestors
+* 如果发出重复删除，将快速故障逻辑添加到共享内存中
+* 修正了雪人中由于未能清除请求而导致投票停滞的问题
+* 修复了未知祖先造成的坏块问题
 * Fixed a race condition in the repair canonical chain script in coreth
 * Limited number of processing blocks in Snowman and processing txs in Avalanche
 * Updated networking timeout default values and benchlist settings
@@ -323,8 +323,8 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTg0ODMyMiwtMTI3NDI1MjY3OCwtNT
-I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
-NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
-FdfQ==
+eyJoaXN0b3J5IjpbLTE4NjEyNTU5NTAsLTEyNzQyNTI2NzgsLT
+UyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5
+Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NT
+gxXX0=
 -->
