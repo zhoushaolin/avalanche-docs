@@ -140,9 +140,9 @@
 
 本次升级的主要组件包括:
 
-* Fixed atomic import validation on C-Chain
-* Added rule exception logic to allow atomic bonus blocks
-* Added fail-fast logic into Shared Memory if duplicated deletes are issued
+* 修正了C链上的原子导入验证
+* 增加了允许原子奖励块的规则异常逻辑
+* 如果发出重复删除，将快速故障逻辑添加到共享内存中Added fail-fast logic into Shared Memory if duplicated deletes are issued
 * Fixed issue where polls could stall in snowman because of a failure to clear requests
 * Fixed BAD BLOCK issue in coreth due to unknown ancestors
 * Fixed a race condition in the repair canonical chain script in coreth
@@ -323,7 +323,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTI0NTcwOSwtMTI3NDI1MjY3OCwtNT
+eyJoaXN0b3J5IjpbLTUzOTg0ODMyMiwtMTI3NDI1MjY3OCwtNT
 I5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkz
 NzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1OD
 FdfQ==
