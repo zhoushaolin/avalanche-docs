@@ -90,8 +90,7 @@
 
 这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括稳定性、性能和监控方面的改进。
 
-请注意，此更新删除了\ ' network-timeout-increase\ '和' network-timeout-reduction\ '作为命令行参数。
-Please note that this update removes \`network-timeout-increase\` and ‘network-timeout-reduction\` as command line arguments.
+请注意，此更新删除了\`network-timeout-increase\`和\' network-timeout-reduction\'作为命令行参数。
 
 Change Summary:
 
@@ -326,7 +325,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NTQzNzE5LDIzMzM4Nzg3MCwtMjQ0OD
-kzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1
-ODFdfQ==
+eyJoaXN0b3J5IjpbMTk0MTc1NzU5OSwyMzMzODc4NzAsLTI0ND
+g5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0
+NTgxXX0=
 -->
