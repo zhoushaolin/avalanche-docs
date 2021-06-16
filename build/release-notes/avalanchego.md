@@ -35,9 +35,9 @@
 
 * C链gas成本从470 nAVAX降低到225 nAVAX。
 * 取消C链gas退款。这一变化采用[EIP-3298](https://eips.ethereum.org/EIPS/eip-3298)。
-* 重构c链验证，使其在执行网络升级时更干净。Refactored C-chain verification to be cleaner when performing network upgrades.
-* Fixed the Auth API to properly enforce revoked tokens.
-* Strengthened the Auth API to ensure the expected signature format is used.
+* 重构C链验证，使其在执行网络升级时更干净。
+* 修正了Auth API以正确地执行被撤销的代币。
+* 加强了Auth API，以确保使用了预期的签名格式。Strengthened the Auth API to ensure the expected signature format is used.
 * Removed the Auth API's password from the CLI arguments.
 * Added more strict file permissions checks.
 * Added some minor additional error handling.
@@ -333,6 +333,6 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTk1NTEsLTE3OTU0Nzk2MiwtMjA1Nj
-EzNzE5OCwtMTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbLTExODc5NzAyOCwtMTc5NTQ3OTYyLC0yMD
+U2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
 -->
