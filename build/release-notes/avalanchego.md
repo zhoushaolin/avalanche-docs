@@ -188,15 +188,13 @@
 * 引导过程中优化的P链验证。
 * 修正最大基准列表计算使用适当的输入值。
 * 从CI删除了额外的linter运行。
-* 添加`Height` 到 `snowman.Block` 接口
+* 添加`Height` 到 `snowman.Block` 接口。
 
-## v1.1.1 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.1)\) 
+## v1.1.1 AvalancheGo 发布说明\([在 GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.1)\) 
 
-{% hint style="danger" %}
-This update is optional but encouraged. The patch includes bug fixes and performance improvements.
-{% endhint %}
+此更新是可选的，但鼓励更新。该补丁包括错误修复和性能改进。
 
-* Fixed a node crash bug when users disabled the `Health` API.
+* 修正了当用户禁用`Health`API时节点崩溃的bug。Fixed a node crash bug when users disabled the `Health` API.
 * Fixed a bug in uptime tracking that could over report a node's uptime.
 * Refactored vertex parsing to use a `Codec`.
 * Separated stateful and stateless vertex management.
@@ -315,7 +313,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzc4MTg4NSwxOTAzNzkyNzE2LC03Nz
+eyJoaXN0b3J5IjpbMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03Nz
 I2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4
 NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNC
 wtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5
