@@ -204,13 +204,11 @@
 * 引入了一个语义数据库包，用于将来的数据库迁移。
 * 向链上下文添加Epoch跟踪。
 * 改进了事务验证期间返回的一些错误消息。
-* 减少了DB版本数据库中的GC压力。Reduced GC pressure in the version DB.
+* 减少了版本数据库中的GC压力。
 
-## v1.1.0 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.0)\)
+## v1.1.0 AvalancheGo 发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.0)\)
 
-{% hint style="danger" %}
-**Please note that this upgrade is not backwards compatible with previous releases. Upgrades must be performed no later than Monday, December 7th at 11 p.m. UTC \(6 p.m. EST\). The upgrade, which was originally scheduled around mid December, is now being expedited to fix an important token unlocking bug. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected.**
-{% endhint %}
+**请注意，此升级与以前的版本不向后兼容。升级必须不迟于12月7日星期一UTC晚上11点(东部标准时间下午6点)。这次升级原本计划在12月中旬，现在正在加速修复一个重要的令牌解锁bug。我们敦促社区的每个人尽快升级，以确保他们的节点不受影响。Please note that this upgrade is not backwards compatible with previous releases. Upgrades must be performed no later than Monday, December 7th at 11 p.m. UTC \(6 p.m. EST\). The upgrade, which was originally scheduled around mid December, is now being expedited to fix an important token unlocking bug. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected.**
 
 There are two primary components to this upgrade:
 
@@ -313,10 +311,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjUxNzU1NzUsLTcxMzE1OTAyMiwtMT
-Q0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2
-MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2Ni
-wtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0x
-NDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1ND
-c5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbMTQ5NzA0OTU3MiwtNzEzMTU5MDIyLC0xND
+QyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYw
+MDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC
+0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0
+NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nz
+k2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
 -->
