@@ -174,9 +174,9 @@
 
 ## v1.1.3 AvalancheGo 发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/tree/v1.1.3)\)
 
-此更新是可选的，但鼓励。该补丁包括与api相关的小错误修复。This update is optional but encouraged. The patch includes minor bug fixes relating to APIs.
+此更新是可选的，但鼓励更新。该补丁包括与API相关的小错误修复。
 
-* Fixed hanging call when attempting to filter C-chain logs.
+* 修正了试图过滤C链日志时挂起呼叫的问题。Fixed hanging call when attempting to filter C-chain logs.
 * Fixed C-chain client to call the proper multi-coin API.
 * Added `getAtomicUTXOs` to `avm` and `platformvm` API clients.
 
@@ -317,9 +317,9 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05Nj
-IzMzAyMTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1
-MjY3OCwtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MC
-wtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEz
-NTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbNzg3ODY2MzgwLC03NzI2NjAwNjcsLTU3MT
+IzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0ODAy
+NTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OS
+wyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2
+MTM3MTk4LC0xMzU2MTc0NTgxXX0=
 -->
