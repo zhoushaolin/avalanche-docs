@@ -217,7 +217,7 @@
 
 ## v1.0.6 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.6)\)
 
-请注意，此版本包含[这里](https://docs.avax.network/build/apis/deprecated-api-calls)描述的破坏性更改。它改变了平台的默认响应格式。getTxStatus platform.getCurrentValidators。更新是可选的，但受到鼓励。该补丁包括性能改进和一些生命质量改进。
+请注意，此版本包含了破坏性更改, 在[这里](https://docs.avax.network/build/apis/deprecated-api-calls)查看。它改变了平台的默认响应格式。getTxStatus platform.getCurrentValidators。更新是可选的，但受到鼓励。该补丁包括性能改进和一些生命质量改进。
 Please note that this release contains breaking changes described [here](https://docs.avax.network/build/apis/deprecated-api-calls). It changes the default response format of platform.getTxStatus and platform.getCurrentValidators. The update is optional but encouraged. The patch includes performance improvements and some quality of life improvements.
 
 * Removed deprecated formats of  platform.getTxStatus and platform.getCurrentValidators.
@@ -310,10 +310,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0ND
-IxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAw
-NjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLT
-EzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3
-NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OT
-YyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbMjAwNDc0MTY1NiwtNDEzMDMyNDUsLTcxMz
+E1OTAyMiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3
+MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMj
+A2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5
+MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNz
+Q0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFd
+fQ==
 -->
