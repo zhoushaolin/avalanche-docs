@@ -167,9 +167,9 @@
 * 修复了RPCChainVM经历高API负载时的虚拟机崩溃。
 * 修正了雪崩引擎中的乐观投票冒泡，以正确地通过处理顶点投票。
 * 增加字段IncludePartial的AVM的GetBalance和GetAllBalances API方法。这将改变默认行为，只返回可使用的和唯一拥有的资产的余额。
-* Added the ability to specify custom genesis configs for custom network IDs.
-* Added additional IPC API functionality.
-* Added additional caching to the RPCChainVM.
+* 增加了为自定义网络ID指定自定义创建配置的能力。
+* 增加了额外的IPC API功能。
+* 增加了额外的缓存到RPCChainVM。
 * Improved plugin directory lookup to always work with the binary releases.
 
 ## v1.1.3 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/tree/v1.1.3)\)
@@ -319,7 +319,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODczNzgzOCwtOTYyMzMwMjE3LDIwNj
+eyJoaXN0b3J5IjpbLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNj
 kwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAy
 MTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NC
 wtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
