@@ -241,9 +241,9 @@
 v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选的，但鼓励更新。该补丁包括性能改进和一些生命质量改进。
 
 * 添加了`IssueTx`和`GetUTXOs`到C链 API，以允许在不向节点显示私钥的情况下, 发布原子交换而。
-* Fixed memory leak in the snowman request manager with oracle block processing.
-* Fix UTXO pagination bug that under-reported available funds.
-* Moved chain http logs to live in the human-readable chain logs folder.
+* 修复了使用oracle块处理雪人请求管理器中的内存泄漏问题。
+* 修复未报告可用资金的UTXO分页bug。
+* 将链http日志移动到人类可读的链日志文件夹中。Moved chain http logs to live in the human-readable chain logs folder.
 * Restructure how IDs are managed to avoid heap allocations.
 * Optimized the `UniformSampler`s to avoid creating multiple maps.
 * Reduced usage of `ids.Set` in favor of `[]ids.ID` to better utilize continuous memory.
@@ -307,7 +307,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDU5NjgxNywxMTQ1NDg0MDI0LDEzNz
+eyJoaXN0b3J5IjpbMjAwODYxMzM2MSwxMTQ1NDg0MDI0LDEzNz
 A4NTAxODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1
 MzksMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLT
 U3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0
