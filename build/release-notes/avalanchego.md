@@ -240,7 +240,7 @@
 
 v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选的，但鼓励更新。该补丁包括性能改进和一些生命质量改进。
 
-* Added `IssueTx` and `GetUTXOs` to the C-chain API to enable issuing atomic swaps without revealing private keys to a node.
+* 添加了`IssueTx`和`GetUTXOs`到C链 API，以允许在不向节点显示私钥的情况下, 发布原子交换而。
 * Fixed memory leak in the snowman request manager with oracle block processing.
 * Fix UTXO pagination bug that under-reported available funds.
 * Moved chain http logs to live in the human-readable chain logs folder.
@@ -307,11 +307,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU3NDc4NjMsMTE0NTQ4NDAyNCwxMz
-cwODUwMTgyLC00MTMwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4
-NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC
-01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3
-NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0Nz
-Y3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2Miwt
-MjA1NjEzNzE5OF19
+eyJoaXN0b3J5IjpbMTY5MDU5NjgxNywxMTQ1NDg0MDI0LDEzNz
+A4NTAxODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1
+MzksMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLT
+U3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0
+ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3NjQ3Nj
+c2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OTYyLC0y
+MDU2MTM3MTk4XX0=
 -->
