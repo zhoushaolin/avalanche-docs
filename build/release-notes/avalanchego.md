@@ -228,9 +228,9 @@
 * 重构二进制编码以更好地泛化RPC选项。
 * 修复IP块过滤, 以合理设置窗口长度。
 * 推广编解码器包, 使其能够管理多个不同版本的编解码器。
-* 添加Epoch到顶点界面，为未来的发布做准备。Added Epoch to the Vertex interface in preparation of a future release.
-* Deferred transaction hashing to reduce CPU/Memory utilization past fast checks.
-* For those using [https://explorerapi.avax-dev.network/](https://explorerapi.avax-dev.network/), the URL is going to be shut down in a future release. Please switch over to [https://explorerapi.avax.network/](https://explorerapi.avax.network/). 
+* 添加Epoch到顶点界面，为未来的发布做准备。
+* 延迟交易哈希以减少快速检查时的CPU/内存利用率。
+* 对于那些使用[https://explorerapi.avax-dev.network/](https://explorerapi.avax-dev.network/)的用户，该URL将在未来的版本中被关闭。请转到[https://explorerapi.avax.network/](https://explorerapi.avax.network/)。
 
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network/) for help.
 
@@ -309,11 +309,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzIwODkyLC00MTMwMzI0NSwtNzEzMT
-U5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5Mjcx
-NiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMD
-Y5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01Mjkw
-MjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3ND
-QsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
-
+eyJoaXN0b3J5IjpbLTExNTUxMjMzNzEsLTQxMzAzMjQ1LC03MT
+MxNTkwMjIsLTE0NDIxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzky
+NzE2LC03NzI2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LD
+IwNjkwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUy
+OTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mz
+c0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgx
+XX0=
 -->
