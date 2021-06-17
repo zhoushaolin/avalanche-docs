@@ -223,8 +223,8 @@
 * 增加了对从keystore API导入和导出用户的十六进制编码的支持。
 * 将golang要求设置为v1.15.5，以避免在golang标准库中发现DoS漏洞。
 * 添加API客户端作为与节点软件交互的助手。
-* Enabled falling back to bootstrapping if a node becomes disconnected from the rest of the network.
-* Fixed the GetUTXOs APIs when UTXOs referenced multiple addresses.
+* 如果一个节点与网络的其余部分断开连接，则启用恢复引导。
+* 修正了当UTXO引用多个地址时的GetUTXOs API。
 * Refactored binary encoding to better generalize RPC options.
 * Fixed IP block filtering to correctly set the window length.
 * Generalized the codec package to be able to manage multiple codecs with different versions.
@@ -309,11 +309,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1OTQ0NjIxLC00MTMwMzI0NSwtNzEzMT
-U5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5Mjcx
-NiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMD
-Y5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01Mjkw
-MjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3ND
-QsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
-
+eyJoaXN0b3J5IjpbLTEyNDQxMDAzODEsLTQxMzAzMjQ1LC03MT
+MxNTkwMjIsLTE0NDIxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzky
+NzE2LC03NzI2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LD
+IwNjkwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUy
+OTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mz
+c0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgx
+XX0=
 -->
