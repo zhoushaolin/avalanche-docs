@@ -199,8 +199,8 @@
 * 重构顶点解析使用`Codec`。
 * 分离有状态和无状态顶点管理。
 * 在编解码器中添加了每字段切片长度检查。
-* Introduced a new codec type that groups `TypeID`s together.
-* Introduced message limit flags to the CLI.
+* 引入了一种新的编解码器类型，将`TypeID`分组在一起。
+* 引入消息限制标志到CLI中。
 * Introduced a semanticdb package to be used during a future database migration.
 * Added Epoch tracking to the chain context.
 * Improved some of the error messages returned during transaction validation.
@@ -313,10 +313,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjI0OTU2OSwyMDI1NzQ5ODY4LDE5MD
-M3OTI3MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAy
-MTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OC
-wtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0
-ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNz
-Q1ODFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDIxMjg1MzksMjAyNTc0OTg2OCwxOT
+AzNzkyNzE2LC03NzI2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMw
+MjE3LDIwNjkwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2Nz
+gsLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0
+NDg5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MT
+c0NTgxXX0=
 -->
