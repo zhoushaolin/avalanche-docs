@@ -225,8 +225,8 @@
 * 添加API客户端作为与节点软件交互的助手。
 * 如果一个节点与网络的其余部分断开连接，则启用恢复引导。
 * 修正了当UTXO引用多个地址时的GetUTXOs API。
-* Refactored binary encoding to better generalize RPC options.
-* Fixed IP block filtering to correctly set the window length.
+* 重构二进制编码以更好地泛化RPC选项。
+* 固定IP块过滤正确设置窗口长度。Fixed IP block filtering to correctly set the window length.
 * Generalized the codec package to be able to manage multiple codecs with different versions.
 * Added Epoch to the Vertex interface in preparation of a future release.
 * Deferred transaction hashing to reduce CPU/Memory utilization past fast checks.
@@ -309,11 +309,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQxMDAzODEsLTQxMzAzMjQ1LC03MT
-MxNTkwMjIsLTE0NDIxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzky
-NzE2LC03NzI2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LD
-IwNjkwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUy
-OTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mz
-c0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgx
-XX0=
+eyJoaXN0b3J5IjpbMTAxMDE2MzU1MCwtNDEzMDMyNDUsLTcxMz
+E1OTAyMiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3
+MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMj
+A2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5
+MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNz
+Q0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFd
+fQ==
 -->
