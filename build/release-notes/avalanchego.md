@@ -197,8 +197,8 @@
 * 修正了当用户禁用`Health`API时节点崩溃的bug。
 * 修正了一个在正常运行时间跟踪可能超过报告一个节点的正常运行时间的bug。
 * 重构顶点解析使用`Codec`。
-* 分离有状态和无状态顶点管理。Separated stateful and stateless vertex management.
-* Added per-field slice length checking to the Codec.
+* 分离有状态和无状态顶点管理。
+* 在编解码器中添加了每字段切片长度检查。
 * Introduced a new codec type that groups `TypeID`s together.
 * Introduced message limit flags to the CLI.
 * Introduced a semanticdb package to be used during a future database migration.
@@ -313,10 +313,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NDE4ODkzLDIwMjU3NDk4NjgsMTkwMz
-c5MjcxNiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIx
-NywyMDY5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC
-01MjkwMjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4
-OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3ND
-U4MV19
+eyJoaXN0b3J5IjpbMTI4MjI0OTU2OSwyMDI1NzQ5ODY4LDE5MD
+M3OTI3MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAy
+MTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OC
+wtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0
+ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNz
+Q1ODFdfQ==
 -->
