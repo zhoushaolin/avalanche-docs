@@ -201,8 +201,8 @@
 * 在编解码器中添加了每字段切片长度检查。
 * 引入了一种新的编解码器类型，将`TypeID`分组在一起。
 * 引入消息限制标志到CLI中。
-* Introduced a semanticdb package to be used during a future database migration.
-* Added Epoch tracking to the chain context.
+* 引入了一个语义数据库包，用于将来的数据库迁移。
+* 向链上下文添加Epoch跟踪。
 * Improved some of the error messages returned during transaction validation.
 * Reduced GC pressure in the version DB.
 
@@ -313,10 +313,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIxMjg1MzksMjAyNTc0OTg2OCwxOT
-AzNzkyNzE2LC03NzI2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMw
-MjE3LDIwNjkwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2Nz
-gsLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0
-NDg5Mzc0NCwtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MT
-c0NTgxXX0=
+eyJoaXN0b3J5IjpbLTcxMzE1OTAyMiwtMTQ0MjEyODUzOSwyMD
+I1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2MDA2NywtNTcxMjMz
+NTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OS
+wtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIz
+MzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMz
+cxOTgsLTEzNTYxNzQ1ODFdfQ==
 -->
