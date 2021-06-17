@@ -187,8 +187,8 @@
 * 修正引导处理缓存，引导雪崩时, 以减少重复遍历。
 * 引导过程中优化的P链验证。
 * 修正最大基准列表计算使用适当的输入值。
-* 从CI删除了额外的linter运行。Removed extra linter runs from CI.
-* Added `Height` to the `snowman.Block` interface.
+* 从CI删除了额外的linter运行。
+* 添加`Height` 到 `snowman.Block` 接口
 
 ## v1.1.1 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.1)\) 
 
@@ -315,7 +315,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTc5OTA3MywxOTAzNzkyNzE2LC03Nz
+eyJoaXN0b3J5IjpbLTk0Mzc4MTg4NSwxOTAzNzkyNzE2LC03Nz
 I2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4
 NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNC
 wtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5
