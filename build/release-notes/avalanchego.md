@@ -238,7 +238,7 @@
 
 请注意，v1.0.6这个版本之后的版本，将包含破坏性更改, 在[这里](https://docs.avax.network/build/apis/deprecated-api-calls)查看。即`platform.getTxStatus` 和`platform.getCurrentValidators` 的响应格式将发生改变。
 
-The changes in this release, v1.0.5, are backwards compatible with previous releases. The update is optional but encouraged. The patch includes performance improvements and some quality of life improvements.
+v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选的，但鼓励更新。该补丁包括性能改进和一些生命质量改进。
 
 * Added `IssueTx` and `GetUTXOs` to the C-chain API to enable issuing atomic swaps without revealing private keys to a node.
 * Fixed memory leak in the snowman request manager with oracle block processing.
@@ -307,11 +307,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTQ4NDAyNCwxMzcwODUwMTgyLC00MT
-MwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4
-NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLT
-k2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0
-MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3OD
-cwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwt
-MTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbLTEyNDU3NDc4NjMsMTE0NTQ4NDAyNCwxMz
+cwODUwMTgyLC00MTMwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4
+NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC
+01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3
+NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0Nz
+Y3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2Miwt
+MjA1NjEzNzE5OF19
 -->
