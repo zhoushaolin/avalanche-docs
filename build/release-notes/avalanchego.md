@@ -234,11 +234,10 @@
 
 更新如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network/)寻求帮助。
 
-## v1.0.5 AvalancheGo Release Notes  \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.5)\)
+## v1.0.5 AvalancheGo 发布说明  \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.5)\)
 
-{% hint style="danger" %}
+请注意，这个版本之后的版本，v1.0.6，将包含[这里](https://docs.avax.network/build/apis/deprecated-api-calls)所描述的破坏性更改。即‘平台’的响应格式。getTxStatus”和“平台。getCurrentValidators”将会改变。
 Please note that the release after this one, v1.0.6, will contain the breaking changes described [here](https://docs.avax.network/build/apis/deprecated-api-calls). Namely, the response format of `platform.getTxStatus` and `platform.getCurrentValidators` will change.
-{% endhint %}
 
 The changes in this release, v1.0.5, are backwards compatible with previous releases. The update is optional but encouraged. The patch includes performance improvements and some quality of life improvements.
 
@@ -309,11 +308,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDg1MDE4MiwtNDEzMDMyNDUsLTcxMz
-E1OTAyMiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3
-MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMj
-A2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5
-MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNz
-Q0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFd
-fQ==
+eyJoaXN0b3J5IjpbLTc0MDAyNTcwOCwxMzcwODUwMTgyLC00MT
+MwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4
+NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLT
+k2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0
+MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3OD
+cwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1NjEzNzE5OCwt
+MTM1NjE3NDU4MV19
 -->
