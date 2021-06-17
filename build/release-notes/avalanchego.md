@@ -170,9 +170,9 @@
 * 增加了为自定义网络ID指定自定义创建配置的能力。
 * 增加了额外的IPC API功能。
 * 增加了额外的缓存到RPCChainVM。
-* Improved plugin directory lookup to always work with the binary releases.
+* 改进插件目录查找，以始终与二进制版本一起工作。
 
-## v1.1.3 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/tree/v1.1.3)\)
+## v1.1.3 AvalancheGo 发布说明\([在GitHub](https://github.com/ava-labs/avalanchego/tree/v1.1.3)\)
 
 {% hint style="danger" %}
 This update is optional but encouraged. The patch includes minor bug fixes relating to APIs.
@@ -319,9 +319,9 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNj
-kwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAy
-MTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NC
-wtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
-
+eyJoaXN0b3J5IjpbMTk3OTQ2OTc5NSwtNTcxMjMzNTgxLC05Nj
+IzMzAyMTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1
+MjY3OCwtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MC
+wtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMzcxOTgsLTEz
+NTYxNzQ1ODFdfQ==
 -->
