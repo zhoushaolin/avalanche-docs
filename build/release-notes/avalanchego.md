@@ -226,8 +226,8 @@
 * 如果一个节点与网络的其余部分断开连接，则启用恢复引导。
 * 修正了当UTXO引用多个地址时的GetUTXOs API。
 * 重构二进制编码以更好地泛化RPC选项。
-* 固定IP块过滤正确设置窗口长度。Fixed IP block filtering to correctly set the window length.
-* Generalized the codec package to be able to manage multiple codecs with different versions.
+* 修复IP块过滤, 以合理设置窗口长度。
+* 通用的编解码器包能够管理多个不同版本的编解码器。Generalized the codec package to be able to manage multiple codecs with different versions.
 * Added Epoch to the Vertex interface in preparation of a future release.
 * Deferred transaction hashing to reduce CPU/Memory utilization past fast checks.
 * For those using [https://explorerapi.avax-dev.network/](https://explorerapi.avax-dev.network/), the URL is going to be shut down in a future release. Please switch over to [https://explorerapi.avax.network/](https://explorerapi.avax.network/). 
@@ -309,7 +309,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDE2MzU1MCwtNDEzMDMyNDUsLTcxMz
+eyJoaXN0b3J5IjpbLTkwNzMyMDcyOSwtNDEzMDMyNDUsLTcxMz
 E1OTAyMiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3
 MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMj
 A2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5
