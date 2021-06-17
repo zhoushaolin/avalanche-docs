@@ -210,9 +210,9 @@
 
 **请注意，此升级与以前的版本不向后兼容。升级必须不迟于12月7日星期一UTC晚上11点(东部标准时间下午6点)。这次升级原本计划在12月中旬，现在正在加速修复一个重要的代币解锁bug。我们敦促社区的每个人尽快升级，以确保大家节点不受影响。**
 
-There are two primary components to this upgrade:
+这个升级有两个主要组件:
 
-* General preparations for our upcoming Apricot network upgrade called the Apricot Phase Zero Upgrade
+* 为即将到来的Apricot网升级(杏零期升级)做一般准备General preparations for our upcoming Apricot network upgrade called the Apricot Phase Zero Upgrade
 * Fixing an issue that prevented stake-able locked outputs from being unlocked after their lock ****time had passed
 
 ## v1.0.6 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.6)\)
@@ -311,10 +311,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg1MTQwMzEsLTcxMzE1OTAyMiwtMT
-Q0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2
-MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2Ni
-wtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0x
-NDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1ND
-c5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbNTkxNDQyNzY3LC03MTMxNTkwMjIsLTE0ND
+IxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAw
+NjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLT
+EzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3
+NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OT
+YyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
 -->
