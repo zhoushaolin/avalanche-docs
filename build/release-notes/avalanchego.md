@@ -203,8 +203,8 @@
 * 引入消息限制标志到CLI中。
 * 引入了一个语义数据库包，用于将来的数据库迁移。
 * 向链上下文添加Epoch跟踪。
-* Improved some of the error messages returned during transaction validation.
-* Reduced GC pressure in the version DB.
+* 改进了事务验证期间返回的一些错误消息。
+* 减少了DB版本数据库中的GC压力。Reduced GC pressure in the version DB.
 
 ## v1.1.0 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.0)\)
 
@@ -313,10 +313,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzE1OTAyMiwtMTQ0MjEyODUzOSwyMD
-I1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2MDA2NywtNTcxMjMz
-NTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OS
-wtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIz
-MzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIwNTYxMz
-cxOTgsLTEzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbLTE5NjUxNzU1NzUsLTcxMzE1OTAyMiwtMT
+Q0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2
+MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2Ni
+wtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0x
+NDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1ND
+c5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ==
 -->
