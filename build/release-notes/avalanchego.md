@@ -217,10 +217,9 @@
 
 ## v1.0.6 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.6)\)
 
-请注意，发布内容包含了破坏性更改, 在[这里](https://docs.avax.network/build/apis/deprecated-api-calls)查看。它改变了platform.getTxStatus的默认响应格式。getTxStatus platform.getCurrentValidators。更新是可选的，但受到鼓励。该补丁包括性能改进和一些生命质量改进。
-Please note that this release contains breaking changes described [here](https://docs.avax.network/build/apis/deprecated-api-calls). It changes the default response format of platform.getTxStatus and platform.getCurrentValidators. The update is optional but encouraged. The patch includes performance improvements and some quality of life improvements.
+请注意，发布内容包含了破坏性更改, 在[这里](https://docs.avax.network/build/apis/deprecated-api-calls)查看。它改变了platform.getTxStatus和platform.getCurrentValidators的默认响应格式。更新是可选的，但鼓励更新。该补丁包括性能改进和一些生命质量改进。
 
-* Removed deprecated formats of  platform.getTxStatus and platform.getCurrentValidators.
+* 删除了弃用的Removed deprecated formats of  platform.getTxStatus and platform.getCurrentValidators.
 * Added support for hex encodings of imported and exported users from the keystore API.
 * Set golang requirement to v1.15.5 to avoid a DoS vulnerability found in the golang standard lib.
 * Added API clients to act as helpers interacting with the node software.
@@ -310,7 +309,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU0NDAwNTYsLTQxMzAzMjQ1LC03MT
+eyJoaXN0b3J5IjpbLTE3NjIzMjM4NzQsLTQxMzAzMjQ1LC03MT
 MxNTkwMjIsLTE0NDIxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzky
 NzE2LC03NzI2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LD
 IwNjkwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUy
