@@ -243,7 +243,7 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 * 添加了`IssueTx`和`GetUTXOs`到C链 API，以允许在不向节点显示私钥的情况下, 发布原子交换而。
 * 修复了使用oracle块处理雪人请求管理器中的内存泄漏问题。
 * 修复未报告可用资金的UTXO分页bug。
-* 将链http日志移动到人类可读的链日志文件夹中。Moved chain http logs to live in the human-readable chain logs folder.
+* 将链http日志移动到可读的链日志文件夹中。
 * Restructure how IDs are managed to avoid heap allocations.
 * Optimized the `UniformSampler`s to avoid creating multiple maps.
 * Reduced usage of `ids.Set` in favor of `[]ids.ID` to better utilize continuous memory.
@@ -307,11 +307,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODYxMzM2MSwxMTQ1NDg0MDI0LDEzNz
-A4NTAxODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1
-MzksMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLT
-U3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0
-ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3NjQ3Nj
-c2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OTYyLC0y
-MDU2MTM3MTk4XX0=
+eyJoaXN0b3J5IjpbMjY2MTA5NDE4LDExNDU0ODQwMjQsMTM3MD
+g1MDE4MiwtNDEzMDMyNDUsLTcxMzE1OTAyMiwtMTQ0MjEyODUz
+OSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2MDA2NywtNT
+cxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2NiwtMTMxNzQ4
+MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0xNDc2NDc2Nz
+Y5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1NDc5NjIsLTIw
+NTYxMzcxOThdfQ==
 -->
