@@ -221,8 +221,8 @@
 
 * 删除了弃用的platform.getTxStatus 和platform.getCurrentValidators格式。
 * 增加了对从keystore API导入和导出用户的十六进制编码的支持。
-* 将golang要求设置为v1.15.5，以避免在golang标准库中发现DoS漏洞。Set golang requirement to v1.15.5 to avoid a DoS vulnerability found in the golang standard lib.
-* Added API clients to act as helpers interacting with the node software.
+* 将golang要求设置为v1.15.5，以避免在golang标准库中发现DoS漏洞。
+* 添加API客户端作为与节点软件交互的助手。
 * Enabled falling back to bootstrapping if a node becomes disconnected from the rest of the network.
 * Fixed the GetUTXOs APIs when UTXOs referenced multiple addresses.
 * Refactored binary encoding to better generalize RPC options.
@@ -309,7 +309,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2ODQ0OTE5LC00MTMwMzI0NSwtNzEzMT
+eyJoaXN0b3J5IjpbMzg1OTQ0NjIxLC00MTMwMzI0NSwtNzEzMT
 U5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5Mjcx
 NiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMD
 Y5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01Mjkw
