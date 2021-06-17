@@ -164,8 +164,8 @@
 这个更新是向后兼容的。它是可选的，但鼓励使用。该补丁包括CLI升级、API bug修复、稳定性改进和性能改进。
 
 * 修正了一个问题，C链块索引可以映射到给定高度的不接受的块。
-* 修复了RPCChainVM经历高API负载时的虚拟机崩溃。Fixed VM crash when the RPCChainVM experienced high API loads.
-* Fixed optimistic vote bubbling in the Avalanche Engine to correctly pass votes through processing vertices.
+* 修复了RPCChainVM经历高API负载时的虚拟机崩溃。
+* 修正了雪崩引擎中的乐观投票冒泡，以正确地通过处理顶点投票。Fixed optimistic vote bubbling in the Avalanche Engine to correctly pass votes through processing vertices.
 * Added field IncludePartial to the AVM's GetBalance and GetAllBalances API methods. This changes the default behavior to only return the balances of spendable and uniquely owned assets.
 * Added the ability to specify custom genesis configs for custom network IDs.
 * Added additional IPC API functionality.
@@ -319,8 +319,9 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMz
-E3NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0
-NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2Mi
-wtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbMTU2MTY2MTQyNywtOTYyMzMwMjE3LDIwNj
+kwMTA4NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAy
+MTQxNCwtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NC
+wtMTc5NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+
 -->
