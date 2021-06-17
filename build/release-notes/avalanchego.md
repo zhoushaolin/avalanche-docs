@@ -195,7 +195,7 @@
 此更新是可选的，但鼓励更新。该补丁包括错误修复和性能改进。
 
 * 修正了当用户禁用`Health`API时节点崩溃的bug。
-* Fixed a bug in uptime tracking that could over report a node's uptime.
+* 修正了一个在正常运行时间跟踪可能超过报告一个节点的正常运行时间的bug。Fixed a bug in uptime tracking that could over report a node's uptime.
 * Refactored vertex parsing to use a `Codec`.
 * Separated stateful and stateless vertex management.
 * Added per-field slice length checking to the Codec.
@@ -313,7 +313,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTUxNzc0MywyMDI1NzQ5ODY4LDE5MD
+eyJoaXN0b3J5IjpbLTM5OTg3Mjg0NSwyMDI1NzQ5ODY4LDE5MD
 M3OTI3MTYsLTc3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAy
 MTcsMjA2OTAxMDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OC
 wtNTI5MDIxNDE0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0
