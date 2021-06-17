@@ -184,9 +184,9 @@
 
 此更新是可选的，但鼓励更新。该补丁包括错误修复和性能改进。
 
-* 修正引导处理缓存，以减少重复遍历，引导雪崩时。Fixed bootstrapping processing cache to reduce duplicated traversals when bootstrapping Avalanche.
-* Optimized P-chain verification during bootstrapping.
-* Fixed maximum bench list calculation to use the proper input values.
+* 修正引导处理缓存，引导雪崩时, 以减少重复遍历。
+* 引导过程中优化的P链验证。
+* 固定最大板凳列表计算使用适当的输入值。Fixed maximum bench list calculation to use the proper input values.
 * Removed extra linter runs from CI.
 * Added `Height` to the `snowman.Block` interface.
 
@@ -315,7 +315,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDMwNjUzNCwxOTAzNzkyNzE2LC03Nz
+eyJoaXN0b3J5IjpbMTkwNDY0MTQzMSwxOTAzNzkyNzE2LC03Nz
 I2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4
 NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNC
 wtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5
