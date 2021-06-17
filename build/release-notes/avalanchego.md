@@ -212,8 +212,8 @@
 
 这个升级有两个主要组件:
 
-* 为即将到来的Apricot网升级(杏零期升级)做一般准备General preparations for our upcoming Apricot network upgrade called the Apricot Phase Zero Upgrade
-* Fixing an issue that prevented stake-able locked outputs from being unlocked after their lock ****time had passed
+* 为即将到来的Apricot网升级(Apricot 零期升级)做综合准备
+* 修复了一个在锁定时间过后阻止锁定输出被解锁的问题Fixing an issue that prevented stake-able locked outputs from being unlocked after their lock ****time had passed
 
 ## v1.0.6 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.6)\)
 
@@ -311,10 +311,10 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxNDQyNzY3LC03MTMxNTkwMjIsLTE0ND
-IxMjg1MzksMjAyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAw
-NjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLT
-EzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3
-NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5NTQ3OT
-YyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
+eyJoaXN0b3J5IjpbLTExNjcyMDgxODEsLTcxMzE1OTAyMiwtMT
+Q0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLTc3MjY2
+MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2Ni
+wtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC0x
+NDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1ND
+c5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ==
 -->
