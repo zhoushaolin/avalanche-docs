@@ -182,9 +182,9 @@
 
 ## v1.1.2 AvalancheGo 发布说明 \([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.2)\)
 
-此更新是可选的，但受到鼓励。该补丁包括错误修复和性能改进。This update is optional but encouraged. The patch includes bug fixes and performance improvements.
+此更新是可选的，但鼓励更新。该补丁包括错误修复和性能改进。
 
-* Fixed bootstrapping processing cache to reduce duplicated traversals when bootstrapping Avalanche.
+* 修正引导处理缓存，以减少重复遍历，引导雪崩时。Fixed bootstrapping processing cache to reduce duplicated traversals when bootstrapping Avalanche.
 * Optimized P-chain verification during bootstrapping.
 * Fixed maximum bench list calculation to use the proper input values.
 * Removed extra linter runs from CI.
@@ -315,9 +315,9 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTM5NDU4LDE5MDM3OTI3MTYsLTc3Mj
-Y2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAxMDg2
-NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxNDE0LC
-0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0xNzk1
-NDc5NjIsLTIwNTYxMzcxOTgsLTEzNTYxNzQ1ODFdfQ==
+eyJoaXN0b3J5IjpbMTIwMDMwNjUzNCwxOTAzNzkyNzE2LC03Nz
+I2NjAwNjcsLTU3MTIzMzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4
+NjYsLTEzMTc0ODAyNTksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNC
+wtMTQ3NjQ3Njc2OSwyMzMzODc4NzAsLTI0NDg5Mzc0NCwtMTc5
+NTQ3OTYyLC0yMDU2MTM3MTk4LC0xMzU2MTc0NTgxXX0=
 -->
