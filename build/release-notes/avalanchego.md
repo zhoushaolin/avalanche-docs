@@ -177,7 +177,7 @@
 此更新是可选的，但鼓励更新。该补丁包括与API相关的小错误修复。
 
 * 修正了试图过滤C链日志时代解决调用问题。
-* Fixed C-chain client to call the proper multi-coin API.
+* 固定c链客户端调用正确的多币API。Fixed C-chain client to call the proper multi-coin API.
 * Added `getAtomicUTXOs` to `avm` and `platformvm` API clients.
 
 ## v1.1.2 AvalancheGo Release Notes \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.1.2)\)
@@ -317,9 +317,9 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01Nz
-EyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgw
-MjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3Nj
-ksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3OTU0Nzk2MiwtMjA1
-NjEzNzE5OCwtMTM1NjE3NDU4MV19
+eyJoaXN0b3J5IjpbLTE4OTU1MTIyMDgsMTkwMzc5MjcxNiwtNz
+cyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEw
+ODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MT
+QsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3
+OTU0Nzk2MiwtMjA1NjEzNzE5OCwtMTM1NjE3NDU4MV19
 -->
