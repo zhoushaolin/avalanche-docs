@@ -259,8 +259,7 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 
 ![AvalancheGo release notes v1.0.4.png](../../.gitbook/assets/image%20%2817%29.png)
 
-此更新是可选的，但受到鼓励。该补丁包括生命质量改进和各种性能增强。注意，此更新要求使用——而不是允许使用-或——来指定CLI参数。例如，' -public-ip=127.0.0.1 '不再被允许，必须指定为'——public-ip=127.0.0.1 '。否则，此更新是向后兼容的。
-This update is optional but encouraged. The patch includes quality of life improvements and various performance enhancements. Note that this update requires the CLI parameters to be specified with -- rather than allowing for either - or --. For example, `-public-ip=127.0.0.1` is no longer allowed and must be specified as `--public-ip=127.0.0.1`. Otherwise, this update is backwards compatible.
+此更新是可选的，但鼓励更新。该补丁包括生命质量改进和各种性能的增强。注意，此更新要求使用——而不是允许使用-或——来指定CLI参数。例如，`-public-ip=127.0.0.1`不再被允许，必须指定为`--public-ip=127.0.0.1`。否则，此更新是向后兼容的。
 
 ```
 • Added subnet whitelisting to allow a node owner to choose which subnets to validate.
@@ -304,14 +303,13 @@ In this new format, reason will not be present unless the status is Dropped.
 Anything that depends on platform.getTxStatus should switch to using the includeReason argument and use the new response format. After a few releases, we'll only support the new response format.
 ```
 
-For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
-
+如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTM2NjM1MywyNjYxMDk0MTgsMTE0NT
-Q4NDAyNCwxMzcwODUwMTgyLC00MTMwMzI0NSwtNzEzMTU5MDIy
-LC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNz
-cyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEw
-ODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MT
-QsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3
-OTU0Nzk2Ml19
+eyJoaXN0b3J5IjpbLTE0MDEwMDcwMDUsMTc1MTM2NjM1MywyNj
+YxMDk0MTgsMTE0NTQ4NDAyNCwxMzcwODUwMTgyLC00MTMwMzI0
+NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMT
+kwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMz
+MDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNj
+c4LC01MjkwMjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0y
+NDQ4OTM3NDRdfQ==
 -->
