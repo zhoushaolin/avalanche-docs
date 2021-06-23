@@ -245,7 +245,7 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 * 修复未报告可用资金的UTXO分页bug。
 * 将链http日志移动到可读的链日志文件夹中。
 * 重新构造ID的管理方式，以避免堆式分配。
-* 优化' UniformSampler '，避免创建多个地图。Optimized the `UniformSampler`s to avoid creating multiple maps.
+* 优化`UniformSampler`，避免创建多个地图。
 * Reduced usage of `ids.Set` in favor of `[]ids.ID` to better utilize continuous memory.
 * Introduced `[]byte` reuse in `PrefixDB`.
 * Implemented type-specific sorting functions to avoid frequent interface conversion allocations.
@@ -307,7 +307,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTgxNDQ0MSwyNjYxMDk0MTgsMTE0NT
+eyJoaXN0b3J5IjpbLTI1ODM3ODU1OCwyNjYxMDk0MTgsMTE0NT
 Q4NDAyNCwxMzcwODUwMTgyLC00MTMwMzI0NSwtNzEzMTU5MDIy
 LC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNz
 cyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEw
