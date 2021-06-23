@@ -250,11 +250,12 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 * 在`PrefixDB`中引进`[]byte`重新使用。  
 * 实现特定类型的排序函数，以避免频繁的接口转换分配。
 * 优化AVM加载用户，以避免从磁盘读取不必要的信息。
-* 删除了一个内存分配+复制套接字发送的完整长度的消息。Removed a memory allocation + copy in socket sending for the full length of the message.
+* 删除了一个内存分配+复制套接字发送的完整长度的消息。
 
-For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
+如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 
-## v1.0.4 AvalancheGo Release Notes  \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.4)\)
+
+## v1.0.4 AvalancheGo 发布\([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.4)\)
 
 ![AvalancheGo release notes v1.0.4.png](../../.gitbook/assets/image%20%2817%29.png)
 
@@ -307,7 +308,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM1MjQ4MjEsMjY2MTA5NDE4LDExND
+eyJoaXN0b3J5IjpbLTE2NDc0MzIyMjYsMjY2MTA5NDE4LDExND
 U0ODQwMjQsMTM3MDg1MDE4MiwtNDEzMDMyNDUsLTcxMzE1OTAy
 MiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLT
 c3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAx
