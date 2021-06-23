@@ -287,7 +287,7 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
     "id": 1
 }
 
-If includeReason is true, the output from getTxStatus has a new format. It's an object that looks like this:
+如果includeReason为true，则getTxStatus的输出具有新的格式,它具体形式如下:
 
 {
     "jsonrpc": "2.0",
@@ -304,7 +304,7 @@ Anything that depends on platform.getTxStatus should switch to using the include
 
 如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTc1MDUzNywtMTQwMTAwNzAwNSwxNz
+eyJoaXN0b3J5IjpbMTk2NjU2NTU1NSwtMTQwMTAwNzAwNSwxNz
 UxMzY2MzUzLDI2NjEwOTQxOCwxMTQ1NDg0MDI0LDEzNzA4NTAx
 ODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1MzksMj
 AyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLTU3MTIz
