@@ -247,7 +247,7 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 * 重新构造ID的管理方式，以避免堆式分配。
 * 优化`UniformSampler`，避免创建多个地图。
 * 减少使用`ids.Set`, 而使用`[]ids.ID`, 更好地利用连续内存。
-* Introduced `[]byte` reuse in `PrefixDB`.
+* 在`PrefixDB`中引进`[]byte`重新使用   Introduced `[]byte` reuse in `PrefixDB`.
 * Implemented type-specific sorting functions to avoid frequent interface conversion allocations.
 * Optimized AVM load user to avoid reading unnecessary information from disk.
 * Removed a memory allocation + copy in socket sending for the full length of the message.
@@ -307,11 +307,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTIyMzAyNywyNjYxMDk0MTgsMTE0NT
-Q4NDAyNCwxMzcwODUwMTgyLC00MTMwMzI0NSwtNzEzMTU5MDIy
-LC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNz
-cyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEw
-ODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MT
-QsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3
-OTU0Nzk2Ml19
+eyJoaXN0b3J5IjpbLTE2ODcwOTEyODQsMjY2MTA5NDE4LDExND
+U0ODQwMjQsMTM3MDg1MDE4MiwtNDEzMDMyNDUsLTcxMzE1OTAy
+MiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLT
+c3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAx
+MDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxND
+E0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0x
+Nzk1NDc5NjJdfQ==
 -->
