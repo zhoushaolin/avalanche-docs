@@ -271,14 +271,16 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 • 在platformvm中, 向get.Validators的结果添加TxID。platformvm中的验证器。
 • Coreth版本更新。
 • 清理了雪球trie实现，并添加了额外的测试以与突变测试保持一致。
-• 实现和优化跟踪CPU和网络延迟的连续平均时间。Implemented and optimized continuous time averages for tracking CPU and network latency.
-• Significantly optimized memory allocations in various locations.
-• Increased the signature verification cache size.
-• Reduced DB reads during vertex management.
+• 实现和优化跟踪CPU和网络延迟的连续平均时间。
+• 显著优化了不同位置的内存分配。
+• 增加签名验证缓存大小。
+• 减少了顶点管理期间的数据库读取。
 ```
 
 ```text
-• Added an optional argument includeReason to platform.getTxStatus.
+• 为platform.getTxStatus添加了一个可选参数，包括原因。
+
+如果没有提供，或者为false, getTxStatus的输出与前面相同。Added an optional argument includeReason to platform.getTxStatus.
 If not provided, or if false, the output from getTxStatus is the same as before.
 
 For example:
@@ -305,11 +307,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 
 如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTMzMTE0MCwtMTQwMTAwNzAwNSwxNz
-UxMzY2MzUzLDI2NjEwOTQxOCwxMTQ1NDg0MDI0LDEzNzA4NTAx
-ODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1MzksMj
-AyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLTU3MTIz
-MzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0ODAyNT
-ksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwy
-MzMzODc4NzBdfQ==
+eyJoaXN0b3J5IjpbLTE1ODU3OTQ0MzgsLTE0MDEwMDcwMDUsMT
+c1MTM2NjM1MywyNjYxMDk0MTgsMTE0NTQ4NDAyNCwxMzcwODUw
+MTgyLC00MTMwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LD
+IwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEy
+MzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMj
+U5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3Njks
+MjMzMzg3ODcwXX0=
 -->
