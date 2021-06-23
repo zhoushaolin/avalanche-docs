@@ -255,13 +255,12 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 
 
-## v1.0.4 AvalancheGo 发布\([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.4)\)
+## v1.0.4 AvalancheGo 发布说明\([在GitHub上查看](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.4)\)
 
 ![AvalancheGo release notes v1.0.4.png](../../.gitbook/assets/image%20%2817%29.png)
 
-{% hint style="danger" %}
+此更新是可选的，但受到鼓励。该补丁包括生命质量改进和各种性能增强。注意，此更新要求使用——而不是允许使用-或——来指定CLI参数。例如，' -public-ip=127.0.0.1 '不再被允许，必须指定为'——public-ip=127.0.0.1 '。否则，此更新是向后兼容的。
 This update is optional but encouraged. The patch includes quality of life improvements and various performance enhancements. Note that this update requires the CLI parameters to be specified with -- rather than allowing for either - or --. For example, `-public-ip=127.0.0.1` is no longer allowed and must be specified as `--public-ip=127.0.0.1`. Otherwise, this update is backwards compatible.
-{% endhint %}
 
 ```
 • Added subnet whitelisting to allow a node owner to choose which subnets to validate.
@@ -308,11 +307,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc0MzIyMjYsMjY2MTA5NDE4LDExND
-U0ODQwMjQsMTM3MDg1MDE4MiwtNDEzMDMyNDUsLTcxMzE1OTAy
-MiwtMTQ0MjEyODUzOSwyMDI1NzQ5ODY4LDE5MDM3OTI3MTYsLT
-c3MjY2MDA2NywtNTcxMjMzNTgxLC05NjIzMzAyMTcsMjA2OTAx
-MDg2NiwtMTMxNzQ4MDI1OSwtMTI3NDI1MjY3OCwtNTI5MDIxND
-E0LC0xNDc2NDc2NzY5LDIzMzM4Nzg3MCwtMjQ0ODkzNzQ0LC0x
-Nzk1NDc5NjJdfQ==
+eyJoaXN0b3J5IjpbMTc1MTM2NjM1MywyNjYxMDk0MTgsMTE0NT
+Q4NDAyNCwxMzcwODUwMTgyLC00MTMwMzI0NSwtNzEzMTU5MDIy
+LC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNz
+cyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMzMDIxNywyMDY5MDEw
+ODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNjc4LC01MjkwMjE0MT
+QsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0yNDQ4OTM3NDQsLTE3
+OTU0Nzk2Ml19
 -->
