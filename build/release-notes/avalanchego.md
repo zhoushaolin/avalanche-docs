@@ -268,9 +268,9 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 ```text
 • 增加了节点设置的配置文件解析。
 • 添加更多指定节点IP地址的选项，并将getNodeIP添加到info *endpoint。
-• 向get的结果添加TxID。platformvm中的验证器。Added a TxID to the result of get.Validators in the platformvm.
-• Updated Coreth version.
-• Cleaned up the snowball trie implementation and added additional tests to align with mutation tests.
+• 在platformvm中, 向get.Validators的结果添加TxID。platformvm中的验证器。
+• Coreth版本更新。
+• 清理了雪球尝试实现，并添加了额外的测试以与突变测试保持一致。Cleaned up the snowball trie implementation and added additional tests to align with mutation tests.
 • Implemented and optimized continuous time averages for tracking CPU and network latency.
 • Significantly optimized memory allocations in various locations.
 • Increased the signature verification cache size.
@@ -305,11 +305,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 
 如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjQ1MTg3NSwtMTQwMTAwNzAwNSwxNz
-UxMzY2MzUzLDI2NjEwOTQxOCwxMTQ1NDg0MDI0LDEzNzA4NTAx
-ODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1MzksMj
-AyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLTU3MTIz
-MzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0ODAyNT
-ksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwy
-MzMzODc4NzBdfQ==
+eyJoaXN0b3J5IjpbLTEyNDkwMDIzMjUsLTE0MDEwMDcwMDUsMT
+c1MTM2NjM1MywyNjYxMDk0MTgsMTE0NTQ4NDAyNCwxMzcwODUw
+MTgyLC00MTMwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LD
+IwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEy
+MzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMj
+U5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3Njks
+MjMzMzg3ODcwXX0=
 -->
