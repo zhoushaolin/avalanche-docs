@@ -298,17 +298,19 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
     "id": 1
 }
 
+在这种新格式中，除非状态为Dropped，否则reason不会出现。
+任何依赖platform.getTxStatus的应该切换到使用inclereason参数并使用新的响应格式。在几次发布之后，我们将只支持新的响应格式。
 In this new format, reason will not be present unless the status is Dropped.
 Anything that depends on platform.getTxStatus should switch to using the includeReason argument and use the new response format. After a few releases, we'll only support the new response format.
 ```
 
 如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjU2NTU1NSwtMTQwMTAwNzAwNSwxNz
-UxMzY2MzUzLDI2NjEwOTQxOCwxMTQ1NDg0MDI0LDEzNzA4NTAx
-ODIsLTQxMzAzMjQ1LC03MTMxNTkwMjIsLTE0NDIxMjg1MzksMj
-AyNTc0OTg2OCwxOTAzNzkyNzE2LC03NzI2NjAwNjcsLTU3MTIz
-MzU4MSwtOTYyMzMwMjE3LDIwNjkwMTA4NjYsLTEzMTc0ODAyNT
-ksLTEyNzQyNTI2NzgsLTUyOTAyMTQxNCwtMTQ3NjQ3Njc2OSwy
-MzMzODc4NzBdfQ==
+eyJoaXN0b3J5IjpbNDc2MzU0OTYsLTE0MDEwMDcwMDUsMTc1MT
+M2NjM1MywyNjYxMDk0MTgsMTE0NTQ4NDAyNCwxMzcwODUwMTgy
+LC00MTMwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LDIwMj
+U3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEyMzM1
+ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMjU5LC
+0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3NjksMjMz
+Mzg3ODcwXX0=
 -->
