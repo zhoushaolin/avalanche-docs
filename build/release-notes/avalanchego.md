@@ -262,7 +262,7 @@ v1.0.5这个版本中的变化与以前的版本向后兼容。更新是可选�
 此更新是可选的，但鼓励更新。该补丁包括生命质量改进和各种性能的增强。注意，此更新要求使用——而不是允许使用-或——来指定CLI参数。例如，`-public-ip=127.0.0.1`不再被允许，必须指定为`--public-ip=127.0.0.1`。否则，此更新是向后兼容的。
 
 ```
-• Added subnet whitelisting to allow a node owner to choose which subnets to validate.
+• 添加子网白名单，允许节点所有者选择验证哪个子网。
 ```
 
 ```text
@@ -305,11 +305,11 @@ Anything that depends on platform.getTxStatus should switch to using the include
 
 如需帮助，请关注我们的[开发者常见问题解答](https://support.avalabs.org/en/collections/2618154-developer-faq)，如果你仍然遇到问题，你可以加入我们的[Discord](https://chat.avax.network)寻求帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDEwMDcwMDUsMTc1MTM2NjM1MywyNj
-YxMDk0MTgsMTE0NTQ4NDAyNCwxMzcwODUwMTgyLC00MTMwMzI0
-NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LDIwMjU3NDk4NjgsMT
-kwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEyMzM1ODEsLTk2MjMz
-MDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMjU5LC0xMjc0MjUyNj
-c4LC01MjkwMjE0MTQsLTE0NzY0NzY3NjksMjMzMzg3ODcwLC0y
-NDQ4OTM3NDRdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ5NDc3MzAsLTE0MDEwMDcwMDUsMT
+c1MTM2NjM1MywyNjYxMDk0MTgsMTE0NTQ4NDAyNCwxMzcwODUw
+MTgyLC00MTMwMzI0NSwtNzEzMTU5MDIyLC0xNDQyMTI4NTM5LD
+IwMjU3NDk4NjgsMTkwMzc5MjcxNiwtNzcyNjYwMDY3LC01NzEy
+MzM1ODEsLTk2MjMzMDIxNywyMDY5MDEwODY2LC0xMzE3NDgwMj
+U5LC0xMjc0MjUyNjc4LC01MjkwMjE0MTQsLTE0NzY0NzY3Njks
+MjMzMzg3ODcwXX0=
 -->
