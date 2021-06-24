@@ -79,6 +79,7 @@ let status = await xchain.getTxStatus(txid);
 * “拒绝”表示节点知道交易，但它与已接受的交易发生冲突
 
 ## 检查结果
+
 The transaction finally came back as “Accepted”, now let’s update the UTXOSet and verify that the transaction balance is as we expected.
 
 _Note: In a real network the balance isn’t guaranteed to match this scenario. Transaction fees or additional spends may vary the balance. For the purpose of this example, we assume neither of those cases._
@@ -92,6 +93,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjU3NDE4MSwxOTg3NTIzNDg4LC0xMD
-I4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
+eyJoaXN0b3J5IjpbLTEyNzcyNjIxNjMsLTkxMjU3NDE4MSwxOT
+g3NTIzNDg4LC0xMDI4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
 -->
