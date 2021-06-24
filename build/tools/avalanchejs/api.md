@@ -49,10 +49,10 @@
   * [平台VM 导出Tx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_exporttx.md)
   * [平台VM 导入Tx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_importtx.md)
   * [平台VM 输入](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_inputs.md)
-  * [平台VM KeyChain](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_keychain.md)
-  * [PlatformVM Outputs](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_outputs.md)
-  * [PlatformVM Transactions](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_transactions.md)
-  * [PlatformVM UTXOs](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_utxos.md)
+  * [平台VM 密钥链](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_keychain.md)
+  * [平台VM 输出](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_outputs.md)
+  * [平台VM 交易](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_transactions.md)
+  * [平台VM UTXO](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_utxos.md)
   * [PlatformVM ValidationTx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_platformvm_validationtx.md)
 * [Avalanche](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/avalanche.md)
 * [AvalancheCore](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/avalanchecore.md)
@@ -89,5 +89,5 @@
 * [src/utils](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_utils.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjUyMTk2XX0=
+eyJoaXN0b3J5IjpbMTQ0MjgyMzUxM119
 -->
