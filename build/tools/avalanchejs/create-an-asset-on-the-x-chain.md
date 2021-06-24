@@ -1,6 +1,6 @@
-# Create an Asset on the X-Chain
+# 在X链上创建资产
 
-This example creates an asset in the X-Chain and publishes it to the Avalanche platform. The first step in this process is to create an instance of AvalancheJS connected to our Avalanche platform endpoint of choice.
+本例在XLIA中创建一个资产，并将其发布到Avalanche平台。这个过程的第一步是创建一个连接到我们所选择的Avalanche平台端点的AvalancheJS实例。This example creates an asset in the X-Chain and publishes it to the Avalanche platform. The first step in this process is to create an instance of AvalancheJS connected to our Avalanche platform endpoint of choice.
 
 ```text
 import {
@@ -120,3 +120,6 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY5ODM2NzI1MF19
+-->
