@@ -81,9 +81,7 @@ let signed = xchain.keyChain().signTx(unsigned); //returns a Tx class
 
 现在我们已经有了一个可以发送到网络的已签名事务，让我们发布它吧!
 
-使用AvalancheJS X链 API，我们将调用issueTx函数。这个函数可以接受上一步返回的Tx类, 交易的[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)表示，或者带有事务数据的原始Buffer类。以下是它们各自的例子:
-
-Using the AvalancheJS X-Chain API, we going to call the issueTx function. This function can take either the Tx class returned in the previous step, a [CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58) representation of the transaction, or a raw Buffer class with the data for the transaction. Examples of each are below:
+使用AvalancheJS X链 API，我们将调用issueTx函数。这个函数可以接受上一步返回的Tx类, 交易的[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)表示，或者带有交易数据的原始Buffer类。以下是它们各自的例子:
 
 ```text
 // using the Tx class
@@ -100,11 +98,11 @@ let txid = await xchain.issueTx(signed.toString()); //returns a CB58 serialized 
 let txid = await xchain.issueTx(signed.toBuffer()); //returns a CB58 serialized string for the TxID
 ```
 
-We assume ONE of those methods is used to issue the transaction.
+我们假设其中一个方法用于发布交易。
 
-## Get the status of the transaction <a id="get-the-status-of-the-transaction"></a>
+## 获取交易的状态 
 
-Now that we sent the transaction to the network, it takes a few seconds to determine if the transaction has gone through. We can get an updated status on the transaction using the TxID through the AVM API.
+现在我们将交易发送到网络，需要几秒钟来确定交易是否已经通过。我们可以通过AVM API使用TxID获取交易的更新状态。Now that we sent the transaction to the network, it takes a few seconds to determine if the transaction has gone through. We can get an updated status on the transaction using the TxID through the AVM API.
 
 ```text
 // returns one of: "Accepted", "Processing", "Unknown", and "Rejected"
@@ -123,5 +121,5 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDA4MzY5OCwyMDk5NDgwNjQ2XX0=
+eyJoaXN0b3J5IjpbOTQ4MzA5MzI0LDIwOTk0ODA2NDZdfQ==
 -->
