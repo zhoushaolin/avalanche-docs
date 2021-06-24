@@ -69,11 +69,11 @@ let bintools = BinTools.getInstance();
 上面的行导入教程中使用的库。这些库包括:
 
 * avalanche: 我们的javascript模块。
-* bn.js: AvalancheJS使用的bignumber模块。A bignumber module use by AvalancheJS.
+* bn.js: AvalancheJS使用bignumber模块。
 * buffer: A Buffer library.
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgxODY3OTMsMTc2MTU3ODQ0MiwxNT
-A5ODQxNDk0XX0=
+eyJoaXN0b3J5IjpbLTU1MTQ0Njg2NSwxNzYxNTc4NDQyLDE1MD
+k4NDE0OTRdfQ==
 -->
