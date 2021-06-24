@@ -64,15 +64,14 @@ let txid = await xchain.issueTx(signedTx);
 
 ## 获取交易的状态
 
-现在我们将事务发送到网络，需要几秒钟来确定事务是否已经通过。我们可以通过X-Chain使用TxID获取交易的更新状态。
-Now that we sent the transaction to the network, it takes a few seconds to determine if the transaction has gone through. We can get an updated status on the transaction using the TxID through the X-Chain.
+现在我们将交易发送到网络，需要几秒钟来确定交易是否已经通过。我们可以通过X链使用TxID获取交易的更新状态。
 
 ```text
 // returns one of: "Accepted", "Processing", "Unknown", and "Rejected"
 let status = await xchain.getTxStatus(txid);
 ```
 
-The statuses can be one of “Accepted”, “Processing”, “Unknown”, and “Rejected”:
+状态可以是“已接受”、“处理中”、“未知”和“拒绝”中的一种:
 
 * “Accepted” indicates that the transaction has been accepted as valid by the network and executed
 * “Processing” indicates that the transaction is being voted on.
@@ -94,6 +93,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU3MDA0NzAsMTk4NzUyMzQ4OCwtMT
-AyODQwNDQyMiwtMzI0NzUzMDc3XX0=
+eyJoaXN0b3J5IjpbMTA0OTg5MTIzMCwxOTg3NTIzNDg4LC0xMD
+I4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
 -->
