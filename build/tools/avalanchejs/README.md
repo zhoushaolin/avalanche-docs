@@ -23,15 +23,15 @@ AvalancheJS是一个JavaScript库，用于与[Avalanche](.. ./.. ./../# Avalanch
 * 向X链发行已签署的交易
 * 创建子网
 * 管理本地节点
-* Retrieve Avalanche network information from a node
+* 从节点检索Avalanche网络信息
 
-## Requirements
+## 要求
 
-AvalancheJS requires Node.js LTS version 12.14.1 or higher to compile.
+AvalancheJS需要Node.js LTS版本12.14.1或更高版本才能编译。
 
-## Installation
+## 安装
 
-Avalanche is available for install via `npm`:
+Avalanche可通过`npm`安装:
 
 `npm install --save avalanche`
 
@@ -74,5 +74,5 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzY4NjY0OF19
+eyJoaXN0b3J5IjpbLTU0MzI0MTIwNV19
 -->
