@@ -118,8 +118,9 @@ let status = await xchain.getTxStatus(txid);
 
 ## 标识新创建的资产
 
-The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
+X链使用创建资产的交易的TxID作为资产的唯一标识符。这个唯一标识符从此被称为资产的“AssetID”。当资产围绕X链进行交易时，它们总是引用它们所代表的AssetID。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTc4NTIzNiwyMDk5NDgwNjQ2XX0=
+eyJoaXN0b3J5IjpbMTc5NDk3MTUxLDIwOTk0ODA2NDZdfQ==
 -->
