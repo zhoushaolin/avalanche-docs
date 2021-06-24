@@ -70,10 +70,9 @@ let bintools = BinTools.getInstance();
 
 * avalanche: 我们的javascript模块。
 * bn.js: AvalancheJS使用bignumber模块。
-* buffer: A Buffer library.
-* BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
-
+* buffer: 一个缓冲库。
+* BinTools: 一个内置在AvalancheJS中的单例，用于处理二进制数据。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTQ0Njg2NSwxNzYxNTc4NDQyLDE1MD
+eyJoaXN0b3J5IjpbMTczNDY1ODk3NiwxNzYxNTc4NDQyLDE1MD
 k4NDE0OTRdfQ==
 -->
