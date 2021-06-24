@@ -10,16 +10,16 @@
 
 行为变化:
 
-* Round times to 1 second precisions
+* 周期为1秒精度
 
-Other changes:
+其他变化s:
 
-* Add opt-in support to not return genesis data
-* Add fixed/variable cap information to API
+* 添加可选支持不返回创世数据
+* 向API添加固定/可变的上限信息Add fixed/variable cap information to API
 * Add transaction fee data to API
 
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDg4OTk5NV19
+eyJoaXN0b3J5IjpbLTE1NjUzNjMwNF19
 -->
