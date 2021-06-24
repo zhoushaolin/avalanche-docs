@@ -34,8 +34,9 @@ let symbol = "RICK";
 let denomination = 9;
 ```
 
-## Creating the initial state
+## 创建初始状态
 
+我们想要铸造一个资产，有400个硬币到我们所有的托管密钥，500到我们知道的第二个地址，600到第二个和第三个地址。这将设置将由Create Asset事务产生的状态。
 We want to mint an asset with 400 coins to all of our managed keys, 500 to the second address we know of, and 600 to the second and third address. This sets up the state that will result from the Create Asset transaction.
 
 _Note: This example assumes we have the keys already managed in our X-Chain’s Keychain._
@@ -121,5 +122,5 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzQyMDk4N119
+eyJoaXN0b3J5IjpbMTMzNDIyODI4OF19
 -->
