@@ -5,14 +5,14 @@ AvalancheJS是一个JavaScript库，用于与[Avalanche](.. ./.. ./../# Avalanch
 目前默认支持的API是:
 
 * 管理员API
-* AVM API \(X-Cha\)
-* Health API
-* Info API
-* Keystore API
-* Metrics API
-* PlatformVM API
+* AVM API \(X链\)
+* 健康 API
+* 信息 API
+* 密钥库API
+* 指标 API
+* 平台VM API
 
-We built AvalancheJS with ease of use in mind. With this library, any Javascript developer is able to interact with a node on the Avalanche Platform who has enabled their API endpoints for the developer’s consumption. We keep the library up-to-date with the latest changes in the [Avalanche Platform Specification](https://docs.avax.network/).
+我们在构建AvalancheJS时考虑到了易用性。有了这个库，任何Javascript开发人员都能够与Avalanche平台上的一个节点交互，该节点已启用API端点供开发人员使用。我们保持更新库的最新变化[雪崩平台规范](https://docs.avax.network/)。
 
 Using AvalancheJS, developers can:
 
@@ -74,5 +74,5 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDI3MjM3XX0=
+eyJoaXN0b3J5IjpbLTQ0MDc4OTIzMF19
 -->
