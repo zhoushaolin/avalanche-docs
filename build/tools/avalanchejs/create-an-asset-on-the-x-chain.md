@@ -20,9 +20,9 @@ let avax = new Avalanche("localhost", 9650, "http", myNetworkID, myBlockchainID)
 let xchain = avax.XChain(); //returns a reference to the X-Chain used by AvalancheJS
 ```
 
-## Describe the new asset
+## 描述新资产
 
-The first step in creating a new asset using AvalancheJS is to determine the qualities of the asset. We will give the asset a name, a ticker symbol, as well as a denomination.
+使用AvalancheJS创建新资产的第一步是确定资产的质量。我们将给资产一个名称，一个ticker符号，以及一个面额。
 
 ```text
 // Name our new coin and give it a symbol
@@ -121,5 +121,5 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzkzNzY2Ml19
+eyJoaXN0b3J5IjpbMTUwNzQyMDk4N119
 -->
