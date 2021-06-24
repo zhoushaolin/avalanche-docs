@@ -1,4 +1,4 @@
-# API指标
+# 指标API
 
 该API允许客户端获取关于节点运行状况和性能的统计数据。
 
@@ -33,6 +33,6 @@ This API produces Prometheus compatible metrics. See [here](https://github.com/p
 [Here](../tutorials/nodes-and-staking/setting-up-node-monitoring.md) is a tutorial that shows how to set up Prometheus and Grafana to monitor AvalancheGo node using the Metrics API.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMyNTk3NzEsLTgzNDAxNDgxNSwtMT
-IzMzI1OTc3MSwtODM0MDE0ODE1XX0=
+eyJoaXN0b3J5IjpbLTE3OTMxNzEwMDMsLTEyMzMyNTk3NzEsLT
+gzNDAxNDgxNSwtMTIzMzI1OTc3MSwtODM0MDE0ODE1XX0=
 -->
