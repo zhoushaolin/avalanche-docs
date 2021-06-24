@@ -35,9 +35,11 @@ Avalanche可通过`npm`安装:
 
 `npm install --save avalanche`
 
-You can also pull the repo down directly and build it from scratch:
+你也可以直接下拉回购，从头开始构建:
 
 `npm run build`
+
+这将生成一个纯Javascript库，并将其放在项目根目录下名为“web”的文件夹中。“avalanchejs”文件可以作为Avalanche的纯javascript实现放到任何项目中。
 
 This will generate a pure Javascript library and place it in a folder named “web” in the project root. The “avalanchejs” file can then be dropped into any project as a pure javascript implementation of Avalanche.
 
@@ -74,5 +76,5 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzI0MTIwNV19
+eyJoaXN0b3J5IjpbMzIwNzYyMzQ0XX0=
 -->
