@@ -41,7 +41,7 @@ let assetid = "23wKfz3viWLmjWo2UZ7xWegjvnZFenGAVkouwQCeB9ubPXodG6"; //avaSeriali
 let mybalance = utxos.getBalance(myAddresses, assetid); //returns 400 as a BN
 ```
 
-我们有400枚硬币!我们现在要把100枚硬币发到我们朋友的地址。We have 400 coins! We’re going to now send 100 of those coins to our friend’s address.
+我们有400枚硬币!我们现在要把100枚硬币发到我们朋友的地址。
 
 ```text
 let sendAmount = new BN(100); //amounts are in BN format
@@ -60,10 +60,11 @@ let signedTx = unsignedTx.sign(myKeychain)
 let txid = await xchain.issueTx(signedTx);
 ```
 
-And the transaction is sent!
+交易发送完毕!
 
-## Get the status of the transaction <a id="get-the-status-of-the-transaction"></a>
+## 获取交易的状态
 
+现在我们将事务发送到网络，需要几秒钟来确定事务是否已经通过。我们可以通过X-Chain使用TxID获取交易的更新状态。
 Now that we sent the transaction to the network, it takes a few seconds to determine if the transaction has gone through. We can get an updated status on the transaction using the TxID through the X-Chain.
 
 ```text
@@ -93,6 +94,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMzI3NTYyLDE5ODc1MjM0ODgsLTEwMj
-g0MDQ0MjIsLTMyNDc1MzA3N119
+eyJoaXN0b3J5IjpbLTExMjU3MDA0NzAsMTk4NzUyMzQ4OCwtMT
+AyODQwNDQyMiwtMzI0NzUzMDc3XX0=
 -->
