@@ -1,5 +1,6 @@
 # 在X链上发送资产
 
+此示例将X链中的资产发送给单个接收者。这个过程的第一步是创建一个连接到我们所选择的Avalanche平台端点的Avalanche实例。
 This example sends an asset in the X-Chain to a single recipient. The first step in this process is to create an instance of Avalanche connected to our Avalanche Platform endpoint of choice.
 
 ```text
@@ -93,5 +94,5 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDc1MzA3N119
+eyJoaXN0b3J5IjpbLTEwMjg0MDQ0MjIsLTMyNDc1MzA3N119
 -->
