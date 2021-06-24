@@ -41,21 +41,19 @@ Avalanche可通过`npm`安装:
 
 这将生成一个纯Javascript库，并将其放在项目根目录下名为“web”的文件夹中。“avalanchejs”文件可以作为Avalanche的纯javascript实现放到任何项目中。
 
-This will generate a pure Javascript library and place it in a folder named “web” in the project root. The “avalanchejs” file can then be dropped into any project as a pure javascript implementation of Avalanche.
-
-The AvalancheJS library can be imported into your existing Node.js project as follows:
+AvalancheJS库可以导入到你现有的Node.js项目中，如下所示:
 
 ```text
 const avalanche = require("avalanche");
 ```
 
-Or into your TypeScript project like this:
+或者像这样进入你的TypeScript项目:
 
 ```text
 import { Avalanche } from "avalanche"
 ```
 
-## Importing essentials
+## 导入要件
 
 ```text
 import {
@@ -76,5 +74,5 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNzYyMzQ0XX0=
+eyJoaXN0b3J5IjpbMTUwOTg0MTQ5NF19
 -->
