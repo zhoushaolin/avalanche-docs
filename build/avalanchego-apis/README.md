@@ -13,9 +13,9 @@
 | [**健康 API**](health-api.md) | 允许客户端检查节点的运行状况。 |
 | [**信息 API**](info-api.md) | 允许客户端检查节点的基本信息。 |
 | [**IPC API**](ipc-api.md) | 允许用户创建供区块链发布到的UNIX域套接字。 |
-| [**Keystore API**](keystore-api.md) | Allows customers to use the embedded Keystore file of an Avalanche node. |
-| The [**Metrics API**](metrics-api.md) | Allows clients to get statistics about a node’s health and performance. |
+| [**密钥库 API**](keystore-api.md) | 允许客户使用Avalanche节点的嵌入式密钥库文件。|
+| The [**指标 API**](metrics-api.md) | Allows clients to get statistics about a node’s health and performance. |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjA0MzcyN119
+eyJoaXN0b3J5IjpbMTc1MzUxMzA4OV19
 -->
