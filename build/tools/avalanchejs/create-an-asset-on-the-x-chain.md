@@ -39,7 +39,6 @@ let denomination = 9;
 我们想要铸造一个资产，有400个硬币到我们所有的托管密钥，500到我们知道的第二个地址，600到第二个和第三个地址。这将设置将由创建资产产生的状态。
 
 _Note:这个例子假设我们已经在X链的Keychain中管理了密钥_
-_Note: This example assumes we have the keys already managed in our X-Chain’s Keychain._
 
 ```text
 let addresses = xchain.keyChain().getAddresses();
@@ -56,7 +55,7 @@ initialState.addOutput(secpOutput2);
 initialState.addOutput(secpOutput3);
 ```
 
-## Creating the signed transaction
+## 创建签名交易
 
 Now that we know what we want an asset to look like, we create an output to send to the network. There is an AVM helper function `buildCreateAssetTx()` which does just that.
 
@@ -122,5 +121,5 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIzMDUwOTddfQ==
+eyJoaXN0b3J5IjpbMjA5OTQ4MDY0Nl19
 -->
