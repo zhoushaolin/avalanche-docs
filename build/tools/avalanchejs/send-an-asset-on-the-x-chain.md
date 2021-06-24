@@ -34,14 +34,14 @@ let utxos = (await xchain.getUTXOs(myAddresses)).utxos;
 
 ## 花费UTXO
 
-The `buildBaseTx()` helper function sends a single asset type. We have a particular assetID whose coins we want to send to a recipient address. This is an imaginary asset for this example which we believe to have 400 coins. Let’s verify that we have the funds available for the transaction.
+`buildBaseTx()`助手函数发送一个资产类型。我们有一个特定的assetID，我们想将其硬币发送到一个接收地址。这是一个假想资产，我们认为它有400枚硬币。让我们验证一下是否有这笔交易可用的资金。
 
 ```text
 let assetid = "23wKfz3viWLmjWo2UZ7xWegjvnZFenGAVkouwQCeB9ubPXodG6"; //avaSerialized string
 let mybalance = utxos.getBalance(myAddresses, assetid); //returns 400 as a BN
 ```
 
-We have 400 coins! We’re going to now send 100 of those coins to our friend’s address.
+我们有400枚硬币!我们现在要把100枚硬币发到我们朋友的地址。We have 400 coins! We’re going to now send 100 of those coins to our friend’s address.
 
 ```text
 let sendAmount = new BN(100); //amounts are in BN format
@@ -93,6 +93,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTkwODIwNSwxOTg3NTIzNDg4LC0xMD
-I4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
+eyJoaXN0b3J5IjpbNDgxMzI3NTYyLDE5ODc1MjM0ODgsLTEwMj
+g0MDQ0MjIsLTMyNDc1MzA3N119
 -->
