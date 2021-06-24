@@ -1,4 +1,4 @@
-# Send an Asset on the X-Chain
+# 在X链上发送资产
 
 This example sends an asset in the X-Chain to a single recipient. The first step in this process is to create an instance of Avalanche connected to our Avalanche Platform endpoint of choice.
 
@@ -92,3 +92,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMyNDc1MzA3N119
+-->
