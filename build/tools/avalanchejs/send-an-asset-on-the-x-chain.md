@@ -73,13 +73,12 @@ let status = await xchain.getTxStatus(txid);
 
 状态可以是“已接受”、“处理中”、“未知”和“拒绝”中的一种:
 
-*“已接受”表示该交易已被网络接受为有效并已执行
-* “处理中”表示正在对事务进行投票。
-* “Unknown” indicates that node knows nothing about the transaction, indicating the node doesn’t have it
-* “Rejected” indicates the node knows about the transaction, but it conflicted with an accepted transaction
+* “已接受”表示该交易已被网络接受为有效并已执行
+* “处理中”表示正在对交易进行投票。
+* “未知”表示节点不知道该交易，表示该节点没有该交易
+* “拒绝”表示节点知道交易，但它与已接受的交易发生冲突
 
-## Check the results <a id="check-the-results"></a>
-
+## 检查结果
 The transaction finally came back as “Accepted”, now let’s update the UTXOSet and verify that the transaction balance is as we expected.
 
 _Note: In a real network the balance isn’t guaranteed to match this scenario. Transaction fees or additional spends may vary the balance. For the purpose of this example, we assume neither of those cases._
@@ -93,6 +92,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjc4ODc4OCwxOTg3NTIzNDg4LC0xMD
+eyJoaXN0b3J5IjpbLTkxMjU3NDE4MSwxOTg3NTIzNDg4LC0xMD
 I4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
 -->
