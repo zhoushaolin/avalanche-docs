@@ -14,15 +14,15 @@ AvalancheJS是一个JavaScript库，用于与[Avalanche](.. ./.. ./../# Avalanch
 
 我们在构建AvalancheJS时考虑到了易用性。有了这个库，任何Javascript开发人员都能够与Avalanche平台上的一个节点交互，该节点已启用API端点供开发人员使用。我们保持更新库的最新变化[雪崩平台规范](https://docs.avax.network/)。
 
-Using AvalancheJS, developers can:
+使用AvalancheJS，开发者可以:
 
-* Locally manage private keys
-* Retrieve balances on addresses
-* Get UTXOs for addresses
-* Build and sign transactions
-* Issue signed transactions to the X-Chain
-* Create a Subnetwork
-* Administer a local node
+* 本地管理私钥
+* 检索地址上的余额
+* 获取UTXO地址
+* 构建和签署交易
+* 向X链发行已签署的交易
+* 创建子网
+* 管理本地节点
 * Retrieve Avalanche network information from a node
 
 ## Requirements
@@ -74,5 +74,5 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDc4OTIzMF19
+eyJoaXN0b3J5IjpbMTEyNzY4NjY0OF19
 -->
