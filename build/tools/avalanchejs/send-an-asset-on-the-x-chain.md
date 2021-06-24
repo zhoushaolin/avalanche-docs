@@ -16,9 +16,9 @@ let avax = new avalanche.Avalanche("localhost", 9650, "http", myNetworkID, myBlo
 let xchain = avax.XChain(); //returns a reference to the X-Chain used by AvalancheJS
 ```
 
-我们还假设密钥存储库包含此交易中使用的地址列表。We’re also assuming that the keystore contains a list of addresses used in this transaction.
+我们还假设密钥存储库包含此交易中使用的地址列表。
 
-## Getting the UTXO Set <a id="getting-the-utxo-set"></a>
+## 获取UTXO集 
 
 The X-Chain stores all available balances in a datastore called Unspent Transaction Outputs \(UTXOs\). A UTXO Set is the unique list of outputs produced by transactions, addresses that can spend those outputs, and other variables such as lockout times \(a timestamp after which the output can be spent\) and thresholds \(how many signers are required to spend the output\).
 
@@ -93,6 +93,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5NjU3NzA0LC0xMDI4NDA0NDIyLC0zMj
-Q3NTMwNzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjE0ODIzNiwtMTAyODQwNDQyMiwtMz
+I0NzUzMDc3XX0=
 -->
