@@ -1,14 +1,14 @@
-# Ortelius Release Notes
+# Ortelius 发布说明
 
-## Ortelius Release Notes v1.1.1 \([View on GitHub](https://github.com/ava-labs/ortelius/releases/tag/v1.1.1)\)
+## Ortelius 发布说明 v1.1.1 \([在GitHub上查看](https://github.com/ava-labs/ortelius/releases/tag/v1.1.1)\)
 
 ![Ortelius release notes v1.1.1.png](../../.gitbook/assets/Ortelius-release-notes-v1.1.1.png)
 
-Breaking changes:
+突发的变化:
 
-* None
+* 没有
 
-Behavioral changes:
+行为变化:
 
 * Round times to 1 second precisions
 
@@ -20,3 +20,6 @@ Other changes:
 
 For assistance with this update, follow our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq), if you are still running into issues you can join our [Discord](https://chat.avax.network) for help.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUyNDg4OTk5NV19
+-->
