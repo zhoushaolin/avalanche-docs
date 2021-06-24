@@ -102,18 +102,18 @@ let txid = await xchain.issueTx(signed.toBuffer()); //returns a CB58 serialized 
 
 ## 获取交易的状态 
 
-现在我们将交易发送到网络，需要几秒钟来确定交易是否已经通过。我们可以通过AVM API使用TxID获取交易的更新状态。Now that we sent the transaction to the network, it takes a few seconds to determine if the transaction has gone through. We can get an updated status on the transaction using the TxID through the AVM API.
+现在我们将交易发送到网络，需要几秒钟来确定交易是否已经通过。我们可以通过AVM API使用TxID获取交易的更新状态。
 
 ```text
 // returns one of: "Accepted", "Processing", "Unknown", and "Rejected"
 let status = await xchain.getTxStatus(txid);
 ```
 
-The statuses can be one of “Accepted”, “Processing”, “Unknown”, and “Rejected”:
+状态可以是“已接受”、“处理中”、“未知”和“拒绝”中的一种:
 
-* “Accepted” indicates that the transaction has been accepted as valid by the network and executed
-* “Processing” indicates that the transaction is being voted on.
-* “Unknown” indicates that node knows nothing about the transaction, indicating the node doesn’t have it
+* “已接受”表示该事务已被网络接受为有效并已执行
+* “处理中”表示正在对事务进行投票。
+* “未知”表示节点不知道该事务，表示该节点没有该事务
 * “Rejected” indicates the node knows about the transaction, but it conflicted with an accepted transaction
 
 ## Identifying the newly created asset <a id="identifying-the-newly-created-asset"></a>
@@ -121,5 +121,5 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MzA5MzI0LDIwOTk0ODA2NDZdfQ==
+eyJoaXN0b3J5IjpbLTIzNTU2NzI3MiwyMDk5NDgwNjQ2XX0=
 -->
