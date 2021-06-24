@@ -30,13 +30,13 @@ let myKeychain = xchain.keyChain();
 
 ## 创建X链密钥对
 
-The KeyChain has the ability to create new KeyPairs for you and return the address associated with the key pair.
+密钥链能够为您创建新的密钥对，并返回与密钥对关联的地址。
 
 ```text
 let newAddress1 = myKeychain.makeKey(); //returns a Buffer for the address
 ```
 
-You may also import your existing private key into the KeyChain using either a Buffer…
+您也可以将现有的私钥导入到密钥链中使用Buffer…
 
 ```text
 let mypk = bintools.avaDeserialize("24jUJ9vZexUM6expyMcT48LBx27k1m7xpraoV62oSQAHdziao5"); //returns a Buffer
@@ -88,5 +88,5 @@ let isValid = keypair.verify(message, signature); //returns a boolean
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyOTAyOTgyXX0=
+eyJoaXN0b3J5IjpbMTE5NTIxNzY3M119
 -->
