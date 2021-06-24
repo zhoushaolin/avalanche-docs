@@ -57,7 +57,7 @@ initialState.addOutput(secpOutput3);
 
 ## 创建签名交易
 
-Now that we know what we want an asset to look like, we create an output to send to the network. There is an AVM helper function `buildCreateAssetTx()` which does just that.
+现在我们知道了我们想要的资产的样子，我们创建一个输出发送到网络。有一个AVM助手函数`buildCreateAssetTx()` 就是这样做的。
 
 ```text
 // Fetch the UTXOSet for our addresses
@@ -77,9 +77,11 @@ let unsigned = await xchain.buildCreateAssetTx(
 let signed = xchain.keyChain().signTx(unsigned); //returns a Tx class
 ```
 
-## Issue the signed transaction
+## 发布已签名的交易
 
-Now that we have a signed transaction ready to send to the network, let’s issue it!
+现在我们已经有了一个可以发送到网络的已签名事务，让我们发布它吧!
+
+使用AvalancheJS X-Chain API，我们将调用issueTx函数。这个函数可以接受上一步返回的Tx类、事务的[CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58)表示，或者带有事务数据的原始Buffer类。以下是它们各自的例子:
 
 Using the AvalancheJS X-Chain API, we going to call the issueTx function. This function can take either the Tx class returned in the previous step, a [CB58](http://support.avalabs.org/en/articles/4587395-what-is-cb58) representation of the transaction, or a raw Buffer class with the data for the transaction. Examples of each are below:
 
@@ -121,5 +123,5 @@ The statuses can be one of “Accepted”, “Processing”, “Unknown”, and 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the “AssetID” of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTQ4MDY0Nl19
+eyJoaXN0b3J5IjpbLTE5NjU1NjY2MTIsMjA5OTQ4MDY0Nl19
 -->
