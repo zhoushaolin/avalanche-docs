@@ -80,9 +80,10 @@ let status = await xchain.getTxStatus(txid);
 
 ## 检查结果
 
-The transaction finally came back as “Accepted”, now let’s update the UTXOSet and verify that the transaction balance is as we expected.
+事务最终返回为“Accepted”，现在让我们更新UTXO集并验证交易余额是否如预期的那样。
 
-_Note: In a real network the balance isn’t guaranteed to match this scenario. Transaction fees or additional spends may vary the balance. For the purpose of this example, we assume neither of those cases._
+_Note:在真实的网络中，不保证平衡匹配这个场景。交易费用或额外支出可能会改变余额。就本例而言，我们假设这两种情况都不存在_
+Note: In a real network the balance isn’t guaranteed to match this scenario. Transaction fees or additional spends may vary the balance. For the purpose of this example, we assume neither of those cases._
 
 ```text
 let updatedUTXOs = await xchain.getUTXOs();
@@ -93,6 +94,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzcyNjIxNjMsLTkxMjU3NDE4MSwxOT
-g3NTIzNDg4LC0xMDI4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
+eyJoaXN0b3J5IjpbMTMyNTAwMDI2MSwtOTEyNTc0MTgxLDE5OD
+c1MjM0ODgsLTEwMjg0MDQ0MjIsLTMyNDc1MzA3N119
 -->
