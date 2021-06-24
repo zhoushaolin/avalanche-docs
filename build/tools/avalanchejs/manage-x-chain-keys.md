@@ -50,7 +50,7 @@ let mypk = "24jUJ9vZexUM6expyMcT48LBx27k1m7xpraoV62oSQAHdziao5";
 let newAddress2 = myKeychain.importKey(mypk); //returns a Buffer for the address
 ```
 
-## shi yo Keychains 
+## 使用密钥链
 
 X链的密钥链具有标准化的密钥管理能力。以下功能在任何实现此接口的密钥链上都可用。
 
@@ -61,9 +61,9 @@ let exists = myKeychain.hasKey(newAddress1); //returns true if the address is ma
 let keypair = myKeychain.getKey(newAddress1); //returns the KeyPair class
 ```
 
-## Working with Keypairs <a id="working-with-keypairs"></a>
+## 使用密钥对
 
-The X-Chain’s KeyPair has standardized KeyPair functionality. The following operations are available on any KeyPair that implements this interface.
+X链的密钥对已经标准化了密钥对功能。以下操作可在任何实现此接口的密钥对上执行。
 
 ```text
 let address = keypair.getAddress(); //returns Buffer
@@ -88,5 +88,5 @@ let isValid = keypair.verify(message, signature); //returns a boolean
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY5ODQ1MDRdfQ==
+eyJoaXN0b3J5IjpbLTk4ODczNzYwOF19
 -->
