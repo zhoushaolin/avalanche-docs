@@ -24,7 +24,7 @@ X链将所有可用余额存储在一个名为Unspent Transaction Outputs\(UTXOs
 
 在本例中，我们将创建一个简单的交易，花费一定数量的可用硬币，并将其不受任何限制地发送到单个地址。UTXO的管理大部分将被抽象掉。
 
-However, we do need to get the UTXO Set for the addresses we’re managing.
+但是，我们确实需要为所管理的地址获取UTXO 集。
 
 ```text
 let myAddresses = xchain.keyChain().getAddresses(); //returns an array of addresses the KeyChain manages
@@ -32,7 +32,7 @@ let addressStrings = xchain.keyChain().getAddressStrings(); //returns an array o
 let utxos = (await xchain.getUTXOs(myAddresses)).utxos;
 ```
 
-## Spending the UTXOs <a id="spending-the-utxos"></a>
+## 花费UTXO
 
 The `buildBaseTx()` helper function sends a single asset type. We have a particular assetID whose coins we want to send to a recipient address. This is an imaginary asset for this example which we believe to have 400 coins. Let’s verify that we have the funds available for the transaction.
 
@@ -93,6 +93,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzUyMzQ4OCwtMTAyODQwNDQyMiwtMz
-I0NzUzMDc3XX0=
+eyJoaXN0b3J5IjpbMjA5OTkwODIwNSwxOTg3NTIzNDg4LC0xMD
+I4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
 -->
