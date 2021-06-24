@@ -21,12 +21,12 @@
 * [管理员 API](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_admin.md)
 * [AVM API](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm.md)
   * [AVM BaseTx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_basetx.md)
-  * [AVM Constants](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_constants.md)
-  * [AVM CreateAssetTx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_createassettx.md)
-  * [AVM Credentials](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_credentials.md)
-  * [AVM ExportTx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_exporttx.md)
-  * [AVM ImportTx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_importtx.md)
-  * [AVM InitialStates](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_initialstates.md)
+  * [AVM 常量](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_constants.md)
+  * [AVM 创建资产Tx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_createassettx.md)
+  * [AVM 凭据](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_credentials.md)
+  * [AVM 导出Tx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_exporttx.md)
+  * [AVM 导入Tx](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_importtx.md)
+  * [AVM 初始状态](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_initialstates.md)
   * [AVM Inputs](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_inputs.md)
   * [AVM KeyChain](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_keychain.md)
   * [AVM MinterSet](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/api_avm_minterset.md)
@@ -89,5 +89,5 @@
 * [src/utils](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_utils.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg0Njk2NDhdfQ==
+eyJoaXN0b3J5IjpbNjc2MTk0NDAyXX0=
 -->
