@@ -1,11 +1,10 @@
 # AvalancheGo API
 
-客户端通过对节点的API调用与Avalanche交互。API调用中的数值参数可以以字符串的形式给出\(例如, `"5"` 或`5` 都可以作为整数参数\)。数值返回值总是以字符串的形式给出\(例如, `"5"` 而不是 `5`\)。在示例中，API调用被发送到' 127.0.0.1:9650 '上监听HTTP流量的节点。
-Clients interact with Avalanche through APIs calls to nodes. Numeric parameters in API calls may be given as strings \(e.g., `"5"` or `5` are both ok for an integer argument\). Numeric return values are always given as strings \(e.g., `"5"` rather than `5`\). In examples, API calls are made to a node listening for HTTP traffic on `127.0.0.1:9650`.
+客户端通过对节点的API调用与Avalanche交互。API调用中的数值参数可以以字符串的形式给出\(例如, `"5"` 或`5` 都可以作为整数参数\)。数值返回值总是以字符串的形式给出\(例如, `"5"` 而不是 `5`\)。在示例中，API调用被发送到`127.0.0.1:9650`上监听HTTP流量的节点。
 
-| Title | Description |
+| 标题 | 描述 |
 | :--- | :--- |
-| [**Issuing API Calls**](issuing-api-calls.md) | This guide explains how to make calls to APIs exposed by Avalanche nodes. |
+| [**发布API调用**](issuing-api-calls.md) | 本指南解释了如何调用Avalanche节点公开的API。|
 | The [**Platform Chain \(P-Chain\) API**](platform-chain-p-chain-api.md) | Allows clients to interact with the P-Chain \(Platform Chain\), which maintains Avalanche’s validator set and handles blockchain and subnet creation. |
 | The [**Contract Chain \(C-Chain\) API**](contract-chain-c-chain-api.md) | Allows clients to interact with the C-Chain, Avalanche’s main EVM instance, as well as other EVM instances. |
 | The [**Exchange Chain \(X-Chain\) API**](exchange-chain-x-chain-api.md) | Allows clients to create and trade assets, including AVAX, on the X-Chain as well as other instances of the AVM. |
@@ -18,5 +17,5 @@ Clients interact with Avalanche through APIs calls to nodes. Numeric parameters 
 | The [**Metrics API**](metrics-api.md) | Allows clients to get statistics about a node’s health and performance. |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE2ODc4MTZdfQ==
+eyJoaXN0b3J5IjpbMTI4ODU1MTQ3NF19
 -->
