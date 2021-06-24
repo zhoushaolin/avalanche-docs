@@ -20,6 +20,7 @@ let xchain = avax.XChain(); //returns a reference to the X-Chain used by Avalanc
 
 ## 获取UTXO集 
 
+X链将所有可用余额存储在一个名为Unspent Transaction Outputs (utxo \)的数据存储中。UTXO Set是由事务产生的输出的唯一列表，可以使用这些输出的地址，以及其他变量，如锁定时间(在此之后可以使用输出的时间戳)和阈值(需要多少签名者使用输出)。
 The X-Chain stores all available balances in a datastore called Unspent Transaction Outputs \(UTXOs\). A UTXO Set is the unique list of outputs produced by transactions, addresses that can spend those outputs, and other variables such as lockout times \(a timestamp after which the output can be spent\) and thresholds \(how many signers are required to spend the output\).
 
 For the case of this example, we’re going to create a simple transaction that spends an amount of available coins and sends it to a single address without any restrictions. The management of the UTXOs will mostly be abstracted away.
@@ -93,6 +94,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE0ODIzNiwtMTAyODQwNDQyMiwtMz
+eyJoaXN0b3J5IjpbMTYzNTAxMjM2NCwtMTAyODQwNDQyMiwtMz
 I0NzUzMDc3XX0=
 -->
