@@ -9,13 +9,13 @@
 | [**合约链\(C链\) API**](contract-chain-c-chain-api.md) | 允许客户端与C链、Avalanche的主EVM实例以及其他EVM实例交互。 |
 | [**交易链\(X链\) API**](exchange-chain-x-chain-api.md) |允许客户在X链以及AVM的其他实例上创建和交易资产，包括AVAX。 |
 | [**管理员 API**](admin-api.md) | 允许客户端检查节点的内部状态、连接集和类似的内部协议数据。 |
-| [**授权 API**](auth-api.md) | 允许客户端管理授权dai bi的创建和撤销。 |
-| The [**Health API**](health-api.md) | Allows clients to check a node’s health. |
-| The [**Info API**](info-api.md) | Allows clients to examine basic information about a node. |
-| The [**IPC API**](ipc-api.md) | Allows users to create UNIX domain sockets for blockchains to publish to. |
-| The [**Keystore API**](keystore-api.md) | Allows customers to use the embedded Keystore file of an Avalanche node. |
+| [**授权 API**](auth-api.md) | 允许客户端管理授权代币的创建和撤销。 |
+| [**健康 API**](health-api.md) | 允许客户端检查节点的运行状况。 |
+| [**信息 API**](info-api.md) | 允许客户端检查节点的基本信息。 |
+| [**IPC API**](ipc-api.md) | 允许用户创建供区块链发布到的UNIX域套接字。 |
+| [**Keystore API**](keystore-api.md) | Allows customers to use the embedded Keystore file of an Avalanche node. |
 | The [**Metrics API**](metrics-api.md) | Allows clients to get statistics about a node’s health and performance. |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4Mzc5Mzg0XX0=
+eyJoaXN0b3J5IjpbLTI5NjA0MzcyN119
 -->
