@@ -1,11 +1,11 @@
 # AvalancheJS
 
-AvalancheJS is a JavaScript Library for interfacing with the [Avalanche](../../../#avalanche) platform. It is built using TypeScript and intended to support both browser and Node.js. The AvalancheJS library allows one to issue commands to the Avalanche node APIs.
+AvalancheJS是一个JavaScript库，用于与[Avalanche](.. ./.. ./../# Avalanche)平台对接。它使用TypeScript构建，旨在同时支持browser和Node.js。AvalancheJS库允许向Avalanche节点API发出命令。
 
-The APIs currently supported by default are:
+目前默认支持的API是:
 
-* Admin API
-* AVM API \(X-Chain\)
+* 管理员API
+* AVM API \(X-Cha\)
 * Health API
 * Info API
 * Keystore API
@@ -73,3 +73,6 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * buffer: A Buffer library.
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTc4MDI3MjM3XX0=
+-->
