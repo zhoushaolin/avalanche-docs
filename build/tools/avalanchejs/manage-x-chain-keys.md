@@ -20,16 +20,15 @@ let xchain = ava.XChain(); //returns a reference to the X-Chain used by Avalanch
 
 ## 访问密钥链
 
-密钥链通过X链访问，可以直接引用KeyChain，也可以通过引用变量引用KeyChain。
-The KeyChain is accessed through the X-Chain and can be referenced directly or through a reference variable.
+密钥链通过X链访问，可以直接引用密钥链，也可以通过引用变量引用密钥链。
 
 ```text
 let myKeychain = xchain.keyChain();
 ```
 
-This exposes the instance of the class AVMKeyChain which is created when the X-Chain API is created. At present, this supports secp256k1 curve for ECDSA key pairs.
+这将公开类AVM密钥链的实例，该实例是在创建X链API时创建的。目前，它支持ECDSA密钥对的secp256k1曲线。
 
-## Creating X-Chain Key Pairs <a id="creating-x-chain-key-pairs"></a>
+## 创建X链密钥对
 
 The KeyChain has the ability to create new KeyPairs for you and return the address associated with the key pair.
 
@@ -89,5 +88,5 @@ let isValid = keypair.verify(message, signature); //returns a boolean
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MDQ5MTI3XX0=
+eyJoaXN0b3J5IjpbOTkyOTAyOTgyXX0=
 -->
