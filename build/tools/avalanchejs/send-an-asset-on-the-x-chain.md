@@ -73,8 +73,8 @@ let status = await xchain.getTxStatus(txid);
 
 状态可以是“已接受”、“处理中”、“未知”和“拒绝”中的一种:
 
-* “Accepted” indicates that the transaction has been accepted as valid by the network and executed
-* “Processing” indicates that the transaction is being voted on.
+*“已接受”表示该交易已被网络接受为有效并已执行
+* “处理中”表示正在对事务进行投票。
 * “Unknown” indicates that node knows nothing about the transaction, indicating the node doesn’t have it
 * “Rejected” indicates the node knows about the transaction, but it conflicted with an accepted transaction
 
@@ -93,6 +93,6 @@ if(newBalance.toNumber() != mybalance.sub(sendAmount).toNumber()){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTg5MTIzMCwxOTg3NTIzNDg4LC0xMD
+eyJoaXN0b3J5IjpbMjA0Mjc4ODc4OCwxOTg3NTIzNDg4LC0xMD
 I4NDA0NDIyLC0zMjQ3NTMwNzddfQ==
 -->
