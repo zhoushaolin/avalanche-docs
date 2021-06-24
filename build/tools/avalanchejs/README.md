@@ -66,6 +66,7 @@ import {
 let bintools = BinTools.getInstance();
 ```
 
+上面的行导入教程中使用的库。这些库包括:
 The above lines import the libraries used in the tutorials. The libraries include:
 
 * avalanche: Our javascript module.
@@ -74,5 +75,5 @@ The above lines import the libraries used in the tutorials. The libraries includ
 * BinTools: A singleton built into AvalancheJS that is used for dealing with binary data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTg0MTQ5NF19
+eyJoaXN0b3J5IjpbMTc2MTU3ODQ0MiwxNTA5ODQxNDk0XX0=
 -->
