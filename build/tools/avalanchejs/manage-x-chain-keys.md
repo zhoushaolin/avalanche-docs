@@ -1,5 +1,6 @@
-# Manage X-Chain Keys
+# 管理X链密钥
 
+AvalancheJS自带AVM钥匙链。这个KeyChain用于API的函数中，使它们能够使用它注册的密钥进行签名。这个过程的第一步是创建一个连接到我们所选择的Avalanche平台端点的AvalancheJS实例。
 AvalancheJS comes with its own AVM Keychain. This KeyChain is used in the functions of the API, enabling them to sign using keys it’s registered. The first step in this process is to create an instance of AvalancheJS connected to our Avalanche platform endpoint of choice.
 
 ```text
@@ -87,3 +88,6 @@ let signerPubk = keypair.recover(message, signature);
 let isValid = keypair.verify(message, signature); //returns a boolean
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc1OTE1NTE5Ml19
+-->
