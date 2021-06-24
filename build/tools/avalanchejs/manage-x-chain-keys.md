@@ -50,9 +50,9 @@ let mypk = "24jUJ9vZexUM6expyMcT48LBx27k1m7xpraoV62oSQAHdziao5";
 let newAddress2 = myKeychain.importKey(mypk); //returns a Buffer for the address
 ```
 
-## Working with Keychains <a id="working-with-keychains"></a>
+## shi yo Keychains 
 
-X链的密钥链具有标准化的密钥管理能力。以下功能在任何实现此接口的密钥链上都可用。The X-Chains’s KeyChain has standardized key management capabilities. The following functions are available on any KeyChain that implements this interface.
+X链的密钥链具有标准化的密钥管理能力。以下功能在任何实现此接口的密钥链上都可用。
 
 ```text
 let addresses = myKeychain.getAddresses(); //returns an array of Buffers for the addresses
@@ -88,5 +88,5 @@ let isValid = keypair.verify(message, signature); //returns a boolean
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzEyNjc1MF19
+eyJoaXN0b3J5IjpbLTE4NjY5ODQ1MDRdfQ==
 -->
