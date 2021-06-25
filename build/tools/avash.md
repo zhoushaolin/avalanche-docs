@@ -47,29 +47,29 @@ log:
 ```text
 avalanche二进制文件路径。
 
-lei xing:
+类型:
   optional, <filepath>
 
-Default:
+默认:
   $GOPATH/src/github.com/ava-labs/avalanchego/build/avalanche
 ```
 
 **datadir**
 
 ```text
-Directory for Avash data store.
+Avash数据存储的目录。
 
-Type:
+类型:
   optional, <directory>
 
-Default:
+默认:
   $GOPATH/src/github.com/ava-labs/avash/stash
 ```
 
 **log.terminal**
 
 ```text
-Allowed output level for all messages logged to the shell terminal.
+允许所有记录到shell终端的消息的输出级别。
 
 Type:
   optional, <log-level>
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODIzOTU3MDYsMjAwMzM1MzAxLC01OD
-gwMjQwMywxNDY3NDY3NDYzXX0=
+eyJoaXN0b3J5IjpbMTg1NzIwMTgxOSwyMDAzMzUzMDEsLTU4OD
+AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
