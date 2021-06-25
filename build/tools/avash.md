@@ -135,11 +135,10 @@ Avash附带有以下根命令:
 * `varstore` - 用于创建变量存储和在其中打印变量的工具。
 
 这些可以用tab键枚举或自动完成，下面将详细说明。
-These can be enumerated or auto-completed using the tab key and are explained in detail below.
 
-**avawallet**
+**ava钱包**
 
-**Warning**: Like all things in Avash, this wallet is temporarily held in memory and all data is cleaned up on exit. This should be used for testing.
+**警告**: 和Avash中的所有东西一样，这个钱包暂时保存在内存中，所有数据在退出时都会被清除。这应该用于测试。
 
 ```text
 Tools for interacting with Avalanche Payments over the network. Using this 
@@ -351,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTQwMjUyMSwyMDAzMzUzMDEsLTU4OD
+eyJoaXN0b3J5IjpbMTg0NzU2Nzc4NywyMDAzMzUzMDEsLTU4OD
 AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
