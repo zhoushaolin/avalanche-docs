@@ -38,16 +38,16 @@ log:
 
 * `<filepath>` - 文件的完整路径。示例: `/home/username/file.txt`
 * `<directory>` - 目录的完整路径。示例: `/home/username/folder`
-* `<log-level>` - 过滤日志消息的有效日志级别。Must be one of: `{verbo, debug, info, warn, error, fatal, off}`
+* `<log-level>` - 过滤日志消息的有效日志级别。以下之一: `{verbo, debug, info, warn, error, fatal, off}`
 
-### Fields <a id="fields"></a>
+### 字段 
 
-**avalancheLocation**
+**avalanche位置**
 
 ```text
-File path to Avalanche binary.
+avalanche二进制文件路径。
 
-Type:
+lei xing:
   optional, <filepath>
 
 Default:
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDg2MjY1MSwyMDAzMzUzMDEsLTU4OD
-AyNDAzLDE0Njc0Njc0NjNdfQ==
+eyJoaXN0b3J5IjpbLTE4ODIzOTU3MDYsMjAwMzM1MzAxLC01OD
+gwMjQwMywxNDY3NDY3NDYzXX0=
 -->
