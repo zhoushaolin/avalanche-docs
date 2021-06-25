@@ -165,14 +165,14 @@ Available Commands:
 **callrpc**
 
 ```text
-Issues an RPC call to a node endpoint for the specified method and params.
-    Response is saved to the local varstore.
+为指定的方法和参数向节点端点发出RPC调用。
+将响应保存到本地varstore。
 
 Usage:
   callrpc [node name] [endpoint] [method] [JSON params] [var scope] [var name]
 ```
 
-**exit**
+**退出**
 
 ```text
 Exit the shell, attempting to gracefully stop all processes first.
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzU2Nzc4NywyMDAzMzUzMDEsLTU4OD
-AyNDAzLDE0Njc0Njc0NjNdfQ==
+eyJoaXN0b3J5IjpbLTE0MjY0MTM3ODMsMjAwMzM1MzAxLC01OD
+gwMjQwMywxNDY3NDY3NDYzXX0=
 -->
