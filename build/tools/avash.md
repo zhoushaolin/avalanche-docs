@@ -36,10 +36,9 @@ log:
 
 各字段参数说明如下:
 
-* `<filepath>` - 文件的完整路径。
-* 示例: `/home/username/file.txt`
-* `<directory>` - A full path to a directory. Example: `/home/username/folder`
-* `<log-level>` - A valid log level to filter logged messages. Must be one of: `{verbo, debug, info, warn, error, fatal, off}`
+* `<filepath>` - 文件的完整路径。示例: `/home/username/file.txt`
+* `<directory>` - 目录的完整路径。示例: `/home/username/folder`
+* `<log-level>` - 过滤日志消息的有效日志级别。Must be one of: `{verbo, debug, info, warn, error, fatal, off}`
 
 ### Fields <a id="fields"></a>
 
@@ -351,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzM1MzAxLC01ODgwMjQwMywxNDY3ND
-Y3NDYzXX0=
+eyJoaXN0b3J5IjpbMTc1MDg2MjY1MSwyMDAzMzUzMDEsLTU4OD
+AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
