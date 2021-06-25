@@ -13,14 +13,15 @@ Avash提供了运行Lua脚本的能力，这些脚本可以在Avash中执行一�
 
 ### 快速安装 
 
-1. Install and build an Avalanche client
+1. 安装并构建一个Avalanche客户端
 2. `cd $GOPATH`
 3. `go get github.com/ava-labs/avash`
 4. `cd src/github.com/ava-labs/avash`
 5. `go build`
 
-## Configuration <a id="configuration"></a>
+## 配置 
 
+虽然Avash可以在没有预先配置文件的情况下启动，但它可以作为一个选项来调整一些shell的全局设置。Avash会搜索`.avash.yaml`在`$HOME`目录下的yaml '，但是'——config '标志可以用来设置一个自定义的配置文件路径来查找。
 While Avash can be started without a premade configuration file, it’s available as an option for tweaking some of the shell’s global settings. Avash will search for `.avash.yaml` in the `$HOME` directory by default, but the `--config` flag can be used to set a custom configuration filepath to look for.
 
 Below is the format of an Avash configuration file:
@@ -350,5 +351,5 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYzNDc2MTYsMTQ2NzQ2NzQ2M119
+eyJoaXN0b3J5IjpbLTE1Mzg1MTE1MDYsMTQ2NzQ2NzQ2M119
 -->
