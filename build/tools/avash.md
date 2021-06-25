@@ -4,14 +4,14 @@ Avash是一个临时状态的shell执行环境，用于部署本地和远程网�
 
 Avash提供了运行Lua脚本的能力，这些脚本可以在Avash中执行一系列shell命令。这允许常规任务的自动化。例如，可以创建一个Lua脚本来部署Avalanche节点网络，其中每个节点都有一些给定的配置。这使得测试更容易。
 
-## Installation <a id="installation"></a>
+## 安装
 
-### Requirements <a id="requirements"></a>
+### 要求
 
-* Golang 1.15.5 or later
-* An Avalanche Client Implementing Avalanche Standard CLI Flags”
+* Golang 1.15.5 或者更新
+* 雪崩客户端实现雪崩标准CLI标志"
 
-### Quick Setup <a id="quick-setup"></a>
+### 快速安装 
 
 1. Install and build an Avalanche client
 2. `cd $GOPATH`
@@ -350,5 +350,5 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTYzMTE0MCwxNDY3NDY3NDYzXX0=
+eyJoaXN0b3J5IjpbLTEyMzYzNDc2MTYsMTQ2NzQ2NzQ2M119
 -->
