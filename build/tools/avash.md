@@ -130,10 +130,11 @@ Avash附带有以下根命令:
 * `network` - 用于与远程主机接口的工具。
 * `procmanager` - 访问avash客户机的进程管理器。
 * `runscript` - 运行提供的脚本。
-* `setoutput` - Sets shell log output.
-* `startnode` - Starts a node process and gives it a name.
-* `varstore` - Tools for creating variable stores and printing variables within them.
+* `setoutput` - 设置shell日志输出。
+* `startnode` - 启动节点进程并为其命名。
+* `varstore` - 用于创建变量存储和在其中打印变量的工具。
 
+这些可以用tab键枚举或自动完成，下面将详细说明。
 These can be enumerated or auto-completed using the tab key and are explained in detail below.
 
 **avawallet**
@@ -350,6 +351,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODU5MjM1NSwyMDAzMzUzMDEsLTU4OD
+eyJoaXN0b3J5IjpbMTg5MTQwMjUyMSwyMDAzMzUzMDEsLTU4OD
 AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
