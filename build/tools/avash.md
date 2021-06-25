@@ -186,20 +186,17 @@ Available Commands:
 ```text
 为应用程序中的所有命令提供帮助。
 只需输入avash help[命令路径]即可获得详细信息。
-Help provides help for any command in the application.
-Simply type avash help [path to command] for full details.
 
-Usage:
+用法:
   avash help [command] [flags]
 ```
 
-**network**
+**网络**
 
 ```text
-Tools for interfacing with remote hosts. Using this command we can
-  deploy and remove node networks via SSH and a configuration file.
+用于与远程主机接口的工具。使用这个命令我们可以通过SSH和配置文件部署和删除节点网络。
 
-Usage:
+用法:
   avash network [command] [flags]
 
 Available Commands:
@@ -352,6 +349,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM0MzEyNDcsMjAwMzM1MzAxLC01OD
-gwMjQwMywxNDY3NDY3NDYzXX0=
+eyJoaXN0b3J5IjpbLTkzMTk1NjY1MywyMDAzMzUzMDEsLTU4OD
+AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
