@@ -71,40 +71,40 @@ Avash数据存储的目录。
 ```text
 允许所有记录到shell终端的消息的输出级别。
 
-Type:
+类型:
   optional, <log-level>
 
-Default:
+默认:
   info
 ```
 
 **log.logfile**
 
 ```text
-Allowed output level for all messages logged to the log file.
+允许记录到日志文件中的所有消息的输出级别。
 
-Type:
+类型:
   optional, <log-level>
 
-Default:
+默认:
   info
 ```
 
 **log.dir**
 
 ```text
-Directory for log file.
+日志文件的目录。
 
-Type:
+类型:
   optional, <directory>
 
-Default:
+默认:
   <datadir>/logs
 ```
 
-## Using Avash <a id="using-avash"></a>
+## 使用 Avash 
 
-### Opening a shell <a id="opening-a-shell"></a>
+### 打开一个shell
 
 Start a new instance of Avash with `./avash`.
 
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzIwMTgxOSwyMDAzMzUzMDEsLTU4OD
+eyJoaXN0b3J5IjpbMTc1NTg2ODY1MiwyMDAzMzUzMDEsLTU4OD
 AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
