@@ -106,11 +106,11 @@ Avash数据存储的目录。
 
 ### 打开一个shell
 
-Start a new instance of Avash with `./avash`.
+使用`./avash`启动一个新的Avash实例。
 
-Run `help` to see the commands available.
+运行`help` 查看可用的命令。
 
-We can also run `help [command]` to see the list of options available for that command.
+我们还可以运行`help [command]`来查看该命令可用的选项列表。
 
 Ex:
 
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTg2ODY1MiwyMDAzMzUzMDEsLTU4OD
-AyNDAzLDE0Njc0Njc0NjNdfQ==
+eyJoaXN0b3J5IjpbNzYwNTg4MTU5LDIwMDMzNTMwMSwtNTg4MD
+I0MDMsMTQ2NzQ2NzQ2M119
 -->
