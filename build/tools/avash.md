@@ -1,6 +1,6 @@
 # Avash
 
-Avash是一个临时的有状态shell执行环境，用于部署本地和远程网络并在其上运行测试。当Avash退出时，将退出本地部署的Avalanche节点。
+Avash是一个临时状态的shell执行环境，用于部署本地和远程网络并在其上运行测试。当Avash退出时，将退出本地部署的Avalanche节点。
 Avash is a temporary stateful shell execution environment used to deploy local and remote networks and run tests on them. Avalanche nodes locally deployed by Avash are exited when Avash exits.
 
 Avash provides the ability to run Lua scripts which can execute a sequence of shell commands in Avash. This allows for automation of regular tasks. For instance, one could create a Lua script to deploy a network of Avalanche nodes where each node has some given configuration. This makes testing easier.
@@ -351,5 +351,5 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzQ2NzQ2M119
+eyJoaXN0b3J5IjpbLTEyNjQ4NjA2OTgsMTQ2NzQ2NzQ2M119
 -->
