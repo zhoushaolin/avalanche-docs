@@ -78,17 +78,17 @@
 * [Utils 序列化](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/utils_serialization.md)
 * [源文件/apis/管理](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_admin.md)
 * [源文件/apis/授权](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_auth.md)
-* [src/apis/avm](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_avm.md)
-* [src/apis/evm](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_evm.md)
-* [src/apis/健康](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_health.md)
-* [src/apis/信息](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_info.md)
-* [src/apis/密钥库](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_keystore.md)
-* [src/apis/指标](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_metrics.md)
-* [src/apis/平台vm](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_platformvm.md)
-* [src/常见](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_common.md)
-* [src/utils](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_utils.md)
+* [源文件/apis/avm](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_avm.md)
+* [源文件/apis/evm](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_evm.md)
+* [源文件/apis/健康](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_health.md)
+* [源文件/apis/信息](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_info.md)
+* [源文件/apis/密钥库](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_keystore.md)
+* [源文件/apis/指标](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_metrics.md)
+* [源文件/apis/平台vm](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_apis_platformvm.md)
+* [源文件/常见](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_common.md)
+* [源文件/utils](https://github.com/ava-labs/avalanche-docs/tree/2c498d5b84997c76ce0bae8178200ee940a28911/build/tools/avalanchejs/modules/src_utils.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTM4NDM5Niw1NzYxNDMwNTYsLTU4MD
+eyJoaXN0b3J5IjpbLTExNjQxMzE2MSw1NzYxNDMwNTYsLTU4MD
 gyOTMwNywxMDEyNTYzOTc1XX0=
 -->
