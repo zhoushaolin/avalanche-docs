@@ -168,22 +168,24 @@ Available Commands:
 为指定的方法和参数向节点端点发出RPC调用。
 将响应保存到本地varstore。
 
-Usage:
+用法:
   callrpc [node name] [endpoint] [method] [JSON params] [var scope] [var name]
 ```
 
 **退出**
 
 ```text
-Exit the shell, attempting to gracefully stop all processes first.
+退出shell，尝试先优雅地停止所有进程。
 
-Usage:
+用法:
   avash exit
 ```
 
-**help**
+**帮助**
 
 ```text
+为应用程序中的所有命令提供帮助。
+只需输入avash help[命令路径]即可获得详细信息。
 Help provides help for any command in the application.
 Simply type avash help [path to command] for full details.
 
@@ -350,6 +352,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY0MTM3ODMsMjAwMzM1MzAxLC01OD
+eyJoaXN0b3J5IjpbLTE3NDM0MzEyNDcsMjAwMzM1MzAxLC01OD
 gwMjQwMywxNDY3NDY3NDYzXX0=
 -->
