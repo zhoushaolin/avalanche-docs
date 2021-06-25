@@ -119,11 +119,11 @@ help procmanager
 help procmanager start
 ```
 
-### Commands <a id="commands"></a>
+### 命令
 
-Avash comes with the following root commands:
+Avash附带有以下根命令: 
 
-* `avawallet` - Tools for interacting with Avalanche Payments over the network.
+* `avawallet` - 通过网络与雪崩支付交互的工具。Tools for interacting with Avalanche Payments over the network.
 * `callrpc` - Issues an RPC call to a node.
 * `exit` - Exit the shell.
 * `help` - Help about any command.
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNTg4MTU5LDIwMDMzNTMwMSwtNTg4MD
+eyJoaXN0b3J5IjpbNzA3NDkwNDY5LDIwMDMzNTMwMSwtNTg4MD
 I0MDMsMTQ2NzQ2NzQ2M119
 -->
