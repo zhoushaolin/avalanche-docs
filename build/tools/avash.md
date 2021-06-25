@@ -123,13 +123,13 @@ help procmanager start
 
 Avash附带有以下根命令: 
 
-* `avawallet` - 通过网络与雪崩支付交互的工具。Tools for interacting with Avalanche Payments over the network.
-* `callrpc` - Issues an RPC call to a node.
-* `exit` - Exit the shell.
-* `help` - Help about any command.
-* `network` - Tools for interfacing with remote hosts.
-* `procmanager` - Access the process manager for the avash client.
-* `runscript` - Runs the provided script.
+* `avawallet` - 通过网络与雪崩支付交互的工具。
+* `callrpc` - 向节点发出RPC调用。
+* `exit` - 退出shell。
+* `help` - 关于所有命令的帮助。
+* `network` - 用于与远程主机接口的工具。
+* `procmanager` - 访问avash客户机的进程管理器。
+* `runscript` - 运行提供的脚本。
 * `setoutput` - Sets shell log output.
 * `startnode` - Starts a node process and gives it a name.
 * `varstore` - Tools for creating variable stores and printing variables within them.
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NDkwNDY5LDIwMDMzNTMwMSwtNTg4MD
-I0MDMsMTQ2NzQ2NzQ2M119
+eyJoaXN0b3J5IjpbMTU0ODU5MjM1NSwyMDAzMzUzMDEsLTU4OD
+AyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
