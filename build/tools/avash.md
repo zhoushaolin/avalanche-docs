@@ -206,7 +206,7 @@ Available Commands:
 
 **配置**
 
-要部署和删除网络，请需要`.yaml`的网络配置文件。一个例子是在Avash代码库' network/example.network.yaml '中提供的，应该有以下格式:
+要部署和删除网络，需要`.yaml`的网络配置文件。一个例子是在Avash代码库' network/example.network.yaml '中提供的，应该有以下格式:
 To deploy and remove networks, a `.yaml` network configuration file is required. An example is provided in the Avash codebase at `network/example.network.yaml` and should have the following format:
 
 ```text
@@ -350,6 +350,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0MzE3MDA4LC05MzE5NTY2NTMsMjAwMz
-M1MzAxLC01ODgwMjQwMywxNDY3NDY3NDYzXX0=
+eyJoaXN0b3J5IjpbMTU0NzIxOTcwMSwtOTMxOTU2NjUzLDIwMD
+MzNTMwMSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2M119
 -->
