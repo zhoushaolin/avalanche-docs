@@ -331,10 +331,10 @@ Available Commands:
 
 Avash导入[gopher-lua](https://github.com/yuin/gopher-lua)来运行Lua脚本。脚本具有对它们可用的挂钩，允许用户编写调用当前Avash环境的代码。
 
-The functions available to Lua are:
+Lua可用的功能有:
 
-* `avash_call` - Takes a string and runs it as an Avash command, returning output
-* `avash_sleepmicro` - Takes an unsigned integer representing microseconds and sleeps for that long
+* `avash_call` -接受一个字符串并将其作为Avash命令运行，返回输出 
+* `avash_sleepmicro` - 接受表示微秒的无符号整数并休眠那么长时间
 * `avash_setvar` - Takes a variable scope \(string\), a variable name \(string\), and a variable \(string\) and places it in the variable store. The scope must already have been created.
 
 When writing Lua, the standard Lua functionality is available to automate the execution of series of Avash commands. This allows a developer to automate:
@@ -349,7 +349,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODAxODQ4MSw0OTQ3MDcxNzgsLTIxMT
-Y2NDU5MjQsLTkzMTk1NjY1MywyMDAzMzUzMDEsLTU4ODAyNDAz
-LDE0Njc0Njc0NjNdfQ==
+eyJoaXN0b3J5IjpbLTExMzUxMjI5LDE1NjgwMTg0ODEsNDk0Nz
+A3MTc4LC0yMTE2NjQ1OTI0LC05MzE5NTY2NTMsMjAwMzM1MzAx
+LC01ODgwMjQwMywxNDY3NDY3NDYzXX0=
 -->
