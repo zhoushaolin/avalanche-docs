@@ -327,7 +327,9 @@ Available Commands:
   vardump     Writes the variable to a file.
 ```
 
-## Writing Scripts <a id="writing-scripts"></a>
+## 编写脚本 
+
+Avash导入[gopher-lua](https://github.com/yuin/gopher-lua)来运行Lua脚本。脚本具有对它们可用的挂钩，允许用户编写调用当前Avash环境的代码。
 
 Avash imports the [gopher-lua](https://github.com/yuin/gopher-lua) to run Lua scripts. Scripts have hooks available to them which allows the user to write code which invokes the current Avash environment.
 
@@ -349,7 +351,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ2MTk5MjIsLTIxMTY2NDU5MjQsLT
-kzMTk1NjY1MywyMDAzMzUzMDEsLTU4ODAyNDAzLDE0Njc0Njc0
-NjNdfQ==
+eyJoaXN0b3J5IjpbNDk0NzA3MTc4LC0yMTE2NjQ1OTI0LC05Mz
+E5NTY2NTMsMjAwMzM1MzAxLC01ODgwMjQwMywxNDY3NDY3NDYz
+XX0=
 -->
