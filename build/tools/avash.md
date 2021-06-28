@@ -264,7 +264,7 @@ Available Commands:
   avash setoutput [log output] [log level]
 ```
 
-**startnode**
+**开始节点 **
 
 ```text
 Starts an Avalanche client node using procmanager and gives it a name. Example:
@@ -349,6 +349,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY2NDU5MjQsLTkzMTk1NjY1MywyMD
-AzMzUzMDEsLTU4ODAyNDAzLDE0Njc0Njc0NjNdfQ==
+eyJoaXN0b3J5IjpbMTk0MDMxNDA3MCwtMjExNjY0NTkyNCwtOT
+MxOTU2NjUzLDIwMDMzNTMwMSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2
+M119
 -->
