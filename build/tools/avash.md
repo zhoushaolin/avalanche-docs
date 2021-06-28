@@ -222,9 +222,7 @@ hosts:
         # ...
 ```
 
-这种格式可以扩展到同时在多个主机上部署多个节点，使用YAML语法中的`-`向主机列表和每个主机的节点列表添加新元素。CLI标志的完整列表可以在[这里](https://docs.avax.network/v1.0/en/references/command-line-interface/)找到，其中'——node-flag '对应于我们配置文件中的' nodeflag '。
-
-This format can be scaled to simultaneously deploy many nodes on many hosts, using `-` in YAML syntax to add new elements to the host list and each host’s node list. A full list of CLI flags can be found [here](https://docs.avax.network/v1.0/en/references/command-line-interface/), where `--node-flag` corresponds to `nodeflag` in our configuration file.
+这种格式可以扩展到同时在多个主机上部署多个节点，使用YAML语法中的`-`向主机列表和每个主机的节点列表添加新元素。CLI标志的完整列表可以在[这里](https://docs.avax.network/v1.0/en/references/command-line-interface/)找到，其中`--node-flag`对应于我们配置文件中的`nodeflag`。
 
 **procmanager**
 
@@ -351,6 +349,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NTE5OTI4LC05MzE5NTY2NTMsMjAwMz
-M1MzAxLC01ODgwMjQwMywxNDY3NDY3NDYzXX0=
+eyJoaXN0b3J5IjpbLTEzMTc5NjkyMTMsLTkzMTk1NjY1MywyMD
+AzMzUzMDEsLTU4ODAyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
