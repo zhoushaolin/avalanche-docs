@@ -267,14 +267,14 @@ Available Commands:
 **开始节点 **
 
 ```text
-Starts an Avalanche client node using procmanager and gives it a name. Example:
+使用procmanager启动雪崩客户端节点并为其命名。例子:
 
 startnode MyNode1 --public-ip=127.0.0.1 --staking-port=9651 --http-port=9650 ... 
 
-Usage:
+用法:
   avash startnode [node name] args... [flags]
 
-Flags:
+标志:
       --assertions-enabled                   Turn on assertion execution. (default true)
       --avax-tx-fee uint                     Transaction fee, in nAVAX.
       --bootstrap-ids string                 Comma separated list of bootstrap peer ids to connect to. Example: JR4dVmy6ffUGAKCBDkyCbeZbyHQBeDsET,8CrVPQZ4VSqgL8zTdvL14G8HqAfrBr4z
@@ -349,7 +349,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDMxNDA3MCwtMjExNjY0NTkyNCwtOT
-MxOTU2NjUzLDIwMDMzNTMwMSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2
-M119
+eyJoaXN0b3J5IjpbNzgwMTYzOTIyLC0yMTE2NjQ1OTI0LC05Mz
+E5NTY2NTMsMjAwMzM1MzAxLC01ODgwMjQwMywxNDY3NDY3NDYz
+XX0=
 -->
