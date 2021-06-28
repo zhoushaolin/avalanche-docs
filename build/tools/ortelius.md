@@ -9,7 +9,7 @@
 
 ### 格式
 
-该API使用URL查询参数使用GET HTTP请求，返回JSON数据。This API uses GET HTTP requests using URL query parameters and returns JSON data.
+该API通过使用URL查询参数来使用GET HTTP请求，并返回JSON数据。
 
 ### Versioning
 
@@ -763,5 +763,6 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTY4MTI1MywxMzc0Njg4MzldfQ==
+eyJoaXN0b3J5IjpbMjU5MzUxODY2LDExMzE2ODEyNTMsMTM3ND
+Y4ODM5XX0=
 -->
