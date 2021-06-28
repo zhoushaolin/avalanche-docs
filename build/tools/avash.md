@@ -337,9 +337,9 @@ Lua可用的功能有:
 * `avash_sleepmicro` - 接受表示微秒的无符号整数并休眠那么长时间
 * `avash_setvar` - 接受一个变量作用域、一个变量名和一个变量，并将其放入变量存储区。必须已经创建了作用域。
 
-When writing Lua, the standard Lua functionality is available to automate the execution of series of Avash commands. This allows a developer to automate:
+在编写Lua时，标准的Lua功能可用于自动执行一系列Avash命令。这允许开发人员自动化:
 
-* Local network deployments
+* 本地网络部署
 * Sending transactions
 * Order transaction test cases
 * Save the value of UTXO sets and test results to disk
@@ -349,7 +349,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2MzEyODE4LDE1NjgwMTg0ODEsNDk0Nz
-A3MTc4LC0yMTE2NjQ1OTI0LC05MzE5NTY2NTMsMjAwMzM1MzAx
-LC01ODgwMjQwMywxNDY3NDY3NDYzXX0=
+eyJoaXN0b3J5IjpbMTU0MjEwMzUxMSwxNTY4MDE4NDgxLDQ5ND
+cwNzE3OCwtMjExNjY0NTkyNCwtOTMxOTU2NjUzLDIwMDMzNTMw
+MSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2M119
 -->
