@@ -331,8 +331,6 @@ Available Commands:
 
 Avash导入[gopher-lua](https://github.com/yuin/gopher-lua)来运行Lua脚本。脚本具有对它们可用的挂钩，允许用户编写调用当前Avash环境的代码。
 
-Avash imports the [gopher-lua](https://github.com/yuin/gopher-lua) to run Lua scripts. Scripts have hooks available to them which allows the user to write code which invokes the current Avash environment.
-
 The functions available to Lua are:
 
 * `avash_call` - Takes a string and runs it as an Avash command, returning output
@@ -351,7 +349,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NzA3MTc4LC0yMTE2NjQ1OTI0LC05Mz
-E5NTY2NTMsMjAwMzM1MzAxLC01ODgwMjQwMywxNDY3NDY3NDYz
-XX0=
+eyJoaXN0b3J5IjpbMTU2ODAxODQ4MSw0OTQ3MDcxNzgsLTIxMT
+Y2NDU5MjQsLTkzMTk1NjY1MywyMDAzMzUzMDEsLTU4ODAyNDAz
+LDE0Njc0Njc0NjNdfQ==
 -->
