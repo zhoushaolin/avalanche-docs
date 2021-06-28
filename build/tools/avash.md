@@ -141,10 +141,10 @@ Avash附带有以下根命令:
 **警告**: 和Avash中的所有东西一样，这个钱包暂时保存在内存中，所有数据在退出时都会被清除。这应该用于测试。
 
 ```text
-Tools for interacting with Avalanche Payments over the network. Using this 
-    command we can create, send, and get the status of a transaction.
+通过网络与雪崩支付交互的工具。使用这个
+命令，我们可以创建，发送和获取一个交易的状态。
 
-Usage:
+用法:
   avash avawallet [command] [flags]
 
 Available Commands:
@@ -349,7 +349,7 @@ Lua可用的功能有:
 示例Lua脚本在`./scripts`文件夹。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjQ4MTUxNywxNTY4MDE4NDgxLDQ5ND
+eyJoaXN0b3J5IjpbLTcyNjExNjc0OSwxNTY4MDE4NDgxLDQ5ND
 cwNzE3OCwtMjExNjY0NTkyNCwtOTMxOTU2NjUzLDIwMDMzNTMw
 MSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2M119
 -->
