@@ -246,21 +246,21 @@ Available Commands:
   stopall     Stops all processes if currently running.
 ```
 
-**runscript**
+**运行脚本**
 
 ```text
-Runs the script provided in the argument, relative to the present working directory.
+相对于当前工作目录运行参数中提供的脚本。
 
-Usage:
+用法:
   avash runscript [script file] [flags]
 ```
 
 **setoutput**
 
 ```text
-Sets the log level of a specific log output type.
+设置特定日志输出类型的日志级别。
 
-Usage:
+用法:
   avash setoutput [log output] [log level]
 ```
 
@@ -349,6 +349,6 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc5NjkyMTMsLTkzMTk1NjY1MywyMD
+eyJoaXN0b3J5IjpbLTIxMTY2NDU5MjQsLTkzMTk1NjY1MywyMD
 AzMzUzMDEsLTU4ODAyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
