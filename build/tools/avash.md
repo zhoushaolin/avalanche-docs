@@ -340,16 +340,16 @@ Lua可用的功能有:
 在编写Lua时，标准的Lua功能可用于自动执行一系列Avash命令。这允许开发人员自动化:
 
 * 本地网络部署
-* Sending transactions
-* Order transaction test cases
-* Save the value of UTXO sets and test results to disk
+* 发送交易
+* 订单交易测试用例
+* 将UTXO集的值和测试结果保存到磁盘
 * Compare the values of two nodes UTXO sets
 * Track expected results and compare them with real nodes
 
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjEwMzUxMSwxNTY4MDE4NDgxLDQ5ND
-cwNzE3OCwtMjExNjY0NTkyNCwtOTMxOTU2NjUzLDIwMDMzNTMw
-MSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2M119
+eyJoaXN0b3J5IjpbLTE2NDc2NjE5MjIsMTU2ODAxODQ4MSw0OT
+Q3MDcxNzgsLTIxMTY2NDU5MjQsLTkzMTk1NjY1MywyMDAzMzUz
+MDEsLTU4ODAyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
