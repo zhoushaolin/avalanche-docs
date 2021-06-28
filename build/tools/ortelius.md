@@ -1,15 +1,15 @@
 ---
 
-描述:“这个API允许客户端与Ortelius交互，雪崩索引器。”   description: 'This API allows clients to interact with Ortelius, the Avalanche indexer.'
+描述:“这个API允许客户端与Ortelius雪崩索引器进行交互。”  
 ---
 
 # Ortelius API
 
 ## Ortelius API
 
-### Format
+### 格式
 
-This API uses GET HTTP requests using URL query parameters and returns JSON data.
+该API使用URL查询参数使用GET HTTP请求，返回JSON数据。This API uses GET HTTP requests using URL query parameters and returns JSON data.
 
 ### Versioning
 
@@ -763,5 +763,5 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDY4ODM5XX0=
+eyJoaXN0b3J5IjpbMTEzMTY4MTI1MywxMzc0Njg4MzldfQ==
 -->
