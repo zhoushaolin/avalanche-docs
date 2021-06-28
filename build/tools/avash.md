@@ -312,14 +312,10 @@ startnode MyNode1 --public-ip=127.0.0.1 --staking-port=9651 --http-port=9650 ...
 
 ```text
 用于创建变量存储和在其中打印变量的工具。使用这个
-
 命令我们可以创建变量存储，列出他们存储的所有变量，并打印数据
+放入这些商店。变量赋值和更新通常由avash命令管理。
 
-放入这些商店。变量赋值和更新通常由avash命令管理。Tools for creating variable stores and printing variables within them. Using this 
-    command we can create variable stores, list all variables they store, and print data 
-    placed into these stores. Variable assignment and update is often managed by avash commands.
-
-Usage:
+用法:
   avash varstore [command] [flags]
 
 Available Commands:
@@ -353,7 +349,7 @@ When writing Lua, the standard Lua functionality is available to automate the ex
 Example Lua scripts are in the `./scripts` folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNzkyMjE5LC0yMTE2NjQ1OTI0LC05Mz
-E5NTY2NTMsMjAwMzM1MzAxLC01ODgwMjQwMywxNDY3NDY3NDYz
-XX0=
+eyJoaXN0b3J5IjpbLTE4MzQ2MTk5MjIsLTIxMTY2NDU5MjQsLT
+kzMTk1NjY1MywyMDAzMzUzMDEsLTU4ODAyNDAzLDE0Njc0Njc0
+NjNdfQ==
 -->
