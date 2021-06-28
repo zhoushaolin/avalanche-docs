@@ -227,11 +227,11 @@ hosts:
 **procmanager**
 
 ```text
-Access the process manager for the avash client. Using this 
-    command we can list, stop, and start processes registered with the 
-    process manager.
+访问avash客户机的进程管理器。使用这个
+命令可以列出、停止和启动注册到
+进程管理器。
 
-Usage:
+用法:
   avash procmanager [command] [flags]
 
 Available Commands:
@@ -349,7 +349,7 @@ Lua可用的功能有:
 示例Lua脚本在`./scripts`文件夹。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjExNjc0OSwxNTY4MDE4NDgxLDQ5ND
-cwNzE3OCwtMjExNjY0NTkyNCwtOTMxOTU2NjUzLDIwMDMzNTMw
-MSwtNTg4MDI0MDMsMTQ2NzQ2NzQ2M119
+eyJoaXN0b3J5IjpbMzcwMzUxMjE3LC03MjYxMTY3NDksMTU2OD
+AxODQ4MSw0OTQ3MDcxNzgsLTIxMTY2NDU5MjQsLTkzMTk1NjY1
+MywyMDAzMzUzMDEsLTU4ODAyNDAzLDE0Njc0Njc0NjNdfQ==
 -->
