@@ -15,14 +15,13 @@
 
 从版本2开始，API路径将以版本标记作为前缀，例如。`http://localhost:8080/v2`。
 
-该API的当前版本是版本2。[Legacy API](ortelius.md# Legacy - API)文档中有关于使用v1 API的信息。
-The current version of the API is version 2. The [Legacy API](ortelius.md#legacy-api) documentation has information about using the v1 API.
+该API的当前版本是版本2。[Legacy API](ortelius.md#legacy-api)文档中有关于使用v1 API的信息。
 
-### Data Types
+### 数据类型
 
-In addition to integers, strings, and booleans, the following data types are used throughout the API:
+除了整数、字符串和布尔值外，整个API还使用了以下数据类型:
 
-| Name | Description | Examples |
+| 名称 | 描述 | 示例 |
 | :--- | :--- | :--- |
 | `id` | A CB58 encoded object identifier, such as a chain, transaction, or asset ID | `2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM` |
 | `address` | A bech-32 encoded address | `fuji1wycv8n7d2fg9aq6unp23pnj4q0arv03ysya8jw` |
@@ -764,6 +763,6 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM0Mjg0MjIsMjEzMjYwNDYwNiwyNT
-kzNTE4NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ==
+eyJoaXN0b3J5IjpbLTY5MzI5ODY5MiwyMTMyNjA0NjA2LDI1OT
+M1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
 -->
