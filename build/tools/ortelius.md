@@ -23,8 +23,8 @@
 
 | 名称 | 描述 | 示例 |
 | :--- | :--- | :--- |
-| `id` | A CB58 encoded object identifier, such as a chain, transaction, or asset ID | `2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM` |
-| `address` | A bech-32 encoded address | `fuji1wycv8n7d2fg9aq6unp23pnj4q0arv03ysya8jw` |
+| `id` | 一种CB58编码的对象标识符，如链、交易或资产ID | `2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM` |
+| `address` | 一个bech-32编码的地址 | `fuji1wycv8n7d2fg9aq6unp23pnj4q0arv03ysya8jw` |
 | `datetime` | A Unix timestamp as an integer or an RFC3339 formatted string | `1599696000`, `2020-09-10T00:00:00Z` |
 
 ### List Parameters
@@ -763,6 +763,6 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzI5ODY5MiwyMTMyNjA0NjA2LDI1OT
+eyJoaXN0b3J5IjpbMTg4NzU0NjY0MSwyMTMyNjA0NjA2LDI1OT
 M1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
 -->
