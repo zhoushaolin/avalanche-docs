@@ -15,6 +15,7 @@
 
 从版本2开始，API路径将以版本标记作为前缀，例如。`http://localhost:8080/v2`。
 
+该API的当前版本是版本2。[Legacy API](ortelius.md# Legacy - API)文档中有关于使用v1 API的信息。
 The current version of the API is version 2. The [Legacy API](ortelius.md#legacy-api) documentation has information about using the v1 API.
 
 ### Data Types
@@ -763,6 +764,6 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYxMDI1MzYsMjEzMjYwNDYwNiwyNT
+eyJoaXN0b3J5IjpbLTEwNjM0Mjg0MjIsMjEzMjYwNDYwNiwyNT
 kzNTE4NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ==
 -->
