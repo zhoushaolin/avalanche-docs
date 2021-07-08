@@ -674,8 +674,8 @@ curl "http://localhost:8080/v2/assets/FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDND
 
 | 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
-| `address` | `address` | An address to filter results by. May be supplied multiple times. | None | None |
+| `chainID` | `id` | 用于过滤结果的链ID。可以提供多次。 | 没有 | 没有 |
+| `address` | `address` | 用于过滤结果的地址。可以提供多次。 | 没有 | 没有 |
 | `spent` | `bool` | If set, results will be filtered by whether they're spent \(true\) or unspent \(false\) | None | N/A |
 
 **Example Call**
@@ -763,7 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc2Mzk0MjksMTQ5Mjc0MDAyOSwtMT
+eyJoaXN0b3J5IjpbLTEyNzY3OTQ5OTIsMTQ5Mjc0MDAyOSwtMT
 Y4NDA2MjA4OCwxODkyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1
 NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1My
 wxMzc0Njg4MzldfQ==
