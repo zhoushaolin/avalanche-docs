@@ -760,11 +760,12 @@ curl "http://localhost:8080/x"
 }
 ```
 
+遗留API支持与版本2相同的端点和参数，除了所有端点的chainID参数默认为X-chain ID。
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODQ1Nzg2OSwtNjExMDI3NzEsMTQ5Mj
-c0MDAyOSwtMTY4NDA2MjA4OCwxODkyNjgxNTA3LC0xNTgyOTY1
-MDUzLDE4ODc1NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4NjYsMT
-EzMTY4MTI1MywxMzc0Njg4MzldfQ==
+eyJoaXN0b3J5IjpbLTEwNjk0ODkyODcsLTYxMTAyNzcxLDE0OT
+I3NDAwMjksLTE2ODQwNjIwODgsMTg5MjY4MTUwNywtMTU4Mjk2
+NTA1MywxODg3NTQ2NjQxLDIxMzI2MDQ2MDYsMjU5MzUxODY2LD
+ExMzE2ODEyNTMsMTM3NDY4ODM5XX0=
 -->
