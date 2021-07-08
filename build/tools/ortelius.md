@@ -434,13 +434,13 @@ curl "http://localhost:8080/v2/transactions/2jEugPDFN89KXLEXtf5oKp5spsJawTht2zP4
 | `chainID` | `id` | 用于过滤结果的链ID。可以提供多次。 | 没有 | 没有 |
 | `address` | `address` | 用于过滤结果的地址。可以提供多次。 | 没有 | 没有 |
 
-**调用示例**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/addresses?limit=1"
 ```
 
-**响应示例**
+**示例响应**
 
 ```javascript
 {
@@ -463,9 +463,9 @@ curl "http://localhost:8080/v2/addresses?limit=1"
 }
 ```
 
-### Get Address
+### 获取地址
 
-Find a single address by its ID.
+通过ID找到单个地址。
 
 **Example Call**
 
@@ -473,7 +473,7 @@ Find a single address by its ID.
 curl "http://localhost:8080/v2/addresses/avax1y8cyrzn2kg4udccs5d625gkac7a99pe452cy5u"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -763,8 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDA1NzQzOSwtMTY4NDA2MjA4OCwxOD
-kyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1NDY2NDEsMjEzMjYw
-NDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ
-==
+eyJoaXN0b3J5IjpbMjA0OTkyNTk0LC0xNjg0MDYyMDg4LDE4OT
+I2ODE1MDcsLTE1ODI5NjUwNTMsMTg4NzU0NjY0MSwyMTMyNjA0
+NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
 -->
