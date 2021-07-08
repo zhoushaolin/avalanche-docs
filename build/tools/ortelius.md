@@ -25,37 +25,37 @@
 | :--- | :--- | :--- |
 | `id` | 一种CB58编码的对象标识符，如链、交易或资产ID | `2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM` |
 | `address` | 一个bech-32编码的地址 | `fuji1wycv8n7d2fg9aq6unp23pnj4q0arv03ysya8jw` |
-| `datetime` | A Unix timestamp as an integer or an RFC3339 formatted string | `1599696000`, `2020-09-10T00:00:00Z` |
+| `datetime` |Unix时间戳整数形式或RFC3339格式化字符串形式 | `1599696000`, `2020-09-10T00:00:00Z` |
 
-### List Parameters
+### 参数列表
 
-All endpoints for listing resources accept the following parameters:
+列出资源的所有端点都接受以下参数:
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `limit` | `int` | The maximum number of items to return | `500` | `500` |
-| `offset` | `int` | The number of items to skip | `0` | None |
-| `query` | `string` | An ID prefix to filter items by | None | None |
-| `startTime` | `datetime` | Limits to items created on or after a given time | `0` | Now |
-| `endTime` | `datetime` | Limits to items created on or before a given time | Now | Now |
+| `limit` | `int` | 要返回的项目的最大数目 | `500` | `500` |
+| `offset` | `int` | 要跳过的项目数 | `0` | 没有 |
+| `query` | `string` | 用于过滤项的ID前缀| 没有 | 没有 |
+| `startTime` | `datetime` | 对在给定时间或之后创建的项目的限制 | `0` | 现在 |
+| `endTime` | `datetime` | 对在给定时间或之前创建的项目的限制| 现在 | 现在 |
 
-## Available Endpoints
+## 可用端点
 
-### Overview
+### 概述
 
-The root of the API gives an overview of the constants for the active Avalanche network being indexed.
+API的根给出了被索引的活动Avalanche网络的常量的概述。
 
-**Params**
+**参数个数**
 
-None
+没有
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -79,23 +79,23 @@ curl "http://localhost:8080/v2"
 }
 ```
 
-### Search
+### 搜索
 
-Find an address or a transaction by its ID.
+通过其ID找到一个地址或交易。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `query` | `string` | An ID prefix to filter items by | None | None |
+| `query` | `string` | 用于过滤项的ID前缀| 没有 | 没有 |
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/search?query=2jEugPDFN89KXLEXtf5"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -168,24 +168,24 @@ curl "http://localhost:8080/v2/search?query=2jEugPDFN89KXLEXtf5"
 }
 ```
 
-### Aggregate
+### 合计
 
-Calculate aggregate transaction data over a time frame.
+计算一段时间内的总交易数据。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
-| `assetID` | `id` | An asset ID to filter results by. | None | None |
+| `chainID` | `id` | 用于过滤结果的链ID。可以提供多次。 | 没有 | 没有 |
+| `assetID` | `id` | 用于过滤结果的资产ID。 | 没有 | 没有 |
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/aggregates?startTime=2020-09-21T00:00:00Z&endTime=2020-10-21T00:00:00Z"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -203,17 +203,17 @@ curl "http://localhost:8080/v2/aggregates?startTime=2020-09-21T00:00:00Z&endTime
 }
 ```
 
-### TxFee Aggregate
+### Tx费用总计
 
-AVAX Aggregate txfee
+AVAX 总计 tx费用
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/txfeeAggregates?startTime=2020-09-21T00:00:00Z&endTime=2020-10-21T00:00:00Z"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -227,23 +227,23 @@ curl "http://localhost:8080/v2/txfeeAggregates?startTime=2020-09-21T00:00:00Z&en
 }
 ```
 
-### Address Chain
+### 地址的链
 
-Responds with the chains an address appears on.
+用地址所在的链进行响应。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `address` | `address` | A address to filter results by. May be supplied multiple times. | None | None |
+| `address` | `address` | 用于过滤结果的地址。可以提供多次。 | 没有 | 没有 |
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/addressChains?address=X-fujiABC"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -259,13 +259,13 @@ curl "http://localhost:8080/v2/addressChains?address=X-fujiABC"
 }
 ```
 
-### List Transactions
+### 交易列表
 
-Find transactions confirmed transactions from the network.
+从网络上查找已确认的交易。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | Default | Max |
 | :--- | :--- | :--- | :--- | :--- |
 | `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
 | `assetID` | `id` | An asset ID to filter results by. | None | None |
@@ -763,6 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzU0NjY0MSwyMTMyNjA0NjA2LDI1OT
-M1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
+eyJoaXN0b3J5IjpbLTE1ODI5NjUwNTMsMTg4NzU0NjY0MSwyMT
+MyNjA0NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgz
+OV19
 -->
