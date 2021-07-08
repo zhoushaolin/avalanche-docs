@@ -273,13 +273,13 @@ curl "http://localhost:8080/v2/addressChains?address=X-fujiABC"
 | `disableGenesis` | `bool` | 如果为true，则不返回Genesis顶点的数据。 | 真的 | N/A |
 | `sort` | `string` | 排序结果的方法。可能是`timestamp-asc`或`timestamp-desc`。| `timestamp-asc` | N/A |
 
-**Example Call**
+**示例调用**
 
 ```bash
 curl "http://localhost:8080/v2/transactions?limit=1&chainID=11111111111111111111111111111111LpoYY&offset=100"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -349,7 +349,7 @@ curl "http://localhost:8080/v2/transactions?limit=1&chainID=11111111111111111111
 }
 ```
 
-### Get Transaction
+### 获取交易
 
 Find a single transaction by its ID.
 
@@ -763,7 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjY4MTUwNywtMTU4Mjk2NTA1MywxOD
-g3NTQ2NjQxLDIxMzI2MDQ2MDYsMjU5MzUxODY2LDExMzE2ODEy
-NTMsMTM3NDY4ODM5XX0=
+eyJoaXN0b3J5IjpbMTQ0NjA3OTk0MCwxODkyNjgxNTA3LC0xNT
+gyOTY1MDUzLDE4ODc1NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4
+NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ==
 -->
