@@ -429,9 +429,9 @@ curl "http://localhost:8080/v2/transactions/2jEugPDFN89KXLEXtf5oKp5spsJawTht2zP4
 
 **参数个数**
 
-| 名称 | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
+| `chainID` | `id` | 用于过滤结果的链ID。可以提供多次。 | 没有 | 没有 |
 | `address` | `address` | An address to filter results by. May be supplied multiple times. | None | None |
 
 **Example Call**
@@ -763,7 +763,8 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQwNjIwODgsMTg5MjY4MTUwNywtMT
-U4Mjk2NTA1MywxODg3NTQ2NjQxLDIxMzI2MDQ2MDYsMjU5MzUx
-ODY2LDExMzE2ODEyNTMsMTM3NDY4ODM5XX0=
+eyJoaXN0b3J5IjpbMTg4NTA5MDQzNSwtMTY4NDA2MjA4OCwxOD
+kyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1NDY2NDEsMjEzMjYw
+NDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ
+==
 -->
