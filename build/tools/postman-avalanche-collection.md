@@ -4,6 +4,8 @@
 
 Postman是一个免费的工具，开发人员可以使用它快速而轻松地发送REST、SOAP和GraphQL请求和测试API。它既可以作为在线工具，也可以作为Linux、MacOS和Windows的应用程序。Postman允许您快速发出API调用，并以格式良好、可搜索的形式查看响应。
 
+我们的Postman收集雪崩(https://docs.avax.network),包括所有的公共可用的API调用(AvalancheGo实例)(. . /发行说明/ avalanchego.md),允许您快速命令节点和看到响应问题,不用复制粘贴长和复杂的“卷曲”命令。
+
 We have made a Postman collection for [Avalanche](https://docs.avax.network), that includes all the public API calls that are available on [AvalancheGo instance](../release-notes/avalanchego.md), allowing you to quickly issue commands to your node and see the response, without having to copy and paste long and complicated `curl` commands.
 
 Along with the API collection, there is also the example Avalanche environment for Postman, that defines common variables such as IP address of the node, your Avalanche addresses and similar common elements of the queries, so you don't have to enter them multiple times.
@@ -85,5 +87,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzYyOTg3N119
+eyJoaXN0b3J5IjpbNDIyMjU5NTM2XX0=
 -->
