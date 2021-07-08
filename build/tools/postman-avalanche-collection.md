@@ -10,7 +10,7 @@ Postman是一个免费的工具，开发人员可以使用它快速而轻松地�
 
 结合起来，它们将允许您轻松地在您的节点上保持标签，检查其状态，并进行快速查询，以找到其操作的详细信息。
 
-## Setup
+## 设置
 
 ### Postman installation
 
@@ -85,5 +85,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MDg4NzA3XX0=
+eyJoaXN0b3J5IjpbMTA1MDgzODIyNF19
 -->
