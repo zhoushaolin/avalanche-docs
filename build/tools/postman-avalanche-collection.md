@@ -1,8 +1,8 @@
-# Postman collection
+# Postman集合
 
-## What is Postman?
+## Postman是什么?
 
-Postman is a free tool used by developers to quickly and easily send REST, SOAP, and GraphQL requests and test APIs. It is available as both an online tool and an application for Linux, MacOS and Windows. Postman allows you to quickly issue API calls and see the responses in a nicely formatted, searchable form.
+Postman是一个免费的工具，开发人员可以使用它快速而轻松地发送REST、SOAP和GraphQL请求和测试API。它既可以作为在线工具，也可以作为Linux、MacOS和Windows的应用程序。Postman允许您快速发出API调用，并以格式良好、可搜索的形式查看响应。
 
 We have made a Postman collection for [Avalanche](https://docs.avax.network), that includes all the public API calls that are available on [AvalancheGo instance](../release-notes/avalanchego.md), allowing you to quickly issue commands to your node and see the response, without having to copy and paste long and complicated `curl` commands.
 
@@ -84,3 +84,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg0MzYyOTg3N119
+-->
