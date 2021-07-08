@@ -588,13 +588,13 @@ curl "http://localhost:8080/v2/assets?limit=1&enableAggregate=minute"
 
 根据其ID找到单个资产。
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/assets/FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z?enableAggregate=true"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -763,8 +763,8 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mjc0MDAyOSwtMTY4NDA2MjA4OCwxOD
-kyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1NDY2NDEsMjEzMjYw
-NDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ
-==
+eyJoaXN0b3J5IjpbODMyOTE5OTY2LDE0OTI3NDAwMjksLTE2OD
+QwNjIwODgsMTg5MjY4MTUwNywtMTU4Mjk2NTA1MywxODg3NTQ2
+NjQxLDIxMzI2MDQ2MDYsMjU5MzUxODY2LDExMzE2ODEyNTMsMT
+M3NDY4ODM5XX0=
 -->
