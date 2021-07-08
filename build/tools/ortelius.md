@@ -666,9 +666,9 @@ curl "http://localhost:8080/v2/assets/FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDND
 }
 ```
 
-### List Outputs
+### 列表输出
 
-Find outputs that have been created by a transaction confirmed on the network.
+查找由网络上确认的事务创建的输出。
 
 **Params**
 
@@ -763,8 +763,8 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyOTE5OTY2LDE0OTI3NDAwMjksLTE2OD
-QwNjIwODgsMTg5MjY4MTUwNywtMTU4Mjk2NTA1MywxODg3NTQ2
-NjQxLDIxMzI2MDQ2MDYsMjU5MzUxODY2LDExMzE2ODEyNTMsMT
-M3NDY4ODM5XX0=
+eyJoaXN0b3J5IjpbMTM3ODQ1MTczMiwxNDkyNzQwMDI5LC0xNj
+g0MDYyMDg4LDE4OTI2ODE1MDcsLTE1ODI5NjUwNTMsMTg4NzU0
+NjY0MSwyMTMyNjA0NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLD
+EzNzQ2ODgzOV19
 -->
