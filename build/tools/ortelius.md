@@ -425,11 +425,11 @@ curl "http://localhost:8080/v2/transactions/2jEugPDFN89KXLEXtf5oKp5spsJawTht2zP4
 
 ### 地址列表
 
-Find addresses that have been involved in confirmed transactions.
+查找已确认交易中涉及的地址。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | Type | Description | Default | Max |
 | :--- | :--- | :--- | :--- | :--- |
 | `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
 | `address` | `address` | An address to filter results by. May be supplied multiple times. | None | None |
@@ -763,7 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0Mjc0MzA2LDE4OTI2ODE1MDcsLTE1OD
-I5NjUwNTMsMTg4NzU0NjY0MSwyMTMyNjA0NjA2LDI1OTM1MTg2
-NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
+eyJoaXN0b3J5IjpbLTE2ODQwNjIwODgsMTg5MjY4MTUwNywtMT
+U4Mjk2NTA1MywxODg3NTQ2NjQxLDIxMzI2MDQ2MDYsMjU5MzUx
+ODY2LDExMzE2ODEyNTMsMTM3NDY4ODM5XX0=
 -->
