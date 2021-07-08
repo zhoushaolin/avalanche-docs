@@ -740,7 +740,7 @@ curl "http://localhost:8080/v2/outputs/114RMPhYM7do7cDX7KWSqFeLkbUXFrLKcqPL4GMdj
 
 ### Legacy API
 
-API的版本1只支持x链，它没有使用版本前缀\(`/v1`\)。它在根目录下的路径' /x '中可用，这是仅适用于x链的Overview端点:
+API的版本1只支持X链，它没有使用版本前缀\(`/v1`\)。它在根目录下的路径`/x`中可用，这是仅适用于X链的Overview端点:
 Version 1 of the API was built to support only the X-chain, and it did not use a version prefix \(`/v1`\). It is available at the path `/x` off of the root, which is the Overview endpoint for only the X-chain:
 
 **Example Call**
@@ -764,8 +764,8 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTAyNzcxLDE0OTI3NDAwMjksLTE2OD
-QwNjIwODgsMTg5MjY4MTUwNywtMTU4Mjk2NTA1MywxODg3NTQ2
-NjQxLDIxMzI2MDQ2MDYsMjU5MzUxODY2LDExMzE2ODEyNTMsMT
-M3NDY4ODM5XX0=
+eyJoaXN0b3J5IjpbMjM2NjQwODYzLC02MTEwMjc3MSwxNDkyNz
+QwMDI5LC0xNjg0MDYyMDg4LDE4OTI2ODE1MDcsLTE1ODI5NjUw
+NTMsMTg4NzU0NjY0MSwyMTMyNjA0NjA2LDI1OTM1MTg2NiwxMT
+MxNjgxMjUzLDEzNzQ2ODgzOV19
 -->
