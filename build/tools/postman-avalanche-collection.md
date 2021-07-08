@@ -6,9 +6,9 @@ Postman是一个免费的工具，开发人员可以使用它快速而轻松地�
 
 我们的Postman集合是为[Avalanche](https://docs.avax.network),包括所有的公共在[AvalancheGo instance](../release-notes/avalanchego.md)上可用的API调用,允许您快速命令节点和看到响应问题,不用复制粘贴又长又复杂的`curl`命令。
 
-Along with the API collection, there is also the example Avalanche environment for Postman, that defines common variables such as IP address of the node, your Avalanche addresses and similar common elements of the queries, so you don't have to enter them multiple times.
+除了API集合之外，还有针对Postman的示例Avalanche环境，它定义了常见变量，如节点的IP地址、您的Avalanche地址和查询的类似常见元素，因此您不必多次输入它们。
 
-Combined, they will allow you to easily keep tabs on your node, check on its state and do quick queries to find out details about its operation.
+结合起来，它们将允许您轻松地在您的节点上保持标签，检查其状态，并进行快速查询，以找到其操作的详细信息。
 
 ## Setup
 
@@ -85,5 +85,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3Nzc0OTc5XX0=
+eyJoaXN0b3J5IjpbNDg2MDg4NzA3XX0=
 -->
