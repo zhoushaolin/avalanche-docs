@@ -267,9 +267,9 @@ curl "http://localhost:8080/v2/addressChains?address=X-fujiABC"
 
 | 名称 | 类型 | 描述 | Default | Max |
 | :--- | :--- | :--- | :--- | :--- |
-| `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
-| `assetID` | `id` | An asset ID to filter results by. | None | None |
-| `address` | `address` | An address to filter results by. May be supplied multiple times. | None | None |
+| `chainID` | `id` | 用于过滤结果的链ID。可以提供多次。| 没有 | 没有 |
+| `assetID` | `id` | 用于过滤结果的资产ID。 | 没有 | 没有 |
+| `address` | `address` | An address to filter results by. May be supplied multiple times. | 没有 | 没有 |
 | `disableGenesis` | `bool` | When true, the data for the Genesis vertex is not returned. | true | N/A |
 | `sort` | `string` | A method to sort results by. May be `timestamp-asc` or `timestamp-desc`. | `timestamp-asc` | N/A |
 
@@ -763,7 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI5NjUwNTMsMTg4NzU0NjY0MSwyMT
-MyNjA0NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgz
-OV19
+eyJoaXN0b3J5IjpbNDIzNDg4Njc3LC0xNTgyOTY1MDUzLDE4OD
+c1NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1
+MywxMzc0Njg4MzldfQ==
 -->
