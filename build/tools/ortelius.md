@@ -676,15 +676,15 @@ curl "http://localhost:8080/v2/assets/FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDND
 | :--- | :--- | :--- | :--- | :--- |
 | `chainID` | `id` | 用于过滤结果的链ID。可以提供多次。 | 没有 | 没有 |
 | `address` | `address` | 用于过滤结果的地址。可以提供多次。 | 没有 | 没有 |
-| `spent` | `bool` | If set, results will be filtered by whether they're spent \(true\) or unspent \(false\) | None | N/A |
+| `spent` | `bool` | 如果设置了，结果将根据是否已花费(true)或未花费(false)进行过滤。| 没有 | N/A |
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/outputs?limit=1&spent=false"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -708,11 +708,11 @@ curl "http://localhost:8080/v2/outputs?limit=1&spent=false"
 }
 ```
 
-### Get Output
+### 获取输出
 
-Find a single output by its ID.
+根据其ID找到单个输出。
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/outputs/114RMPhYM7do7cDX7KWSqFeLkbUXFrLKcqPL4GMdjTvemPzvc"
@@ -763,8 +763,8 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY3OTQ5OTIsMTQ5Mjc0MDAyOSwtMT
-Y4NDA2MjA4OCwxODkyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1
-NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1My
-wxMzc0Njg4MzldfQ==
+eyJoaXN0b3J5IjpbLTE5NzY1NTA0NSwxNDkyNzQwMDI5LC0xNj
+g0MDYyMDg4LDE4OTI2ODE1MDcsLTE1ODI5NjUwNTMsMTg4NzU0
+NjY0MSwyMTMyNjA0NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLD
+EzNzQ2ODgzOV19
 -->
