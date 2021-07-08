@@ -351,15 +351,15 @@ curl "http://localhost:8080/v2/transactions?limit=1&chainID=11111111111111111111
 
 ### 获取交易
 
-Find a single transaction by its ID.
+通过其ID找到单个交易。
 
-**Example Call**
+**示例调用**
 
 ```text
 curl "http://localhost:8080/v2/transactions/2jEugPDFN89KXLEXtf5oKp5spsJawTht2zP4kKJjkQwwRsDdLX"
 ```
 
-**Example Response**
+**示例响应**
 
 ```javascript
 {
@@ -423,7 +423,7 @@ curl "http://localhost:8080/v2/transactions/2jEugPDFN89KXLEXtf5oKp5spsJawTht2zP4
 }
 ```
 
-### List Addresses
+### 地址列表
 
 Find addresses that have been involved in confirmed transactions.
 
@@ -763,7 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjA3OTk0MCwxODkyNjgxNTA3LC0xNT
-gyOTY1MDUzLDE4ODc1NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4
-NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ==
+eyJoaXN0b3J5IjpbNzQ0Mjc0MzA2LDE4OTI2ODE1MDcsLTE1OD
+I5NjUwNTMsMTg4NzU0NjY0MSwyMTMyNjA0NjA2LDI1OTM1MTg2
+NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
 -->
