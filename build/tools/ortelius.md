@@ -670,9 +670,9 @@ curl "http://localhost:8080/v2/assets/FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDND
 
 查找由网络上确认的事务创建的输出。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
 | `chainID` | `id` | A chain ID to filter results by. May be supplied multiple times. | None | None |
 | `address` | `address` | An address to filter results by. May be supplied multiple times. | None | None |
@@ -763,8 +763,8 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODQ1MTczMiwxNDkyNzQwMDI5LC0xNj
-g0MDYyMDg4LDE4OTI2ODE1MDcsLTE1ODI5NjUwNTMsMTg4NzU0
-NjY0MSwyMTMyNjA0NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLD
-EzNzQ2ODgzOV19
+eyJoaXN0b3J5IjpbLTE5ODc2Mzk0MjksMTQ5Mjc0MDAyOSwtMT
+Y4NDA2MjA4OCwxODkyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1
+NDY2NDEsMjEzMjYwNDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1My
+wxMzc0Njg4MzldfQ==
 -->
