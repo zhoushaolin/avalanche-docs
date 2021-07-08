@@ -12,7 +12,7 @@ Postman是一个免费的工具，开发人员可以使用它快速而轻松地�
 
 ## 设置
 
-### Postman installation
+### Postman安装
 
 Postman can be installed locally or used as a web app. We recommend installing the application, as it simplifies operation. You can download Postman from its [website](https://www.postman.com/downloads/). It is recommended that you sign up using your email address as then your workspace can be easily backed up and shared between web app and the app installed on your computer.
 
@@ -85,5 +85,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDgzODIyNF19
+eyJoaXN0b3J5IjpbMTIwOTQ4MzAxOF19
 -->
