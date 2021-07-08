@@ -496,11 +496,11 @@ curl "http://localhost:8080/v2/addresses/avax1y8cyrzn2kg4udccs5d625gkac7a99pe452
 
 找到在x链上创建的资产。
 
-**Params**
+**参数个数**
 
-| Name | Type | Description | Default | Max |
+| 名称 | 类型 | 描述 | 默认值 | 最大值 |
 | :--- | :--- | :--- | :--- | :--- |
-| `enableAggregate` | string | Values "minute", "hour", "day", "week", "month", or "year" when provided, aggregated data about the asset will be included. | N/A | N/A |
+| `enableAggregate` | 字符串 | 当提供值“分钟”、“小时”、“日”、“周”、“月”或“年”时，将包括关于资产的汇总数据。 | N/A | N/A |
 
 **Example Call**
 
@@ -763,8 +763,7 @@ curl "http://localhost:8080/x"
 The legacy API supports the same endpoints and parameters as version 2, except the chainID parameter for all endpoints defaults to the X-chain ID.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDIyMzI0NiwtMTY4NDA2MjA4OCwxOD
-kyNjgxNTA3LC0xNTgyOTY1MDUzLDE4ODc1NDY2NDEsMjEzMjYw
-NDYwNiwyNTkzNTE4NjYsMTEzMTY4MTI1MywxMzc0Njg4MzldfQ
-==
+eyJoaXN0b3J5IjpbMTEyNzczNDI0LC0xNjg0MDYyMDg4LDE4OT
+I2ODE1MDcsLTE1ODI5NjUwNTMsMTg4NzU0NjY0MSwyMTMyNjA0
+NjA2LDI1OTM1MTg2NiwxMTMxNjgxMjUzLDEzNzQ2ODgzOV19
 -->
