@@ -73,11 +73,10 @@ Postman将会识别文件的格式:
 ![Response](../../.gitbook/assets/postman_08_response.png)
 
 要查看实际的调用和发送到节点的变量，请切换到API调用选项卡中的`Body`选项卡。 在那里，您可以快速更改变量，以查看对不同查询的响应。 
-To see the actual call and the variables that are sent to the node, switch to `Body` tab in the API call tabs. There you can quickly change the variables to see the response to different queries.
 
-## Conclusion
+## 总结
 
-If you completed the tutorial, you are now able to quickly issue API calls to your node without messing with the curl commands in the terminal. This allows you to quickly see the state of your node, track changes or double-check the health or liveness of your node.
+如果您完成了本教程，现在就可以快速地向您的节点发出API调用，而不必打乱终端中的curl命令。 这允许您快速查看节点的状态、跟踪更改或再次检查节点的运行状况或活动状态。 
 
 ## Contributing
 
@@ -86,6 +85,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjE2NDA3MSwtMTM1MDUwNDI5NSwxOT
-gzMjI1Mzg2LC02ODI3MTQxNjgsLTc4MTA3MDY5OF19
+eyJoaXN0b3J5IjpbLTEzMjEwMzc1MDgsLTEzNTA1MDQyOTUsMT
+k4MzIyNTM4NiwtNjgyNzE0MTY4LC03ODEwNzA2OThdfQ==
 -->
