@@ -78,13 +78,14 @@ Postman将会识别文件的格式:
 
 如果您完成了本教程，现在就可以快速地向您的节点发出API调用，而不必打乱终端中的curl命令。 这允许您快速查看节点的状态、跟踪更改或再次检查节点的运行状况或活动状态。 
 
-## Contributing
+## 贡献
 
+我们希望不断更新[Avalanche api](https://docs.avax.network/build/avalanchego-apis)，并添加[数据可视化](https://learning.postman.com/docs/sending-requests/visualizer/#visualizing-response-data)。 如果你能以任何方式帮助改善Avalanche Postman 收集,首先创建一个特性分支的分支“大师”,下一个特性分支上的改进,最后创建一个(拉请求)(https://github.com/ava-labs/avalanche-docs/pulls)将你的工作在“大师”。 
 We're hoping to continuously keep this collection up-to-date with the [Avalanche APIs](https://docs.avax.network/build/avalanchego-apis), and also add [data visualizations](https://learning.postman.com/docs/sending-requests/visualizer/#visualizing-response-data). If you're able to help improve the Avalanche Postman Collection in any way, first create a feature branch by branching off of `master`, next make the improvements on your feature branch and lastly create a [pull request](https://github.com/ava-labs/avalanche-docs/pulls) to merge your work back in to `master`.
 
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEwMzc1MDgsLTEzNTA1MDQyOTUsMT
-k4MzIyNTM4NiwtNjgyNzE0MTY4LC03ODEwNzA2OThdfQ==
+eyJoaXN0b3J5IjpbNDE4NzA2MDU2LC0xMzUwNTA0Mjk1LDE5OD
+MyMjUzODYsLTY4MjcxNDE2OCwtNzgxMDcwNjk4XX0=
 -->
