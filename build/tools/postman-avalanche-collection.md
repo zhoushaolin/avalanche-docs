@@ -68,11 +68,11 @@ Postman将会识别文件的格式:
 
 ![API call](../../.gitbook/assets/postman_07_making_calls.png)
 
-您将看到调用的格式使用了`http`、`host`和`port`环境变量。 点击`Send`。 请求将被发送，很快你就会看到响应，在`Response`中的`Body`选项卡中: 
-You will see that format of the call uses the `http`, `host` and `port` environment variables. Click `Send`. Request will be sent, and soon you will see the response, in the `Body` tab in the `Response`:
+您将看到调用的格式使用了`http`、`host`和`port`环境变量。 点击`Send`。 请求将被发送，很快你就会在`Response`中的`Body`选项卡中看到响应，: 
 
 ![Response](../../.gitbook/assets/postman_08_response.png)
 
+要查看实际的调用和发送到节点的变量，请切换到API调用选项卡中的`Body`选项卡。 在那里，您可以快速更改变量，以查看对不同查询的响应。 
 To see the actual call and the variables that are sent to the node, switch to `Body` tab in the API call tabs. There you can quickly change the variables to see the response to different queries.
 
 ## Conclusion
@@ -86,6 +86,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA1MDQyOTUsMTk4MzIyNTM4NiwtNj
-gyNzE0MTY4LC03ODEwNzA2OThdfQ==
+eyJoaXN0b3J5IjpbMjA3NjE2NDA3MSwtMTM1MDUwNDI5NSwxOT
+gzMjI1Mzg2LC02ODI3MTQxNjgsLTc4MTA3MDY5OF19
 -->
