@@ -58,9 +58,7 @@ Postman将会识别文件的格式:
 
 ![Environment content](../../.gitbook/assets/postman_06_variables.png)
 
-选择`Edit`按钮来更改默认值。 至少，您需要更改您的节点的IP地址，它是`host`变量的值。 将其更改为您的节点的IP \(更改'初始'和'当前'值\)。 此外，如果您的节点不在安装Postman的同一台机器上运行，请通过检查适当的[命令行选项](../references/command-line-interface.md#http-server)确保您的节点从外部接受API端口上的连接。 
-
-Select the `Edit` button to change the defaults. As a minimum, you will need to change the IP address of your node, which is the value of the `host` variable. Change it to the IP of your node \(change both the `initial` and `current` values\). Also, if your node is not running on the same machine where you installed Postman, make sure your node is accepting the connections on the API port from the outside by checking the appropriate [command line option](../references/command-line-interface.md#http-server).
+选择`Edit`按钮来更改默认值。 至少，您需要更改您的节点的IP地址，它是`host`变量的值。 将其更改为您的节点的IP \(更改`initial`和`current`值\)。 此外，如果您的节点不在安装Postman的同一台机器上运行，请通过检查适当的[命令行选项](../references/command-line-interface.md#http-server)确保您的节点从外部接受API端口上的连接。 
 
 Now we sorted everything out, and we're ready to query the node.
 
@@ -87,6 +85,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQwMzQ4NDIsLTY4MjcxNDE2OCwtNz
-gxMDcwNjk4XX0=
+eyJoaXN0b3J5IjpbMTk4MzIyNTM4NiwtNjgyNzE0MTY4LC03OD
+EwNzA2OThdfQ==
 -->
