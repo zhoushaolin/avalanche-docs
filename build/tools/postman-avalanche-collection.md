@@ -18,10 +18,11 @@ Postman可以在本地安装，也可以作为网页应用程序使用。我们�
 
 ![Download Postman](../../.gitbook/assets/postman_01_download.png)
 
-After you installed the application, run it. It will prompt you to create an account or log in. Do so. Again, it is not necessary, but recommended.
+安装应用程序后，运行它。它将提示您创建帐户或登录。这不是必要的，但推荐使用。
 
 ### Collection import
 
+从workspace选项卡中选择“New workspace”，并根据提示创建一个新的工作区。 剩下的工作将在这里完成。 
 Select `New workspace` from Workspaces tab and follow the prompts to crate a new workspace. This will where the rest of the work will be done.
 
 ![New workspace](../../.gitbook/assets/postman_02_workspace.png)
@@ -85,5 +86,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTEyMDkxOTcsLTc4MTA3MDY5OF19
+eyJoaXN0b3J5IjpbLTM3NzQ1NDQxNiwtNzgxMDcwNjk4XX0=
 -->
