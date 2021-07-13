@@ -68,7 +68,7 @@ Postman将会识别文件的格式:
 
 ![API call](../../.gitbook/assets/postman_07_making_calls.png)
 
-您将看到调用的格式使用了' http '、' host '和' port '环境变量。 点击“发送”。 请求将被发送，很快你就会看到响应，在' response '中的' Body '选项卡中: 
+您将看到调用的格式使用了`http`、`host`和' port '环境变量。 点击“发送”。 请求将被发送，很快你就会看到响应，在' response '中的' Body '选项卡中: 
 You will see that format of the call uses the `http`, `host` and `port` environment variables. Click `Send`. Request will be sent, and soon you will see the response, in the `Body` tab in the `Response`:
 
 ![Response](../../.gitbook/assets/postman_08_response.png)
@@ -86,6 +86,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDc1NjU2OCwxOTgzMjI1Mzg2LC02OD
-I3MTQxNjgsLTc4MTA3MDY5OF19
+eyJoaXN0b3J5IjpbNTgwMzI2NjE2LDE5ODMyMjUzODYsLTY4Mj
+cxNDE2OCwtNzgxMDcwNjk4XX0=
 -->
