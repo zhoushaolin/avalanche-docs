@@ -64,7 +64,7 @@ Postman将会识别文件的格式:
 
 ## 进行API 调用
 
-打开一个API调用组，例如“Health”。 双击“getLiveness”叫: 
+打开一个API调用组，例如`Health`。 双击`getLiveness`调用: 
 Open one of the API call groups, for example `Health`. Double-click `getLiveness` call:
 
 ![API call](../../.gitbook/assets/postman_07_making_calls.png)
@@ -86,6 +86,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMxNTQzOTYsMTk4MzIyNTM4NiwtNj
-gyNzE0MTY4LC03ODEwNzA2OThdfQ==
+eyJoaXN0b3J5IjpbMTU2OTUwNzQ0MCwxOTgzMjI1Mzg2LC02OD
+I3MTQxNjgsLTc4MTA3MDY5OF19
 -->
