@@ -36,7 +36,8 @@ Postman可以在本地安装，也可以作为网页应用程序使用。我们�
 https://raw.githubusercontent.com/ava-labs/avalanche-postman-collection/master/Avalanche.postman_collection.json
 ```
 
-邮差将识别文件内容的格式，并提供导入文件作为一个集合。完成导入。现在你的工作空间中将有Avalanche集合。
+Postman将识别文件内容的格式，并提供导入文件作为一个集合。完成导入。现在你的工作空间中将有Avalanche集合。
+
 Postman will recognize the format of the file content and offer to import the file as a collection. Complete the import. Now you will have Avalanche collection in your Workspace.
 
 ![Collection content](../../.gitbook/assets/postman_04_collection.png)
@@ -86,5 +87,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjIzMTU0NSwtNzgxMDcwNjk4XX0=
+eyJoaXN0b3J5IjpbLTE2NzU0NzQ4MSwtNzgxMDcwNjk4XX0=
 -->
