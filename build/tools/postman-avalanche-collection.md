@@ -20,23 +20,23 @@ Postman可以在本地安装，也可以作为网页应用程序使用。我们�
 
 安装应用程序后，运行它。它将提示您创建帐户或登录。这不是必要的，但推荐使用。
 
-### 收藏品导入
+### 收藏导入
 
 从workspace选项卡中选择`New workspace`，并根据提示创建一个新的工作区。 剩下的工作将在这里完成。 
 
 ![New workspace](../../.gitbook/assets/postman_02_workspace.png)
 
-我们准备导入收藏品。在Worskspaces选项卡的头部选择`New`并切换到`Link`选项卡。
+我们准备导入收藏。在Worskspaces选项卡的头部选择`New`并切换到`Link`选项卡。
 
 ![Import collection](../../.gitbook/assets/postman_03_import.png)
 
-在这里，在URL输入字段中粘贴到集合的链接:
-There, in the URL input field paste the link to the collection:
+在这里，在URL输入字段中粘贴链接到收藏:
 
 ```text
 https://raw.githubusercontent.com/ava-labs/avalanche-postman-collection/master/Avalanche.postman_collection.json
 ```
 
+邮差将识别文件内容的格式，并提供导入文件作为一个集合。完成导入。现在你的工作空间中将有Avalanche集合。
 Postman will recognize the format of the file content and offer to import the file as a collection. Complete the import. Now you will have Avalanche collection in your Workspace.
 
 ![Collection content](../../.gitbook/assets/postman_04_collection.png)
@@ -86,5 +86,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTczMzg0MiwtNzgxMDcwNjk4XX0=
+eyJoaXN0b3J5IjpbLTkwNjIzMTU0NSwtNzgxMDcwNjk4XX0=
 -->
