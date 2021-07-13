@@ -26,11 +26,11 @@ Postman可以在本地安装，也可以作为网页应用程序使用。我们�
 
 ![New workspace](../../.gitbook/assets/postman_02_workspace.png)
 
-我们准备导入收藏品。在“工作区”选项卡的头部选择“新建”并切换到“链接”选项卡。
-We're ready to import the collection. On the header of the Worskspaces tab select `New` and switch to `Link` tab.
+我们准备导入收藏品。在Worskspaces选项卡的头部选择`New`并切换到`Link`选项卡。
 
 ![Import collection](../../.gitbook/assets/postman_03_import.png)
 
+在这里，在URL输入字段中粘贴到集合的链接:
 There, in the URL input field paste the link to the collection:
 
 ```text
@@ -86,5 +86,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjU1NDkzNiwtNzgxMDcwNjk4XX0=
+eyJoaXN0b3J5IjpbMTc0NTczMzg0MiwtNzgxMDcwNjk4XX0=
 -->
