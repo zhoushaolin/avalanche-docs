@@ -60,10 +60,11 @@ Postman将会识别文件的格式:
 
 选择`Edit`按钮来更改默认值。 至少，您需要更改您的节点的IP地址，它是`host`变量的值。 将其更改为您的节点的IP \(更改`initial`和`current`值\)。 此外，如果您的节点不在安装Postman的同一台机器上运行，请通过检查适当的[命令行选项](../references/command-line-interface.md#http-server)确保您的节点从外部接受API端口上的连接。 
 
-Now we sorted everything out, and we're ready to query the node.
+现在我们把所有东西都整理好了，准备查询节点。 
 
-## Making API calls
+## 进行API 调用
 
+打开一个API调用组，例如“Health”。 双击“getLiveness”叫: 
 Open one of the API call groups, for example `Health`. Double-click `getLiveness` call:
 
 ![API call](../../.gitbook/assets/postman_07_making_calls.png)
@@ -85,6 +86,6 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzIyNTM4NiwtNjgyNzE0MTY4LC03OD
-EwNzA2OThdfQ==
+eyJoaXN0b3J5IjpbLTExNzMxNTQzOTYsMTk4MzIyNTM4NiwtNj
+gyNzE0MTY4LC03ODEwNzA2OThdfQ==
 -->
