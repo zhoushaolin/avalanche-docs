@@ -48,13 +48,13 @@ Postman将识别文件内容的格式，并提供导入文件作为一个收藏�
 https://raw.githubusercontent.com/ava-labs/avalanche-postman-collection/master/Example_Avalanche_Environment.postman_environment.json
 ```
 
-Postman will recognize the format of the file:
+Postman将会识别文件的格式:
 
 ![Environment import](../../.gitbook/assets/postman_05_environment.png)
 
-Import it to your workspace. Now, we will need to edit that environment to suit the actual parameters of your particular installation. These are the parameters that differ from the defaults in the imported file.
+将其导入到您的工作区中。现在，我们需要编辑该环境以适应特定安装的实际参数。这些参数与导入文件中的默认值不同。
 
-Click the eye icon next to the environment dropdown:
+点击环境下拉框旁边的眼睛图标: 
 
 ![Environment content](../../.gitbook/assets/postman_06_variables.png)
 
@@ -85,5 +85,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwOTg3OTE1LC03ODEwNzA2OThdfQ==
+eyJoaXN0b3J5IjpbLTY4MjcxNDE2OCwtNzgxMDcwNjk4XX0=
 -->
