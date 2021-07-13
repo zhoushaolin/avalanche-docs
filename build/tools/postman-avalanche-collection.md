@@ -36,15 +36,13 @@ Postman可以在本地安装，也可以作为网页应用程序使用。我们�
 https://raw.githubusercontent.com/ava-labs/avalanche-postman-collection/master/Avalanche.postman_collection.json
 ```
 
-Postman将识别文件内容的格式，并提供导入文件作为一个集合。完成导入。现在你的工作空间中将有Avalanche集合。
-
-Postman will recognize the format of the file content and offer to import the file as a collection. Complete the import. Now you will have Avalanche collection in your Workspace.
+Postman将识别文件内容的格式，并提供导入文件作为一个收藏集。完成导入。现在你的工作空间中将有Avalanche收藏集。
 
 ![Collection content](../../.gitbook/assets/postman_04_collection.png)
 
-### Environment import
+### 环境导入
 
-Next, we have to import the environment variables. Again, the header of the Worskspaces tab select `New` and switch to `Link` tab. this time, paste the link to the environment JSON:
+接下来，我们必须导入环境变量。 再次，工作区选项卡的标题选择`New`，并切换到`Link`选项卡。 这一次，将链接粘贴到环境JSON: 
 
 ```text
 https://raw.githubusercontent.com/ava-labs/avalanche-postman-collection/master/Example_Avalanche_Environment.postman_environment.json
@@ -87,5 +85,5 @@ We're hoping to continuously keep this collection up-to-date with the [Avalanche
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU0NzQ4MSwtNzgxMDcwNjk4XX0=
+eyJoaXN0b3J5IjpbNTUwOTg3OTE1LC03ODEwNzA2OThdfQ==
 -->
