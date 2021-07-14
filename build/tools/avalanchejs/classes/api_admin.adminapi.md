@@ -1,10 +1,12 @@
 [avalanche](../README.md) › [API-Admin](../modules/api_admin.md) › [AdminAPI](api_admin.adminapi.md)
 
-# Class: AdminAPI
+# 类:AdminAPI 
 
-Class for interacting with a node's AdminAPI.
+类用于与节点的AdminAPI交互。 
 
-**`remarks`** This extends the [JRPCAPI](common_jrpcapi.jrpcapi.md) class. This class should not be directly called.
+**`remarks`** 这扩展了[JRPCAPI](common_jrpcapi.jrpcapi.md)类。 这个类不应该被直接调用。
+相反，使用[Avalanche.addAPI](avalanche.avalanche-1.md#addapi) 函数向Avalanche注册该接口。 
+This extends the [JRPCAPI](common_jrpcapi.jrpcapi.md) class. This class should not be directly called.
 Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
 
 ## Hierarchy
@@ -298,3 +300,6 @@ Stop the CPU profile that was previously started.
 **Returns:** *Promise‹boolean›*
 
 Promise for a boolean that is true on success.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTg1OTQzNTJdfQ==
+-->
