@@ -6,8 +6,9 @@
 
 [**Ortelius API**](ortelius.md)**:** 是一个API，允许客户端与雪崩索引器Ortelius进行交互。 
 
-[**Postman 收藏集**](postman-avalanche-collection.md)**:** is an AvalancheGo API template and environment collection for [Postman](https://postman.com/), a tool to simplify API development and experimentation. The collection covers all of AvalancheGo APIs, so you can easily issue commands to your node and examine the output in a nicely formatted, readable way.
+[**Postman 收藏集**](postman-avalanche-collection.md)**:** 是一个AvalancheGo API模板和环境集合[Postman](https://postman.com/)，一个简化API开发和实验的工具。 该集合涵盖了所有AvalancheGo api，因此您可以轻松地向节点发出命令，并以一种格式良好、可读的方式检查输出。 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMwNTkxMTNdfQ==
+eyJoaXN0b3J5IjpbLTIyNjEzMjExMl19
 -->
