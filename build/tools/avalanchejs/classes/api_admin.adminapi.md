@@ -35,11 +35,11 @@
 * [获取BaseURL](api_admin.adminapi.md#getbaseurl)
 * [获取DB](api_admin.adminapi.md#getdb)
 * [获取RPCID](api_admin.adminapi.md#getrpcid)
-* [lockProfile](api_admin.adminapi.md#lockprofile)
-* [memoryProfile](api_admin.adminapi.md#memoryprofile)
-* [setBaseURL](api_admin.adminapi.md#setbaseurl)
-* [startCPUProfiler](api_admin.adminapi.md#startcpuprofiler)
-* [stopCPUProfiler](api_admin.adminapi.md#stopcpuprofiler)
+* [封锁配置文件 ](api_admin.adminapi.md#lockprofile)
+* [内存配置文件](api_admin.adminapi.md#memoryprofile)
+* [设置BaseURL](api_admin.adminapi.md#setbaseurl)
+* [启动CPU分析器](api_admin.adminapi.md#startcpuprofiler)
+* [ting zhiCPUProfiler](api_admin.adminapi.md#stopcpuprofiler)
 
 ## Constructors
 
@@ -299,5 +299,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTY1ODUzM119
+eyJoaXN0b3J5IjpbMTM4NjYxOTMwM119
 -->
