@@ -66,21 +66,21 @@
 
 ### `Protected` baseurl
 
-• **baseurl**: *string*
+• **baseurl**: *字符串*
 
-*Inherited from [APIBase](common_apibase.apibase.md).[baseurl](common_apibase.apibase.md#protected-baseurl)*
+*继承自 [APIBase](common_apibase.apibase.md).[baseurl](common_apibase.apibase.md#protected-baseurl)*
 
-*Defined in [src/common/apibase.ts:38](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L38)*
+*定义 [src/common/apibase.ts:38](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L38)*
 
 ___
 
-### `Protected` core
+### `Protected` 核心
 
-• **core**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
+• **核心**: *[AvalancheCore](avalanchecore.avalanchecore-1.md)*
 
-*Inherited from [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
+*继承自 [APIBase](common_apibase.apibase.md).[core](common_apibase.apibase.md#protected-core)*
 
-*Defined in [src/common/apibase.ts:36](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L36)*
+*定义 [src/common/apibase.ts:36](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L36)*
 
 ___
 
@@ -298,5 +298,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTk2MzcxNSwtMTU3MTk3NDc2NV19
+eyJoaXN0b3J5IjpbODU1MDIzNzcsLTE1NzE5NzQ3NjVdfQ==
 -->
