@@ -53,9 +53,9 @@
 
 这个类不应该被直接实例化。 而是使用[Avalanche.addAPI](avalanche.avalanche-1.md#addapi)方法。 
 
-**Parameters:**
+**参数:**
 
-Name | Type | Default | Description |
+名称 | T | Default | Description |
 ------ | ------ | ------ | ------ |
 `core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
 `baseurl` | string | "/ext/admin" | Defaults to the string "/ext/admin" as the path to rpc's baseurl  |
@@ -298,5 +298,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE5NzQ3NjVdfQ==
+eyJoaXN0b3J5IjpbMjQ0MjQwNjU3LC0xNTcxOTc0NzY1XX0=
 -->
