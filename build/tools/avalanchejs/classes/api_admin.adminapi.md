@@ -188,31 +188,31 @@ ___
 
 返回 baseurl的路径。
 
-**Returns:** *string*
+**返回:** *string*
 
 ___
 
-###  getDB
+###  获取DB
 
 ▸ **getDB**(): *StoreAPI*
 
-*Inherited from [APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
+*继承自[APIBase](common_apibase.apibase.md).[getDB](common_apibase.apibase.md#getdb)*
 
-*Defined in [src/common/apibase.ts:68](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L68)*
+*定义[src/common/apibase.ts:68](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L68)*
 
-Returns the baseurl's database.
+返回 baseurl的数据库
 
-**Returns:** *StoreAPI*
+**返回:** *StoreAPI*
 
 ___
 
-###  getRPCID
+###  获取RPCID
 
 ▸ **getRPCID**(): *number*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
+*继承自[JRPCAPI](common_jrpcapi.jrpcapi.md).[getRPCID](common_jrpcapi.jrpcapi.md#getrpcid)*
 
-*Defined in [src/common/jrpcapi.ts:66](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L66)*
+*定义 [src/common/jrpcapi.ts:66](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L66)*
 
 Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
 request ID that will be sent.
@@ -296,6 +296,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIyMTA2NjYsLTE1NzE5NzQ3NjVdfQ
-==
+eyJoaXN0b3J5IjpbNDU2MzU3MzY2LC0xNTcxOTc0NzY1XX0=
 -->
