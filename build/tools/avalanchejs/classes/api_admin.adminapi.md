@@ -128,27 +128,27 @@ ___
 
 名称 | 类型 | 描述 |
 ------ | ------ | ------ |
-`endpoint` | 字符串 | API的原始端点。端点应该只包含/ext/之后的端点部分The original endpoint of the API. endpoint should only include the part of the endpoint after /ext/ |
+`endpoint` | 字符串 | API的原始端点。端点应该只包含/ext/之后的端点部分 |
 `alias` | 字符串 | - |
 
-**Returns:** *Promise‹boolean›*
+**返回:** *Promise‹boolean›*
 
-Returns a Promise<boolean> containing success, true for success, false for failure.
+返回一个包含成功的Promise，成功为true，失败为false。
 
 ___
 
-###  aliasChain
+###  别名链
 
-▸ **aliasChain**(`chain`: string, `alias`: string): *Promise‹boolean›*
+▸ **aliasChain**(`chain`: 字符串, `alias`: 字符串): *Promise‹boolean›*
 
-*Defined in [src/apis/admin/api.ts:49](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L49)*
+*定义 [src/apis/admin/api.ts:49](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L49)*
 
 Give a blockchain an alias, a different name that can be used any place the blockchain’s
 ID is used.
 
-**Parameters:**
+**参数:**
 
-Name | Type | Description |
+名称 | 类型 | 描述 |
 ------ | ------ | ------ |
 `chain` | string | - |
 `alias` | string | Can now be used in place of the blockchain’s ID (in API endpoints, for example)  |
@@ -297,5 +297,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjg0NTU2MywtMTU3MTk3NDc2NV19
+eyJoaXN0b3J5IjpbMTY0MzQyOTgyNCwtMTU3MTk3NDc2NV19
 -->
