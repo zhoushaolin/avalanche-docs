@@ -234,11 +234,11 @@ ___
 
 ___
 
-###  内存配置wen jian
+###  内存配置文件
 
 ▸ **memoryProfile**(): *Promise‹boolean›*
 
-*Defined in [src/apis/admin/api.ts:74](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L74)*
+*定义[src/apis/admin/api.ts:74](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L74)*
 
 Dump the current memory footprint of the node to the specified file.
 
@@ -295,5 +295,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTc3Mzc0LC0xNTcxOTc0NzY1XX0=
+eyJoaXN0b3J5IjpbMTMxNjU0MDY5NCwtMTU3MTk3NDc2NV19
 -->
