@@ -143,6 +143,8 @@ ___
 
 *定义 [src/apis/admin/api.ts:49](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L49)*
 
+给区块链一个别名，一个可以在任何地方使用的不同名称的区块链的ID
+
 Give a blockchain an alias, a different name that can be used any place the blockchain’s
 ID is used.
 
@@ -297,5 +299,6 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzQyOTgyNCwtMTU3MTk3NDc2NV19
+eyJoaXN0b3J5IjpbLTEzNTI5NjU0NjgsLTE1NzE5NzQ3NjVdfQ
+==
 -->
