@@ -80,13 +80,13 @@ Postman将会识别文件的格式:
 
 ## 贡献
 
-我们希望不断更新[Avalanche api](https://docs.avax.network/build/avalanchego-apis)，并添加[数据可视化](https://learning.postman.com/docs/sending-requests/visualizer/#visualizing-response-data)。 如果你能以任何方式帮助改善Avalanche Postman 收集,首先创建一个特性分支的分支`master`,下一个特性分支上的改进,最后创建一个(拉请求)(https://github.com/ava-labs/avalanche-docs/pulls)将你的工作在“大师”。 
-We're hoping to continuously keep this collection up-to-date with the [Avalanche APIs](h If you're able to help improve the Avalanche Postman Collection in any way, first create a feature branch by branching off of `master`, next make the improvements on your feature branch and lastly create a [pull request](https://github.com/ava-labs/avalanche-docs/pulls) to merge your work back in to `master`.
+我们希望不断更新[Avalanche api](https://docs.avax.network/build/avalanchego-apis)，并添加[数据可视化](https://learning.postman.com/docs/sending-requests/visualizer/#visualizing-response-data)。 如果你能以任何方式帮助改善Avalanche Postman 收集,首先创建一个特性分支的分支`master`, 接下来在你的特性分支上进行改进,最后创建一个[拉取请求](https://github.com/ava-labs/avalanche-docs/pulls)将你的工作在“大师”。 
+If you're able to help improve the Avalanche Postman Collection in any way, first create a feature branch by branching off of `master`, next make the improvements on your feature branch and lastly create a [拉取请求](https://github.com/ava-labs/avalanche-docs/pulls) to merge your work back in to `master`.
 
 If you have any other questions or suggestions, come [talk to us](https://chat.avalabs.org/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2Mjg5ODI2LDQxODcwNjA1NiwtMTM1MD
-UwNDI5NSwxOTgzMjI1Mzg2LC02ODI3MTQxNjgsLTc4MTA3MDY5
-OF19
+eyJoaXN0b3J5IjpbLTE0NzkyMjcyOCw0MTg3MDYwNTYsLTEzNT
+A1MDQyOTUsMTk4MzIyNTM4NiwtNjgyNzE0MTY4LC03ODEwNzA2
+OThdfQ==
 -->
