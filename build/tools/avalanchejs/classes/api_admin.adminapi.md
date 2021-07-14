@@ -120,17 +120,16 @@ ___
 
 *定义 [src/apis/admin/api.ts:31](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L31)*
 
-Assign an API an alias, a different endpoint for the API. The original endpoint will still
-work. This change only affects this node; other nodes will not know about this alias.
+为API分配别名，即API的另一个端点。 原始端点仍然会工作。 此更改只影响此节点; 其他节点将不知道这个别名。 
 
-The API being aliased can now be called at ext/alias
+别名的API现在可以在ext/alias处调用 
 
-**Parameters:**
+**参数:**
 
-Name | Type | Description |
+名称 | 类型 | 描述 |
 ------ | ------ | ------ |
-`endpoint` | string | The original endpoint of the API. endpoint should only include the part of the endpoint after /ext/ |
-`alias` | string | - |
+`endpoint` | 字符串 | API的原始端点。端点应该只包含/ext/之后的端点部分The original endpoint of the API. endpoint should only include the part of the endpoint after /ext/ |
+`alias` | 字符串 | - |
 
 **Returns:** *Promise‹boolean›*
 
@@ -298,5 +297,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTgwMTM3NSwtMTU3MTk3NDc2NV19
+eyJoaXN0b3J5IjpbMTQwNjg0NTU2MywtMTU3MTk3NDc2NV19
 -->
