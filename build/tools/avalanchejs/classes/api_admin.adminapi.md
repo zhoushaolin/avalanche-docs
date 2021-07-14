@@ -39,17 +39,17 @@
 * [内存配置文件](api_admin.adminapi.md#memoryprofile)
 * [设置BaseURL](api_admin.adminapi.md#setbaseurl)
 * [启动CPU分析器](api_admin.adminapi.md#startcpuprofiler)
-* [ting zhiCPUProfiler](api_admin.adminapi.md#stopcpuprofiler)
+* [停止CPU分析器](api_admin.adminapi.md#stopcpuprofiler)
 
-## Constructors
+## 构造函数 
 
-###  constructor
+###  构造函数 
 
-\+ **new AdminAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseurl`: string): *[AdminAPI](api_admin.adminapi.md)*
+\+ **新 AdminAPI**(`core`: [AvalancheCore](avalanchecore.avalanchecore-1.md), `baseurl`: string): *[AdminAPI](api_admin.adminapi.md)*
 
-*Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[constructor](common_jrpcapi.jrpcapi.md#constructor)*
+*Overrides [JRPCAPI](common_jrpcapi.jrpcapi.md).[构造函数 ](common_jrpcapi.jrpcapi.md#constructor)*
 
-*Defined in [src/apis/admin/api.ts:98](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L98)*
+*定义[src/apis/admin/api.ts:98](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L98)*
 
 This class should not be instantiated directly. Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi)
 method.
@@ -299,5 +299,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjYxOTMwM119
+eyJoaXN0b3J5IjpbMTY0MTY5MTQ2Ml19
 -->
