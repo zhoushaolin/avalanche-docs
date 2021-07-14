@@ -22,19 +22,19 @@
 ### 属性 
 
 * [baseurl](api_admin.adminapi.md#protected-baseurl)
-* [core](api_admin.adminapi.md#protected-core)
+* [核心 ](api_admin.adminapi.md#protected-core)
 * [db](api_admin.adminapi.md#protected-db)
-* [jrpcVersion](api_admin.adminapi.md#protected-jrpcversion)
+* [jrpc版本](api_admin.adminapi.md#protected-jrpcversion)
 * [rpcid](api_admin.adminapi.md#protected-rpcid)
 
-### Methods
+### 方法
 
-* [alias](api_admin.adminapi.md#alias)
-* [aliasChain](api_admin.adminapi.md#aliaschain)
-* [callMethod](api_admin.adminapi.md#callmethod)
-* [getBaseURL](api_admin.adminapi.md#getbaseurl)
-* [getDB](api_admin.adminapi.md#getdb)
-* [getRPCID](api_admin.adminapi.md#getrpcid)
+* [别名](api_admin.adminapi.md#alias)
+* [别名链](api_admin.adminapi.md#aliaschain)
+* [调用方法](api_admin.adminapi.md#callmethod)
+* [获取BaseURL](api_admin.adminapi.md#getbaseurl)
+* [获取DB](api_admin.adminapi.md#getdb)
+* [获取RPCID](api_admin.adminapi.md#getrpcid)
 * [lockProfile](api_admin.adminapi.md#lockprofile)
 * [memoryProfile](api_admin.adminapi.md#memoryprofile)
 * [setBaseURL](api_admin.adminapi.md#setbaseurl)
@@ -299,5 +299,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mzg3OTI1MV19
+eyJoaXN0b3J5IjpbMTc3NTY1ODUzM119
 -->
