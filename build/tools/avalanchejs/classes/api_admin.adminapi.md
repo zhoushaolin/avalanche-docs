@@ -110,15 +110,15 @@ ___
 
 *继承自 [JRPCAPI](common_jrpcapi.jrpcapi.md).[rpcid](common_jrpcapi.jrpcapi.md#protected-rpcid)*
 
-* [src/common/jrpcapi.ts:19](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L19)*
+*定义 [src/common/jrpcapi.ts:19](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L19)*
 
-## Methods
+## 方法
 
-###  alias
+###  别名
 
-▸ **alias**(`endpoint`: string, `alias`: string): *Promise‹boolean›*
+▸ **alias**(`endpoint`: 字符串, `alias`: 字符串): *Promise‹boolean›*
 
-*Defined in [src/apis/admin/api.ts:31](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L31)*
+*定义 [src/apis/admin/api.ts:31](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L31)*
 
 Assign an API an alias, a different endpoint for the API. The original endpoint will still
 work. This change only affects this node; other nodes will not know about this alias.
@@ -298,5 +298,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4OTY2MTE3LC0xNTcxOTc0NzY1XX0=
+eyJoaXN0b3J5IjpbLTgyNTgwMTM3NSwtMTU3MTk3NDc2NV19
 -->
