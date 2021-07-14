@@ -143,37 +143,34 @@ ___
 
 *定义 [src/apis/admin/api.ts:49](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L49)*
 
-给区块链一个别名，一个可以在任何地方使用的不同名称的区块链的ID
-
-Give a blockchain an alias, a different name that can be used any place the blockchain’s
-ID is used.
+给区块链一个别名，一个可以在任何地方使用的不同名称的区块链的ID。 
 
 **参数:**
 
 名称 | 类型 | 描述 |
 ------ | ------ | ------ |
-`chain` | string | - |
-`alias` | string | Can now be used in place of the blockchain’s ID (in API endpoints, for example)  |
+`chain` | 字符串 | - |
+`alias` | 字符串 | 现在可以用来代替区块链的ID(例如，在API端点中)  |
 
-**Returns:** *Promise‹boolean›*
+**返回:** *Promise‹boolean›*
 
-Returns a Promise<boolean> containing success, true for success, false for failure.
+返回一个包含成功的Promise ，成功为true，失败为false。 
 
 ___
 
-###  callMethod
+###  调用方法 
 
-▸ **callMethod**(`method`: string, `params?`: Array‹object› | object, `baseurl?`: string): *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
+▸ **callMethod**(`method`: 字符串, `params?`: 数组‹对象› | 对象, `baseurl?`: 字符串): *承诺‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
-*Inherited from [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
+*继承自 [JRPCAPI](common_jrpcapi.jrpcapi.md).[callMethod](common_jrpcapi.jrpcapi.md#callmethod)*
 
-*Defined in [src/common/jrpcapi.ts:21](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L21)*
+*定义[src/common/jrpcapi.ts:21](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L21)*
 
-**Parameters:**
+**参数:**
 
-Name | Type |
+名称 | 类型 |
 ------ | ------ |
-`method` | string |
+`method` | zi f |
 `params?` | Array‹object› &#124; object |
 `baseurl?` | string |
 
@@ -299,6 +296,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI5NjU0NjgsLTE1NzE5NzQ3NjVdfQ
-==
+eyJoaXN0b3J5IjpbNTgwMzQwOTgwLC0xNTcxOTc0NzY1XX0=
 -->
