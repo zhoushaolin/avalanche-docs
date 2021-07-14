@@ -6,22 +6,20 @@
 
 **`remarks`** 这扩展了[JRPCAPI](common_jrpcapi.jrpcapi.md)类。 这个类不应该被直接调用。
 相反，使用[Avalanche.addAPI](avalanche.avalanche-1.md#addapi) 函数向Avalanche注册该接口。 
-This extends the [JRPCAPI](common_jrpcapi.jrpcapi.md) class. This class should not be directly called.
-Instead, use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi) function to register this interface with Avalanche.
 
-## Hierarchy
+## 层级
 
   ↳ [JRPCAPI](common_jrpcapi.jrpcapi.md)
 
   ↳ **AdminAPI**
 
-## Index
+## 索引
 
-### Constructors
+### 构造函数 
 
-* [constructor](api_admin.adminapi.md#constructor)
+* [构造函数 ](api_admin.adminapi.md#constructor)
 
-### Properties
+### 属性 
 
 * [baseurl](api_admin.adminapi.md#protected-baseurl)
 * [core](api_admin.adminapi.md#protected-core)
@@ -301,5 +299,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1OTQzNTJdfQ==
+eyJoaXN0b3J5IjpbLTY1Mzg3OTI1MV19
 -->
