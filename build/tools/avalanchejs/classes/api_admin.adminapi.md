@@ -230,7 +230,7 @@ ___
 
 **返回:** *Promise‹boolean›*
 
-承诺一个布尔值，成功是真的。
+承诺一个布尔值。
 
 ___
 
@@ -240,11 +240,11 @@ ___
 
 *定义[src/apis/admin/api.ts:74](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L74)*
 
-Dump the current memory footprint of the node to the specified file.
+将节点的当前内存占用转储到指定文件。 
 
-**Returns:** *Promise‹boolean›*
+**返回:** *Promise‹boolean›*
 
-Promise for a boolean that is true on success.
+承诺一个布尔值。 
 
 ___
 
@@ -295,5 +295,6 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjU0MDY5NCwtMTU3MTk3NDc2NV19
+eyJoaXN0b3J5IjpbMjgxNzQxNzY2LDEzMTY1NDA2OTQsLTE1Nz
+E5NzQ3NjVdfQ==
 -->
