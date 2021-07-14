@@ -214,10 +214,9 @@ ___
 
 *定义 [src/common/jrpcapi.ts:66](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/jrpcapi.ts#L66)*
 
-Returns the rpcid, a strictly-increasing number, starting from 1, indicating the next
-request ID that will be sent.
+返回rpcid，一个严格递增的数字，从1开始，表示下一个将被发送的请求ID。 
 
-**Returns:** *number*
+**返回:** *number*
 
 ___
 
@@ -225,11 +224,11 @@ ___
 
 ▸ **lockProfile**(): *Promise‹boolean›*
 
-*Defined in [src/apis/admin/api.ts:63](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L63)*
+*定义 [src/apis/admin/api.ts:63](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L63)*
 
-Dump the mutex statistics of the node to the specified file.
+将该节点的互斥统计信息转储到指定文件中。
 
-**Returns:** *Promise‹boolean›*
+**返回:** *Promise‹boolean›*
 
 Promise for a boolean that is true on success.
 
@@ -296,5 +295,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2MzU3MzY2LC0xNTcxOTc0NzY1XX0=
+eyJoaXN0b3J5IjpbOTkwOTU1NTYzLC0xNTcxOTc0NzY1XX0=
 -->
