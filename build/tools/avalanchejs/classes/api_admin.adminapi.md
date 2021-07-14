@@ -51,8 +51,7 @@
 
 *定义[src/apis/admin/api.ts:98](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/apis/admin/api.ts#L98)*
 
-This class should not be instantiated directly. Instead use the [Avalanche.addAPI](avalanche.avalanche-1.md#addapi)
-method.
+这个类不应该被直接实例化。 而是使用[Avalanche.addAPI](avalanche.avalanche-1.md#addapi)方法。 
 
 **Parameters:**
 
@@ -299,5 +298,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTY5MTQ2Ml19
+eyJoaXN0b3J5IjpbLTE1NzE5NzQ3NjVdfQ==
 -->
