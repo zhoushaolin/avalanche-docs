@@ -55,14 +55,14 @@
 
 **参数:**
 
-名称 | T | Default | Description |
+名称 | 类型 | 默认值 | 描述 |
 ------ | ------ | ------ | ------ |
-`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | A reference to the Avalanche class |
-`baseurl` | string | "/ext/admin" | Defaults to the string "/ext/admin" as the path to rpc's baseurl  |
+`core` | [AvalancheCore](avalanchecore.avalanchecore-1.md) | - | 对Avalanche类的引用|
+`baseurl` | 字符串 | "/ext/admin" | 默认为字符串"/ext/admin"作为rpc的baseurl路径 |
 
-**Returns:** *[AdminAPI](api_admin.adminapi.md)*
+**返回:** *[AdminAPI](api_admin.adminapi.md)*
 
-## Properties
+## 属性 
 
 ### `Protected` baseurl
 
@@ -298,5 +298,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MjQwNjU3LC0xNTcxOTc0NzY1XX0=
+eyJoaXN0b3J5IjpbLTIzMTk2MzcxNSwtMTU3MTk3NDc2NV19
 -->
