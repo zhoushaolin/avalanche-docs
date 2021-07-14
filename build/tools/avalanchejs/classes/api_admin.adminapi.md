@@ -170,23 +170,23 @@ ___
 
 名称 | 类型 |
 ------ | ------ |
-`method` | zi f |
+`method` | 字符串 |
 `params?` | Array‹object› &#124; object |
-`baseurl?` | string |
+`baseurl?` | 字符串 |
 
-**Returns:** *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
+**返回:** *Promise‹[RequestResponseData](common_apibase.requestresponsedata.md)›*
 
 ___
 
-###  getBaseURL
+###  获取BaseURL
 
-▸ **getBaseURL**(): *string*
+▸ **获取BaseURL**(): *字符串*
 
-*Inherited from [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
+*继承自 [APIBase](common_apibase.apibase.md).[getBaseURL](common_apibase.apibase.md#getbaseurl)*
 
-*Defined in [src/common/apibase.ts:63](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L63)*
+*定义 [src/common/apibase.ts:63](https://github.com/ava-labs/avalanchejs/blob/2850ce5/src/common/apibase.ts#L63)*
 
-Returns the baseurl's path.
+返回 baseurl的路径。
 
 **Returns:** *string*
 
@@ -296,5 +296,6 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMzQwOTgwLC0xNTcxOTc0NzY1XX0=
+eyJoaXN0b3J5IjpbLTE5NzIyMTA2NjYsLTE1NzE5NzQ3NjVdfQ
+==
 -->
