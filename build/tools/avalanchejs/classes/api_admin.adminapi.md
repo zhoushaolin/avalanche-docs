@@ -230,11 +230,11 @@ ___
 
 **返回:** *Promise‹boolean›*
 
-Promise for a boolean that is true on success.
+承诺一个布尔值，成功是真的。
 
 ___
 
-###  memoryProfile
+###  内存配置wen jian
 
 ▸ **memoryProfile**(): *Promise‹boolean›*
 
@@ -295,5 +295,5 @@ Stop the CPU profile that was previously started.
 
 Promise for a boolean that is true on success.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwOTU1NTYzLC0xNTcxOTc0NzY1XX0=
+eyJoaXN0b3J5IjpbMTQ4MTc3Mzc0LC0xNTcxOTc0NzY1XX0=
 -->
